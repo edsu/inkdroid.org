@@ -29,6 +29,7 @@ comments:
 
 <p><a href="https://secure.flickr.com/photos/inkdroid/4978991547/"><img src="http://inkdroid.org/images/ed-graham.jpg" style="float: left; width: 200px; margin-right: 10px;" /></a></p>
 
-I've been working as a software developer for close to 20 years, trying to bridge the worlds of libraries and archives with the World Wide Web. I've worked in academia, startups, corporations and the government. I work best in agile, highly collaborative teams, that want to help make the world a better place, one website at a time.
+I've been working for a couple decades trying to bridge the worlds of libraries
+and archives with the World Wide Web. This work has taken me into academia, startups, corporations and the government. I work best in agile, highly collaborative teams, that want to help make the world a better place, one website at a time.
 
 I like to use this blog as a place to throw ideas around, to see what sticks.  They are my ideas alone and are not associated with my current employer. You can find my code up on <a href="http://github.com/edsu">Github</a>, and my photos on <a href="https://secure.flickr.com/photos/inkdroid">Flickr</a>. I like to chat on <a href="http://twitter.com/edsu">Twitter</a>, and in the <a href="irc://freenode.net/code4lib">#code4lib</a> IRC channel. I try to keep my <a href="http://inkdroid.org/ehs/">resume</a> fairly up to date. Feel free to get in touch with me via email at <a href="mailto:ehs@pobox.com">ehs@pobox.com</a>, you can find my public key <a href="https://keybase.io/edsu/key.asc">here</a>.

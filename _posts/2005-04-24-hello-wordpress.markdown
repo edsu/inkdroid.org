@@ -18,6 +18,7 @@ date_gmt: '2005-04-25 01:40:37 +0000'
 tags: []
 comments: []
 ---
+
 <p>Hello WordPress, bye bye custom blog code written in Perl. Well the old code is still <a href="http://www.inkdroid.org/perl/b">running</a>, but I've wanted to install WordPress for the past few months and finally got around to it this weekend.  I had a little bit of trouble getting PHP installed, only because I decided to use the older php4 with the latest mysql, and php4 didn't seem to want to configure itself using the latest mysql. Fortunately using php5 was a different story and WordPress was a breeze to install.</p>
 <p>My reasons for switching from my homegrown code to WordPress are several.</p>
 <ul>

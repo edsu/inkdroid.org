@@ -207,6 +207,16 @@
     }
 }
 
+.post-tags {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.post-tags li {
+    display: inline;
+    font-size: smaller;
+}
+
 .post-content {
     margin-bottom: $spacing-unit;
 
