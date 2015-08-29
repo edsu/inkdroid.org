@@ -72,5 +72,6 @@ RewriteRule ^rage-14/? "https://github.com/edsu/rage-14" [R,L]
 RewriteRule ^/subjects-here/? "https://github.com/edsu/subjects-here" [R,L]
 RewriteRule ^/wikippoc/? "https://github.com/edsu/wikippoc" [R,L]
 
+# wordpress site used to be in /journal now it's in the root
 RewriteRule ^journal(.*) "$1" [R=permanent,L]
-
+RewriteRule ^feed/?$ "/feed.xml" [R=permanent,L]

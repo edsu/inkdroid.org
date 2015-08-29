@@ -12,3 +12,7 @@ permalink: pretty
 markdown: kramdown
 sass:
   sass_dir: _sass
+
+exclude:
+  - sync.sh
+
