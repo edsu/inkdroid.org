@@ -1,0 +1,77 @@
+==================================================================
+https://keybase.io/edsu
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://inkdroid.org
+  * I am edsu (https://keybase.io/edsu) on keybase.
+  * I have a public key with fingerprint DD11 F92F 1E44 6441 83C0  6961 D012 FF55 7AFF F80A
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.4.11"
+        },
+        "key": {
+            "fingerprint": "dd11f92f1e44644183c06961d012ff557afff80a",
+            "host": "keybase.io",
+            "key_id": "D012FF557AFFF80A",
+            "uid": "5edbbbf60fefb201fbfccd5faeba9500",
+            "username": "edsu"
+        },
+        "merkle_root": {
+            "ctime": 1405428657,
+            "hash": "79018a39883ac1db6418aa39180bf1799f339e5b20676a29b79128b49f2a52b0633a1bc4e3bbd9b452b129dbbf5fbf5f8f7baf9d350afd847ea213ae0467cb48",
+            "seqno": 28299
+        },
+        "service": {
+            "hostname": "inkdroid.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1405429069,
+    "expire_in": 157680000,
+    "prev": "335303dcae30a4cb748703d68bbcaa00379fe9576243e916c4c4a1f84f01b993",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFVUm1oFEcYvotfeLRoFZS2asJSRWq4zuzM7s5ESknRE7S2tCWCihwzOzOXNXH3
+uruJ3oUg/ZEftT8sURukyEmp2KRQBWlr8TOCqORHhFobFA3WViOG9kcbEQuxMyHF
+OjAw77zP+7zPM+989uKMTC57dcHTlurTx7ns0AOe+fDi8ve7LB6JitXUZfntgQxT
+cwrZDmk1WW2ywlki80HUEEZC5rcnDdOYRqtTxkkQhRoF8jgPodXdaPCmWgVhScbl
+ODBklhAQKmorKDF2MYYE+cClLhQA2ko5jseUUgQwzdkaJelzba0pzmIg9O0ajS8U
+NL65UCgQ0KxzHVMJRwrOuXKBkorbACqufF84iknOqAOAASYynvYkRdJhtO6QcVu7
+LMZRNOXYTwOThhg42Cau42k1LGnVBR4FkDBECUHMh4K72gLTMSSAK+hRqhCi0tGd
+Xc9lNuUehTbhmCqbOTYHLkIMch9LxLmgHOs7aFMtWTnKbKI8zhQVyAFMCYI9yWyI
+mATY9XyOiZafyI/CyGqyiU1ptwnjzsCXRrZ5sWljQdgm4igQ+Sgu6ZpyHKWRH7Xr
+TGualpuM57RSNsidkhcNR78mKfIgFHpe/58o1NDn3oPqgTVaclc5iGUxMAjHcwnQ
+y/SRnZoTIQcBJHwmEWDY5x4mno5dwrnPGADIo0pSXWZjJCl0fexjBhXBCkBOKXrm
+EmudrKQpk6AUsrQjllb3J9klMzPZXGb2rDrzZTO5ufP/+8cPfp0zie5fLrXVJk8N
+zLvywp2zv8/Ojx4aS2c+qT95+Hv46muV+yMz+J/juaGJQ29cLf1T90tx060nxfKy
+lX5vNH705sVB1z4/WDs78vfL1f4qvfWo4fbB/qWvfP7No3WLJt9t2ZL9Izmwcajl
+2EN2/u3evhtnfji9N60MbPj4i+Fr8uSchUsXr2rdGg7u7Vt2qefuqe2Htx0YH5Sr
+65B9e+LI6F/WwMjWkYMv3fhxuPplfXMz+27NWP2GdUffef3rZOC38evLH1r35l74
+9u6KPbkVmQ+O1IZz19YuPt6zfvTntzZd2XMP7Jto6Dn+VbFu7KfM/M3nHp9Z/+aJ
+Wb3Xd69atKS2+9OuY9Xarvf2911a8C8=
+=Nawc
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/edsu
+
+==================================================================
