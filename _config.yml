@@ -20,3 +20,6 @@ sass:
 exclude:
   - sync.sh
 
+include:
+  - .well-known
+  - .htaccess
