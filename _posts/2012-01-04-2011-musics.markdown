@@ -1,0 +1,46 @@
+---
+layout: post
+status: publish
+published: true
+title: 2011 Musics
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 4196
+wordpress_url: http://inkdroid.org/journal/?p=4196
+date: '2012-01-04 14:34:43 +0000'
+date_gmt: '2012-01-04 21:34:43 +0000'
+tags: []
+comments:
+- id: 85334
+  author: My 2011 in Music &laquo; Feral Librarian
+  author_email: ''
+  author_url: http://chrisbourg.wordpress.com/2012/01/05/my-2011-in-music/
+  date: '2012-01-05 10:33:11 +0000'
+  date_gmt: '2012-01-05 17:33:11 +0000'
+  content: "[...] by Ed Sommers post on 2011 Musics, here is my summary of new (to
+    me) music in [...]"
+---
+<p>2011 was the year of streaming music for me--specifically using <a href="http://www.rdio.com/#/people/esummers/">Rdio</a>. Being able to follow what friends and folks I admire are listening to, easily listen along, and then build my own online collection in the cloud was a revelation. Being able to easily do it from my desktop at home, or at work, or on my mobile device for $5/month was just astounding. The world ain't perfect, but this is damn near close. </p>
+<p>Anyhow, here's some of my favorite music from 2011, in no particular order ... a lot of which I probably wouldn't have listened to if it wasn't streamable on the Web. <em>You might have to wait a few seconds while the YouTube clips load.</em></p>
+<p><iframe width="560" height="315" src="http://www.youtube.com/embed/ggeLJeWnLaI" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="http://www.youtube.com/embed/2BKUjnyf8uY" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="http://www.youtube.com/embed/37pqMoW4z5s" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="http://www.youtube.com/embed/i2vvAck6z5c" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="http://www.youtube.com/embed/nc__3nsfxwA" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="http://www.youtube.com/embed/4HWcViTXdYc" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="http://www.youtube.com/embed/QzHWTbdj-FI" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="http://www.youtube.com/embed/sgkTtQRPLHw" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="http://www.youtube.com/embed/rmjMFPSLXI4" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="http://www.youtube.com/embed/XpOH2lWFEl8" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="http://www.youtube.com/embed/dX3k_QDnzHE" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="http://www.youtube.com/embed/8J8n9R8rnB8" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="http://www.youtube.com/embed/63KB-EJKdyI" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="http://www.youtube.com/embed/WbN0nX61rIs" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="http://www.youtube.com/embed/-Sg7YkPnEYw" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="http://www.youtube.com/embed/-TKap4S-pJ0" frameborder="0" allowfullscreen></iframe></p>

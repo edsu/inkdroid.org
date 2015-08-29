@@ -1,0 +1,16 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<http://lccn.loc.gov/99027665>
+  dc:title "Weaving the Web : the original design and ultimate destiny of the World Wide Web by its inventor /" ;
+  dc:creator "Berners-Lee, Tim." ;
+  dc:creator "Fischetti, Mark." ;
+  dc:type "text" ; 
+  dc:publisher "San Francisco : HarperSanFrancisco" ;
+  dc:date "1999" ;
+  dc:language "eng" ;
+  dc:description "Includes index." ;
+  dc:subject "Berners-Lee, Tim." ;
+  dc:subject "World Wide Web" ;
+  dc:identifier <http://www.loc.gov/catdir/description/hc044/99027665.html> ;
+  dc:identifier "URN:ISBN:0062515861 (cloth)" ;
+  dc:identifier "URN:ISBN:006251587X (paper)" .

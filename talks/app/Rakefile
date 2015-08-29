@@ -1,0 +1,17 @@
+task :default => [:generate, :open]
+
+task :generate do 
+  rst2s5('default')
+end
+
+task :generate_black do
+  rst2s5('small-black')
+end
+
+task :open do
+  system 'open index.html'
+end
+
+def rst2s5(theme)
+  system "rst2s5.py --theme #{theme} index.txt index.html"
+end

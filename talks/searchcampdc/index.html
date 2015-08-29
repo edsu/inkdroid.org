@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Entity Recognition</title>
+<!-- metadata -->
+<meta name="generator" content="S5" />
+<meta name="version" content="S5 1.1" />
+<meta name="presdate" content="20050728" />
+<meta name="author" content="Eric A. Meyer" />
+<meta name="company" content="Complex Spiral Consulting" />
+<!-- configuration parameters -->
+<meta name="defaultView" content="slideshow" />
+<meta name="controlVis" content="hidden" />
+<!-- style sheet links -->
+<link rel="stylesheet" href="ui/default/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/default/outline.css" type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/default/print.css" type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
+<!-- S5 JS -->
+<script src="ui/default/slides.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="layout">
+<div id="controls"><!-- DO NOT EDIT --></div>
+<div id="currentSlide"><!-- DO NOT EDIT --></div>
+<div id="header"></div>
+<div id="footer">
+<h1>Library of Congress, Washington DC</h1>
+<h2>Newspapers, Named Entities and Linked Data</h2>
+</div>
+
+</div>
+
+
+<div class="presentation">
+
+<div class="slide">
+    <h1>Newspapers, Named Entities <br />and Linked Data</h1>
+    <h3>Ed Summers</h3>
+    <h4>Library of Congress</h4>
+</div>
+
+<div class="slide">
+    <h1>National Digital Newspaper Program</h1>
+    <ul>
+        <li><a href="http://www.loc.gov/chroniclingamerica/">http://www.loc.gov/chroniclingamerica/</a></li>
+        <li>30 year project</li>
+        <li>20 partners currently</li>
+        <li>1,000,000 digitized pages of historical newspapers currently</li>
+        <li>40 TB</li>
+        <li>TIFF images</li>
+        <li>optical character recognition (OCR)</li>
+        <li>basic metadata: newspaper title, issue date, page</li>
+    </ul>
+</div>
+
+<div class="slide">
+    <h1>NDNP 1.0</h1>
+    <ul>
+        <li>Java/Cocoon - web framework</li>
+        <li>Fedora - digital repository framework</li>
+        <li>Lucene - homegrown search webservice</li>
+        <li>MySQL - rudimentary modeling bypassing Fedora triplestore</li>
+    </ul>
+</div>
+
+<div class="slide">
+    <h1>NDNP 2.0</h1>
+    <ul>
+        <li>Python/Django - web framework</li>
+        <li>MySQL - rich rdbms schema (titles, issues, pages, images, ocr, etc)</li>
+        <li>Solr - fulltext search + faceting on newspaper title metadata</li>
+    </ul>
+</div>
+
+<div class="slide">
+    <h1>Data Mining</h1>
+    <p>Awardee supplied data is missing lots of information from the page level
+    including:
+    </p>
+    <ul>
+        <li>article segmentation</li>
+        <li>place names</li>
+        <li>personal names</li>
+        <li>company names</li>
+    </ul>
+    <p>
+    What if we could get some of this?
+    </p>
+</div>
+
+<div class="slide">
+    <h1>OpenCalais</h1>
+    <p>
+    The <a href="http://opencalais.com/">opencalais.com</a> service allows you
+    to post content and get back an RDF graph that describes entities that were 
+    recognized in the text. For example:
+    </p>
+    <ul>
+        <li><a href="data/ndnp-774348.pdf">page image</a></li>
+        <li><a href="data/ndnp-774348-ocr.txt">OCR text</a></li>
+        <li><a href="data/ndnp-774348-ocr.xml">calais rdf/xml</a></li>
+        <li><a href="data/ndnp-774348-ocr-turtle.txt">calais turtle</a></li>
+        <li><a href="data/entities.py">entities.py</a></li>
+        <li><a href="data/ndnp-774348-ocr-entities.txt">recognized entities</a></li>
+    </ul>
+</div>
+
+<div class="slide">
+    <h1>Person</h1>
+    <ul>
+        <li>Herbert Putnam</li>
+        <li><a href="http://dbpedia.org/resource/Herbert_Putnam">http://dbpedia.org/resource/Herbert_Putnam</a></li>
+        <li>Herbert Putnam, Litt.D., LL.D. (September 20 1861 - August 14 1955)
+        was the eighth United States Librarian of Congress, serving from 1899 to
+        1939.He was born in New York City, where his father George Palmer Putnam
+        was a noted publisher. He graduated from Harvard in 1883, studied law at
+        Columbia, and was admitted to the bar in 1886... </li>
+        <li><a href="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Herbert_Putnam">photos</a></li>
+        <li><a href="http://dbpedia.org/resource/Category:Librarians_of_Congress">Librarians of Congress</a></li>
+    </ul>
+</div>
+
+<div class="slide">
+    <h1>Place</h1>
+    <ul>
+        <li>Philadelphia</li>
+        <li><a href="http://dbpedia.org/resource/Philadelphia">Philadelphia at dbpedia</a>
+        <li><a href="http://sws.geonames.org/4560349/">Philadelphia at Geonames</a></li>
+        <li><a href="http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000062e4e">Philadelphia at Freebase</a></li>
+        <li><a href="http://sw.opencyc.org/2008/06/10/concept/Mx4rvVil7ZwpEbGdrcN5Y29ycA">Philadelphia at OpenCyc</a></li>
+    </ul>
+</div>
+
+<div class="slide">
+    <h1>Linked Data Cloud</h1>
+    <p>
+    dbpedia is actually one of the central nodes in a collaborative effort known
+    as the <a
+        href="http://esw.w3.org/topic/SweoIG/TaskForces/CommunityProjects/LinkingOpenData">linking
+        open data project</a>. 
+    
+    <ul>
+        <li>2 billion+ assertions</li>
+        <li>50+ data collections</li>
+        <li>8 million links</li>
+        <li><a href="http://www4.wiwiss.fu-berlin.de/bizer/pub/lod-datasets_2008-09-18.html">linked data cloud</a></li>
+    </p>
+</div>
+
+<div class="slide">
+    <h1>Text Mining Software</h1>
+    <ul>
+        <li><a href="">SemanticProxy</a> - http://service.semanticproxy.com/processurl/{key}/rdf/{url}</li>
+        <li><a href="http://www.nltk.org/">Natural Language Toolkit (NLTK)</a></li>
+        <li><a href="http://alias-i.com/lingpipe/index.html">LingPipe</a></li>
+        <li><a href="http://www.lemurproject.org">Lemur Toolkit</a></li>
+        <li><a href="http://www-tsujii.is.s.u-tokyo.ac.jp/enju/">Enju</a></li>
+        <li><a href="http://lucene.apache.org/solr">Solr</a> - mine the Lucene
+        index?</li>
+    </ul>
+</div>
+
+<div class="slide">
+    <h1>Explorations</h1>
+    <ul>
+        <li>use of NLP toolkits for entity extraction</li>
+        <li>record linkage: dbpedia, freebase, geonames, etc</li>
+        <li>data extraction and aggregation: rdbms, lucene, triplestore?</li>
+        <li>metadata maintenance: harvesting, versioning, etc</li>
+        <li>publishing newspaper linked data: titles, issues, pages, batches</li>
+        <li>user-assisted linking and metadata generation</li>
+    </ul>
+</div>
+
+<div class="slide">
+    <h1>Thanks!</h1>
+    <p>
+    Questions, comments, criticisms welcome at ehs [at] pobox [dot] com...or
+    right now!
+    </p>
+</div>
+
+</div>
+
+
+</div>
+
+</body>
+</html>

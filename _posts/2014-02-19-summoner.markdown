@@ -1,0 +1,2445 @@
+---
+layout: post
+status: publish
+published: true
+title: Summoner
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 7150
+wordpress_url: http://inkdroid.org/journal/?p=7150
+date: '2014-02-19 03:14:28 +0000'
+date_gmt: '2014-02-19 10:14:28 +0000'
+tags: []
+comments: []
+---
+<p>I've recently been working with the Serials Solutions <a href="http://api.summon.serialssolutions.com/">Summon API</a> for some side work at <a href="http://library.gwu.edu">George Washington University Libraries</a>. Since the work is largely in Python I created a very simple reusable module called <a href="http://github.com/edsu/summoner">summoner</a> for talking to the API. It largely just does the authentication bits, and gets out of the way...but it may be of interest to you if you use Python and work at a library that subscribes to Summon.</p>
+<p>Anyway, I found myself wanting to get a picture of the metadata fields that are used in Summon responses, so I wrote a <a href="https://github.com/edsu/summoner/blob/master/examples/fields.py">little script</a> that does an open ended search and then walks through lots of results tallying up the fields used by <em>content type</em>. You can find the results for a scan of 50,000 records below.</p>
+<p>As you can see the majority (78%) of the results were newspaper and journal articles. There was a fair bit of diversity in the fields returned for these. It was kind of interesting that 83% of the journal articles had ISSNs (I was expecting it to be higher). 50% had EISSNs so perhaps the 17% that lacked ISSNs had an EISSN instead. Only 41% of journals had subject terms. The sampling of the other content areas was probably too low to make any guesses.</p>
+<p>The big caveat here is that these numbers reflect GWU's particular holdings and subscription options. Still, if you use the Summon API you might find them interesting; and if you are really curious you can run <a href="https://github.com/edsu/summoner/blob/master/examples/fields.py">the script</a> for your own institution.</p>
+<h3>Newspaper Articles (54.0%)</h3>
+<table>
+<tr>
+<th>
+      Field Name
+    </th>
+<th>
+      Coverage
+    </th>
+</tr>
+<tr>
+<td>
+      PublicationYear
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      openUrl
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationPlace_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      DatabaseTitle
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Title
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Score
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationTitle
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      link
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDecade
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Publisher_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Copyright
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      LinkModel
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      DBID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ISSN
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      MergedId
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      isFullTextHit
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PQPubID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      StartPage
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDate
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationPlace
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Genre
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDate_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Publisher
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      SourceType
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      IsScholarly
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Language
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ExternalDocumentID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      URI
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationCentury
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      IsPeerReviewed
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      inHoldings
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ContentType
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      SSID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      thumbnail_l
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      thumbnail_m
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      thumbnail_s
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      hasFullText
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Copyright_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      EISSN
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PQID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Snippet
+    </td>
+<td>
+      88.9%
+    </td>
+</tr>
+<tr>
+<td>
+      DatabaseTitleList
+    </td>
+<td>
+      88.9%
+    </td>
+</tr>
+<tr>
+<td>
+      AbstractList
+    </td>
+<td>
+      88.9%
+    </td>
+</tr>
+<tr>
+<td>
+      Abstract
+    </td>
+<td>
+      88.9%
+    </td>
+</tr>
+<tr>
+<td>
+      SubjectTerms
+    </td>
+<td>
+      74.1%
+    </td>
+</tr>
+<tr>
+<td>
+      GeographicLocations
+    </td>
+<td>
+      14.8%
+    </td>
+</tr>
+<tr>
+<td>
+      GeographicLocations_xml
+    </td>
+<td>
+      14.8%
+    </td>
+</tr>
+</table>
+<h3>Journal Articles (24.0%)</h3>
+<table>
+<tr>
+<th>
+      Field Name
+    </th>
+<th>
+      Coverage
+    </th>
+</tr>
+<tr>
+<td>
+      PublicationYear
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      openUrl
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Score
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationTitle
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      link
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDecade
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      isFullTextHit
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      LinkModel
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Title
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      MergedId
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDate
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ExternalDocumentID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDate_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      IsScholarly
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Language
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      hasFullText
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      IsPeerReviewed
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      inHoldings
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ContentType
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      SourceType
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationCentury
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Author
+    </td>
+<td>
+      91.7%
+    </td>
+</tr>
+<tr>
+<td>
+      Author_xml
+    </td>
+<td>
+      91.7%
+    </td>
+</tr>
+<tr>
+<td>
+      StartPage
+    </td>
+<td>
+      91.7%
+    </td>
+</tr>
+<tr>
+<td>
+      ISSN
+    </td>
+<td>
+      83.3%
+    </td>
+</tr>
+<tr>
+<td>
+      Issue
+    </td>
+<td>
+      83.3%
+    </td>
+</tr>
+<tr>
+<td>
+      Volume
+    </td>
+<td>
+      83.3%
+    </td>
+</tr>
+<tr>
+<td>
+      thumbnail_l
+    </td>
+<td>
+      83.3%
+    </td>
+</tr>
+<tr>
+<td>
+      thumbnail_m
+    </td>
+<td>
+      83.3%
+    </td>
+</tr>
+<tr>
+<td>
+      thumbnail_s
+    </td>
+<td>
+      83.3%
+    </td>
+</tr>
+<tr>
+<td>
+      Publisher_xml
+    </td>
+<td>
+      75.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Publisher
+    </td>
+<td>
+      75.0%
+    </td>
+</tr>
+<tr>
+<td>
+      SSID
+    </td>
+<td>
+      75.0%
+    </td>
+</tr>
+<tr>
+<td>
+      DatabaseTitle
+    </td>
+<td>
+      58.3%
+    </td>
+</tr>
+<tr>
+<td>
+      Copyright
+    </td>
+<td>
+      58.3%
+    </td>
+</tr>
+<tr>
+<td>
+      DBID
+    </td>
+<td>
+      58.3%
+    </td>
+</tr>
+<tr>
+<td>
+      Copyright_xml
+    </td>
+<td>
+      58.3%
+    </td>
+</tr>
+<tr>
+<td>
+      URI
+    </td>
+<td>
+      50.0%
+    </td>
+</tr>
+<tr>
+<td>
+      EISSN
+    </td>
+<td>
+      50.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Snippet
+    </td>
+<td>
+      41.7%
+    </td>
+</tr>
+<tr>
+<td>
+      Genre
+    </td>
+<td>
+      41.7%
+    </td>
+</tr>
+<tr>
+<td>
+      SubjectTerms
+    </td>
+<td>
+      41.7%
+    </td>
+</tr>
+<tr>
+<td>
+      PQID
+    </td>
+<td>
+      41.7%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationPlace_xml
+    </td>
+<td>
+      33.3%
+    </td>
+</tr>
+<tr>
+<td>
+      Database_xml
+    </td>
+<td>
+      33.3%
+    </td>
+</tr>
+<tr>
+<td>
+      PQPubID
+    </td>
+<td>
+      33.3%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationPlace
+    </td>
+<td>
+      33.3%
+    </td>
+</tr>
+<tr>
+<td>
+      EndPage
+    </td>
+<td>
+      33.3%
+    </td>
+</tr>
+<tr>
+<td>
+      Discipline
+    </td>
+<td>
+      25.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PageCount
+    </td>
+<td>
+      25.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Notes
+    </td>
+<td>
+      25.0%
+    </td>
+</tr>
+<tr>
+<td>
+      DatabaseTitleList
+    </td>
+<td>
+      25.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Audience
+    </td>
+<td>
+      25.0%
+    </td>
+</tr>
+<tr>
+<td>
+      AbstractList
+    </td>
+<td>
+      25.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Abstract
+    </td>
+<td>
+      25.0%
+    </td>
+</tr>
+<tr>
+<td>
+      DOI
+    </td>
+<td>
+      16.7%
+    </td>
+</tr>
+<tr>
+<td>
+      RelatedPersons
+    </td>
+<td>
+      16.7%
+    </td>
+</tr>
+<tr>
+<td>
+      RelatedPersons_xml
+    </td>
+<td>
+      16.7%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationSeriesTitle
+    </td>
+<td>
+      16.7%
+    </td>
+</tr>
+<tr>
+<td>
+      ClassificationCodes
+    </td>
+<td>
+      16.7%
+    </td>
+</tr>
+<tr>
+<td>
+      CODEN
+    </td>
+<td>
+      8.3%
+    </td>
+</tr>
+<tr>
+<td>
+      GeographicLocations
+    </td>
+<td>
+      8.3%
+    </td>
+</tr>
+<tr>
+<td>
+      DLL_JC
+    </td>
+<td>
+      8.3%
+    </td>
+</tr>
+<tr>
+<td>
+      GeographicLocations_xml
+    </td>
+<td>
+      8.3%
+    </td>
+</tr>
+<tr>
+<td>
+      PCID
+    </td>
+<td>
+      8.3%
+    </td>
+</tr>
+</table>
+<h3>Reference (10.0%)</h3>
+<table>
+<tr>
+<th>
+      Field Name
+    </th>
+<th>
+      Coverage
+    </th>
+</tr>
+<tr>
+<td>
+      PublicationYear
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      openUrl
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Title
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Source
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Score
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationTitle
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      link
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ISBN
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDecade
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Publisher_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      IsPeerReviewed
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      LinkModel
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      MergedId
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      isFullTextHit
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDate
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ExternalDocumentID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDate_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Publisher
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      IsScholarly
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Language
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationCentury
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      SourceType
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      inHoldings
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ContentType
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      SSID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      thumbnail_l
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      thumbnail_m
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      thumbnail_s
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      hasFullText
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Copyright
+    </td>
+<td>
+      80.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Snippet
+    </td>
+<td>
+      80.0%
+    </td>
+</tr>
+<tr>
+<td>
+      DBID
+    </td>
+<td>
+      80.0%
+    </td>
+</tr>
+<tr>
+<td>
+      URI
+    </td>
+<td>
+      80.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Copyright_xml
+    </td>
+<td>
+      80.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Discipline
+    </td>
+<td>
+      60.0%
+    </td>
+</tr>
+<tr>
+<td>
+      SubjectTerms
+    </td>
+<td>
+      40.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationPlace_xml
+    </td>
+<td>
+      20.0%
+    </td>
+</tr>
+<tr>
+<td>
+      EISBN
+    </td>
+<td>
+      20.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Author_xml
+    </td>
+<td>
+      20.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Edition
+    </td>
+<td>
+      20.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Author
+    </td>
+<td>
+      20.0%
+    </td>
+</tr>
+<tr>
+<td>
+      StartPage
+    </td>
+<td>
+      20.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationPlace
+    </td>
+<td>
+      20.0%
+    </td>
+</tr>
+</table>
+<h3>Patents (6.0%)</h3>
+<table>
+<tr>
+<th>
+      Field Name
+    </th>
+<th>
+      Coverage
+    </th>
+</tr>
+<tr>
+<td>
+      Discipline
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationYear
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      openUrl
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Author
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Snippet
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Score
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      link
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDecade
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Author_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      IsPeerReviewed
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      LinkModel
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      DBID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Title
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      MergedId
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      isFullTextHit
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDate
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ExternalDocumentID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDate_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      IsScholarly
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Language
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Notes
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      URI
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      DatabaseTitleList
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationCentury
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      AbstractList
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      inHoldings
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ContentType
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      SourceType
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Abstract
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      hasFullText
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+</table>
+<h3>Books (2.0%)</h3>
+<table>
+<tr>
+<th>
+      Field Name
+    </th>
+<th>
+      Coverage
+    </th>
+</tr>
+<tr>
+<td>
+      PublicationYear
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      openUrl
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationPlace_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Author
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Source
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Score
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      link
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      LCCallNum
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDecade
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Author_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      IsPeerReviewed
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      LinkModel
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      LCCN
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      DBID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Title
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      MergedId
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      isFullTextHit
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDate
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ExternalDocumentID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDate_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      IsScholarly
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Language
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationPlace
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      URI
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationCentury
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      OCLC
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      FullText_t_NoSnippeting
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      inHoldings
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ContentType
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      SourceType
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      hasFullText
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+</table>
+<h3>Web Resources (2.0%)</h3>
+<table>
+<tr>
+<th>
+      Field Name
+    </th>
+<th>
+      Coverage
+    </th>
+</tr>
+<tr>
+<td>
+      PublicationYear
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      openUrl
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Copyright
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Author
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Score
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      link
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDecade
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Author_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      IsPeerReviewed
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      LinkModel
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      DBID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Title
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      MergedId
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      isFullTextHit
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      SubjectTerms
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ExternalDocumentID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDate_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDate
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      IsScholarly
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Language
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Notes
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      URI
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Copyright_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      hasFullText
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      inHoldings
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ContentType
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      SourceType
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationCentury
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+</table>
+<h3>Book Chapters (2.0%)</h3>
+<table>
+<tr>
+<th>
+      Field Name
+    </th>
+<th>
+      Coverage
+    </th>
+</tr>
+<tr>
+<td>
+      Discipline
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationYear
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      DOI
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      openUrl
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationPlace_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Copyright
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Title
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      EISBN
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Snippet
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Score
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationTitle
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      link
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ISBN
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDecade
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Publisher_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      IsPeerReviewed
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      LinkModel
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      MergedId
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      isFullTextHit
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      StartPage
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDate
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationPlace
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationDate_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      SubjectTerms
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Publisher
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      SourceType
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      IsScholarly
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Language
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ExternalDocumentID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      DatabaseTitleList
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      PublicationCentury
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      AbstractList
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      SSID
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      inHoldings
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      ContentType
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      EndPage
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Abstract
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      thumbnail_l
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      thumbnail_m
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      thumbnail_s
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      hasFullText
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+<tr>
+<td>
+      Copyright_xml
+    </td>
+<td>
+      100.0%
+    </td>
+</tr>
+</table>

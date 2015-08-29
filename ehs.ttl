@@ -1,0 +1,28 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://inkdroid.org/ehs>
+    bio:olb "Hacker for libraries, digital archaeologist, pragmatist." ;
+    a foaf:Person ;
+    owl:sameAs <http://identi.ca/user/6104>, <http://knowee.net/edsu#self>, <http://semantictweet.com/edsu#me> ;
+    foaf:account <http://arxiv.org/a/summers_e_1>, <http://edsu.tumblr.com/>, <http://en.wikipedia.org/wiki/User:Edsu>, <http://flickr.com/inkdroid>, <http://github.com/edsu>, <http://identi.ca/edsu>, <http://last.fm/user/inkdroid>, <http://orcid.org/0000-0001-7320-8150>, <http://philpapers.org/profile/42061>, <http://scholar.google.com/citations?hl=en&user=ctpWtsIAAAAJ>, <http://twitter.com/edsu>, <http://wfmu.org/profile/343140110/edsu>, <http://www.freebase.com/view/user/edsu>, <http://www.goodreads.com/user/show/5899086-ed-summers>, <http://www.google.com/profiles/ed.summers>, <http://www.kickstarter.com/profile/edsu>, <http://www.librarything.com/home/edsu>, <http://www.linkedin.com/in/esummers>, <http://www.metafilter.com/user/181723>, <http://www.rdio.com/people/esummers/>, <https://keybase.io/edsu>, <https://vimeo.com/edsu>, <https://www.youtube.com/channel/UCVUEkHIAgrpGdQ9VRen-4_A> ;
+    foaf:depiction <http://www.inkdroid.org/images/ehs.jpg> ;
+    foaf:firstName "Edward" ;
+    foaf:homepage <http://inkdroid.org> ;
+    foaf:interest <http://id.loc.gov/authorities/sh2002000569#concept>, <http://id.loc.gov/authorities/sh85020816#concept>, <http://id.loc.gov/authorities/sh85035070#concept>, <http://id.loc.gov/authorities/sh85076502#concept>, <http://id.loc.gov/authorities/sh86005933#concept>, <http://id.loc.gov/authorities/sh95004496#concept>, <http://id.loc.gov/authorities/sh95008857#concept>, <http://id.loc.gov/authorities/sh96000740#concept>, <http://id.loc.gov/authorities/sj96006329#concept> ;
+    foaf:jabberID "ed.summers@gmail.com" ;
+    foaf:knows <http://berrueta.net/foaf.rdf#me>, <http://blog.reallywow.com/foaf#me>, <http://brocadedarkness.net/foaf.rdf#me>, <http://danbri.org/foaf.rdf#danbri>, <http://dilettantes.code4lib.org/about-me/#me>, <http://dltj.org/foaf/>, <http://eikeon.com/foaf.rdf#eikeon>, <http://iandavis.com/id/me>, <http://infomotions.com/foaf.rdf#me>, <http://kevinclarke.info/foaf.rdf#me>, <http://kmi.open.ac.uk/people/tom/rdf>, <http://lackoftalent.org/michael/id/>, <http://managemetadata.com/jon/foaf.rdf#me>, <http://pos.thum.us/ep.rdf#me>, <http://rc98.net/foaf#me>, <http://rhymeswithtoaster.com/foaf.rdf#me>, <http://roytennant.com/foaf.rdf#me>, <http://tomkeays.com/about/foaf.rdf#tomkeays>, <http://www.aaronsw.com/about.xrdf#aaronsw>, <http://www.jodischneider.com/#me>, <http://www.library.yale.edu/~dlovins/foaf.rdf#dsl>, <http://www.miskatonic.org/foaf.rdf#me>, <http://www.users.muohio.edu/darcusb/meta/info#me> ;
+    foaf:mbox <mailto:ehs@pobox.com> ;
+    foaf:name "Ed Summers" ;
+    foaf:nick "edsu" ;
+    foaf:openid <http://inkdroid.org>, <http://www.google.com/profiles/ed.summers> ;
+    foaf:schoolHomepage <http://www.scils.rutgers.edu> ;
+    foaf:skypeID "inkdroid" ;
+    foaf:surname "Summers" ;
+    foaf:title "Mr" ;
+    foaf:weblog <http://inkdroid.org/journal/> ;
+    foaf:workplaceHomepage <http://mith.umd.edu/> .
+

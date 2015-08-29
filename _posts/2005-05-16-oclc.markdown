@@ -1,0 +1,35 @@
+---
+layout: post
+status: publish
+published: true
+title: one billion
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 9
+wordpress_url: http://www.inkdroid.org/journal/?p=9
+date: '2005-05-16 09:26:53 +0000'
+date_gmt: '2005-05-16 16:26:53 +0000'
+tags:
+- oclc worldcat
+comments: []
+---
+<p><a href="http://outgoing.typepad.com/outgoing/2005/05/_of_records_in_.html">Thom Hickey</a> mentioned a new <a href="http://www.oclc.org/worldcat/grow.htm">page</a> at OCLC which lists some real time stats for worldcat: total holdings, last record added, etc. Perhaps this is in honor of the total holdings getting very close to crossing the 1 billion mark. </p>
+<p>So of course I had to add a plugin for panizzi to scrape the page. Rather than writing yet another state machine for parsing html I decided to try out Frederik Lundh's <a href="http://effbot.org/zone/element-tidylib.htm">ElementTree Tidy HTML Tree Builder</a>, which works out very well when you want to walk a datastructure representing possibly invalid HTML. </p>
+<pre lang="python">
+    url = "http://www.oclc.org/worldcat/grow.htm"
+    tree = TidyHTMLTreeBuilder.parse( urlopen( self.url ) )
+</pre>
+<p>That's all there is to getting nice elementtree object which you can dig into for a page of HTML.</p>
+<p>So, predictably:</p>
+<pre>
+10:53 < edsu> @worldcat
+10:53 < panizzi> edsu: [May 16, 2005 11:49 AM EDT #981,277,234] 
+                      El senor de los anillos. Tolkien, J. R. R. ... 
+                      uploaded by OEL - EUGENE PUB LIBR
+</pre>

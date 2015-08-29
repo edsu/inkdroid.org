@@ -1,0 +1,74 @@
+---
+layout: post
+status: publish
+published: true
+title: wee bit
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 1983
+wordpress_url: http://inkdroid.org/journal/?p=1983
+date: '2010-04-30 04:59:24 +0000'
+date_gmt: '2010-04-30 11:59:24 +0000'
+tags:
+- humor
+- computers
+- history
+- pirates
+comments:
+- id: 82663
+  author: dbrunton
+  author_email: dbrunton@gmail.com
+  author_url: https://www.google.com/accounts/o8/id?id=AItOawkuMzjlM81pM-JvzFsoNviuHmLfn6YLydc
+  date: '2010-04-30 05:21:55 +0000'
+  date_gmt: '2010-04-30 12:21:55 +0000'
+  content: Happy Birthday Claude Shannon!  For what it's worth, in the paper where
+    Shannon first used the word "bit" in print, he gave credit to John Tukey for coining
+    the term, apparently also in the room was Johnny von Neumann.  Man, I would have
+    liked to be in that room :-P
+- id: 82664
+  author: Michael J. Giarlo
+  author_email: michael.giarlo@gmail.com
+  author_url: http://lackoftalent.org/michael/
+  date: '2010-04-30 05:44:53 +0000'
+  date_gmt: '2010-04-30 12:44:53 +0000'
+  content: "Are those sports people, David?\r\n\r\n..."
+- id: 82668
+  author: dbrunton
+  author_email: dbrunton@gmail.com
+  author_url: https://www.google.com/accounts/o8/id?id=AItOawkuMzjlM81pM-JvzFsoNviuHmLfn6YLydc
+  date: '2010-04-30 08:31:57 +0000'
+  date_gmt: '2010-04-30 15:31:57 +0000'
+  content: "They're in my Fantasy Information Theory league.  The league is run solely
+    via Memex.\r\n\r\n*You*."
+- id: 82669
+  author: ed
+  author_email: ehs@pobox.com
+  author_url: http://www.inkdroid.org
+  date: '2010-04-30 08:34:59 +0000'
+  date_gmt: '2010-04-30 15:34:59 +0000'
+  content: "<pre>\r\n15:34 < edsu> @band add Fantasy Information Theory League\r\n15:34
+    < zoia> edsu: Band 'Fantasy Information Theory League' added to list\r\n</pre>"
+---
+<p>As is my custom, this morning I asked Zoia (the bot in <a href="irc://freenode.net/code4lib">#code4lib</a>) for <a href="http://www.computerhistory.org/tdih/">this day in history</a> from the <a href="http://www.computerhistory.org">Computer History Musuem</a>. Lately I've been filtering it through the Pirate plugin, which transforms arbitrary text into something a pirate might say. Anyhow, today's was pretty humorous. </p>
+<pre>
+11:32 < edsu> @pirate [tdih]
+11:32 < zoia> edsu: Claude Shannon be born in Gaylord, Michigan.  Known as th' 
+              inventor 'o information theory, Shannon be th' first to use th' 
+              word "wee bit."  Shannon, a contemporary 'o Johny-boy von 
+              Neumann, Howard Aiken, 'n Alan Turin', sets th' stage fer th' 
+              recognition 'o th' basic theory 'o information that could be 
+              processed by th' machines th' other pioneers developed.  He 
+              investigates information distortion, redundancy 'n noise, 'n (1 
+              more message)
+11:33 < edsu> @more
+11:33 < zoia> edsu: provides a means fer information measurement.  He 
+              identifies th' wee bit as th' fundamental unit 'o both data 'n 
+              computation.
+</pre>
+<p>Happy Birthday Cap'n Shannon.</p>

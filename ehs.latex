@@ -1,0 +1,234 @@
+\section{Ed Summers}
+
+Silver Spring, Maryland, USA
+
+\href{mailto:ehs@pobox.com}{\texttt{ehs@pobox.com}}\\\url{http://inkdroid.org}\\\url{http://twitter.com/edsu}\\\url{http://github.com/edsu}
+
+\subsection{Expertise}
+
+\begin{itemize}
+\item
+  web technology, REST, linked data\\
+\item
+  digital preservation, metadata, search\\
+\item
+  opensource, standards development, community building\\
+\item
+  automated testing, agile software development, prototyping\\
+\item
+  python, javascript, ruby, perl, php, java, c, scheme
+\end{itemize}
+\subsection{Work History}
+
+Information Technology Specialist\\Repository Development
+Center\\Library of Congress, Washington, DC\\03/2006 - present
+
+\begin{itemize}
+\item
+  digital preservation and repository software design and development
+\item
+  lead software developer on the
+  \href{http://chroniclingamerica.loc.gov/}{National Digital Newspaper Project}
+\item
+  created a web based quality assurance tool for handling high volume
+  image digitization projects
+\item
+  digital archiving of social media (Twitter)
+\item
+  designed and implemented the
+  \href{http://id.loc.gov/}{Library of Congress Linked Data Service}
+\item
+  contributing member to the Semantic Web Deployment Group, and
+  Library Linked Data Incubator Group at the W3C
+\end{itemize}
+Consultant\\Canary Project\\Yale School of Medicine, New Haven,
+CT\\07/2005 - 12/2005
+
+\begin{itemize}
+\item
+  Python object oriented design
+\item
+  automated testing
+\item
+  implemented a reporting framework
+\item
+  quixote, pylucene, mysql, redhat administration
+\end{itemize}
+Senior Software Engineer\\Follett Corporation, McHenry IL\\05/2005
+- 03/2006
+
+\begin{itemize}
+\item
+  building and supporting a distributed knowledge management
+  application
+\item
+  requirements gathering and project planning
+\item
+  web service design and implementation
+\item
+  ONIX metadata harvesting and ingest
+\item
+  Java performance tuning
+\item
+  automated testing
+\item
+  database administration
+\item
+  Linux/Windows systems administration
+\end{itemize}
+Consultant\\Performix, Chicago IL\\02/2004 - 04/2005
+
+\begin{itemize}
+\item
+  object oriented design using CRC cards
+\item
+  refactored large Perl codebase
+\item
+  Perl, Apache, mod\_perl, DB2
+\end{itemize}
+Consultant\\Queens Borough Public Library, New York NY\\06/2004 -
+05/2005
+
+\begin{itemize}
+\item
+  character encoding conversion
+\item
+  controlled vocabulary mining
+\item
+  Perl data processing training
+\end{itemize}
+Consultant\\Notre Dame University, South Bend IN 06/2004 - 12/2004
+
+\begin{itemize}
+\item
+  training in object oriented programming and unit testing
+\item
+  high volume metadata harvesting
+\item
+  guidance and implementation search technologies
+\item
+  ported Java Commonn Query Language parser to Perl
+\end{itemize}
+Applications Developer\\Follett Library Resources, McHenry
+IL\\07/2002 - 05/2004
+
+\begin{itemize}
+\item
+  PHP/Perl development in a Unix/Oracle environment
+\item
+  determined project requirements, created task lists and schedules
+\item
+  designed and developed library collection analysis application
+\item
+  unit and application level automated testing
+\item
+  Oracle/Apache stress testing and performance tuning
+\item
+  XML processing
+\item
+  distributed application design using SOAP/XMLRPC
+\end{itemize}
+Senior Software Engineer CheetahMail, New York NY 02/2000 -
+07/2002
+
+\begin{itemize}
+\item
+  team lead in a group of 8 programmers
+\item
+  developed data processing infrastructure for Fortune 500 clients
+\item
+  designed/developed real time reporting system
+\item
+  creation and maintainance of web service API
+\item
+  in depth knowledge of SMTP and HTTP protocols
+\item
+  web services development
+\item
+  technical representative for partners and sales
+\item
+  networking and systems administration as required
+\end{itemize}
+Electronic Resources Librarian\\Old Dominion University, Norfolk,
+VA\\04/1998 - 02/2000
+
+\begin{itemize}
+\item
+  SGML data processing for electronic texts for 39 universities in
+  Virginia.
+\item
+  created current awareness system to alert students/faculty to new
+  items in their field of interest.
+\item
+  created XML publishing system for archival finding aids.
+\item
+  developed serials database for locating licensed fulltext.
+\item
+  III/OCLC metadata management integration
+\end{itemize}
+Visiting Assistant Professor\\University of Illinois,
+Champaign-Urbana, IL\\08/1996 - 03/1998
+
+\begin{itemize}
+\item
+  web/database development (ASP/SQLServer)
+\item
+  collection development and cataloging in Sociology and Political
+  Science
+\item
+  preservation of 19th century criminology pamphlet collection
+\item
+  managed reference services in the Social Science Library
+\end{itemize}
+\subsection{Selected Publications}
+
+\begin{itemize}
+\item
+  \href{http://www.w3.org/2005/Incubator/lld/XGR-lld-20111025/}{Library Linked Data Final Report},
+  W3C Incubator Group Report, October 2011.
+\item
+  \href{http://www.w3.org/TR/skos-primer}{SKOS Simple Knowledge Organization System Primer},
+  W3C Working Group Note, August 18th, 2008.
+  http://www.w3.org/TR/skos-primer/
+\item
+  \href{http://dcpapers.dublincore.org/ojs/pubs/article/view/916}{LCSH, SKOS and Linked Data},
+  Proceedings of the International Conference on DublinCore and
+  Metadata Applications, 2008.
+\item
+  \href{http://inkdroid.org/journal/2008/01/04/following-your-nose-to-the-web-of-data/}{Following Your Nose to the Web of Data},
+  Information Standards Quarterly, 2008
+\item
+  \href{http://www.ariadne.ac.uk/issue38/summers}{Building OAI-PMH Harvesters With Net::OAI::Harvester},
+  Ariadne, no. 38, Jan 2004.
+\item
+  Cyril: Expanding the Horizons of MARC21, Library Hi Tech, v. 22,
+  no. 1, 2004.
+\item
+  A Consortial Approach to Cooperative Cataloging and Authority
+  Control: The Virtual Library of Virginia Experience, Resource
+  Sharing and Information Networks, v. 16, no. 1, 2003, p.~33--53.
+\item
+  \href{http://www.theperlreview.com/articles/php.html}{Paying Homage to Perl (PHP)},
+  The Perl Review, January, 2003.
+\item
+  MARC it your way: MARC.pm, Information Technology and Libraries,
+  March, 2002.
+\item
+  Comprehensive Access to Periodicals: A Database Solution, Library
+  Collections Acquisitions and Technical Services, v. 24, no. 2,
+  2000, p.~33--44.
+\item
+  Show Me the Metadata, Against the Grain, v.11, no.1, 1998.
+\item
+  Gateways to Social Work/Welfare on the Net, C\&RL News, v.59, no.
+  3, 1998, p.163--167.
+\end{itemize}
+\subsection{Education}
+
+\begin{itemize}
+\item
+  MLS, School of Communications, Information and Library Science,
+  Rutgers University, 1995--1996
+\item
+  BA English and American Literature, Rutgers University, 1987--1991.
+\end{itemize}

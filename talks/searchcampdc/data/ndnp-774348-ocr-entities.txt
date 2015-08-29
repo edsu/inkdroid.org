@@ -1,0 +1,74 @@
+a Country named United States
+a Country named United Kingdom
+a City named Oakland
+a City named YORK
+a City named Newport
+a City named Venice
+a City named Chicago
+a City named Watsonville
+a City named Washington
+a City named Los Angeles
+a City named Fresno
+a City named San Jose
+a City named St. Louis
+a City named Haifa
+a City named Philadelphia
+a City named Valencia
+a City named New York
+a City named Santa Clara
+a City named Rochester
+a City named Fremont
+a City named San Francisco
+a City named Seattle
+a Currency named cent
+a Currency named USD
+a ProvinceOrState named Texas
+a ProvinceOrState named Virginia
+a ProvinceOrState named Ohio
+a ProvinceOrState named Florida
+a ProvinceOrState named California
+a ProvinceOrState named Pennsylvania
+a ProvinceOrState named Missouri
+a ProvinceOrState named New York
+a ProvinceOrState named Kentucky
+a Organization named Congress
+a Organization named American University
+a Organization named United States Navy
+a Organization named Smithsonian Institution
+a Organization named navy
+a Organization named ROCHESTER INSTITUTION
+a Organization named PreS3 Clipping   Bureau
+a Region named West Indies
+a NaturalFeature named Indies
+a IndustryTerm named energy
+a IndustryTerm named printing
+a IndustryTerm named oil
+a IndustryTerm named mining
+a IndustryTerm named machinery
+a Company named P. O. Sm Co.
+a Company named The Times
+a Company named Tribune
+a Company named Seattle Times
+a MedicalCondition named corns
+a Facility named Great Northern Hotel
+a Facility named XV.—THE   LIBRARY   OF   CONGRESS
+a Facility named National Library
+a Facility named Punta Arena
+a Facility named Aetorla Hotel
+a Person named Pptter Palmer
+a Person named Bryan
+a Person named Charles P. Braslan
+a Person named Herbert Putnam
+a Person named James Stafford
+a Person named McKmley
+a Person named Siegerfs Angostura Bitters
+a Person named H. G. Pond
+a Person named Edwin W. Joy
+a Person named Charles F. Joy
+a Person named JOHN D. SPRECKELS
+a Person named George Dlxoh
+a Person named A. Musto
+a Person named Solly Smith
+a Person named Allen S. Qlmsted
+a Continent named South  America
+a Continent named Europe

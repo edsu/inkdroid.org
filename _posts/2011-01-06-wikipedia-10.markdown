@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: Wikipedia 10
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 2827
+wordpress_url: http://inkdroid.org/journal/?p=2827
+date: '2011-01-06 07:28:52 +0000'
+date_gmt: '2011-01-06 14:28:52 +0000'
+tags:
+- dc
+- wikipedia
+- linkypedia
+- wikixdc
+- meetings
+comments: []
+---
+<p><a href="http://ten.wikipedia.org/"><img src="http://inkdroid.org/images/10.png" style="float: left; margin-right: 10px;" /></a></p>
+<p></p>
+<p>Wikipedia is turning ten years old on January 15th, and celebratory gatherings are going around the globe, including one in my area (<a href="http://ten.wikipedia.org/wiki/Washington,_D.C.">Washington DC</a>) on January 22 at the <a href="http://archives.gov">National Archives</a>.</p>
+<p>Like you, I've been an accidental user of Wikipedia when searching for a topic to learn more about. Over time I have started actively searching on Wikipedia for things, linking to Wikipedia articles (in email and HTML), and even saying <a href="http://inkdroid.org/journal/2009/12/15/thank-you-wikipedia/">thank you</a> with a small donation. I've only attended one of the local DC chapter events before, but am definitely planning on attending the <a href="http://ten.wikipedia.org/wiki/Washington,_D.C.">DC event</a> to meet other people who value Wikipedia as a resource.</p>
+<p>Perhaps also like you (since you are reading this blog) I also work in a cultural heritage organization, well a <a href="http://loc.gov">library</a> to be precise. I wasn't able to attend the recent <a href="http://uk.wikimedia.org/wiki/GLAM-WIKI">Galleries, Libraries, Archives, Museums &amp; Wikimedia</a> conference at the <a href="http://www.britishmuseum.org/">British Museum</a> last November. But I have been listening to the audio that they <a href="http://uk.wikimedia.org/wiki/GLAM-WIKI#Schedule">kindly provided</a> recently with great interest. If you are interested in the role that cultural heritage organizations can play on Wikipedia, and the Web in general definitely check it out if you've got a long commute (or time to kill) and a audio device of some kind. There are lots of museums, galleries, archives and libraries in the DC area, so I'm hoping that this event on the 22nd will be an opportunity for folks to get together across institutional lines to talk about how they are engaging with the Wikipedia community. Who knows maybe it could be a precursor to a similar to <a href="http://uk.wikimedia.org/wiki/GLAM-WIKI">GLAM-WIKI</a> here in DC?</p>
+<p>I'm planning on doing a lightning talk about this side/experimental project I've been <a href="http://inkdroid.org/journal/2010/08/21/top-hosts-referenced-in-english-wikipedia/">working</a> <a href="http://inkdroid.org/journal/2010/08/30/edu-gov-and-tlds-in-en-wikipedia-external-links/">on</a> called <a href="http://github.com/edsu/linkypedia">linkypedia</a>. The basic idea is to give web publishers (and specifically cultural heritage organizations like libraries, museums, archives, etc) an idea of how their content is being used as primary resource material on Wikipedia. The goal is to validate the work that these institutions have done to make this content available, and for them to do more...and also to engage with the Wikipedia community. Version 1 of the (<a href="https://github.com/edsu/linkypedia">opensource</a>) software is running at <a href="http://linkypedia.inkdroid.org">here</a> on my minimal <a href="http://linode.com">Linode</a> <a href="http://en.wikipedia.org/wiki/Virtual_private_server">VPS</a>. But I'm also working on version 2, which will hopefully scale a bit better, and provide a more global (not just English Wikipedia) and real time picture of how your stuff is being used on Wikipedia. Part of the challenge is figuring out how to pay for it, given the volume of external links in the major language Wikipedias. I'm hoping a tip-jar and thoughtful use of Amazon EC2 will be enough.</p>
+<p>If you are interested in learning more about the event on the 22nd check out <a href="http://twitter.com/filbertkm">Katie Filbert's</a> recent <a href="http://groups.google.com/group/sunlightlabs/browse_thread/thread/28eb06910639a7f3">post</a> to the Sunlight Labs Discussion List, and the (ahem) <a href="http://ten.wikipedia.org/wiki/Washington,_D.C.">wiki page</a> to sign up! Thanks <a href="http://matienzo.org/">Mark</a> for letting me know about the birthday celebration last week in <a href="irc://freenode.net/code4lib">IRC</a>. Sometimes with all the discussion lists, tweets, and blogs things like this slip by without me noticing them. So a direct prod in IRC helps :-)</p>

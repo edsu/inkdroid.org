@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/17/pylucene-lightning/src
+END
+print.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/17/pylucene-lightning/src/print.py
+END
+search.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/17/pylucene-lightning/src/search.py
+END
+email.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/17/pylucene-lightning/src/email.py
+END
+index.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/17/pylucene-lightning/src/index.py
+END

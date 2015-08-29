@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="file:///Users/ed/99-27665.ttl">
+  <rdf:Description rdf:about="http://lccn.loc.gov/99027665">
+    <dc:title>Weaving the Web : the original design and ultimate destiny of the World Wide Web by its inventor /</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lccn.loc.gov/99027665">
+    <dc:creator>Berners-Lee, Tim.</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lccn.loc.gov/99027665">
+    <dc:creator>Fischetti, Mark.</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lccn.loc.gov/99027665">
+    <dc:type>text</dc:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lccn.loc.gov/99027665">
+    <dc:publisher>San Francisco : HarperSanFrancisco</dc:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lccn.loc.gov/99027665">
+    <dc:date>1999</dc:date>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lccn.loc.gov/99027665">
+    <dc:language>eng</dc:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lccn.loc.gov/99027665">
+    <dc:description>Includes index.</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lccn.loc.gov/99027665">
+    <dc:subject>Berners-Lee, Tim.</dc:subject>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lccn.loc.gov/99027665">
+    <dc:subject>World Wide Web</dc:subject>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lccn.loc.gov/99027665">
+    <dc:identifier rdf:resource="http://www.loc.gov/catdir/description/hc044/99027665.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lccn.loc.gov/99027665">
+    <dc:identifier>URN:ISBN:0062515861 (cloth)</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lccn.loc.gov/99027665">
+    <dc:identifier>URN:ISBN:006251587X (paper)</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>

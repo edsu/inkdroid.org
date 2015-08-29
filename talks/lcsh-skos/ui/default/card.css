@@ -1,0 +1,47 @@
+p.mainheading { 
+  font-weight:bold; 
+  margin-bottom: 0pt;
+  margin-top:0pt
+}
+span.title { 
+  font-style:italic; 
+  text-indent:15pt;
+}
+span.titlemain { 
+  font-style:italic; 
+  text-indent:0pt; 
+  font-weight:bold;
+}
+span.counter { 
+  font-weight:bold; 
+  padding-left:6pt; 
+  padding-right:4pt; 
+}
+p.note { 
+  font-size:8pt;  
+  margin-bottom:0pt; 
+  margin-top:0pt;
+}
+p.extent { 
+  margin-bottom:0pt; 
+  margin-top:0pt; 
+  text-indent:15pt;
+}
+span.DDC { 
+  margin-left:6pt; 
+  font-weight:bold; 
+}
+span.LCCN { 
+  font-style:italic; 
+  font-family:times;
+}
+div.cardimage { 
+  background: black; 
+  border:white solid 1px;
+  padding:10pt; 
+  font: 19pt Verdana, Arial; 
+  line-height: 1.4em;
+  text-align:left
+}
+span.oclc {font-family:fixed;}
+span.bottom { display:block; text-align:right;}

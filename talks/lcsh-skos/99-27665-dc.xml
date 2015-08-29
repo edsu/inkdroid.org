@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<srw_dc:dc xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:srw/schema/1/dc-schema http://www.loc.gov/standards/sru/resources/dc-schema.xsd">
+  <title>Weaving the Web : the original design and ultimate destiny of the World Wide Web by its inventor /</title>
+  <creator>Berners-Lee, Tim.</creator>
+  <creator>Fischetti, Mark.</creator>
+  <type>text</type>
+  <publisher>San Francisco : HarperSanFrancisco,</publisher>
+  <date>c1999.</date>
+  <language>eng</language>
+  <description>Includes index.</description>
+  <subject>Berners-Lee, Tim.</subject>
+  <subject>World Wide Web.</subject>
+  <identifier>http://www.loc.gov/catdir/description/hc044/99027665.html</identifier>
+  <identifier>URN:ISBN:0062515861 (cloth)</identifier>
+  <identifier>URN:ISBN:006251587X (paper)</identifier>
+</srw_dc:dc>

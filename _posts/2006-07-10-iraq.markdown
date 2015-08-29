@@ -1,0 +1,22 @@
+---
+layout: post
+status: publish
+published: true
+title: iraq
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 110
+wordpress_url: http://www.inkdroid.org/journal/2006/07/10/iraq/
+date: '2006-07-10 13:09:21 +0000'
+date_gmt: '2006-07-10 20:09:21 +0000'
+tags: []
+comments: []
+---
+<p><a href="http://web.archive.org/web/20070609175343/http://www.msnbc.msn.com:80/id/7245228/site/newsweek/"><img src="http://web.archive.org/web/20120108075322/http://bop.nppa.org/2006/thumbnails/512/00010547-INS-63710/124345.jpg" width="350" border="0" /></a></p>
+<p>I saw this in yesterday's Washington Post and just learned it won the <a href="http://web.archive.org/web/20120619234105/http://bop.nppa.org:80/2006/still_photography/winners/INS/63710/124345.html">Best of Photo Journalism Award</a> for 2006. The picture says it all, but the <a href="http://web.archive.org/web/20070609175343/http://www.msnbc.msn.com:80/id/7245228/site/newsweek/">story</a> is just as harrowing. What a sad mess.</p>

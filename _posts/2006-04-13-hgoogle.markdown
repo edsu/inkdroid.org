@@ -1,0 +1,65 @@
+---
+layout: post
+status: publish
+published: true
+title: hGoogle
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 93
+wordpress_url: http://www.inkdroid.org/journal/?p=93
+date: '2006-04-13 08:12:02 +0000'
+date_gmt: '2006-04-13 15:12:02 +0000'
+tags: []
+comments:
+- id: 219
+  author: Bruce
+  author_email: bdarcus@gmail.com
+  author_url: ''
+  date: '2006-04-13 16:05:54 +0000'
+  date_gmt: '2006-04-13 23:05:54 +0000'
+  content: I've only JUST looked at the new calendar stuff, but Google does support
+    iCal and some sort of XML feed (Atom?). Surely those are standards, and have proven
+    more useful to date than microformats? That's not to say they can't do better
+    of course.
+- id: 221
+  author: Administrator
+  author_email: ehs@pobox.com
+  author_url: http://www.inkdroid.org
+  date: '2006-04-13 17:07:11 +0000'
+  date_gmt: '2006-04-14 00:07:11 +0000'
+  content: Yeah, totally -- that's why I thought the initial reaction about hCalendar
+    was a bit premature.
+- id: 23893
+  author: Tom
+  author_email: tmbdev@gmail.com
+  author_url: ''
+  date: '2007-04-24 09:48:23 +0000'
+  date_gmt: '2007-04-24 16:48:23 +0000'
+  content: At this point, microformats are just a bunch of wiki pages, not an "open
+    standard" (they're open, just not standards).  Furthermore, Google offers RSS,
+    iCal, and configurable HTML feeds for the calendars--how much more open do you
+    want them to get?
+- id: 23931
+  author: ed
+  author_email: ehs@pobox.com
+  author_url: http://www.inkdroid.org
+  date: '2007-04-24 10:50:24 +0000'
+  date_gmt: '2007-04-24 17:50:24 +0000'
+  content: I thought it was evident how much more open I wanted them to get :-)
+---
+<p><a href="http://www.google.com/calendar/"><img src="http://www.google.com/calendar/images/calendar_sm2.gif" border="0" align="left" style="margin-right:15px" /></a>So it's been <a href="http://microformats.org/discuss/mail/microformats-discuss/2006-April/thread.html#3661">noted</a> elsewhere that the latest ajaxy application out of google labs (<a href="http://www.google.com/calendar">Google Calendar</a>) lacks support for the <a href="http://microformats.org/wiki/hcalendar">hCalendar</a> microformat.</p>
+<p>Perhaps it's an oversight--but with all the high profile <a href="http://radar.oreilly.com/archives/2006/03/etech_ray_ozzie.html">exposure</a> microformats have been getting lately it's kind of hard to imagine. But people have deadlines and some things just can't make it into the first release--even at Google. The main thing, as Mark Pilgrim says is:</p>
+<blockquote><p>
+Sniping from the sidelines makes us look petty and insular.  Instead<br />
+of making assumptions about big bad evil Google ignoring open<br />
+standards and locking users in, have we tried opening a dialogue?
+</p></blockquote>
+<p>I don't know anyone at google so I feel like I'm doing my part by just blogging about how <em>awesome</em> it would be if they marked up their calendar data using hCalendar. As a full featured calendaring application on the web, Google Calendar could really enable  downstream applications like the <a href="http://web.archive.org/web/20060720020831/http://spaces.msn.com:80/editorial/rayozzie/demo/liveclip/liveclipsample/clipboardexample.html">LiveClipboard</a> if they simply added some class attributes and spans to the data they are already displaying.</p>
+<p>In the long run I imagine it's in Google's best interests to promote microformats since their infrastructure would allow them to take best advantage of a system of distributed metadata. Here's to hoping that it'll be layered in sometime soon. In the meantime <a href="http://microformats.org/discuss/mail/microformats-discuss/2006-April/003669.html">Scott and Mark</a> have the right idea!</p>
+<p>By the way, being able to enter a quick event in free text and have the time/location/description parsed as opposed to tabbing around in a complicated form is very nice.</p>

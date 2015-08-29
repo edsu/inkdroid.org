@@ -1,0 +1,33 @@
+---
+layout: post
+status: publish
+published: true
+title: ruby-zoom
+author:
+  display_name: Administrator
+  login: admin
+  email: ed.summers@gmail.com
+  url: http://www.inkdroid.org
+author_login: admin
+author_email: ed.summers@gmail.com
+author_url: http://www.inkdroid.org
+wordpress_id: 37
+wordpress_url: http://www.inkdroid.org/journal/?p=37
+date: '2005-10-07 15:06:15 +0000'
+date_gmt: '2005-10-07 22:06:15 +0000'
+tags: []
+comments:
+- id: 7856
+  author: Walter McGinnis
+  author_email: walter@katipo.co.nz
+  author_url: http://blog.katipo.co.nz/?p=26
+  date: '2006-11-10 21:47:35 +0000'
+  date_gmt: '2006-11-11 04:47:35 +0000'
+  content: "I've outlined how to install Zebra, YAZ, and ruby-zoom on Debian Testing
+    (etch).\r\n\r\nYou can find it here:\r\n\r\nhttp://blog.katipo.co.nz/?p=26\r\n\r\nCheers,\r\nWalter"
+---
+<p>If you ever need to do z39.50 from ruby and have successfully built and installed <a href="http://ruby-zoom.rubyforge.org/">ruby-zoom</a> only to see:</p>
+<pre><code>   biblio:~ ed$ irb   irb(main):001:0> require 'zoom'   dyld: NSLinkModule() error   dyld: Symbol not found: _ZOOM_connection_search     Referenced from: /usr/lib/ruby/site_ruby/1.8/powerpc-darwin8.0/zoom.bundle     Expected in: flat namespace </code></pre>
+<p>or a similar error about missing symbols...never fear! The <a href="http://www.indexdata.dk/yaz/">YAZ</a> toolkit doesn't build a shared library by default. It's confusing because the ruby-zoom package builds fine with header files. When building YAZ you'll need to:</p>
+<pre>biblio:/usr/src/yaz-2.1.8 ed$ ./configure --enable-shared</pre>
+<p>Submitted here to help similar users who are flailing wildly in Google.</p>

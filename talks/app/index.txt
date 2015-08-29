@@ -1,0 +1,320 @@
+.. include:: <s5defs.txt>
+
+app primer
+==========
+
+.. image:: images/atom.png
+   :align: center
+   :height: 250
+
+.. class:: center
+
+Ed Summers <ehs@pobox.com>
+
+Who?
+----
+.. raw:: html
+
+  <br />
+  <br />
+
+.. figure:: images/duran.jpg
+   :align: center
+   :width: 600
+   
+What?
+-----
+
+.. raw:: html
+
+  <br />
+  Main Entry: <b><sup>1</sup>primer</b> <a
+  href="javascript:popWin('/cgi-bin/audio.pl?primer01.wav=primer')"><img
+  src="/images/audio.gif" border=0 height=11 width=16></a><br>
+  Pronunciation:  <tt>'pri-m&amp;r, <i>chiefly British</i> 'prI-m&amp;r</tt><br>
+
+  Function: <i>noun</i><br>
+  Etymology:  Middle English, layperson's prayer book, from Anglo-French, from
+  Medieval Latin <i>primarium,</i> from Late Latin, neuter of <i>primarius</i>
+  primary<br>
+  <b>1</b> <b>:</b> a small book for teaching children to read<br><b>2</b>
+  <b>:</b> a small introductory book on a subject<br><b>3</b> <b>:</b> a short
+  informative piece of writing
+
+RFC 4287
+--------
+
+.. raw:: html
+
+  <pre>
+  <div class="syn">
+  <span class="synIdentifier">&lt;feed </span><span class="synType">xmlns</span>=<span class="synConstant">&quot;http://www.w3.org/2005/Atom&quot;</span><span class="synIdentifier">&gt;</span>
+    <span class="synIdentifier">&lt;id&gt;</span>http://planet.code4lib.org<span class="synIdentifier">&lt;/id&gt;</span>
+    <span class="synIdentifier">&lt;title&gt;</span>planet code4lib<span class="synIdentifier">&lt;/title&gt;</span>
+    <span class="synIdentifier">&lt;updated&gt;</span>2007-02-25T02:02:04+00:00<span class="synIdentifier">&lt;/updated&gt;</span>
+    <span class="synIdentifier">&lt;entry&gt;</span>
+      <span class="synIdentifier">&lt;title&gt;</span>code4lib: Code4Lib 2008 will be in Portland, OR<span class="synIdentifier">&lt;/title&gt;</span>
+      <span class="synIdentifier">&lt;link </span><span class="synType">rel</span>=<span class="synConstant">&quot;alternate&quot;</span><span class="synIdentifier"> </span><span class="synType">type</span>=<span class="synConstant">&quot;text/html&quot;</span><span class="synIdentifier"> </span>
+  <span class="synIdentifier">      </span><span class="synType">href</span>=<span class="synConstant">&quot;http://www.code4lib.org/node/166&quot;</span><span class="synIdentifier">/&gt;</span>
+      <span class="synIdentifier">&lt;id&gt;</span>http://planet.code4lib.org/166<span class="synIdentifier">&lt;/id&gt;</span>
+      <span class="synIdentifier">&lt;updated&gt;</span>2007-02-25T01:06:59+00:00<span class="synIdentifier">&lt;/updated&gt;</span>
+      <span class="synIdentifier">&lt;author&gt;&lt;name&gt;</span>Roy Tennant<span class="synIdentifier">&lt;/name&gt;&lt;/author&gt;</span>
+      <span class="synIdentifier">&lt;content </span><span class="synType">type</span>=<span class="synConstant">&quot;html&quot;</span><span class="synIdentifier">&gt;</span>
+        Voting on the location of Code4Lib 2008 is now closed and the offer 
+        from Oregon State University to host in Portland, OR is the winner...
+      <span class="synIdentifier">&lt;/content&gt;</span>
+    <span class="synIdentifier">&lt;/entry&gt;</span>
+  <span class="synIdentifier">&lt;/feed&gt;</span>
+  </div>
+  </pre>
+
+Representational State Transfer
+-------------------------------
+.. raw:: html
+
+   <br />
+
+.. figure:: images/roy_fielding.jpg
+   :align: center
+
+   `Architectural Styles and the Design of Network-based Software Architectures`__
+
+.. class:: incremental
+
+  * application state and functionality are divided into resources 
+  * resources are uniquely addressable using a universal syntax `(e.g. URIs)`
+  * all resources share a uniform interface for the transfer of state between
+    client and resource `(e.g. HTTP)`
+  * behind the scenes with Live HTTP Headers
+
+__ http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
+
+Atom Publishing Protocol
+------------------------
+
+.. raw:: html
+
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+
+.. class:: center
+
+  .. class:: huge
+
+  Atom + REST = APP
+
+A Few Particulars
+-----------------
+
+.. class:: incremental
+
+  * `IETF atompub working group`__ (process__, `discussion list`__)
+  * service 
+  * workspace
+  * collection (feed)
+  * resource (entries and media entries)
+
+__ http://www.rfc-editor.org/rfc/rfc2026.txt
+__ http://www.imc.org/atom-protocol/
+__ http://tools.ietf.org/wg/atompub/
+
+Service Document
+----------------
+
+.. raw:: html
+
+  <pre>
+  <div class="syn">
+  <span class="synComment">&lt;?</span><span class="synType">xml version</span>=<span class="synConstant">&quot;1.0&quot;</span><span class="synType"> encoding</span>=<span class="synConstant">'utf-8'</span><span class="synComment">?&gt;</span>
+  <span class="synIdentifier">&lt;service </span><span class="synType">xmlns</span>=<span class="synConstant">&quot;http://purl.org/atom/app#&quot;</span>
+  <span class="synIdentifier">         </span><span class="synType">xmlns</span><span class="synComment">:</span><span class="synType">atom</span>=<span class="synConstant">&quot;http://www.w3.org/2005/Atom&quot;</span><span class="synIdentifier">&gt;</span>
+    <span class="synIdentifier">&lt;workspace&gt;</span>
+      <span class="synIdentifier">&lt;</span><span class="synSpecial">atom</span><span class="synComment">:</span><span class="synIdentifier">title&gt;</span>One Big Library<span class="synIdentifier">&lt;/</span><span class="synSpecial">atom</span><span class="synComment">:</span><span class="synIdentifier">title&gt;</span>
+      <span class="synIdentifier">&lt;collection </span><span class="synType">href</span>=<span class="synConstant">&quot;http://onebiglibrary.net/story/&quot;</span><span class="synIdentifier"> &gt;</span>
+        <span class="synIdentifier">&lt;</span><span class="synSpecial">atom</span><span class="synComment">:</span><span class="synIdentifier">title&gt;</span>Stories<span class="synIdentifier">&lt;/</span><span class="synSpecial">atom</span><span class="synComment">:</span><span class="synIdentifier">title&gt;</span>
+      <span class="synIdentifier">&lt;/collection&gt;</span>
+      <span class="synIdentifier">&lt;collection </span><span class="synType">href</span>=<span class="synConstant">&quot;http://onebiglibrary.net/pics/&quot;</span><span class="synIdentifier">&gt;</span>
+        <span class="synIdentifier">&lt;</span><span class="synSpecial">atom</span><span class="synComment">:</span><span class="synIdentifier">title&gt;</span>Pictures<span class="synIdentifier">&lt;/</span><span class="synSpecial">atom</span><span class="synComment">:</span><span class="synIdentifier">title&gt;</span>
+        <span class="synIdentifier">&lt;accept&gt;</span>image/*<span class="synIdentifier">&lt;/accept&gt;</span>
+      <span class="synIdentifier">&lt;/collection&gt;</span>
+    <span class="synIdentifier">&lt;/workspace&gt;</span>
+    <span class="synIdentifier">&lt;workspace&gt;</span>
+      ...
+    <span class="synIdentifier">&lt;/workspace&gt;</span>
+  <span class="synIdentifier">&lt;/service&gt;</span>
+  </div>
+  </pre>
+
+Create
+------
+
+.. raw:: html
+
+  <pre>
+
+
+
+
+
+         Client                                     Server
+           |                                           |
+           |  1.) POST to URI of Collection            |
+           |------------------------------------------>|
+           |                                           |
+           |  2.) 201 Created                          |
+           |      Location: Member Entry URI           |
+           |<------------------------------------------|
+           |                                           |
+
+  </pre>
+
+Read
+----
+
+.. raw:: html
+
+  <pre>
+
+
+
+
+
+         Client                                     Server
+           |                                           |
+           |  1.) GET to Member URI                    |
+           |------------------------------------------>|
+           |                                           |
+           |  2.) Member Representation                |
+           |<------------------------------------------|
+           |                                           |
+
+Update
+------
+
+.. raw:: html
+
+  <pre>
+
+
+
+
+
+         Client                                     Server
+           |                                           |
+           |  1.) PUT to Member URI                    |
+           |------------------------------------------>|
+           |                                           |
+           |  2.) 200 OK                               |
+           |<------------------------------------------|
+           |                                           |
+
+Delete
+------
+
+.. raw:: html
+
+  <pre>
+
+
+
+
+
+         Client                                     Server
+           |                                           |
+           |  1.) DELETE to Member URI                 |
+           |------------------------------------------>|
+           |                                           |
+           |  2.) 200 Ok                               |
+           |<------------------------------------------|
+           |                                           |
+
+Google Data
+-----------
+
+* `Google Base`__
+* `Blogger`__
+* `Google Calendar`__
+* `Google Code Search`__
+* `Google Notebook`__
+* `Google Spreadsheets`__
+* `Developer's Guide`__
+
+__ http://code.google.com/apis/base/
+__ http://code.google.com/apis/blogger/
+__ http://code.google.com/apis/calendar/
+__ http://code.google.com/apis/codesearch/
+__ http://code.google.com/apis/notebook/
+__ http://code.google.com/apis/spreadsheets/
+__ http://code.google.com/apis/gdata/index.html
+
+The Ultimate Web Programming Language
+-------------------------------------
+.. raw:: html
+
+  <br />
+  <br />
+  <br />
+  <br />
+
+.. image:: images/curl.jpg
+  :align: center
+
+invoke(thom)
+------------
+.. raw:: html
+
+  <br />
+
+.. image:: images/thom.jpg
+   :align: center
+   :height: 450
+
+Advantages
+----------
+
+.. class:: incremental
+
+  * ease of implementation
+  * using (rather than extending) the web
+  * scaling with the web
+  * defer to http for security 
+  * resolvable familiar identifiers
+  * extensible
+  * media types__
+
+__ http://www.xml.com/pub/a/2004/07/21/dive.html
+
+Loose Ends
+----------
+
+.. class:: incremental
+
+  * categories
+  * media resources and media link entries
+  * webdav__
+  * oai-pmh
+  * repositories (dspace, fedora, eprints, etc)
+
+__ http://www.intertwingly.net/wiki/pie/WebDav
+
+Links
+-----
+
+* Getting to know the Atom Publishing Protocol (1__, 2__) by James Snell
+* `The Atom Syndication Format`__
+* `atom-protocol mailing list`__
+* `atom project wiki`__
+* `these slides`__
+* `code samples`__
+
+__ http://www-128.ibm.com/developerworks/library/x-atompp1/
+__ http://www-128.ibm.com/developerworks/library/x-atompp2/
+__ http://www.atomenabled.org/developers/syndication/
+__ http://www.imc.org/atom-protocol/
+__ http://www.intertwingly.net/wiki/pie/
+__ http://www.inkdroid.org/talks/app
+__ http://textualize.com/svn/app_primer
+

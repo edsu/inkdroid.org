@@ -1,0 +1,21 @@
+---
+layout: post
+status: publish
+published: true
+title: pylucene
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 12
+wordpress_url: http://www.inkdroid.org/journal/?p=12
+date: '2005-06-09 04:16:15 +0000'
+date_gmt: '2005-06-09 11:16:15 +0000'
+tags: []
+comments: []
+---
+<p>I'm going to be doing a lightning talk tonight at the <a href="http://www.chipy.org">Chicago Python Group</a>  about <a href="http://pylucene.osafoundation.org/">pylucene</a>. pylucene essentially lets you use the popular <a href="http://lucene.apache.org">Lucene</a> indexing library (Java) in Python. No time limit has been set for the lightning talks (and <a href="http://husk.org/pics/x/trips/yapc_eu_paris_2003-07/people_and_places/mjd_and_lighting_talk_gong.jpg">mjd</a> won't be there with his gong) but I hope to quickly cover how to index an mbox with pylucene in 5 minutes. There are <a href="http://www.inkdroid.org/talks/pylucene">slides</a>, which are there mainly as cue cards.</p>

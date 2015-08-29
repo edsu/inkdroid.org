@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>SKOS - Simple Knowledge Organization System</title>
+<!-- configuration parameters -->
+<meta name="defaultView" content="slideshow" />
+<meta name="controlVis" content="hidden" />
+<!-- style sheet links -->
+<link rel="stylesheet" href="ui/default/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/default/outline.css" type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/default/print.css" type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
+<link rel="stylesheet" href="ui/default/card.css" type="text/css" />
+<!-- S5 JS -->
+<script src="ui/default/slides.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="layout">
+<div id="controls"><!-- DO NOT EDIT --></div>
+</div>
+
+<div class="presentation">
+
+<div class="slide">
+LCSH and SKOS
+</div>
+
+<div class="slide">
+    <div class='cardimage' style="margin-top: 10%; margin-left: 15%; margin-right: 15%;"> 
+        <p class='mainheading'>Berners-Lee, Tim.</p>
+        <span class='title'>Weaving the Web the original design and ultimate
+            destiny of the World Wide Web by its inventor. By Tim Berners-Lee with Mark Fischetti.</span>
+        <p class='extent'>226 p.</p>
+        <p class='note'>&quot;Foreword by Michael Detouzos.&quot;</p><p class='note'>1999</p>
+        <span class='counter'>1.</span>
+        <span class='subject'>World Wide Web</span>
+        <span class='counter'>2.</span>
+        <span class='subject'>Berners-Lee, Tim</span>
+        <span class='bottom'>
+            <span class='oclc'>#ocm41238513  </span>
+            <span class='LCCN'> LCCN: 99027665  </span>
+            <span class='DDC'>025.04 21</span>
+        </span>
+    </div>
+    <br />
+    <br />
+    <div style="text-align: center">
+        <a href="99-27665-marc.xml">marc</a> | 
+        <a href="99-27665-mods.xml">mods</a> |
+        <a href="99-27665-dc.xml">dc</a> |
+        <a href="99-27665.rdf">rdf/xml</a> |
+        <a href="99-27665.txt">turtle</a> 
+    </div>
+</div>
+
+<div class="slide" style="margin-top: 2%; margin-left: 5%; margin-right: 5%;">
+<pre style="font-size: 14pt;">
+=001  4865449
+=005  20011001235750.0
+=008  950125||\anannbabn\\\\\\\\\\|a\ana\\\\\\
+=035  \\$a(DLC)sh 95000541
+=010  \\$ash 95000541 
+=053  \0$aTK5105.888$cTelecommunication
+=053  \0$aZA4195$bZA4235$cInformation resources
+=150  \\$aWorld Wide Web
+=450  \\$aW3 (World Wide Web)
+=450  \\$aWeb (World Wide Web)
+=450  \\$wnne$aWorld Wide Web (Information retrieval system)
+=450  \\$aWWW (World Wide Web)
+=550  \\$wg$aHypertext systems
+=550  \\$wg$aMultimedia systems
+=550  \\$aInternet
+=670  \\$aWork cat.: 94067520: December, J. The World Wide Web Unleashed,
+c1994$b(WWW, the Web, a distributed hypermedia system, a collection of
+interconnected hardware, software, and networked systems, it is a concept, not a
+program, system, or protocol, it is an interface)
+=670  \\$a94234135: Brown, S. The Internet via Mosaic and World Wide Web,
+c1994$b(WWW, the Web) p. 35 (Although the WWW is primarily used on a global
+scale as a part of the Internet, it is feasible for a two-machine network to run
+the WWW client/server software)
+=670  \\$aInternet publishing handbook, c1995:$bp. 15 (World-Wide Web system is
+known by its various names: WWW, W3, and Web)
+=670  \\$aMAGS, Dec. 8, 1995:$barticle by Robert M. Metcalfe (first generation
+of WWW based on Hypertext Transfer Protocol and Hypertext Transfer Markup
+Language)
+=675  \\$aASTI;$aEngr. index;$aWeb. 3
+</pre>
+</div>
+
+<div class="slide" style="margin-top: 2%; margin-left: 5%; margin-right: 5%;">
+<pre style="font-size: 14pt;">
+=LDR  00852cz  a2200253n  4500
+=001  4815930
+=005  19940614140309.4
+=008  880502i|\anannbabn\\\\\\\\\\|a\ana\\\\\\
+=035  \\$a(DLC)sh 88002671
+=906  \\$t9422$ute04$v0
+=010  \\$ash 88002671 
+=040  \\$aDLC$cDLC$dDLC
+=053  \0$aQA76.76.H94
+=150  \\$aHypertext systems
+=450  \\$aHypertext
+=550  \\$wg$aInteractive multimedia
+=670  \\$aWork cat.: Kearsley, G. Hypertext : a hands-on 
+introduction of the IBM PC, 1988.
+=670  \\$aComputer:$bSept. 1987, pp. 17-41.
+=670  \\$aIAC$b(Hypertext software)
+=670  \\$aUMI business vocab.$b(Hypertext systems, use Hypertext)
+=675  \\$aComputer dict.;$aIEEE standard glossary of software 
+...;$aStardard glossary of computer terminology
+=952  \\$aLC pattern: Videotex systems
+=952  \\$aLC-BRF
+=953  \\$afg09$bse01
+</pre>
+</div>
+
+<div class="slide" style="margin: 7%;">
+  <h1>SKOS - what is it?</h1>
+  <ul>
+    <li>SWDWG @ W3C est. February 2003</li>
+    <li>Resource Description Framework: subject, predicate, object</li>
+    <li>thesauri, classification schemes, subject heading lists, taxonomies,
+    folksonomies, and other types of controlled vocabulary</li>
+    <li>32 vocabulary elements: skos:Concept, skos:prefLabel, skos:altLabel ...</li>
+    <li><a href="http://www.w3.org/TR/skos-primer/">SKOS Primer</a>
+    <li><a href="http://www.w3.org/TR/2008/WD-skos-reference-20080125/">SKOS Reference</a>
+</div>
+
+<div class="slide" style="font-size: 16pt;">
+<pre>
+@prefix lccn: &lt;info:lccn/&gt;.
+@prefix lcsh: &lt;http://loc.gov/lcsh/&gt;.
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt;.
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;.
+@prefix skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;.
+
+ lcsh:sh95000541 a skos:Concept;
+     owl:sameAs lccn:sh95000541;
+     skos:altLabel "W3 (World Wide Web)"@en,
+         "WWW (World Wide Web)"@en,
+         "Web (World Wide Web)"@en,
+         "World Wide Web (Information retrieval system)"@en;
+     skos:broader lcsh:sh88002671,
+         lcsh:sh92002381;
+     skos:editorialNote "94234135: Brown, S. The Internet via Mosaic and 
+         World Wide Web, c1994 (WWW, the Web) p. 35 ... "@en, 
+         "ASTI; Engr. index; Web. 3"@en,
+         "Internet publishing handbook, c1995: p. 15 (World-Wide Web 
+         system is known by its various names: WWW, W3, and Web)"@en,
+         "MAGS, Dec. 8, 1995: article by Robert M. Metcalfe (first 
+         generation of WWW based on Hypertext Transfer Protocol ..."@en,
+         "Work cat.: 94067520: December, J. The World Wide Web Unleashed, 
+         c1994 (WWW, the Web, a distributed hypermedia system, ..."@en;
+     skos:narrower lcsh:sh2002000569,
+         lcsh:sh2003001415,
+         lcsh:sh2007008317,
+         lcsh:sh2007008319,
+         lcsh:sh97003254;
+     skos:prefLabel "World Wide Web"@en;
+     skos:related lcsh:sh92002816. 
+</pre>
+</div>
+
+<div class="slide">
+    <div style="text-align: center; margin-top: 30px;">
+        <a href="rdf-graph.png"><img src="rdf-graph.png" border="0"/></a>
+    </div>
+</div>
+
+<div class="slide">
+    <div style="text-align: center">
+        <img src="www1.png" />
+    </div>
+</div>
+
+<div class="slide">
+    <div style="text-align: center">
+        <a href="www2.png"><img src="www2.png" border="0"/></a>
+    </div>
+</div>
+
+<div class="slide" style="margin: 7%">
+  <h1>Linked Data Design Principles</h1>
+  <ol>
+    <li>Use URIs as names for things</li>
+    <li>Use HTTP URIs so that people can look up those names</li>
+    <li>When someone looks up a URI, provide useful information</li>
+    <li>Include links to other URIs, so that they can discover more things</li>
+  </ol>
+</div>
+
+<div class="slide" style="margin: 7%">
+  <h1>Linked Data Details</h1>
+  <ul>
+    <li><a href="http://www.w3.org/DesignIssues/LinkedData.html">Linked Data Design Issues</a></li>
+    <li><a href="http://www.w3.org/TR/2007/WD-cooluris-20071217/">Cool URIs for the Semantic Web</a></li>
+    <li><a href="http://www4.wiwiss.fu-berlin.de/bizer/pub/LinkedDataTutorial/">How to Publish Linked Data on the Web</a></li>
+  </ul>
+</div>
+
+<div class="slide" style="margin: 7%">
+  <h1>Linked Open Data</h1>
+  <br />
+  <div style="text-align: center">
+      <a href="http://richard.cyganiak.de/2007/10/lod/"><img src="lod.png" border="0" border="0" /></a>
+  </div>
+</div>
+
+<div class="slide" style="margin: 7%;">
+<pre>
+@prefix dc: &lt;http://purl.org/dc/terms/&gt; .
+
+&lt;http://lccn.loc.gov/99027665&gt;
+  dc:title "Weaving the Web : the original design 
+    and ultimate destiny of the World Wide Web by 
+    its inventor /" ;
+  dc:creator "Berners-Lee, Tim." ;
+  dc:creator "Fischetti, Mark." ;
+  dc:type "text" ; 
+  dc:publisher "San Francisco : HarperSanFrancisco" ;
+  dc:date "1999" ;
+  dc:language "eng" ;
+  dc:description "Includes index." ;
+  dc:subject "Berners-Lee, Tim." ;
+  dc:subject "World Wide Web" ;
+  dc:identifier "URN:ISBN:0062515861 (cloth)" ;
+  dc:identifier "URN:ISBN:006251587X (paper)" .
+</pre>
+</div>
+
+<div class="slide" style="margin: 7%;">
+<pre>
+@prefix dc: &lt;http://purl.org/dc/terms/&gt; .
+
+&lt;http://lccn.loc.gov/99027665&gt;
+  dc:title "Weaving the Web : the original design 
+    and ultimate destiny of the World Wide Web by 
+    its inventor /" ;
+  dc:creator "Berners-Lee, Tim." ;
+  dc:creator "Fischetti, Mark." ;
+  dc:type "text" ; 
+  dc:publisher "San Francisco : HarperSanFrancisco" ;
+  dc:date "1999" ;
+  dc:language "eng" ;
+  dc:description "Includes index." ;
+  dc:subject "Berners-Lee, Tim." ;
+  dc:subject <a href="http://rg.rdc.lctl.gov:8082/lcsh/sh95000541">&lt;http://loc.gov/lcsh/sh95000542&gt;</a> ;
+  dc:identifier &lt;urn:isbn:0062515861&gt; ;
+  dc:identifier &lt;urn:isbn:006251587X&gt; .
+</pre>
+</div>
+
+<div class="slide" style="margin: 7%;">
+  <h1>http machines</h1>
+  <p>
+  curl --locate --header "Accept: application/rdf+xml" http://loc.gov/lcsh/sh95000541
+  <br />
+  <br />
+  curl --locate --header "Accept: text/n3" http://loc.gov/lcsh/sh95000541
+  <br />
+  <br />
+  curl --locate --header "Accept: application/json" http://loc.gov/lcsh/sh95000541
+  </p>
+</div>
+
+<div class="slide" style="margin: 7%;">
+  <h1>implementation details</h1>
+  <ul>
+    <li>python</li>
+    <li>lcsh2skos: 196 lines</li>
+    <li>web application: 240 lines</li>
+    <li>1891135 triples</li>
+    <li>apache, linux, rdc</li>
+    <li>dkre</li>
+  </ul>
+</div>
+
+<div class="slide" style="margin: 7%;">
+  <h1>open issues</h1>
+  <ul>
+    <li>coordination</li>
+    <li>custom ontology development</li>
+    <li>production deployment issues</li>
+  </ul>
+</div>
+
+</div>
+
+</body>
+</html>

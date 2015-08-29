@@ -1,0 +1,31 @@
+---
+layout: post
+status: publish
+published: true
+title: "#c4l15"
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 8446
+wordpress_url: http://inkdroid.org/journal/?p=8446
+date: '2015-02-10 09:40:39 +0000'
+date_gmt: '2015-02-10 16:40:39 +0000'
+tags:
+- url
+- node
+- twitter
+comments: []
+---
+<p><a href="http://code4lib.org/conference/2015/">code4lib 2015</a> is about to kick off in Portland this morning. Unfortunately I couldn't make it this year, but I'm looking forward to watching the <a href="https://www.youtube.com/user/code4lib">livestream</a> over the next few days. Thanks so much to the conference organizers for setting up the livestream. The <a href="http://code4lib.org/conference/2015/schedule">schedule</a> has the details about who is speaking when.</p>
+<p>As a little gift to real and virtual conference goers (mostly myself) I quickly created <a href="http://inkdroid.org/c4l15-urls/">a little web app</a> that will watch the Twitter stream for #c4l15 tweets, and keep track of which URLs people are talking about. You can see it running, at least while the conference is going <a href="http://inkdroid.org/c4l15-urls/">here</a>.</p>
+<p>I've done this sort of thing in an ad hoc way with <a href="http://github.com/edsu/twarc">twarc</a> and some scripts--mostly after (rather than during) an event. For example here's <a href="https://gist.github.com/edsu/c8027057f20dc8c29eb6">a report</a> of URLs mentioned during <a href="https://twitter.com/search?q=%23dlfforum">#dlfforum</a>. But I wanted something a bit more dynamic. As usual the somewhat unkempt code is up on Github as a project named <a href="http://github.com/edsu/earls">earls</a>, in case you have ideas you'd like to try out.</p>
+<p><a href="http://inkdroid.org/c4l15-urls/"><img src="http://inkdroid.org/images/earls.png" alt="#c4l15 urls, or earls" /></a></p>
+<p>earls is a <a href="http://nodejs.org">node</a> app that listens to Twitter's <a href="https://dev.twitter.com/streaming/overview/request-parameters">filter stream API</a> for tweets mentioning <code>#c4l15</code>. When it finds one it then looks for 1 or more links in the tweet. Each link is fetched (which also unshortens it), it tries to parse any HTML (thanks <a href="https://github.com/cheeriojs/cheerio">cheerio</a>) to find a page title, and then stashes these details as well as the tweet in <a href="http://redis.io">redis</a>.</p>
+<p>When you load the page it will show you the latest counts for all URLs it has found so far. Unfortunately at the moment you need to reload the page to get an update. If I have time I will work on making it update live in the page with <a href="http://socket.io">socket.io</a>. earls could be used for other conferences, and ought to run pretty easily on heroku for free.</p>
+<p>Oh, and you can see the JSON data <a href="http://inkdroid.org/c4l15-urls/stats.json">here</a> in case you have other ideas of things you'd like to do with the data.</p>
+<p><strong>Have a superb conference you crazy dreamers and doers!</strong></p>

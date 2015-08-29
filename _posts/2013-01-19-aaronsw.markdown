@@ -1,0 +1,258 @@
+---
+layout: post
+status: publish
+published: true
+title: aaronsw
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 5460
+wordpress_url: http://inkdroid.org/journal/?p=5460
+date: '2013-01-19 15:07:30 +0000'
+date_gmt: '2013-01-19 22:07:30 +0000'
+tags:
+- internet archive
+- twitter
+- aaronsw
+comments:
+- id: 85671
+  author: Aaron Swartz and Too-Comfortable Research Libraries &#8211; Library Hat
+  author_email: ''
+  author_url: http://www.bohyunkim.net/blog/archives/2421
+  date: '2013-02-21 16:53:36 +0000'
+  date_gmt: '2013-02-21 23:53:36 +0000'
+  content: "[...] Summers, Ed. 2013. “Aaronsw | Inkdroid.” Accessed February 21. http://inkdroid.org/journal/2013/01/19/aaronsw/.
+    [...]"
+---
+<p>Aaron Swartz left us all a week ago. It's strange, I only met Aaron once at the Internet Archive, and had a handful of conversations with him via email/irc ... but not a day has passed since last Saturday that I haven't thought about him, and his principled life.</p>
+<p>I've been asked a few times why Aaron has been on my mind so much, and I've struggled to put it into words. Meanwhile, so many thoughtful things have been written about him. The arc of his life, his ideals, and abilities, charisma, and chutzpah, seem larger than life. And yet, he was just a person, a son, a friend, with people who loved him. It's just heartbreaking.</p>
+<hr />
+<p>I work as a software developer in libraryland, trying to bridge the world of information we've had with the world we are building on the Web. So for me, Aaron was a role model, a teacher whose lessons weren't in textbooks or scholarly journals, but in his blog, in his code, in his talks, in his experiments with real world results. He was only 26 when he died, but he was, and remains, as Tim Berners-Lee paradoxically <a href="http://lists.w3.org/Archives/Public/www-tag/2013Jan/0017.html">called him</a>, a "wise elder".</p>
+<p>I wanted to write something here, but more than that I wanted to do something.</p>
+<hr />
+<p>I noticed that <a href="http://archive.org/">Internet Archive</a> created a <a href="http://archive.org/details/aaronsw">collection</a> devoted to online material related to Aaron, and thought I would try to collect together all the Twitter conversations that mention him. Twitter's search is limited to the last week, so I quickly wrote a <a href="http://github.com/edsu/twarc">command line utility</a> that pages through search results using their <a href="https://dev.twitter.com/docs/api/1.1/get/search/tweets">API</a>, and writes out the complete data as line-oriented JSON. I also pulled in the tweets that mention #pdftribute since they were largely inspired by Aaron's efforts in the open access space. I packaged up the data using <a href="http://en.wikipedia.org/wiki/BagIt">BagIt</a> and <a href="http://archive.org/details/AaronswRelatedTweets">put it up</a> at Internet Archive. Here's the description from the bag-info.txt</p>
+<blockquote><p>
+  On January 11, 2013 the Internet activist Aaron Swartz took his own life, and a great deal of grief, anger, and constructive thinking erupted on the Web and in Twitter. In particular the #pdftribute Twitter tag was born, in an attempt to raise awareness about Open Access issues, that Aaron did so much to futher during his life.</p>
+<p>This package contains Twitter JSON data for two Twitter search queries that were collected in the week following Aaron's death:</p>
+<ul>
+<li>"Aaron Swartz" OR aaronsw</li>
+<li>#pdftribute</li>
+</ul>
+<p>aaronsw.json.gz contains 630,397 tweets, for the period starting with 2013-01-11 16:50:22 and ending 2013-01-18 13:50:02.</p>
+<p>pdftribute.json.gz contains 42,277 tweets, for the period starting with Jan 13 02:42:26 and ending Jan 17 03:33:46.</p>
+<p>In addition the URLs mentioned in the tweets found in aaronsw.tar.gz were extracted, unshortened, and then aggregated to provide a report of what people linked to. These URLs are available in aaronsw-urls.txt.gz.</p>
+<p>  It is hoped that this data will help document the Web community's response to Aaron's death, and life.
+</p></blockquote>
+<p>Below is a list of the top 50 links shared in tweets about Aaron. There were 36,506 in all.</p>
+<p>
+<style>
+.aligned-table td + td {text-align: right;}<br />
+</style></p>
+<table class="aligned-table">
+<tr>
+<th>Page</th>
+<th>Shares</th>
+</tr>
+<tr>
+<td><a href="http://boingboing.net/2013/01/12/rip-aaron-swartz.html">RIP, Aaron Swartz - Boing Boing</a></td>
+<td>11763</td>
+</tr>
+<tr>
+<td><a href="http://unhandled.com/2013/01/12/the-truth-about-aaron-swartzs-crime/">The Truth about Aaron Swartz’s “Crime” « Unhandled Exception</a></td>
+<td>6641</td>
+</tr>
+<tr>
+<td><a href="http://tech.mit.edu/V132/N61/swartz.html"> Aaron Swartz commits suicide - The Tech</a></td>
+<td>5539</td>
+</tr>
+<tr>
+<td><a href="https://petitions.whitehouse.gov/petition/remove-united-states-district-attorney-carmen-ortiz-office-overreach-case-aaron-swartz/RQNrG1Ck">Remove United States District Attorney Carmen Ortiz from office for overreach in the case of Aaron Swartz.</a></td>
+<td>6478</td>
+</tr>
+<tr>
+<td><a href="http://lessig.tumblr.com/post/40347463044/prosecutor-as-bully">Prosecutor as bully - Lessig Blog</a></td>
+<td>3738</td>
+</tr>
+<tr>
+<td><a href="http://www.guardian.co.uk/commentisfree/2013/jan/12/aaron-swartz-heroism-suicide1"> The inspiring heroism of Aaron Swartz | Glenn Greenwald | Comment is free | guardian.co.uk </a></td>
+<td>2522</td>
+</tr>
+<tr>
+<td><a href="http://thinkprogress.org/justice/2013/01/14/1441211/killers-slavers-and-bank-robbers-all-face-less-severe-prison-terms-than-aaron-swartz-did/?mobile=nc">Aaron Swartz Faced A More Severe Prison Term Than Killers, Slave Dealers And Bank Robbers | ThinkProgress</a></td>
+<td>2367</td>
+</tr>
+<tr>
+<td><a href="https://www.eff.org/deeplinks/2013/01/farewell-aaron-swartz">Farewell to Aaron Swartz, an Extraordinary Hacker and Activist - EFF</a></td>
+<td>2042</td>
+</tr>
+<tr>
+<td><a href="http://www.nytimes.com/2013/01/13/technology/aaron-swartz-internet-activist-dies-at-26.html">Internet Activist, a Creator of RSS, Is Dead at 26, Apparently a Suicide - New York Times</a></td>
+<td>1927</td>
+</tr>
+<tr>
+<td><a href="http://alt1040.com/2013/01/aaron-swartz"> Aaron Swartz muere por suicidio a sus 26 años</a></td>
+<td>1572</td>
+</tr>
+<tr>
+<td><a href="http://mashable.com/2013/01/13/aaron-swartz/">Technology's Greatest Minds Say Goodbye to Aaron Swartz</a></td>
+<td>1558</td>
+</tr>
+<tr>
+<td><a href="http://alt1040.com/2013/01/aaron-swartz-contribuciones-a-la-red"> Aaron Swartz a través de 5 grandes contribuciones a la red</a></td>
+<td>1495</td>
+</tr>
+<tr>
+<td><a href="http://www.washingtonpost.com/blogs/wonkblog/wp/2013/01/12/aaron-swartz-american-hero/">Aaron Swartz, American hero</a></td>
+<td>1397</td>
+</tr>
+<tr>
+<td><a href="http://mashable.com/2013/01/12/aaron-swartz-suicide/">Internet Activist Aaron Swartz Commits Suicide</a></td>
+<td>1330</td>
+</tr>
+<tr>
+<td><a href="http://news.cnet.com/8301-1023_3-57563752-93/anonymous-hacks-mit-after-aaron-swartzs-suicide/">Anonymous hacks MIT after Aaron Swartz's suicide | Internet & Media - CNET News</a></td>
+<td>1327</td>
+</tr>
+<tr>
+<td><a href="http://www.zephoria.org/thoughts/archives/2013/01/13/aaron-swartz.html">danah boyd | apophenia  » processing the loss of Aaron Swartz</a></td>
+<td>1280</td>
+</tr>
+<tr>
+<td><a href="http://rememberaaronsw.tumblr.com/post/40372208044/official-statement-from-the-family-and-partner-of-aaron">Official Statement from the family and partner of Aaron Swartz - Remember Aaron Swartz</a></td>
+<td>1199</td>
+</tr>
+<tr>
+<td><a href="http://wilwheaton.net/2012/09/depression-lies/">depression lies | WIL WHEATON dot NET: 2.0</a></td>
+<td>1164</td>
+</tr>
+<tr>
+<td><a href="http://www.bbc.co.uk/news/world-us-canada-21001452">BBC News - Aaron Swartz, internet freedom activist, dies aged 26</a></td>
+<td>1143</td>
+</tr>
+<tr>
+<td><a href="https://www.eff.org/deeplinks/2013/01/aaron-swartz-fix-draconian-computer-crime-law">In the Wake of Aaron Swartz's Death, Let's Fix Draconian Computer Crime Law - EFF</a></td>
+<td>1088</td>
+</tr>
+<tr>
+<td><a href="http://www.huffingtonpost.com/2013/01/15/westboro-baptist-church-aaron-swartz-anonymous_n_2479019.html">Westboro Baptist Church Drops Aaron Swartz Funeral Protest After Anonymous Vows Action (VIDEO)</a></td>
+<td>1079</td>
+</tr>
+<tr>
+<td><a href="http://soupsoup.tumblr.com/post/40373383323/official-statement-from-the-family-and-partner-of">Soup • Official Statement from the Family and Partner of...</a></td>
+<td>1067</td>
+</tr>
+<tr>
+<td><a href="http://rt.com/usa/news/aaron-swartz-funeral-chicago-059/">'Aaron was killed by the government' - Robert Swartz on his son's death  — RT</a></td>
+<td>1066</td>
+</tr>
+<tr>
+<td><a href="http://pdftribute.net/">#PDFTribute list of documents</a></td>
+<td>1044</td>
+</tr>
+<tr>
+<td><a href="http://www.cnn.com/2013/01/12/us/new-york-reddit-founder-suicide/index.html">Internet prodigy, activist Aaron Swartz commits suicide - CNN.com</a></td>
+<td>1009</td>
+</tr>
+<tr>
+<td><a href="http://www.thenation.com/blog/172187/aaron-swartz">Remembering Aaron Swartz | The Nation</a></td>
+<td>1003</td>
+</tr>
+<tr>
+<td><a href="http://www.aaronsw.com/2002/continuity">If I get hit by a truck...</a></td>
+<td>991</td>
+</tr>
+<tr>
+<td><a href="http://www.lemonde.fr/technologies/article/2013/01/12/suicide-d-aaron-swartz-activiste-a-l-origine-du-format-rss-et-de-reddit_1816246_651865.html">Suicide d'Aaron Swartz, activiste à l'origine du format RSS et de Creative Commons</a></td>
+<td>938</td>
+</tr>
+<tr>
+<td><a href="http://www.zdnet.com/hacker-activist-aaron-swartz-commits-suicide-7000009725/">Hacker, Activist Aaron Swartz Commits Suicide | ZDNet</a></td>
+<td>896</td>
+</tr>
+<tr>
+<td><a href="http://www.forbiddenknowledgetv.com/videos/activism/how-we-stopped-sopa-by-aaron-swartz1986-2013.html">Activism "How We Stopped SOPA" by Aaron Swartz (1986-2013)</a></td>
+<td>896</td>
+</tr>
+<tr>
+<td><a href="http://tecnologia.elpais.com/tecnologia/2013/01/13/actualidad/1358037094_942870.html">Muere a los 26 años el ciberactivista Aaron Swartz | Tecnología | EL PAÍS</a></td>
+<td>887</td>
+</tr>
+<tr>
+<td><a href="http://www.alternet.org/10-awful-crimes-get-you-less-prison-time-what-aaron-swartz-faced">10 Awful Crimes That Get You Less Prison Time Than What Aaron Swartz Faced | Alternet</a></td>
+<td>868</td>
+</tr>
+<tr>
+<td><a href="http://www.wired.com/threatlevel/2013/01/aaron-swartz/">Aaron Swartz, Coder and Activist, Dead at 26 | Threat Level | Wired.com</a></td>
+<td>856</td>
+</tr>
+<tr>
+<td><a href="http://www.newyorker.com/online/blogs/newsdesk/2013/01/everyone-interesting-is-a-felon.html?mbid=social_retweet">How the Legal System Failed Aaron Swartz--and Us : The New Yorker</a></td>
+<td>849</td>
+</tr>
+<tr>
+<td><a href="https://aaronsw.jottit.com/howtoget">https://aaronsw.jottit.com/howtoget</a></td>
+<td>811</td>
+</tr>
+<tr>
+<td><a href="http://www.theatlanticwire.com/national/2013/01/anonymous-westboro-baptist-church-aaron-swartz-funeral/61036/">How Anonymous Got Westboro to Back Off Aaron Swartz's Funeral - National - The Atlantic Wire</a></td>
+<td>804</td>
+</tr>
+<tr>
+<td><a href="http://alt1040.com/2013/01/aaron-swartz-open-data-investigacion"> Muerte de Aaron Swartz: la necesidad del Open Data en el I+D</a></td>
+<td>779</td>
+</tr>
+<tr>
+<td><a href="http://rt.com/usa/news/swartz-suicide-court-drops-charges-997/">US court drops charges on Aaron Swartz days after his suicide — RT</a></td>
+<td>772</td>
+</tr>
+<tr>
+<td><a href="http://neuroconscience.com/2013/01/13/researchers-begin-posting-article-pdfs-to-twitter-in-pdftribute-to-aaron-swartz/">Researchers begin posting article PDFs to twitter in #pdftribute to Aaron Swartz « Neuroconscience</a></td>
+<td>745</td>
+</tr>
+<tr>
+<td><a href="http://www.quinnnorton.com/said/?p=644">  My Aaron Swartz, whom I loved.   | Quinn Said</a></td>
+<td>742</td>
+</tr>
+<tr>
+<td><a href="http://www.guardian.co.uk/commentisfree/2013/jan/12/aaron-swartz-heroism-suicide1?CMP=twt_gu"> The inspiring heroism of Aaron Swartz | Glenn Greenwald | Comment is free | guardian.co.uk </a></td>
+<td>713</td>
+</tr>
+<tr>
+<td><a href="http://arstechnica.com/tech-policy/2013/01/government-formally-drops-charges-against-aaron-swartz/">Government formally drops charges against Aaron Swartz | Ars Technica</a></td>
+<td>708</td>
+</tr>
+<tr>
+<td><a href="http://www.nakedcapitalism.com/2013/01/aaron-swartzs-politics.html">Aaron Swartz’s Politics «  naked capitalism</a></td>
+<td>704</td>
+</tr>
+<tr>
+<td><a href="http://www.cnn.com/">CNN.com - Breaking News, U.S., World, Weather, Entertainment & Video News</a></td>
+<td>690</td>
+</tr>
+<tr>
+<td><a href="http://mashable.com/2013/01/15/aaron-swartz-tech-world-depression/">After Aaron Swartz: The Tech World Must Talk About Depression</a></td>
+<td>670</td>
+</tr>
+<tr>
+<td><a href="http://web.archive.org/web/20130410145744/http://aaronsw.archiveteam.org/">JSTOR liberator</a></td>
+<td>663</td>
+</tr>
+<tr>
+<td><a href="http://mashable.com/2013/01/12/aaron-swartz-suicide/">Internet Activist Aaron Swartz Commits Suicide</a></td>
+<td>661</td>
+</tr>
+<tr>
+<td><a href="http://alt1040.com/2013/01/anonymous-mit-doj-tributo-aaron-swartz"> Anonymous tumba las webs del MIT y DOJ como tributo a Aaron Swartz</a></td>
+<td>652</td>
+</tr>
+<tr>
+<td><a href="http://mashable.com/2013/01/14/anonymous-hacks-mit/">Anonymous Hacks MIT, Leaves Farewell Message for Aaron Swartz</a></td>
+<td>647</td>
+</tr>
+</table>
+<p>There were 209,839 Twitter users that mentioned Aaron on Twitter in the last week. I was one of them. I wish I could've done more to help.</p>

@@ -1,0 +1,113 @@
+---
+layout: post
+status: publish
+published: true
+title: q & a
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 610
+wordpress_url: http://inkdroid.org/journal/?p=610
+date: '2009-01-07 14:12:57 +0000'
+date_gmt: '2009-01-07 21:12:57 +0000'
+tags:
+- lc
+- libraries
+- newspapers
+- work
+- love
+- computers
+- networks
+- knitting
+comments:
+- id: 80147
+  author: Andy Boyko
+  author_email: andy@boyko.net
+  author_url: http://openid.andy.boyko.net/
+  date: '2009-01-07 14:23:23 +0000'
+  date_gmt: '2009-01-07 21:23:23 +0000'
+  content: "/me sniffles. I miss you brainiac polymath bastards. And Pete's. Pete's,
+    a lot."
+- id: 80150
+  author: ed
+  author_email: ehs@pobox.com
+  author_url: http://www.inkdroid.org
+  date: '2009-01-07 15:00:52 +0000'
+  date_gmt: '2009-01-07 22:00:52 +0000'
+  content: I forgot to add that we talked about 2G zip files too. So you can think
+    of yourself as still here in spirit if that eases the pain. Assuming it's still
+    possible to feel pain in Northern California :-)
+- id: 80151
+  author: dchud
+  author_email: dchud@umich.edu
+  author_url: http://onebiglibrary.net/
+  date: '2009-01-07 15:43:52 +0000'
+  date_gmt: '2009-01-07 22:43:52 +0000'
+  content: Bah, I hate missing lunches like that.  On the other hand the hot and sour
+    soup was just right today in chinatown.
+- id: 80152
+  author: johnwcowan
+  author_email: cowan@ccil.org
+  author_url: ''
+  date: '2009-01-07 16:07:41 +0000'
+  date_gmt: '2009-01-07 23:07:41 +0000'
+  content: "Nothing \"lost\" about it.  It's Chapter VIII (excluding the first two
+    paragraphs) of \"The Pavilion On The Links\", an 1880 short story which forms
+    part of his 1882 collection <i>New Arabian Nights</i>.  The 1900 date given in
+    the copy presumably refers to an American edition.\r\n\r\nI'll add to your collection
+    of oddities that Finger, Gopher, and Whois are all basically the same protocol:
+    write one line to the server, then read back an arbitrary amount of text until
+    EOF.  You used to be able to talk to Finger servers using URLs of the form gopher://example.com:79/0&lt;username&gt;
+    ."
+- id: 80153
+  author: Michael J. Giarlo
+  author_email: michael.giarlo@gmail.com
+  author_url: http://lackoftalent.org/michael/
+  date: '2009-01-07 18:09:30 +0000'
+  date_gmt: '2009-01-08 01:09:30 +0000'
+  content: "I sat at my desk and ate cold, three-day-old bratwurst.\r\n\r\nNope, doesn't
+    sound like I missed much of anything at all...\r\n\r\nAnd I wouldn't listen to
+    a word Boyko says; he's got overexposure to that, uh, what do you call it, ah
+    yes, \"sun\" thing."
+- id: 80161
+  author: ed
+  author_email: ehs@pobox.com
+  author_url: http://www.inkdroid.org
+  date: '2009-01-08 10:13:25 +0000'
+  date_gmt: '2009-01-08 17:13:25 +0000'
+  content: "@dchud aren't they all like that?"
+- id: 80171
+  author: dchud
+  author_email: dchud@umich.edu
+  author_url: http://onebiglibrary.net/
+  date: '2009-01-08 16:12:03 +0000'
+  date_gmt: '2009-01-08 23:12:03 +0000'
+  content: Maybe it's just the ones I'm not at.  On the other hand, again, the pastrami
+    at the deli at 3rd and E is pretty good.
+- id: 80172
+  author: ed
+  author_email: ehs@pobox.com
+  author_url: http://www.inkdroid.org
+  date: '2009-01-08 19:16:42 +0000'
+  date_gmt: '2009-01-09 02:16:42 +0000'
+  content: '@john thanks for details re: the "lost" story ... will relay on to <a
+    href="http://www.davidbrunton.com/2009/01/for-love-of-woman-by-robert-louis.html"
+    rel="nofollow">dbrun</a>.'
+---
+<p><em><strong>Q:</strong> What do 100 year old knitting patterns and a lost Robert Louis-Stevenson story have in common?</em></p>
+<p><strong>A:</strong> A digitally preserved <a href="http://www.loc.gov/chroniclingamerica/lccn/sn83030193/1904-02-19/ed-1/seq-15">newspaper page</a>.</p>
+<p><em><strong>Q:</strong> What about if you add:</em></p>
+<ul>
+<li>URIs for<a href="https://www.ravelry.com"> knitting materials</a></li>
+<li><a href="http://en.wikipedia.org/wiki/William_Blake">William Blake</a>'s Engravings</li>
+<li>The similarities/differences between <a href="http://en.wikipedia.org/wiki/Xmpp">XMPP</a>, <a href="http://en.wikipedia.org/wiki/Http">HTTP</a> and <a href="http://en.wikipedia.org/wiki/Nntp">NNTP</a></li>
+<li>Web crawling as data integration</li>
+<li>Project coordination with <a href="http://friendfeed.com/rooms/semantic-web">rooms</a> on FriendFeed</li>
+<li>brewing <a href="http://en.wikipedia.org/wiki/Kombucha">Kombucha</a></li>
+</ul>
+<p><strong>A: </strong>Just a typical lunch time conversation at <a href="http://www.yelp.com/biz/petes-diner-washington">Pete's</a> with a <a href="http://davidbrunton.com">couple</a> <a href="http://eikeon.com">people</a> I work with. The cool thing (for me) is that this is normal, involves a host of smart/interesting characters, and is routinely encouraged. I love my job.</p>

@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: DbHd
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 3633
+wordpress_url: http://inkdroid.org/journal/?p=3633
+date: '2011-08-09 19:02:04 +0000'
+date_gmt: '2011-08-10 02:02:04 +0000'
+tags: []
+comments: []
+---
+<p><iframe width="560" height="349" src="http://www.youtube.com/embed/5OWhcrjxP-E" frameborder="0" allowfullscreen style="float: left; margin-right: 15px; margin-bottom: 10px;"></iframe></p>
+<p>Via <a href="http://www.w3.org/People/Ivan/">Ivan Herman</a> I found out about this 1 year old, <em>excellent</em> presentation from <a href="http://en.wikipedia.org/wiki/Hans_Rosling">Hans Rosling</a> at the World Bank about the importance of sharing our data.</p>
+<p>DbHd is certainly a problem. But it strikes me that, paradoxically, it's the love and care that people put into their datasets, that makes them so valuable to share. </p>
+<p>If nobody was hugging their data, then nobody would care about setting it free on the Web.</p>

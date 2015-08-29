@@ -1,0 +1,26 @@
+---
+layout: post
+status: publish
+published: true
+title: Bowie
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 8343
+wordpress_url: http://inkdroid.org/journal/?p=8343
+date: '2015-01-12 10:19:31 +0000'
+date_gmt: '2015-01-12 17:19:31 +0000'
+tags: []
+comments: []
+---
+<p><a href="https://www.goodreads.com/book/show/21839107-bowie" style="float: left; padding-right: 20px"><img alt="Bowie" border="0" src="https://d.gr-assets.com/books/1404315685m/21839107.jpg" /></a><a href="https://www.goodreads.com/book/show/21839107-bowie">Bowie</a> by <a href="https://www.goodreads.com/author/show/57674.Simon_Critchley">Simon Critchley</a><br />
+My rating: <a href="https://www.goodreads.com/review/show/1165872948">5 of 5 stars</a></p>
+<p>If you are a Bowie fan, you will definitely enjoy this. If you are curious why other people are so into Bowie you will enjoy this. If you've never read any <a href="https://en.wikipedia.org/wiki/Simon_Critchley">Critchley</a> and are interested in something quick and accessible by him you will enjoy this. I fell into the first and third categories so I guess I'm guessing about the second. But I suspect it's true.</p>
+<p>I finished the book feeling like I understand the why and how of my own fascination with Bowie's work much better. I also want to revisit some of his albums like Diamond Dogs, Heathen and Outside which I didn't quite connect with at first. I would've enjoyed a continued discussion of Bowie's use of the cutup technique, but I guess that fell out of the scope of the book.</p>
+<p>I also want to read some more Critchley too -- so if you have any recommendations please let me know. The sketches at the beginning of each chapter are wonderful. <a href="http://www.orbooks.com/" rel="nofollow">OR Books</a> continues to impress.</p>
+<p><a href="http://dollychops.tumblr.com/post/107517113745/happy-birthday-david-bowie"><img src="http://inkdroid.org/images/bowie.gif"></a></p>

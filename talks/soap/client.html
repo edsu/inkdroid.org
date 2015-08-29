@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>A SOAP Client</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div align="center">
+<h3>A SOAP Client</h3>
+</div>
+
+<hr>
+
+<table width="100%">
+<td>
+
+<p>Fortunately <a
+href="http://search.cpan.org/author/KULCHENKO/SOAP-Lite-0.55/lib/SOAP/Lite.pm">SOAP::Lite</a> 
+means that Perl programmers 
+don't need to worry about generating the XML or negotiating the HTTP 
+transaction. But don't let its name fool you, SOAP::Lite is actually quite 
+a heavyweight program which supports SOAP clients and servers over HTTP(S) 
+(CGI/mod_perl), SMTP, FTP and Jabber. SOAP::Lite even includes XLMRPC::Lite 
+which provides a similar API to make XMLRPC clients and servers. </p>
+
+<p>To create a SOAP client that will generate the <a href="request.html">
+request</a> we just looked at you need to know the <b>proxy</b> for the 
+SOAP service, and the <b>URI</b>. The proxy is the actual endpoint address
+to which requests will go...kind of like that ACTION in a &lt;FORM&gt; tag. 
+When using the HTTP transport mechanism this looks like the familiar URL. 
+The URI uniquely identifies the remote method that is being executed, and when 
+using the HTTP it can often look like a URL (but it's not really).</p>
+
+<p>So here's the client:</p>
+
+<pre>
+
+<font color="red">     1</font>	#!/usr/bin/perl
+<font color="red">     2</font>	
+<font color="red">     3</font>	use SOAP::Lite;
+<font color="red">     4</font>	
+<font color="red">     5</font>	my $currency = SOAP::Lite-&gt;new(
+<font color="red">     6</font>	    uri	    =&gt; 'urn:xmethods-CurrencyExchange',
+<font color="red">     7</font>	    proxy   =&gt; 'http://services.xmethods.net/soap',
+<font color="red">     8</font>	);
+<font color="red">     9</font>	
+<font color="red">    10</font>	$country1 = SOAP::Data-&gt;name( 'country1' =&gt; 'US' )-&gt;type( 'string' );
+<font color="red">    11</font>	$country2 = SOAP::Data-&gt;name( 'country2' =&gt; 'UK' )-&gt;type( 'string' );
+<font color="red">    12</font>	
+<font color="red">    13</font>	$response = $currency-&gt;getRate( $country1, $country2 );
+<font color="red">    14</font>	print $response-&gt;result();
+
+</pre>
+
+</td>
+</tr>
+</table>
+
+<hr>
+<div class="menu">
+<table width="100%">
+<tr align="center">
+<td><a href="index.html">0</a>&nbsp;&nbsp;
+<a href="problem.html">1</a>&nbsp;&nbsp;
+<a href="solution.html">2</a>&nbsp;&nbsp;
+<a href="rpc.html">3</a>&nbsp;&nbsp;
+<a href="xmlrpc.html">4</a>&nbsp;&nbsp;
+<a href="request.html">5</a>&nbsp;&nbsp;
+<a href="response.html">6</a>&nbsp;&nbsp;
+<a href="client.html">    <font class="active">7</font></a>&nbsp;&nbsp;
+<a href="cgi.html">8</a>&nbsp;&nbsp;
+<a href="modperl.html">9</a>&nbsp;&nbsp;
+<a href="googleclient.html">10</a>&nbsp;&nbsp;
+<a href="googlerequest.html">11</a>&nbsp;&nbsp;
+<a href="googleresponse.html">12</a>&nbsp;&nbsp;
+<a href="googledump.html">13</a>&nbsp;&nbsp;
+<a href="more.html">14</a>&nbsp;&nbsp;
+<a href="googling.html">15</a>&nbsp;&nbsp;
+
+</div>
+
+</body>
+</html>

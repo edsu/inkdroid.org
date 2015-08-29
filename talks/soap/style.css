@@ -1,0 +1,38 @@
+BODY {
+    font-size: 12pt;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-family: arial;
+    color: black;
+    background-color: white;
+}
+
+P { 
+    font-size: 12pt;
+}
+
+PRE {
+    font-size: 10pt;
+}
+
+A {
+    color: blue;
+    text-decoration: none;
+}
+
+A:hover {
+    color: red;
+}
+
+
+.menu {
+    border-width: 2;
+    background-color: white;
+}
+
+.active {
+    font-style: italic;
+    font-weight: bold;
+}

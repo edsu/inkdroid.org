@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.3.8: http://docutils.sourceforge.net/" />
+<title>pylucene - search for python</title>
+<link rel="stylesheet" href="default.css" type="text/css" />
+
+            <meta name="version" content="S5 1.0" />
+            <link rel="stylesheet" href="ui/slides.css" type="text/css" media="projection" id="slideProj" />
+            <link rel="stylesheet" href="ui/opera.css" type="text/css" media="projection" id="operaFix" />
+            <link rel="stylesheet" href="ui/print.css" type="text/css" media="print" id="slidePrint" />
+            <script src="ui/slides.js" type="text/javascript"></script>
+</head>
+<body>
+
+            <div class="layout">
+                <div id="currentSlide"></div>
+                <div id="header"></div>
+                <div id="footer">
+                    <h1>pylucene - search for python</h1> 
+                    <div id="controls"></div>
+                </div>
+            </div>
+<div class="presentation" id="pylucene-search-for-python">
+<h1 class="title">pylucene - search for python</h1>
+<div class="slide" id="import-pylucene">
+<h1><a name="import-pylucene">import PyLucene</a></h1>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Author:</th><td class="field-body">Ed Summers &lt;<a class="reference" href="mailto:ehs&#64;pobox.com">ehs&#64;pobox.com</a>&gt;</td>
+</tr>
+<tr class="field"><th class="field-name">Version:</th><td class="field-body">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="slide" id="what-is-search">
+<h1><a name="what-is-search">What is Search</a></h1>
+<ul class="simple">
+<li>lycos, altavista, google, spotlight ...</li>
+<li>indexing - inverted index</li>
+<li>searching - queries</li>
+<li>information retrieval (IR)</li>
+</ul>
+</div>
+<div class="slide" id="search-technologies">
+<h1><a name="search-technologies">Search Technologies</a></h1>
+<ul class="simple">
+<li><a class="reference" href="http://swish-e.org/">swish</a></li>
+<li>mysql - <a class="reference" href="http://lucene.apache.org/java/docs/index.html">fulltext</a></li>
+<li>pg - <a class="reference" href="http://dev.mysql.com/doc/mysql/en/fulltext-search.html">tsearch2</a></li>
+<li>oracle - <a class="reference" href="http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/">intermedia</a></li>
+<li>apache <a class="reference" href="http://www.orafaq.com/faqctx.htm">lucene</a></li>
+</ul>
+</div>
+<div class="slide" id="apache-lucene">
+<h1><a name="apache-lucene">Apache Lucene</a></h1>
+<ul class="simple">
+<li>good user community (5 years)</li>
+<li>scalable</li>
+<li>ranked searching</li>
+<li>sorting by any field</li>
+<li>powerful query types</li>
+<li>search across multiple indexes</li>
+</ul>
+</div>
+<div class="slide" id="pylucene">
+<h1><a name="pylucene">pylucene</a></h1>
+<ul class="simple">
+<li><a class="reference" href="http://www.osafoundation.org/Chandler_Compelling_Vision.htm">Chandler</a> (<a class="reference" href="http://pylucene.osafoundation.org/">OSAF</a>)</li>
+<li><a class="reference" href="http://gcc.gnu.org/java/">gcj</a></li>
+<li><a class="reference" href="http://www.swig.org/">swig</a></li>
+<li>freakin' fast</li>
+<li>javadoc</li>
+<li>byte compatability</li>
+<li>Andi Vajda's PyCon 2005 <a class="reference" href="http://www.python.org/pycon/2005/papers/27/paper.txt">paper</a></li>
+</ul>
+</div>
+<div class="slide" id="indexing">
+<h1><a name="indexing">Indexing</a></h1>
+<ul class="simple">
+<li>Directory</li>
+<li>IndexWriter</li>
+<li>Document</li>
+<li>Term</li>
+<li>Analyzer</li>
+</ul>
+</div>
+<div class="slide" id="searching">
+<h1><a name="searching">Searching</a></h1>
+<ul class="simple">
+<li>Directory</li>
+<li>IndexSearcher</li>
+<li>Analyzer</li>
+<li>QueryParser</li>
+<li>Hits</li>
+</ul>
+</div>
+<div class="slide" id="indexing-an-mbox">
+<h1><a name="indexing-an-mbox">Indexing an Mbox</a></h1>
+<ul class="simple">
+<li>read in mbox</li>
+<li>extract data</li>
+<li>create lucene document</li>
+<li>write document to index</li>
+</ul>
+</div>
+<div class="slide" id="indexing-code">
+<h1><a name="indexing-code">Indexing Code</a></h1>
+<pre class="literal-block">
+from mailbox import UnixMailbox
+from PyLucene import Field, Document, StandardAnalyzer, FSDirectory, \
+    IndexWriter
+
+store = FSDirectory.getDirectory( &quot;chipy-index&quot;, True )
+writer = IndexWriter( store, StandardAnalyzer(), True )
+
+mbox = UnixMailbox( open('chipy.mbox') )
+while True:
+    msg = mbox.next()
+    if msg == None: break
+    writer.addDocument( EmailDoc(msg) )
+
+writer.close()
+</pre>
+</div>
+<div class="slide" id="emaildoc">
+<h1><a name="emaildoc">EmailDoc</a></h1>
+<pre class="literal-block">
+from PyLucene import Document, Field
+
+class EmailDoc( Document ):
+
+    def __init__( self, msg ):
+        Document.__init__( self )
+
+        sender = msg.getheader('From')
+        self.add( Field.Text( 'from', sender ) )
+
+        subject = msg.getheader( 'Subject' )
+        self.add( Field.Text( 'subject', subject ) )
+
+        body = msg.fp.read()
+        self.add( Field.Text( 'body', body ) )
+
+        id = msg.getheader('Message-ID')
+        self.add( Field.Keyword( 'id', id ) )
+
+        self.add( Field.Text( 'all', sender + subject + body ) )
+</pre>
+</div>
+<div class="slide" id="searching-the-email">
+<h1><a name="searching-the-email">Searching the Email</a></h1>
+<ul class="simple">
+<li>read and parse query</li>
+<li>create searcher</li>
+<li>execute search</li>
+<li>iterate through hits</li>
+</ul>
+</div>
+<div class="slide" id="searching-code">
+<h1><a name="searching-code">Searching Code</a></h1>
+<pre class="literal-block">
+from sys import argv
+from PyLucene import FSDirectory, IndexSearcher, QueryParser, \
+    StandardAnalyzer
+
+string = argv[1].strip()
+directory = FSDirectory.getDirectory( 'chipy-index', False )
+searcher = IndexSearcher( directory )
+query = QueryParser.parse( string, 'all', StandardAnalyzer() )
+hits = searcher.search( query )
+
+for i in range(0,hits.length()):
+    doc = hits.doc(i)
+    print &quot;ID: %s&quot; % doc.getField('id').stringValue()
+    print &quot;From: %s&quot; % doc.getField('from').stringValue()
+    print &quot;Subject: %s&quot; % doc.getField('subject').stringValue()
+    print &quot;Date: %s&quot; % doc.getField('date').stringValue()
+    print
+</pre>
+</div>
+<div class="slide" id="printing-an-email">
+<h1><a name="printing-an-email">Printing An Email</a></h1>
+<pre class="literal-block">
+from sys import argv
+from PyLucene import FSDirectory, IndexSearcher, TermQuery, Term
+
+id = argv[1].strip()
+directory = FSDirectory.getDirectory( 'chipy-index', False )
+searcher = IndexSearcher( directory )
+query = TermQuery( Term( 'id', id ) )
+hits = searcher.search( query )
+
+doc = hits.doc(0)
+print &quot;ID: %s&quot; % doc.getField('id').stringValue()
+print &quot;From: %s&quot; % doc.getField('from').stringValue()
+print &quot;Subject: %s&quot; % doc.getField('subject').stringValue()
+print &quot;Date: %s&quot; % doc.getField('date').stringValue()
+print doc.getField('body').stringValue()
+print 
+</pre>
+</div>
+<div class="slide" id="adios-amigos">
+<h1><a name="adios-amigos">Adios Amigos</a></h1>
+<p>You can download the src code for these examples here. If you want an mbox to
+play with you can grab them from the <a class="reference" href="http://www.lonelylion.com/pipermail/chipy/">chipy list archives</a>.</p>
+<ul class="simple">
+<li><a class="reference" href="src/index.py">index.py</a></li>
+<li><a class="reference" href="src/email.py">email.py</a></li>
+<li><a class="reference" href="src/search.py">search.py</a></li>
+<li><a class="reference" href="src/print.py">print.py</a></li>
+</ul>
+<p>Thanks to <a class="reference" href="http://homepage.hispeed.ch/py430/python/">rst2s5</a> these <a class="reference" href="pylucene.txt">slides</a> were written in <a class="reference" href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>.</p>
+</div>
+</div>
+</body>
+</html>

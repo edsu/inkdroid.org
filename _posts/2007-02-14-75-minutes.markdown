@@ -1,0 +1,40 @@
+---
+layout: post
+status: publish
+published: true
+title: 75 minutes
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 139
+wordpress_url: http://www.inkdroid.org/journal/2007/02/14/75-minutes/
+date: '2007-02-14 13:33:31 +0000'
+date_gmt: '2007-02-14 20:33:31 +0000'
+tags: []
+comments:
+- id: 14511
+  author: alf
+  author_email: alf@hubmed.org
+  author_url: http://hublog.hubmed.org
+  date: '2007-02-15 03:17:08 +0000'
+  date_gmt: '2007-02-15 10:17:08 +0000'
+  content: "I was wondering the same thing - in the Epilogue Mike implied that there
+    were lots of other podcasts doing the same kind of thing, but I haven't found
+    them.\r\n\r\nContrast Podcast was excellent the week - the 'my favourite 45' edition.
+    So The Wind... is always consistently good too, in a different style. Neither
+    of these cover the same breadth of punk/independent rock that 75 Minutes did though."
+- id: 21599
+  author: Claudia
+  author_email: clmccowan@mac.com
+  author_url: ''
+  date: '2007-04-12 19:47:20 +0000'
+  date_gmt: '2007-04-13 02:47:20 +0000'
+  content: "Not a podcast, but check out the stream at kxlu.org.\r\n\r\n\r\nThe kids,
+    they're coming up from behind."
+---
+<p>The <a href="http://75minutes.com/podcast/75-minutes-epilogue/">worst news</a> so far in 2007 after <a href="http://en.wikipedia.org/wiki/Iraq_War_troop_surge_of_2007">the surge</a>. Can anyone else recommend a good podcast for independent music? I'm going to suffer...</p>

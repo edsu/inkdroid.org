@@ -1,0 +1,48 @@
+---
+layout: post
+status: publish
+published: true
+title: "#75"
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 5579
+wordpress_url: http://inkdroid.org/journal/?p=5579
+date: '2013-04-18 10:24:19 +0000'
+date_gmt: '2013-04-18 17:24:19 +0000'
+tags: []
+comments:
+- id: 85818
+  author: profiles.google.com/11528912267&hellip;
+  author_email: ryan.b.shaw@gmail.com
+  author_url: https://profiles.google.com/115289122676740361492
+  date: '2013-04-18 11:50:06 +0000'
+  date_gmt: '2013-04-18 18:50:06 +0000'
+  content: |
+    <blockquote cite="http://academic.brooklyn.cuny.edu/core9/phalsall/texts/taote-v3.html#53">
+    When rich speculators prosper
+    While farmers lose their land;
+    when government officials spend money
+    on weapons instead of cures;
+    when the upper class is extravagant and irresponsible
+    while the poor have nowhere to turn-
+    all this is robbery and chaos.
+    It is not in keeping with the Tao.
+    </blockquote>
+
+    <p><a href="http://web.archive.org/web/20130821112136/http://academic.brooklyn.cuny.edu/core9/phalsall/texts/taote-v3.html" rel="nofollow"><cite>TAO TE CHING</cite> #53</a></p>
+---
+<blockquote>
+When taxes are too high,<br />
+people go hungry.<br />
+When the government is too intrusive,<br />
+people lose their spirit.</p>
+<p>Act for the people's benefit.<br />
+Trust them; leave them alone.</p>
+<p><cite><a href="http://web.archive.org/web/20130821112136/http://academic.brooklyn.cuny.edu/core9/phalsall/texts/taote-v3.html">Tao Te Ching #75</a><br />
+</cite></p></blockquote>

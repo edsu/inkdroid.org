@@ -1,0 +1,59 @@
+---
+layout: post
+status: publish
+published: true
+title: name authority fun
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 4
+wordpress_url: http://www.inkdroid.org/journal/?p=4
+date: '2005-05-01 19:39:34 +0000'
+date_gmt: '2005-05-02 02:39:34 +0000'
+tags: []
+comments: []
+---
+<p>As a joke <a href="http://web.archive.org/web/20070527073140/http://curtis.med.yale.edu:80/dchud/log">dchud</a> suggested that panizzi (the friendly neighborhood bot in  <a href="irc:://irc.freenode.net/#code4lib">#code4lib</a>) should have a plugin for querying the Library of Congress Name Authority File that OCLC <a href="http://alcme.oclc.org/eprintsUK/index.html">provides</a>.  The Name Authority File allows librarians the world over to use the same established names when cataloging books, etc. It would serve no purpose in irc, but it could be a good conversation piece...</p>
+<p>I had goofed around writing a command line <a href="/code/tools/naf">app</a> about half a year ago so I figured it couldn't be that hard to hack this into  the <a href="http://www.infobot.org">infobot</a> source code. However I guessed wrong...granted I only tried for 30 minutes or so.</p>
+<p>Fortunately, python's <a href="http://supybot.com">supybot</a> was a different story. It's more modern, has command line programs for configuring a supybot, has built in support for plugins -- and has <em>documentation</em>. There is even a command line program <em>supybot-newplugin</em> that will ask a few questions and then autogenerate a template plugin module. All you have to do after that is add a method (with a particular signature given in the docs) which will then do the work and respond.</p>
+<pre lang="python">
+
+from urllib import urlencode
+from urllib2 import urlopen
+from elementtree.ElementTree import parse
+
+class Naf(callbacks.Privmsg):   
+
+    def naf(self,irc,msg,args):
+        """&lt;name&gt;
+
+        Lookup a personal name in the NAF file at OCLC
+        """
+
+        alcme = "http://alcme.oclc.org/eprintsUK/services/NACOMatch"
+        name = privmsgs.getArgs(args)
+        query = urlencode( { \
+            "method"          : "getCompleteSelectedNameAuthority",
+            "serviceType"     : "rest",
+            "name"            : name,
+            "maxList"         : "10",
+            "isPersonalName"  : "true" } )
+
+        url = urlopen( alcme + "?" + query)
+        tree = parse(url)
+        elem = tree.getroot()
+
+        matches = elem.find("wordMatches").getchildren()
+        irc.reply( matches[0][0].text )
+
+</pre>
+<p>As an added bonus along the way I got to try out <a href="http://effbot.org/zone/element-index.htm">ElementTree</a> which has to be the nicest XML library I've ever used.  It turned out to be a fun experiment, and will hopefully add to the merriment of the room.</p>
+<pre>
+22:03 < edsu> panizzi naf sigmund freud
+22:03 < panizzi> edsu: Freud, Sigmund,--1856-1939
+</pre>

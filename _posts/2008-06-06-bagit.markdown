@@ -1,0 +1,120 @@
+---
+layout: post
+status: publish
+published: true
+title: BagIt
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 203
+wordpress_url: http://inkdroid.org/journal/?p=203
+date: '2008-06-06 05:57:03 +0000'
+date_gmt: '2008-06-06 12:57:03 +0000'
+tags:
+- standards
+- lc
+- libraries
+- preservation
+- ietf
+- checksums
+- atompub
+- sword
+- cdl
+- bagit
+comments:
+- id: 64642
+  author: Gabriel Sean Farrell
+  author_email: gsf@fruct.us
+  author_url: http://fruct.us/
+  date: '2008-06-06 06:47:58 +0000'
+  date_gmt: '2008-06-06 13:47:58 +0000'
+  content: "One thing I'm struck by right away is the similarity of of BagIt to the
+    DSpace Simple Archive Format, which I'll call SAF even though the DSpace docs
+    fail to employ such a lovely acronym.  The unfortunate URL for that section of
+    the docs is http://www.dspace.org/index.php?option=com_content&amp;task=view&amp;id=144#itemimporter.
+    \ Anyway, as you can see there, SAF consists of an archive directory with item
+    subdirectories.  Each item directory contains a dublin_core.xml describing the
+    item and a \"contents\" file similar to the BagIt \"manifest\", but without the
+    checksums.  \r\n\r\nBagIt is obviously more flexible, and the fetch.txt is a banging
+    idea (one question: why aren't URLs in the fetch.txt preceded by a checksum?).
+    \ It occurs to me now that it would be simple to send an SAF item or bunch of
+    items within a Bag, though I'm not sure what the gain there would be.  In any
+    case, that part of SWORD (i.e. converting from BagIt to something DSpace/Fedora/etc.
+    can ingest) should be pretty simple, so you're probably right that the retrieval
+    of \"holey bags\" will be the kicker."
+- id: 64645
+  author: Michael J. Giarlo
+  author_email: httppurl.orgnetleftwing
+  author_url: http://lackoftalent.org/michael/
+  date: '2008-06-06 09:34:06 +0000'
+  date_gmt: '2008-06-06 16:34:06 +0000'
+  content: "One quick response to gsf's query about fetch.txt, \"one question: why
+    aren’t URLs in the fetch.txt preceded by a checksum?\"\r\n\r\nThe checksums for
+    files listed in fetch.txt are already listed in the manifest.  I'm not sure how
+    useful the length param is since the checksum is already recorded elsewhere, but
+    I suppose it's a good way to -quickly- check if the content from a URL is what
+    you're looking for."
+- id: 64650
+  author: Peter Binkley
+  author_email: peter.binkley@ualberta.ca
+  author_url: http://www.wallandbinkley.com/quaedam/
+  date: '2008-06-06 14:32:25 +0000'
+  date_gmt: '2008-06-06 21:32:25 +0000'
+  content: We heard about this at the PASIG meeting in San Francisco last week - it
+    looks very handy. I didn't pick up on the possibility of holey bags there, though.
+    Given that this is intended for delivery rather than persistence, it might be
+    helpful to allow a best-before date in fetch.txt (maybe per line). Since this
+    will often be used to share ingestion-friendly files, which I may not want to
+    leave lying around in web-accessible space, the date would let me say "get it
+    by Friday cuz it may not be there next week".
+- id: 65445
+  author: Jim
+  author_email: jim@braggtown.com
+  author_url: http://braggtown.com
+  date: '2008-06-24 10:41:29 +0000'
+  date_gmt: '2008-06-24 17:41:29 +0000'
+  content: "I was pretty pleased when LC suggested we use the spec to deliver NDIIPP
+    content to them.  Super low cost and easy to validate.  \r\n\r\nAddressing Peter's
+    comment regarding 'best before' dates, it's my suspicion that LC isn't in a position
+    to fast-track data acquisition presently.  That doesn't mean that the spec, as
+    implemented by others, wouldn't benefit from a data associated with data."
+---
+<p>One little bit of goodness that has percolated out from my group at $work in collaboration with the <a href="http://www.cdlib.org/">California Digital Library</a> is the <a href="http://tools.ietf.org/id/draft-kunze-bagit">BagIt</a> spec (<a href="http://www.cdlib.org/inside/diglib/bagit/bagitspec.html">more readable version</a>). BagIt is an IETF RFC for bundling up files for transfer over the network, or for shipping on physical media. Just yesterday a little <a href="http://www.digitalpreservation.gov/news/2008/20080602news_article_bagit.html">article</a> about BagIt surfaced on the LC digital preservation website, so I figure now is a good time to mention it.</p>
+<p>The goodness of BagIt is in its simplicity and utility. A Bag is essentially: a set of files in a particular directory named <em>data</em>, a <em>manifest file</em> which states what files ought to be in the <em>data</em> directory, and a <em>bagit.txt</em> file that states the version of BagIt. For example here's a sample (abbreviated) directory structure for a bag of digitized newspapers via the <a href="http://www.loc.gov/ndnp/">National Digital Newspaper Program</a>:</p>
+<pre>
+mybag
+|-- bagit.txt
+|-- data
+|   `-- batch_lc_20070821_jamaica
+|       |-- batch.xml
+|       |-- batch_1.xml
+|       `-- sn83030214
+|           |-- 00175041217
+|           |   |-- 00175041217.xml
+|           |   |-- 1905010401
+|           |   |   |-- 1905010401.xml
+|           |   |   `-- 1905010401_1.xml
+|           |   |-- 1905010601
+|           |   |   |-- 1905010601.xml
+|           |   |   `-- 1905010601_1.xml
+</pre>
+<p>The manifest itself is just the relative file path, and a fixity value:</p>
+<pre>
+ea9dee53c2c2dd4027984a2b59f58d1f  data/batch_lc_20070821_jamaica/batch.xml
+72134329a82f32dd44d59b509928b6cd  data/batch_lc_20070821_jamaica/batch_1.xml
+dc5740d295521fcc692bb58603ce8d1a  data/batch_lc_20070821_jamaica/sn83030214/00175041217/1905010601/1905010601_1.xml
+e16e74988ca927afc10ee2544728bd14  data/batch_lc_20070821_jamaica/sn83030214/00175041217/1905010601/1905010601.xml
+fd480b2c4bcb6537c3bc4c9e7c8d7c21  data/batch_lc_20070821_jamaica/sn83030214/00175041217/1905010401/1905010401.xml
+e0e4a981ddefb574fa1df98a8a55b7a4  data/batch_lc_20070821_jamaica/sn83030214/00175041217/1905010401/1905010401_1.xml
+c8dffa3cdb7c13383151e0cd8263d082  data/batch_lc_20070821_jamaica/sn83030214/00175041217/00175041217.xml
+</pre>
+<p>The manifest format happens to be the same format understood and generated by the common unix (and windows) utility <a href="http://en.wikipedia.org/wiki/Md5deep">md5deep</a>. So it's pretty easy to generate and validate the manifests.</p>
+<p>The context for this work has largely been <a href="http://www.digitalpreservation.gov/">NDIIPP</a> partners (like CDL) transferring data generated by funded projects back to LC. Although it's likely to get used in some other places as well internally. It's funny to see the spec in its current state, after Justin Littman rattled off the LC Manifest wiki page in a few minutes after a meeting where <a href="http://boyko.net/andy">Andy Boyko</a> initially brought up the issue. Andy has just left LC to work for a <a href="http://www.apple.com/itunes/">record company in Cupertino</a>. I don't think I fully understood simplicity in software development until I worked with Andy. He has a real talent for boiling down solutions to their most simple expression, often leveraging existing tools to the point where very little software actually needs to be written. I think Andy and John found a natural affinity for striving for simplicity, and it shows in BagIt. Andy will be sorely missed, but that record store is lucky to get him on their team.</p>
+<p>There are some additional cool features to BagIt, including the ability to include a <em>fetch.txt</em> file which contains http and/or rsync URIs to fill in parts of the bag from the network. We've come to refer to bags with a fetch.txt as "holey bags" because they have holes in them that need to be filled in. This allows very large bags to be assembled quickly in parallel (using a 100 line python script Andy Boyko wrote, or whatever variant of wget, curl, rsync makes you happy). Also you can include a <em>package-info.txt</em> which includes some basic metadata as key/value pairs ... designed primarily for humans.</p>
+<p><a href="http://eikeon.com/">Dan Krech</a> and I are in the process of creating a prototype deposit web application that will essentially allow bags to be submitted via a <a href="http://www.ukoln.ac.uk/repositories/digirep/index/SWORD">SWORD</a> (profile of<a href="http://www.rfc-editor.org/rfc/rfc5023.txt"> AtomPub</a> for Repositories) service. The SWORD part should be pretty easy, but getting the retrieval of "holey bags" kicked off and monitored propertly will be the more challenging part. Hopefully I'll be able to report more here as things develop. </p>
+<p>Feedback on the BagIt RFC is most welcome.</p>

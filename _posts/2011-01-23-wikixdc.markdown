@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: wikixdc
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 2868
+wordpress_url: http://inkdroid.org/journal/?p=2868
+date: '2011-01-23 21:10:37 +0000'
+date_gmt: '2011-01-24 04:10:37 +0000'
+tags:
+- archives
+- dc
+- wikipedia
+- glam
+- wikimania
+comments: []
+---
+<p><a href="http://www.flickr.com/photos/inkdroid/5379054114/"><img src="http://inkdroid.org/images/wikipedia-cupcake.jpg" style="float: left; margin-right: 10px; margin-bottom: 10px;"/></a></p>
+<p>Wikipedia's <a href="http://ten.wikipedia.org/wiki/Washington,_D.C">10th Birthday Party</a> at the <a href="http://archives.gov">National Archives</a> in Washington DC on Saturday was a lot of fun. Far and away, the most astonishing moment for me came early in the opening remarks by <a href="http://www.archives.gov/about/archivist/archivist-biography-ferriero.html">David Ferriero</a>, the <a href="http://en.wikipedia.org/wiki/Archivist_of_the_United_States">Archivist of the United States</a>, when he stated (in no uncertain terms) that he was a big fan of Wikipedia, and that it was often his first go-to for information. Not only that, but when discussion about a bid for a DC <a href="http://wikimediafoundation.org/wiki/Wikimania">WikiMania</a> (the Wikipedia Annual Conference) came up later in the morning, Ferriero suggested that the <a href="http://archives.gov">National Archives</a> would be willing to host it if it came to pass. I'm not sure if anything actually came of this later in the day--a WikiMania in DC would be incredible. It was just amazing to hear the Archivist of the United States be supportive of Wikipedia as a reference source...especially as stories of schools, colleges and universities rejecting Wikipedia as a source are still common. Ferriero's point was even more poignant with several high schoolers in attendance. Now we all can say: </p>
+<blockquote><p>
+If Wikipedia is good enough for the Archivist of the United States, maybe it should be good enough for you.
+</p></blockquote>
+<p><a href="http://www.flickr.com/photos/inkdroid/5383171812/in/photostream/"><img src="http://farm6.static.flickr.com/5124/5383171812_e49c06526e.jpg" style="float: right; margin-left: 10px; margin-bottom: 10px;"/></a></p>
+<p>Another highlight for me was meeting <a href="http://phoebeayers.info/">Phoebe Ayers</a>, who is a <a href="http://people.lib.ucdavis.edu/~psayers/">reference librarian at UC Davis</a>, member of the <a href="http://wikimediafoundation.org/wiki/Board_of_Trustees">Wikimedia Foundation Board of Trustees</a>, and author of <a href="http://oreilly.com/catalog/9781593271763">How Wikipedia Works</a>. I strong armed Phoebe into signing my copy (I bought this copy on Amazon after it was de-accessioned from <a href="http://www.cuyahoga.lib.oh.us/">Cuyahoga County Public Library in Parma, Ohio </a>). Phoebe has some exciting ideas for creating collaborations between libraries and Wikipedia, which I think fit quite well into the <a href="http://en.m.wikipedia.org/wiki/Wikipedia:GLAM/">Galleries, Libraries, Archives and Museuems (GLAM)</a> effort within Wikipedia. I think she is still working on how to organize the effort.</p>
+<p>Later in the day we heard how the National Archives is thinking of following <a href="http://www.nytimes.com/2010/06/05/arts/design/05wiki.html">the lead</a> of the <a href="http://www.britishmuseum.org/">British Museum</a> and establishing a <a href="http://twitter.com/#!/Sarah_Stierch/statuses/28846067348938754">Wikipedian in Residence</a>. <a href="http://www.wittylama.com/">Liam Wyatt</a>, the first Wikipedian in Residence, put a human face on Wikipedia for the British Museum, and familiarized museum staff with editing Wikipedia, through activities like the <a href="http://en.wikipedia.org/wiki/Wikipedia:GLAM/BM/Hoxne_challenge">Hoxne Challenge</a>. Having a Wikipedia in Residence at the National Archives (and who knows maybe the <a href="http://si.edu">Smithsonian</a> and the <a href="http://loc.gov">Library of Congress</a>) would be extremely useful I think.</p>
+<p>In a similar vein, <a href="http://ragesoss.com/blog/">Sage Ross</a> spoke at length about the <a href="http://outreach.wikimedia.org/wiki/Wikipedia_Ambassador_Program">Wikipedia Ambassador Program</a>. The Ambassador Program is a formal way for folks to represent Wikipedia in academic settings (universities, high schools, etc). Ambassadors can get training in how to engage with Wikipedia (editing, etc) and can help professors and teachers who want to integrate Wikipedia into their curriculum, and scholarly activities.</p>
+<p>I got to meet <a href="http://www.bls.gov/dpr/meyer.htm">Peter Benjamin Meyer</a> of the <a href="http://www.bls.gov">Bureau of Labor Statistics</a>, who has some interesting ideas for aggregating statistical information from federal statistical sources, and writing some bots that will update article info-boxes for places in the United States. The impending release of the 2010 US Census Data has the Wikipedia community <a href="http://en.wikipedia.org/wiki/Wikipedia_talk:2010_US_Census">discussing</a> the best way to update the information that was added by a bot for the 2000 census. It seemed like Peter might be able to piggy back some of his efforts on this work that is going on at Wikipedia for the 2010 Census.</p>
+<p><iframe src="https://docs.google.com/present/embed?id=dv89m3d_497c98tp7g5" frameborder="0" width="410" height="342" style="float: left; margin-right: 10px;"></iframe></p>
+<p><a href="http://en.wikipedia.org/wiki/User:Jyothis">Jyothis Edthoot</a> an Oracle employee and <a href="http://meta.wikimedia.org/wiki/Stewards">Wikipedia Steward</a> gave me a behind the scenes look at the tools he and others in <a href="http://en.wikipedia.org/wiki/Wikipedia:Counter-Vandalism_Unit">Counter Vandalism Unit</a> use to keep Wikipedia open for edits from anyone in the world. I also got to meet <a href="http://en.scientificcommons.org/harihar_shankar">Harihar Shankar</a> from <a href="http://public.lanl.gov/herbertv/home/">Herbert van de Sompel's</a> team at <a href="http://lanl.gov">Los Alamos National Lab</a>, and to learn more about the latest developments with <a href="http://www.mementoweb.org/">Memento</a>, which he gave a lightning talk about. I also ran into <a href="http://www.spellboundblog.com/">Jeanne Kramer-Smyth</a> of the <a href="http://www.worldbank.org/">World Bank</a>, and got to hear about their efforts to provide meaningful access to their document collections to web crawlers using their metadata.</p>
+<p>I did end up giving a lightning talk about <a href="http://github.com/edsu/linkypedia">Linkypedia</a> (slides on the left). I was kind of rushed, and I wasn't sure that this was exactly the right audience for the talk (being mainly Wikipedians instead of folks from the GLAM sector). But it helped me think through some of the challenges in expressing what Linkypedia is about, and who it is for. All in all it was a really fun day, with a lot of friendly folks interested in the Wikipedia community. There must've been at least 70 people there on a very cold Saturday--a promising sign of good things to come for collaborations between Wikipedia and the DC area. </p>

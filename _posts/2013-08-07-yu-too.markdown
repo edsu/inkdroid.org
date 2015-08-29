@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: Yu Too?
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 5887
+wordpress_url: http://inkdroid.org/journal/?p=5887
+date: '2013-08-07 19:18:24 +0000'
+date_gmt: '2013-08-08 02:18:24 +0000'
+tags: []
+comments: []
+---
+<p><a href="http://www.goodreads.com/book/show/16041826-sorry-please-thank-you" style="float: left; padding-right: 20px"><img alt="Sorry Please Thank You: Stories" border="0" src="http://d202m5krfqbpi5.cloudfront.net/books/1361254827m/16041826.jpg" /></a><a href="http://www.goodreads.com/book/show/16041826-sorry-please-thank-you">Sorry Please Thank You: Stories</a> by <a href="http://www.goodreads.com/author/show/221608.Charles_Yu">Charles Yu</a><br />
+My rating: <a href="http://www.goodreads.com/review/show/672342764">5 of 5 stars</a></p>
+<p>These short stories were just awesome -- funny, smart, incisive, light, beautifully distracting. I must read more <a href="http://twitter.com/charles_yu">Yu</a> <em>now</em>. There were so many good stories in this collection: all of them hauntingly familiar and strangely different. I couldn't shake a feeling of synesthesia, like I was reading along to my favorite Radiohead songs -- elated, disoriented, integrated, fragmented, jettisoned, ordinary, cute and more than a bit scary. </p>
+<p>A quote from the story <em>Adult Contemporary</em></p>
+<blockquote><p>Murray tries to see what Rick is talking about, but all he sees is a kind of factory. A manufacturing process for a way of life. Taking anything, experience, a piece of experimental stuff, a particle of particularity, a sound, a day, a song, a bunch of stuff that happens to people, a thing, that makes you laugh, a visual, a feeling, whatever. A mess. A blob. A chunk. A messy, blobby, chunky glob of stuff. Unformed, raw non-content that gets engineered, honed, and refined until some magical point where it has been processed to sufficient smoothness and can be extruded from the machine: content. A chunk of content, homogenous and perfect for slicing up into Content Units. All of this for the customer-citizens, who demand it, or not even demand it but come to expect it, or not even expect it, as that would require awareness of any alternative to the substitute, an understanding that this was not always so, that, once upon a time, there was the real thing. They don't demand it or expect it. They assume it. The product is not a product, it's built into the very notion of who they are. Content Units everywhere, all of it coming from the same source: jingles, news, ads. Ads, ads, ads. Ads running on every possible screen. Screens at the grocery store, in the coffee line, on the food truck, in your car, on top of taxis, on the sides of buses, in the air, on the street signs, in your office, in the lobby, in the elevator, in your pocket, in your home. Content pipelines productive as ever, churning and chugging, pumping out the content day and night, conceptual smokestacks billowing out content-manufacturing waste product emissions, marginal unit cost of content dropping every day, content just piling up, containers full, warehouses full, cargo ships full, the channels stuffed to bursting with content. So much content that they needed to make new markets just to find a place to put all of it, had to create the Town, and after that, another Town, and beyond that, who knew? What were the limits for American Entertainments Inc., and its managed-narrative experiential lifestyle products? How big could the Content Factory get?</p></blockquote>
+<p>I really just wanted to transcribe that--to type it in, and pretend that I wrote it. If typing is writing I guess I did write it. Yu's voice is infectious, and familiar -- like he's telling you things you already know, but in an interesting way you've never really considered before. I'll give you my copy if you want it. Just send me <a href="mailto:ehs@pobox.com">an email</a> with your mailing address in it. Seriously.</p>
+<p>Also,</p>
+<p>https://twitter.com/charles_yu/status/365653971139956737</p>

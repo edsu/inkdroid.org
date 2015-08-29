@@ -1,0 +1,51 @@
+---
+layout: post
+status: publish
+published: true
+title: groupthink
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 168
+wordpress_url: http://www.inkdroid.org/journal/2007/09/26/168/
+date: '2007-09-26 10:00:44 +0000'
+date_gmt: '2007-09-26 17:00:44 +0000'
+tags: []
+comments:
+- id: 42212
+  author: darcusblog &raquo; Blog Archive &raquo; Linked Library Data
+  author_email: ''
+  author_url: http://web.archive.org/web/20071013225110/http://netapps.muohio.edu:80/blogs/darcusb/darcusb/archives/2007/09/26/linked-library-data
+  date: '2007-09-26 10:42:40 +0000'
+  date_gmt: '2007-09-26 17:42:40 +0000'
+  content: |
+    <p>[...] The first is a more high-level goal of the open data movement, complete with nice diagram. The second is a much more grounded example of the kind of thing that can make it happen that he and I put [...]</p>
+- id: 75642
+  author: Dan Brickley
+  author_email: danbri@danbri.org
+  author_url: http://danbri.org/
+  date: '2008-10-03 03:21:14 +0000'
+  date_gmt: '2008-10-03 10:21:14 +0000'
+  content: Update - the OCLC pages have moved now to URLs like http://orlabs.oclc.org/Identities/lccn-no99-10609
+- id: 75653
+  author: ed
+  author_email: ehs@pobox.com
+  author_url: http://www.inkdroid.org
+  date: '2008-10-03 07:45:50 +0000'
+  date_gmt: '2008-10-03 14:45:50 +0000'
+  content: thanks danbri! HTTP 301 considered helpful eh?
+---
+<p>This little hack came up in <a href="irc://chat.freenode.net/code4lib">channel</a> after Bruce <a href="http://groups.google.com/group/bibliographic-ontology-specification-group/browse_frm/thread/80937796903dd62b">posted</a> some <a href="http://inkdroid.org/data/identity-foaf.xsl ">XSLT</a> to transform OCLC Identities XML into FOAF.</p>
+<pre>
+xsltproc \
+  http://inkdroid.org/data/identity-foaf.xsl \
+  http://orlabs.oclc.org/Identities/lccn-no99-10609 \
+  | xmllint --format -
+</pre>
+<p>!!! </p>
+<p>XSLT has its place to be sure.</p>

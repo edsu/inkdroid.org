@@ -1,0 +1,13 @@
+This is TeX, Version 3.1415926 (TeX Live 2009/Debian) (format=tex 2012.9.14)  14 SEP 2012 17:30
+**ehs.tex
+(./ehs.tex
+! Undefined control sequence.
+l.1 \section
+            {Ed Summers}
+? 
+! Emergency stop.
+l.1 \section
+            {Ed Summers}
+End of file on the terminal!
+
+No pages of output.

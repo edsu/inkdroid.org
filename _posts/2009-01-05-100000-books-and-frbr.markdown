@@ -1,0 +1,98 @@
+---
+layout: post
+status: publish
+published: true
+title: 100,000 Books and FRBR
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 590
+wordpress_url: http://inkdroid.org/journal/?p=590
+date: '2009-01-05 16:35:08 +0000'
+date_gmt: '2009-01-05 23:35:08 +0000'
+tags:
+- metadata
+- rdf
+- freebase
+- frbr
+comments:
+- id: 80105
+  author: mhermans
+  author_email: maarten.hermans@gmail.com
+  author_url: http://mhermans.myopenid.com/
+  date: '2009-01-05 20:00:36 +0000'
+  date_gmt: '2009-01-06 03:00:36 +0000'
+  content: 'RE those assertions: maybe a mapping <a href="http://ontologies.freebase.com/"
+    rel="nofollow">here</a>? That way the mappings can grow through a community-effort
+    and will be dereferencable, instead of adding assertions locally...'
+- id: 80303
+  author: me.yahoo.com/florentjoc
+  author_email: ''
+  author_url: https://me.yahoo.com/florentjoc#f7b43
+  date: '2009-01-14 04:50:00 +0000'
+  date_gmt: '2009-01-14 11:50:00 +0000'
+  content: "Hi,\r\n\r\nJust a detail: why owl:sameAs ? It seems to me that it should
+    be rdfs:subClassOf as frbr Work can also be music/movies/whatever and you don't
+    want to infer that they are book..."
+- id: 80424
+  author: ed
+  author_email: ehs@pobox.com
+  author_url: http://www.inkdroid.org
+  date: '2009-01-21 13:12:36 +0000'
+  date_gmt: '2009-01-21 20:12:36 +0000'
+  content: "@florentjoc good point, that does make more sense ..."
+---
+<p>The news about <a href="http://blog.freebase.com/2009/01/05/100000-books/">100,000</a> books on Freebase got me poking around with curl. I was pleased to see that Freebase actually distinguishes between a book as a work, and a particular edition of that book. To <a href="http://en.wikipedia.org/wiki/FRBR">FRBR</a> aficionados this will be familiar as the difference between a Work and a Manifestation:</p>
+<p>For example here is a URI for James Joyce's Dubliners as a work:</p>
+<blockquote><p>
+<a href="http://rdf.freebase.com/ns/en.dubliners">http://rdf.freebase.com/ns/en.dubliners</a>
+</p></blockquote>
+<p>and here is a URI for a 1991 edition of Dubliners:</p>
+<blockquote><p>
+<a href="http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000048ea5b4">http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000048ea5b4</a>
+</p></blockquote>
+<p>If you follow those links in your browser you'll most likely be redirected to the human readable html view. But machine agents can use the same URL to discover say an RDF <a href="http://inkdroid.org/data/dubliners.txt">representation</a> of this edition of Dubliners, for example with curl: </p>
+<pre>curl --location --header "Accept: application/turtle" http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000048ea5b4
+
+@prefix fb: http://rdf.freebase.com/ns/.
+@prefix rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#.
+@prefix rdfs: http://www.w3.org/2000/01/rdf-schema#.
+@prefix xml: http://www.w3.org/XML/1998/namespace.
+
+ <span style="color: red;">&lt;http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000048ea5b4&gt; a 
+         &lt;http://rdf.freebase.com/ns/book.book_edition&gt;</span>,
+         &lt;http://rdf.freebase.com/ns/common.topic&gt;,
+         &lt;http://rdf.freebase.com/ns/media_common.creative_work&gt;;
+     &lt;http://rdf.freebase.com/ns/book.book_edition.ISBN&gt; "0486268705";
+     <span style="color: blue">&lt;http://rdf.freebase.com/ns/book.book_edition.LCCN&gt; "91008517"</span>;
+     &lt;http://rdf.freebase.com/ns/book.book_edition.author_editor&gt; &lt;http://rdf.freebase.com/ns/en.james_joyce&gt;;
+     <span style="color: green;">&lt;http://rdf.freebase.com/ns/book.book_edition.book&gt; &lt;http://rdf.freebase.com/ns/en.dubliners&gt;</span>;
+     &lt;http://rdf.freebase.com/ns/book.book_edition.dewey_decimal_number&gt; "823";
+     &lt;http://rdf.freebase.com/ns/book.book_edition.number_of_pages&gt; &lt;http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a3be60&gt;;
+     &lt;http://rdf.freebase.com/ns/book.book_edition.publication_date&gt; "1991";
+     &lt;http://rdf.freebase.com/ns/type.object.name&gt; "Dubliners";
+     &lt;http://rdf.freebase.com/ns/type.object.permission&gt; &lt;http://rdf.freebase.com/ns/boot.all_permission&gt;. 
+
+ &lt;http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a3be60&gt; a &lt;http://rdf.freebase.com/ns/book.pagination&gt;;
+     &lt;http://rdf.freebase.com/ns/book.pagination.numbered_pages&gt; "152"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt;;
+     &lt;http://rdf.freebase.com/ns/type.object.permission&gt; &lt;http://rdf.freebase.com/ns/boot.all_permission&gt;. 
+</pre>
+<p>There are a few assertions that struck me as interesting:</p>
+<ul>
+<li>the statement in <span style="color:red;">red</span> that states that the resource is in fact an edition (of type http://rdf.freebase.com/ns/book.book_edition)</li>
+<li>the statement in <span style="color: green;">green</span> which links the edition with the work (http://rdf.freebase.com/ns/en.dubliners).
+</li>
+<li>and the assertion in <span style="color: blue;">blue</span> which states the Library of Congress Control Number (LCCN) for the book</li>
+</ul>
+<p>I was mostly surprised to see the library-centric metadata being collected such as LCCN, OCLC Number, Dewey Decimal Classification, LC Classification. There are even human readable <a href="http://www.freebase.com/view/en/entering_data_for_a_book">instructions</a> for how to enter the data (take that AACR2!).</p>
+<p>Anyhow it got me wondering what it would be like to stuff all the Freebase book <a href="http://download.freebase.com/datadumps/">data</a> into a triple store, assert:</p>
+<pre>
+&lt;http://rdf.freebase.com/ns/book.book&gt; &lt;owl:sameAs&gt; &lt;http://purl.org/vocab/frbr/core#Work&gt; .
+&lt;http://rdf.freebase.com/ns/book.book_edition&gt; &lt;owl:sameAs&gt; &lt;http://purl.org/vocab/frbr/core#Manifestation&gt; .
+</pre>
+<p>and then run some basic inferencing and get some FRBR data. I know, <em>crazy-talk</em> ... but it's interesting in theory (to me at least).</p>

@@ -1,0 +1,14 @@
+# Site settings
+title: inkdroid 
+email: ehs@pobox.com
+description: Paper or Plastic 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://inkdroid.org" # the base hostname & protocol for your site
+twitter_username: edsu
+github_username: edsu
+permalink: pretty
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass

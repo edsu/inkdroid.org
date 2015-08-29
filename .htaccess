@@ -1,0 +1,76 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^www.inkdroid.org
+RewriteRule ^(.*) http://inkdroid.org/$1 [last,redirect=301]
+
+RewriteRule \.sql - [F]
+
+RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
+RewriteRule ^ehs$ ehs.rdf [R=303]
+
+RewriteCond %{HTTP_ACCEPT} text/html [OR]
+RewriteCond %{HTTP_ACCEPT} application/xml [OR]
+RewriteCond %{HTTP_ACCEPT} text/xml [OR]
+RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
+RewriteRule ^ehs$ ehs/ [R=303]
+
+RewriteCond %{HTTP_ACCEPT} application/turtle 
+RewriteRule ^ehs$ ehs.ttl [R=303]
+
+RewriteCond %{HTTP_ACCEPT} application/json
+RewriteRule ^ehs$ ehs.json [R=303]
+
+RewriteCond %{HTTP_ACCEPT} application/x-tex
+RewriteRule ^ehs$ ehs.tex [R=303]
+
+RewriteCond %{HTTP_ACCEPT} application/pdf
+RewriteRule ^ehs$ ehs.pdf [R=303]
+
+RewriteCond %{HTTP_ACCEPT} text/plain [OR]
+RewriteCond %{HTTP_ACCEPT} text/x-markdown
+RewriteRule ^ehs$ ehs.md [R=303]
+
+RewriteRule ^ehs$ ehs/ [R=303]
+RewriteRule ^ehs.txt$ ehs.md [R=301]
+
+RewriteRule ^ehs/ ehs.html
+RewriteRule ^creepy-polaroid/?$ https://edsu.github.io/creepy-polaroid/ [R=301]
+RewriteRule ^polaroid/?$ creepy-polaroid/ [R=301]
+
+# silly stuff
+
+RewriteRule ^dchud.rss$ http://www.youtube.com/watch?v=oHg5SJYRHA0
+RewriteRule ^wtf-8$ http://www.loc.gov/marc/specifications/speccharmarc8.html
+RewriteRule ^passwds$ http://www.youtube.com/watch?v=oHg5SJYRHA0
+RewriteRule ^email_to_babak.txt$ http://www.youtube.com/watch?v=oHg5SJYRHA0
+RewriteRule ^mastercard.txt$ http://www.youtube.com/watch?v=oHg5SJYRHA0
+RewriteRule ^lod-cloud/$ lod-graph [R=301]
+RewriteRule ^chronam-local/?$ /chronam-widget [R=301]
+RewriteRule ^\+$ https://plus.google.com/100036494993214603355 [R=permanent,L]
+
+# hohum
+RewriteRule ^cablegate-social-graph/?$ http://cablegate.onebigarchives.net/ [R=301]
+
+# stuff that has moved on 
+
+RewriteRule ^bzr/lcsh/docs/dc2008.pdf http://arxiv.org/abs/0805.2855 [R=301]
+RewriteRule ^saa2015/?$ http://shawngraham.github.io/saa2015/urls/ [R=permanent,L]
+RewriteRule ^pda2015/?$ http://edsu.github.io/pda2015/ [R=permanent,L]
+RewriteRule ^iipcGA15/?$ http://edsu.github.io/iipcGA15/ [R=permanent,L]
+RewriteRule ^resaw_eu/?$ http://edsu.github.io/resaw_eu/ [R=permanent,L]
+RewriteRule ^dh2015/?$ http://edsu.github.io/dh2015/ [R=permanent,L]
+RewriteRule ^dpla-map(.*) "https://github.com/edsu/dpla-map" [R,L]
+RewriteRule ^echochamber/? "https://github.com/edsu/echochamber" [R,L]
+RewriteRule ^empirical-cloud/? "https://github.com/edsu/empirical-cloud" [R,L]
+RewriteRule ^/hathi-time/? "https://github.com/edsu/hathi-time" [R,L]
+RewriteRule ^ici/? "https://github.com/edsu/ici" [R,L]
+RewriteRule ^lastcloud/? "https://github.com/edsu/lastcloud" [R,L]
+RewriteRule ^lcco/? "https://github.com/edsu/lcco" [R,L]
+RewriteRule ^lod-graph/? "https://github.com/edsu/lod-graph" [R,L]
+RewriteRule ^rage-14/? "https://github.com/edsu/rage-14" [R,L]
+RewriteRule ^/subjects-here/? "https://github.com/edsu/subjects-here" [R,L]
+RewriteRule ^/wikippoc/? "https://github.com/edsu/wikippoc" [R,L]
+
+RewriteRule ^journal(.*) "$1" [R=permanent,L]
+

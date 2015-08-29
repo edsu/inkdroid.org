@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: nekkid
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 144
+wordpress_url: http://www.inkdroid.org/journal/2007/04/05/nekkid/
+date: '2007-04-05 06:30:18 +0000'
+date_gmt: '2007-04-05 13:30:18 +0000'
+tags: []
+comments:
+- id: 20462
+  author: John Cowan
+  author_email: cowan@ccil.org
+  author_url: http://www.ccil.org/~cowan
+  date: '2007-04-05 06:57:41 +0000'
+  date_gmt: '2007-04-05 13:57:41 +0000'
+  content: Lucky  me, who has nothing to remove and nothing to add back.
+---
+<p>Yeah, today is <a title="CSS Naked Day" href="http://naked.dustindiaz.com/">CSS Naked Day</a> I just hope I remember to re-enable CSS tomorrow :-)</p>

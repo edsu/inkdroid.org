@@ -1,0 +1,29 @@
+---
+layout: post
+status: publish
+published: true
+title: Standard
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 90
+wordpress_url: http://www.inkdroid.org/journal/2006/03/21/standard/
+date: '2006-03-21 09:39:41 +0000'
+date_gmt: '2006-03-21 16:39:41 +0000'
+tags: []
+comments: []
+---
+<p><a href="http://www.amazon.com/gp/product/1841492299"><img src="http://images.amazon.com/images/P/1841492299.01._SCMZZZZZZZ_PB_PU_PU-5_.jpg" border=0 style="margin-right: 15px" align="left"/></a></p>
+<p>When I find the time I'm enjoying reading <a href="http://www.amazon.com/gp/product/1841492299">The Algebraist</a> by Iain M. Banks which (so far) details a many-species galactic civilization in 4034 AD. The milieu includes an amorphous ancient species known as the Dwellers who live for millions of years on gas giant planets (like Jupiter) and have very, very long memories...and the best archives which other beings ocassionaly 'delve' into. It's the usual Banksian genius. Last night on pages 100-101 I couldn't help laughing at this segment that discusses standards bodies in the future. Apologies to Mr Banks for the extended quote...   </p>
+<blockquote><p>
+The official was speaking the human version of Standard, the galaxy's lingua franca. Standard had been chose as an inter-species, pan-galactic language over eight billion years ago. Dwellers had been the main vector in its spread, though they made a point of emphasising that it was not theirs originally. They had one very ancient, informal vernacular and another even more ancient formal language of their own, plus lots that had survived somehow from earlier times or been made up in the meantime. These latter came and went in popularity as such things tended to.</p>
+<p>'Oh no, there was a competition,' the Dweller guide/mentor Y'sul had explained to Fassin on his first delve, hundreds of years ago. 'Usual thing; lots of competing so-called universal standards. There was a proper full-scale war after one linguistic disagreement -- a grumous and a p'Liner species, if memory serves -- and after that came the usual response: inquiries, missions, meetings, reports, conferences, summits.'</p>
+<p>'What we now know as Standard was chosen after centuries of research, study and argument by a vast and unwieldly committee composed of representatives of thousands of species., at least two of which became effectively extinct during the course of the deliberations. It was chosen, astonishingly, on its merits, because it was an almost perfect language: flexible, descriptive, uncoloured (whatver that means, but apparently it's important), precise but malleable, highly, elegantly complete yet primed for external-term-adoption and with an unusually free but logical link between the written form and the pronounced which could easily and plausibly embrace almost any set of phonemes, scints, glyphs or pictals and still make translatable sense.'</p>
+<p>'Best of all, it didn't belong to anybody, the species which had invented it having safely extincted itself themselves millions of years earlier without leaving either any proven inheritors or significant mark on the greater galaxy, save this sole linguistic gem. Even more amazingly, the subsequent conference to endorse the decision of the mega-committee went smoothly and agreed all the relevan recommendations. Take-up and acceptance were swift and widespread. Standard became the first and so far only true universal language within just a few Quick-mean generations. Set a standard for pan-species cooperation that everybody's been trying to live up to ever since.'
+</p></blockquote>
+<p>Too funny. I love how the 'perfect' language was created by a race that extincted themselves. Just goes to show that perfection ain't everything...</p>

@@ -1,0 +1,3692 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix c: <http://s.opencalais.com/1/pred/> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/68>
+    c:detection """[  by   the   unforeseen
+circumstance'of   ]his[
+wife's   illness,   it   has   been   beneficial]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "his" ;
+    c:length "3" ;
+    c:offset "17610" ;
+    c:prefix """  by   the   unforeseen
+circumstance'of   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/7a145a5f-4a5f-3853-82ad-98b35ea0d30a> ;
+    c:suffix """
+wife's   illness,   it   has   been   beneficial""" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/e1270925-0eda-3f3e-bf4c-1d88c90357cb>
+    c:name "XV.—THE   LIBRARY   OF   CONGRESS" ;
+    a <http://s.opencalais.com/1/type/em/e/Facility> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/88>
+    c:detection """[  its   prov -
+ince.   '   .-   -   •   •
+By   ]Herbert   Putnam[,
+LIBRARIAN   OF   CONGRESS.
+What   the   Federal]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Herbert   Putnam" ;
+    c:length "16" ;
+    c:offset "29565" ;
+    c:prefix """  its   prov -
+ince.   '   .-   -   •   •
+By   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/b01bafc8-403e-328f-9cf2-35154705adcf> ;
+    c:suffix """,
+LIBRARIAN   OF   CONGRESS.
+What   the   Federal""" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/31ec6404-85fe-33f5-af02-cb37fec6b170>
+    c:name "oil" ;
+    a <http://s.opencalais.com/1/type/em/e/IndustryTerm> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/39>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.115" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/05bb2646-0ab8-3a48-b4eb-d29cfd33ce39> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/2>
+    c:detection """[  \"^
+DIXON   AND   SMITH—George   Dlxoh
+and   ]Solly   Smith[   had   \"a   meet\"   in   Wood -
+ward's  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Solly   Smith" ;
+    c:length "13" ;
+    c:offset "6148" ;
+    c:prefix """  \"^
+DIXON   AND   SMITH—George   Dlxoh
+and   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/2391f6c5-d5a4-3b41-b1f2-00e956694d13> ;
+    c:suffix """   had   \"a   meet\"   in   Wood -
+ward's  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/51>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.124" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/6260d97e-9641-397f-bd1e-6fdd437009cb> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/73>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.081" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/4b1c6535-2bb4-3050-b787-65fe9b614d1c> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/7>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.326" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/a1c1ac3d-0c25-3fb1-ac74-cac9c8510afa> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/9f45e0f5-aa73-39b8-b39e-2a1546da820a>
+    c:name "New   York" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/66>
+    c:detection """[  under   conditions   agreeable
+to   him   and   ]his[.
+While   his   tour   \\tasnecessarily,  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "his" ;
+    c:length "3" ;
+    c:offset "17513" ;
+    c:prefix """  under   conditions   agreeable
+to   him   and   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/7a145a5f-4a5f-3853-82ad-98b35ea0d30a> ;
+    c:suffix """.
+While   his   tour   \\tasnecessarily,  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/96>
+    c:detection """[  arid   uninterruptedly   engaged.   Both.the
+]Pennsylvania[   and   Reading   railroads   are  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Pennsylvania" ;
+    c:length "12" ;
+    c:offset "15284" ;
+    c:prefix """  arid   uninterruptedly   engaged.   Both.the
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/51bb10d7-d54c-3aed-8cf9-b7782e8eeda9> ;
+    c:suffix "   and   Reading   railroads   are  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/34>
+    c:detection """[  its   prov -
+ince.   '   .-   -   •   •
+By   ]Herbert   Putnam,
+LIBRARIAN   OF   CONGRESS[.
+What   the   Federal   Government   Has   Done ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact """Herbert   Putnam,
+LIBRARIAN   OF   CONGRESS""" ;
+    c:length "43" ;
+    c:offset "29565" ;
+    c:prefix """  its   prov -
+ince.   '   .-   -   •   •
+By   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/052c19cd-69a3-3115-8b04-9a705d272acf> ;
+    c:suffix """.
+What   the   Federal   Government   Has   Done """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/a846abbc-d922-386f-a55a-4d9350909b11>
+    c:name "PreS3   Clipping   Bureau" ;
+    c:nationality "N/A" ;
+    c:organizationtype "governmental civilian" ;
+    a <http://s.opencalais.com/1/type/em/e/Organization> .
+
+<http://d.opencalais.com/genericHasher-1/8060526b-2237-3e21-a50e-8be81db4802a>
+    c:name "Watsonville" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/72>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.088" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/113>
+    c:detection """[  by   Gratiano.,   •
+MAHOGANY   TREE—Enq.,   ]Oakland[.
+Cal.   The   mahogany   tree   is   a   native ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Oakland" ;
+    c:length "7" ;
+    c:offset "6578" ;
+    c:prefix """  by   Gratiano.,   •
+MAHOGANY   TREE—Enq.,   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/50c9b868-b2e3-31b8-9dae-be220acc7613> ;
+    c:suffix """.
+Cal.   The   mahogany   tree   is   a   native """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/29>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.231" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/5fc67ecf-e49d-3ab4-aaad-9cff97f00ffe> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/59>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.044" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/e1270925-0eda-3f3e-bf4c-1d88c90357cb> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/90>
+    c:detection """[  mahogany   tree   is   a   native   of
+the   ]West   Indies[   and   of   South   America.
+It   grows   to  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "West   Indies" ;
+    c:length "13" ;
+    c:offset "6645" ;
+    c:prefix """  mahogany   tree   is   a   native   of
+the   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/bd9038c8-99f6-3404-af0e-ee233cd6d727> ;
+    c:suffix """   and   of   South   America.
+It   grows   to  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/31>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.272" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/9f45e0f5-aa73-39b8-b39e-2a1546da820a> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/22>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.057" ;
+    c:subject <http://d.opencalais.com/pershash-1/587471d0-54a3-3e9c-91ab-684d346818d0> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/41>
+    c:detection """[  of   our   people
+are   not   honest.   .
+]The   Times[   should   go   and   study   logic   for   a  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "The   Times" ;
+    c:length "11" ;
+    c:offset "4317" ;
+    c:prefix """  of   our   people
+are   not   honest.   .
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/47502e9e-923d-3861-b258-fbb94a5fee3e> ;
+    c:suffix "   should   go   and   study   logic   for   a  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/10>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.231" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/1be9aea0-4a25-3ddb-946b-d880c082a0e9> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/e84f9c1c-ce95-3bbf-a372-a9990caf22d3>
+    c:name "AuOltorlnm   Hotel" ;
+    a <http://s.opencalais.com/1/type/em/e/Facility> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/fd9e1e90-96a9-04ff-1397-445c4e93208b>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "36.48852" ;
+    c:longitude "-119.70138" ;
+    c:name "California,United States" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/35>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.584" ;
+    c:subject <http://d.opencalais.com/comphash-1/ef65cde7-3f93-3e89-a306-50de326339a2> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/18>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.177" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/cde389f2-4582-3dca-9c96-5e5d27477474> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/126>
+    c:detection """[  Square:
+Mcrrty   H1U   EoUL   :   ;'   .   f
+]CHICAGO[   XKWS,   STANDSi
+Rxeman   House:   P.   O.   Sm]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "CHICAGO" ;
+    c:length "7" ;
+    c:offset "11652" ;
+    c:prefix """  Square:
+Mcrrty   H1U   EoUL   :   ;'   .   f
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/03ff2f32-7d79-3042-a299-2010505bc8fc> ;
+    c:suffix """   XKWS,   STANDSi
+Rxeman   House:   P.   O.   Sm""" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/14>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.290" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/ad004887-c581-3051-9f70-22f68e4b89e4> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/37>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.249" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/ae988709-e26a-383c-89e0-0d50565794d9> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/052c19cd-69a3-3115-8b04-9a705d272acf>
+    c:organization <http://d.opencalais.com/genericHasher-1/1ede3efe-4938-3c88-bd76-753a95f5593c> ;
+    c:person <http://d.opencalais.com/pershash-1/b01bafc8-403e-328f-9cf2-35154705adcf> ;
+    c:position "LIBRARIAN " ;
+    a <http://s.opencalais.com/1/type/em/r/PersonProfessional> .
+
+<http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c>
+    c:name "Missouri" ;
+    a <http://s.opencalais.com/1/type/em/e/ProvinceOrState> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/70>
+    c:detection """[  will   be   with   the   President   and   ]his[   wife-on
+their   homeward   journey.
+May   its ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "his" ;
+    c:length "3" ;
+    c:offset "19277" ;
+    c:prefix "  will   be   with   the   President   and   " ;
+    c:subject <http://d.opencalais.com/pershash-1/7a145a5f-4a5f-3853-82ad-98b35ea0d30a> ;
+    c:suffix """   wife-on
+their   homeward   journey.
+May   its """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/80>
+    c:detection """[  Siegerfs
+Angostura   Bitters,   great   South   ]American[   tonic
+'   ¦   ,'   •—   ¦   »   ?   ¦   \"   i-]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "American" ;
+    c:length "8" ;
+    c:offset "9748" ;
+    c:prefix """  Siegerfs
+Angostura   Bitters,   great   South   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/e0b8c53a-175f-3c05-9ebf-8fd551f40189> ;
+    c:suffix """   tonic
+'   ¦   ,'   •—   ¦   »   ?   ¦   \"   i-""" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/70>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.065" ;
+    c:subject <http://d.opencalais.com/pershash-1/0b41ed04-d7a8-3b17-a498-6e6b05d43520> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/19>
+    c:detection """[  you   ask   about   Is
+in   operation   in   ]Rochester[,   N.   Y.,   address
+a   communication   to  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Rochester" ;
+    c:length "9" ;
+    c:offset "8193" ;
+    c:prefix """  you   ask   about   Is
+in   operation   in   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/1be9aea0-4a25-3ddb-946b-d880c082a0e9> ;
+    c:suffix """,   N.   Y.,   address
+a   communication   to  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/4b1c6535-2bb4-3050-b787-65fe9b614d1c>
+    c:name "Fresno" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/er/company/ralg-tr1r/948ed905-c646-35c1-ac70-ac6217d478e0>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:name "Seattle Times Co" ;
+    c:score "0.90000004" ;
+    c:subject <http://d.opencalais.com/comphash-1/41da358c-22cb-3502-aba0-8f46175c4905> ;
+    a <http://s.opencalais.com/1/type/er/Company> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/18>
+    c:detection """[  growers   of   tire   State,   Is   up
+from   ]Santa   Clara[   and   Is   registered   at   the
+Palace.   .-\"]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Santa   Clara" ;
+    c:length "13" ;
+    c:offset "20632" ;
+    c:prefix """  growers   of   tire   State,   Is   up
+from   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/839d75ac-87ab-38b4-a123-eb7b3a5dba2a> ;
+    c:suffix """   and   Is   registered   at   the
+Palace.   .-\"""" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/e3b633f3-aa73-339f-b8c8-66b62e079ed6>
+    c:name "United States Navy" ;
+    c:nationality "American" ;
+    c:organizationtype "governmental military" ;
+    a <http://s.opencalais.com/1/type/em/e/Organization> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/130>
+    c:detection """[  kicked   high   in   American   politics.   ]His[   principles
+_re   certainly   not   Democratic,]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "His" ;
+    c:length "3" ;
+    c:offset "5455" ;
+    c:prefix "  kicked   high   in   American   politics.   " ;
+    c:subject <http://d.opencalais.com/pershash-1/4bb137e1-04c3-36bf-b2be-fecae4657b0b> ;
+    c:suffix """   principles
+_re   certainly   not   Democratic,""" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e>
+    c:name "California" ;
+    a <http://s.opencalais.com/1/type/em/e/ProvinceOrState> .
+
+<http://d.opencalais.com/genericHasher-1/cde389f2-4582-3dca-9c96-5e5d27477474>
+    c:name "Aetorla   Hotel" ;
+    a <http://s.opencalais.com/1/type/em/e/Facility> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/58>
+    c:detection """[  nation   has   any   guns   In   its   ]navy[   of
+larger   bore.   ¦
+.   HEADWATER'S   BEST  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "navy" ;
+    c:length "4" ;
+    c:offset "7054" ;
+    c:prefix "  nation   has   any   guns   In   its   " ;
+    c:subject <http://d.opencalais.com/genericHasher-1/ae988709-e26a-383c-89e0-0d50565794d9> ;
+    c:suffix """   of
+larger   bore.   ¦
+.   HEADWATER'S   BEST  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/4e995033-70d0-4e35-245c-2de99045b623>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "40.5" ;
+    c:longitude "-82.5" ;
+    c:name "Ohio,United States" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/3464e47d-a869-3783-8fdc-d17cb8f13c2e> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/comphash-1/ef65cde7-3f93-3e89-a306-50de326339a2>
+    c:name "The Times" ;
+    c:nationality "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Company> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/112>
+    c:detection """[ ia   twelve   inches.   The   largest   in
+the   ]United   States   navy[   is   fifteen   inches.
+No   nation   has   any]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "United   States   navy" ;
+    c:length "22" ;
+    c:offset "6962" ;
+    c:prefix """ ia   twelve   inches.   The   largest   in
+the   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/e3b633f3-aa73-339f-b8c8-66b62e079ed6> ;
+    c:suffix """   is   fifteen   inches.
+No   nation   has   any""" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/85>
+    c:detection """[  -   and   a   printing
+office   for   the.   ]printing[   of   the   catalogue
+cards   and   forms,  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "printing" ;
+    c:length "8" ;
+    c:offset "22961" ;
+    c:prefix """  -   and   a   printing
+office   for   the.   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/c78250b6-f7c2-3e2d-bd36-0c1266bd43c0> ;
+    c:suffix """   of   the   catalogue
+cards   and   forms,  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/57>
+    c:detection """[   &lt;   \\   ',   •   '   .¦¦¦-'•'.''   ,-
+THE   ]Seattle   Times[*finds   itself   enraged   by   The
+Call's   use]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Seattle   Times" ;
+    c:length "15" ;
+    c:offset "2513" ;
+    c:prefix """   &lt;   \\   ',   •   '   .¦¦¦-'•'.''   ,-
+THE   """ ;
+    c:subject <http://d.opencalais.com/comphash-1/41da358c-22cb-3502-aba0-8f46175c4905> ;
+    c:suffix """*finds   itself   enraged   by   The
+Call's   use""" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/9>
+    c:detection """[  those   of
+good   citizens   who   respect   ]him[   for   the   awill   &lt;   be   ¦.ordered
+'  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "him" ;
+    c:length "3" ;
+    c:offset "13907" ;
+    c:prefix """  those   of
+good   citizens   who   respect   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/2391f6c5-d5a4-3b41-b1f2-00e956694d13> ;
+    c:suffix """   for   the   awill   &lt;   be   ¦.ordered
+'  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/54>
+    c:detection """[  a
+majority   party   the   scmc^way.   ']The   Times[   seasons,
+adorns   and   illustrates   its  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "The   Times" ;
+    c:length "11" ;
+    c:offset "3464" ;
+    c:prefix """  a
+majority   party   the   scmc^way.   '""" ;
+    c:subject <http://d.opencalais.com/comphash-1/ef65cde7-3f93-3e89-a306-50de326339a2> ;
+    c:suffix """   seasons,
+adorns   and   illustrates   its  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/84>
+    c:detection """[   of   the   library   •   books   -   and   a   ]printing[
+office   for   the.   printing   of   the  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "printing" ;
+    c:length "8" ;
+    c:offset "22930" ;
+    c:prefix "   of   the   library   •   books   -   and   a   " ;
+    c:subject <http://d.opencalais.com/genericHasher-1/c78250b6-f7c2-3e2d-bd36-0c1266bd43c0> ;
+    c:suffix """
+office   for   the.   printing   of   the  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/30>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.295" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/31ec6404-85fe-33f5-af02-cb37fec6b170> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/52>
+    c:detection """[  for   a   garbage   woman,   while   ]Newport[
+has   the   satisfaction   of   having   a  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Newport" ;
+    c:length "7" ;
+    c:offset "434" ;
+    c:prefix "  for   a   garbage   woman,   while   " ;
+    c:subject <http://d.opencalais.com/genericHasher-1/56b520cb-4636-3f95-8f9f-e16e3b317862> ;
+    c:suffix """
+has   the   satisfaction   of   having   a  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/61>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.257" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/a4e2ca08-c2d5-3f15-a393-b65910eea7df> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/40>
+    c:detection """[  a
+majority   party   the   scmc^way.   ']The   Times[   seasons,
+adorns   and   illustrates   its  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "The   Times" ;
+    c:length "11" ;
+    c:offset "3464" ;
+    c:prefix """  a
+majority   party   the   scmc^way.   '""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/47502e9e-923d-3861-b258-fbb94a5fee3e> ;
+    c:suffix """   seasons,
+adorns   and   illustrates   its  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/48>
+    c:detection "[&lt;Document&gt;&lt;Date&gt;2008-12-02&lt;/Date&gt;&lt;Body&gt;]Mrs.   Pptter   Palmer[,   has   declined   with   thanks  ]" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Mrs.   Pptter   Palmer" ;
+    c:length "22" ;
+    c:offset "39" ;
+    c:prefix "&lt;Document&gt;&lt;Date&gt;2008-12-02&lt;/Date&gt;&lt;Body&gt;" ;
+    c:subject <http://d.opencalais.com/pershash-1/3434894e-3a90-332b-80ef-39cdd00a057a> ;
+    c:suffix ",   has   declined   with   thanks  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/11>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.268" ;
+    c:subject <http://d.opencalais.com/pershash-1/796ad6d3-2543-3a54-b371-884b13c61dc3> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/3464e47d-a869-3783-8fdc-d17cb8f13c2e>
+    c:name "Ohio" ;
+    a <http://s.opencalais.com/1/type/em/e/ProvinceOrState> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/38d22319-239f-cd5d-432d-fcd0fab31888>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "37.78847" ;
+    c:longitude "-85.32795" ;
+    c:name "Kentucky,United States" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/2399683b-f6bb-366a-b209-7e861c9b0df1> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/55>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.351" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/a54ac18b-a956-3b5c-b235-0609ca899305> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/133>
+    c:detection """[  s^nse   of
+the   country   from   fhe   party   ]he[   has   created   and   led,
+and   an  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "he" ;
+    c:length "2" ;
+    c:offset "5716" ;
+    c:prefix """  s^nse   of
+the   country   from   fhe   party   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/4bb137e1-04c3-36bf-b2be-fecae4657b0b> ;
+    c:suffix """   has   created   and   led,
+and   an  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/31>
+    c:detection """[  tele -
+graphic   facilities   in   the   West   ]Indies[..   The   great   storms   born'
+there   are  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Indies" ;
+    c:length "6" ;
+    c:offset "18178" ;
+    c:prefix """  tele -
+graphic   facilities   in   the   West   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/62e64075-d587-3d60-84aa-6b7661550160> ;
+    c:suffix """..   The   great   storms   born'
+there   are  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/pershash-1/a079e0e8-fc42-3908-b5ad-e43f28bab529>
+    c:name "Allen   S.   Qlmsted" ;
+    c:nationality "N/A" ;
+    c:persontype "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Person> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/65>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.296" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/cc88b155-205c-3676-a151-d45f473f0b16> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/56b520cb-4636-3f95-8f9f-e16e3b317862>
+    c:name "Newport" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/57>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.071" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/874eaab9-7b66-36e3-9650-8de7a5001cf9> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/8f21fabb-b261-b1db-44f9-82b92fc4b30a>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "32.8" ;
+    c:longitude "34.983334" ;
+    c:name "Haifa,Israel" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/6260d97e-9641-397f-bd1e-6fdd437009cb> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/115>
+    c:detection """[  St.
+Louis,   Mo.,   is   at   the   Palace:   ]He[   is   a
+brother   of   Edwin   W.   Joy,   the ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "He" ;
+    c:length "2" ;
+    c:offset "20793" ;
+    c:prefix """  St.
+Louis,   Mo.,   is   at   the   Palace:   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/0b41ed04-d7a8-3b17-a498-6e6b05d43520> ;
+    c:suffix """   is   a
+brother   of   Edwin   W.   Joy,   the """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/13>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.162" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/c489280c-385d-3106-90ca-9210b3965ea8> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/61>
+    c:detection """[  Charles   F.   Joy   of   St.
+Louis,   ]Mo.[,   is   at   the   Palace:   He   is   a
+brother]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Mo." ;
+    c:length "3" ;
+    c:offset "20760" ;
+    c:prefix """  Charles   F.   Joy   of   St.
+Louis,   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> ;
+    c:suffix """,   is   at   the   Palace:   He   is   a
+brother""" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/105>
+    c:detection """[  •¦   :'-¦•¦;   •   v   \"   *   -.*   ¦¦¦
+]Washington[   is,   moreover,   itself   becom -
+ing   the  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Washington" ;
+    c:length "10" ;
+    c:offset "28014" ;
+    c:prefix """  •¦   :'-¦•¦;   •   v   \"   *   -.*   ¦¦¦
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/1d1529b7-da5f-3884-8de0-c765b3b7d3a3> ;
+    c:suffix """   is,   moreover,   itself   becom -
+ing   the  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/117>
+    c:detection """[  color.   '\"
+'.j   t^he   best   cure   for   ]corns[.*   '   U   oUL
+SATURDAY.   .v..'/.s........MAY ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "corns" ;
+    c:length "5" ;
+    c:offset "9969" ;
+    c:prefix """  color.   '\"
+'.j   t^he   best   cure   for   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/7766f062-0468-3d78-9ed5-f8490a74086e> ;
+    c:suffix """.*   '   U   oUL
+SATURDAY.   .v..'/.s........MAY """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/23>
+    c:detection """[  the   two,   and   ac -
+cording   to   this   ]Seattle[   oracle   all   the   honest   ones  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Seattle" ;
+    c:length "7" ;
+    c:offset "4173" ;
+    c:prefix """  the   two,   and   ac -
+cording   to   this   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/ad004887-c581-3051-9f70-22f68e4b89e4> ;
+    c:suffix "   oracle   all   the   honest   ones  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/69>
+    c:detection """[ to   the   West   and\\
+to/Western   interests.   ]He[   and   hise   want   a   wireless  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "He" ;
+    c:length "2" ;
+    c:offset "17714" ;
+    c:prefix """ to   the   West   and\\
+to/Western   interests.   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/7a145a5f-4a5f-3853-82ad-98b35ea0d30a> ;
+    c:suffix "   and   hise   want   a   wireless  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/pershash-1/9016c656-b402-3c28-924e-03475a785ec3>
+    c:name "Charles   P.   Braslan" ;
+    c:nationality "N/A" ;
+    c:persontype "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Person> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/1f4482fa-8b1f-d76a-8943-1a7e3fa9bf1a>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "37.666645" ;
+    c:longitude "-78.614555" ;
+    c:name "Virginia,United States" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/c489280c-385d-3106-90ca-9210b3965ea8> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/45>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.565" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/e0b8c53a-175f-3c05-9ebf-8fd551f40189> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/116>
+    c:detection """[  Special   appropriations   are   placed
+at*   ]his[   disposal,   which:   now   average  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "his" ;
+    c:length "3" ;
+    c:offset "25480" ;
+    c:prefix """  Special   appropriations   are   placed
+at*   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/0b41ed04-d7a8-3b17-a498-6e6b05d43520> ;
+    c:suffix "   disposal,   which:   now   average  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/62e64075-d587-3d60-84aa-6b7661550160>
+    c:name "Indies" ;
+    a <http://s.opencalais.com/1/type/em/e/NaturalFeature> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/9>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.060" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/839d75ac-87ab-38b4-a123-eb7b3a5dba2a> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/3dc6359c-759e-3d7c-825d-ebe57e194458>
+    c:name "Venice" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/genericHasher-1/02b68df4-867f-3ae0-843e-da54376412e2>
+    c:name "Is" ;
+    c:producttype "Car" ;
+    a <http://s.opencalais.com/1/type/em/e/Product> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/62>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.038" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/8154905b-ba36-3190-adc7-95a58d4b9405> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/6260d97e-9641-397f-bd1e-6fdd437009cb>
+    c:name "Haifa" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/121>
+    c:detection """[  and   make   you   tired   all   over?   ]Allen[\"s
+Foot-Ease   niakes   thershoea   comfortable, ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Allen" ;
+    c:length "5" ;
+    c:offset "9335" ;
+    c:prefix "  and   make   you   tired   all   over?   " ;
+    c:subject <http://d.opencalais.com/pershash-1/a079e0e8-fc42-3908-b5ad-e43f28bab529> ;
+    c:suffix """\"s
+Foot-Ease   niakes   thershoea   comfortable, """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/73b76d9b-1437-3f26-9617-9a762fa26e11>
+    c:name "ROCHESTER   INSTITUTION" ;
+    c:nationality "N/A" ;
+    c:organizationtype "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Organization> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/32>
+    c:detection """[  STANDSi
+Rxeman   House:   P.   O.   Sm   Co.;   ]Great   Northern   Hotel[:
+Fremont   Hccse;   AuOltorlnm  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Great   Northern   Hotel" ;
+    c:length "24" ;
+    c:offset "11718" ;
+    c:prefix """  STANDSi
+Rxeman   House:   P.   O.   Sm   Co.;   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/e01d491d-0add-3c82-b3dd-7a0fa007781a> ;
+    c:suffix """:
+Fremont   Hccse;   AuOltorlnm  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/122>
+    c:detection """[  25c.   •   Sample   sent
+FREE.   Address   ]Allen   S.   Qlmsted[.:.   Le   Roy.   JJ.Y.
+SalUngr   under   false  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Allen   S.   Qlmsted" ;
+    c:length "20" ;
+    c:offset "9544" ;
+    c:prefix """  25c.   •   Sample   sent
+FREE.   Address   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/a079e0e8-fc42-3908-b5ad-e43f28bab529> ;
+    c:suffix """.:.   Le   Roy.   JJ.Y.
+SalUngr   under   false  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/20>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.313" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/62e64075-d587-3d60-84aa-6b7661550160> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/71>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.192" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/7766f062-0468-3d78-9ed5-f8490a74086e> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/pershash-1/c303081f-4e3f-3333-ba27-68c9165f88b8>
+    c:name "JOHN   D.   SPRECKELS" ;
+    c:nationality "N/A" ;
+    c:persontype "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Person> .
+
+<http://d.opencalais.com/comphash-1/da061232-dda0-342f-9e55-4ee9b1f0cd80>
+    c:name "Tribune" ;
+    c:nationality "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Company> .
+
+<http://d.opencalais.com/genericHasher-1/32cca635-b090-3e1b-b657-37a040b9169a>
+    c:name "cent" ;
+    a <http://s.opencalais.com/1/type/em/e/Currency> .
+
+<http://d.opencalais.com/pershash-1/3434894e-3a90-332b-80ef-39cdd00a057a>
+    c:name "Pptter   Palmer" ;
+    c:nationality "N/A" ;
+    c:persontype "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Person> .
+
+<http://d.opencalais.com/genericHasher-1/7958d38f-09f3-3cbc-ac4c-c68c67b1b144>
+    c:name "National   Library" ;
+    a <http://s.opencalais.com/1/type/em/e/Facility> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/81>
+    c:detection """[  by   railway   companies   to
+the   Pan-]American[   Exposition   some   authorities
+on   railroad ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "American" ;
+    c:length "8" ;
+    c:offset "16367" ;
+    c:prefix """  by   railway   companies   to
+the   Pan-""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/e0b8c53a-175f-3c05-9ebf-8fd551f40189> ;
+    c:suffix """   Exposition   some   authorities
+on   railroad """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/1be9aea0-4a25-3ddb-946b-d880c082a0e9>
+    c:name "Rochester" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/genericHasher-1/fe2e8e27-1399-32b0-815c-544c6be2601c>
+    c:name "YORK" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/50>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.034" ;
+    c:subject <http://d.opencalais.com/pershash-1/b01bafc8-403e-328f-9cf2-35154705adcf> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/3>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.182" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/fe2e8e27-1399-32b0-815c-544c6be2601c> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/35>
+    c:detection """[ -
+siduous   care,-and   it   employs   elaborate
+]machinery[—heating   and   .   ventilating   &lt;   ap]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "machinery" ;
+    c:length "9" ;
+    c:offset "24791" ;
+    c:prefix """ -
+siduous   care,-and   it   employs   elaborate
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/cc40987a-fda0-39f7-ac31-8285b64e745a> ;
+    c:suffix "—heating   and   .   ventilating   &lt;   ap" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/62>
+    c:detection """[  ,   ,/v;,
+STATUTE   OF   LIMITATION-Inquirer,
+]Punta   Arena[,   Cal.   t   A   mortgage,   like  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Punta   Arena" ;
+    c:length "13" ;
+    c:offset "7715" ;
+    c:prefix """  ,   ,/v;,
+STATUTE   OF   LIMITATION-Inquirer,
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/e5851549-c0db-3679-a65c-1a179cbdfd49> ;
+    c:suffix ",   Cal.   t   A   mortgage,   like  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/dac4e9e4-c8b7-3821-b2fd-b756d04856c2>
+    c:city <http://d.opencalais.com/genericHasher-1/9bee94cd-c6ea-327a-97f2-670070967b29> ;
+    c:person <http://d.opencalais.com/pershash-1/0b41ed04-d7a8-3b17-a498-6e6b05d43520> ;
+    c:provinceorstate <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> ;
+    a <http://s.opencalais.com/1/type/em/r/PersonPolitical> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/2>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.511" ;
+    c:subject <http://d.opencalais.com/pershash-1/2391f6c5-d5a4-3b41-b1f2-00e956694d13> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/100>
+    c:detection """[  190L)
+&lt;   :   \\   *   ______   \"   ¦
+]XV.—THE   LIBRARY   OF   CONGRESS[.
+But   being   a   national   library,   its  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "XV.—THE   LIBRARY   OF   CONGRESS" ;
+    c:length "33" ;
+    c:offset "26968" ;
+    c:prefix """  190L)
+&lt;   :   \\   *   ______   \"   ¦
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/e1270925-0eda-3f3e-bf4c-1d88c90357cb> ;
+    c:suffix """.
+But   being   a   national   library,   its  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/22a2e9d4-42cf-58a2-d8d3-3269b69ad67a>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "38.5" ;
+    c:longitude "-92.5" ;
+    c:name "Missouri,United States" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/74>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.508" ;
+    c:subject <http://d.opencalais.com/pershash-1/a079e0e8-fc42-3908-b5ad-e43f28bab529> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/er/company/ralg-tr1r/8477ade1-ce09-319e-a9b5-5d3143709a6b>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:name "Tribune Company" ;
+    c:score "1.0" ;
+    c:subject <http://d.opencalais.com/comphash-1/da061232-dda0-342f-9e55-4ee9b1f0cd80> ;
+    c:ticker "TXA" ;
+    a <http://s.opencalais.com/1/type/er/Company> .
+
+<http://d.opencalais.com/genericHasher-1/c78250b6-f7c2-3e2d-bd36-0c1266bd43c0>
+    c:name "printing" ;
+    a <http://s.opencalais.com/1/type/em/e/IndustryTerm> .
+
+<http://d.opencalais.com/genericHasher-1/2066bf14-6c3d-3869-a22f-0ac1f61cbc1b>
+    c:name "Valencia" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/127>
+    c:detection """[  Lee.   a   well-known   book   publisher
+of   ]Chicago[,   registered   at   the   Palace   yes]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Chicago" ;
+    c:length "7" ;
+    c:offset "20200" ;
+    c:prefix """  Lee.   a   well-known   book   publisher
+of   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/03ff2f32-7d79-3042-a299-2010505bc8fc> ;
+    c:suffix ",   registered   at   the   Palace   yes" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/68>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.253" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/e3b633f3-aa73-339f-b8c8-66b62e079ed6> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/50>
+    c:detection """[   is   to   repair   SHamrock   II   and;bring   ]her[
+over   to   make.the'   race  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "her" ;
+    c:length "3" ;
+    c:offset "1322" ;
+    c:prefix "   is   to   repair   SHamrock   II   and;bring   " ;
+    c:subject <http://d.opencalais.com/pershash-1/3434894e-3a90-332b-80ef-39cdd00a057a> ;
+    c:suffix """
+over   to   make.the'   race  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/c8b1cc4c-9e3f-34e5-90b8-554cca28f210>
+    c:name "the   writ" ;
+    a <http://s.opencalais.com/1/type/em/e/PublishedMedium> .
+
+<http://d.opencalais.com/er/company/ralg-tr1r/b0d8b747-1ff5-3492-8398-3dd9d5a13e31>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:name "The Times Global Broadcasting Co Ltd" ;
+    c:score "0.90000004" ;
+    c:subject <http://d.opencalais.com/comphash-1/ef65cde7-3f93-3e89-a306-50de326339a2> ;
+    a <http://s.opencalais.com/1/type/er/Company> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/16>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.321" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/32cca635-b090-3e1b-b657-37a040b9169a> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/82>
+    c:detection """[ Is   with -
+in   •   one   hour   ¦   of   the   ]American   University[
+most and
+every   class   in   the   community.  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "American   University" ;
+    c:length "21" ;
+    c:offset "28733" ;
+    c:prefix """ Is   with -
+in   •   one   hour   ¦   of   the   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/e0b8c53a-175f-3c05-9ebf-8fd551f40189> ;
+    c:suffix """
+most and
+every   class   in   the   community.  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/comphash-1/2811136c-59b6-30ca-8eb6-02b9d410b218>
+    c:name "P. O. Sm Co." ;
+    c:nationality "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Company> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/64>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.177" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/1572e345-a3af-3b79-8a5e-b577b76587d7> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/pershash-1/b01bafc8-403e-328f-9cf2-35154705adcf>
+    c:name "Herbert   Putnam" ;
+    c:nationality "N/A" ;
+    c:persontype "political" ;
+    a <http://s.opencalais.com/1/type/em/e/Person> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/13>
+    c:detection """[  years.   .   ,   ._•   -.%•-   '   '   -'•
+]ROCHESTER   INSTITUTION[—SubscrU
+ber,   Santa   Rosa,   Cal.   To  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "ROCHESTER   INSTITUTION" ;
+    c:length "23" ;
+    c:offset "8035" ;
+    c:prefix """  years.   .   ,   ._•   -.%•-   '   '   -'•
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/73b76d9b-1437-3f26-9617-9a762fa26e11> ;
+    c:suffix """—SubscrU
+ber,   Santa   Rosa,   Cal.   To  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/92>
+    c:detection """[  of   San   Jose,   is
+at   the   Palace.
+]A.   Musto[,   who   conducts   a   general   mer -
+chandise]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "A.   Musto" ;
+    c:length "10" ;
+    c:offset "20384" ;
+    c:prefix """  of   San   Jose,   is
+at   the   Palace.
+""" ;
+    c:subject <http://d.opencalais.com/pershash-1/cf62fba9-66c9-3a47-a2d5-bc20c7ba8c52> ;
+    c:suffix """,   who   conducts   a   general   mer -
+chandise""" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/111>
+    c:detection """[ •)
+\"   There   is   a   Chinese'   farm   in*.   ]Florida[
+where   the   Johns   have   gone   somewhat  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Florida" ;
+    c:length "7" ;
+    c:offset "9016" ;
+    c:prefix """ •)
+\"   There   is   a   Chinese'   farm   in*.   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> ;
+    c:suffix """
+where   the   Johns   have   gone   somewhat  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/ae988709-e26a-383c-89e0-0d50565794d9>
+    c:name "navy" ;
+    c:nationality "N/A" ;
+    c:organizationtype "governmental military" ;
+    a <http://s.opencalais.com/1/type/em/e/Organization> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/77>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.578" ;
+    c:subject <http://d.opencalais.com/pershash-1/4bb137e1-04c3-36bf-b2be-fecae4657b0b> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/89>
+    c:detection """[ facilities   to   carry   the   products   away.
+]Haifa[   thousand   wage-earners   \"are   thus   thrown]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Haifa" ;
+    c:length "5" ;
+    c:offset "15096" ;
+    c:prefix """ facilities   to   carry   the   products   away.
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/6260d97e-9641-397f-bd1e-6fdd437009cb> ;
+    c:suffix "   thousand   wage-earners   \"are   thus   thrown" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/45>
+    c:detection """[  ¦   :   v   ¦   v   •   &gt;'-,   \"*..
+;   ]Several   oil   companies[,   in   Texas*   have   offered   \"a
+limited  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Several   oil   companies" ;
+    c:length "25" ;
+    c:offset "1686" ;
+    c:prefix """  ¦   :   v   ¦   v   •   &gt;'-,   \"*..
+;   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/31ec6404-85fe-33f5-af02-cb37fec6b170> ;
+    c:suffix """,   in   Texas*   have   offered   \"a
+limited  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/50c9b868-b2e3-31b8-9dae-be220acc7613>
+    c:name "Oakland" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/74>
+    c:detection """[  \\   *   ______   \"   ¦
+XV.—THE   LIBRARY   OF   ]CONGRESS[.
+But   being   a   national   library,   its  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "CONGRESS" ;
+    c:length "8" ;
+    c:offset "26993" ;
+    c:prefix """  \\   *   ______   \"   ¦
+XV.—THE   LIBRARY   OF   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/1ede3efe-4938-3c88-bd76-753a95f5593c> ;
+    c:suffix """.
+But   being   a   national   library,   its  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/25>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.200" ;
+    c:subject <http://d.opencalais.com/pershash-1/78a74b3e-9381-3289-8e56-9a9228349345> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/98>
+    c:detection """[   garbage   inspector   for
+a   social   leader.
+]Europe[   owes   us   a   large   \\amount   of   money  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Europe" ;
+    c:length "6" ;
+    c:offset "534" ;
+    c:prefix """   garbage   inspector   for
+a   social   leader.
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/09bebb87-1ef5-373d-bd01-263e77470c65> ;
+    c:suffix "   owes   us   a   large   \\amount   of   money  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/874eaab9-7b66-36e3-9650-8de7a5001cf9>
+    c:name """Los
+Angeles""" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/72>
+    c:detection """[  hundred   years
+ago,.the   Library   of   ]Congress[   was   created
+merely   as   a.   convenient  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Congress" ;
+    c:length "8" ;
+    c:offset "21163" ;
+    c:prefix """  hundred   years
+ago,.the   Library   of   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/1ede3efe-4938-3c88-bd76-753a95f5593c> ;
+    c:suffix """   was   created
+merely   as   a.   convenient  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/7118950c-c257-3ade-8c76-b63d5f58af50>
+    c:name "mining" ;
+    a <http://s.opencalais.com/1/type/em/e/IndustryTerm> .
+
+<http://d.opencalais.com/genericHasher-1/4b474cf2-e8df-3193-86a4-8e858a5c5e37>
+    c:name "Philadelphia" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/genericHasher-1/96210453-1b0d-34d4-b382-22d88e6006b3>
+    c:company <http://d.opencalais.com/comphash-1/ef65cde7-3f93-3e89-a306-50de326339a2> ;
+    c:person <http://d.opencalais.com/pershash-1/c303081f-4e3f-3333-ba27-68c9165f88b8> ;
+    c:position "Proprietor " ;
+    a <http://s.opencalais.com/1/type/em/r/PersonProfessional> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/76>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.455" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/03ff2f32-7d79-3042-a299-2010505bc8fc> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/78>
+    c:detection """[ has   ever   cavorted
+and   kicked   high   in   ]American[   politics.   His   principles
+_re   certainly  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "American" ;
+    c:length "8" ;
+    c:offset "5432" ;
+    c:prefix """ has   ever   cavorted
+and   kicked   high   in   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/e0b8c53a-175f-3c05-9ebf-8fd551f40189> ;
+    c:suffix """   politics.   His   principles
+_re   certainly  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/46>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.046" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/736a403d-157b-3e80-86a7-acc404607cb2> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/5>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.182" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/2a5c82ed-8dd1-385e-a0a2-9256b75ba7ab> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/42>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.427" ;
+    c:subject <http://d.opencalais.com/pershash-1/7a145a5f-4a5f-3853-82ad-98b35ea0d30a> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/106>
+    c:detection """[  with   the   sci -
+entific   collections   in   ]Washington['or   with
+the   scientific   work   being  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Washington" ;
+    c:length "10" ;
+    c:offset "28408" ;
+    c:prefix """  with   the   sci -
+entific   collections   in   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/1d1529b7-da5f-3884-8de0-c765b3b7d3a3> ;
+    c:suffix """'or   with
+the   scientific   work   being  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/1572e345-a3af-3b79-8a5e-b577b76587d7>
+    c:name "Fremont" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/67>
+    c:detection """[  agreeable
+to   him   and   his.
+While   ]his[   tour   \\tasnecessarily,   shortened   by   the]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "his" ;
+    c:length "3" ;
+    c:offset "17526" ;
+    c:prefix """  agreeable
+to   him   and   his.
+While   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/7a145a5f-4a5f-3853-82ad-98b35ea0d30a> ;
+    c:suffix "   tour   \\tasnecessarily,   shortened   by   the" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/131>
+    c:detection """[ of   Jefferson   or   passed   upo   one   but   ]Mr.   Bryan[
+is   to   blame.'   He   has   alienated   the  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Mr.   Bryan" ;
+    c:length "11" ;
+    c:offset "5598" ;
+    c:prefix " of   Jefferson   or   passed   upo   one   but   " ;
+    c:subject <http://d.opencalais.com/pershash-1/4bb137e1-04c3-36bf-b2be-fecae4657b0b> ;
+    c:suffix """
+is   to   blame.'   He   has   alienated   the  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/108>
+    c:detection """[  registered   at   the
+Palace.   .-\"   ¦   .   *
+]Congressman   Charles   F.   Joy   of   St.
+Louis,   Mo.,[   is   at   the   Palace:   He   is   a
+brother ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact """Congressman   Charles   F.   Joy   of   St.
+Louis,   Mo.,""" ;
+    c:length "57" ;
+    c:offset "20707" ;
+    c:prefix """  registered   at   the
+Palace.   .-\"   ¦   .   *
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/dac4e9e4-c8b7-3821-b2fd-b756d04856c2> ;
+    c:suffix """   is   at   the   Palace:   He   is   a
+brother """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/b3719a18-c511-51a8-b3f9-f8480b3b6e48>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "40.7142" ;
+    c:longitude "-74.0064" ;
+    c:name "New York,New York,United States" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/9f45e0f5-aa73-39b8-b39e-2a1546da820a> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/53>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.062" ;
+    c:subject <http://d.opencalais.com/pershash-1/cf62fba9-66c9-3a47-a2d5-bc20c7ba8c52> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/09bebb87-1ef5-373d-bd01-263e77470c65>
+    c:name "Europe" ;
+    a <http://s.opencalais.com/1/type/em/e/Continent> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/6>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.236" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/73b76d9b-1437-3f26-9617-9a762fa26e11> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/12>
+    c:detection """[  \"Central   2tU.\")
+KEW   TORB:   REPRESENTATrVB:
+]C   C   CAJttLTOW   Herald   Square[
+__________   r
+ITtW   YORK  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "C   C   CAJttLTOW   Herald   Square" ;
+    c:length "35" ;
+    c:offset "11389" ;
+    c:prefix """  \"Central   2tU.\")
+KEW   TORB:   REPRESENTATrVB:
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/2a5c82ed-8dd1-385e-a0a2-9256b75ba7ab> ;
+    c:suffix """
+__________   r
+ITtW   YORK  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/32>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.307" ;
+    c:subject <http://d.opencalais.com/pershash-1/3434894e-3a90-332b-80ef-39cdd00a057a> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/1ede3efe-4938-3c88-bd76-753a95f5593c>
+    c:name "Congress" ;
+    c:nationality "N/A" ;
+    c:organizationtype "governmental civilian" ;
+    a <http://s.opencalais.com/1/type/em/e/Organization> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/47>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.052" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/c78250b6-f7c2-3e2d-bd36-0c1266bd43c0> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/47>
+    c:detection """[  by   her   daughter,
+arrived   here   from   ]New   York[   and   is   at   the
+Occidental..   V   ,'¦  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "New   York" ;
+    c:length "10" ;
+    c:offset "21027" ;
+    c:prefix """  by   her   daughter,
+arrived   here   from   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/9f45e0f5-aa73-39b8-b39e-2a1546da820a> ;
+    c:suffix """   and   is   at   the
+Occidental..   V   ,'¦  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/101>
+    c:detection """[  man   of   Angels,
+is   at   the   Lick.
+]Charles   P.   Braslan[,   a   seed   merchant   of
+San   Jose,   is  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Charles   P.   Braslan" ;
+    c:length "22" ;
+    c:offset "19859" ;
+    c:prefix """  man   of   Angels,
+is   at   the   Lick.
+""" ;
+    c:subject <http://d.opencalais.com/pershash-1/9016c656-b402-3c28-924e-03475a785ec3> ;
+    c:suffix """,   a   seed   merchant   of
+San   Jose,   is  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/05bb2646-0ab8-3a48-b4eb-d29cfd33ce39>
+    c:name "energy" ;
+    a <http://s.opencalais.com/1/type/em/e/IndustryTerm> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/21>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.177" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/e01d491d-0add-3c82-b3dd-7a0fa007781a> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/78>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.078" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/52d0db73-e59e-3ef0-83d8-28e39276da54> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/51>
+    c:detection """[  'has\"   attended   ]her[;';   and   while   the.   affair   promises'
+to ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "her" ;
+    c:length "3" ;
+    c:offset "1412" ;
+    c:prefix "  'has\"   attended   " ;
+    c:subject <http://d.opencalais.com/pershash-1/3434894e-3a90-332b-80ef-39cdd00a057a> ;
+    c:suffix """;';   and   while   the.   affair   promises'
+to """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/48598b5e-11b8-76fe-6b2c-43751bb9c9a9>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "40.66498" ;
+    c:longitude "-77.90649" ;
+    c:name "Pennsylvania,United States" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/51bb10d7-d54c-3aed-8cf9-b7782e8eeda9> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/10>
+    c:detection """[  Herald   Square
+__________   r
+ITtW   ]YORK[   REPRESENTATIVE:
+ITCPHES   B.   SMITH.   .30  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "YORK" ;
+    c:length "4" ;
+    c:offset "11447" ;
+    c:prefix """  Herald   Square
+__________   r
+ITtW   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/fe2e8e27-1399-32b0-815c-544c6be2601c> ;
+    c:suffix """   REPRESENTATIVE:
+ITCPHES   B.   SMITH.   .30  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+    c:name "Texas" ;
+    a <http://s.opencalais.com/1/type/em/e/ProvinceOrState> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/87>
+    c:detection """[  a   gueat
+at   the   Grand.   _•   .
+Judge   ]H.   G.   Pond[,   who   Is   one   of   the
+largest   prune  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "H.   G.   Pond" ;
+    c:length "14" ;
+    c:offset "20524" ;
+    c:prefix """  a   gueat
+at   the   Grand.   _•   .
+Judge   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/460f054f-3503-3e42-b900-28aa09137780> ;
+    c:suffix """,   who   Is   one   of   the
+largest   prune  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/03ff2f32-7d79-3042-a299-2010505bc8fc>
+    c:name "Chicago" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/36>
+    c:detection """[  OF   THE   YEAR.
+IT   is   expected   that   ]Mrs.   McKmley['s'   gratifying'   improvement   and
+rapid  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Mrs.   McKmley" ;
+    c:length "14" ;
+    c:offset "17002" ;
+    c:prefix """  OF   THE   YEAR.
+IT   is   expected   that   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/d2b868cd-26c6-310a-975c-d5eede2cb41a> ;
+    c:suffix """'s'   gratifying'   improvement   and
+rapid  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/pershash-1/587471d0-54a3-3e9c-91ab-684d346818d0>
+    c:name "Edwin   W.   Joy" ;
+    c:nationality "N/A" ;
+    c:persontype "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Person> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/15>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.177" ;
+    c:subject <http://d.opencalais.com/comphash-1/da061232-dda0-342f-9e55-4ee9b1f0cd80> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/16>
+    c:detection """[   and   in   two   of   them,   Virginia   and   ]Ohio[,   it   is
+probable   the   contests   will   be]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Ohio" ;
+    c:length "4" ;
+    c:offset "12790" ;
+    c:prefix "   and   in   two   of   them,   Virginia   and   " ;
+    c:subject <http://d.opencalais.com/genericHasher-1/3464e47d-a869-3783-8fdc-d17cb8f13c2e> ;
+    c:suffix """,   it   is
+probable   the   contests   will   be""" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/cat/1>
+    c:category <http://d.opencalais.com/cat/Calais/Other> ;
+    c:categoryName "Other" ;
+    c:classifierName "Calais" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    a <http://s.opencalais.com/1/type/cat/DocCat> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/4>
+    c:detection """[  r
+ITtW   YORK   REPRESENTATIVE:
+ITCPHES   ]B.   SMITH[.   .30   Tribune   Bnlldlnar
+k_tw   tork   :;ews]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "B.   SMITH" ;
+    c:length "10" ;
+    c:offset "11480" ;
+    c:prefix """  r
+ITtW   YORK   REPRESENTATIVE:
+ITCPHES   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/2391f6c5-d5a4-3b41-b1f2-00e956694d13> ;
+    c:suffix """.   .30   Tribune   Bnlldlnar
+k_tw   tork   :;ews""" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/comphash-1/41da358c-22cb-3502-aba0-8f46175c4905>
+    c:name "Seattle Times" ;
+    c:nationality "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Company> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/104>
+    c:detection """[   the   President's   party   to   leave   for   ]Washington[
+to-day.\"   The   gratification
+felt   by:the  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Washington" ;
+    c:length "10" ;
+    c:offset "17140" ;
+    c:prefix "   the   President's   party   to   leave   for   " ;
+    c:subject <http://d.opencalais.com/genericHasher-1/1d1529b7-da5f-3884-8de0-c765b3b7d3a3> ;
+    c:suffix """
+to-day.\"   The   gratification
+felt   by:the  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/1d1529b7-da5f-3884-8de0-c765b3b7d3a3>
+    c:name "Washington" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/55>
+    c:detection """[  of   our   people
+are   not   honest.   .
+]The   Times[   should   go   and   study   logic   for   a  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "The   Times" ;
+    c:length "11" ;
+    c:offset "4317" ;
+    c:prefix """  of   our   people
+are   not   honest.   .
+""" ;
+    c:subject <http://d.opencalais.com/comphash-1/ef65cde7-3f93-3e89-a306-50de326339a2> ;
+    c:suffix "   should   go   and   study   logic   for   a  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/63>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.138" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/1d1529b7-da5f-3884-8de0-c765b3b7d3a3> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/pershash-1/460f054f-3503-3e42-b900-28aa09137780>
+    c:name "H.   G.   Pond" ;
+    c:nationality "N/A" ;
+    c:persontype "political" ;
+    a <http://s.opencalais.com/1/type/em/e/Person> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/4>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.167" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/2399683b-f6bb-366a-b209-7e861c9b0df1> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/109>
+    c:detection """[  I   for   a
+¦   time,at   least   scot-frce.]UK[:   'V   ¦   .,   *   •li.V--f   .   '
+'\"Lipton  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "UK" ;
+    c:length "2" ;
+    c:offset "1223" ;
+    c:prefix """  I   for   a
+¦   time,at   least   scot-frce.""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/cc88b155-205c-3676-a151-d45f473f0b16> ;
+    c:suffix """:   'V   ¦   .,   *   •li.V--f   .   '
+'\"Lipton  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/119>
+    c:detection """[  •
+C.   H.   Riege,   a   stationer   of   ]Fresno[,   Is   at
+the   Lick.
+L.   W.   .Shinn,   a  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Fresno" ;
+    c:length "6" ;
+    c:offset "19755" ;
+    c:prefix """  •
+C.   H.   Riege,   a   stationer   of   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/4b1c6535-2bb4-3050-b787-65fe9b614d1c> ;
+    c:suffix """,   Is   at
+the   Lick.
+L.   W.   .Shinn,   a  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "31.448433" ;
+    c:longitude "-97.781654" ;
+    c:name "Texas,United States" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/pershash-1/2391f6c5-d5a4-3b41-b1f2-00e956694d13>
+    c:name "Solly   Smith" ;
+    c:nationality "N/A" ;
+    c:persontype "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Person> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/56>
+    c:detection """[  did   in   1896   and   •   1000.   We   deny   ]the
+Times['   position   that   only   dishonest   men  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact """the
+Times""" ;
+    c:length "9" ;
+    c:offset "4907" ;
+    c:prefix "  did   in   1896   and   •   1000.   We   deny   " ;
+    c:subject <http://d.opencalais.com/comphash-1/ef65cde7-3f93-3e89-a306-50de326339a2> ;
+    c:suffix "'   position   that   only   dishonest   men  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/39>
+    c:detection """[  the   growth   and   color.   '\"
+'.j   t^]he[   best   cure   for   corns.*   '   U  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "he" ;
+    c:length "2" ;
+    c:offset "9944" ;
+    c:prefix """  the   growth   and   color.   '\"
+'.j   t^""" ;
+    c:subject <http://d.opencalais.com/pershash-1/78a74b3e-9381-3289-8e56-9a9228349345> ;
+    c:suffix "   best   cure   for   corns.*   '   U  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/e0b8c53a-175f-3c05-9ebf-8fd551f40189>
+    c:name "American   University" ;
+    c:nationality "American" ;
+    c:organizationtype "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Organization> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/95>
+    c:detection """[ to
+scholarly   research   all   over   ,   the   ]United
+States[,   and,   as   a   fact,   it   endeavors   to  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact """United
+States""" ;
+    c:length "13" ;
+    c:offset "27215" ;
+    c:prefix """ to
+scholarly   research   all   over   ,   the   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/a54ac18b-a956-3b5c-b235-0609ca899305> ;
+    c:suffix ",   and,   as   a   fact,   it   endeavors   to  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/69>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.261" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/50c9b868-b2e3-31b8-9dae-be220acc7613> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/49>
+    c:detection """[   in   Chicago   •,   on   the   ground   that   ]she[   has
+arranged   for   certain,social  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "she" ;
+    c:length "3" ;
+    c:offset "232" ;
+    c:prefix "   in   Chicago   •,   on   the   ground   that   " ;
+    c:subject <http://d.opencalais.com/pershash-1/3434894e-3a90-332b-80ef-39cdd00a057a> ;
+    c:suffix """   has
+arranged   for   certain,social  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/5>
+    c:detection """[  of
+a   considerable   opposition   to   ]him[.   It   is   quite   likely
+of   course   that  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "him" ;
+    c:length "3" ;
+    c:offset "13089" ;
+    c:prefix """  of
+a   considerable   opposition   to   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/2391f6c5-d5a4-3b41-b1f2-00e956694d13> ;
+    c:suffix """.   It   is   quite   likely
+of   course   that  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/52d0db73-e59e-3ef0-83d8-28e39276da54>
+    c:name "San   Jose" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/37>
+    c:detection """[  of   General
+Chaffee,   accompanied   by   ]her[   daughter,
+arrived   here   from   New   York  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "her" ;
+    c:length "3" ;
+    c:offset "20987" ;
+    c:prefix """  of   General
+Chaffee,   accompanied   by   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/d2b868cd-26c6-310a-975c-d5eede2cb41a> ;
+    c:suffix """   daughter,
+arrived   here   from   New   York  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/1fdb700b-d3ce-65da-42fb-5f480dc78845>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "43.1547" ;
+    c:longitude "-77.6158" ;
+    c:name "Rochester,New York,United States" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/1be9aea0-4a25-3ddb-946b-d880c082a0e9> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/genericHasher-1/e5851549-c0db-3679-a65c-1a179cbdfd49>
+    c:name "Punta   Arena" ;
+    a <http://s.opencalais.com/1/type/em/e/Facility> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/25>
+    c:detection """[  offer
+stock   at   ]6   cents['a'share),   .That   cd'nies.very.'nearraking
+the']""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "6   cents" ;
+    c:length "9" ;
+    c:offset "1894" ;
+    c:prefix """  offer
+stock   at   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/32cca635-b090-3e1b-b657-37a040b9169a> ;
+    c:suffix """'a'share),   .That   cd'nies.very.'nearraking
+the'""" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/27>
+    c:detection """[  houses   and   nubile   men-by   the
+]PreS3   Clipping   Bureau[   (Allen's).   510   Mont -
+gomery   street.   ¦]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "PreS3   Clipping   Bureau" ;
+    c:length "25" ;
+    c:offset "8862" ;
+    c:prefix """  houses   and   nubile   men-by   the
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/a846abbc-d922-386f-a55a-4d9350909b11> ;
+    c:suffix """   (Allen's).   510   Mont -
+gomery   street.   ¦""" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/60>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.074" ;
+    c:subject <http://d.opencalais.com/pershash-1/9016c656-b402-3c28-924e-03475a785ec3> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/132>
+    c:detection """[  one   but   Mr.   Bryan
+is   to   blame.'   ]He[   has   alienated   the   common   s^nse  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "He" ;
+    c:length "2" ;
+    c:offset "5630" ;
+    c:prefix """  one   but   Mr.   Bryan
+is   to   blame.'   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/4bb137e1-04c3-36bf-b2be-fecae4657b0b> ;
+    c:suffix "   has   alienated   the   common   s^nse  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/48>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.037" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/02b68df4-867f-3ae0-843e-da54376412e2> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/e01d491d-0add-3c82-b3dd-7a0fa007781a>
+    c:name "Great   Northern   Hotel" ;
+    a <http://s.opencalais.com/1/type/em/e/Facility> .
+
+<http://d.opencalais.com/pershash-1/4bb137e1-04c3-36bf-b2be-fecae4657b0b>
+    c:name "Bryan" ;
+    c:nationality "N/A" ;
+    c:persontype "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Person> .
+
+<http://d.opencalais.com/genericHasher-1/736a403d-157b-3e80-86a7-acc404607cb2>
+    c:name "USD" ;
+    a <http://s.opencalais.com/1/type/em/e/Currency> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/125>
+    c:detection """[  the   summer
+at   .Newport;,   and   so   ]Chicago[   loses   the   joy   of   having
+a  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Chicago" ;
+    c:length "7" ;
+    c:offset "334" ;
+    c:prefix """  the   summer
+at   .Newport;,   and   so   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/03ff2f32-7d79-3042-a299-2010505bc8fc> ;
+    c:suffix """   loses   the   joy   of   having
+a  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/839d75ac-87ab-38b4-a123-eb7b3a5dba2a>
+    c:name "Santa   Clara" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/ead8a759-31d2-262c-540f-e93fc56b22eb>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "28.090807" ;
+    c:longitude "-81.96041" ;
+    c:name "Florida,United States" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/1>
+    c:detection """[  \"*..
+;   Several   oil   companies,   in   ]Texas[*   have   offered   \"a
+limited   number   -of  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Texas" ;
+    c:length "5" ;
+    c:offset "1720" ;
+    c:prefix """  \"*..
+;   Several   oil   companies,   in   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+    c:suffix """*   have   offered   \"a
+limited   number   -of  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/8bdaf2e5-2e0f-3b95-be99-b4acf90e9ea9>
+    c:person <http://d.opencalais.com/pershash-1/460f054f-3503-3e42-b900-28aa09137780> ;
+    c:position "Judge " ;
+    a <http://s.opencalais.com/1/type/em/r/PersonPolitical> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/20>
+    c:detection """[  for.debt.\"'.;   \"^
+DIXON   AND   SMITH—]George   Dlxoh[
+and   Solly   Smith   had   \"a   meet\"   in  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "George   Dlxoh" ;
+    c:length "14" ;
+    c:offset "6127" ;
+    c:prefix """  for.debt.\"'.;   \"^
+DIXON   AND   SMITH—""" ;
+    c:subject <http://d.opencalais.com/pershash-1/796ad6d3-2543-3a54-b371-884b13c61dc3> ;
+    c:suffix """
+and   Solly   Smith   had   \"a   meet\"   in  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/12>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.272" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/8060526b-2237-3e21-a50e-8be81db4802a> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/103>
+    c:detection """[  work   being   carried   on   In   the
+]Smithsonian   Institution[,   the   Coast   and
+Geodetic   Survey,   the  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Smithsonian   Institution" ;
+    c:length "25" ;
+    c:offset "28487" ;
+    c:prefix """  work   being   carried   on   In   the
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/8154905b-ba36-3190-adc7-95a58d4b9405> ;
+    c:suffix """,   the   Coast   and
+Geodetic   Survey,   the  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/c489280c-385d-3106-90ca-9210b3965ea8>
+    c:name "Virginia" ;
+    a <http://s.opencalais.com/1/type/em/e/ProvinceOrState> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/1>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.295" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/44>
+    c:detection """[  about   Is
+in   operation   in   Rochester,   ]N.   Y.[,   address
+a   communication   to   the   Chief ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "N.   Y." ;
+    c:length "7" ;
+    c:offset "8206" ;
+    c:prefix """  about   Is
+in   operation   in   Rochester,   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/5fc67ecf-e49d-3ab4-aaad-9cff97f00ffe> ;
+    c:suffix """,   address
+a   communication   to   the   Chief """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/2a5c82ed-8dd1-385e-a0a2-9256b75ba7ab>
+    c:name "C   C   CAJttLTOW   Herald   Square" ;
+    a <http://s.opencalais.com/1/type/em/e/Facility> .
+
+<http://d.opencalais.com/pershash-1/cf62fba9-66c9-3a47-a2d5-bc20c7ba8c52>
+    c:name "A.   Musto" ;
+    c:nationality "N/A" ;
+    c:persontype "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Person> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/2464781f-2743-853b-bb3a-0b37152c849e>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "42.348183" ;
+    c:longitude "-75.188995" ;
+    c:name "New York,United States" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/5fc67ecf-e49d-3ab4-aaad-9cff97f00ffe> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/75>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.177" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/e84f9c1c-ce95-3bbf-a372-a9990caf22d3> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/99>
+    c:detection """[ oUL
+SATURDAY.   .v..'/.s........MAY   25,   1901
+]JOHN   D.   SPRECKELS,   Proprietor[.
+*'\"r^^^^T^S^ComaMieltitMtjWrs.   LEASE.  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "JOHN   D.   SPRECKELS,   Proprietor" ;
+    c:length "35" ;
+    c:offset "10036" ;
+    c:prefix """ oUL
+SATURDAY.   .v..'/.s........MAY   25,   1901
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/96210453-1b0d-34d4-b382-22d88e6006b3> ;
+    c:suffix """.
+*'\"r^^^^T^S^ComaMieltitMtjWrs.   LEASE.  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/118>
+    c:detection """[  of   the
+greatest•value'Vo   them.   .;
+]California[   speeds   the   parting   guest   with   a  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "California" ;
+    c:length "10" ;
+    c:offset "18980" ;
+    c:prefix """  of   the
+greatest•value'Vo   them.   .;
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+    c:suffix "   speeds   the   parting   guest   with   a  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788>
+    c:allowDistribution "true" ;
+    c:allowSearch "true" ;
+    c:calaisRequestID "563367b3-2009-4720-a097-50f840cf541c" ;
+    c:docDate "2008-12-02 00:00:00" ;
+    c:docTitle "" ;
+    c:document """<Document><Date>2008-12-02</Date><Body>Mrs.   Pptter   Palmer,   has   declined   with   thanks   an
+appointment   to   act   as   a   volunteer   garbage   inspector
+in   her   ward   in   Chicago   •,   on   the   ground   that   she   has
+arranged   for   certain,social   functions.for   the   summer
+at   .Newport;,   and   so   Chicago   loses   the   joy   of   having
+a   society'leader   for   a   garbage   woman,   while   Newport
+has   the   satisfaction   of   having   a   garbage   inspector   for
+a   social   leader.
+Europe   owes   us   a   large   \\amount   of   money   on   the
+balance   of   trade,   but   from   the   number   of   Americans
+who   are   rushing   across   the   Atlantic   for   a   good   time
+this   summer   it   looks   as   if   most   of   it   would   be   burned
+before   winter..   -   -   .   -_   .   '   .
+j   'Among   the   many   reasons   which   have   been   given
+to   explain   the   gladness   that   will   attend   President   Mc-
+Kinley's   return   to\"   his*   'Washington   .home;-   is   one
+somewhat   overlooked'in   .the   general;   congratulation
+of   the   Presidential;   party.   •   McKinley/will'be   I   for   a
+¦   time,at   least   scot-frce.UK:   'V   ¦   .,   *   •li.V--f   .   '
+'\"Lipton   is   to   repair   SHamrock   II   and;bring   her
+over   to   make.the'   race   notwithstanding;the/bad'luck
+that   'has\"   attended   her;';   and   while   the.   affair   promises'
+to   be   a   walkover;for,us   it   ¦will'not   do   to   be'too   sure
+of   it/   for;   in   this   world   it'sometimes-happens   that   pluck
+wins.in--spite   &amp;gt;of   luck..   ¦   :   v   ¦   v   •   &amp;gt;'-,   \"*..
+;   Several   oil   companies,   in   Texas*   have   offered   \"a
+limited   number   -of   full-paid   'non-assessable'   shares   at
+25   centsf'^ach',\"^   and\"one.'nas1-gone!^so^faf^as'to   offer
+stock   at   6   cents'a'share),   .That   cd'nies.very.'nearraking
+the'   State   financially   with'   a\"   fine'   tooth'¦   c'ombl•--,'
+?.'£PZ;y
+,   •Persons   who   -   have.   missed   the.   name   of   Roosevelt
+in   tKe'iiews   of   the   day   recently   may   probably   be   satis -
+fied   by   fthe   explanation'   of   the   Springfield   Republican
+that   \"he.   has   been   swallowed   up   in   the   amplitudinous
+quietude'of   the.   Vice   Presidency.\";   The   fate   '.seems   to'
+be   a   sad   one,   but   asVTe'ddy   is   vigorous   he   may.yet
+emerge.\"   &amp;lt;   \\   ',   •   '   .¦¦¦-'•'.''   ,-
+THE   Seattle   Times*finds   itself   enraged   by   The
+Call's   use   of   the   term   \"Altbryangeldism\"   to   de -
+scribe   that   queer   political   mixture   which   has
+been   on   tap   in   this   country   since   1896.   Our   critic   de -
+clares   that   it   is   unAmerican   to   indulge   in   such   criti -
+cism   of   the   minority   party,   and   asks   if   it   is   wise   or
+prudent   to   do   so   \"in   a   republic   like   ours,   where   the
+safety   of   the   nation   and   the   liberties   of   the^pebple
+depend   upon   a   very   equal   division   of   the   people   into
+political   parties.\"
+The   republic   and   the   liberties   of   the   people   seem
+to   have   stood   that   sort   of   thing   very   well   so   far,   and
+we   are   unable   to   comprehend   how   they   are   endan -
+gered   by   criticizing   a   minority   and   not   by   serving   a
+majority   party   the   scmc^way.   'The   Times   seasons,
+adorns   and   illustrates   its   lecture   on   propriety   by   call -
+ing   Republicanism   \"Hannaism\"   and   declaring   that   \"it
+has   uniformly   stood   for   oppression,   while   Bryanism
+and*   Altgeldism   have   always   stood   for   greater   liberty
+and   greater   benefits   to   the   common   people,   and   as
+between   the   two   every   honest   man   will   choose   Bryan -
+ism.   even   with   all   the   sneers   and   leers   which   such
+publications   as   The   Call   may   choose   to   make.\"
+Now   that   is   good.   Twice   the   whole   people   have
+had   the   chance   to   choose   between   the   two,   and   ac -
+cording   to   this   Seattle   oracle   all   the   honest   ones   have
+chosen   Bryanism.   Then   a   vast   majority   of   our   people
+are   not   honest.   .
+The   Times   should   go   and   study   logic   for   a   few
+years,   and   then   take   such   a   turn   in   physics   as   to   learn
+not   to   sit   on   a   limb   and   saw   the   same   off   between
+itself   and   the   tree.   \\
+We   believe   in   freedom   of   criticism   and   that   the
+same   rule   applies   to   minority   and   majority   parties   and
+is   equally   American.   The   people   are   the   final   judges;
+They   sift   the   wheaffrom   the   chaff,   the   true   from   the
+false,   as   they   did   in   1896   and   •   1000.   We   deny   the
+Times'   position   that   only   dishonest   men   voted   against
+Bryan.   To   admit   is   to   disclose   the.   most   horrible
+situation   that   can   be   conceived   for   a   republic.   We
+do   not   deny   that    our   countrymen,   that
+they   were   wrong.   .;
+No   doubt   Mr.   Bryan   is   a.   model   of   .the   domestic
+and   civic   virtues,   but   he   can   be   that   and   at   the   same
+time   be   the   most   fantastic   freak   that   has   ever   cavorted
+and   kicked   high   in   American   politics.   His   principles
+_re   certainly   not   Democratic,   when   measured   by   the
+teachings   of   Jefferson   or   passed   upo   one   but   Mr.   Bryan
+is   to   blame.'   He   has   alienated   the   common   s^nse   of
+the   country   from   fhe   party   he   has   created   and   led,
+and   an   equal'divisiSPONDENTS.
+DIMES—T.   H.   F..   Watsonville.   Cal.
+Dealers   do   not   offer   a   premium   for   dimes
+of   1836.   \"   '   ..   \"
+SOLDIER'S   PENSION—T.   F.,   Los   An -
+geles,   CaL   A   pension   check   issued   to   a
+soldier   entitled   to   receive   the   same   is   not
+subject   to   attachment   for.debt.\"'.;   \"^
+DIXON   AND   SMITH—George   Dlxoh
+and   Solly   Smith   had   \"a   meet\"   in   Wood -
+ward's   Pavilion   October   •   4.   1897,   when
+Smith   was   declared   the   victor   in   twenty
+rounds.   '
+PLAY   THE   FOOL-J.   T.   H.,   Vallejo.
+Cal.   \"Let   me   play   the-   fool,   with   mirth
+and   laughter,   etc.,\"   Is   to   be   found   In   the
+\"Merchant   of   Venice,\"   act   I,   scene   I.
+words   spoken   by   Gratiano.,   •
+MAHOGANY   TREE—Enq.,   Oakland.
+Cal.   The   mahogany   tree   is   a   native   of
+the   West   Indies   and   of   South   America.
+It   grows   to   a   height   of   from-80   to   100
+feet   and   its   growth   is   very   slow.
+GUNS—A.   P.   de   B.,   Alaraeda,   Cal.   The
+bore   of   the   largest   guns   in   the   royal   Brit -
+ish   navy   ia   twelve   inches.   The   largest   in
+the   United   States   navy   is   fifteen   inches.
+No   nation   has   any   guns   In   its   navy   of
+larger   bore.   ¦
+.   HEADWATER'S   BEST   TIME—M.   C.
+Baden,   Cal.   The   best   time   made   by   Head*.
+water   prior   to   May   10   was   that   made
+within   the'   ten   days   before   that   date.
+Consult   the   racing   charts   in   The   Call   vt
+that   period.
+HUMMINGBIRDS—S.,   Parkfleld,   Cal.
+F.   A.   Lucas   in   an   exhaustive   article   on
+hummingbirds   written   In   1S97   has   the*   fol -
+lowing:   \"The   family   of   hummingbirds   is
+exclusively   American,   and   its   range   ex -
+tends   from   Patagonia   to   British   Amer -
+ica.\"   ¦¦;?;,-   •   .   ,   ,/v;,
+STATUTE   OF   LIMITATION-Inquirer,
+Punta   Arena,   Cal.   t   A   mortgage,   like   a
+promissory   note,   is   an   obligation   in   wrt -
+ing.   In   California   If   executed   in   the
+State   It   runs   four   years   from   the   time   of
+maturity,   if   executed   outside   of   the   State
+two   years.   .   ,   ._•   -.%•-   '   '   -'•
+ROCHESTER   INSTITUTION—SubscrU
+ber,   Santa   Rosa,   Cal.   To   ascertain   if
+such   an   institution   as   you   ask   about   Is
+in   operation   in   Rochester,   N.   Y.,   address
+a   communication   to   the   Chief   of   Police   of
+that   city,   enclosing   a   self-addressed   and
+stamped   envelope   for   reply.
+.POSITION   ON   A.STEAMER—M/W.-S.',\"
+City;   An   individual   desiring   to   secure   a
+position   on   a   steamer   plying   between   San
+Francisco   and   foreign   ports   should   file RESIDENTIAL   RECEPTIONS   AND
+PARADES.   All   in   the   Wasp's   sixty-page
+Presidential   souvenir?   On   sale   every -
+where:   25   cents.   s   ...   .   •-•&amp;lt;-
+....   &amp;gt;   .   .   .»¦?«   ;—:—
+Special   information   supplied   dally   tp
+business   houses   and   nubile   men-by   the
+PreS3   Clipping   Bureau   (Allen's).   510   Mont -
+gomery   street.   ¦   Telephone   Main   10__^-   •)
+\"   There   is   a   Chinese'   farm   in*.   Florida
+where   the   Johns   have   gone   somewhat   ex -
+tensively   into   the   \"small   truck\",business
+shipping   their   product   to   New   York.   They
+nave   made   a.   success   of   it.   -.   &amp;gt;   .
+'   ..\",-:   •   ¦¦\"¦
+Do   Your   Peet   Ache
+And   burn.\"   and   make   you   tired   all   over?   Allen\"s
+Foot-Ease   niakes   thershoea   comfortable,   rests
+and   cools   the   feet   and   makes   wanting   easy..   At
+all   druggists   and   shoe   stores,   25c.   •   Sample   sent
+FREE.   Address   Allen   S.   Qlmsted.:.   Le   Roy.   JJ.Y.
+SalUngr   under   false   colors   are   all   cheap   and
+foiponous   domestic   .   substitutes   of.   Dr.   Siegerfs
+Angostura   Bitters,   great   South   American   tonic
+'   ¦   ,'   •—   ¦   »   ?   ¦   \"   i-   ,.\\.,v'.
+\";Ne_lect   your   hair   and   you   'losevIt.'   Parker's
+Hair.   Balsam   renews   the   growth   and   color.   '\"
+'.j   t^he   best   cure   for   corns.*   '   U   oUL
+SATURDAY.   .v..'/.s........MAY   25,   1901
+JOHN   D.   SPRECKELS,   Proprietor.
+*'\"r^^^^T^S^ComaMieltitMtjWrs.   LEASE.   Xiatgtr.
+i'LUJLlCATIOX   OFFICE.   .   .Market   and   TUIrd.   S.   K.
+Telephone   Press   201.
+EDITORIAL   ROOMS   217   &amp;lt;o   221   Stevenson   St.
+Telephone-   Prera   202.
+Dellver*a   *•»   O»iT*«rr\"'   *°   Ceritii'Per   .TTeefc
+Slairle   Coplen.   5   Onto.   !
+Term*   br   Mall.-Including   Postages
+-»jtTLT   CAIJi   «neIn«Jnr   l?nn(l«7&amp;gt;.   &amp;lt;m»   ye*r......J.   '.;l.t*..M'
+JIAILT   CAtb   flncTodinjr   PnndaT).   *   months..................   3.04
+DAILY   CALL,   (iadndisr   fiunday).   X   months.......;   1.50
+DAILY   CAUL—By   Single   Month   &amp;lt;fe
+WEEKLT   CALL.   On«   Tear   ........4....-....U.   1.0«
+All   poitmatteni   are   Mnthorlsed   to   receive
+f   subscriptions.   ¦   '   j   ¦-.   -¦
+f   ejsple   eoples   will   be   forwarded   when   requested.   *
+W«ll   «n»mcrn»r»   In   &amp;lt;«rfl»rtnr   »\"haar»   &amp;gt;   of   *Mr*\"   «hmi1&amp;lt;1   &amp;gt;«*
+fiartletdar   to   cir*   both   NEW   AND   OLD   ADDRESfl   In   order
+to   Itusure   m.   prompt   and   correct   compliance   with   request.
+OAKLJLSH   OFFICE   .'.   .1118   Broadway
+C.   GEOHCE   KROC\\R&amp;lt;!&amp;lt;I.
+Ku&amp;amp;gtr   rtniga   AdTtrtlilag,   tfarqutte   Bcildlag,   Cblrap.   -
+:   *   &amp;lt;Lccc   Dletaace   Telephoo*   \"Central   2tU.\")
+KEW   TORB:   REPRESENTATrVB:
+C   C   CAJttLTOW   Herald   Square
+__________   r
+ITtW   YORK   REPRESENTATIVE:
+ITCPHES   B.   SMITH.   .30   Tribune   Bnlldlnar
+k_tw   tork   :;ews   stanus:
+Walflorf-Aetorla   Hotel;   A.   Brent-no*   a   __ton   Square:
+Mcrrty   H1U   EoUL   :   ;'   .   f
+CHICAGO   XKWS,   STANDSi
+Rxeman   House:   P.   O.   Sm   Co.;   Great   Northern   Hotel:
+Fremont   Hccse;   AuOltorlnm   Hotel.
+.WASHIWGTOJT   (D.   C.)   OFFICE.   .   .   .1406   a   St..   V.   XT.
+MORTOI7   E.   CRANE.   Correspondent.
+BRAKCH   OFFICES—527   Montgomery,   corner   of   Clay,   open
+retll   l:J0   o'clock.   100   Hhjm,   open   until   8:30   o'clock.   CSS
+McAIlUter.   open   until   1:30   o'clock.   fl5   Larkln.   open   until
+¦   :S0   o'clock.   1941   Mission,   open   until   10   o'clock,   tin
+Market.
+ocrner   E!xte«nth.   open   until   I   o'clock.   10M   Valencia,   open
+vrtll   t   o'clock.   1M   Eleventh,   open   until   9   o'clock.   NW.   cor
+-
+ner   Twenty*second   and   Kentucky,   open   until   9   o'clock.
+IIOO   Flllmore.   open   until   9   p.   n_
+f-&amp;gt;   UCH   State   elections   as   will   be   held   this   fall   will
+not   be   of   much   interest   to   the   nation   as   a
+S^   whole,   but   in   the.   commonwealths   where'they
+are   to   occur   the   political   pot   is   already   beginning   to
+boil,   and   in   two   of   them,   Virginia   and   Ohio,   it   is
+probable   the   contests   will   be   quite   vigorous.
+It   has'been   hitherto   deemed   fairly   certain   that   in
+Ohio   the   Republicans   would   renominate   Governor
+Nash,   but   recently   there   have   appeared   evidences   of
+a   considerable   opposition   to   him.   It   is   quite   likely
+of   course   that   when   the   convention   meets   the   oppo -
+sition   will   prove   to   have   been   more   noisy   than   strong,
+but   none-the   less-it   i*   making   a   pretense   at   least   of
+getting   up   an.   earnest   fight   against   him.   In   one   re -
+spect   the   Governor   is   fortunate   in   having   such   an
+opposition,   for   according   to   the   reports   that   come   to
+us   the   main   argument   used   against   him   is   that   he
+has   made   himself   unpopular   by   stopping   the   Cin -
+cinnati   prize-fight.   It   is   safe   to   say   that\"any   voteshe   may
+lose   among   the   sporting   Element   on   that   ac -
+count   will   be   more   than   compensated   by   those   of
+good   citizens   who   respect   him   for   the   awill   &amp;lt;   be   ¦.ordered
+'   in1
+proportion.;   It   will   be   seen.that   the   prosperity   of   the
+.country   ;is\"&amp;gt;making   the   railroad,   men'   work   hard   to
+keep   up^with   the-procession.   What   would'\"   be   ;   the
+condition\\of'the'country.if   at   this   time   our   railroads
+were   under   Government   control   and   we   had*   to   wait
+for^Congress   to   meet   and   make   an   appropriation   be -
+fore   'orders   could   be   given   for   new   cars!   and   new
+'locomotives?./   &amp;gt;   .   .•   .   r   f   ¦   .
+A   recent-dispatch   from   Philadelphia   said:   \".With
+orders   enough   ahead   to   '   keep   five   hundred   hands
+busily   erilployedlof   months,   the   blanket   mills   of   Wil -
+liam   &amp;amp;   James   Stafford   in   Manayunk   have   shut   down,
+to   remain   closed   for   two   weeks.   This   unusual   con -
+dition   is   due   to   the   fact,   it   is   stated,   that   all   the
+stor -
+age   room'the   company   has   at   its   command   is   choked
+with   manufactured   goods,:andiit   is   unable   to,   ;get
+transportation   facilities   to   carry   the   products   away.
+Haifa   thousand   wage-earners   \"are   thus   thrown   out   of
+work   when,   under   ordinary   conditions,   they   might
+be   actively   arid   uninterruptedly   engaged.   Both.the
+Pennsylvania   and   Reading   railroads   are   accessible
+to   the   Stafford   mills,   and   both   corporations   have
+been   appealed   to,   but   owing   to.   the   generally   prosper -
+ous   .state   of   business   in*   the   Manayunk   manufactories
+the   roads   are   having   the   greatest   difficulty   intrying   to
+tak\"e   care   of   the   business   offered   theni.\"
+While   the   validi of   the   argument   -may   be   •   dis -
+puted,   it   is   undeniable   \"that-at*   present   the   tremen -
+dous   expansion   of-Arherican   energy   in   traffic   and
+travel   has   surpassed   the   preparations   made   for
+handling   it   by,   evert   the   most   enterprising   roads.   It
+will   be   remembered   that   .'some..difficulty   was   expe -
+rienced   in   this   State   in   obtaining   cars   to   handle   the
+citrus   fruit   &amp;lt;*rop,   and   the   situation   seems   to   be   far
+worse   in   the   East.
+RECENTLY   in.   a   discussion   of   the   question./of
+rates   of   fare   offered   by   railway   companies   to
+the   Pan-American   Exposition   some   authorities
+on   railroad   matters   argued,that   if   rates,   were;fixed;at
+what-^are   known   as   popular^prices   the^movement   of
+passenger   travel   would   be   larger   than   the   roads.can'
+handle.   One   of   them   said   railroad   officials   \"should
+remember   that   all'   who?;travel   are-   ri  attracted   -by
+cheap   excursions,   and   that   those   who   do   not   want   to
+go   to   the   fair   have.a   right   to.   demand   that   their   regu -
+lar   service   shall   not   be   disturbed.\"   '.•   v   I
+ELECTIONS   OF   THE   YEAR.
+IT   is   expected   that   Mrs.   McKmley's'   gratifying'   improvement   and
+rapid   convalescence
+:will   permit   the   President's   party   to   leave   for   Washington
+to-day.\"   The   gratification
+felt   by:the   people   at   this   close   of;the   President's   visit
+originates   entirely   in   happiness
+';.;.;&amp;lt;i;   at   the   recovery   of   $Irs.   McKinley.   Californians   have
+'not^   tired   of,   his   sojourn   and
+would   willingly   seeVit   extended,   if   under   conditions   agreeable
+to   him   and   his.
+While   his   tour   \\tasnecessarily,   shortened   by   the   unforeseen
+circumstance'of   his
+wife's   illness,   it   has   been   beneficial   to   the   West   and\\
+to/Western   interests.   He   and   hise   want   a   wireless   telegraph
+station   on   the
+Farallones,   and   on   certain   islands   of   the   Aleutian   archipelago,
+in   the   interest   of   naviga -
+tion   and   for   the   use   of   the   weather   service.   We   need
+attention   to   .the   interests   of.   navi-1
+gation   on   this   coast   equal   to   that   on   the   Atlantic.   The
+weather/service   now   enjoys   tele -
+graphic   facilities   in   the   West   Indies..   The   great   storms   born'
+there   are   now;   notifiedto   the
+whole   Atlantic   coast,   so   that   immense   saving   results   from   the
+cautioning   of   sea.   com -
+merce,   and   its   warning   of   the   coming   storm.   '   Hatteras   is
+s'hprn   of   much   of   its   terrors   and
+the   losses   of   commerce   are   minimized.   -^
+If   the   country   is   to   be'   great   its   greatness.must   extend   to
+all   its   borders.   If   it   is   to
+be   permanently   prosperous   that   prosperity,   must   be   general   and
+not   partial   or   sectional.
+These   ends   are   brought   within   easier   reach   by   the   tour^of
+the   president,   and   the
+people   will   reasonably   expect   economic   results   of   the
+greatest•value'Vo   them.   .;
+California   speeds   the   parting   guest   with   a   genuine   effusior/of
+feeling.   Our   hospi -
+tality   is   unspent   and   we   would   gladly   express   it   in   more
+.emphatic   terms'   should   occasion
+require.   V   ,
+Our   thoughts   will   be   with   the   President   and   his   wife-on
+their   homeward   journey.
+May   its   every   mile   be   pleasant,   and   their   return   to   more
+familiar   scenes   only   serve   to   em -
+phasize   the   pleasure   of   their   experiences   in   the   midst   of
+us/.-•   :.'   •;
+DEMANDS   FOR   TRANSPORTATION.
+PERSONAL   MENTION.
+Josse   D.   Carr   of,Salinas   is   at   the-   Pal -
+ace.
+K.   Casher,   a   Vallejo   merchant.   Is   at   the
+Lick.\".   •
+C.   H.   Riege,   a   stationer   of   Fresno,   Is   at
+the   Lick.
+L.   W.   .Shinn,   a   mining   man   of   Angels,
+is   at   the   Lick.
+Charles   P.   Braslan,   a   seed   merchant   of
+San   Jose,   is   at   the   Palace.
+.   E.   W.   Oaks,   an   extensive   fruit   raiser   of
+Riverside,   is   at   the   Palace.
+W.   L.   Valentine,   a   railroad   man   of   Los
+Angeles,   is   a   guest   at   the   Palace.
+W.   H.   Lee.   a   well-known   book   publisher
+of   Chicago,   registered   at   the   Palace   yes -
+terday.
+C.   H.   Phillips,   a   capitalist   and   well -
+known   real   estate   dealer   of   San   Jose,   is
+at   the   Palace.
+A.   Musto,   who   conducts   a   general   mer -
+chandise   business   at   Stockton,   is   a   gueat
+at   the   Grand.   _•   .
+Judge   H.   G.   Pond,   who   Is   one   of   the
+largest   prune   growers   of   tire   State,   Is   up
+from   Santa   Clara   and   Is   registered   at   the
+Palace.   .-\"   ¦   .   *
+Congressman   Charles   F.   Joy   of   St.
+Louis,   Mo.,   is   at   the   Palace:   He   is   a
+brother   of   Edwin   W.   Joy,   the   druggist,   of
+this   city.   \\   .¦¦'.'   -/'   '   ?   -
+Mrs.   A.   R-Chaff.ee,   the   wife   of   General
+Chaffee,   accompanied   by   her   daughter,
+arrived   here   from   New   York   and   is   at   the
+Occidental..   V   ,'¦   .,
+,'When   it   was   founded,.a   hundred   years
+ago,.the   Library   of   Congress   was   created
+merely   as   a.   convenient   to   the   members
+of   Congress,   andjt.   still   retains   the   title
+which   was   then   given   to   it,   although.its
+functions   have   broadened.\"   It   is   now   a
+library   of   general   scope;   It   is   in   a   building
+distinct   from   the   Capitol;   it   is   performing
+a   .service;   to^the   'executive   ¦departments
+and   to-the   public   .'at   \"large,   and   if   main -
+tains   _the   Copyright   Office,   which   is'•   as'
+distinctively   administrative   in   -   its   func -
+tibhs   as   is\"   the   -   Patent   rt -
+ed   in   the   Capitol.   The   private   library   of
+ox   not   a   mere
+wing   of   the   Capitol,   it   was   set   apart   dis -
+tinct.   It   was   designed   and   completed   as
+the   '   largest,   most   commodious   library
+building   and   more   highly   specialized   serv -
+ice.-   The   material   itself,   which   had   been
+accumulating;In   mass,   has   been   set   apart,
+siftfd   and   summarily   classified;  is   also   a   distinct
+group   dfivoting   itself   exclusively   -to   the
+business   involved   in   the   acquisition   of
+material,   whether   by   purchase,   gift   or
+exchange;   (documents,   manu -
+scripts,   maps,   music   and   prints)   has   its
+general   and   liberal   provision,   in   the   main
+reading   room,   in   the   reading   room   for   the
+c a   distinctive   group   of   workers
+who   are   prepared.   to   aid   in.   inquiries   In -
+volving   elaborate   research.   .   •   '
+Large   Force   Now   Employed.
+Auxiliary   to   .   all   the   a*bove   is   a   fully
+equipped   bindery   for   the   repair.and   bind -
+ing   of   the   library   •   books   -   and   a   printing
+office   for   the.   printing   of   the   catalogue
+cards   and   forms,   and   of   the   bibliographic
+publications.   The   copyright   work   is   now
+set   off   in   a   distinct   division   employing   the
+exclusive   services   of   forty-five   persons,1   a
+number   greater   than   the!   entire   staff   of
+the   llbrary'in   the   old   building.
+Distinct   again   from'all   of   these   divisions
+having,   the   custody'of   special   material   or
+special   functions   with   reference   to   the
+material   as   a   whole,   is   a   small   group   at
+the   head   of   which   is   the   librarian   in   chief,
+having   the   general   administrative   super -
+vision   of   \"the   work   as   a   whole.   .   '   ..   '
+-The   building   and   grounds   are   cared   for
+by   a   separate   i   orgaijizatlon—engineers,
+janitors,   etc.—under;   a   superintendent,
+himself.   appointed   by.   the   President.   This
+official.   acts   also   as   disbursing   -   agent   for
+all   payments   made   out   of,the   library,   ap -
+propriations.   -..-   ¦¦*•'   '..   -   •
+The   present   employes   '   in   .   the   library
+proper   number   185   and   in   the   Copyright
+forty-five,   -while   the   care   of   the
+building   and   ground's   requires   now   a   force
+(Including   charwomen)   of   111   persons.   Only
+statistics   can   make,evident   such   require -
+ments.   The   building   with.its   courts,cov -
+ers   three   and   one-half   acres   of   ground;   It
+includes   over   10,000,000   cubic   feet   and   eight
+acres   of   floor   .space;-it.   has   2150   windows
+to   be   kept   clean;,   It   .is   finished   in   costly
+marble   and   mosaics   and   i   decorated   with
+costly   paintings,   which   must'   receive   as -
+siduous   care,-and   it   employs   elaborate
+machinery—heating   and   .   ventilating   &amp;lt;   ap -
+paratus,'   elevators,   book   railways   and
+pneumatic   tubes-^-which   must,be   smoothly
+operated   and   kept   in   order.
+Present   Size   of   the   Collections.
+~   An-   average   '¦.   '¦   of   .   2200   persons   visit   V   this
+building   every   day   In   the   year.   It   is   wired
+for   6000   electric   lamps   and   its   heating're -
+quires   '   3000   tons   of   coal:   per   annum.   Its
+care.and   the   responsibility   for   its   proper
+maintenance   and   physical,   equipment   rest
+with   its.superintendent,   not.   with|the-   Li -
+brarian.   Special   appropriations   are   placed
+at*   his   disposal,   which:   now   average   about
+$92,000   a   year.   This   is   exclusive   of   appro -
+priations   for   furniture   and   shelving1,   which
+are,•   granted;as   the   gradual.equipment-of
+the.   rooms;   for.   particular   ..uses   progresses.
+The   contents   of   the   library,   proper   have
+now   reached   .the   following   figures:   Printed
+books   and   pamphlets   (not   including   dupli -
+cates   In   ¦   the   Copyright   Office),   995,000;
+manuscripts,   27,000;   maps;and   charts,.   55, -
+000;,   music,   294,000;   prints.   84,000.   ,¦
+•»   Here   is   a.huge;mass   of   material   which
+of   itself   ¦   indicates-'-the:needs   of   a'   large
+force   i   and   one-   competent,   for:   specialized
+service.   That   force/   is   .   gradually'   being
+provided.-.   V\"   *¦;'»'   -\"'-.\"   V.   :   :.--   .   •.:•¦
+.¦Now   this   ,   institution   :   is   a,   library.   Its
+work.is:not'merely   to   administer,   like   an
+executive;bureau;¦¦:nor.,to   investigate   and
+compile,   like   a   scientific   j   bureau.-;   The
+.function^of-a.¦library.Is,'.first,   .to   accumu -
+late   :   material;   •   second,   to   ?   make   it   t   Useful.
+The'material   which   it'accumulates   is   of   a
+defined   A   ,   library,   is'   not'   a*   mu -
+seum.'Mior.is   it   air   art-gallery.1-   It   does   not
+acquire   specimens   &amp;gt;   in   science   nor   ordinary
+(COPYRIGHT,   190L)
+&amp;lt;   :   \\   *   ______   \"   ¦
+XV.—THE   LIBRARY   OF   CONGRESS.
+But   being   a   national   library,   its   duties
+extend   still   '   further.   •   It   should   render
+whatever   •   service   is   within   its   power   to
+scholarly   research   all   over   ,   the   United
+States,   and,   as   a   fact,   it   endeavors   to   da
+so.   Inquiries   come   to   it   by   mail   from
+every   State   in   the   Union.   It.   answers
+them   directly   so   far   as   it   is   able,   and
+where   the   answer   cannot   be   given   out   of
+the   material   in   its   possession   it.seeks   to
+indicate   where   it   may   be   had.
+Now   these   inquiries,   as   well   as   those   ad -
+dressed   to   it   officially..   involve   almost
+every   branch   of   human   knowledge,   which
+has   any   literature;   many,   also   that-   have
+no   literature.   To   answer,   ito   pre -
+pare   It   for.use;   fourth,   to   make   it   useful.
+'-..   Note—This   paper   will   be   completed   next
+Saturday..   •¦   :'-¦•¦;   •   v   \"   *   -.*   ¦¦¦
+Washington   is,   moreover,   itself   becom -
+ing   the   center   of   research   for   scholars   in
+general,   particularly'   in   the   departments
+of   history,   law,.   political   and   social   sci -
+ence,   ethnology   and   those   natural   and)
+physical   sciences   which   may   be   studied
+to   advantage   in   connection,   with   the   sci -
+entific   collections   in   Washington'or   with
+the   scientific   work   being   carried   on   In   the
+Smithsonian   Institution,   the   Coast   and
+Geodetic   Survey,   the   Geological   Survey,
+the   naval.observatory,   etc.   It   is   already
+the   seat   of   various   colleges   and   it   Is   with -
+in   •   one   hour   ¦   of   the   American   University
+most and
+every   class   in   the   community.   They   are
+supplying   not   merely   the   books   which   are
+instructive   but   those   which   are   purely
+recreative.   •   Particularlyreserving   and   making   availa -
+ble   the   sources   of   knowledge,   not   by   mul -
+tiplying   them.   It   informs   as   to   what
+knowledge   exists,   and   what   opinion.   Bl.   A   clay
+tablet   of   Nineveh   or   the   Moabite   stone
+would   find   appropriate   place   within   it;   but
+only   as   literature,   not   as   sculpture,   nor
+as   evidence   i   in   geology.   !   All   literature,
+however,   and.   maps,   music,   photographs,
+etchings,   engravings,   as   well   as   the   writ -
+ten   and   the   printed   book,   are   in   its   prov -
+ince.   '   .-   -   •   •
+By   Herbert   Putnam,
+LIBRARIAN   OF   CONGRESS.
+What   the   Federal   Government   Has   Done   in
+One   Hundred   Years   to   'Create   a   Great
+National   Library.
+Prepared   by   Experts   and   Specialists   tor
+The;San   Francisco   -Call^
+PAPERS   ON   CURRENT   TOPICS.
+THE   PRESIDENT   DEPARTS.
+THE   -.   SANv   FRANCISCO   CALIi,   SATURDAY,   MAY   '25;   1901;
+The   British   papers   ;have   ceased.talking   about   the
+war   and   are   now   discussing   the   coal   tax.   The,   one
+subject   is:about   as   unpleasant   asjthe;   pther,':   but   any -
+thing   for;a   change.   ¦¦-¦•¦'   \"'\".'   .'   r-s.   '-;-
+6 
+</Body></Document>""" ;
+    c:externalID "3e86ae86228b751499eb351f19650557" ;
+    c:externalMetadata "" ;
+    c:id "http://id.opencalais.com/vOSTVpXaBmeaa9Vm1Un8ew" ;
+    c:submitter "ed" ;
+    a <http://s.opencalais.com/1/type/sys/DocInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/137>
+    c:detection """[  .   *
+Congressman   Charles   F.   Joy   of   ]St.
+Louis[,   Mo.,   is   at   the   Palace:   He   is  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact """St.
+Louis""" ;
+    c:length "9" ;
+    c:offset "20747" ;
+    c:prefix """  .   *
+Congressman   Charles   F.   Joy   of   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/9bee94cd-c6ea-327a-97f2-670070967b29> ;
+    c:suffix ",   Mo.,   is   at   the   Palace:   He   is  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/73>
+    c:detection """[   as   a.   convenient   to   the   members
+of   ]Congress[,   andjt.   still   retains   the   title
+which ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Congress" ;
+    c:length "8" ;
+    c:offset "21244" ;
+    c:prefix """   as   a.   convenient   to   the   members
+of   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/1ede3efe-4938-3c88-bd76-753a95f5593c> ;
+    c:suffix """,   andjt.   still   retains   the   title
+which """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/38>
+    c:detection """[  domestic   .   substitutes   of.   ]Dr.   Siegerfs
+Angostura   Bitters[,   great   South   American   tonic
+'   ¦   ,'  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact """Dr.   Siegerfs
+Angostura   Bitters""" ;
+    c:length "34" ;
+    c:offset "9694" ;
+    c:prefix "  domestic   .   substitutes   of.   " ;
+    c:subject <http://d.opencalais.com/pershash-1/78a74b3e-9381-3289-8e56-9a9228349345> ;
+    c:suffix """,   great   South   American   tonic
+'   ¦   ,'  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/7>
+    c:detection """[ to
+us   the   main   argument   used   against   ]him[   is   that   he
+has   made   himself  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "him" ;
+    c:length "3" ;
+    c:offset "13588" ;
+    c:prefix """ to
+us   the   main   argument   used   against   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/2391f6c5-d5a4-3b41-b1f2-00e956694d13> ;
+    c:suffix """   is   that   he
+has   made   himself  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/56>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.120" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/51bb10d7-d54c-3aed-8cf9-b7782e8eeda9> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/27>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.035" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/c8b1cc4c-9e3f-34e5-90b8-554cca28f210> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/bd9038c8-99f6-3404-af0e-ee233cd6d727>
+    c:name "West   Indies" ;
+    a <http://s.opencalais.com/1/type/em/e/Region> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/124>
+    c:detection """[  garbage   inspector
+in   her   ward   in   ]Chicago[   •,   on   the   ground   that   she  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Chicago" ;
+    c:length "7" ;
+    c:offset "190" ;
+    c:prefix """  garbage   inspector
+in   her   ward   in   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/03ff2f32-7d79-3042-a299-2010505bc8fc> ;
+    c:suffix "   •,   on   the   ground   that   she  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/76>
+    c:detection """[   .   r   f   ¦   .
+A   recent-dispatch   from   ]Philadelphia[   said:   \".With
+orders   enough   ahead   to  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Philadelphia" ;
+    c:length "12" ;
+    c:offset "14516" ;
+    c:prefix """   .   r   f   ¦   .
+A   recent-dispatch   from   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/4b474cf2-e8df-3193-86a4-8e858a5c5e37> ;
+    c:suffix """   said:   \".With
+orders   enough   ahead   to  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/9c147196-160d-8555-537a-06b783fe54af>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "34.0522" ;
+    c:longitude "-118.2428" ;
+    c:name "Los Angeles,California,United States" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/874eaab9-7b66-36e3-9650-8de7a5001cf9> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/genericHasher-1/a4e2ca08-c2d5-3f15-a393-b65910eea7df>
+    c:name "South   America" ;
+    a <http://s.opencalais.com/1/type/em/e/Continent> .
+
+<http://d.opencalais.com/genericHasher-1/a54ac18b-a956-3b5c-b235-0609ca899305>
+    c:name "United States" ;
+    a <http://s.opencalais.com/1/type/em/e/Country> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/49>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.060" ;
+    c:subject <http://d.opencalais.com/pershash-1/460f054f-3503-3e42-b900-28aa09137780> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/43>
+    c:detection """[ E!xte«nth.   open   until   I   o'clock.   10M   ]Valencia[,   open
+vrtll   t   o'clock.   1M   Eleventh,  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Valencia" ;
+    c:length "8" ;
+    c:offset "12251" ;
+    c:prefix " E!xte«nth.   open   until   I   o'clock.   10M   " ;
+    c:subject <http://d.opencalais.com/genericHasher-1/2066bf14-6c3d-3869-a22f-0ac1f61cbc1b> ;
+    c:suffix """,   open
+vrtll   t   o'clock.   1M   Eleventh,  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/64>
+    c:detection """[  Californians   have
+'not^   tired   of,   ]his[   sojourn   and
+would   willingly   seeVit  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "his" ;
+    c:length "3" ;
+    c:offset "17399" ;
+    c:prefix """  Californians   have
+'not^   tired   of,   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/7a145a5f-4a5f-3853-82ad-98b35ea0d30a> ;
+    c:suffix """   sojourn   and
+would   willingly   seeVit  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/52>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.313" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/bd9038c8-99f6-3404-af0e-ee233cd6d727> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/129>
+    c:detection """[   .the   domestic
+and   civic   virtues,   but   ]he[   can   be   that   and   at   the   same
+time  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "he" ;
+    c:length "2" ;
+    c:offset "5286" ;
+    c:prefix """   .the   domestic
+and   civic   virtues,   but   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/4bb137e1-04c3-36bf-b2be-fecae4657b0b> ;
+    c:suffix """   can   be   that   and   at   the   same
+time  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/83>
+    c:detection """[ his   disposal,   which:   now   average   about
+]$92,000[   a   year.   This   is   exclusive   of   appro]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "$92,000" ;
+    c:length "7" ;
+    c:offset "25529" ;
+    c:prefix """ his   disposal,   which:   now   average   about
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/736a403d-157b-3e80-86a7-acc404607cb2> ;
+    c:suffix "   a   year.   This   is   exclusive   of   appro" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/40>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.057" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/ad004887-c581-3051-9f70-22f68e4b89e4>
+    c:name "Seattle" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/42>
+    c:detection """[  engravings,   as   well   as   ]the   writ[ -
+ten   and   the   printed   book,   are   in  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "the   writ" ;
+    c:length "10" ;
+    c:offset "29460" ;
+    c:prefix "  engravings,   as   well   as   " ;
+    c:subject <http://d.opencalais.com/genericHasher-1/c8b1cc4c-9e3f-34e5-90b8-554cca28f210> ;
+    c:suffix """ -
+ten   and   the   printed   book,   are   in  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/f497898f-2b9b-7cda-ec7b-85d896acbe3e>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "38.89" ;
+    c:longitude "-77.03" ;
+    c:name "Washington, D.C.,United States" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/1d1529b7-da5f-3884-8de0-c765b3b7d3a3> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/fc056bd3-a089-184a-bbe0-8f5764d31fc7>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "47.6064" ;
+    c:longitude "-122.3308" ;
+    c:name "Seattle,Washington,United States" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/ad004887-c581-3051-9f70-22f68e4b89e4> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/genericHasher-1/8154905b-ba36-3190-adc7-95a58d4b9405>
+    c:name "Smithsonian   Institution" ;
+    c:nationality "N/A" ;
+    c:organizationtype "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Organization> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/53>
+    c:detection """[ Is   to   be   found   In   the
+\"Merchant   of   ]Venice[,\"   act   I,   scene   I.
+words   spoken   by  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Venice" ;
+    c:length "6" ;
+    c:offset "6484" ;
+    c:prefix """ Is   to   be   found   In   the
+\"Merchant   of   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/3dc6359c-759e-3d7c-825d-ebe57e194458> ;
+    c:suffix """,\"   act   I,   scene   I.
+words   spoken   by  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/pershash-1/796ad6d3-2543-3a54-b371-884b13c61dc3>
+    c:name "George   Dlxoh" ;
+    c:nationality "N/A" ;
+    c:persontype "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Person> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/8>
+    c:detection """[  argument   used   against   him   is   that   ]he[
+has   made   himself   unpopular   by   stopping]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "he" ;
+    c:length "2" ;
+    c:offset "13606" ;
+    c:prefix "  argument   used   against   him   is   that   " ;
+    c:subject <http://d.opencalais.com/pershash-1/2391f6c5-d5a4-3b41-b1f2-00e956694d13> ;
+    c:suffix """
+has   made   himself   unpopular   by   stopping""" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/b0dfbe09-9b57-0fa7-e789-ccfc8a6f650a>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "41.85" ;
+    c:longitude "-87.65" ;
+    c:name "Chicago,Illinois,United States" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/03ff2f32-7d79-3042-a299-2010505bc8fc> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/36>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.293" ;
+    c:subject <http://d.opencalais.com/comphash-1/41da358c-22cb-3502-aba0-8f46175c4905> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/54>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.032" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/7958d38f-09f3-3cbc-ac4c-c68c67b1b144> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/pershash-1/7a145a5f-4a5f-3853-82ad-98b35ea0d30a>
+    c:name "James   Stafford" ;
+    c:nationality "N/A" ;
+    c:persontype "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Person> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/23>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.048" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/cc40987a-fda0-39f7-ac31-8285b64e745a> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/26>
+    c:detection """[  souvenir?   On   sale   every -
+where:   ]25   cents[.   s   ...   .   •-•&lt;-
+....   &gt;   .   .  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "25   cents" ;
+    c:length "10" ;
+    c:offset "8696" ;
+    c:prefix """  souvenir?   On   sale   every -
+where:   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/32cca635-b090-3e1b-b657-37a040b9169a> ;
+    c:suffix """.   s   ...   .   •-•&lt;-
+....   &gt;   .   .  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/91>
+    c:detection """[  tele -
+graphic   facilities   in   the   ]West   Indies[..   The   great   storms   born'
+there   are  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "West   Indies" ;
+    c:length "13" ;
+    c:offset "18171" ;
+    c:prefix """  tele -
+graphic   facilities   in   the   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/bd9038c8-99f6-3404-af0e-ee233cd6d727> ;
+    c:suffix """..   The   great   storms   born'
+there   are  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/2399683b-f6bb-366a-b209-7e861c9b0df1>
+    c:name "Kentucky" ;
+    a <http://s.opencalais.com/1/type/em/e/ProvinceOrState> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/21>
+    c:detection """[  equal'divisiSPONDENTS.
+DIMES—T.   H.   F..   ]Watsonville[.   Cal.
+Dealers   do   not   offer   a   premium]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Watsonville" ;
+    c:length "11" ;
+    c:offset "5804" ;
+    c:prefix """  equal'divisiSPONDENTS.
+DIMES—T.   H.   F..   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/8060526b-2237-3e21-a50e-8be81db4802a> ;
+    c:suffix """.   Cal.
+Dealers   do   not   offer   a   premium""" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/123>
+    c:detection """[  Great   Northern   Hotel:
+Fremont   Hccse;   ]AuOltorlnm   Hotel[.
+.WASHIWGTOJT   (D.   C.)   OFFICE.   .   .  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "AuOltorlnm   Hotel" ;
+    c:length "18" ;
+    c:offset "11763" ;
+    c:prefix """  Great   Northern   Hotel:
+Fremont   Hccse;   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/e84f9c1c-ce95-3bbf-a372-a9990caf22d3> ;
+    c:suffix """.
+.WASHIWGTOJT   (D.   C.)   OFFICE.   .   .  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/7766f062-0468-3d78-9ed5-f8490a74086e>
+    c:name "corns" ;
+    a <http://s.opencalais.com/1/type/em/e/MedicalCondition> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/94>
+    c:detection """[ ia   twelve   inches.   The   largest   in
+the   ]United   States[   navy   is   fifteen   inches.
+No   nation  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "United   States" ;
+    c:length "15" ;
+    c:offset "6962" ;
+    c:prefix """ ia   twelve   inches.   The   largest   in
+the   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/a54ac18b-a956-3b5c-b235-0609ca899305> ;
+    c:suffix """   navy   is   fifteen   inches.
+No   nation  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/97>
+    c:detection """[  L.   Valentine,   a   railroad   man   of   ]Los
+Angeles[,   is   a   guest   at   the   Palace.
+W.   H.  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact """Los
+Angeles""" ;
+    c:length "11" ;
+    c:offset "20093" ;
+    c:prefix "  L.   Valentine,   a   railroad   man   of   " ;
+    c:subject <http://d.opencalais.com/genericHasher-1/874eaab9-7b66-36e3-9650-8de7a5001cf9> ;
+    c:suffix """,   is   a   guest   at   the   Palace.
+W.   H.  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/41>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.240" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/e5851549-c0db-3679-a65c-1a179cbdfd49> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/38>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.177" ;
+    c:subject <http://d.opencalais.com/comphash-1/2811136c-59b6-30ca-8eb6-02b9d410b218> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/107>
+    c:detection """[  P.   O.   Sm   Co.;   Great   Northern   Hotel:
+]Fremont[   Hccse;   AuOltorlnm   Hotel.
+.WASHIWGTOJT  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Fremont" ;
+    c:length "7" ;
+    c:offset "11744" ;
+    c:prefix """  P.   O.   Sm   Co.;   Great   Northern   Hotel:
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/1572e345-a3af-3b79-8a5e-b577b76587d7> ;
+    c:suffix """   Hccse;   AuOltorlnm   Hotel.
+.WASHIWGTOJT  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/19>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.187" ;
+    c:subject <http://d.opencalais.com/pershash-1/c303081f-4e3f-3333-ba27-68c9165f88b8> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/3>
+    c:detection """[  Pavilion   October   •   4.   1897,   when
+]Smith[   was   declared   the   victor   in  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Smith" ;
+    c:length "5" ;
+    c:offset "6247" ;
+    c:prefix """  Pavilion   October   •   4.   1897,   when
+""" ;
+    c:subject <http://d.opencalais.com/pershash-1/2391f6c5-d5a4-3b41-b1f2-00e956694d13> ;
+    c:suffix "   was   declared   the   victor   in  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/43120867-617e-b922-fe7e-43cc908674b6>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "38.6277" ;
+    c:longitude "-90.2428" ;
+    c:name "St. Louis,Missouri,United States" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/9bee94cd-c6ea-327a-97f2-670070967b29> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/33>
+    c:detection """[  at   the   Palace:   He   is   a
+brother   of   ]Edwin   W.   Joy[,   the   druggist,   of
+this   city.   \\  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Edwin   W.   Joy" ;
+    c:length "16" ;
+    c:offset "20820" ;
+    c:prefix """  at   the   Palace:   He   is   a
+brother   of   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/587471d0-54a3-3e9c-91ab-684d346818d0> ;
+    c:suffix """,   the   druggist,   of
+this   city.   \\  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/77>
+    c:detection """[  and   majority   parties   and
+is   equally   ]American[.   The   people   are   the   final  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "American" ;
+    c:length "8" ;
+    c:offset "4712" ;
+    c:prefix """  and   majority   parties   and
+is   equally   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/e0b8c53a-175f-3c05-9ebf-8fd551f40189> ;
+    c:suffix ".   The   people   are   the   final  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/43>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.322" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/1ede3efe-4938-3c88-bd76-753a95f5593c> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/30>
+    c:detection """[  tree   is   a   native   of
+the   West   ]Indies[   and   of   South   America.
+It   grows   to  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Indies" ;
+    c:length "6" ;
+    c:offset "6652" ;
+    c:prefix """  tree   is   a   native   of
+the   West   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/62e64075-d587-3d60-84aa-6b7661550160> ;
+    c:suffix """   and   of   South   America.
+It   grows   to  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/26>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.295" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/47502e9e-923d-3861-b258-fbb94a5fee3e> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/110>
+    c:detection """[  Is   at
+the   Lick.
+L.   W.   .Shinn,   a   ]mining[   man   of   Angels,
+is   at   the  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "mining" ;
+    c:length "6" ;
+    c:offset "19809" ;
+    c:prefix """  Is   at
+the   Lick.
+L.   W.   .Shinn,   a   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/7118950c-c257-3ade-8c76-b63d5f58af50> ;
+    c:suffix """   man   of   Angels,
+is   at   the  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/28>
+    c:detection """[ Bnlldlnar
+k_tw   tork   :;ews   stanus:
+Walflorf-]Aetorla   Hotel[;   A.   Brent-no*   a   __ton   Square:
+Mcrrty  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Aetorla   Hotel" ;
+    c:length "15" ;
+    c:offset "11559" ;
+    c:prefix """ Bnlldlnar
+k_tw   tork   :;ews   stanus:
+Walflorf-""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/cde389f2-4582-3dca-9c96-5e5d27477474> ;
+    c:suffix """;   A.   Brent-no*   a   __ton   Square:
+Mcrrty  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/79>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.057" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/9bee94cd-c6ea-327a-97f2-670070967b29> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b>
+    c:name "Florida" ;
+    a <http://s.opencalais.com/1/type/em/e/ProvinceOrState> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/128>
+    c:detection """[  that
+they   were   wrong.   .;
+No   doubt   ]Mr.   Bryan[   is   a.   model   of   .the   domestic
+and  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Mr.   Bryan" ;
+    c:length "11" ;
+    c:offset "5202" ;
+    c:prefix """  that
+they   were   wrong.   .;
+No   doubt   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/4bb137e1-04c3-36bf-b2be-fecae4657b0b> ;
+    c:suffix """   is   a.   model   of   .the   domestic
+and  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/pershash-1/78a74b3e-9381-3289-8e56-9a9228349345>
+    c:name """Siegerfs
+Angostura   Bitters""" ;
+    c:nationality "N/A" ;
+    c:persontype "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Person> .
+
+<http://d.opencalais.com/pershash-1/0b41ed04-d7a8-3b17-a498-6e6b05d43520>
+    c:name "Charles   F.   Joy" ;
+    c:nationality "American" ;
+    c:persontype "political" ;
+    a <http://s.opencalais.com/1/type/em/e/Person> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/6>
+    c:detection """[  up   an.   earnest   fight   against   ]him[.   In   one   re -
+spect   the   Governor   is  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "him" ;
+    c:length "3" ;
+    c:offset "13383" ;
+    c:prefix "  up   an.   earnest   fight   against   " ;
+    c:subject <http://d.opencalais.com/pershash-1/2391f6c5-d5a4-3b41-b1f2-00e956694d13> ;
+    c:suffix """.   In   one   re -
+spect   the   Governor   is  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/65>
+    c:detection """[  if   under   conditions   agreeable
+to   ]him[   and   his.
+While   his   tour  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "him" ;
+    c:length "3" ;
+    c:offset "17501" ;
+    c:prefix """  if   under   conditions   agreeable
+to   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/7a145a5f-4a5f-3853-82ad-98b35ea0d30a> ;
+    c:suffix """   and   his.
+While   his   tour  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/47502e9e-923d-3861-b258-fbb94a5fee3e>
+    c:name "The   Times" ;
+    a <http://s.opencalais.com/1/type/em/e/PublishedMedium> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/58>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.297" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/09bebb87-1ef5-373d-bd01-263e77470c65> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/59>
+    c:detection """[  f
+CHICAGO   XKWS,   STANDSi
+Rxeman   House:   ]P.   O.   Sm   Co.[;   Great   Northern   Hotel:
+Fremont   Hccse;  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "P.   O.   Sm   Co." ;
+    c:length "18" ;
+    c:offset "11696" ;
+    c:prefix """  f
+CHICAGO   XKWS,   STANDSi
+Rxeman   House:   """ ;
+    c:subject <http://d.opencalais.com/comphash-1/2811136c-59b6-30ca-8eb6-02b9d410b218> ;
+    c:suffix """;   Great   Northern   Hotel:
+Fremont   Hccse;  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/pershash-1/d2b868cd-26c6-310a-975c-d5eede2cb41a>
+    c:name "McKmley" ;
+    c:nationality "N/A" ;
+    c:persontype "N/A" ;
+    a <http://s.opencalais.com/1/type/em/e/Person> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/lid/DefaultLangId>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:lang <http://d.opencalais.com/lid/DefaultLangId/English> ;
+    a <http://s.opencalais.com/1/type/lid/DefaultLangId> .
+
+<http://d.opencalais.com/genericHasher-1/5fc67ecf-e49d-3ab4-aaad-9cff97f00ffe>
+    c:name "New York" ;
+    a <http://s.opencalais.com/1/type/em/e/ProvinceOrState> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/46>
+    c:detection """[  their   product   to   ]New   York[.   They
+nave   made   a.   success   of   it.  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "New   York" ;
+    c:length "10" ;
+    c:offset "9160" ;
+    c:prefix "  their   product   to   " ;
+    c:subject <http://d.opencalais.com/genericHasher-1/9f45e0f5-aa73-39b8-b39e-2a1546da820a> ;
+    c:suffix """.   They
+nave   made   a.   success   of   it.  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/meta>
+    c:contentType "text/txt" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:emVer "UnifiedIM-DJ" ;
+    c:langIdVer "DefaultLangId" ;
+    c:language "English" ;
+    c:processingVer "CalaisJob01" ;
+    c:signature "digestalg-1|Hp4fJeKdIomdAT/xD50GkjMDf74=|DtYCkdi6esyPlCL1beQhBD5bJY4jozU4tbhDhWKFX7q5/rwn8ut96A==" ;
+    c:submissionDate "2008-12-02 00:20:03.366" ;
+    c:submitterCode "dde1630a-b833-5121-48d0-497632d6e896" ;
+    a <http://s.opencalais.com/1/type/sys/DocInfoMeta> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/86>
+    c:detection """[  seat   of   various   colleges   and   it   ]Is[   with -
+in   •   one   hour   ¦   of   the  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Is" ;
+    c:length "2" ;
+    c:offset "28684" ;
+    c:prefix "  seat   of   various   colleges   and   it   " ;
+    c:subject <http://d.opencalais.com/genericHasher-1/02b68df4-867f-3ae0-843e-da54376412e2> ;
+    c:suffix """   with -
+in   •   one   hour   ¦   of   the  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/11>
+    c:detection """[  NW.   cor
+-
+ner   Twenty*second   and   ]Kentucky[,   open   until   9   o'clock.
+IIOO   Flllmore. ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Kentucky" ;
+    c:length "8" ;
+    c:offset "12378" ;
+    c:prefix """  NW.   cor
+-
+ner   Twenty*second   and   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/2399683b-f6bb-366a-b209-7e861c9b0df1> ;
+    c:suffix """,   open   until   9   o'clock.
+IIOO   Flllmore. """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/79>
+    c:detection """[  family   of   hummingbirds   is
+exclusively   ]American[,   and   its   range   ex -
+tends   from  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "American" ;
+    c:length "8" ;
+    c:offset "7557" ;
+    c:prefix """  family   of   hummingbirds   is
+exclusively   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/e0b8c53a-175f-3c05-9ebf-8fd551f40189> ;
+    c:suffix """,   and   its   range   ex -
+tends   from  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/14>
+    c:detection """[  on   a   steamer   plying   between   ]San
+Francisco[   and   foreign   ports   should   file]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact """San
+Francisco""" ;
+    c:length "13" ;
+    c:offset "8507" ;
+    c:prefix "  on   a   steamer   plying   between   " ;
+    c:subject <http://d.opencalais.com/genericHasher-1/a1c1ac3d-0c25-3fb1-ac74-cac9c8510afa> ;
+    c:suffix "   and   foreign   ports   should   file" ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/8>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.165" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/3464e47d-a869-3783-8fdc-d17cb8f13c2e> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/15>
+    c:detection """[  by   Experts   and   Specialists   tor
+The;]San   Francisco[   -Call^
+PAPERS   ON   CURRENT   TOPICS.
+THE  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "San   Francisco" ;
+    c:length "15" ;
+    c:offset "29785" ;
+    c:prefix """  by   Experts   and   Specialists   tor
+The;""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/a1c1ac3d-0c25-3fb1-ac74-cac9c8510afa> ;
+    c:suffix """   -Call^
+PAPERS   ON   CURRENT   TOPICS.
+THE  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/28>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.172" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/2066bf14-6c3d-3869-a22f-0ac1f61cbc1b> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/60>
+    c:detection """[ the   tremen -
+dous   expansion   of-Arherican   ]energy[   in   traffic   and
+travel   has   surpassed  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "energy" ;
+    c:length "6" ;
+    c:offset "15844" ;
+    c:prefix """ the   tremen -
+dous   expansion   of-Arherican   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/05bb2646-0ab8-3a48-b4eb-d29cfd33ce39> ;
+    c:suffix """   in   traffic   and
+travel   has   surpassed  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/44>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.133" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/4b474cf2-e8df-3193-86a4-8e858a5c5e37> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/67>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.212" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/51bb10d7-d54c-3aed-8cf9-b7782e8eeda9>
+    c:name "Pennsylvania" ;
+    a <http://s.opencalais.com/1/type/em/e/ProvinceOrState> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/34>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.261" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/3dc6359c-759e-3d7c-825d-ebe57e194458> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/22>
+    c:detection """[  to
+boil,   and   in   two   of   them,   ]Virginia[   and   Ohio,   it   is
+probable   the  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Virginia" ;
+    c:length "8" ;
+    c:offset "12773" ;
+    c:prefix """  to
+boil,   and   in   two   of   them,   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/c489280c-385d-3106-90ca-9210b3965ea8> ;
+    c:suffix """   and   Ohio,   it   is
+probable   the  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/63>
+    c:detection """[  blanket   mills   of   Wil -
+liam   &amp;   ]James   Stafford[   in   Manayunk   have   shut   down,
+to  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "James   Stafford" ;
+    c:length "16" ;
+    c:offset "14696" ;
+    c:prefix """  blanket   mills   of   Wil -
+liam   &amp;   """ ;
+    c:subject <http://d.opencalais.com/pershash-1/7a145a5f-4a5f-3853-82ad-98b35ea0d30a> ;
+    c:suffix """   in   Manayunk   have   shut   down,
+to  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/71>
+    c:detection """[  control   and   we   had*   to   wait
+for^]Congress[   to   meet   and   make   an   appropriation  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Congress" ;
+    c:length "8" ;
+    c:offset "14305" ;
+    c:prefix """  control   and   we   had*   to   wait
+for^""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/1ede3efe-4938-3c88-bd76-753a95f5593c> ;
+    c:suffix "   to   meet   and   make   an   appropriation  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/75>
+    c:detection """[  •   •
+By   Herbert   Putnam,
+LIBRARIAN   OF   ]CONGRESS[.
+What   the   Federal   Government   Has   Done ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "CONGRESS" ;
+    c:length "8" ;
+    c:offset "29600" ;
+    c:prefix """  •   •
+By   Herbert   Putnam,
+LIBRARIAN   OF   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/1ede3efe-4938-3c88-bd76-753a95f5593c> ;
+    c:suffix """.
+What   the   Federal   Government   Has   Done """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/136>
+    c:detection """[  well -
+known   real   estate   dealer   of   ]San   Jose[,   is
+at   the   Palace.
+A.   Musto,   who  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "San   Jose" ;
+    c:length "10" ;
+    c:offset "20348" ;
+    c:prefix """  well -
+known   real   estate   dealer   of   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/52d0db73-e59e-3ef0-83d8-28e39276da54> ;
+    c:suffix """,   is
+at   the   Palace.
+A.   Musto,   who  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/29>
+    c:detection """[ oUL
+SATURDAY.   .v..'/.s........MAY   25,   1901
+]JOHN   D.   SPRECKELS[,   Proprietor.
+*'\"r^^^^T^S^ComaMieltitMtjWrs.  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "JOHN   D.   SPRECKELS" ;
+    c:length "21" ;
+    c:offset "10036" ;
+    c:prefix """ oUL
+SATURDAY.   .v..'/.s........MAY   25,   1901
+""" ;
+    c:subject <http://d.opencalais.com/pershash-1/c303081f-4e3f-3333-ba27-68c9165f88b8> ;
+    c:suffix """,   Proprietor.
+*'\"r^^^^T^S^ComaMieltitMtjWrs.  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/66>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.077" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/7118950c-c257-3ade-8c76-b63d5f58af50> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/9cdc126f-6826-0cbd-df3a-00a4032f0e7e>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "53.114246" ;
+    c:longitude "-2.5771136" ;
+    c:name "United Kingdom" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/cc88b155-205c-3676-a151-d45f473f0b16> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/33>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.297" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/56b520cb-4636-3f95-8f9f-e16e3b317862> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/134>
+    c:detection """[  is   a   gueat
+at   the   Grand.   _•   .
+]Judge   H.   G.   Pond[,   who   Is   one   of   the
+largest   prune  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Judge   H.   G.   Pond" ;
+    c:length "22" ;
+    c:offset "20516" ;
+    c:prefix """  is   a   gueat
+at   the   Grand.   _•   .
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/8bdaf2e5-2e0f-3b95-be99-b4acf90e9ea9> ;
+    c:suffix """,   who   Is   one   of   the
+largest   prune  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/cc88b155-205c-3676-a151-d45f473f0b16>
+    c:name "United Kingdom" ;
+    a <http://s.opencalais.com/1/type/em/e/Country> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/120>
+    c:detection """[  men-by   the
+PreS3   Clipping   Bureau   (]Allen['s).   510   Mont -
+gomery   street.   ¦  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Allen" ;
+    c:length "5" ;
+    c:offset "8891" ;
+    c:prefix """  men-by   the
+PreS3   Clipping   Bureau   (""" ;
+    c:subject <http://d.opencalais.com/pershash-1/a079e0e8-fc42-3908-b5ad-e43f28bab529> ;
+    c:suffix """'s).   510   Mont -
+gomery   street.   ¦  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/17>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.217" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/a846abbc-d922-386f-a55a-4d9350909b11> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/102>
+    c:detection """[ a   native   of
+the   West   Indies   and   of   ]South   America[.
+It   grows   to   a   height   of   from-80  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "South   America" ;
+    c:length "15" ;
+    c:offset "6672" ;
+    c:prefix """ a   native   of
+the   West   Indies   and   of   """ ;
+    c:subject <http://d.opencalais.com/genericHasher-1/a4e2ca08-c2d5-3f15-a393-b65910eea7df> ;
+    c:suffix """.
+It   grows   to   a   height   of   from-80  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/a1c1ac3d-0c25-3fb1-ac74-cac9c8510afa>
+    c:name """San
+Francisco""" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/genericHasher-1/cc40987a-fda0-39f7-ac31-8285b64e745a>
+    c:name "machinery" ;
+    a <http://s.opencalais.com/1/type/em/e/IndustryTerm> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/152649df-347e-e289-1a9e-acc883e07d17>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "40.423" ;
+    c:longitude "-98.73722" ;
+    c:name "United States" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/a54ac18b-a956-3b5c-b235-0609ca899305> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/er/geo/ralg-geo1/f56118da-0256-d097-ff73-1f5d0938031b>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:latitude "37.775" ;
+    c:longitude "-122.4183" ;
+    c:name "San Francisco,California,United States" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/a1c1ac3d-0c25-3fb1-ac74-cac9c8510afa> ;
+    a <http://s.opencalais.com/1/type/er/Geo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/135>
+    c:detection """[  P.   Braslan,   a   seed   merchant   of
+]San   Jose[,   is   at   the   Palace.
+.   E.   W.   Oaks,  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "San   Jose" ;
+    c:length "10" ;
+    c:offset "19910" ;
+    c:prefix """  P.   Braslan,   a   seed   merchant   of
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/52d0db73-e59e-3ef0-83d8-28e39276da54> ;
+    c:suffix """,   is   at   the   Palace.
+.   E.   W.   Oaks,  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Relevance/24>
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:relevance "0.125" ;
+    c:subject <http://d.opencalais.com/pershash-1/d2b868cd-26c6-310a-975c-d5eede2cb41a> ;
+    a <http://s.opencalais.com/1/type/sys/RelevanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/114>
+    c:detection """[  registered   at   the
+Palace.   .-\"   ¦   .   *
+]Congressman   Charles   F.   Joy[   of   St.
+Louis,   Mo.,   is   at   the  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Congressman   Charles   F.   Joy" ;
+    c:length "32" ;
+    c:offset "20707" ;
+    c:prefix """  registered   at   the
+Palace.   .-\"   ¦   .   *
+""" ;
+    c:subject <http://d.opencalais.com/pershash-1/0b41ed04-d7a8-3b17-a498-6e6b05d43520> ;
+    c:suffix """   of   St.
+Louis,   Mo.,   is   at   the  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/24>
+    c:detection """[  REPRESENTATIVE:
+ITCPHES   B.   SMITH.   .30   ]Tribune[   Bnlldlnar
+k_tw   tork   :;ews  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Tribune" ;
+    c:length "7" ;
+    c:offset "11500" ;
+    c:prefix """  REPRESENTATIVE:
+ITCPHES   B.   SMITH.   .30   """ ;
+    c:subject <http://d.opencalais.com/comphash-1/da061232-dda0-342f-9e55-4ee9b1f0cd80> ;
+    c:suffix """   Bnlldlnar
+k_tw   tork   :;ews  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/17>
+    c:detection """[ hitherto   deemed   fairly   certain   that   in
+]Ohio[   the   Republicans   would   renominate  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "Ohio" ;
+    c:length "4" ;
+    c:offset "12929" ;
+    c:prefix """ hitherto   deemed   fairly   certain   that   in
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/3464e47d-a869-3783-8fdc-d17cb8f13c2e> ;
+    c:suffix "   the   Republicans   would   renominate  " ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+
+<http://d.opencalais.com/genericHasher-1/9bee94cd-c6ea-327a-97f2-670070967b29>
+    c:name """St.
+Louis""" ;
+    a <http://s.opencalais.com/1/type/em/e/City> .
+
+<http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788/Instance/93>
+    c:detection """[  Hundred   Years   to   'Create   a   Great
+]National   Library[.
+Prepared   by   Experts   and   Specialists  ]""" ;
+    c:docId <http://d.opencalais.com/dochash-1/9db8f409-4e65-3c23-854a-399c293c6788> ;
+    c:exact "National   Library" ;
+    c:length "18" ;
+    c:offset "29711" ;
+    c:prefix """  Hundred   Years   to   'Create   a   Great
+""" ;
+    c:subject <http://d.opencalais.com/genericHasher-1/7958d38f-09f3-3cbc-ac4c-c68c67b1b144> ;
+    c:suffix """.
+Prepared   by   Experts   and   Specialists  """ ;
+    a <http://s.opencalais.com/1/type/sys/InstanceInfo> .
+

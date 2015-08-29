@@ -1,0 +1,81 @@
+---
+layout: post
+status: publish
+published: true
+title: lingvoj
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 272
+wordpress_url: http://inkdroid.org/journal/?p=272
+date: '2008-08-13 06:12:19 +0000'
+date_gmt: '2008-08-13 13:12:19 +0000'
+tags:
+- rdf
+- libraries
+- dublincore
+- semweb
+- languages
+- linkeddata
+- uris
+comments:
+- id: 70581
+  author: Kingsley Idehen
+  author_email: kidehen@openlinksw.com
+  author_url: http://www.openlinksw.com/blog/~kidehen
+  date: '2008-08-13 09:02:24 +0000'
+  date_gmt: '2008-08-13 16:02:24 +0000'
+  content: "Ed,\r\n\r\nPeople can also explore via:\r\nhttp://demo.openlinksw.com/rdfbrowser2/?uri=http%3A%2F%2Fwww.lingvoj.org%2Flang%2Fzh\r\n\r\nand
+    other RDF Browsers / Linked Data Explorers :-)\r\n\r\nBTW - OpenID base authentication
+    isn't working re. this comments interface."
+- id: 71213
+  author: Ed Summers
+  author_email: ehs@pobox.com
+  author_url: http://inkdroid.org/
+  date: '2008-08-21 03:31:19 +0000'
+  date_gmt: '2008-08-21 10:31:19 +0000'
+  content: "Thanks for the links to the openlink rdfbrowser. Sometimes I think the
+    linked data browsers actually hide the simplicity of what's going on ... which
+    is something I'm trying to communicate. But still I imagine the browsers are good
+    for some folks who aren't interested in the HTTP interactions with URIs.\r\n\r\nI'm
+    trying to submit this comment with my openid. So if you see this it worked for
+    me :-)"
+- id: 80851
+  author: User links about "rdfs" on iLinkShare
+  author_email: ''
+  author_url: http://www.ilinkshare.com/tagged/rdfs
+  date: '2009-02-08 15:03:31 +0000'
+  date_gmt: '2009-02-08 22:03:31 +0000'
+  content: "[...] Towards an Implementation Model for Library Catalogs ...&gt;&gt;
+    saved by Mattychan 39 days ago1 voteslingvoj&gt;&gt; saved by maphon 40 days ago6
+    votesBack from ESWC 2008&gt;&gt; saved by SasukeXluversXunite 41 days ago5 [...]"
+---
+<p><a href="http://esw.w3.org/topic/SweoIG/TaskForces/CommunityProjects/LinkingOpenData"><img src="http://inkdroid.org/images/lod.jpg" style="margin-right: 20px; margin-bottom: 20px; float: left;"/></a></p>
+<p>I'm just now running across <a href="http://www.lingvoj.org/">lingvoj.org</a>, a linked-data application for languages created by <a href="http://universimmedia.blogspot.com/">Bernard Vatant</a>. lingvoj basically mints URIs for languages (using the ISO-639-1 code) and when resolved (yay HTTP) nice human and machine readable descriptions about the language are returned. So for example the URI for Chinese is:</p>
+<blockquote><p>
+<a href="http://www.lingvoj.org/lang/zh">http://www.lingvoj.org/lang/zh</a>
+</p></blockquote>
+<p>If you click on that link, your browser will display some HTML that describes the Chinese language, and if a client wants "application/rdf+xml" it'll get back a nice chunk of rdf -- all via a 303 redirect <a href="http://www.w3.org/TR/cooluris/">as it should be</a>.</p>
+<p>lingvoj is interesting for a few reasons:</p>
+<ul>
+<li>I work at the Library of Congress, who are the maintainers of <a href="http://www.loc.gov/standards/iso639-2/">iso639-2</a>, and I know someone experimenting with a linked-data application for delivering it.</li>
+<li>I know software developers at LC and elsewhere who need access to this data in a predictable and explicit machine readable format, which lends itself to being updated (re-harvesting language URIs).</li>
+<li>lingvoj follows the <a href="http://www.w3.org/TR/cooluris/#r303gendocument">303 URIs forwarding to One Generic Document</a> pattern, which is nice to see in practice. I also learned about the use of <code>rdfs:isDefinedBy</code> to assert (in this case) that a language is defined by the HTML representation for the language. Not sure how I missed that in the Cool URIs document before.</li>
+<li>There are <code>owl:sameAs</code> links between lingvoj and <a href="http://dbpedia.org/resource/Chinese_language">dbpedia</a> and <a href="http://sw.cyc.com/2006/07/27/cyc/ChineseLanguageSet">opencyc</a>, which in turn are linked data, and allow an agent to walk outwards and discover more about a language. Maybe one day lingvoj could link to our ISO693-2 codelist at LC?
+</li>
+<li>lingvoj defines a <a href="http://www.lingvoj.org/ontology">vocabulary</a> which includes a new OWL class <code>Lingvo</code> for languages, that happens to extend <a href="http://purl.org/dc/terms/LinguisticSystem">dcterms:LinguisticSystem</a>.</li>
+</ul>
+<p>It's a lot o' fun discovering this emerging, rich data-universe on the web. If you are the least bit curious take a look for yourself:</p>
+<pre>
+  <a href="http://curl.haxx.se/">curl</a> --location --header "Accept: application/rdf+xml" http://www.lingvoj.org/lang/zh
+</pre>
+<p>Or better yet:</p>
+<pre>
+  <a href="http://librdf.org/raptor/rapper.html">rapper</a> -o turtle http://lingvoj.org/lang/zh
+</pre>
+<p>Or if you are really adventurous grab the <a href="http://www.lingvoj.org/lingvoj.rdf">whole data set</a> and put it into your triple-store-du-jour.</p>

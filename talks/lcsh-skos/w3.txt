@@ -1,0 +1,27 @@
+
+@prefix lccn: <info:lccn/>.
+@prefix lcsh: <http://loc.gov/lcsh/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
+ lcsh:sh95000541 a skos:Concept;
+     owl:sameAs lccn:sh95000541;
+     skos:altLabel "W3 (World Wide Web)"@en,
+         "WWW (World Wide Web)"@en,
+         "Web (World Wide Web)"@en,
+         "World Wide Web (Information retrieval system)"@en;
+     skos:broader lcsh:sh88002671,
+         lcsh:sh92002381;
+     skos:editorialNote "94234135: Brown, S. The Internet via Mosaic and World Wide Web, c1994 (WWW, the Web) p. 35 (Although the WWW is primarily used on a global scale as a part of the Internet, it is feasible for a two-machine network to run the WWW client/server software)"@en,
+         "ASTI; Engr. index; Web. 3"@en,
+         "Internet publishing handbook, c1995: p. 15 (World-Wide Web system is known by its various names: WWW, W3, and Web)"@en,
+         "MAGS, Dec. 8, 1995: article by Robert M. Metcalfe (first generation of WWW based on Hypertext Transfer Protocol and Hypertext Transfer Markup Language)"@en,
+         "Work cat.: 94067520: December, J. The World Wide Web Unleashed, c1994 (WWW, the Web, a distributed hypermedia system, a collection of interconnected hardware, software, and networked systems, it is a concept, not a program, system, or protocol, it is an interface)"@en;
+     skos:narrower lcsh:sh2002000569,
+         lcsh:sh2003001415,
+         lcsh:sh2007008317,
+         lcsh:sh2007008319,
+         lcsh:sh97003254;
+     skos:prefLabel "World Wide Web"@en;
+     skos:related lcsh:sh92002816. 

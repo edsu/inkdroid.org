@@ -1,0 +1,34 @@
+---
+layout: post
+status: publish
+published: true
+title: Gaiman
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 6727
+wordpress_url: http://inkdroid.org/journal/?p=6727
+date: '2013-11-08 13:50:39 +0000'
+date_gmt: '2013-11-08 20:50:39 +0000'
+tags: []
+comments: []
+---
+<p>Neil Gaiman <a href="http://www.theguardian.com/books/2013/oct/15/neil-gaiman-future-libraries-reading-daydreaming">wrote recently</a> in the Guardian about reading, writing and libraries. I suspect you've seen it already, but it sat in my to-read pile (on my Kindle) till now. I think I'm going to read it to my kids tonight.</p>
+<p>One of the nice things about reading on my Kindle is I'm much more likely to highlight and annotate. Really, I would've highlighted the whole thing if I could have. But anyway, here is what I highlighted:</p>
+<h3>The Web</h3>
+<blockquote>
+<p>There were noises made briefly, a few years ago, about the idea that we were living in a post-literate world, in which the ability to make sense out of written words was somehow redundant, but those days are gone: words are more important than they ever were: we navigate the world with words, and as the world slips onto the web, we need to follow, to communicate and to comprehend what we are reading. People who cannot understand each other cannot exchange ideas, cannot communicate, and translation programs only go so far.</p>
+</blockquote>
+<h3>The Book</h3>
+<blockquote>
+<p>I do not believe that all books will or should migrate onto screens: as Douglas Adams once pointed out to me, more than 20 years before the Kindle turned up, a physical book is like a shark. Sharks are old: there were sharks in the ocean before the dinosaurs. And the reason there are still sharks around is that sharks are better at being sharks than anything else is. Physical books are tough, hard to destroy, bath-resistant, solar-operated, feel good in your hand: they are good at being books, and there will always be a place for them. They belong in libraries, just as libraries have already become places you can go to get access to ebooks, and audiobooks and DVDs and web content.</p>
+</blockquote>
+<h3>The (Public) Library</h3>
+<blockquote>
+<p>A library is a place that is a repository of information and gives every citizen equal access to it. That includes health information. And mental health information. It's a community space. It's a place of safety, a haven from the world. It's a place with librarians in it. What the libraries of the future will be like is something we should be imagining now ... If you do not value libraries then you do not value information or culture or wisdom. You are silencing the voices of the past and you are damaging the future.</p>
+</blockquote>

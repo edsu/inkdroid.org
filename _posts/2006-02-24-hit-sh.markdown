@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: hit sh
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 85
+wordpress_url: http://www.inkdroid.org/journal/2006/02/24/hit-sh/
+date: '2006-02-24 09:14:53 +0000'
+date_gmt: '2006-02-24 16:14:53 +0000'
+tags: []
+comments: []
+---
+<p><a href="http://flickr.com/photos/66726692@N00/sets/72057594065491946/"><br />
+<img src="/images/hit-sh.jpg" align="left" style="margin: 10px" alt="hit SH"/><br />
+</a> It's <a href="http://technology.guardian.co.uk/news/story/0,,1716842,00.html">great</a> when our system of government <a href="http://www.outragedmoderates.org/2006/02/dod-staffers-notes-from-911-obtained.html">works</a> like it is supposed to. <a href="http://web.archive.org/web/20090927003157/http://www.usdoj.gov:80/04foia/">freedom_of_information_act++</a>.</p>
+<p>Not only does the Internet <a href="http://maisonbisson.com/blog/post/11100/">change everything</a>, but it makes some good things work even better.</p>

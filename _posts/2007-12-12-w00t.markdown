@@ -1,0 +1,44 @@
+---
+layout: post
+status: publish
+published: true
+title: w00t!
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 176
+wordpress_url: http://www.inkdroid.org/journal/2007/12/12/w00t/
+date: '2007-12-12 11:14:39 +0000'
+date_gmt: '2007-12-12 18:14:39 +0000'
+tags: []
+comments:
+- id: 47317
+  author: Peter Murray
+  author_email: peter@OhioLINK.edu
+  author_url: http://dltj.org/
+  date: '2007-12-12 11:34:31 +0000'
+  date_gmt: '2007-12-12 18:34:31 +0000'
+  content: "Please.\r\n\r\nActually, come to think of it, there is a lot of entertainment
+    value to be had from the anticipated Gorman-esque responses."
+- id: 47352
+  author: Leo Klein
+  author_email: leo@leoklein.com
+  author_url: http://ChicagoLibrarian.com
+  date: '2007-12-12 19:30:36 +0000'
+  date_gmt: '2007-12-13 02:30:36 +0000'
+  content: Personally, when I find someone using that frightening cliche in a sentence,
+    I tend to break off communication and bail out.  It's a health issue.
+- id: 47528
+  author: Edward Vielmetti
+  author_email: edward.vielmetti@gmail.com
+  author_url: http://vielmetti.typepad.com
+  date: '2007-12-15 18:46:10 +0000'
+  date_gmt: '2007-12-16 01:46:10 +0000'
+  content: i saw a version of the lord's prayer in l33t speak, let me dig it up
+---
+<p><a href="http://www.reuters.com/article/internetNews/idUSN1155159520071212">w00t!</a></p>

@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>Missing Subs?</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div align="center">
+<h3>Missing Subs?</h3>
+</div>
+
+<hr>
+
+<table width="100%">
+<td>
+
+<p>When applications get large like this, it is often a useful exercise to write
+other programs to analyze your application. 
+For example, collecting the previous two screens worth of
+data make it possible to write a Perl program to make sure that all the
+subroutines being called actually exist...which in fact they do not.</p>
+
+<div align="center">
+<table width="80%">
+<tr valign="top">
+<td><b>mylibrary-admin.pl</b></td>
+<td>
+MyLibrary::customizeLegalDisclaimer<br>
+MyLibrary::setbanner<br>
+MyLibrary::setFooter<br>
+MyLibrary::setgmotd<br>
+MyLibrary::setLegalDisclaimer<br>
+MyLibrary::setStyleSheet
+</td>
+</tr>
+
+<tr><td colspan=2>&nbsp;</td></tr>
+
+<tr valign="top">
+<td><b>mylibrary.pl</b></td>
+<td>MyLibrary::login</td>
+</tr>
+
+<tr><td colspan=2>&nbsp;</td></tr>
+
+<tr valign="top">
+<td><b>utilities/make-pathfinder.pl</b></td>
+<td>MyLibrary::gDBhandle</td>
+</tr>
+
+<tr><td colspan=2>&nbsp;</td></tr>
+
+<tr valign="top">
+<td><b>utilities/search.pl</b></td>
+<td>MyLibrary::uri</td>
+</tr>
+
+</table>
+</div>
+
+<p>Which means that either there are existing bugs, or some code is no longer
+being executed and needs to be pruned.</p>
+
+<p>Having these lists is also useful for determining how
+functionality can be grouped together as classes.</p>
+
+</td>
+</tr>
+</table>
+
+<hr>
+<div class="menu">
+<table width="100%">
+<tr align="center">
+<td><a href="index.html">0</a>&nbsp;&nbsp;
+<a href="why.html">1</a>&nbsp;&nbsp;
+<a href="plan.html">2</a>&nbsp;&nbsp;
+<a href="second.html">3</a>&nbsp;&nbsp;
+<a href="steps.html">4</a>&nbsp;&nbsp;
+<a href="refactor.html">5</a>&nbsp;&nbsp;
+<a href="oop.html">6</a>&nbsp;&nbsp;
+<a href="subs.html">7</a>&nbsp;&nbsp;
+<a href="calls.html">8</a>&nbsp;&nbsp;
+<a href="missing.html">    <font class="active">9</font></a>&nbsp;&nbsp;
+<a href="usage.html">10</a>&nbsp;&nbsp;
+<a href="tables.html">11</a>&nbsp;&nbsp;
+<a href="where.html">12</a>&nbsp;&nbsp;
+
+</div>
+
+</body>
+</html>

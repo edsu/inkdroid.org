@@ -1,0 +1,52 @@
+---
+layout: post
+status: publish
+published: true
+title: lib4code
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 53
+wordpress_url: http://www.inkdroid.org/journal/?p=53
+date: '2005-12-08 09:14:33 +0000'
+date_gmt: '2005-12-08 16:14:33 +0000'
+tags: []
+comments:
+- id: 18
+  author: Richard Akerman
+  author_email: scilib@gmail.com
+  author_url: http://scilib.typepad.com/
+  date: '2005-12-08 10:12:43 +0000'
+  date_gmt: '2005-12-08 17:12:43 +0000'
+  content: "Thanks, I'm glad the posting raised some useful points.  The diagram is
+    really there to show all the different roles and slices you can take as part of
+    a systems development effort.  It does look kind of waterfall-y, that was kind
+    of a tradeoff.  I think there is a whole separate software engineering discussion
+    that you can have, and you have raised a lot of the important points (small teams,
+    good communication etc.)  In terms of actual development process I very much agree
+    with you that you need to use an iterative, incremental, rapid design process.
+    \ \r\n\r\nI wrote about one that CISTI has tried in \"having a RAD time with GRAPPLE\".\r\n\r\nhttp://scilib.typepad.com/science_library_pad/2005/02/software_develo.html\r\n\r\nI
+    do believe as stated in that post that you need a strong requirements process
+    and architecture in order to be able to do rapid development successfully."
+---
+<p>Thanks to <a href="http://www.librarian.net/stax/1572">Jessamyn</a> I found <a href="http://scilib.typepad.com/science_library_pad/2005/12/librarians_20_d.html">Librarians 2.0 don't need to be coders 2.0</a> where Richard Ackerman has an interesting take on just how important programming skills are for a library technologist. Richard cites a <a href="http://www-128.ibm.com/developerworks/webservices/library/ws-soad1/">paper</a> from IBM on Service Oriented Architectures to make a compelling point that there are many roles to play when building technology solutions, particularly the web services that comprise such a big part of "library 2.0" efforts...and that coding skills really aren't that important when you can just get a student, consultant, or vendor (heh) to do it.</p>
+<p>It's unfortunate I think that the <a href="http://www.code4lib.org">code4lib 2006</a> conference <i>name</i> seems to emphasize "coding" so much over the ideas.  I totally agree that the most important aspect of our work as library technologists are the service ideas, and that the code is simply a machine readable description of these ideas.  Some high level languages are actually really, really nice for expressing ideas, and I would argue that often times learning a good computer language can help you express your technology ideas better. As Martin Fowler says:</p>
+<blockquote><p>
+Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
+</p></blockquote>
+<p>Let me go on record, as someone who has helped organize the code4lib conference, to say non-coders are more than welcome...there will be plenty of people who can program there...we want ideas, mindshare and collaboration. Please don't let the computer programming jargon dissuade you from participating.</p>
+<p>Also, a few things stood out to me eye:</p>
+<blockquote><p>
+If your goals and architecture are clear enough, the coders don't need to be library experts in order to deliver the functions you need.
+</p></blockquote>
+<p>The coders don't need to be experts, but wouldn't it be nice if they were, and you didn't have to go into great detail about certain things? Wouldn't it also be nice if the coders didn't start from scratch and were aware of good reusable components from the library software community which could be leveraged to make the software construction phase that much faster?  Indeed, architectural decisions often have a direct effect on programming decisions that are made, and it helps if those who are architecting things have at least a general understanding of how software is built so that designs stay doable and sane...and so that they'll know when things are drifting of course.</p>
+<blockquote><p>
+Also, don't try to build big complex systems.  Live in the beta world.  Get some chunk of functionality out quickly so that people can play with it.  The hardest part is having the initial idea, and the good news is I see lots of great ideas out in the library blogosphere.  I can understand the frustrations in the gap between the idea and running code, but I hope I've presented a bunch of areas above in which you can work to turn the idea into the next hot beta, without necessarily needing to code it yourself.
+</p></blockquote>
+<p>The one danger to moving to a formal process like the one described in the article by IBM is that it may encourage you to build big complex systems on a slow time scale. If you need to thoroughly describe a software solution before beginning to program (the so called <a href="http://en.wikipedia.org/wiki/Waterfall_model">waterfall model</a>) you will be spend a lot of time trying to get the design right before even beginning to code to see what actually works. I've found the more that the design and the coding can be intermingled the better...since it lets them both inform each other as they go on.  This intermingling is easy if you are a small shop and you have a handful of people (1-8) that need to communicate on a regular basis. I imagine most software development groups in libraries are around this size.  That being said I think that Richard is right, it's good to be aware of the different roles that are being played, perhaps by one individual.</p>
+<p>After seeing Adrian talk about software development and journalism at <a href="http://snakesandrubies.com">Snakes and Rubies</a> I've been thinking off and on about the space between libraries and software development. I'm particularly interested in how one informs the other...and found Richard's post to be a good catalyst.</p>

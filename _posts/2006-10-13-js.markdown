@@ -1,0 +1,40 @@
+---
+layout: post
+status: publish
+published: true
+title: ">js"
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 124
+wordpress_url: http://www.inkdroid.org/journal/2006/10/13/js/
+date: '2006-10-13 14:40:20 +0000'
+date_gmt: '2006-10-13 21:40:20 +0000'
+tags: []
+comments:
+- id: 6165
+  author: Jonathan
+  author_email: rochkind@jhu.edu
+  author_url: ''
+  date: '2006-10-16 08:05:43 +0000'
+  date_gmt: '2006-10-16 15:05:43 +0000'
+  content: Would you reccommend that AJAX book?  Let us know as you get through it.
+    I need to get an AJAX book one of these days.
+---
+<p><a href="http://www.amazon.com/Ajax-in-Action-Dave-Crane/dp/1932394613"><img src="http://ec1.images-amazon.com/images/P/1932394613.01._AA240_SCLZZZZZZZ_V59003887_.jpg" border="0" align="left"/></a>So I've been dabbling with that <a href="http://web.archive.org/web/20080821140921/http://www.adaptivepath.com/publications/essays/archives/000385.php">four letter word</a> at $work to create a hierarchical journal/volume/issue/article browser. <a href="http://rubyonrails.org">Le rails</a> and <a href="http://web.archive.org/web/20130216003249/http://script.aculo.us/">scriptaculous</a> make it pretty easy indeed.</p>
+<p>I figured I'd be a good developer and try to understand what's actually going on behind the scenes, so I picked up a copy of <a href="http://www.amazon.com/Ajax-in-Action-Dave-Crane/dp/1932394613">Ajax in Action [Illustrated]</a> and am working through it.</p>
+<p>There is so much hype surrounding Ajax that I had pretty low expectations--but the book is actually very well written and a joy to read. I noticed before diving in that there was an appendix on object-oriented JavaScript. I've been around the block enough times to know that JavaScript is actually quite a <a href="http://interglacial.com/hoj/hoj.html">nice</a> functional language; but apart from DHTML I haven't really had the opportunity to dabble in it much. This appendix really made it clear how JavaScript is really quite elegant, and for someone who has done object-oriented-programming in Perl the idioms for doing OOP in JavaScript didn't seem quite that bad.</p>
+<p>Anyhow, I quickly wanted to start fiddling around with the language with a JavaScript interpreter so I downloaded <a href="http://www.mozilla.org/rhino/">Rhino</a> and discovered that you can:</p>
+<pre>
+frizz:~/Projects/rhino1_6R4 edsu$ java -jar js.jar
+Rhino 1.6 release 4 2006 09 09
+js> print("hello world");
+hello world
+js> 
+</pre>
+<p>Pretty sweet :-)</p>

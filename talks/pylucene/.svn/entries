@@ -1,0 +1,74 @@
+8
+
+dir
+879
+http://inkdroid.org/svn/pylucene-lightning
+http://inkdroid.org/svn
+
+
+
+2005-06-09T11:42:29.526526Z
+20
+ed
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4dc5e89f-90f6-0310-ab54-a6a856e7c30e
+
+pylucene.txt
+file
+
+
+
+
+2007-08-14T14:51:39.000000Z
+40db651162dc1c6f0cae5efba38efce1
+2005-06-09T11:42:29.526526Z
+20
+ed
+
+src
+dir
+
+pylucene.html
+file
+
+
+
+
+2007-08-14T14:51:39.000000Z
+17473a8f3c84c933fe3664f8ad4a5847
+2005-06-09T11:42:29.526526Z
+20
+ed
+
+index.html
+file
+
+
+
+
+2007-08-14T14:51:39.000000Z
+52f03e6151696e4240c857d475fab011
+2005-06-09T11:39:53.979640Z
+18
+ed
+has-props
+
+
+svn:special
+
+ui
+dir
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd" version="3.2">
+  <titleInfo>
+    <title>Weaving the Web</title>
+    <subTitle>the original design and ultimate destiny of the World Wide Web by its inventor</subTitle>
+  </titleInfo>
+  <name type="personal">
+    <namePart>Berners-Lee, Tim.</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart>Fischetti, Mark.</namePart>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <originInfo>
+    <place>
+      <placeTerm type="code" authority="marccountry">cau</placeTerm>
+    </place>
+    <place>
+      <placeTerm type="text">San Francisco</placeTerm>
+    </place>
+    <publisher>HarperSanFrancisco</publisher>
+    <dateIssued>c1999</dateIssued>
+    <dateIssued encoding="marc">1999</dateIssued>
+    <edition>1st ed.</edition>
+    <issuance>monographic</issuance>
+  </originInfo>
+  <language>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marcform">print</form>
+    <extent>xi, 226 p. ; 25 cm.</extent>
+  </physicalDescription>
+  <note type="statement of responsibility">Tim Berners-Lee with Mark Fischetti.</note>
+  <note>Includes index.</note>
+  <subject authority="lcsh">
+    <topic>World Wide Web</topic>
+  </subject>
+  <subject authority="lcsh">
+    <name type="personal">
+      <namePart>Berners-Lee, Tim</namePart>
+    </name>
+  </subject>
+  <classification authority="lcc">TK5105.888 .B46 1999</classification>
+  <classification authority="ddc" edition="21">025.04</classification>
+  <identifier type="isbn">0062515861 (cloth)</identifier>
+  <identifier type="isbn">006251587X (paper)</identifier>
+  <identifier type="lccn">99027665</identifier>
+  <identifier type="uri">http://www.loc.gov/catdir/description/hc044/99027665.html</identifier>
+  <location>
+    <url displayLabel="Publisher description">http://www.loc.gov/catdir/description/hc044/99027665.html</url>
+  </location>
+  <recordInfo>
+    <recordContentSource authority="marcorg">DLC</recordContentSource>
+    <recordCreationDate encoding="marc">990407</recordCreationDate>
+    <recordChangeDate encoding="iso8601">20031223211250.0</recordChangeDate>
+    <recordIdentifier>1213651</recordIdentifier>
+  </recordInfo>
+</mods>

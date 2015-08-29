@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:bio="http://purl.org/vocab/bio/0.1/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <foaf:Person rdf:about="http://inkdroid.org/ehs">
+    <bio:olb>Hacker for libraries, digital archaeologist, pragmatist.</bio:olb>
+    <owl:sameAs rdf:resource="http://identi.ca/user/6104"/>
+    <owl:sameAs rdf:resource="http://knowee.net/edsu#self"/>
+    <owl:sameAs rdf:resource="http://semantictweet.com/edsu#me"/>
+    <foaf:account rdf:resource="http://en.wikipedia.org/wiki/User:Edsu"/>
+    <foaf:account rdf:resource="http://flickr.com/inkdroid"/>
+    <foaf:account rdf:resource="http://github.com/edsu"/>
+    <foaf:account rdf:resource="http://identi.ca/edsu"/>
+    <foaf:account rdf:resource="http://last.fm/user/inkdroid"/>
+    <foaf:account rdf:resource="http://scholar.google.com/citations?hl=en&amp;user=ctpWtsIAAAAJ"/>
+    <foaf:account rdf:resource="http://twitter.com/edsu"/>
+    <foaf:account rdf:resource="http://www.freebase.com/view/user/edsu"/>
+    <foaf:account rdf:resource="http://www.goodreads.com/user/show/5899086-ed-summers"/>
+    <foaf:account rdf:resource="http://www.google.com/profiles/ed.summers"/>
+    <foaf:account rdf:resource="http://www.kickstarter.com/profile/edsu"/>
+    <foaf:account rdf:resource="http://www.librarything.com/home/edsu"/>
+    <foaf:account rdf:resource="http://www.linkedin.com/in/esummers"/>
+    <foaf:account rdf:resource="http://www.rdio.com/people/esummers/"/>
+    <foaf:account rdf:resource="http://orcid.org/0000-0001-7320-8150"/>
+    <foaf:account rdf:resource="http://philpapers.org/profile/42061"/>
+    <foaf:account rdf:resource="http://arxiv.org/a/summers_e_1"/>
+    <foaf:account rdf:resource="http://www.metafilter.com/user/181723"/>
+    <foaf:account rdf:resource="https://keybase.io/edsu"/>
+    <foaf:account rdf:resource="http://wfmu.org/profile/343140110/edsu"/>
+    <foaf:account rdf:resource="https://vimeo.com/edsu"/>
+    <foaf:account rdf:resource="http://edsu.tumblr.com/"/>
+    <foaf:account rdf:resource="https://www.youtube.com/channel/UCVUEkHIAgrpGdQ9VRen-4_A"/>
+    <foaf:depiction rdf:resource="http://www.inkdroid.org/images/ehs.jpg"/>
+    <foaf:firstName>Edward</foaf:firstName>
+    <foaf:homepage rdf:resource="http://inkdroid.org"/>
+    <foaf:interest rdf:resource="http://id.loc.gov/authorities/sh2002000569#concept"/>
+    <foaf:interest rdf:resource="http://id.loc.gov/authorities/sh85020816#concept"/>
+    <foaf:interest rdf:resource="http://id.loc.gov/authorities/sh85035070#concept"/>
+    <foaf:interest rdf:resource="http://id.loc.gov/authorities/sh85076502#concept"/>
+    <foaf:interest rdf:resource="http://id.loc.gov/authorities/sh86005933#concept"/>
+    <foaf:interest rdf:resource="http://id.loc.gov/authorities/sh95004496#concept"/>
+    <foaf:interest rdf:resource="http://id.loc.gov/authorities/sh95008857#concept"/>
+    <foaf:interest rdf:resource="http://id.loc.gov/authorities/sh96000740#concept"/>
+    <foaf:interest rdf:resource="http://id.loc.gov/authorities/sj96006329#concept"/>
+    <foaf:jabberID>ed.summers@gmail.com</foaf:jabberID>
+    <foaf:knows rdf:resource="http://berrueta.net/foaf.rdf#me"/>
+    <foaf:knows rdf:resource="http://blog.reallywow.com/foaf#me"/>
+    <foaf:knows rdf:resource="http://brocadedarkness.net/foaf.rdf#me"/>
+    <foaf:knows rdf:resource="http://danbri.org/foaf.rdf#danbri"/>
+    <foaf:knows rdf:resource="http://dilettantes.code4lib.org/about-me/#me"/>
+    <foaf:knows rdf:resource="http://dltj.org/foaf/"/>
+    <foaf:knows rdf:resource="http://eikeon.com/foaf.rdf#eikeon"/>
+    <foaf:knows rdf:resource="http://iandavis.com/id/me"/>
+    <foaf:knows rdf:resource="http://infomotions.com/foaf.rdf#me"/>
+    <foaf:knows rdf:resource="http://kevinclarke.info/foaf.rdf#me"/>
+    <foaf:knows rdf:resource="http://kmi.open.ac.uk/people/tom/rdf"/>
+    <foaf:knows rdf:resource="http://lackoftalent.org/michael/id/"/>
+    <foaf:knows rdf:resource="http://managemetadata.com/jon/foaf.rdf#me"/>
+    <foaf:knows rdf:resource="http://pos.thum.us/ep.rdf#me"/>
+    <foaf:knows rdf:resource="http://rc98.net/foaf#me"/>
+    <foaf:knows rdf:resource="http://rhymeswithtoaster.com/foaf.rdf#me"/>
+    <foaf:knows rdf:resource="http://roytennant.com/foaf.rdf#me"/>
+    <foaf:knows rdf:resource="http://tomkeays.com/about/foaf.rdf#tomkeays"/>
+    <foaf:knows rdf:resource="http://www.aaronsw.com/about.xrdf#aaronsw"/>
+    <foaf:knows rdf:resource="http://www.jodischneider.com/#me"/>
+    <foaf:knows rdf:resource="http://www.library.yale.edu/~dlovins/foaf.rdf#dsl"/>
+    <foaf:knows rdf:resource="http://www.miskatonic.org/foaf.rdf#me"/>
+    <foaf:knows rdf:resource="http://www.users.muohio.edu/darcusb/meta/info#me"/>
+    <foaf:mbox rdf:resource="mailto:ehs@pobox.com"/>
+    <foaf:name>Ed Summers</foaf:name>
+    <foaf:nick>edsu</foaf:nick>
+    <foaf:openid rdf:resource="http://inkdroid.org"/>
+    <foaf:openid rdf:resource="http://www.google.com/profiles/ed.summers"/>
+    <foaf:schoolHomepage rdf:resource="http://www.scils.rutgers.edu"/>
+    <foaf:skypeID>inkdroid</foaf:skypeID>
+    <foaf:surname>Summers</foaf:surname>
+    <foaf:title>Mr</foaf:title>
+    <foaf:weblog rdf:resource="http://inkdroid.org/journal/"/>
+    <foaf:workplaceHomepage rdf:resource="http://mith.umd.edu/"/>
+  </foaf:Person>
+</rdf:RDF>

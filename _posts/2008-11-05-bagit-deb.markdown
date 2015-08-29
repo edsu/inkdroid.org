@@ -1,0 +1,167 @@
+---
+layout: post
+status: publish
+published: true
+title: bagit and .deb
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 524
+wordpress_url: http://inkdroid.org/journal/?p=524
+date: '2008-11-05 08:20:06 +0000'
+date_gmt: '2008-11-05 15:20:06 +0000'
+tags:
+- bagit
+- packages
+- linux
+comments: []
+---
+<p>I'm just now (OK I'm slow) marveling at how similar <a href="http://purl.oclc.org/net/bagit">BagIt</a> turned out to be to the <a href="http://en.wikipedia.org/wiki/Debian_package">Debian Package Format</a>.  Given <a href="http://andy.boyko.net/">some</a> of the <a href="http://dot.ucop.edu/home/jak/biography.html">folks</a> involved, this synchronicity isn't too surprising.</p>
+<p>Both .deb and BagIt use a directory 'data' for bundling the files in the package (well .deb has it as a compressed file data.tar.gz). Both have md5sum-style checksum files for stating the fixity values of said files. Both have simple <a href="ftp://ftp.isi.edu/in-notes/rfc2822.txt">rfc2822</a>-style text files for expressing metadata. Both have files that contain the version number of the packaging format. One nice thing that deb has which BagIt intentionally eschewed was a serialization format. But no matter.</p>
+<p>At LC we (a.k.a. coding machine <a href="http://www.dlib.org/dlib/may06/authors/05authors.html#LITTMAN">Justin Littman</a>) are working on a software library for creating and validating bags, as well as a shiny GUI that'll sit on top of it to assist in bag creation for people who like shiny things.</p>
+<p>It's an interesting counterpoint to this process of creating BagIt tools to look how a .deb can be downloaded and inspected. Here's a sampling of a shell session where I downloaded and extracted the parts of the .deb for <a href="http://rdflib.net">python-rdflib</a>.</p>
+<pre>
+ed@curry:~/tmp$ aptitude download python-rdflib
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Reading extended state information       
+Initializing package states... Done
+Building tag database... Done      
+Get:1 http://us.archive.ubuntu.com hardy/universe python-rdflib 2.4.0-4 [276kB]
+Fetched 276kB in 0s (346kB/s) 
+
+ed@curry:~/tmp$ ar -xv python-rdflib_2.4.0-4_i386.deb 
+x - debian-binary
+x - control.tar.gz
+x - data.tar.gz
+
+ed@curry:~/tmp$ tar xvfz control.tar.gz 
+./
+./postinst
+./prerm
+./md5sums
+./control
+
+ed@curry:~/tmp$ cat control
+Package: python-rdflib
+Source: rdflib
+Version: 2.4.0-4
+Architecture: i386
+Maintainer: Ubuntu MOTU Developers <ubuntu -motu@lists.ubuntu.com>
+Original-Maintainer: Nacho Barrientos Arias <nacho @debian.org>
+Installed-Size: 1608
+Depends: libc6 (>= 2.5-5), python-support (>= 0.3.4), python (< < 2.6), python (>= 2.4), python-setuptools
+Provides: python2.4-rdflib, python2.5-rdflib
+Section: python
+Priority: optional
+Description: RDF library containing an RDF triple store and RDF/XML parser/serializer
+ RDFLib is a Python library for working with RDF, a simple yet
+ powerful language for representing information. The library
+ contains an RDF/XML parser/serializer that conforms to the
+ RDF/XML Syntax Specification and both in-memory and persistent
+ Graph backend.
+ .
+ This package also provides a serialization format converter
+ called rdfpipe in order to deal with the different formats
+ RDFLib works with.
+ .
+  Homepage: http://rdflib.net/
+
+ed@curry:~/tmp$ cat md5sums 
+75af966e839159902537614e5815c415  usr/lib/python-support/python-rdflib/python2.5/rdflib/sparql/bison/SPARQLParserc.so
+a33eb3985c6de5589cb723d03d2caeb1  usr/lib/python-support/python-rdflib/python2.4/rdflib/sparql/bison/SPARQLParserc.so
+d1b5578dd1d64432684d86bbb816fafc  usr/bin/rdfpipe
+0191b561e3efe1ceea7992e2c865949b  usr/share/doc/python-rdflib/changelog.gz
+98a861211f3effe1e69d6148c1e31ab2  usr/share/doc/python-rdflib/copyright
+d75c2ab05f3a4239963d8765c0e9e7c5  usr/share/doc/python-rdflib/examples/example.py
+17b61c23d0600e6ce17471dc7216d3fa  usr/share/doc/python-rdflib/examples/swap_primer.py
+3894fa16d075cf0eee1c36e6bcc043d8  usr/share/doc/python-rdflib/changelog.Debian.gz
+15653f75f35120b16b1d8115e6b5a179  usr/share/man/man1/rdfpipe.1.gz
+405cb531a83fd90356ef5c7113ecd774  usr/share/python-support/python-rdflib/rdflib/sparql/bison/CompositionalEvaluation.py
+41e28217ddd2eb394017cd8f12b1dfd5  usr/share/python-support/python-rdflib/rdflib/sparql/bison/Util.py
+ec9ae5147463ed551d70947c2824bc82  usr/share/python-support/python-rdflib/rdflib/sparql/bison/Resource.py
+6e018a69ca242acb613effe420c2cdc7  usr/share/python-support/python-rdflib/rdflib/sparql/bison/SolutionModifier.py
+7e72a08f29abc91faddb85e91f17e87c  usr/share/python-support/python-rdflib/rdflib/sparql/bison/FunctionLibrary.py
+648384e5980ef39278466be38572523a  usr/share/python-support/python-rdflib/rdflib/sparql/bison/Expression.py
+494386730a6edf5c6caf7972ed0bf4ba  usr/share/python-support/python-rdflib/rdflib/sparql/bison/Bindings.py
+4513b2fdc116dc9ff02895222a81421d  usr/share/python-support/python-rdflib/rdflib/sparql/bison/IRIRef.py
+a800bdac023ae0c02767ab623dffe67b  usr/share/python-support/python-rdflib/rdflib/sparql/bison/Triples.py
+6c31647f2b3be724bdfcc35f631162b1  usr/share/python-support/python-rdflib/rdflib/sparql/bison/SPARQLEvaluate.py
+c158b3fb8fd66858f598180084f481c4  usr/share/python-support/python-rdflib/rdflib/sparql/bison/GraphPattern.py
+bff095caa2db064cc2b1827c4b90a9e7  usr/share/python-support/python-rdflib/rdflib/sparql/bison/Processor.py
+2db0c4925d17b49f5bb355d7860150c2  usr/share/python-support/python-rdflib/rdflib/sparql/bison/QName.py
+10e02ecf896d07c0546b791a450da633  usr/share/python-support/python-rdflib/rdflib/sparql/bison/Query.py
+eee29bb22b05b16da2a5e6552044bf22  usr/share/python-support/python-rdflib/rdflib/sparql/bison/__init__.py
+a29a508631228f6674e11bb077c24afc  usr/share/python-support/python-rdflib/rdflib/sparql/bison/PreProcessor.py
+479a4702ebee35f464055a554ebf5324  usr/share/python-support/python-rdflib/rdflib/sparql/bison/Filter.py
+d2fe75aa4394ec7d9106a1e02bb3015a  usr/share/python-support/python-rdflib/rdflib/sparql/bison/Operators.py
+da186350e65c8e062887724b1758ef80  usr/share/python-support/python-rdflib/rdflib/sparql/Query.py
+0130de0f5d28087d7c841e36d89714c4  usr/share/python-support/python-rdflib/rdflib/sparql/graphPattern.py
+826ffe4c6b3f59a9635524f0746299fe  usr/share/python-support/python-rdflib/rdflib/sparql/sparqlOperators.py
+...
+
+ed@curry:~/tmp$ tar xvfz data.tar.gz 
+./
+./usr/
+./usr/lib/
+./usr/lib/python-support/
+./usr/lib/python-support/python-rdflib/
+./usr/lib/python-support/python-rdflib/python2.5/
+./usr/lib/python-support/python-rdflib/python2.5/rdflib/
+./usr/lib/python-support/python-rdflib/python2.5/rdflib/sparql/
+./usr/lib/python-support/python-rdflib/python2.5/rdflib/sparql/bison/
+./usr/lib/python-support/python-rdflib/python2.5/rdflib/sparql/bison/SPARQLParserc.so
+./usr/lib/python-support/python-rdflib/python2.4/
+./usr/lib/python-support/python-rdflib/python2.4/rdflib/
+./usr/lib/python-support/python-rdflib/python2.4/rdflib/sparql/
+./usr/lib/python-support/python-rdflib/python2.4/rdflib/sparql/bison/
+./usr/lib/python-support/python-rdflib/python2.4/rdflib/sparql/bison/SPARQLParserc.so
+./usr/bin/
+./usr/bin/rdfpipe
+./usr/share/
+./usr/share/doc/
+./usr/share/doc/python-rdflib/
+./usr/share/doc/python-rdflib/changelog.gz
+./usr/share/doc/python-rdflib/copyright
+./usr/share/doc/python-rdflib/examples/
+./usr/share/doc/python-rdflib/examples/example.py
+./usr/share/doc/python-rdflib/examples/swap_primer.py
+./usr/share/doc/python-rdflib/changelog.Debian.gz
+./usr/share/man/
+./usr/share/man/man1/
+./usr/share/man/man1/rdfpipe.1.gz
+./usr/share/python-support/
+./usr/share/python-support/python-rdflib/
+./usr/share/python-support/python-rdflib/rdflib/
+./usr/share/python-support/python-rdflib/rdflib/sparql/
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/CompositionalEvaluation.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/Util.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/Resource.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/SolutionModifier.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/FunctionLibrary.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/Expression.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/Bindings.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/IRIRef.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/Triples.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/SPARQLEvaluate.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/GraphPattern.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/Processor.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/QName.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/Query.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/__init__.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/PreProcessor.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/Filter.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/bison/Operators.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/Query.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/graphPattern.py
+./usr/share/python-support/python-rdflib/rdflib/sparql/sparqlOperators.py
+...
+</nacho></ubuntu></pre>
+<p>Here are some more useful <a href="http://thedarkmaster.wordpress.com/2008/05/24/how-to-create-manipulate-a-deb-file-of-a-compiled-application/">notes</a> on the structure of .deb files and how to create them. If you are interested in trying out the nascent-alpha BagIt tools give me a holler (ehs at pobox dot com) or just add a comment here...</p>

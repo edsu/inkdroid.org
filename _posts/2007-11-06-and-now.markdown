@@ -1,0 +1,31 @@
+---
+layout: post
+status: publish
+published: true
+title: and now
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 175
+wordpress_url: http://www.inkdroid.org/journal/2007/11/06/and-now/
+date: '2007-11-06 22:19:08 +0000'
+date_gmt: '2007-11-07 05:19:08 +0000'
+tags:
+- music video life art
+comments:
+- id: 44839
+  author: Claudia
+  author_email: clmccowan@mac.com
+  author_url: http://web.archive.org/web/20080613200844/http://web.mac.com:80/jeffmee/McMeeans/Home.html
+  date: '2007-11-09 20:41:43 +0000'
+  date_gmt: '2007-11-10 03:41:43 +0000'
+  content: |
+    <p>Delightful. Depressing as hell, but delightful. Which, I suppose, is the point.</p>
+---
+<p>for something completely different ....</p>
+<p><object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/QW2F-_1lYvM"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/QW2F-_1lYvM" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object></p>

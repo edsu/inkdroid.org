@@ -1,0 +1,40 @@
+---
+layout: post
+status: publish
+published: true
+title: good ore
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 172
+wordpress_url: http://www.inkdroid.org/journal/2007/11/02/good-ore/
+date: '2007-11-02 10:45:40 +0000'
+date_gmt: '2007-11-02 17:45:40 +0000'
+tags:
+- metadata
+- rdf
+- semanticweb
+- http
+- libraries
+- oai-pmh
+- oai-ore
+- w3c
+comments: []
+---
+<p><a href="http://www.openarchives.org/pipermail/oai-general/2007-November/000480.html"><img src="/images/ore.png" style="margin-right: 10px; border: none; float: left;"/></a>In case you missed <a href="http://www.openarchives.org/pipermail/oai-general/2007-November/000480.html">it</a> the <a href="http://www.openarchives.org/ore/">Object-Reuse-and-Exchange (ORE) folks</a> are having a get together at Johns Hopkins University (Baltimore, MD) on March 3, 2008. It's free to register, but space is limited. The <a href="http://www.openarchives.org/ore/documents/CompoundObjects-200705.html">Compound information objects whitepaper</a>, <a href="http://www.openarchives.org/ore/documents/OAI-ORE%20TC%20Meeting%20200705_public.pdf">May 2007 Technical Committee notes</a> and the more recent <a href="http://www.ctwatch.org/quarterly/articles/2007/08/interoperability-for-the-discovery-use-and-re-use-of-units-of-scholarly-communication"> Interoperability for the Discovery, Use, and Re-Use of Units of Scholarly Communication</a> provide a good taste of what the beta ORE specs are likely to look like.</p>
+<p>The ORE <a href="http://www.openarchives.org/ore/ORE_Community.php">group</a> isn't small, and includes individuals from quite different organizations. So any consensus that can be garnered I think will be quite powerful. Personally I've been really pleased to see how much the ORE work is leaning on <a href="http://www.w3.org/TR/webarch/">web architecture</a>: notably resolvable HTTP URIs, <a href="http://en.wikipedia.org/wiki/Content_negotiation">content-negotiation</a>, <a href="http://www.w3.org/DesignIssues/LinkedData.html">linked-data</a> and <a href="http://www.w3.org/2004/03/trix/">named graphs</a>. Also interesting in the recent announcement is that the initial specs will use <a href="http://www.ietf.org/rfc/rfc4287.txt">RFC 4287</a> for encoding the data model. Who knows, perhaps the spec will rely on <a href="http://www.ietf.org/rfc/rfc5005.txt">archive feeds</a> as <a href="http://www.mail-archive.com/code4lib%40listserv.nd.edu/msg02060.html">discussed </a> recently on the code4lib discussion list.</p>
+<p>I'm particularly interested to see what flavor of URIs are used to identify the compound objects:</p>
+<blockquote><p>
+The protocol-based URI of the Resource Map identifies an aggregation of resources (components of a compound object) and their boundary-type inter-relationships. While this URI is clearly not the identifier of the compound object itself, it does provide an access point to the Resource Map and its representations that list all the resources of the compound object. For many practical purposes, this protocol-based URI may be a handy mechanism to reference the compound object because of the tight dependency of the visibility of the compound object in web space on the Resource Map (i.e., in ORE terms, a compound object exists in web space if and only if there exists a Resource Map describing it).</p>
+<p>We note, however, two subtle points regarding the use of the URI of the Resource Map to reference the compound object. First, doing so is inconsistent with the web architecture and URI guidelines that are explicit in their suggestion that a URI should identify a single resource. Strictly interpreted, then, the use of the URI of the Resource Map to identify both the Resource Map and the compound object that it describes is incorrect. Second, some existing information systems already use dedicated URIs for the identification of compound information objects “as a whole.” For example, many scholarly publishers use DOIs whereas the Fedora and aDORe repositories have adopted identifiers of the info URI scheme. These identifiers are explicitly distinct from the URI of the Resource Map. <i>from: <a href="http://www.ctwatch.org/quarterly/articles/2007/08/interoperability-for-the-discovery-use-and-re-use-of-units-of-scholarly-communication/6/"> Interoperability for the Discovery, Use, and Re-Use of Units of Scholarly Communication</a></i>
+</p></blockquote>
+<p>I understand the ORE group is intentionally not aligning themselves too closely with the semantic web community. However I think they need to consider whether <i>compound information objects</i> are WWW <i>information resources</i> or not:</p>
+<blockquote><p>
+By design a URI identifies one resource. We do not limit the scope of what might be a resource. The term "resource" is used in a general sense for whatever might be identified by a URI. It is conventional on the hypertext Web to describe Web pages, images, product catalogs, etc. as “resources”. The distinguishing characteristic of these resources is that all of their essential characteristics can be conveyed in a message. We identify this set as “information resources.” <i>(<a href="http://www.w3.org/TR/webarch/#id-resources">from Architecture of the World Wide Web vol. 1</a>).<br />
+</i></p></blockquote>
+<p>I'm not totally convinced that the resource map can't serve as a suitable representation for the compound information object--however for the sake of argument lets say I am. It seems to me that the URI for the compound information object identifies the <i>concept</i> of a particular compound information object, which lies in various pieces on the network. However this doesn't preclude the use of HTTP URLs to identify the compound objects.  Indeed the <a href="http://www.w3.org/DesignIssues/HTTP-URI2">What HTTP URIs identify</a> and <a href="http://web.archive.org/web/20100531061447/http://www.dfki.uni-kl.de:80/~sauermann/2006/11/cooluris/">Cool URIs for the Semantic Web</a> provide specific guidance on how to serve up these non-information resources. Of course philosophical arguments around httpRange-14 have raged for a while. But the <a href="http://esw.w3.org/topic/SweoIG/TaskForces/CommunityProjects/LinkingOpenData">Linking Open Data</a> project is using the hash URI and 303 redirect very effectively. There has even been some work on a <a href="http://docs.google.com/View?docid=ajch7tkjqjwz_23g8dfzc&pli=1">sitemap extension</a> to enable crawling. As a practical matter using URLs to identify compound information objects will encourage their use because they will naturally find their ways into publications, blogs, other compound objects. Using non-resolvable or quasi-resolvable info-uris or dois will mean people just won't create the links--and when they do they will create links that can't be easily verified and evolved over time with standard web tools. The OAI-ORE effort represents a giant leap forward for the digital library community into the web. Here's to hoping they land safely--we need this stuff.</p>

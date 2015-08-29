@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: purl2
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 156
+wordpress_url: http://www.inkdroid.org/journal/2007/07/12/purl2/
+date: '2007-07-12 06:45:10 +0000'
+date_gmt: '2007-07-12 13:45:10 +0000'
+tags: []
+comments: []
+---
+<p>It's great to <a href="http://www.oclc.org/news/releases/200669.htm">see</a> that OCLC is going to work with <a href="http://zepheira.com">Zepheira</a> on a new version of the PURL service and that it's going to have an Apache license. Other than addressing scalability issues it sounds like Zepheira is going to build in support for <a href="http://www.inkdroid.org/journal/2007/05/31/angelas-dilemma/">resources that are outside of the information space of the web</a>:</p>
+<blockquote><p>The new PURL software will also be updated to reflect the current understanding of Web architecture as defined by the World Wide Web Consortium (W3C). This new software will provide the ability to permanently identify networked information resources, such as Web documents, as well as non-networked resources such as people, organizations, concepts and scientific data. This capability will represent an important step forward in the adoption of a machine-processable "Web of data" enabled by the Semantic Web.</p></blockquote>
+<p>Since <a href="http://www.w3.org/People/EM/">Eric Miller</a> helped start up Zepheira it's not surprising that purl2 will take this on. As part of some experiments I've been doing with <a href="http://www.w3.org/2004/02/skos/">SKOS</a>, and serving up Concepts over HTTP it has become clear that a minimal bit of work for managing these identifiers would be useful. I can definitely see the need for a general solution that helps manage identifiers for people, organizations, concepts, etc. which also fits into how HTTP <a href="http://www.w3.org/2001/tag/doc/httpRange-14/2007-05-31/HttpRange-14">should/could</a> serve up the resources associated with them.</p>
+<p>via <a href="http://outgoing.typepad.com/outgoing/2007/07/purl2.html">Thom Hickey</a></p>

@@ -1,0 +1,21 @@
+---
+layout: post
+status: publish
+published: true
+title: tiger
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 15
+wordpress_url: http://www.inkdroid.org/journal/?p=15
+date: '2005-06-14 09:11:12 +0000'
+date_gmt: '2005-06-14 16:11:12 +0000'
+tags: []
+comments: []
+---
+<p>Well, I took the plunge and installed the latest version of OS X. I'm actually posting this blog entry with a WordPress dashboard <a href="http://www.firewire.org/downloads/dashboard/blogs_forums/wordpressdash.html">plugin</a>. I backed up my mail, addressbook and calendar and did a clean install. I was a bit nervous that I forgot to back up everything I needed...but it was also kind of refreshing starting with a clean slate.  I've got the latest versions of Perl and Python building in the background now, and everything so far seems pretty smooth. I hope to take a closer look at dashboard widgets sometime soon.</p>

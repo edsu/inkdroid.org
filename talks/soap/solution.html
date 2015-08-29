@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>A Solution</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div align="center">
+<h3>A Solution</h3>
+</div>
+
+<hr>
+
+<table width="100%">
+<td>
+
+<p>
+You could write your own network protocol for exchanging the data, for example:
+</p>
+
+<p>
+Client Request:
+<pre>
+    type: exchange_rate\n
+    country1: US\n
+    country2: UK\n
+    date: 20030409\n
+    \n
+    EOF
+</pre>
+</p>
+
+<p>
+Server Response:
+<pre>
+    type: exchange_rate\n
+    status: ok\n
+    rate: .6361\n
+    \n
+    EOF
+</pre>
+</p>
+
+<p>While you're at it you can create a forking server to sit and listen on a 
+port for these requests (you eventually want more than 4 customers); sample 
+clients in the various target languages (Java, Perl, PHP, VB, C++, etc); and 
+you might also want to cross your fingers and hope that this server isn't 
+going to be asked to do more than exchange rate information in the future. 
+Maybe throw some prayers in for good measure.</p>
+
+</td>
+</tr>
+</table>
+
+<hr>
+<div class="menu">
+<table width="100%">
+<tr align="center">
+<td><a href="index.html">0</a>&nbsp;&nbsp;
+<a href="problem.html">1</a>&nbsp;&nbsp;
+<a href="solution.html">    <font class="active">2</font></a>&nbsp;&nbsp;
+<a href="rpc.html">3</a>&nbsp;&nbsp;
+<a href="xmlrpc.html">4</a>&nbsp;&nbsp;
+<a href="request.html">5</a>&nbsp;&nbsp;
+<a href="response.html">6</a>&nbsp;&nbsp;
+<a href="client.html">7</a>&nbsp;&nbsp;
+<a href="cgi.html">8</a>&nbsp;&nbsp;
+<a href="modperl.html">9</a>&nbsp;&nbsp;
+<a href="googleclient.html">10</a>&nbsp;&nbsp;
+<a href="googlerequest.html">11</a>&nbsp;&nbsp;
+<a href="googleresponse.html">12</a>&nbsp;&nbsp;
+<a href="googledump.html">13</a>&nbsp;&nbsp;
+<a href="more.html">14</a>&nbsp;&nbsp;
+<a href="googling.html">15</a>&nbsp;&nbsp;
+
+</div>
+
+</body>
+</html>

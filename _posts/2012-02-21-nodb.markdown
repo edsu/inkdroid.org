@@ -1,0 +1,100 @@
+---
+layout: post
+status: publish
+published: true
+title: NoDB
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 4253
+wordpress_url: http://inkdroid.org/journal/?p=4253
+date: '2012-02-21 01:23:40 +0000'
+date_gmt: '2012-02-21 08:23:40 +0000'
+tags:
+- data
+- search
+- google
+- json
+- github
+- statistics
+- facebook
+- twitter
+comments:
+- id: 85347
+  author: National Museum of Australia Situation Report | Witty&#8217;s Blog
+  author_email: ''
+  author_url: http://www.wittylama.com/2012/03/national-museum-of-australia-situation-report/
+  date: '2012-03-01 17:38:20 +0000'
+  date_gmt: '2012-03-02 00:38:20 +0000'
+  content: "[...] relaunching and modifying his Linkypedia tool specifically to help
+    me with this report (he has also written that story up in his own blog). Thanks
+    also to Sydney Wikipedian Whiteghost.ink and NMA in-house Wikipedian Shamto for
+    assisting [...]"
+---
+<p>Last week <a href="https://twitter.com/wittylama">Liam Wyatt</a> emailed me asking if I could add <a href="http://www.nma.gov.au/">The National Museum of Australia</a> to <a href="http://linkypedia.info">Linkypedia</a>, which tracks external links from Wikipedia articles to specific websites. Specifically Liam was interested in seeing the list of articles that reference the National Museum, sorted by how much they are viewed at Wikipedia. This presented me with two problems:</p>
+<ol>
+<li>I turned Linkypedia off a few months ago, since the site hadn't been seeing much traffic, and I have not yet figured out how to keep the site going on the paltry Linode VPS I'm using for other things like this blog.</li>
+<li>I hadn't incorporated Wikipedia page view statistics into Linkypedia, because I didn't know they were <a href="http://dumps.wikimedia.org/other/pagecounts-raw/">available</a>, and even if I had I didn't have Liam's idea of using them in this way.</li>
+</ol>
+<h1>1 was easily rectified since I still had the database lying around and had just disabled the <a href="http://linkypedia.info">Linkypedia</a> Apache vhost. I brought it up, and added www.nma.gov.au to the list of hosts to monitor. #2 was surprisingly easy to solve as well, with a somewhat hastily written <a href="https://github.com/edsu/linkypedia/blob/master/linkypedia/web/management/commands/stats.py">Django management command</a> that pulls down the hourly stats and rifles through them looking for links to sites that Linkypedia manages. Incidentally the Python <a href="http://requests.readthedocs.org">requests</a> library makes efficiently iterating through large amounts of gzip compressed text at a URL very simple indeed.</h1>
+<p>After the management command had run for a few days and the stats for 2012 had been added to the Linkypedia database, I was able to see that the top 10 most accessed Wikipedia articles that linked to the National Museum were: Mick Jagger, Cricket, Kangaroo, Victorian Era, Ned Kelly, James Cook, Thylacine, Indigenous Australians and Playing Card and Emu ... if you are curious <a href="http://linkypedia.inkdroid.org/websites/43/pages/">the full list</a> is available with counts, as well as similar lists for the <a href="http://linkypedia.inkdroid.org/websites/6/pages/">Museum of Modern Art</a>, the <a href="http://linkypedia.inkdroid.org/websites/34/pages/">Biodiversity Heritage Library</a>, <a href="http://linkypedia.inkdroid.org/websites/17/pages/">Wikileaks</a>, <a href="http://linkypedia.inkdroid.org/websites/42/pages/">Thomas</a> and <a href="http://linkypedia.inkdroid.org/">other sites</a> which Linkypedia also monitors somewhat sporadically.</p>
+<p>So this was interesting...but it's not actually what I set out to write about today.</p>
+<p>While I had seen aggregate reports of Wikipedia page view data, prior to Liam's email I didn't know that <a href="http://dumps.wikimedia.org/other/pagecounts-raw/">hourly dumps</a> of page view statistics existed. I recently did a <a href="http://inkdroid.org/journal/2011/11/07/an-ode-to-node/">series of experiments</a> with realtime Wikipedia data, so naturally I wondered what might be do-able with the page-view stats. The data is gzip compressed and space delimited, which made it a perfect fit for noodling around in the Unix shell with curl, cut, sort, etc. Before much time passed I had a <a href="https://github.com/edsu/wikitrends/blob/master/fetch.sh">bash script</a> that could run from cron every hour and dump out the top 1000 accessed English Wikipedia pages as a JSON file:</p>
+<pre lang="bash">
+#!/bin/bash
+
+# fetch.sh is a shell script to run from cron that will download the latest 
+# hour's page view statistics and write out the top 1000 to a JSON file
+# you will probably want to run it sufficiently after the top of the hour
+# so that the file is likely to be there, e.g.
+#
+# 30 * * * * cd /home/ed/Projects/wikitrends/; ./fetch.sh
+
+# first, get some date info
+
+year=`date -u +%Y`
+month=`date -u +%m`
+day=`date -u +%d`
+hour=`date -u +%H`
+
+# this is the expected URL for the pagecount dump file
+
+url="http://dumps.wikimedia.org/other/pagecounts-raw/$year/$year-$month/pagecounts-$year$month$day-${hour}0000.gz" 
+
+# sometimes the filenames have a timestamp of 1 second instead of 0 
+# so if 0000.gz isn't there try using 0001.gz instead
+
+curl -f -s -I $url > /dev/null
+retval=$?
+if [ $retval -ne 0 ]; then
+    url="http://dumps.wikimedia.org/other/pagecounts-raw/$year/$year-$month/pagecounts-$year$month$day-${hour}0001.gz" 
+fi
+
+# create a directory and filename for the JSON
+
+json_dir="data/$year/$month/$day"
+json_file="$json_dir/$hour.json"
+mkdir -p $json_dir
+
+# fetch the data and write out the stats!
+
+curl --silent $url | \
+    gunzip -c | \
+    egrep '^en ' | \
+    perl -npe '@cols=split/ /; print "$cols[2] $cols[1]\n";' | \
+    sort -rn | \
+    head -n 1000 | \
+    ./jsonify.py > $json_file 
+</pre>
+<p>And a short time later after that I had some pretty simple HTML and JavaScript that could use the JSON to display the top 25 accessed Wikipedia articles from the last hour.</p>
+<p><a href="http://inkdroid.org/wikitrends/"><img src="http://inkdroid.org/images/wikitrends.png"/></a></p>
+<p>Which I put it up on GitHub as <a href="http://github.com/edsu/wikitrends">Wikitrends</a>. It was kind of surprising at first to see how prevalent mainstream media (mostly television) figures into the statistics. Perhaps it was a function of me working on the code at night when "normal" people are typically watching TV and looking up stuff related to the shows they are looking at. I did notice some odd things pop up in the list occasionally and found myself googling to see if there was recent news on the topic.</p>
+<p>To help provide some context I added flyovers so that when you hover over the article title you will see the summary of the Wikipedia article. Behind the scenes the JavaScript looks up the article using the <a href="http://en.wikipedia.org/w/api.php">Wikipedia API</a> and extracts the summary. This got me thinking that it could also be useful to include some links to canned searches at Google (last hour), Twitter and Facebook to provide context for the spike that the Wikipedia article is seeing. Perhaps it would be more interesting to see this information flow by somehow on the side...</p>
+<p>A nice side effect of this minimalist (hereby dubbed NoDB...take that NoSQL!) approach to developing the Wikitrends app is that I have uniquely named, URL addressable JSON files for the top 1000 accessed English Wikipedia articles every hour at <a href="http://inkdroid.org/wikitrends/data">http://inkdroid.org/wikitrends/data</a>. Even better, the JSON files even get <a href="https://github.com/edsu/wikitrends/tree/master/data">archived at GitHub</a>. Now don't take this seriously, it's late (or early) and I'm really just making a really lame joke. I'm sure having a database would be useful for trend analysis and whatnot. But for my immediate purposes it wasn't really needed.</p>
+<p>So, Wikitrends is another Wikiepdia stats curiosity app. At the very least I got a chance to use JavaScript a bit more seriously by working with <a href="http://documentcloud.github.com/underscore/">Underscore</a> and the very slick <a href="https://github.com/caolan/async">async</a> library. Perhaps there are some ways you can think of to make Wikitrends more useful or interesting. If so please let me know.</p>
+<p>And, since I haven't said it enough before: thank you Wikimedia for taking such a pragmatic approach to <a href="http://dumps.wikimedia.org/">making your data available</a>. It is an inspiration.</p>

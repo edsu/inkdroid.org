@@ -1,0 +1,558 @@
+---
+layout: post
+status: publish
+published: true
+title: straw
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 4670
+wordpress_url: http://inkdroid.org/journal/?p=4670
+date: '2012-07-06 08:02:57 +0000'
+date_gmt: '2012-07-06 15:02:57 +0000'
+tags:
+- oclc
+- metadata
+- standards
+- html
+- microdata
+- schema.org
+comments:
+- id: 85423
+  author: bibwild.wordpress.com/
+  author_email: rochkind@jhu.edu
+  author_url: http://bibwild.wordpress.com/
+  date: '2012-07-08 09:40:50 +0000'
+  date_gmt: '2012-07-08 16:40:50 +0000'
+  content: "I don't understand the point of publicizing 'mappings' to fictitious/made-up
+    schema.org vocabulary identifiers. It seems like it will confuse people into thinking
+    these are legit, when they're not. To make matters more confusing, _some_ of those
+    schema.org URI's _do_ exist (are documented to exist on schema.org documentation,
+    although none of them resolve, there's no actual requirement that URI's used as
+    identifiers resolve), and others don't. \r\n\r\nPart of the point of using http
+    URI's as identifiers, is that you can create new identifiers in a DNS domain that
+    you 'control' somehow, but not in someone elses!  \r\n\r\nI can't figure out what
+    they were thinking, this seems like a poor choice. Imagine if someone else publicized
+    'mappings' to DC, where they just made up dcterms URI's and called that a mapping,
+    the DC folks wouldn't like that very much, no?"
+- id: 85424
+  author: bibwild.wordpress.com/
+  author_email: rochkind@jhu.edu
+  author_url: http://bibwild.wordpress.com/
+  date: '2012-07-08 09:46:15 +0000'
+  date_gmt: '2012-07-08 16:46:15 +0000'
+  content: "PS: Contrary to some popular belief, you don't need to use URI's beginning
+    http://schema.org with microdata -- you can use any URI's at all.  The foundation
+    of URI-based linked data is that if you need an identifier that doesn't exist,
+    you mint one yourself (in a domain _you_ control) -- they can just use their purl.org/library
+    URI's, just fine. \r\n\r\nThere is obvious value in providing a mapping to _legit_
+    schema.org/ URI's, so applications that understand schema.org/ URIs can understand
+    elements in your vocabulary that map too, by the data publisher publishing with
+    the mapping, or by someone else applying the mapping. \r\n\r\nI see _no_ value
+    in mapping to _fictitious_ schema.org/ URI's.  If you expect people to modify
+    their appications to understand your made-up schema.org URIs -- why wouldn't they
+    just modify to understand your legit purl.org/library URIs instead?  A URI is
+    just an identifier -- but by trying an unauthorized 'extension' of schema.org,
+    they are possibly introducing conflicts with future legit authorized extensions
+    of schema.org.  You don't get to go adding elements to someone else's vocabulary
+    using URI's beginning with a DNS hostname someone else controls."
+- id: 85425
+  author: ed
+  author_email: ehs@pobox.com
+  author_url: http://www.inkdroid.org
+  date: '2012-07-08 12:53:12 +0000'
+  date_gmt: '2012-07-08 19:53:12 +0000'
+  content: Jonathan, I totally agree about the mappings. I feel like I am missing
+    some part of the story, or perhaps I interpreted things incorrectly. One thing
+    to bear in mind is that OCLC's library vocabulary really is just a strawman to
+    generate discussion, not some finished thing. While it is definitely true that
+    microdata allows people to create their own itemtypes and itemprops,  I think
+    OCLC (and others) anticipate that having what libraries, archives and museums
+    need in schema.org will encourage interoperability, and could ultimately make
+    the metadata more useful in search engines like Google. When enhancing search
+    results with metadata harvested from the Web they will have to be selective in
+    the types of schemas they pay attention to and use.
+- id: 85426
+  author: Richard Wallis
+  author_email: richard.wallis@oclc.org
+  author_url: ''
+  date: '2012-07-08 15:58:10 +0000'
+  date_gmt: '2012-07-08 22:58:10 +0000'
+  content: "Thanks Ed for you detailed reply - not only much better than a few paragraph
+    in an email, but also a conversation starter. \r\n\r\nFor those that had not caught
+    the announcement, your link goes to a strange place, the correct place is <a href=\"http://www.oclc.org/news/releases/2012/201238.htm\"
+    rel=\"nofollow\">here</a>.  Also for my take on why this announcement is significant
+    in many ways, check out <a href=\"http://dataliberate.com/2012/06/oclc-worldcat-linked-data-release-significant-in-many-ways/\"
+    rel=\"nofollow\">my post on the background</a>.\r\n\r\nSome of the decisions taken
+    when approaching this, may clarify the thinking behind some of the issues you
+    raise.\r\n\r\nThe starting point, for this experimental release of WordCat data,
+    was Schema.org.  How far would we get only using the Schema.org vocabulary, what
+    'library' extensions, if any, would be needed to describe things sufficiently
+    for general consumption by the major search engines.  \r\n\r\nYou were amused
+    that the potential extension to schema.org does not include a Book class.  As
+    Schema.org already has a <a href=\"http://schema.org/Book\" rel=\"nofollow\">Book</a>
+    class, there is obviously no need to add one.\r\n\r\nYou highlight possible areas
+    where we are suggesting extensions that may not be needed, such as library:image
+    which may be covered by schema:ImageObject.  I am sure there are others, which
+    we need to think about.\r\n\r\nYou ask what the purpose of this library ontology.
+    \ \r\n\r\nSeveral groups with particular focuses on data on the web, have proposed
+    extensions to schema.org.  For example the <a href=\"http://www.iptc.org\" rel=\"nofollow\">IPTC</a>'s
+    recommendation for <a href=\"http://iptc.cms.apa.at/site/Home/Media_Releases/schema.org_adopts_IPTC's_rNews_for_news_markup\"
+    rel=\"nofollow\">rNews</a> was accepted and now schema.org has better coverage
+    for news media data.  Others such as eCommerce, via <a href=\"http://www.slideshare.net/mhepp/extending-schemaorg-with-goodrelations-and-wwwproductontologyorg\"
+    rel=\"nofollow\">GoodRelations</a>, and <a href=\"http://www.slideshare.net/mhepp/extending-schemaorg-with-goodrelations-and-wwwproductontologyorg\"
+    rel=\"nofollow\">health and medicine</a>, have also been adopted.  This is the
+    pattern with schema.org - a group that understand an area proposes an extension,
+    which if adopted, will broaden the scope and usefulness of this broad vocabulary.\r\n\r\nSo,
+    the purpose of this library ontology is to start to address that from the point
+    of view of libraries.  To start a conversation around how we [the library interested
+    community] could help the schema.org vocabulary to be more useful for describing
+    the kind of resources that libraries hold, license, or describe.\r\n\r\nYou also
+    ask who [in this case] the consumers of this data are and who might want to share
+    it in this way.  The consumers are the search engines or 'anyone else on the web',
+    hence the generic nature of the schema.org vocabulary and the high-level of the
+    library extension.  This is not how you would share the full richness contained
+    today in a Marc record, for library to library communication.  As to who would
+    want to share it in this way - anyone with bibliographic information or items
+    that the want to be found more easily.  That obviously includes libraries.\r\n\r\nSchema.org
+    is not the only show in town when looking for a way to share descriptions of resources
+    libraries hold, but with it's already significant take up on the wider web (<a
+    href=\"http://dataliberate.com/2012/06/schema-org-consensus-at-semtechbiz/\" rel=\"nofollow\">around
+    7% of crawled pages</a>) it is something we can not ignore.  I believe we should
+    embrace it as part of the general move towards linked data in the library community.\r\n\r\nIf
+    you or anyone else what to join in the conversation around this, a great place
+    to start would be to drop me an email at data@oclc.org.\r\n\r\nThanks again, Richard."
+- id: 85427
+  author: ed
+  author_email: ehs@pobox.com
+  author_url: http://www.inkdroid.org
+  date: '2012-07-09 03:00:21 +0000'
+  date_gmt: '2012-07-09 10:00:21 +0000'
+  content: Thanks for the link correction Richard, and some clarification. I hope
+    that this discussion can take place on <a href="http://lists.w3.org/Archives/Public/public-vocabs/"
+    rel="nofollow">public-vocabs</a> or some other discussion list rather than your
+    personal email box. Cheers :-)
+- id: 85467
+  author: profiles.google.com/11420235179…
+  author_email: dethtron5000@gmail.com
+  author_url: https://profiles.google.com/114202351797438253625
+  date: '2012-10-01 08:49:54 +0000'
+  date_gmt: '2012-10-01 15:49:54 +0000'
+  content: "There is a draft schema.org proposal for periodicals (and comics - the
+    proposal came from us at Marvel Entertainment and we have some experience in that
+    domain) here:\r\nhttp://www.w3.org/wiki/WebSchemas/PeriodicalsComics. The proposal
+    is currently in candidate status.  Hopefully this can inform the mappings you
+    posted earlier.\r\n\r\nWe are active on the public-vocabs discussion list if you
+    wish to discuss or I'm happy to talk directly.\r\n\r\n-peter"
+- id: 86078
+  author: Is Your Library Using Schema.org? | Eduhacker
+  author_email: ''
+  author_url: http://www.eduhacker.net/libraries/library-schema-dot-org.html
+  date: '2013-06-10 13:47:21 +0000'
+  date_gmt: '2013-06-10 20:47:21 +0000'
+  content: "[...] Straw | Indroid &#8211; Ed Summers [...]"
+---
+<p>By now I imagine you've heard the <a href="http://www.oclc.org/news/releases/2012/201238.htm">announcement</a> that OCLC has started to make <a href="http://www.worldcat.org">WorldCat</a> bibliographic data available as openly licensed Linked Data. The availability of <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/microdata.html">microdata</a> and <a href="http://www.w3.org/TR/rdfa-primer/">RDFa</a> metadata in WorldCat pages coupled with the <a href="http://opendatacommons.org/licenses/by/">ODC-BY</a> license and the availability of <a href="http://www.worldcat.org/robots.txt">sitemaps</a> for crawlers is a huge win for the library community. Similar announcements about <a href="http://ddc.typepad.com/025431/2012/06/ddc-23-released-as-linked-data-at-deweyinfo.html">Dewey Decimal Classification</a> and the <a href="http://outgoing.typepad.com/outgoing/2010/05/viafs-new-linked-data.html">Virtual International Authority File</a> are further evidence that there is a big paradigm shift going on at OCLC.</p>
+<p>A few weeks ago <a href="http://dataliberate.com/">Richard Wallis</a> (formerly of Talis, and now at OCLC) asked me to take a look at the strawman library microdata vocabulary that OCLC put together for the WorldCat release: <a href="http://purl.org/library">http://purl.org/library</a>. Richard stressed that the library vocabulary was a prototype to focus and gather interest from the cultural heritage sector outside of OCLC, and the metadata community in general. Combined with the prototype microdata at <a href="http://worldcat.org">WorldCat</a> I think it represents an excellent first step. At this point I should <a href="http://inkdroid.org/journal/about/">re-iterate</a> that these remarks about schema.org are mine and not those of my employer. </p>
+<p>The vocabulary is actually currently expressed in <a href="http://www.w3.org/TR/owl-features/">OWL</a>, and visiting that URL will redirect you to an application that lets you read the OWL file as documentation. Rather than write up a few paragraphs and send my comments to Richard in email, I figured I would jot them down here, in case anyone else has feedback.</p>
+<p>Examining the classes that the library vocabulary defines tells the majority of the story. They are broken down into </p>
+<ul>
+<li>ArchiveMaterial</li>
+<li>Carrier</li>
+<li>Computer File</li>
+<li>Game</li>
+<li>Image</li>
+<li>Interactive Multimedia</li>
+<li>Kit</li>
+<li>Musical Score</li>
+<li>Newspaper</li>
+<li>Periodical</li>
+<li>Thesis</li>
+<li>Toy</li>
+<li>Video</li>
+<li>VideoGame</li>
+<li>Visual Material</li>
+<li>Web Site</li>
+</ul>
+<p>These classes should seem familiar to catalogers who have worked in MARC since there is a lot of similarity with the types of data that are encoded into the <a href="http://www.loc.gov/marc/bibliographic/bd008.html">008</a> field. However some are missing such as maps, dictionaries, encyclopedias, etc. It's kind of amusing that Book isn't mentioned. I'm not sure what the rationale was for selecting these classes, perhaps some sort of ranking based on use in WorldCat? Examining the OWL shows that OCLC has made an effort to express mappings between the library vocabulary and schema.org:</p>
+<table>
+<tr>
+<th>library</th>
+<th>schema.org</th>
+</tr>
+<tr>
+<td>http://purl.org/library/ArchiveMaterial</td>
+<td>http://schema.org/CreativeWork/ArchiveMaterial</td>
+</tr>
+<tr>
+<td>http://purl.org/library/ComputerFile</td>
+<td>http://schema.org/CreativeWork/ComputerFile</td>
+</tr>
+<tr>
+<td>http://purl.org/library/Game</td>
+<td>http://schema.org/CreativeWork/Game</td>
+</tr>
+<tr>
+<td>http://purl.org/library/Image</td>
+<td>http://schema.org/CreativeWork/Image</td>
+</tr>
+<tr>
+<td>http://purl.org/library/InteractiveMultimedia</td>
+<td>http://schema.org/CreativeWork/InteractiveMultimedia</td>
+</tr>
+<tr>
+<td>http://purl.org/library/Kit</td>
+<td>http://schema.org/CreativeWork/Kit</td>
+</tr>
+<tr>
+<td>http://purl.org/library/MusicalScore</td>
+<td>http://schema.org/CreativeWork/MusicalScore</td>
+</tr>
+<tr>
+<td>http://purl.org/library/Newspaper</td>
+<td>http://schema.org/CreativeWork/Newspaper</td>
+</tr>
+<tr>
+<td>http://purl.org/library/Periodical</td>
+<td>http://schema.org/CreativeWork/Periodical</td>
+</tr>
+<tr>
+<td>http://purl.org/library/Thesis</td>
+<td>http://schema.org/CreativeWork/Book/Thesis</td>
+</tr>
+<tr>
+<td>http://purl.org/library/Toy</td>
+<td>http://schema.org/CreativeWork/Toy</td>
+</tr>
+<tr>
+<td>http://purl.org/library/Video</td>
+<td>http://schema.org/CreativeWork/Video</td>
+</tr>
+<tr>
+<td>http://purl.org/library/VideoGame</td>
+<td>http://schema.org/CreativeWork/VideoGame</td>
+</tr>
+<tr>
+<td>http://purl.org/library/VisualMaterial</td>
+<td>http://schema.org/CreativeWork/VisualMaterial</td>
+</tr>
+<tr>
+<td>http://purl.org/library/WebSite</td>
+<td>http://schema.org/CreativeWork/WebSite</td>
+</tr>
+</table>
+<p>However these schema.org URLs do not resolve, and are not actually present as specifications of schema.org's <a href="http://schema.org/CreativeWork">Creative Work</a>. Perhaps the presence of these mappings in the library vocabulary is evidence of a desire to create these classes at schema.org. But then there are cases like <code>library:Image</code> which seem to bear a lot resemblance to schema.org's <a href="http://schema.org/ImageObject">ImageObject</a>.</p>
+<p>Examining the OWL also yields a set of <code>library:Carrier</code> instances.</p>
+<ul>
+<li>BlurayDisk</li>
+<li>CassetteTape</li>
+<li>CD</li>
+<li>DVD</li>
+<li>FilmReel</li>
+<li>LP</li>
+<li>Microform</li>
+<li>VHSTape</li>
+<li>Volume</li>
+<li>WWW</li>
+</ul>
+<p>Again, there are more carriers than this in the MARC world. Why these were selected is a bit of a mystery. What <code>library:WWW</code> has to do with <code>library:Website</code> (if anything) isn't clear, etc.</p>
+<p>So even in this prototype library vocabulary there is a lot to examine and unpack. I imagine some phone calls or face to face meetings would be required to get at what went into their production.</p>
+<p>Be that as it may, I think it could prove more useful to look at the WorldCat microdata and see what library vocabulary was used. For example here is the microdata extracted from the WorldCat page for Tim Berners-Lee's <a href="http://www.worldcat.org/title/weaving-the-web-the-original-design-and-ultimate-destiny-of-the-world-wide-web-by-its-inventor/oclc/41238513">Weaving the Web</a> expressed as JSON:</p>
+<pre lang="javascript">
+{
+  "type": "http://schema.org/Book", 
+  "properties": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      "http://schema.org/Book"
+    ], 
+    "http://purl.org/library/placeOfPublication": [
+      {
+        "type": "http://schema.org/Place", 
+        "properties": {
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://schema.org/Place"
+          ], 
+          "http://schema.org/name": [
+            "San Francisco :"
+          ]
+        }
+      }
+    ], 
+    "http://schema.org/bookEdition": [
+      "1st ed."
+    ], 
+    "http://schema.org/publisher": [
+      {
+        "type": "http://schema.org/Organization", 
+        "properties": {
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://schema.org/Organization"
+          ], 
+          "http://schema.org/name": [
+            "HarperSanFrancisco"
+          ]
+        }
+      }
+    ], 
+    "http://schema.org/genre": [
+      "History"
+    ], 
+    "http://schema.org/name": [
+      "Weaving the Web : the original design and ultimate destiny of the World Wide Web by its inventor"
+    ], 
+    "http://schema.org/numberOfPages": [
+      "226"
+    ], 
+    "http://purl.org/library/holdingsCount": [
+      "2096"
+    ], 
+    "http://schema.org/about": [
+      {
+        "type": "http://www.w3.org/2004/02/skos/core#Concept", 
+        "properties": {
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+          ], 
+          "http://schema.org/name": [
+            "Erfindung."
+          ]
+        }
+      }, 
+      {
+        "type": "http://www.w3.org/2004/02/skos/core#Concept", 
+        "properties": {
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+          ], 
+          "http://schema.org/name": [
+            "WWW."
+          ]
+        }
+      }, 
+      {
+        "type": "http://www.w3.org/2004/02/skos/core#Concept", 
+        "properties": {
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+          ], 
+          "http://schema.org/name": [
+            "prospective informatique."
+          ]
+        }
+      }, 
+      {
+        "type": "http://www.w3.org/2004/02/skos/core#Concept", 
+        "properties": {
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+          ], 
+          "http://www.w3.org/2004/02/skos/core#inScheme": [
+            "http://dewey.info/scheme/e21/"
+          ]
+        }, 
+        "id": "http://dewey.info/class/025/e21/"
+      }, 
+      {
+        "type": "http://www.w3.org/2004/02/skos/core#Concept", 
+        "properties": {
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+          ], 
+          "http://www.loc.gov/mads/rdf/v1#isIdentifiedByAuthority": [
+            "http://id.loc.gov/authorities/subjects/sh95000541"
+          ], 
+          "http://schema.org/name": [
+            "World wide web."
+          ]
+        }
+      }, 
+      {
+        "type": "http://www.w3.org/2004/02/skos/core#Concept", 
+        "properties": {
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+          ], 
+          "http://www.loc.gov/mads/rdf/v1#isIdentifiedByAuthority": [
+            "http://id.loc.gov/authorities/subjects/sh95000541"
+          ], 
+          "http://schema.org/name": [
+            "World Wide Web."
+          ]
+        }
+      }, 
+      {
+        "type": "http://www.w3.org/2004/02/skos/core#Concept", 
+        "properties": {
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+          ], 
+          "http://www.loc.gov/mads/rdf/v1#isIdentifiedByAuthority": [
+            "http://id.loc.gov/authorities/subjects/sh95000541"
+          ], 
+          "http://schema.org/name": [
+            "World Wide Web--History."
+          ]
+        }
+      }, 
+      {
+        "type": "http://schema.org/Person", 
+        "properties": {
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://schema.org/Person"
+          ], 
+          "http://www.loc.gov/mads/rdf/v1#isIdentifiedByAuthority": [
+            "http://id.loc.gov/authorities/names/no99010609"
+          ], 
+          "http://schema.org/name": [
+            "Berners-Lee, Tim."
+          ]
+        }, 
+        "id": "http://viaf.org/viaf/85312226"
+      }, 
+      {
+        "type": "http://www.w3.org/2004/02/skos/core#Concept", 
+        "properties": {
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+          ], 
+          "http://schema.org/name": [
+            "Web--Histoire."
+          ]
+        }
+      }, 
+      {
+        "type": "http://www.w3.org/2004/02/skos/core#Concept", 
+        "properties": {
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+          ], 
+          "http://schema.org/name": [
+            "World Wide Web"
+          ]
+        }, 
+        "id": "http://id.worldcat.org/fast/1181326"
+      }, 
+      {
+        "type": "http://www.w3.org/2004/02/skos/core#Concept", 
+        "properties": {
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+          ], 
+          "http://schema.org/name": [
+            "historique informatique."
+          ]
+        }
+      }, 
+      {
+        "type": "http://www.w3.org/2004/02/skos/core#Concept", 
+        "properties": {
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+          ], 
+          "http://schema.org/name": [
+            "Web--Histoire."
+          ]
+        }
+      }, 
+      {
+        "type": "http://schema.org/Person", 
+        "properties": {
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://schema.org/Person"
+          ], 
+          "http://schema.org/name": [
+            "Berners-Lee, Tim"
+          ]
+        }
+      }
+    ], 
+    "http://schema.org/description": [
+      "Enquire within upon everything -- Tangles, links, and webs -- info.cern.ch -- Protocols: simple rules for global systems -- Going global -- Browsing -- Changes -- Consortium -- Competition and consensus -- Web of people -- Privacy -- Mind to mind -- Machines and the Web -- Weaving the Web."
+    ], 
+    "http://purl.org/library/oclcnum": [
+      "41238513"
+    ], 
+    "http://schema.org/copyrightYear": [
+      "1999"
+    ], 
+    "http://schema.org/contributor": [
+      {
+        "type": "http://schema.org/Person", 
+        "properties": {
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://schema.org/Person"
+          ], 
+          "http://www.loc.gov/mads/rdf/v1#isIdentifiedByAuthority": [
+            "http://id.loc.gov/authorities/names/n97003262"
+          ], 
+          "http://schema.org/name": [
+            "Fischetti, Mark."
+          ]
+        }, 
+        "id": "http://viaf.org/viaf/874883"
+      }
+    ], 
+    "http://schema.org/isbn": [
+      "9780062515872", 
+      "006251587X", 
+      "0062515861", 
+      "9780062515865"
+    ], 
+    "http://schema.org/inLanguage": [
+      "en"
+    ], 
+    "http://schema.org/reviews": [
+      {
+        "type": "http://schema.org/Review", 
+        "properties": {
+          "http://schema.org/reviewBody": [
+            "Tim Berners-Lee, the inventor of the World Wide Web, has been hailed by Time magazine as one of the 100 greatest minds of this century. His creation has already changed the way people do business, entertain themselves, exchange ideas, and socialize with one another.\" \"Berners-Lee offers insights to help readers understand the true nature of the Web, enabling them to use it to their fullest advantage. He shares his views on such critical issues as censorship, privacy, the increasing power of software companies in the online world, and the need to find the ideal balance between the commercial and social forces on the Web. His criticism of the Web's current state makes clear that there is still much work to be done. Finally, Berners-Lee presents his own plan for the Web's future, one that calls for the active support and participation of programmers, computer manufacturers, and social organizations to make it happen.\"--Jacket."
+          ], 
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://schema.org/Review"
+          ], 
+          "http://schema.org/itemReviewed": [
+            "http://www.worldcat.org/oclc/41238513"
+          ]
+        }
+      }
+    ], 
+    "http://schema.org/author": [
+      {
+        "type": "http://schema.org/Person", 
+        "properties": {
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://schema.org/Person"
+          ], 
+          "http://www.loc.gov/mads/rdf/v1#isIdentifiedByAuthority": [
+            "http://id.loc.gov/authorities/names/no99010609"
+          ], 
+          "http://schema.org/name": [
+            "Berners-Lee, Tim."
+          ]
+        }, 
+        "id": "http://viaf.org/viaf/85312226"
+      }
+    ]
+  }, 
+  "id": "http://www.worldcat.org/oclc/41238513"
+}
+</pre>
+<p>Yes, that's a lot of data. But interestingly only three library vocabulary elements were used:</p>
+<ul>
+<li>placeOfPublication</li>
+<li>holdingsCount</li>
+<li>oclcnum</li>
+</ul>
+<p>One could argue that rather than creating <code>library:placeOfPublication</code> they could use  <code>schema:publisher</code> with a nested <a href="http://schema.org/Organization">Organization</a> item having a <code>schema:location</code>. Similarly <code>library:oclcnum</code> could've been expressed using <code>itemid</code> with a value of <code>info:oclc/41238513</code> using the info-uri namespace that OCLC maintain the <a href="http://info-uri.info/">registry</a> for. This leaves <code>library:holdingsCount</code>, which does seem to be missing from schema.org but also begs the question of whose holdings?</p>
+<p>As Tom Gruber famously <a href="http://www.aiai.ed.ac.uk/~jessicac/psfiles/SIG-SEMIS/issue3-tom-gruber.pdf">said</a>:</p>
+<blockquote><p>
+Every ontology is a treaty – a social agreement – among people with some common motive in sharing.
+</p></blockquote>
+<p>So the question for me is what is the library vocabulary trying to do, and for who? Is it trying to make it easy to share MARC data as microdata on the Web? Is it trying to communicate something to search engines so that they can have enhanced displays? Who are the people that want to share and consume this data? I think having rough consensus about the answers to these questions is really important before diving into modeling exercises...even prototypes. And when the modeling begins I think it's really important to follow the lead of the WorldCat developers in using the bits of schema.org vocabulary they could, and beginning to mint vocabulary terms for things that are missing. I don't think it's going to be fruitful to start from the position of modeling the bibliographic universe completely. I'd rather see real implementations (both publishers and consumers) drive the discovery of what is missing or awkward in schema.org, and how can it be fixed. Ideally, schema.org implementors like <a href="http://goodreads.com">GoodReads</a> would be at the table, along with members of the academic community like <a href="http://jronallo.github.com/">Jason Ronallo</a>, <a href="http://bibwild.wordpress.com/">Jonathan Rochkind</a> and <a href="http://edchamberlain.wordpress.com/">Ed Chamberlain</a> (among others) who care about these issues. In addition <a href="http://loc.gov">my employer</a> is <a href="http://www.loc.gov/marc/transition/news/modeling-052212.html">actively engaged</a> in an effort to rethink bibliographic data on the Web. It seems imperative that these efforts at schema.org and Zepheira's work be combined somehow--especially since OCLC and Zepheira are hardly strangers.</p>
+<p>I was of course flattered to be asked my opinion about the library vocabulary. I hope that my remarks haven't accidentally set this strawman vocabulary on fire, because I think the work that OCLC has begun in this area is incredibly important. My experience watching the designers of <a href="http://en.wikipedia.org/wiki/SKOS">SKOS</a> has made me mindful of minimizing <a href="http://en.wikipedia.org/wiki/Ontological_commitment">ontological commitments</a> when designing a vocabulary, and wary of trying to exhaustively model a domain. In some ways I guess I'm a bit of a schema.org skeptic given its encyclopedic coverage. schema.org should take a page from the HTML 5 book and stay hyper-focused on letting implementations drive standardization. A bit of <a href="http://en.wikipedia.org/wiki/Seymour_Lubetzky">Seymour Lubetzky's</a> attention to simplification and user friendliness would be welcome as well.</p>

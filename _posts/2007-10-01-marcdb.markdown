@@ -1,0 +1,152 @@
+---
+layout: post
+status: publish
+published: true
+title: marcdb
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 166
+wordpress_url: http://www.inkdroid.org/journal/2007/10/01/marcdb/
+date: '2007-10-01 09:35:28 +0000'
+date_gmt: '2007-10-01 16:35:28 +0000'
+tags: []
+comments:
+- id: 43317
+  author: Xiaoming Liu
+  author_email: xiaoming.liu@gmail.com
+  author_url: ''
+  date: '2007-10-11 10:49:34 +0000'
+  date_gmt: '2007-10-11 17:49:34 +0000'
+  content: "Thanks, this is nice and handy.\r\n\r\nSince the goal is to run easy SQL
+    query, perhaps it make sense to bend SQL rule a bit to use less tables and joins?
+    right now the schema using four tables, if it's reduced to one table:\r\n\r\n(recordid,
+    tag, position, indicator1,indicator2, subfield, value)\r\n\r\n fol05731351, leader,
+    ..... , 00755cam  22002414a 4500 \r\n fol05731351,008, ....  000107s2000    nyua
+    \         001 0 eng\r\n fol05731351,245,1,0,1,a, Perl (Computer program language)
+    \r\n...."
+- id: 43437
+  author: ed
+  author_email: ehs@pobox.com
+  author_url: http://www.inkdroid.org
+  date: '2007-10-15 06:08:40 +0000'
+  date_gmt: '2007-10-15 13:08:40 +0000'
+  content: I like this idea. Had you thought about what the queries would look like?
+    Flattening like this is typical in data warehousing applications where the emphasis
+    is more on reporting. There would be a lot of duplication of data, but I don't
+    see that as a particular problem. But it might make queries that want to treat
+    the record as a unit a bit problematic. Thanks for the feedback.
+- id: 44619
+  author: inkdroid &raquo; Blog Archive &raquo; more marcdb
+  author_email: ''
+  author_url: http://www.inkdroid.org/journal/2007/11/05/more-marcdb/
+  date: '2007-11-05 10:14:27 +0000'
+  date_gmt: '2007-11-05 17:14:27 +0000'
+  content: "[...] headings in the LC authority file. You know how it is. Anyhow, I
+    remembered that I&#8217;d used marcdb to import all of Simon Spiro&#8217;s authority
+    data&#8211;so I fired psql and wrote a [...]"
+---
+<p>If you are a library data wrangler at some point you've probably wanted to stuff MARC data into a relational database so you can do queries across it.  Perhaps your $vendor supports querying like this, but perhaps not. At any rate for some work I've been doing I've really needed to be able to get a feel for a batch of MARC authority data, in particular the data that Simon Spero has kindly made <a href="http://www.ibiblio.org/fred2.0/authorities/">available</a>.  </p>
+<p>So I created a little tool I'm calling marcdb which slurps in MARCXML or MARC and stuffs it into a relational database schema. The source for marcdb is <a href="http://inkdroid.org/svn/marcdb/trunk/">available</a> and you can install via the <a href="http://cheeseshop.python.org/pypi/marcdb">python cheeseshop</a> with easy_install if you have it. As you can see from the <a href="http://inkdroid.org/svn/marcdb/trunk/README">README</a> it lets <a href="http://www.sqlalchemy.org/">SQLAlchemy</a> and <a href="http://elixir.ematia.de/">Elixir</a> do the database talkin'. This results in a nice little python <a href="http://inkdroid.org/svn/marcdb/trunk/marcdb/models.py">file</a> that defines the schema in terms of Python classes. You ought to be able to use marcdb with any backend database (mysql, sqlite, postgres) that is supported by SQLAlchemy.</p>
+<p>At any rate, the point of all this is to enable querying. So for example after I loaded Simon's authority data I can do a query to see what the lay of the land is in terms of number of tags.</p>
+<pre>
+SELECT tag, COUNT(*) AS tag_count <br />
+FROM data_fields <br />
+GROUP BY tag <br />
+ORDER BY tag_count DESC;<br /><br /> 
+
+tag | tag_count <br />
+-----+-----------<br /> 
+035 |    558727<br />
+670 |    496600<br />
+040 |    379999<br />
+010 |    379999<br />
+953 |    369625<br />
+906 |    272196<br />
+550 |    232544<br />
+150 |    217556<br />
+450 |    211067<br /> 
+952 |    185012<br /> 
+151 |    158900<br /> 
+451 |    143538<br /> 
+781 |    122490<br /> 
+043 |     92656<br /> 
+053 |     92404<br /> 
+675 |     42496<br /> 
+551 |     24797<br /> 
+667 |     14434<br /> 
+985 |     13725<br /> 
+680 |     10342<br /> 
+681 |      8873<br /> 
+410 |      7103<br /> 
+360 |      4126<br /> 
+073 |      3540<br /> 
+180 |      3000<br /> 
+019 |      1832<br /> 
+678 |      1311<br /> 
+580 |       857<br /> 
+480 |       808<br /> 
+260 |       753<br /> 
+185 |       501<br /> 
+510 |       369<br /> 
+485 |       262<br /> 
+042 |       260<br /> 
+500 |       259<br /> 
+016 |       243<br /> 
+585 |       192<br /> 
+400 |       147<br /> 
+682 |       134<br /> 
+710 |       132<br /> 
+979 |       107<br /> 
+530 |        93<br /> 
+430 |        82<br /> 
+665 |        44<br /> 
+182 |        36<br /> 
+482 |         8<br /> 
+969 |         4<br /> 
+181 |         4<br /> 
+555 |         4<br /> 
+581 |         4<br /> 
+455 |         4<br /> 
+582 |         3<br /> 
+481 |         3<br /> 
+052 |         3<br /> 
+411 |         2<br /> 
+155 |         2<br /> 
+751 |         2<br /> 
+014 |         2<br /> 
+050 |         2<br /> 
+856 |         1<br />
+</pre>
+<p>Or, here's a more complex query for determining the types of <a href="http://www.loc.gov/marc/authority/ecadtref.html#mrcasimp">relationships</a> found in <a href="http://www.loc.gov/marc/authority/ecadalso.html">See Also From Tracing</a> fields.</p>
+<pre>
+SELECT subfields.value, count(*) AS value_count
+FROM data_fields, subfields
+WHERE data_fields.tag in ('500', '510', '511', '530', '548', '550', '551',
+  '555', '580', '581', '582', '585')
+AND data_fields.id = subfields.id
+AND subfields.code = 'w'
+GROUP BY subfields.value
+ORDER BY value_count
+
+ value | value_count 
+-------+-------------
+ g     |        8438
+ nne   |        1243
+ nnaa  |        1083
+ a     |         146
+ b     |         140
+ nna   |           8
+ bnna  |           4
+ anna  |           3
+ n     |           2
+ nnnd  |           2
+ nnnb  |           1
+(11 rows)
+</pre>
+<p>So most of the relations are 'g' which is for broader relations. I know MARC is kind of passé these days, but there's a lot of it around in libraries, and it's important to be able to make decisions about it--especially when converting it to more web-viable formats. I'd be interested in feedback if you get a chance to try it out.</p>

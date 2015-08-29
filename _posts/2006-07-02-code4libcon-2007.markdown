@@ -1,0 +1,25 @@
+---
+layout: post
+status: publish
+published: true
+title: code4libcon 2007
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 108
+wordpress_url: http://www.inkdroid.org/journal/2006/07/02/code4libcon-2007/
+date: '2006-07-02 13:46:09 +0000'
+date_gmt: '2006-07-02 20:46:09 +0000'
+tags: []
+comments: []
+---
+<p>Here's to making sure that code4libcon 2007 is a <a href="http://www.librarywebchic.net/wordpress/2006/07/01/on-being-the-library-web-chic/">watershed</a> moment for women library technologists. </p>
+<p>code4libcon 2006 in Corvallis wasn't all male, but it was largely...and I can only remember two women speaking to the audience. To a large extent code4libcon was modeled after technology conferences like yapc, pycon, oscon, barcamp, etc--which have much the same sort of ratio. But libraries are different because the majority of people who work in libraries are women. So it was a bit surprising that more women didn't end up at code4libcon 2006.</p>
+<p>2006 did get organized practically overnight with a very small (male) clique in an irc room (that's not always well behaved, but mean well--hey it's IRC). When people actually started signing up and sending in papers to the more formal discussion list I think we were all kind of surprised. I seriously thought we were just going to be hanging out in some random space with free wifi, and it turned into this really successful event.</p>
+<p>Some folks like Dan Chudnov, Art Rhyno, Jeremy Frumkin and Roy Tennant started thinking and talking early about making the conference appeal to women library technologists. But it seems that either the voting (open to all, but all men for some reason) somehow subconsciously counteracted this.</p>
+<p>AFAIK the keynote voting is still going on, and I imagine you can still suggest speakers. There will only be more voting to do as we get into selecting presenters. If you'd like to participate just email <a href="mailto://radl@georgialibraries.org">Brad LaJeunesse</a> and he'll hook you up with a backpack login. Also, sign up for the <a href="http://dewey.library.nd.edu/mailing-lists/code4lib/">code4lib</a> and <a href="https://lists.gatech.edu/sympa/info/code4libcon">code4libcon</a> discussion lists.  Luckily Dorothea Salo is involved and vocal and I'm hoping that other women technologists will get involved too. This is a grassroots thing after all, not some sort of LITA top-tech trends panel. It'll become whatever we want it to be.</p>

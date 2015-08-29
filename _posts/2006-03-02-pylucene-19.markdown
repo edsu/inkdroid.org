@@ -1,0 +1,22 @@
+---
+layout: post
+status: publish
+published: true
+title: "(py)?lucene 1.9"
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 86
+wordpress_url: http://www.inkdroid.org/journal/?p=86
+date: '2006-03-02 22:11:06 +0000'
+date_gmt: '2006-03-03 05:11:06 +0000'
+tags: []
+comments: []
+---
+<p>So on March 1st <a href="http://mail-archives.apache.org/mod_mbox/lucene-java-user/200603.mbox/%3c4405FBCE.9090506@apache.org%3e">lucene v1.9</a> was released and the *next day* <a href="http://lists.osafoundation.org/pipermail/pylucene-dev/2006-March/000873.html">pylucene v1.9</a> is released. Nice work!</p>
+<p>I guess there are a bunch of methods that are deprecated in 1.9 which will dissappear entirely in v2.0. Now would be a good time to update usage...</p>

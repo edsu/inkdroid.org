@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: reading 2.0
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 89
+wordpress_url: http://www.inkdroid.org/journal/2006/03/20/reading-20/
+date: '2006-03-20 14:47:05 +0000'
+date_gmt: '2006-03-20 21:47:05 +0000'
+tags: []
+comments: []
+---
+<p><a href="http://web.archive.org/web/20070623084839/http://ono.cdlib.org/archives/shimenawa/000219.html">Reading 2.0</a> slipped under my radar, but I guess that was the idea: to let people from O'Reilly, Los Alamos National Labs, OCLC, The Internet Archive, Adobe, Yahoo, Harvard and Elsevier hobnob away from prying eyes. I haven't seen any audio/video for the event but Tim O'Reilly has a nice fly on the wall <a href="http://web.archive.org/web/20080705050657/http://radar.oreilly.com/archives/2006/03/link_list_reading_20_1.html">summary</a> of what went on.</p>
+<p>It's refreshing to see library technologies/concepts such as <a href="http://web.archive.org/web/20071009055221/http://www.niso.org:80/committees/committee_ax.html">OpenURL</a>, <a href="http://ocoins.info">OCOinS</a>, <a href="http://www.openarchives.org">OAI-PMH</a>, <a href="http://www.oclc.org/research/projects/frbr/">FRBR</a>, <a href="http://www.loc.gov/standards/mets/">METS</a> and <a href="http://dublincore.org">Dublin Core</a> starting to be talked about in the context of a larger information environment. For example I had no idea that Yahoo is harvesting data from the Internet Archive using the OAI-PMH protocol. And I didn't know Yahoo is starting to leverage <a href="http://microformats.org">microformats</a>, but should've guessed considering the recent <a href="http://microformats.org/discuss/mail/microformats-discuss/2006-March/003287.html">news</a> about <a href="http://flickr.com">Flickr</a> starting to use <a href="http://microformats.org/wiki/hcard">hCard</a>.</p>
+<p>All in all these are exciting "lowercase semantic web" times we're living in. And it's interesting to watch some of the things people you know have worked on starting to catch on. Hopefully Reading 2.0 was just the start of this ongoing collaboration. Case in point, I just heard Robert Sanderson say in #code4lib that he's visiting the <a href="http://a9.com">a9</a> folks to talk about <a href="http://opensearch.a9.com">opensearch</a> and <a href="http://www.loc.gov/standards/sru/">sru</a>. This is just the sort of cross-fertilization we need going on in library land.</p>

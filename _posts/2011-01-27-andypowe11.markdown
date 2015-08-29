@@ -1,0 +1,64 @@
+---
+layout: post
+status: publish
+published: true
+title: "@andypowe11"
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 2922
+wordpress_url: http://inkdroid.org/journal/?p=2922
+date: '2011-01-27 07:50:07 +0000'
+date_gmt: '2011-01-27 14:50:07 +0000'
+tags:
+- libraries
+- rdfa
+- microformats
+- archives
+- google
+- microdata
+- facebook
+- uk
+- museums
+comments:
+- id: 84171
+  author: Tweets that mention inkdroid › @andypowe11 -- Topsy.com
+  author_email: ''
+  author_url: http://topsy.com/inkdroid.org/journal/2011/01/27/andypowe11/?utm_source=pingback&amp;utm_campaign=L2
+  date: '2011-01-27 08:29:29 +0000'
+  date_gmt: '2011-01-27 15:29:29 +0000'
+  content: "[...] This post was mentioned on Twitter by Ben O&#039;Steen, Ed Summers.
+    Ed Summers said: New blog post: @andypowe11 http://inkdroid.org/journal/2011/01/27/andypowe11/
+    [...]"
+- id: 84174
+  author: google.com/accounts/o8&hellip;
+  author_email: owen@ostephens.com
+  author_url: https://www.google.com/accounts/o8/id?id=AItOawmejB2BjPAhKKrRn-vwum2QphgCE5r7zfU
+  date: '2011-01-27 10:24:55 +0000'
+  date_gmt: '2011-01-27 17:24:55 +0000'
+  content: |
+    <p>"I’m a bit curious about the use of ‘aggregations’ in the RLUK vision. Is that some OAI-ORE terminology percolating through?"</p>
+
+    <p>I was involved in the writing of the RDTF vision, and as far as I remember OAI-ORE wasn't mentioned. Think this blog post from Paul Walk might clarify the thinking behind the need for 'aggregations' http://web.archive.org/web/20110809022857/http://www.ukoln.ac.uk/jisc-ie/blog/2010/08/19/aggregation-and-the-resource-discovery-taskforce-vision/</p>
+---
+<p><em><a href="http://twitter.com/#!/andypowe11">Andy Powell</a> has a <a href="http://efoundations.typepad.com/efoundations/2011/01/metadata-guidelines-for-the-uk-resource-discovery-taskforce.html">post</a> over on the eFoundations blog about some metadata guidelines he and <a href="http://twitter.com/#!/repetej">Pete Johnston</a> are working on for the UK Resource Discovery Taskforce. I got to rambling in a text area on his blog, but I guess I wrote too much, or included too many external URLs, so I couldn't post it in the end. So I thought I'd just post it here, and let trackback do the rest.</em></p>
+<p><em>So uh, please s/you/Andy/g in your head as you are reading this ... </em></p>
+<p>A bit of healthy skepticism, from a 15-year vantage point is definitely warranted. Bearing in mind that often times its hard to move things forward without taking a few risks. I imagine constrained fiscal resources could also be a catalyst to improving access to data flows that cultural heritage institutions participate in, or want to participate in. I wonder if it would be useful to factor in the money that organizations can save by working together better?</p>
+<p>As I've heard you argue persuasively in the past, the success of the WWW as a platform for delivery of information is hard to argue with. One of the things that the WWW did right (from the beginning) was focus the technology on people actually doing stuff...in their browsers. It seems really important to make sure whatever this metadata is, that users of the Web will see it (somehow) and will be able to use it. Ian Davis' points in <a href="http://blog.iandavis.com/2007/11/21/is-the-semantic-web-destined-to-be-a-shadow/">Is the Semantic Web Destined to be a Shadow</a> are still very relevant today I think. </p>
+<p>My friend <a href="http://eikeon.com">Dan Krech</a> calls this an "alignment problem". So I was really pleased to see this in the vision document:</p>
+<blockquote><p>
+Agreed core standards for metadata for<br />
+the physical objects and digital objects in<br />
+aggregations ensuring the aggregations<br />
+are open to all major search engines
+</p></blockquote>
+<p>Aligning with the web is a good goal to have. Relatively recent service offerings from <a href="http://www.google.com/support/webmasters/bin/answer.py?hl=en&answer=99170">Google</a> and <a href="http://developers.facebook.com/docs/opengraph">Facebook</a> indicate their increased awareness of the utility of metadata to their users. And publishers are recognizing how important they are for getting their stuff before more eyes. It's a kind of virtuous cycle I hope. </p>
+<p>This must feel like it has been a long time in coming for you and Pete. Google's approach encourages a few different mechanisms: <a href="http://www.alistapart.com/articles/introduction-to-rdfa/">RDFa</a>, <a href="http://diveintohtml5.org/extensibility.html">Microdata</a> and <a href="http://microformats.org">Microformats</a>. Similarly, Google Scholar parses a handful of metadata vocabularies present in the HTML head element. The web is a big place to align with I guess.</p>
+<p>I imagine there will be hurdles to get over, but I wonder if your task-force could tap into this virtuous cycle. For example it would be great if cultural heritage data could be aggregated using techniques that big Search companies also use: e.g. RDFa, microformats and microdata; and sitemaps and Atom for updates. This would assume a couple things: publishers could allow (and support) crawling, and that it would be possible to build aggregator services to do the crawling. An important step would be releasing the aggregated content in an open way too. This seems to be an approach that is very similar to what I've heard Europeana is doing...which may be something else to align with.</p>
+<p>I like the idea of your recommendations providing a sliding scale, for people to get their feet wet in providing some basic information, and then work their way up to the harder stuff. Staying focused on what sorts of services moving up the scale provides seems to be key. Part of the vision document mentions that the services are intended for staff. There is definitely a need for administrators to manage these systems (I often wonder what sort of white-listing functionality Google employs with its Rich Snippets service to avoid spam). But keeping the ultimate users of this information in mind is really important.</p>
+<p>Finally I'm a bit curious about the use of 'aggregations' in the <a href="http://ie-repository.jisc.ac.uk/475/1/JISC%26RLUK_VISION_FINAL.pdf">RLUK vision</a>. Is that some  OAI-ORE terminology percolating through? </p>

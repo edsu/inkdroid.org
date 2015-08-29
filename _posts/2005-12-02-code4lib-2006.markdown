@@ -1,0 +1,33 @@
+---
+layout: post
+status: publish
+published: true
+title: code4lib 2006
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 48
+wordpress_url: http://www.inkdroid.org/journal/?p=48
+date: '2005-12-02 00:54:52 +0000'
+date_gmt: '2005-12-02 07:54:52 +0000'
+tags: []
+comments:
+- id: 14
+  author: ablog &raquo; code4lib 2006
+  author_email: ''
+  author_url: http://ablog.apress.com/?p=770
+  date: '2005-12-05 12:07:48 +0000'
+  date_gmt: '2005-12-05 19:07:48 +0000'
+  content: "[...] inkdroid &#8212; code4lib 2006 [...]"
+---
+<p>Some #code4lib regulars (who also help put on <a href="http://web.archive.org/web/20110610010758/http://access2005.library.ualberta.ca:80/">Access</a> up north) have managed to get some space at the <a href="http://www.oregonstate.edu">Oregon State University</a> in February for <a href="http://www.code4lib.org/2006">code4lib 2006</a>:</p>
+<blockquote><p>
+code4lib 2006 is a loosely structured conference for library technologists to commune, gather/create/share ideas and software, be inspired, and forge collaborations. It is also an outgrowth of the Access HackFest, wrapped into a conference-ish format. It is *the* event for technologists building digital libraries and digital information systems, tools, and software.
+</p></blockquote>
+<p>A call for <a href="http://web.archive.org/web/20060104184731/http://www.code4lib.org:80/proposals">proposals</a> is out. The nice thing about this conference is that there will be different levels of involvement: from keynote speakers, to shorter presentations, to lightning talks, and with space/time to actually hack at stuff/brainstorm with colleagues.</p>
+<p>We're hoping to attract both library professionals who use computers, and computer professionals who have an interest in libraries. The registration is now open as well at a discounted price. If you are interested in computers and libraries please submit a proposal or register to attend!</p>

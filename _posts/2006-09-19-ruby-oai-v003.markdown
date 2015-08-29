@@ -1,0 +1,114 @@
+---
+layout: post
+status: publish
+published: true
+title: ruby-oai v0.0.3
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 119
+wordpress_url: http://www.inkdroid.org/journal/2006/09/19/ruby-oai-v003/
+date: '2006-09-19 20:01:55 +0000'
+date_gmt: '2006-09-20 03:01:55 +0000'
+tags: []
+comments:
+- id: 4829
+  author: Terry&#8217;s Worklog &raquo; ruby-oai 0.0.3 &#8212; thanks ed
+  author_email: ''
+  author_url: http://oregonstate.edu/~reeset/blog/archives/353
+  date: '2006-09-20 22:06:59 +0000'
+  date_gmt: '2006-09-21 05:06:59 +0000'
+  content: "[...] Ed posted revisions to the ruby-oai package.&nbsp; It includes the
+    ability to utilize libxml as the xml parser.&nbsp; [...]"
+- id: 42307
+  author: Walter McGinnis
+  author_email: walter@katipo.co.nz
+  author_url: http://blog.katipo.co.nz/
+  date: '2007-09-27 15:36:16 +0000'
+  date_gmt: '2007-09-27 22:36:16 +0000'
+  content: "Hi Ed,\r\n\r\nKete uses rexml to parse results that it gets back from
+    its Zebra server.  It's one area I have definitely marked for speed improvements.
+    \ I'm curious about your experience with the libxml tie-in.  I'm installing them
+    gem now...\r\n\r\nJust a note, the browsing of the source code on rubyforge appears
+    broken.\r\n\r\nCheers,\r\nWalter"
+---
+<p><a href="http://rubyforge.org/projects/oai/">v0.0.3</a> of <a href="http://textualize.com/ruby-oai">ruby-oai</a> was just released to <a href="http://rubyforge.org">RubyForge</a>. The big news is that this release allows you to use <a href="http://libxml.rubyforge.org/">libxml</a> for parsing thanks to the efforts of <a href="http://web.archive.org/web/20090611182302/http://oregonstate.edu:80/~reeset/">Terry Reese</a>. Terry is building a RubyOnRails metasearch application at <a href="http://osulibrary.oregonstate.edu">OSU</a> and, well, felt the need for speed.</p>
+<p>After committing the branch he was working on I ran some performance tests of my own. I ran a vanilla ListRecords request against <a href="http://ir.library.oregonstate.edu/dspace-oai/request">dspace</a>, <a href="http://libeprints.open.ac.uk/perl/oai2">eprints</a> and <a href="http://memory.loc.gov/cgi-bin/oai2_0">american memory</a> oai-pmh servers using both the rexml (default) and libxml backend parsers. Here are the results</p>
+<table id="bench">
+<tr style="font-weight: bold;">
+<td>server</td>
+<td>parser</td>
+<td>real</td>
+<td>user</td>
+<td>sys</td>
+</tr>
+<tr>
+<td rowspan="2" valign="top">dspace</td>
+<td>rexml</td>
+<td>0m3.632s</td>
+<td>0m2.008s</td>
+<td>0m0.044s</td>
+</tr>
+<tr>
+<td>libxml</td>
+<td>0m1.900s</td>
+<td>0m0.212s</td>
+<td>0m0.032s</td>
+</tr>
+<tr style="color: green">
+<td colspan="2">&nbsp;</td>
+<td>1.732s (+48%)</td>
+<td>1.796s (+89%)</td>
+<td>0.012s (+27%)</td>
+</tr>
+<tr>
+<td colspan="5">&nbsp;</td>
+</tr>
+<tr>
+<td rowspan="2" valign="top">eprints</td>
+<td>rexml</td>
+<td>0m19.807s</td>
+<td>0m1.984s</td>
+<td>0m0.036s</td>
+</tr>
+<tr>
+<td>libxml</td>
+<td>0m19.344s</td>
+<td>0m0.236s</td>
+<td>0m0.024s</td>
+</tr>
+<tr style="color: green;">
+<td colspan="2">&nbsp;</td>
+<td>0.463s (+2%)</td>
+<td>1.748s (+88%)</td>
+<td>0.012s (+33%)</td>
+</tr>
+<tr>
+<td colspan="5">&nbsp;</td>
+</tr>
+<tr>
+<td rowspan="2" valign="top">american-memory</td>
+<td>rexml</td>
+<td>0m12.991s</td>
+<td>0m5.424s</td>
+<td>0m0.052s</td>
+</tr>
+<tr>
+<td>libxml</td>
+<td>0m7.420s</td>
+<td>0m0.324s</td>
+<td>0m0.032s</td>
+</tr>
+<tr style="color: green;">
+<td colspan="2">&nbsp;</td>
+<td>5.571s (+43%)</td>
+<td>5.104s (+94%)</td>
+<td>0.02s (+38%)</td>
+</tr>
+</table>
+<p>Those percentage values are speed improvements. Thanks Terry :-)</p>

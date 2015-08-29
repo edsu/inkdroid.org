@@ -1,0 +1,27 @@
+---
+layout: post
+status: publish
+published: true
+title: "#9"
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 132
+wordpress_url: http://www.inkdroid.org/journal/2007/01/04/9/
+date: '2007-01-04 12:49:02 +0000'
+date_gmt: '2007-01-04 19:49:02 +0000'
+tags: []
+comments: []
+---
+<pre>
+22:01 < edsu> i would try to separate them now before it's 
+      too late :)
+22:02 < erikhatcher> it's never too late, but i certainly want 
+      to keep this clean from the start
+</pre>
+<p>New Years Resolution #9 - never underestimate the power of a positive attitude...</p>

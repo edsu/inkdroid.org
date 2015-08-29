@@ -1,0 +1,367 @@
+<html>
+<head>
+<title>How is MyLibrary Called?</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div align="center">
+<h3>How is MyLibrary Called?</h3>
+</div>
+
+<hr>
+
+<table width="100%">
+<td>
+
+<p>MyLibrary.pm is used by a variety of other scripts.
+Here is a list of MyLibrary programs and the functions they are using.</p>
+
+<pre>
+
+<h3>mylibrary-admin.pl</h3>
+<pre>
+     1	MyLibrary::addUserNames
+     2	MyLibrary::cam4all
+     3	MyLibrary::checkLinks
+     4	MyLibrary::createDatabase
+     5	MyLibrary::createDisciplinePages
+     6	MyLibrary::createDisciplines
+     7	MyLibrary::createFreeTemplate
+     8	MyLibrary::createJournal
+     9	MyLibrary::createLibrarians
+    10	MyLibrary::createLibraries
+    11	MyLibrary::createManagers
+    12	MyLibrary::createQSearch
+    13	MyLibrary::createReference
+    14	MyLibrary::createStaticTemplate
+    15	MyLibrary::createTemplate
+    16	MyLibrary::createUniversity
+    17	MyLibrary::customizeBanner
+    18	MyLibrary::customizeDisciplineDefaults
+    19	MyLibrary::customizeDisciplineMOTD
+    20	MyLibrary::customizeFooter
+    21	MyLibrary::customizeLegalDisclaimer
+    22	MyLibrary::customizeMOTD
+    23	MyLibrary::customizeSimpleHelp
+    24	MyLibrary::customizeStyleSheet
+    25	MyLibrary::deleteDatabase
+    26	MyLibrary::deleteDisciplines
+    27	MyLibrary::deleteFreeTemplate
+    28	MyLibrary::deleteJournal
+    29	MyLibrary::deleteLibrarians
+    30	MyLibrary::deleteLibraries
+    31	MyLibrary::deleteManagers
+    32	MyLibrary::deletePatrons
+    33	MyLibrary::deleteQSearch
+    34	MyLibrary::deleteReference
+    35	MyLibrary::deleteStaticTemplate
+    36	MyLibrary::deleteTemplate
+    37	MyLibrary::deleteUniversity
+    38	MyLibrary::displayDatabaseFindForm
+    39	MyLibrary::displayDatabaseInputForm
+    40	MyLibrary::displayDatabaseMenu
+    41	MyLibrary::displayDatabaseSearchResults
+    42	MyLibrary::displayDisciplinePagesMenu
+    43	MyLibrary::displayDisciplinesFindForm
+    44	MyLibrary::displayDisciplinesInputForm
+    45	MyLibrary::displayDisciplinesMenu
+    46	MyLibrary::displayDisciplinesSearchResults
+    47	MyLibrary::displayDisciplineView
+    48	MyLibrary::displayDisciplineViewsMenu
+    49	MyLibrary::displayFreeTemplateMenu
+    50	MyLibrary::displayJournalFindForm
+    51	MyLibrary::displayJournalInputForm
+    52	MyLibrary::displayJournalMenu
+    53	MyLibrary::displayJournalSearchResults
+    54	MyLibrary::displayLibrariansFindForm
+    55	MyLibrary::displayLibrariansInputForm
+    56	MyLibrary::displayLibrariansMenu
+    57	MyLibrary::displayLibrariansSearchResults
+    58	MyLibrary::displayLibrariesFindForm
+    59	MyLibrary::displayLibrariesInputForm
+    60	MyLibrary::displayLibrariesMenu
+    61	MyLibrary::displayLibrariesSearchResults
+    62	MyLibrary::displayLinkCheckerMenu
+    63	MyLibrary::displayMainMenu
+    64	MyLibrary::displayManagersFindForm
+    65	MyLibrary::displayManagersInputForm
+    66	MyLibrary::displayManagersMenu
+    67	MyLibrary::displayManagersSearchResults
+    68	MyLibrary::displayPatronsFindForm
+    69	MyLibrary::displayPatronsMenu
+    70	MyLibrary::displayPatronsSearchResults
+    71	MyLibrary::displayQSearchesMenu
+    72	MyLibrary::displayReferenceFindForm
+    73	MyLibrary::displayReferenceInputForm
+    74	MyLibrary::displayReferenceMenu
+    75	MyLibrary::displayReferenceSearchResults
+    76	MyLibrary::displaySimpleHelpMessage
+    77	MyLibrary::displayStaticTemplateMenu
+    78	MyLibrary::displayTemplateMenu
+    79	MyLibrary::displayUniversityFindForm
+    80	MyLibrary::displayUniversityInputForm
+    81	MyLibrary::displayUniversityMenu
+    82	MyLibrary::displayUniversitySearchResults
+    83	MyLibrary::editDatabase
+    84	MyLibrary::editDisciplineProfiles
+    85	MyLibrary::editDisciplines
+    86	MyLibrary::editFreeTemplate
+    87	MyLibrary::editJournal
+    88	MyLibrary::editLibrarians
+    89	MyLibrary::editLibraries
+    90	MyLibrary::editManagers
+    91	MyLibrary::editPatrons
+    92	MyLibrary::editQSearch
+    93	MyLibrary::editReference
+    94	MyLibrary::editStaticTemplate
+    95	MyLibrary::editTemplate
+    96	MyLibrary::editUniversity
+    97	MyLibrary::findQSearch
+    98	MyLibrary::getCAMDisclaimer
+    99	MyLibrary::getGlobalVariables
+   100	MyLibrary::impersonatePatron
+   101	MyLibrary::initalizeCGI
+   102	MyLibrary::initalizeDBIO
+   103	MyLibrary::initalizeHome
+   104	MyLibrary::listAllFreeTemplates
+   105	MyLibrary::listAllStaticTemplates
+   106	MyLibrary::listAllTemplates
+   107	MyLibrary::manageDiscipline
+   108	MyLibrary::readConfig
+   109	MyLibrary::returnError
+   110	MyLibrary::sendMail
+   111	MyLibrary::setbanner
+   112	MyLibrary::setCAMDisclaimer
+   113	MyLibrary::setDisciplineDefaults
+   114	MyLibrary::setDisciplineMOTD
+   115	MyLibrary::setFooter
+   116	MyLibrary::setgmotd
+   117	MyLibrary::setLegalDisclaimer
+   118	MyLibrary::setPreferences
+   119	MyLibrary::setSimpleHelp
+   120	MyLibrary::setStyleSheet
+   121	MyLibrary::updateDatabase
+   122	MyLibrary::updateDisciplines
+   123	MyLibrary::updateFreeTemplate
+   124	MyLibrary::updateJournal
+   125	MyLibrary::updateLibrarians
+   126	MyLibrary::updateLibraries
+   127	MyLibrary::updateManagers
+   128	MyLibrary::updatePatrons
+   129	MyLibrary::updateReference
+   130	MyLibrary::updateStaticTemplate
+   131	MyLibrary::updateTemplate
+   132	MyLibrary::updateUniversity
+   133	MyLibrary::whosGotTheDiscipline
+   134	MyLibrary::writeAlphabeticLists
+   135	MyLibrary::writeDisciplineIndexFile
+</pre>
+
+<h3>mylibrary.pl</h3>
+<pre>
+     1	MyLibrary::cam4one
+     2	MyLibrary::customizeCAMProfile
+     3	MyLibrary::customizeColors
+     4	MyLibrary::customizeDatabases
+     5	MyLibrary::customizeJournals
+     6	MyLibrary::customizeLibraries
+     7	MyLibrary::customizeNewUser
+     8	MyLibrary::customizePersonalLinks
+     9	MyLibrary::customizeProfile
+    10	MyLibrary::customizeQSearches
+    11	MyLibrary::customizeReference
+    12	MyLibrary::customizeUniversity
+    13	MyLibrary::deleteCAProfile
+    14	MyLibrary::deletePersonalLinks
+    15	MyLibrary::disciplineChange
+    16	MyLibrary::displayAlphabeticDatabases
+    17	MyLibrary::displayAlphabeticJournals
+    18	MyLibrary::displayDisciplineDatabases
+    19	MyLibrary::displayDisciplineJournals
+    20	MyLibrary::displayDisciplineReference
+    21	MyLibrary::displaySimpleHelpMessage
+    22	MyLibrary::findPatron
+    23	MyLibrary::getGlobalVariables
+    24	MyLibrary::gracefulExit
+    25	MyLibrary::initalizeCGI
+    26	MyLibrary::initalizeDBIO
+    27	MyLibrary::initalizeHome
+    28	MyLibrary::killCookie
+    29	MyLibrary::login
+    30	MyLibrary::logout
+    31	MyLibrary::outputMyLibrary
+    32	MyLibrary::processQSearch
+    33	MyLibrary::readConfig
+    34	MyLibrary::readPatron
+    35	MyLibrary::redirectHome
+    36	MyLibrary::returnError
+    37	MyLibrary::saveCookie
+    38	MyLibrary::setCAM
+    39	MyLibrary::setCAProfile
+    40	MyLibrary::setColors
+    41	MyLibrary::setDatabases
+    42	MyLibrary::setDefaultDatabases
+    43	MyLibrary::setDefaultJournals
+    44	MyLibrary::setDefaultReferences
+    45	MyLibrary::setGuestbook
+    46	MyLibrary::setJournals
+    47	MyLibrary::setLibraries
+    48	MyLibrary::setNewUser
+    49	MyLibrary::setPersonalLinks
+    50	MyLibrary::setProfile
+    51	MyLibrary::setQSearches
+    52	MyLibrary::setReference
+    53	MyLibrary::setUniversity
+    54	MyLibrary::signGuestbook
+    55	MyLibrary::simpleRedirect
+    56	MyLibrary::splash
+    57	MyLibrary::updateUsageData
+    58	MyLibrary::validateID
+    59	MyLibrary::whatsNew
+</pre>
+
+<h3>utilities/add2mylibrary.pl</h3>
+<pre>
+     1	MyLibrary::getGlobalVariables
+     2	MyLibrary::getNewSequence
+     3	MyLibrary::gracefulExit
+     4	MyLibrary::initalizeCGI
+     5	MyLibrary::initalizeDBIO
+     6	MyLibrary::prepareAndExecuteSQL
+     7	MyLibrary::readConfig
+     8	MyLibrary::readPatron
+     9	MyLibrary::validateID
+    10	</pre>
+
+<h3>utilities/create-html.pl</h3>
+<pre>
+     1	MyLibrary::getNewTitles
+     2	MyLibrary::initalizeDBIO
+     3	MyLibrary::readConfig
+</pre>
+
+<h3>utilities/generate-key.pl</h3>
+<pre>
+     1MyLibrary::generateKey
+</pre>
+
+<h3>utilities/import-new-titles.pl</h3>
+<pre>
+     1  MyLibrary::initalizeDBIO
+     2  MyLibrary::prepareAndExecuteSQL
+     3  MyLibrary::readConfig
+</pre>
+
+<h3>utilities/make-pathfinder.pl</h3>
+<pre>
+     1	MyLibrary::findAllDatabases
+     2	MyLibrary::findAllJournals
+     3	MyLibrary::findAllReferences
+     4	MyLibrary::gDBhandle
+     5	MyLibrary::getGlobalVariables
+     6	MyLibrary::initalizeCGI
+     7	MyLibrary::initalizeDBIO
+     8	MyLibrary::readConfig
+</pre>
+
+<h3>utilities/mylibrary2rdf.pl</h3>
+<pre>
+     1	MyLibrary::findAllDatabases
+     2	MyLibrary::findAllDisciplines
+     3	MyLibrary::findAllJournals
+     4	MyLibrary::findAllLibraries
+     5	MyLibrary::findAllQSearches
+     6	MyLibrary::findAllReferences
+     7	MyLibrary::findAllUniversity
+     8	MyLibrary::initalizeDBIO
+     9	MyLibrary::prepareAndExecuteSQL
+    10	MyLibrary::readConfig
+</pre>
+
+<h3>utilities/mylibrary2swish.pl</h3>
+<pre>
+     1	MyLibrary::findAllDatabases
+     2	MyLibrary::findAllDisciplines
+     3	MyLibrary::findAllJournals
+     4	MyLibrary::findAllReferences
+     5	MyLibrary::initalizeDBIO
+     6	MyLibrary::readConfig
+</pre>
+
+<h3>utilities/reports.pl</h3>
+<pre>
+     1	MyLibrary::displayAdminBanner
+     2	MyLibrary::getGlobalVariables
+     3	MyLibrary::gracefulExit
+     4	MyLibrary::initalizeCGI
+     5	MyLibrary::initalizeDBIO
+     6	MyLibrary::initalizeHome
+     7	MyLibrary::prepareAndExecuteSQL
+     8	MyLibrary::readConfig
+</pre>
+
+<h3>utilities/run-cam-cron.pl</h3>
+<pre>
+     1	MyLibrary::buildEmail
+     2	MyLibrary::findPatrons4CAM
+     3	MyLibrary::getCAProfiles
+     4	MyLibrary::getGlobalVariables
+     5	MyLibrary::getNewTitles
+     6	MyLibrary::initalizeDBIO
+     7	MyLibrary::readConfig
+</pre>
+
+<h3>utilities/search.pl</h3>
+<pre>
+     1	MyLibrary::getGlobalVariables
+     2	MyLibrary::initalizeCGI
+     3	MyLibrary::initalizeDBIO
+     4	MyLibrary::readConfig
+     5	MyLibrary::updateBanner
+     6	MyLibrary::uri
+</pre>
+
+<h3>utilities/skeleton.pl</h3>
+<pre>
+     1	MyLibrary::displayAdminBanner
+     2	MyLibrary::getGlobalVariables
+     3	MyLibrary::gracefulExit
+     4	MyLibrary::initalizeCGI
+     5	MyLibrary::initalizeDBIO
+     6	MyLibrary::readConfig
+</pre>
+
+<h3>utilities/top.pl</h3>
+<pre>
+     1	MyLibrary::initalizeDBIO
+     2	MyLibrary::prepareAndExecuteSQL
+     3	MyLibrary::readConfig
+</pre>
+
+</td>
+</tr>
+</table>
+
+<hr>
+<div class="menu">
+<table width="100%">
+<tr align="center">
+<td><a href="index.html">0</a>&nbsp;&nbsp;
+<a href="why.html">1</a>&nbsp;&nbsp;
+<a href="plan.html">2</a>&nbsp;&nbsp;
+<a href="second.html">3</a>&nbsp;&nbsp;
+<a href="steps.html">4</a>&nbsp;&nbsp;
+<a href="refactor.html">5</a>&nbsp;&nbsp;
+<a href="oop.html">6</a>&nbsp;&nbsp;
+<a href="subs.html">7</a>&nbsp;&nbsp;
+<a href="calls.html">    <font class="active">8</font></a>&nbsp;&nbsp;
+<a href="missing.html">9</a>&nbsp;&nbsp;
+<a href="usage.html">10</a>&nbsp;&nbsp;
+<a href="tables.html">11</a>&nbsp;&nbsp;
+<a href="where.html">12</a>&nbsp;&nbsp;
+
+</div>
+
+</body>
+</html>

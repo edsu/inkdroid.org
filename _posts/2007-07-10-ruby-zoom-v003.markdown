@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: ruby-zoom v0.3.0
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 155
+wordpress_url: http://www.inkdroid.org/journal/2007/07/10/ruby-zoom-v003/
+date: '2007-07-10 13:41:04 +0000'
+date_gmt: '2007-07-10 20:41:04 +0000'
+tags: []
+comments: []
+---
+<p><a href="http://www.rubygems.org"><img border="0" align="left" src="http://web.archive.org/web/20070628193008/http://rubygems.org/images/rubygems-125x125t.png" /></a>Thanks to some prodding from <a href="http://www.miskatonic.org/">William Denton</a> and <a href="http://rubyforge.org/users/jaron/">Jason Ronallo</a> and the kindness of <a href="http://web.archive.org/web/20090618073317/http://chopine.be:80/lrz/">Laurent Sansonetti</a> I've been added as a developer to the <a href="http://rubyforge.org/projects/ruby-zoom/">ruby-zoom</a> project which provides a Ruby wrapper to the <a href="http://www.indexdata.dk/yaz/">yaz </a>Z39.50 library. I essentially wanted to remove some unused code from the project that was interfering with the <a href="http://rubyforge.org/projects/ruby-marc">ruby-marc</a> gem ... and I also wanted to create gem for ruby-zoom. This was the first time I've tried packaging up a C wrapper as a gem and it was remarkably smooth. I also added a test suite and a Rakefile. So assuming you have yaz installed you can install ruby-zoom with:</p>
+<pre>% gem install zoom</pre>
+<p>I'll admit, I'm no huge fan of <a href="http://www.loc.gov/z3950/agency/">Z39.50 </a>but the fact remains that it's pretty much the most widely deployed machine API for getting at bibliographic data locked up in online catalogs. It's really nice to see forward thinking systems at Talis, Evergreen and Koha who have (or at least experimented with) <a href="http://opensearch.org">OpenSearch</a> implementations.</p>

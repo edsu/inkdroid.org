@@ -1,0 +1,206 @@
+pylucene - search for python
+============================
+
+import PyLucene
+---------------
+
+:Author: Ed Summers <ehs@pobox.com>
+:Version: 1 
+
+What is Search
+--------------
+
+* lycos, altavista, google, spotlight ...
+* indexing - inverted index
+* searching - queries 
+* information retrieval (IR)
+
+Search Technologies
+-------------------
+
+* swish__ 
+* mysql - fulltext__ 
+* pg - tsearch2__
+* oracle - intermedia__
+* apache lucene__
+
+__ http://swish-e.org/
+__ http://lucene.apache.org/java/docs/index.html
+__ http://dev.mysql.com/doc/mysql/en/fulltext-search.html
+__ http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/
+__ http://www.orafaq.com/faqctx.htm
+
+Apache Lucene
+-------------
+
+* good user community (5 years)
+* scalable
+* ranked searching
+* sorting by any field
+* powerful query types
+* search across multiple indexes
+
+pylucene
+--------
+
+* Chandler__ (OSAF__) 
+* gcj__
+* swig__
+* freakin' fast
+* javadoc 
+* byte compatability
+* Andi Vajda's PyCon 2005 paper__
+
+__ http://www.osafoundation.org/Chandler_Compelling_Vision.htm
+__ http://pylucene.osafoundation.org/
+__ http://gcc.gnu.org/java/
+__ http://www.swig.org/
+__ http://www.python.org/pycon/2005/papers/27/paper.txt
+
+Indexing 
+--------
+
+* Directory 
+* IndexWriter
+* Document
+* Term
+* Analyzer
+
+Searching
+---------
+
+* Directory
+* IndexSearcher
+* Analyzer
+* QueryParser
+* Hits
+
+Indexing an Mbox
+----------------
+
+* read in mbox 
+* extract data 
+* create lucene document 
+* write document to index
+
+Indexing Code
+-------------
+
+::
+
+    from mailbox import UnixMailbox
+    from PyLucene import Field, Document, StandardAnalyzer, FSDirectory, \
+        IndexWriter
+
+    store = FSDirectory.getDirectory( "chipy-index", True )
+    writer = IndexWriter( store, StandardAnalyzer(), True )
+
+    mbox = UnixMailbox( open('chipy.mbox') )
+    while True:
+        msg = mbox.next()
+        if msg == None: break
+        writer.addDocument( EmailDoc(msg) )
+
+    writer.close()
+
+EmailDoc
+--------
+
+:: 
+
+    from PyLucene import Document, Field
+
+    class EmailDoc( Document ):
+
+        def __init__( self, msg ):
+            Document.__init__( self )
+
+            sender = msg.getheader('From')
+            self.add( Field.Text( 'from', sender ) )
+
+            subject = msg.getheader( 'Subject' )
+            self.add( Field.Text( 'subject', subject ) )
+
+            body = msg.fp.read()
+            self.add( Field.Text( 'body', body ) )
+
+            id = msg.getheader('Message-ID')
+            self.add( Field.Keyword( 'id', id ) )
+
+            self.add( Field.Text( 'all', sender + subject + body ) )
+
+Searching the Email 
+-------------------
+
+- read and parse query
+- create searcher
+- execute search
+- iterate through hits
+
+Searching Code
+--------------
+
+::
+
+    from sys import argv
+    from PyLucene import FSDirectory, IndexSearcher, QueryParser, \
+        StandardAnalyzer
+
+    string = argv[1].strip()
+    directory = FSDirectory.getDirectory( 'chipy-index', False )
+    searcher = IndexSearcher( directory )
+    query = QueryParser.parse( string, 'all', StandardAnalyzer() )
+    hits = searcher.search( query )
+
+    for i in range(0,hits.length()):
+        doc = hits.doc(i)
+        print "ID: %s" % doc.getField('id').stringValue()
+        print "From: %s" % doc.getField('from').stringValue()
+        print "Subject: %s" % doc.getField('subject').stringValue()
+        print "Date: %s" % doc.getField('date').stringValue()
+        print
+
+Printing An Email
+-----------------
+
+::
+
+    from sys import argv
+    from PyLucene import FSDirectory, IndexSearcher, TermQuery, Term
+
+    id = argv[1].strip()
+    directory = FSDirectory.getDirectory( 'chipy-index', False )
+    searcher = IndexSearcher( directory )
+    query = TermQuery( Term( 'id', id ) )
+    hits = searcher.search( query )
+
+    doc = hits.doc(0)
+    print "ID: %s" % doc.getField('id').stringValue()
+    print "From: %s" % doc.getField('from').stringValue()
+    print "Subject: %s" % doc.getField('subject').stringValue()
+    print "Date: %s" % doc.getField('date').stringValue()
+    print doc.getField('body').stringValue()
+    print 
+
+Adios Amigos
+------------
+
+You can download the src code for these examples here. If you want an mbox to
+play with you can grab them from the `chipy list archives`__.
+
+* index.py__ 
+* email.py__ 
+* search.py__
+* print.py__
+
+Thanks to rst2s5__ these slides__ were written in reStructuredText__.
+
+__ http://www.lonelylion.com/pipermail/chipy/
+__ src/index.py
+__ src/email.py
+__ src/search.py
+__ src/print.py
+__ http://homepage.hispeed.ch/py430/python/
+__ pylucene.txt
+__ http://docutils.sourceforge.net/rst.html
+

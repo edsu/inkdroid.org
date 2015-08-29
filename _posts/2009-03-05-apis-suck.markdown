@@ -1,0 +1,67 @@
+---
+layout: post
+status: publish
+published: true
+title: APIs Suck
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 831
+wordpress_url: http://inkdroid.org/journal/?p=831
+date: '2009-03-05 08:57:01 +0000'
+date_gmt: '2009-03-05 15:57:01 +0000'
+tags:
+- http
+- data
+- web
+- loc
+- politics
+- publicdomain
+- apis
+comments:
+- id: 81219
+  author: dilettantes.blogspot.com/
+  author_email: ''
+  author_url: http://dilettantes.blogspot.com/
+  date: '2009-03-07 10:24:53 +0000'
+  date_gmt: '2009-03-07 17:24:53 +0000'
+  content: "I know Anders was being kind of flip when he made this remark (since immediately
+    after it he said that Libris had APIs and that's what they used), but I also think
+    sentiment is a little disingenuous.  APIs that suck suck.  On the flipside, if
+    all we had to work with from any organization where big dumps of data, <em>that
+    would probably suck even more</em>.  The notion of having to bootstrap a heap
+    of data into some usable form, just to even see if there's anything useful in
+    it, seems inefficient and counter productive.\r\n\r\nI guess my point is, this
+    isn't an either/or proposition.  There are plenty of organizations that provide
+    both an API <em>and</em> their entire data set.  Govtrack.us does this nicely,
+    I think.  You can pick and choose between entire datasets and a la carte access
+    as your needs determine.\r\n\r\nI readily admit that I'm biased on this.  For
+    the last year, majority of my time has been spent designing an API intended primarily
+    to make all of your data available for reuse.  Still, it's an API.  There will
+    be data (personal, borrower data, for example) that people will want to control.
+    \ At least, I hope people will want to control.\r\n\r\nBut just because it's an
+    API, doesn't mean that it's the same thing as Facebook's or Worldcat's API.  An
+    API doesn't <em>inherently</em> have to be restrictive.  There are just some organizations
+    that feel less restriction on the use of their data is more disruptive than they
+    feel comfortable with, with regard to their business model.\r\n\r\nThat's a totally
+    different blog post comment, however."
+- id: 81220
+  author: ed
+  author_email: ehs@pobox.com
+  author_url: http://www.inkdroid.org
+  date: '2009-03-07 11:34:20 +0000'
+  date_gmt: '2009-03-07 18:34:20 +0000'
+  content: "Yeah, agreed on it not being either/or. But my main point is that it's
+    probably easiest to make the data available first in some raw form, and then make
+    the shiny API later--after it's easier to see how people are using the data. \r\n\r\nI
+    guess the title of my blog post sucks, much more than APIs :-)"
+---
+<p><a href="http://yeswescan.org"><img src="http://inkdroid.org/images/yeswescan.png" style="float: left; border: 0; margin-right: 10px;" /></a></p>
+<p>With <a href="http://www.transparencycamp.org/">TransparencyCamp</a> last weekend, <a href="http://groups.google.com/group/sunlightlabs/browse_thread/thread/dfd9fd76be9b6f1b">news</a> of the mandated use of feed syndication by Federal Agencies receiving funds from the Recovery Act, recent blog posts by <a href="http://radar.oreilly.com/2009/03/bulk-data-downloads-government-transparency-breakthrough.html">Tim O'Reilly</a> and the <a href="http://web.archive.org/web/20090415164126/http://sla-divisions.typepad.com:80/government_information/2009/03/newsweek-reports-on-the-peoples-data-oogl.html">Special Libraries Association</a>, an article in <a href="http://web.archive.org/web/20090416053255/http://www.newsweek.com:80/id/186991">Newsweek</a>, news of Carl Malamud's <a href="http://yeswescan.org/">bid</a> to become the Public Printer of the United States (aka head of the GPO), and the W3C eGov <a href="http://www.w3.org/2007/eGov/IG/wiki/F2F2">meeting</a> coming up next week it looks like issues related public access to government data (specifically Library of Congress bibliographic and legislative data) are hitting the mainstream media, and getting political mind-share. Exciting times.</p>
+<p>One thing that bubbled up at <a href="http://code4lib.org/2009">code4lib2009</a> last week was the notion that <em>APIs Suck</em>.  Not that web2.0 APIs are wrong or bad...they're actually great, especially when compared to a world where no machine access to the data existed before.  The point is that sometimes just having access to the raw data in the 'lowest level format' is the ideal. Rather than service providers trying to guess what you are trying to do with their data, and absorbing the computational responsibility of delivering it, why not make the data readily available using a protocol like HTTP? Put the data in a directory, turn on Indexes, do some sensible caching, and maybe gzip compression and let people grab it, and robots crawl it. Or maybe use something like <a href="http://aws.amazon.com/publicdatasets/">Amazon Public Datasets</a>. It seems like a relatively easy first step, that involves very little custom software development, and one with the ability make a huge impact.</p>
+<p>I'm a federal employee, so I really can't come out and formally advocate directly for political appointments. But I have to say it would great to see someone like Malamud at the helm of the GPO, since he's been doing just this kind of <a href="http://bulk.resource.org">work</a> for 20 years. Exciting times.</p>

@@ -1,0 +1,22 @@
+---
+layout: post
+status: publish
+published: true
+title: govtrack
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 13
+wordpress_url: http://www.inkdroid.org/journal/?p=13
+date: '2005-06-09 10:08:05 +0000'
+date_gmt: '2005-06-09 17:08:05 +0000'
+tags: []
+comments: []
+---
+<p><a href="http://www.govtrack.us">GovTrack</a> has done some awesome work generating publicly available <a href="http://web.archive.org/web/20080517173534/http://www.govtrack.us/source.xpd">machine readable data</a> for US government information. After the last election I decided that I really wanted to get involved in some sort of volunteer technology/political activity, so I started googling and found GovTrack pretty much just starting up. Now there is a loose affiliation of similar sites (including GovTrack) called <a href="http://www.ogdex.com/">Ogdex</a> who are attempting to foster the collection of publicly available government information. In particular there has been some <a href="http://groups.yahoo.com/group/govtrack/message/138">talk</a> on the govtrack discussion list about local efforts to add state data to the collection of federal data...and even bounties for getting state data collection going.  I'm going to take a stab at writing some scraping utilities for gathering together Illinois data and will report back with how it goes. If you are interested in helping out details are <a href="http://www.ogdex.com/warehouse/space/Wish+List">available</a>.</p>
+<p><i>Update</i>: Joshua just set up a new drupal <a href="http://web.archive.org/web/20060220120807/http://www.govtrack.us:80/dev/">site</a> for govtrack development.</p>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><result><param>99-27665</param><normalLCCN>99027665</normalLCCN><testedLCCN>99027665</testedLCCN><verifiedLCCN>99027665</verifiedLCCN><searchTerm>99027665</searchTerm><zs:searchRetrieveResponse xmlns:cinclude="http://apache.org/cocoon/include/1.0" xmlns:zs="http://www.loc.gov/zing/srw/"><zs:version>1.1</zs:version><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>info:srw/schema/1/marcxml-v1.1</zs:recordSchema><zs:recordPacking>xml</zs:recordPacking><zs:recordData><record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01271cam a2200313 a 4500</leader>
+  <controlfield tag="001">1213651</controlfield>
+  <controlfield tag="005">20031223211250.0</controlfield>
+  <controlfield tag="008">990407s1999    cau           001 0 eng  </controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">(DLC)   99027665</subfield>
+  </datafield>
+  <datafield tag="906" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">1</subfield>
+    <subfield code="e">ocip</subfield>
+    <subfield code="f">19</subfield>
+    <subfield code="g">y-gencatlg</subfield>
+  </datafield>
+  <datafield tag="925" ind1="0" ind2=" ">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">2 shelf copies</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield tag="955" ind1=" " ind2=" ">
+    <subfield code="a">pc01 to ja00 04-08-99; lk25 04-16-99; lk25 to Subj. 04-19-99; lj07 to ASCD Tech for QA76 04-19-99; jf08 04-19-99 to SL;jf12 04-20-99 to ddc;  CIP ver. pv03 to BCCD 11-23-99; copy 2 added; jg22 07-05-00; to BCCD 07-05-00</subfield>
+  </datafield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   99027665 </subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0062515861 (cloth)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">006251587X (paper)</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">TK5105.888</subfield>
+    <subfield code="b">.B46 1999</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="0">
+    <subfield code="a">025.04</subfield>
+    <subfield code="2">21</subfield>
+  </datafield>
+  <datafield tag="100" ind1="2" ind2=" ">
+    <subfield code="a">Berners-Lee, Tim.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Weaving the Web :</subfield>
+    <subfield code="b">the original design and ultimate destiny of the World Wide Web by its inventor /</subfield>
+    <subfield code="c">Tim Berners-Lee with Mark Fischetti.</subfield>
+  </datafield>
+  <datafield tag="250" ind1=" " ind2=" ">
+    <subfield code="a">1st ed.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">San Francisco :</subfield>
+    <subfield code="b">HarperSanFrancisco,</subfield>
+    <subfield code="c">c1999.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">xi, 226 p. ;</subfield>
+    <subfield code="c">25 cm.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Includes index.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">World Wide Web.</subfield>
+  </datafield>
+  <datafield tag="600" ind1="2" ind2="0">
+    <subfield code="a">Berners-Lee, Tim.</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Fischetti, Mark.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="2">
+    <subfield code="3">Publisher description</subfield>
+    <subfield code="u">http://www.loc.gov/catdir/description/hc044/99027665.html</subfield>
+  </datafield>
+  <datafield tag="984" ind1=" " ind2=" ">
+    <subfield code="a">gsl</subfield>
+  </datafield>
+</record></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records></zs:searchRetrieveResponse></result>

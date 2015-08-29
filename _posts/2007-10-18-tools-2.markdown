@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: tools
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 170
+wordpress_url: http://www.inkdroid.org/journal/2007/10/18/tools-2/
+date: '2007-10-18 08:50:41 +0000'
+date_gmt: '2007-10-18 15:50:41 +0000'
+tags: []
+comments:
+- id: 43593
+  author: "&#964;&#949;&#967;&#957;&#959;&#963;&#959;&#966;&#953;&#945; &raquo; Blog
+    Archive &raquo; My Left Arm for a Teleporter"
+  author_email: ''
+  author_url: http://web.archive.org/web/20100106001739/http://lackoftalent.org:80/michael/blog/2007/10/19/my-left-arm-for-a-teleporter/
+  date: '2007-10-18 23:09:30 +0000'
+  date_gmt: '2007-10-19 06:09:30 +0000'
+  content: |
+    <p>[...] one of the big projects my team has been working on got a write-up in the NY Times today (hat tip: Ed). I can&#8217;t wait to jump on board and start wrapping my mind around these projects. I fully [...]</p>
+- id: 44287
+  author: inkdroid &raquo; Blog Archive &raquo; wdl peeps
+  author_email: ''
+  author_url: http://www.inkdroid.org/journal/2007/10/31/wdl-peeps/
+  date: '2007-10-31 09:58:05 +0000'
+  date_gmt: '2007-10-31 16:58:05 +0000'
+  content: "[...] inkdroid beep beep      &laquo; tools [...]"
+---
+<p><a href="http://memory.loc.gov/cgi-bin/query/r?ammem/fawbib:@field(DOCID+@lit(apc0042))"><img src="/images/tools.gif" title="Hammer and wood-working tools attributed to Thomas Lincoln" style="margin-right: 10px; float: left; border: none" /></a><br />
+At $work recently many late nights were spent hackety-hacking on a prototype that got <a href="http://www.nytimes.com/2007/10/18/technology/18world.html">written up</a> in the New York Times today. Apart from some <a href="http://www.worlddigitallibrary.org">promotional</a> materials, not much is available to the public just yet. I just got pulled in near the end to do some search stuff. Over the past few months I've seen <a href="http://onebiglibrary.net">dchud</a> in top form managing complicated data/organizational workflows while making technical decisions. A nice outgrowth of working with smarties is ending up with a fun and productive technology stack: <a href="http://python.org">python</a>, <a href="http://www.djangoproject.com/">django</a>, <a href="http://www.postgresql.org/">postgres</a>, <a href="http://jquery.com/">jquery</a>, <a href="http://lucene.apache.org/solr">solr</a>, <a href="http://tilecache.org/">tilecache</a>, <a href="http://www.ubuntu.com/">ubuntu</a>, <a href="http://trac.edgewall.org/">trac</a>, <a href="http://subversion.tigris.org/">subversion</a>, <a href="http://www.vmware.com/">vmware</a>. Given the press and the commitment to UNESCO I think the code is going to start being a bit more than a prototype pretty soon :-)</p>

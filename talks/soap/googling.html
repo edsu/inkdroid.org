@@ -1,0 +1,259 @@
+<html>
+<head>
+<title>Googling</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div align="center">
+<h3>Googling</h3>
+</div>
+
+<hr>
+
+<table width="100%">
+<td>
+
+<p>If there was extra time I was going to talk about my googling current
+awareness program. I thought it was a simple but effective use of SOAP.
+If you want to run it, <a href="/code/tools/googling">download</a> it.</p>
+
+<pre>
+
+
+<font color="red">     1</font>	#!/usr/bin/perl
+<font color="red">     2</font>	
+<font color="red">     3</font>	=head 1 NAME
+<font color="red">     4</font>	
+<font color="red">     5</font>	    googling - current awareness via email
+<font color="red">     6</font>	
+<font color="red">     7</font>	=head1 SYNOPSIS
+<font color="red">     8</font>	
+<font color="red">     9</font>	    googling --query='funkadelic' --email='george@clinton.com'
+<font color="red">    10</font>		--key='IXJGrPF_THIS_WON'T_WORK_1bB8+FCO';
+<font color="red">    11</font>	
+<font color="red">    12</font>	=head1 DESCRIPTION
+<font color="red">    13</font>	
+<font color="red">    14</font>	googling will perform a search of Google and send results to an email 
+<font color="red">    15</font>	or to STDOUT if no email is given. 
+<font color="red">    16</font>	
+<font color="red">    17</font>	=head1 OPTIONS
+<font color="red">    18</font>	
+<font color="red">    19</font>	=head2 --query
+<font color="red">    20</font>	
+<font color="red">    21</font>	You must pass this in since it's the query you want to run against google.
+<font color="red">    22</font>	
+<font color="red">    23</font>	=head2 --email
+<font color="red">    24</font>	
+<font color="red">    25</font>	If you'd like to have results sent via email use this option. You can use
+<font color="red">    26</font>	more than once if you'd like the report to go to more than one address.
+<font color="red">    27</font>	If not supplied results will go to STDOUT. It's a useful option if you want
+<font color="red">    28</font>	(as I did) to run the query from cron.
+<font color="red">    29</font>	
+<font color="red">    30</font>	=head2 --db
+<font color="red">    31</font>	
+<font color="red">    32</font>	Specify the sqlite database to use. If not supplied it defaults to 
+<font color="red">    33</font>	googling.db in the pwd.
+<font color="red">    34</font>	
+<font color="red">    35</font>	=head2 --key
+<font color="red">    36</font>	
+<font color="red">    37</font>	Specify your Google API Key. See http://www.google.com/apis/ to get your 
+<font color="red">    38</font>	own.
+<font color="red">    39</font>	
+<font color="red">    40</font>	=head2 --limit
+<font color="red">    41</font>	
+<font color="red">    42</font>	If you'd like to stop checking google after a certain amount of hits use
+<font color="red">    43</font>	this option. Default is 100.
+<font color="red">    44</font>	
+<font color="red">    45</font>	=head2 --debug
+<font color="red">    46</font>	
+<font color="red">    47</font>	See diagnostic information.
+<font color="red">    48</font>	
+<font color="red">    49</font>	=head2 --help
+<font color="red">    50</font>	
+<font color="red">    51</font>	See this message.
+<font color="red">    52</font>	
+<font color="red">    53</font>	=head1 SEE ALSO
+<font color="red">    54</font>	
+<font color="red">    55</font>	=head1 AUTHOR
+<font color="red">    56</font>	
+<font color="red">    57</font>	=over 4
+<font color="red">    58</font>	
+<font color="red">    59</font>	=item Ed Summers E&lt;lt&gt;ehs@pobox.comE&lt;gt>
+<font color="red">    60</font>	
+<font color="red">    61</font>	=back
+<font color="red">    62</font>	
+<font color="red">    63</font>	=cut
+<font color="red">    64</font>	
+<font color="red">    65</font>	use strict;
+<font color="red">    66</font>	use warnings;
+<font color="red">    67</font>	use Getopt::Long;
+<font color="red">    68</font>	use Pod::Usage;
+<font color="red">    69</font>	use SOAP::Lite;
+<font color="red">    70</font>	use DBI;
+<font color="red">    71</font>	use Mail::Send;
+<font color="red">    72</font>	
+<font color="red">    73</font>	## gather options
+<font color="red">    74</font>	my ( $limit, $query, $db, $debug, $help, $googleId, @emails );
+<font color="red">    75</font>	GetOptions( 
+<font color="red">    76</font>	    'limit:i'	=&gt; \$limit,
+<font color="red">    77</font>	    'query:s'	=&gt; \$query,
+<font color="red">    78</font>	    'email:s'	=&gt; \@emails,
+<font color="red">    79</font>	    'key:s'	=&gt; \$googleId,
+<font color="red">    80</font>	    'db:s'	=&gt; \$db,
+<font color="red">    81</font>	    'debug!'	=&gt; \$debug,
+<font color="red">    82</font>	    'help!'	=&gt; \$help,
+<font color="red">    83</font>	);
+<font color="red">    84</font>	
+<font color="red">    85</font>	if ( !$query or !$googleId or $help ) { pod2usage( 1 ); }
+<font color="red">    86</font>	
+<font color="red">    87</font>	$limit = 100 if !$limit;
+<font color="red">    88</font>	$db = 'googling.db' if ! $db;
+<font color="red">    89</font>	
+<font color="red">    90</font>	
+<font color="red">    91</font>	## database access to remember what results have been seen 
+<font color="red">    92</font>	## in previous runs
+<font color="red">    93</font>	my $dbh = getDbh( $db );
+<font color="red">    94</font>	my $select = $dbh-&gt;prepare( qq( 
+<font color="red">    95</font>	    select count(*) from seen where url = ? and query = ?
+<font color="red">    96</font>	) );
+<font color="red">    97</font>	my $insert = $dbh-&gt;prepare( qq( 
+<font color="red">    98</font>	    insert into seen (url,query) values(?,?) 
+<font color="red">    99</font>	) );
+<font color="red">   100</font>	
+<font color="red">   101</font>	
+<font color="red">   102</font>	## build the variables that we are going to pass to our SOAP request
+<font color="red">   103</font>	
+<font color="red">   104</font>	SOAP::Data-&gt;import('name');
+<font color="red">   105</font>	
+<font color="red">   106</font>	
+<font color="red">   107</font>	my $key = name('key')-&gt;value( $googleId );
+<font color="red">   108</font>	my $q = name('q',$query)-&gt;type('string');
+<font color="red">   109</font>	my $maxResults = name('maxResults',10)-&gt;type('int');
+<font color="red">   110</font>	my $filter = name('filter',1)-&gt;type('boolean');
+<font color="red">   111</font>	my $restrict = name('restrict','')-&gt;type('string');
+<font color="red">   112</font>	my $safeSearch = name('safeSearch',0)-&gt;type('boolean');
+<font color="red">   113</font>	my $langRestrict = name('lr','')-&gt;type('string');
+<font color="red">   114</font>	my $inputEncoding = name('ie','')-&gt;type('string');
+<font color="red">   115</font>	my $outputEncoding = name('oe','')-&gt;type('string');
+<font color="red">   116</font>	
+<font color="red">   117</font>	## storage variables 
+<font color="red">   118</font>	my @results = ();
+<font color="red">   119</font>	my $more = 1;
+<font color="red">   120</font>	my $startElement = 0;
+<font color="red">   121</font>	my $results;
+<font color="red">   122</font>	
+<font color="red">   123</font>	## while we haven't exceeded the citation limit 
+<font color="red">   124</font>	while ( $startElement &lt; $limit ) {
+<font color="red">   125</font>	
+<font color="red">   126</font>	    ## create start element based on the last result record we read in
+<font color="red">   127</font>	    ## google limits query results to a set of 10 at a time
+<font color="red">   128</font>	    my $start = name('start',$startElement)-&gt;type('int');
+<font color="red">   129</font>	
+<font color="red">   130</font>	    ## issue the query
+<font color="red">   131</font>	    my $response = SOAP::Lite
+<font color="red">   132</font>		-&gt; uri( 'urn:GoogleSearch' )
+<font color="red">   133</font>		-&gt; proxy( 'http://api.google.com/search/beta2' )
+<font color="red">   134</font>		-&gt; doGoogleSearch( $key, $q, $start, $maxResults, $filter, 
+<font color="red">   135</font>		    $restrict, $safeSearch, $langRestrict, $inputEncoding, 
+<font color="red">   136</font>		    $outputEncoding );
+<font color="red">   137</font>	
+<font color="red">   138</font>	    ## if we didn't get any more results we're done
+<font color="red">   139</font>	    last if ( $startElement == $response-&gt;result->{ endIndex } );
+<font color="red">   140</font>	
+<font color="red">   141</font>	    ## go through each item in the result set
+<font color="red">   142</font>	    foreach my $item ( @{ $response-&gt;result()->{ resultElements } } ) {
+<font color="red">   143</font>	
+<font color="red">   144</font>		## look in the db to see if we've seen this url for this query before	
+<font color="red">   145</font>		$select-&gt;execute( $item->{ URL }, $query );
+<font color="red">   146</font>		my ( $result ) = $select-&gt;fetchrow_array();
+<font color="red">   147</font>	
+<font color="red">   148</font>		## if it's a new url add it to the database (so we don't
+<font color="red">   149</font>		## report it again), and add it to the results
+<font color="red">   150</font>		if ( ! $result ) {
+<font color="red">   151</font>		    $insert-&gt;execute( $item->{ URL }, $query );
+<font color="red">   152</font>		    if ( !@emails ) { 
+<font color="red">   153</font>			print $item-&gt;{ URL }, "\n", $item->{ snippet }, "\n", "\n";
+<font color="red">   154</font>		    } else {
+<font color="red">   155</font>			push( @results, [ $item-&gt;{ URL }, $item->{ snippet } ] );
+<font color="red">   156</font>		    }
+<font color="red">   157</font>		}
+<font color="red">   158</font>	
+<font color="red">   159</font>	    }
+<font color="red">   160</font>	
+<font color="red">   161</font>	    ## set the next start element to the index of the last item in this
+<font color="red">   162</font>	    ## result set
+<font color="red">   163</font>	    $startElement = $response-&gt;result->{ endIndex };
+<font color="red">   164</font>	
+<font color="red">   165</font>	}
+<font color="red">   166</font>	
+<font color="red">   167</font>	## if new results were found, and we have been asked to send an email
+<font color="red">   168</font>	if ( @results and @emails ) { 
+<font color="red">   169</font>	    my $msg = Mail::Send-&gt;new();
+<font color="red">   170</font>	    $msg-&gt;to( join( ',', @emails ) );
+<font color="red">   171</font>	    $msg-&gt;subject( "googling: $query" );
+<font color="red">   172</font>	    my $fh = $msg-&gt;open( 'qmail' );
+<font color="red">   173</font>	    my $count = 1;
+<font color="red">   174</font>	    foreach ( @results ) { 
+<font color="red">   175</font>		$fh-&gt;print( "[$count] ", $_->[0], "\n" );
+<font color="red">   176</font>		if ( $_-&gt;[1] ) { $fh->print( $_->[1], "\n" ); }
+<font color="red">   177</font>		$fh-&gt;print( "\n" );
+<font color="red">   178</font>		$count++;
+<font color="red">   179</font>	    }
+<font color="red">   180</font>	    $fh-&gt;close();
+<font color="red">   181</font>	}
+<font color="red">   182</font>	
+<font color="red">   183</font>	## disconnect from db
+<font color="red">   184</font>	$select-&gt;finish();
+<font color="red">   185</font>	$insert-&gt;finish();
+<font color="red">   186</font>	$dbh-&gt;disconnect();
+<font color="red">   187</font>	
+<font color="red">   188</font>	
+<font color="red">   189</font>	## done
+<font color="red">   190</font>	
+<font color="red">   191</font>	
+<font color="red">   192</font>	sub getDbh {
+<font color="red">   193</font>	    my $db = shift;
+<font color="red">   194</font>	    ## if the database file exists attempt to connect to it
+<font color="red">   195</font>	    if ( -f $db ) { 
+<font color="red">   196</font>		return( DBI-&gt;connect( "dbi:SQLite:$db" ) );
+<font color="red">   197</font>	    }
+<font color="red">   198</font>	    ## otherwise create the datbase, and table
+<font color="red">   199</font>	    my $dbh = DBI-&gt;connect( "dbi:SQLite:$db" );
+<font color="red">   200</font>	    $dbh-&gt;do( 'create table seen (url varchar(500), query varchar(500))' );
+<font color="red">   201</font>	    return( $dbh );
+<font color="red">   202</font>	}
+<font color="red">   203</font>	
+<font color="red">   204</font>	
+
+</pre>
+
+</td>
+</tr>
+</table>
+
+<hr>
+<div class="menu">
+<table width="100%">
+<tr align="center">
+<td><a href="index.html">0</a>&nbsp;&nbsp;
+<a href="problem.html">1</a>&nbsp;&nbsp;
+<a href="solution.html">2</a>&nbsp;&nbsp;
+<a href="rpc.html">3</a>&nbsp;&nbsp;
+<a href="xmlrpc.html">4</a>&nbsp;&nbsp;
+<a href="request.html">5</a>&nbsp;&nbsp;
+<a href="response.html">6</a>&nbsp;&nbsp;
+<a href="client.html">7</a>&nbsp;&nbsp;
+<a href="cgi.html">8</a>&nbsp;&nbsp;
+<a href="modperl.html">9</a>&nbsp;&nbsp;
+<a href="googleclient.html">10</a>&nbsp;&nbsp;
+<a href="googlerequest.html">11</a>&nbsp;&nbsp;
+<a href="googleresponse.html">12</a>&nbsp;&nbsp;
+<a href="googledump.html">13</a>&nbsp;&nbsp;
+<a href="more.html">14</a>&nbsp;&nbsp;
+<a href="googling.html">15</a>&nbsp;&nbsp;
+
+</div>
+
+</body>
+</html>

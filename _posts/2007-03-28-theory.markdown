@@ -1,0 +1,34 @@
+---
+layout: post
+status: publish
+published: true
+title: theory
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 143
+wordpress_url: http://www.inkdroid.org/journal/2007/03/28/theory/
+date: '2007-03-28 13:05:08 +0000'
+date_gmt: '2007-03-28 20:05:08 +0000'
+tags: []
+comments:
+- id: 18644
+  author: Ross
+  author_email: rossfsinger@gmail.com
+  author_url: http://dilettantes.code4lib.org/
+  date: '2007-03-28 20:06:43 +0000'
+  date_gmt: '2007-03-29 03:06:43 +0000'
+  content: If I didn't write crappy code, what would we need all that RAM and those
+    extra processors for?  Think of the economic implications if my software projects
+    didn't start some Moore's Law arms race!  What would Dell do?
+---
+<p><a href="ttp://www.amazon.com/Agile-Software-Development-Cooperative-Game/dp/0321482751"><img style="border: medium none ; margin-right: 10px; float: left" src="http://alistair.cockburn.us/images/Asd2ecover.jpg" /></a>The second book I checked out of the Library of Congress with my shiny new borrowing card was Alistair Cockburn's <a href="http://www.amazon.com/Agile-Software-Development-Cooperative-Game/dp/0321482751">Agile Software Development: The Cooperative Game</a> (which happened to just win this years <a href="http://ec2.images-amazon.com/images/P/0321482751.01._AA240_SCLZZZZZZZ_.jpg">Jolt Award</a>). Early on Cockburn recommends jumping to an appendix to read <a href="http://en.wikipedia.org/wiki/Peter_Naur">Peter Naur's</a>  article <a href="http://web.archive.org/web/20080612143832/http://www.zafar.se:80/bkz/Articles/NaurProgrammingTheory">"Programming as Theory Building"</a> (thanks ksclarke).</p>
+<p>This is my second time reading the article, but this time it is really resonating with me--the idea of writing programs as building theories. Partly I think this is because I was reading it while I attended a recent Haskell <a href="http://notes-on-haskell.blogspot.com/2007/03/haskell-cooks-tour.html">tutorial </a> by coworker <a href="http://notes-on-haskell.blogspot.com">Adam Turoff</a> here in DC (which I will write about shortly).</p>
+<p>On the ride to work this morning a particular quote stood out, and I'm just writing it here so I don't forget it:</p>
+<blockquote><p>... the problems of program modification  arise from acting on the assumption that programming consists of program text production, instead of recognizing programming as an activity of theory building.</p></blockquote>
+<p>It seems obvious at first I guess. But it's a powerful statement about what the activity of software development ought to be--instead of a string of hacks that eventually brings a piece of software to its knees.</p>

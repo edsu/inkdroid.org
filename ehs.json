@@ -1,0 +1,206 @@
+{
+  "@context": {
+    "bio": "http://purl.org/vocab/bio/0.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@id": "http://inkdroid.org/ehs",
+  "@type": "foaf:Person",
+  "bio:olb": "Hacker for libraries, digital archaeologist, pragmatist.",
+  "foaf:account": [
+    {
+      "@id": "http://www.librarything.com/home/edsu"
+    },
+    {
+      "@id": "http://www.goodreads.com/user/show/5899086-ed-summers"
+    },
+    {
+      "@id": "http://www.freebase.com/view/user/edsu"
+    },
+    {
+      "@id": "http://twitter.com/edsu"
+    },
+    {
+      "@id": "http://github.com/edsu"
+    },
+    {
+      "@id": "http://scholar.google.com/citations?hl=en&user=ctpWtsIAAAAJ"
+    },
+    {
+      "@id": "http://last.fm/user/inkdroid"
+    },
+    {
+      "@id": "http://www.rdio.com/people/esummers/"
+    },
+    {
+      "@id": "http://identi.ca/edsu"
+    },
+    {
+      "@id": "http://www.google.com/profiles/ed.summers"
+    },
+    {
+      "@id": "http://en.wikipedia.org/wiki/User:Edsu"
+    },
+    {
+      "@id": "http://www.linkedin.com/in/esummers"
+    },
+    {
+      "@id": "http://www.kickstarter.com/profile/edsu"
+    },
+    {
+      "@id": "http://flickr.com/inkdroid"
+    },
+    { 
+      "@id": "http://orcid.org/0000-0001-7320-8150"
+    },
+    {
+      "@id": "http://philpapers.org/profile/42061"
+    }
+  ],
+  "foaf:depiction": {
+    "@id": "http://www.inkdroid.org/images/ehs.jpg"
+  },
+  "foaf:firstName": "Edward",
+  "foaf:homepage": {
+    "@id": "http://inkdroid.org"
+  },
+  "foaf:interest": [
+    {
+      "@id": "http://id.loc.gov/authorities/sh85076502#concept"
+    },
+    {
+      "@id": "http://id.loc.gov/authorities/sh95004496#concept"
+    },
+    {
+      "@id": "http://id.loc.gov/authorities/sh95008857#concept"
+    },
+    {
+      "@id": "http://id.loc.gov/authorities/sh96000740#concept"
+    },
+    {
+      "@id": "http://id.loc.gov/authorities/sh86005933#concept"
+    },
+    {
+      "@id": "http://id.loc.gov/authorities/sh2002000569#concept"
+    },
+    {
+      "@id": "http://id.loc.gov/authorities/sj96006329#concept"
+    },
+    {
+      "@id": "http://id.loc.gov/authorities/sh85035070#concept"
+    },
+    {
+      "@id": "http://id.loc.gov/authorities/sh85020816#concept"
+    }
+  ],
+  "foaf:jabberID": "ed.summers@gmail.com",
+  "foaf:knows": [
+    {
+      "@id": "http://blog.reallywow.com/foaf#me"
+    },
+    {
+      "@id": "http://danbri.org/foaf.rdf#danbri"
+    },
+    {
+      "@id": "http://infomotions.com/foaf.rdf#me"
+    },
+    {
+      "@id": "http://www.library.yale.edu/~dlovins/foaf.rdf#dsl"
+    },
+    {
+      "@id": "http://rhymeswithtoaster.com/foaf.rdf#me"
+    },
+    {
+      "@id": "http://kmi.open.ac.uk/people/tom/rdf"
+    },
+    {
+      "@id": "http://dltj.org/foaf/"
+    },
+    {
+      "@id": "http://www.aaronsw.com/about.xrdf#aaronsw"
+    },
+    {
+      "@id": "http://iandavis.com/id/me"
+    },
+    {
+      "@id": "http://www.miskatonic.org/foaf.rdf#me"
+    },
+    {
+      "@id": "http://www.users.muohio.edu/darcusb/meta/info#me"
+    },
+    {
+      "@id": "http://tomkeays.com/about/foaf.rdf#tomkeays"
+    },
+    {
+      "@id": "http://berrueta.net/foaf.rdf#me"
+    },
+    {
+      "@id": "http://lackoftalent.org/michael/id/"
+    },
+    {
+      "@id": "http://pos.thum.us/ep.rdf#me"
+    },
+    {
+      "@id": "http://www.jodischneider.com/#me"
+    },
+    {
+      "@id": "http://roytennant.com/foaf.rdf#me"
+    },
+    {
+      "@id": "http://dilettantes.code4lib.org/about-me/#me"
+    },
+    {
+      "@id": "http://brocadedarkness.net/foaf.rdf#me"
+    },
+    {
+      "@id": "http://managemetadata.com/jon/foaf.rdf#me"
+    },
+    {
+      "@id": "http://eikeon.com/foaf.rdf#eikeon"
+    },
+    {
+      "@id": "http://rc98.net/foaf#me"
+    },
+    {
+      "@id": "http://kevinclarke.info/foaf.rdf#me"
+    }
+  ],
+  "foaf:mbox": {
+    "@id": "mailto:ehs@pobox.com"
+  },
+  "foaf:name": "Ed Summers",
+  "foaf:nick": "edsu",
+  "foaf:openid": [
+    {
+      "@id": "http://inkdroid.org"
+    },
+    {
+      "@id": "http://www.google.com/profiles/ed.summers"
+    }
+  ],
+  "foaf:schoolHomepage": {
+    "@id": "http://www.scils.rutgers.edu"
+  },
+  "foaf:skypeID": "inkdroid",
+  "foaf:surname": "Summers",
+  "foaf:title": "Mr",
+  "foaf:weblog": {
+    "@id": "http://inkdroid.org/journal/"
+  },
+  "foaf:workplaceHomepage": {
+    "@id": "http://loc.gov"
+  },
+  "owl:sameAs": [
+    {
+      "@id": "http://semantictweet.com/edsu#me"
+    },
+    {
+      "@id": "http://identi.ca/user/6104"
+    },
+    {
+      "@id": "http://knowee.net/edsu#self"
+    }
+  ]
+}

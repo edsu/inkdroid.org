@@ -1,0 +1,116 @@
+---
+layout: post
+status: publish
+published: true
+title: xquery
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 102
+wordpress_url: http://www.inkdroid.org/journal/?p=102
+date: '2006-06-12 16:22:01 +0000'
+date_gmt: '2006-06-12 23:22:01 +0000'
+tags: []
+comments: []
+---
+<p>So my new <a href="http://loc.gov">employer</a> was kind enough to send me to <a href="http://jcdl2006.org">Joint Conference on Digital Libraries</a> this year. The JCDL program has caught my eye for a few years now, but my previous employer didn't really see the value in being involved in the digital library community. It's nice to be back listening to new people with good ideas again. I plan on taking sparse free-form notes here just so I have a record of what I attended and what I learned--rather than waiting till the end to write up a report.</p>
+<p>I spent the morning in David Durand's XQuery tutorial. David has worked on the XML and XLink <a href="http://w3c.org">w3c</a> working groups, teaches at Brown, has over 20 years experience with SGML/XML technologies, and is currently running a startup out of the third floor of his house. He gave a nice hands on demonstration of XQuery using the <a href="http://exist.sf.net">eXist</a> xml database.</p>
+<p>About the first half was spent going over the syntax of XQuery which included a nice mini-tutorial on XPath. I've been interested in XQuery since hearing Kevin Clarke talk about it and native xml databases quite a bit on #code4lib, so I really was looking forward to learning more about it from a practical perspective.</p>
+<p>I was blown away by how easy it is to actually set up <a href="http://exist.sourceforge.net">eXist</a> and start adding content and querying it. While David was talking I literally downloaded it, set it up and imported a body of test xml data in 5 minutes. The setup amounts to downloading a jar file and running it. A nice feature is the webdav interface which allows you to mount the eXist database as an editable filesystem, which is very handy. In addition eXist provides REST and XMLRPC interfaces. David used the snazzy XQuery Sandbox web interface for exploring XQuery.</p>
+<p><img width="400" border="0" src="/images/exist.png" /></p>
+<p>I found the functional aspects of XQuery to be really interesting. David nicely summarized the XQuery type system in and covered enough of the basic flow constructs (let, for, where, return, order by) to start experimenting right away. I must admit that I found the mixture of templating functionality (like that in PHP) with the functional style was a little bit jarring--but that's normally the case in an environment that supports templating:</p>
+<pre>&lt;hits&gt;
+{
+for $speech in //SPEECH[LINE &= 'love']
+return &lt;hit&gt;{$speech}&lt;/hit&gt;
+}
+&lt;/hits&gt;</pre>
+<p>which can generate:</p>
+<p>&lt;HITS&gt;<br />
+&lt;HIT&gt;<br />
+&lt;SPEECH&gt;<br />
+&lt;SPEAKER&gt;KING CLAUDIUS&lt;/SPEAKER&gt;<br />
+&lt;LINE&gt;'Tis sweet and commendable in your nature, Hamlet,&lt;/LINE&gt;<br />
+&lt;LINE&gt;To give these mourning duties to your father:&lt;/LINE&gt;<br />
+&lt;LINE&gt;But, you must know, your father lost a father;&lt;/LINE&gt;<br />
+&lt;LINE&gt;That father lost, lost his, and the survivor bound&lt;/LINE&gt;<br />
+&lt;LINE&gt;In filial obligation for some term&lt;/LINE&gt;<br />
+&lt;LINE&gt;To do obsequious sorrow: but to persever&lt;/LINE&gt;<br />
+&lt;LINE&gt;In obstinate condolement is a course&lt;/LINE&gt;<br />
+&lt;LINE&gt;Of impious stubbornness; 'tis unmanly grief;&lt;/LINE&gt;<br />
+&lt;LINE&gt;It shows a will most incorrect to heaven,&lt;/LINE&gt;<br />
+&lt;LINE&gt;A heart unfortified, a mind impatient,&lt;/LINE&gt;<br />
+&lt;LINE&gt;An understanding simple and unschool'd:&lt;/LINE&gt;<br />
+&lt;LINE&gt;For what we know must be and is as common&lt;/LINE&gt;<br />
+&lt;LINE&gt;As any the most vulgar thing to sense,&lt;/LINE&gt;<br />
+&lt;LINE&gt;Why should we in our peevish opposition&lt;/LINE&gt;<br />
+&lt;LINE&gt;Take it to heart? Fie! 'tis a fault to heaven,&lt;/LINE&gt;<br />
+&lt;LINE&gt;A fault against the dead, a fault to nature,&lt;/LINE&gt;<br />
+&lt;LINE&gt;To reason most absurd: whose common theme&lt;/LINE&gt;<br />
+&lt;LINE&gt;Is death of fathers, and who still hath cried,&lt;/LINE&gt;<br />
+&lt;LINE&gt;From the first corse till he that died to-day,&lt;/LINE&gt;<br />
+&lt;LINE&gt;'This must be so.' We pray you, throw to earth&lt;/LINE&gt;<br />
+&lt;LINE&gt;This unprevailing woe, and think of us&lt;/LINE&gt;<br />
+&lt;LINE&gt;As of a father: for let the world take note,&lt;/LINE&gt;<br />
+&lt;LINE&gt;You are the most immediate to our throne;&lt;/LINE&gt;<br />
+&lt;LINE&gt;And with no less nobility of love&lt;/LINE&gt;<br />
+&lt;LINE&gt;Than that which dearest father bears his son,&lt;/LINE&gt;<br />
+&lt;LINE&gt;Do I impart toward you. For your intent&lt;/LINE&gt;<br />
+&lt;LINE&gt;In going back to school in Wittenberg,&lt;/LINE&gt;<br />
+&lt;LINE&gt;It is most retrograde to our desire:&lt;/LINE&gt;<br />
+&lt;LINE&gt;And we beseech you, bend you to remain&lt;/LINE&gt;<br />
+&lt;LINE&gt;Here, in the cheer and comfort of our eye,&lt;/LINE&gt;<br />
+&lt;LINE&gt;Our chiefest courtier, cousin, and our son.&lt;/LINE&gt;<br />
+&lt;/SPEECH&gt;<br />
+&lt;/HIT&gt;<br />
+&lt;HIT&gt;<br />
+&lt;SPEECH&gt;<br />
+&lt;SPEAKER&gt;HAMLET&lt;/SPEAKER&gt;<br />
+&lt;LINE&gt;For God's love, let me hear.&lt;/LINE&gt;<br />
+&lt;/SPEECH&gt;<br />
+&lt;/HIT&gt;<br />
+&lt;HIT&gt;<br />
+&lt;SPEECH&gt;<br />
+&lt;SPEAKER&gt;OPHELIA&lt;/SPEAKER&gt;<br />
+&lt;LINE&gt;My lord, he hath importuned me with love&lt;/LINE&gt;<br />
+&lt;LINE&gt;In honourable fashion.&lt;/LINE&gt;<br />
+&lt;/SPEECH&gt;<br />
+&lt;/HIT&gt;<br />
+&lt;HIT&gt;<br />
+&lt;SPEECH&gt;<br />
+&lt;SPEAKER&gt;Ghost&lt;/SPEAKER&gt;<br />
+&lt;LINE&gt;I am thy father's spirit,&lt;/LINE&gt;<br />
+&lt;LINE&gt;Doom'd for a certain term to walk the night,&lt;/LINE&gt;<br />
+&lt;LINE&gt;And for the day confined to fast in fires,&lt;/LINE&gt;<br />
+&lt;LINE&gt;Till the foul crimes done in my days of nature&lt;/LINE&gt;<br />
+&lt;LINE&gt;Are burnt and purged away. But that I am forbid&lt;/LINE&gt;<br />
+&lt;LINE&gt;To tell the secrets of my prison-house,&lt;/LINE&gt;<br />
+&lt;LINE&gt;I could a tale unfold whose lightest word&lt;/LINE&gt;<br />
+&lt;LINE&gt;Would harrow up thy soul, freeze thy young blood,&lt;/LINE&gt;<br />
+&lt;LINE&gt;Make thy two eyes, like stars, start from their spheres,&lt;/LINE&gt;<br />
+&lt;LINE&gt;Thy knotted and combined locks to part&lt;/LINE&gt;<br />
+&lt;LINE&gt;And each particular hair to stand on end,&lt;/LINE&gt;<br />
+&lt;LINE&gt;Like quills upon the fretful porpentine:&lt;/LINE&gt;<br />
+&lt;LINE&gt;But this eternal blazon must not be&lt;/LINE&gt;<br />
+&lt;LINE&gt;To ears of flesh and blood. List, list, O, list!&lt;/LINE&gt;<br />
+&lt;LINE&gt;If thou didst ever thy dear father love--&lt;/LINE&gt;<br />
+&lt;/SPEECH&gt;<br />
+&lt;/HIT&gt;<br />
+&lt;HIT&gt;<br />
+&lt;SPEECH&gt;<br />
+&lt;SPEAKER&gt;HAMLET&lt;/SPEAKER&gt;<br />
+&lt;LINE&gt;Haste me to know't, that I, with wings as swift&lt;/LINE&gt;<br />
+&lt;LINE&gt;As meditation or the thoughts of love,&lt;/LINE&gt;<br />
+&lt;LINE&gt;May sweep to my revenge.&lt;/LINE&gt;<br />
+&lt;/SPEECH&gt;<br />
+&lt;/HIT&gt;<br />
+&lt;/HITS&gt;</p>
+<p>Apart from the nitty gritty of XQuery David also provided an interesting look at some tricks that eXist uses to make it possible to join tree based structures. Basically the algorithm creates a tree structure and then indexes the nodes with identifiers making an assumption about the number of children beneath a particular node. Practically this means it's easy to do math to traverse the tree, and join subtrees--but a side effect is that lots of 'ghost nodes' are created.</p>
+<p>Ghost nodes are gaps in the identifier space, and if you are working with irregularly structured XML documents you can actually easily exceed the available resources on a 64bit machine. An example of a irregularly structured document could be a dictionary that has hundreds of thousands of entries, which on average have 2-3 definitions, but a handful have like 60 definitions...this causes the identifier space padding to get bloated with tons of ghost nodes.</p>
+<p>If you are interested about any of this take a look at <a href="http://web.archive.org/web/20090419221752/http://www.exist-db.org:80/webdb.pdf">eXist: An Open Source XML Database</a> by Wolfgang Meier. David also recommended <a href="http://www.amazon.com/gp/product/0321165810/">XQuery - The XML Query Language</a> by Micael Brundage for learning more about XQuery. In the future David said there is work going on at W3C on extensions to search and update: XQuery Search and Update, which will be good to keep an eye on.</p>
+<p>All in all I like XQuery and I'm glad that I finally seem to understand it enough to consider it part of my tool set. I'd like to see XQuery used in say a Java program much like SQL is used via JDBC--and be able to get back results say as JDOM or XOM objects. I must admit I'm not so interested in using XQuery as a general programming language though.</p>

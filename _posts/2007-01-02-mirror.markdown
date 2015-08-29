@@ -1,0 +1,25 @@
+---
+layout: post
+status: publish
+published: true
+title: mirror
+author:
+  display_name: ed
+  login: ed
+  email: ehs@pobox.com
+  url: http://www.inkdroid.org
+author_login: ed
+author_email: ehs@pobox.com
+author_url: http://www.inkdroid.org
+wordpress_id: 131
+wordpress_url: http://www.inkdroid.org/journal/2007/01/02/mirror/
+date: '2007-01-02 18:36:30 +0000'
+date_gmt: '2007-01-03 01:36:30 +0000'
+tags: []
+comments: []
+---
+<p><object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/v7p7FS88Z18"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/v7p7FS88Z18" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object></p>
+<blockquote><p>
+Yes it's almost as though consumers have moved on because mainstream media has abdicated its responsibility...
+</p></blockquote>
+<p>hahahahaha</p>
