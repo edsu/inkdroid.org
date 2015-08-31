@@ -23,3 +23,7 @@ exclude:
 include:
   - .well-known
   - .htaccess
+
+gems:
+  - jekyll-compose
+  - jekyll-tagging
