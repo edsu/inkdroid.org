@@ -19,6 +19,7 @@ sass:
 
 exclude:
   - sync.sh
+  - inkdroid.wordpress.2015-08-31.xml
 
 include:
   - .well-known

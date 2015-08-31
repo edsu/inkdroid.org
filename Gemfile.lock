@@ -23,7 +23,7 @@ GEM
     jekyll-watch (1.2.1)
       listen (~> 2.7)
     kramdown (1.8.0)
-    liquid (3.0.4)
+    liquid (3.0.6)
     listen (2.10.1)
       celluloid (~> 0.16.0)
       rb-fsevent (>= 0.9.3)
@@ -37,7 +37,7 @@ GEM
     ruby-nuggets (1.0.0)
       nuggets (= 1.0.0)
     safe_yaml (1.0.4)
-    sass (3.4.16)
+    sass (3.4.18)
     timers (4.0.1)
       hitimes
 
@@ -45,6 +45,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll
+  jekyll (>= 3.0.0.pre.beta8)
   jekyll-compose
   jekyll-tagging
+
+BUNDLED WITH
+   1.10.6
