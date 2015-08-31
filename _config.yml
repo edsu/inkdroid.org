@@ -27,4 +27,4 @@ include:
 
 gems:
   - jekyll-compose
-  - jekyll-tagging
+  - jekyll/tagging
