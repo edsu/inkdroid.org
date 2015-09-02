@@ -1,8 +1,11 @@
 ---
 layout: post
-title: Seminar
+title: Seminar Week 1
 tags:
 - study
 ---
 
-In @Borko:1968 I learned about a lot of cool stuff!
+Shera's [@Shera:1933] was written in the depths of the Great Depression and it shows. There is a great deal of concern about fiscal waste in libraries and a strong push for centralization, in line with FDR's New Deal. The paper sees increasing cultural homogenization and a blurring of the rural and the urban that hasn't seemed to come to pass. His thoughts about the television apparatus at the elbow seems almost memex like in its vision of the future. I must admit given all of what he gets wrong, I really like his idea of looking at the current state of our social situation and relations for the seeds of what tomorrow might look like. But at the same time I have trouble understanding how else you could meaningfully try to predict future trends. There is a tension between his desire for centralization of control, while allowing for decentralization, that seems quintessentially American.
+
+In [@Taylor:1962] Taylor muses about the nature of questions, how they progress in an almost Freudian way from the unconscious to a fully sublimated formal question of an information system. One thing that is particularly interesting is his formulation about how questions themselves are only fully understood in the context of an accepted answer. It's almost as if the causal chain of question/answer is inverted, with the question being determined by the answer, and time running backwards. I know this is a flight of fancy on my part, but it seemed like quirky and fun interpretation. The paper is deeply ironic because it opens up new vistas of future information science research by asking a lot of questions about questions. The method is admittedly rhetorical, and the paper is largely a philosophical meditation on how people with questions fit into information systems, rather than a methodological qualitative or quantitative study of some kind. It makes me wonder about the information system his questions are aimed at. Is scientific inquiry an information system? Also, perhaps this is heresy, but is there really such a thing as an *information need*? Don't we have needs/desires for particular outcomes which information can help us realize: information as tool for achieving something, not as an object that is needed? I guess this could be considered a pragmatist critique of a particular strand of information science.
+
