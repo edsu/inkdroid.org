@@ -48,6 +48,3 @@ DEPENDENCIES
   jekyll (>= 3.0.0.pre.beta8)
   jekyll-compose
   jekyll-tagging
-
-BUNDLED WITH
-   1.10.6

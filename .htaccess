@@ -68,7 +68,7 @@ RewriteRule ^ici/? "https://github.com/edsu/ici" [R,L]
 RewriteRule ^lastcloud/? "https://github.com/edsu/lastcloud" [R,L]
 RewriteRule ^lcco/? "https://github.com/edsu/lcco" [R,L]
 RewriteRule ^lod-graph/? "https://github.com/edsu/lod-graph" [R,L]
-RewriteRule ^rage-14/? "https://github.com/edsu/rage-14" [R,L]
+RewriteRule ^rage14/? "https://edsu.github.io/rage14/" [R=permanent]
 RewriteRule ^/subjects-here/? "https://github.com/edsu/subjects-here" [R,L]
 RewriteRule ^/wikippoc/? "https://github.com/edsu/wikippoc" [R,L]
 
