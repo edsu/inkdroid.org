@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/edsu/jekyll-pandoc.git
+  revision: 31b18bf73ecc876f3e987d5442f08c0143ac0d69
+  specs:
+    jekyll-pandoc (0.0.8)
+      jekyll (>= 1.4.3)
+      pandoc-ruby (~> 0.7.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -15,7 +23,7 @@ GEM
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-compose (0.2.1)
+    jekyll-compose (0.3.0)
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
     jekyll-tagging (1.0.1)
@@ -30,7 +38,8 @@ GEM
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
     nuggets (1.0.0)
-    rb-fsevent (0.9.5)
+    pandoc-ruby (0.7.5)
+    rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     rouge (1.9.1)
@@ -38,7 +47,7 @@ GEM
       nuggets (= 1.0.0)
     safe_yaml (1.0.4)
     sass (3.4.18)
-    timers (4.0.1)
+    timers (4.0.4)
       hitimes
 
 PLATFORMS
@@ -47,4 +56,8 @@ PLATFORMS
 DEPENDENCIES
   jekyll (>= 3.0.0.pre.beta8)
   jekyll-compose
+  jekyll-pandoc!
   jekyll-tagging
+
+BUNDLED WITH
+   1.10.6

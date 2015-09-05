@@ -13,7 +13,6 @@ tag_page_dir: tag
 tag_permalink_style: pretty
 
 # Build settings
-markdown: kramdown
 sass:
   sass_dir: _sass
 
@@ -28,3 +27,15 @@ include:
 gems:
   - jekyll-compose
   - jekyll/tagging
+  - jekyll-pandoc
+
+markdown: pandoc
+mardown_ext: markdown,mkdown,mkdwn,mkd,md,Rmd,rmd
+
+pandoc:
+  extensions:
+    - smart
+    - mathjax
+    - csl: _styles/apa.csl
+    - bibliography: citations.bib
+
