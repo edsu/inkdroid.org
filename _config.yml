@@ -2,8 +2,8 @@
 title: inkdroid 
 email: ehs@pobox.com
 description: Paper or Plastic 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://inkdroid.org" # the base hostname & protocol for your site
+baseurl: ""
+url: "http://inkdroid.org"
 twitter_username: edsu
 github_username: edsu
 permalink: pretty
@@ -29,8 +29,7 @@ gems:
   - jekyll/tagging
   - jekyll-pandoc
 
-markdown: pandoc
-mardown_ext: markdown,mkdown,mkdwn,mkd,md,Rmd,rmd
+markdown: PandocProcessor
 
 pandoc:
   extensions:
@@ -38,4 +37,3 @@ pandoc:
     - mathjax
     - csl: _styles/apa.csl
     - bibliography: citations.bib
-
