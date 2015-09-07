@@ -29,7 +29,7 @@ gems:
   - jekyll/tagging
   - jekyll-pandoc
 
-markdown: PandocProcessor
+markdown: 'pandoc'
 
 pandoc:
   extensions:
@@ -37,3 +37,4 @@ pandoc:
     - mathjax
     - csl: _styles/apa.csl
     - bibliography: citations.bib
+    - metadata link-citations:true

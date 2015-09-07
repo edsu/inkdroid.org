@@ -1,11 +1,10 @@
 GIT
   remote: git://github.com/edsu/jekyll-pandoc.git
-  revision: 88f0a0e0ab13bd4063305f9abe9d534664b1f237
-  branch: jekyll3
+  revision: fced73f46455fbf03e192c551cbc694e7378c14e
+  branch: jekyll3-dependency
   specs:
-    jekyll-pandoc (0.1.0)
-      jekyll (>= 1.5.0)
-      pandoc-ruby (~> 0.7.5)
+    jekyll-pandoc (1.0.2)
+      pandoc-ruby (~> 1.0, >= 1.0.0)
 
 GIT
   remote: git://github.com/jekyll/jekyll.git
@@ -45,7 +44,7 @@ GEM
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
     nuggets (1.0.0)
-    pandoc-ruby (0.7.5)
+    pandoc-ruby (1.0.0)
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
