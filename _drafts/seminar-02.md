@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Seminar Week 2
-
+tags:
+- study
+- inst888
 ---
 Here are some more random thoughts about the seminar readings this week.
 
