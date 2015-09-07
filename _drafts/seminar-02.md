@@ -30,4 +30,4 @@ Some of the paper seems to be defending information-as-thing a bit too strenuous
 
 > It is not asserted that sorting areas of information science with respect to their relationship to information-as-thing would produce clearly distinct populations. Nor is any hierarchy of scholarly respectability intended.
 
- Information certainly can be considered as material, and Buckland demonstrates it's a useful lever for learning more about what information is. But considering it only as material absent information-as-process leads to some philosophical quandaries.
+ Information certainly can be considered as material, and Buckland demonstrates it's a useful lever for learning more about what information is. But considering it only as material, absent information-as-process, and other situational aspects leads to some pretty deep philosophical problems.
