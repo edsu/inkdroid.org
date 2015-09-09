@@ -72,7 +72,7 @@ He also sees there having been three powerful ideas:
 * relevance: a model for examining information retrieval systems
 * interaction: models for feedback between people and information systems
 
-Saracevic's emphasis on *problems* seems like it could be a useful avenue for me to explore with respect to Broken World Thinking outlined by [@Jackson:2014]. Are problems sites for repair? Is Saracevic's wanting to merge the two poles of information science an attempt to repair something he sees as broken?
+Saracevic's emphasis on *problems* seems like it could provide useful avenue and citation trail for me to explore with respect to *Broken World Thinking* outlined by [@Jackson:2014]. Is it possible to see Saracevic's *problems* as Jackson's sites for repair? Saracevic claims to have divided information science research into two camps: systems researchers and human-centered research. Is Saracevic's wanting to merge the two poles of information science an attempt to repair something he sees as broken?
 
 
 # References
