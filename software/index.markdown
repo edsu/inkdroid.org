@@ -19,22 +19,27 @@ tags: []
 comments: []
 ---
 
-I write software for libraries and archives. I try to live up to at least the
-former in [Release Early, Release Often][Raymond], so most of my code musings 
-can be found on [GitHub]. The idea is things incubate there, and if they ever 
-become anything more than a plaything they migrate to a place like 
-[CPAN], [RubyGems], [PyPI], [npm], etc.
+I like to write software for libraries and archives. I try to live up to at 
+least the former in [Release Early, Release Often][Raymond], so most of my 
+code musings can be found on [GitHub]. The idea is things incubate there, 
+and if they ever become anything more than a plaything they migrate to a 
+place like [CPAN], [RubyGems], [PyPI], [npm], etc. I like to work in public
+because it's been extremely useful to get advice from people over the years.
 
 I've enjoyed using several computer programming languages over the years. I
 guess it started with BASIC, Fortran and Pascal in the 1980s. I was very lucky
-to have an excellent computer science teacher in HighSchool. We had a lot of
-fun. 
+to have an excellent computer science teacher in High School. We had a lot of
+fun. Thanks Mr Cave!
 
-I started university as an Engineering major, but quickly started changing 
-majors each semester from Philosophy, to Computer Science and finally landed 
-on English Literature. On graduation I didn't end up doing much programming 
-but returned to it 5 years later when I started a degree in Library Science. 
-That's when the web was just growing, and I learned HTML and Perl.
+I started university as an Engineering major, but after the first year I 
+switched to Philosophy, then to Computer Science and finally landed 
+on English Literature. On graduation I didn't end up doing much work with
+computers but did spend five users working/traveling in the UK and working
+in a used bookstore. That's when the web was just starting to really take
+shape, so I went back to university to get a Library and Information Science
+degree. The best bits of that were learning about hypermedia.
+
+If you really want to know more you can read about the rest in [my CV](/ehs/).
 
 Here are a few things I'm particularly fond of that I've worked on in the past:
 
@@ -47,6 +52,8 @@ Here are a few things I'm particularly fond of that I've worked on in the past:
   Congress
 * [id] - the prototype that ran at [id.loc.gov] to make the Library of Congress
   Subject Headings available as Linked Data.
+
+You can find the reset on [GitHub](http://github.com/edsu).
 
 [Raymond]: http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html
 [GitHub]: https://github.com/edsu

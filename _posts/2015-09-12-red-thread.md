@@ -6,11 +6,20 @@ tags:
 - study
 ---
 
-### Bates, M. (1999). The invisible substrate of information science. Journal of the Society for Information Science, 50(12):1043–1050.
+*Bates, M. (1999). The invisible substrate of information science. Journal of the Society for Information Science, 50(12):1043–1050.*
 
-Of all the introductions to information science we've read so far I'm quite partial to this one. The context is to help familiarize the growing number of people working with information about the field of information science, and as such it's largely educational. It was written in 1999, and I think the case is still being made here 16 years later. But I also suspect this article helped define the field for those who were already working in the middle of this highly inter-disciplinary space and trying to find their way. 
+Of all the introductions to information science we've read so far I'm quite
+partial to this one. It does have a few moments of "just drink the kool aid
+already", but the general thrust is to help familiarize the growing number of
+people working with information about the field of information science. So it's
+purpose is largely educational not theoretical. Bates wrote this in 1999, and I 
+think there is still a real need to broaden the conversation about what the 
+purpose of information science is today, although perhaps we know it more in the
+context of human-computer-interaction. I also suspect this article helped 
+define the field for those who were already working in the middle of this 
+highly inter-disciplinary space and trying to find their way. 
 
-I think the reason why it appealed to me so much is because it speaks to the particularly strange way information science permeates, but is not contained by other disciplines. Information science is distinguished by the way its practitioners: 
+The reason why it appealed to me so much is because it speaks to the particularly strange way information science permeates, but is not contained by other disciplines. Information science is distinguished by the way its practitioners: 
 
 > ... are always looking for the red thread of information in the social texture of people’s lives. When we study people, we do so with the purpose of understanding information creation, seeking, and use. We do not just study people in general. [@Bates:1999 p. 1048]
 
