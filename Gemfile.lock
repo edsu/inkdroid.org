@@ -28,8 +28,9 @@ GEM
       timers (~> 4.0.0)
     colorator (0.1)
     ffi (1.9.10)
-    hitimes (1.2.2)
+    hitimes (1.2.3)
     jekyll-compose (0.3.0)
+    jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
     jekyll-tagging (1.0.1)
@@ -62,6 +63,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll!
   jekyll-compose
+  jekyll-paginate
   jekyll-pandoc!
   jekyll-tagging
 
