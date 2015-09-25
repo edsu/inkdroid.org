@@ -14,6 +14,7 @@ Show the Archive Feature: perhaps a YouTube video?
 
 Talk about work on Ferguson Twitter data at MITH, UCR & WashU
 Appraisal and Social Media Work
+Participatory Archives - Kate Theimer
 
 
 
