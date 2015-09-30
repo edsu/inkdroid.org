@@ -47,13 +47,10 @@ guess it started with BASIC, Fortran and Pascal in the 1980s. I was very lucky
 to have an excellent computer science teacher in High School. We had a lot of
 fun. Thanks Mr Cave!
 
-I started university as an Engineering major, but after the first year I 
+I started at university as an Engineering major, but after the first year I 
 turned to Philosophy, then to Computer Science and finally landed 
 in English Literature. On graduation I didn't end up doing much work with
-computers but did spend five users working/traveling in the UK and working
-in a used bookstore. That's when the Web was just starting to really take
-shape, so I went back to university to get a Library and Information Science
-degree. The best bits were learning about hypermedia. Thanks Professor Burnett!
+computers. I spent three years working/traveling in the UK and then working in a used bookstore for two years in New Jersey. That's when the Web was just starting to really take shape, so I went back to University to get a Library and Information Science degree. The best bits were learning about hypermedia. Thanks Professor Burnett!
 
 If you really want to know more I guess you can read about the rest in 
 [my CV](/ehs/). The only important things that are missing from there
