@@ -37,7 +37,10 @@ html {
 }
 
 body {
-    margin-bottom: 60px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
 }
 
 #page-content {
@@ -53,7 +56,6 @@ body {
     font-size: 12pt;
     border: thin solid gray;
 }
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap";
