@@ -7,18 +7,26 @@ title: Computer Assisted Appraisal in Web Archives
 
 In 2008 Google estimated that it had 1 trillion unique URLs in its index [@Alpert:2008]. When I looked today (7 years later) the [Internet Archive]'s home page announced that it has archived 438 billion Web pages. It's an astounding achievement, but the Web has certainly grown many times over since 2008. Also, note the difference in terminology: *URL* versus *Web page*. A Web page has a unique URL, or address, but the content of a Web page can change over time. It's important for archives to capture how Web pages change over time, so there are certainly duplicates included in the 438 billion Web pages that the Internet Archive has collected. If you ignore the duplicates and the fact that the Web has grown, it looks like Internet Archive has archived 37% of the Web. Of course this estimate is far too high.
 
-As more and more information is made available on the Web how do we decide what to collect, and when? The Internet Archive's [Heritrix] bots walk from link to link on the Web archiving what they can. Members of the International Internet Preservation Consortium ([IIPC]) run their own crawls of specific parts of the Web: either country domains like .uk or specific websites that have been deemed within scope for their collection development policy. These policies inform the appraisal of whether particular Web content is deemed worth adding to an archive. Archivists are aware of how these appraisal decisions shape the archive over time, and by extension also shape what we know of our past. Appraisal, or deciding what to save, and what not to save, is difficult in the face of so much information. The situation is compounded by the Web.
+As more and more information is made available on the Web how do we decide what to collect, and when? The Internet Archive's [Heritrix] bots walk from link to link on the Web archiving what they can. Members of the International Internet Preservation Consortium ([IIPC]) run their own crawls of specific parts of the Web: either country domains like the .uk top-level-domain, or specific websites that have been deemed within scope of their collection development policy. These policies inform the appraisal of whether particular Web content is deemed worth adding to an archive. Archivists are aware of how these appraisal decisions shape the archive over time, and by extension also shape what we know of our past. Appraisal, or deciding what to save, and what not to save, is difficult in the face of so much information.
 
-This annotated bibliography is provides a view into an emerging field of computer assisted appraisal in Web archives. 
+This annotated bibliography provides a view into an emerging field of computer assisted appraisal in Web archives. How can computers assist archivists in the selection of content for archiving, and similarly how can archivists guide the appraisal of web content? There are a few themes that emerge in this brief survey: focused web crawling, memory
 
 
 @Chakrabarti:1999
 
 S. Chakrabarti, M. Van den Berg, and B. Dom. Focused crawling: a new approach to topic-specific web resource discovery. Computer Networks, 31(11):1623–1640, 1999.
 
-@Jiang:2013
+@Jiang:2012
 
-Jiang, J., Song, X., Yu, N., and Lin, C.-Y. (2013). Focus: learning to crawl web forums. Knowledge and Data Engineering, IEEE Transactions on, 25(6):1293–1306.
+As more content goes on the Web researchers of all kinds are increasingly interested in analyzing the structures of web forums in order to extract structured data, question/answer pairs, product reviews and opinion mining. Forum crawling is non-trivial because of paging mechanisms that can result in lots of duplicate links (different URLs for the same thing) which can consume large amounts of time and resources. For example the researchers found that 47% of URLs listed in sitemaps and feeds were duplicates in a sample of 9 forums.
+
+The article details a procedure for automatically detecting the structure of forum websites, and their URL types, in order to guide a crawler. The purpose is to save time, and improve coverage compared to breadth-first and other types of crawlers. The process is basically to automatically learn Index-Thread-Page-Flipping (ITF) regular expressions for identifying the types of pages in Web forums.
+
+The researchers studied the structure of 40 different Web forum software platorms to find common patterns in page layout/structure as well as URL and page types. For example timestamps on pages in chronological and reverse chronological order are good indicators of thread and index pages respectively. Also, paging elements can be identified by noticing links with longer than usual URLs combined with short numeric anchor text. A training set for 4 different web forums was fed into a Support Vector Machine classifier, which was then used to generate ITF regular expressions for each site. 
+
+To analyze the method they selected nine different types of forum software and ran three types of crawlers over them: generic crawler, entry point crawler and structure driven crawler. Measured effectiveness and coverage were reported for each combination. Results found that the structure driven crawler significantly outperformed the other types of crawlers. The authors note that these results have bearing on other types of similarly structured sites such as question/answer sites and blogs. They also hope to improve the 97% coverage by handling JavaScript paging mechanisms which were present in 2% of the forums tested.
+
+On the surface this paper doesn't seem to have much to do with automated appraisal for Web archives. But the attention to detail in the structure of websites to improve efficiency and accuracy in the harvest could be quite important. Forums, blogs and question/answer sites are very common on the Web, and represent unique and high value virtual spaces where actual people congregate and share opinions on focused topics. As such they are likely candidates for appraisal. The ability to automatically identify forums on particular topics as part of a wider web crawl could be a significantly important feature when deciding where to focus archiving resources. In addition this work presents important heuristics for identifying duplicate content, which is important for knowing what not to collect, as we will see later in @Kanhabua:2013a.
 
 @Gossen:2015
 
@@ -48,7 +56,7 @@ Pereira discusses a technique for crawling the Web in a time-aware way. Most pre
 
 The paper describes an experiment that compares the results of crawling two topics (World War 2 and September the 11th) by crawling outwards from Portuguese Wikipedia pages, using two different techniques (no time restriction) and a time restriction. The results indicate that the crawl with a time-restriction performs significantly better over time, however the shape of the results is somewhat different for each topic.
 
-The authors admit that the results are preliminary, and that it is a proof of concept. Unfortunately the authors don't appear to provide any source code for their prototype. It would be interesting to compare the time-based crawling with more traditional topic-based crawling, and perhaps consider a hybrid approach of how both could be used.
+The authors admit that the results are preliminary, and that their project is a proof of concept. Unfortunately the authors don't appear to provide any source code for their prototype. It would be interesting to compare the time-based crawling with more traditional topic-based crawling, and perhaps consider a hybrid approach that would allow both approaches to be used in a single crawl.
 
 @Dai:2010
 
