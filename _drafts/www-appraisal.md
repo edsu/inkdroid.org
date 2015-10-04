@@ -70,8 +70,6 @@ A. R. Kenney, M. Nancy, P. Botticelli, R. Entlich, C. Lagoze, and S. Payette. Pr
 
 @Kanhabua:2013a
 
-N. Kanhabua, C. Nieder ́ee, and W. Siberski. Towards concise preservation by managed forgetting: Research issues and case study. In Proceedings of the 10th International Conference on Preservation of Digital Objects, iPres, volume 2013, 2013.
-
 Appraisal is often thought about in terms of what artifacts to preserve or save for the future. But implicit in every decision to save is also a decision not to forget. Consequently, it's also possible to look at appraisal as decisions about about what can be forgotten. In this paper Kanhabua and her colleagues at the L3S Research Center investigate processes for making these types of decisions which they call *managed forgetting* which is materialized in the form of *forgetting actions* such as aggregation, summarization, revised search, ranking behavior, elimination of redundancy and deletion. 
 
 The article provides a useful entrance point into the literature about human memory in the field of cognitive psychology. It also highlights several jumping off points for HCI discussions about designing systems and devices for managing memory. But the primary focus of the paper is on the interaction between information management systems and archival information systems: the first which is used to access information, and the second being the stores of content that can be accessed. 
