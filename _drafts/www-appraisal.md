@@ -3,22 +3,17 @@ layout: post
 title: Computer Assisted Appraisal in Web Archives
 ---
 
-## Computer Assisted Appraisal in Web Archives
+In 2008 Google estimated that it had 1 trillion unique URLs in its index [@Alpert:2008]. When I looked today (7 years later) the [Internet Archive]'s home page announced that it has archived 438 billion Web pages. It's an astounding achievement, but the Web has certainly grown many times over since 2008. Also, note the difference in terminology: *URL* versus *Web page*. A Web page has a unique URL, or address, but the content of a Web page can change over time. It's important that archives capture Web pages over time. So by design, there are many duplicate URLs included in the 438 billion Web pages that the Internet Archive has collected. If you ignore the duplicates and the fact that the Web has grown, it looks like Internet Archive has archived 37% of the Web. But if you consider the growth of the Web and the duplicates that are present in the archive this estimate is far too high.
 
-In 2008 Google estimated that it had 1 trillion unique URLs in its index [@Alpert:2008]. When I looked today (7 years later) the [Internet Archive]'s home page announced that it has archived 438 billion Web pages. It's an astounding achievement, but the Web has certainly grown many times over since 2008. Also, note the difference in terminology: *URL* versus *Web page*. A Web page has a unique URL, or address, but the content of a Web page can change over time. It's important for archives to capture how Web pages change over time, so there are certainly duplicates included in the 438 billion Web pages that the Internet Archive has collected. If you ignore the duplicates and the fact that the Web has grown, it looks like Internet Archive has archived 37% of the Web. Of course this estimate is far too high.
+As more and more information is made available on the Web how do archivists decide what to collect, and when? The Internet Archive's [Heritrix] bots walk from link to link on the Web archiving what they can. Members of the International Internet Preservation Consortium ([IIPC]) run their own crawls of specific parts of the Web: either country domains like the .uk top-level-domain, or specific websites that have been deemed within scope of their collection development policy. These policies inform the appraisal of whether particular Web content is deemed worth adding to an archive. Archivists are aware of how these appraisal decisions shape the archive over time, and by extension also shape what we know of our past. Appraisal, or deciding what to save, and what not to save, is difficult in the face of so much information.
 
-As more and more information is made available on the Web how do we decide what to collect, and when? The Internet Archive's [Heritrix] bots walk from link to link on the Web archiving what they can. Members of the International Internet Preservation Consortium ([IIPC]) run their own crawls of specific parts of the Web: either country domains like the .uk top-level-domain, or specific websites that have been deemed within scope of their collection development policy. These policies inform the appraisal of whether particular Web content is deemed worth adding to an archive. Archivists are aware of how these appraisal decisions shape the archive over time, and by extension also shape what we know of our past. Appraisal, or deciding what to save, and what not to save, is difficult in the face of so much information.
+This annotated bibliography provides a view into the emerging field of computer assisted appraisal in Web archives. How can computers assist archivists in the selection of content for archiving? Similarly how can archivists guide the appraisal crawling of Web content? There are two primary themes that emerge: 1) how does an archivist find relevant Web content to archive and 2) once content is located how is it evaluated to determine whether to accession the content? This survey is by no means complete, and is just at the initial stages. If you have suggestions please email me at [ehs@pobox.com](mailto:ehs@pobox.com)
 
-This annotated bibliography provides a view into an emerging field of computer assisted appraisal in Web archives. How can computers assist archivists in the selection of content for archiving, and similarly how can archivists guide the appraisal of web content? There are a few themes that emerge in this brief survey: focused web crawling, memory
-
-
-@Chakrabarti:1999
-
-S. Chakrabarti, M. Van den Berg, and B. Dom. Focused crawling: a new approach to topic-specific web resource discovery. Computer Networks, 31(11):1623–1640, 1999.
+## Finding Content
 
 @Jiang:2012
 
-As more content goes on the Web researchers of all kinds are increasingly interested in analyzing the structures of web forums in order to extract structured data, question/answer pairs, product reviews and opinion mining. Forum crawling is non-trivial because of paging mechanisms that can result in lots of duplicate links (different URLs for the same thing) which can consume large amounts of time and resources. For example the researchers found that 47% of URLs listed in sitemaps and feeds were duplicates in a sample of 9 forums.
+As more content goes on the Web researchers of all kinds are increasingly interested in analyzing Web forums in order to extract structured data, question/answer pairs, product reviews and opinions. Forum crawling is non-trivial because of paging mechanisms that can result in lots of duplicate links (different URLs for the same thing) which can consume large amounts of time and resources. For example the researchers found that 47% of URLs listed in sitemaps and feeds were duplicates in a sample of 9 forums.
 
 The article details a procedure for automatically detecting the structure of forum websites, and their URL types, in order to guide a crawler. The purpose is to save time, and improve coverage compared to breadth-first and other types of crawlers. The process is basically to automatically learn Index-Thread-Page-Flipping (ITF) regular expressions for identifying the types of pages in Web forums.
 
@@ -38,8 +33,6 @@ The results show that the Twitter based search is able to return the freshest re
 
 @Yang:2012
 
-Yang, S., Chitturi, K., Wilson, G., Magdy, M., and Fox, E. A. (2012). A study of automation from seed url generation to focused web archive development: the ctrnet context. In Proceedings of the 12th ACM/IEEE-CS joint conference on Digital Libraries, pages 341–342. Association for Computing Machinery.
-
 This paper introduces the idea of using social media streams, in this case Twitter, to determine a list of seed URLs to archive in time sensitive situations such as natural disasters and other crises. In these time sensitive situations it is difficult for archivists to build a list of potential seed URLs to harvest, because of the large amount of new content in a very short time period. The goal was to prototype and test a system that could run with minimum human intervention. This was the first reference I could find of using Twitter in this way to augment web archiving, which was discussed more fully in @Gossen:2015.
 
 The authors created a prototype Python Django application that manages the workflow of relevant tweets, to URL extraction, to web crawling with Heritrix, and the data extraction. The external service TwapperKeeper was used to collect the Twitter data, which is no longer available as a service today. Details about the data extraction did not seem to be included in the paper. The study used 5 different contemporary events to study the precision of the system: Virginia Tech shooting, Measles outbreak, a typhoon in the Philippines, Violence in Sudan, and Emergency Preparedness. The results showed that precision varied depending on the type of query used. In some cases a query picked up unrelated Web content because it was unintentionally broad. The paper mentioned a filtering component for reducing spam, but did not discuss it in detail. It also gives precision results without really discussing the method for obtaining the results. But there was a paster that accompanied the paper, so perhaps these details were there.
@@ -47,8 +40,6 @@ The authors created a prototype Python Django application that manages the workf
 The paper does a nice job of introducing a new idea (social media streams in Web archiving) and sets the stage for future work in terms of how to filter out spam and measure precision. Similar to @Gossen:2015 it hints at future work that could integrate a archivist or curator who can influence the direction of the crawl as part of the process.
 
 @Pereira:2014
-
-P. Pereira, J. Macedo, O. Craveiro, and H. Madeira. Time-aware focused web crawling. In Advances in Information Retrieval, pages 534–539. Springer, 2014.
 
 As discussed in @Gossen:2015 determining the time a Web page was published, or its freshness is difficult. The nature of the Web as a medium and its technical architecture necessitate the *nowness* of the Web: when you view a web page it is most likely being served directly from a Web server on the Internet, or perhaps an intermediary cache that has a sufficiently recent copy. However it is useful to be able to determine the age of a page, especially when ordering search results, and also for appraising a given web page in an archival setting.
 
@@ -58,15 +49,23 @@ The paper describes an experiment that compares the results of crawling two topi
 
 The authors admit that the results are preliminary, and that their project is a proof of concept. Unfortunately the authors don't appear to provide any source code for their prototype. It would be interesting to compare the time-based crawling with more traditional topic-based crawling, and perhaps consider a hybrid approach that would allow both approaches to be used in a single crawl.
 
-@Dai:2010
+## Evaluating
 
 @Lyle:2004
 
-J. A. Lyle. Sampling the umich. edu domain. In 4th International Web Archiving Workshop, Bath, UK, volume 2, 2004.
+This paper is equal part historical overview of sampling in archival appraisal and a discussion of a study that evaluated sampling in the Web archive records for the umich.edu domain. Lyle provides an excellent overview of how passive and active appraisal appraisal methods, and how they've been employed over the years. Active appraisal largely came about as the result of an over abundance of records in the post World War 2 era. However a partial shift back to passive appraisal was observed as electronic records became more prevalent and storage costs plummeted. In addition it became possible to automatically crawl large amounts of Web content given the structure of the World Wide Web. At the same time there was a movement towards active appraisal, where archivists became more involved with record creation, to insure that electronic documents use particular formats and have standard metadata.
+
+Lyle also discusses the benefits and drawbacks of several different types of document sampling methods: purposive, systemic, random and mixed-mode sampling. The intent is to use these methods on records of high evidential value, but not on records of high informational value. The distinction between informational and evidential value introduced by Schellenberg isn't clearly made, and Lyle questions whether information documents are always more valuable to the record than evidential documents. This is marked as a potential area for future research.
+
+In the second half of the paper Lyle documents the results of a Web crawl of the umich.edu domain performed by the Internet Archive. This focused crawl was performed for the purposes of this study, and identified 4 million URLs. Only 87% of these URLs were working (not broken links) and almost half were deemed to be duplicates. An analysis of different types of sampling was performed on the resulting 1.5 million documents using information from crawl logs: size of the document, size of URL. The study looked specifically at bias in the sample results, and found that stratified random sampling worked best; although details of how the bias in results was ascertained was not discussed.
+
+In the discussion of the results Lyle surmises that sampling is a better way of getting an idea for the sub-collections present in a set of documents rather than a criteria for accessioning itself. He notes that to some extent the whole process was perhaps more like snowball sampling, since the crawl itself potentially had inherent bias: the chosen entry point, the algorithm for link discovery, and the structure of the graph of documents. The author's conclusions specific conclusions are somewhat unclear but seem to indicate that more work is needed in the study of sampling in Web archives, and that it very well be a profitable way of discovering the structure inherent in a collection of Web documents. As such it could be a useful appraisal tool, but not as an explicit mechanism for determining whether to preserve or destroy a document. It seems to me that the design of such a sampling tool that could inform appraisal decisions could be a valuable contribution. 
 
 @Kenney:2002
 
-A. R. Kenney, M. Nancy, P. Botticelli, R. Entlich, C. Lagoze, and S. Payette. Preservation risk management for web resources: Virtual remote control in Cornell’s project prism. D-Lib Magazine, 8(1), January 2002.
+This paper examines uses the technique of risk management to identify factors that can be used in the appraisal of Web documents. These factors center around the document itself, the document's immediate context in the Web (links), the website that the document is a part of, and the institutional context that the website is situated in. Some of the document and contextual factors are reflected in later work by @Banos:2013 such as format, standards, accessibility and metadata. A particularly interesting metric is monitoring factors such as inbound and outbound links over time, and the shape of the website graph in order to determine the rate at which it is being maintained. The assumption being that a site that is not being maintained is more of a preservation risk.
+
+A general movement is made in this paper to reposition archivists from being custodians of content to being active managers of digital objects on the network. This effort seems to be worthwhile, especially if it is sustained. The discussion would have benefited from references to the existing literature on post-custodial archives which was available at the time. Two somewhat discordant parts of the paper are that the two project links figured prominently at the top of the article do not go to the PRISM project page, which is still available. Also, in hindsight the criticisms of the Internet Archive seem dismissive. The discussion would have been better situated in terms of opportunities for establishing a community of practice than pointing fingers.
 
 @Kanhabua:2013a
 
@@ -88,22 +87,28 @@ The motivation for the work on CLEAR was traced back to previous work in New Zea
 
 The paper includes useful details about the technical system: Python, Flask, Backbone and MySQL for the Web application, Redis for managing parallel processing and JHOVE for file identification. In addition the precise formula for generating the CLEAR metric was clearly described. What would have been nice would be an analysis of CLEAR results compared with quality assurance results from a human curator. It would be interesting to see if they are correlated, and also what likely threshold values could be set to.
 
-@Brunelle:2013
-
-Brunelle, J. F., Kelly, M., Weigle, M. C., and Nelson, M. L. (2013). The impact of JavaScript on archivability. International Journal on Digital Libraries, pages 1–23.
-
 @SalahEldeen:2013
 
-SalahEldeen, H. M. and Nelson, M. L. (2013). Carbon dating the web: estimating the age of web resources. In Proceedings of the 22nd international conference on World Wide Web companion, pages 1075–1082. International World Wide Web Conferences Steering Committee.
+As @Gossen:2015 also discusses, it is often important to identify when a document was first added to the Web. The age of Web documents, or their freshnessi, is important for digital library research, as well as for making informed appraisal decisionsn @Yang:2012. Determining the age of Web documents can be difficult when the page itself lacks an indicator of when it was created. Metadata such as the Last-Modified HTTP header are not typically reliable as a source for create date since publishers often change it to encourage Web crawling, and to influence cache behavior. So alternative methods need to be discovered.
 
-@Brunelle:2014a
+SalahEldeen show how the trail of references, citations and social media indicators can be used to estimate creation time. They describe and also demonstrate (through a prototype application) a mechanism for estimating Web page creation time using backlink discovery (Google), social media sharing of the document (Twitter using the Topsy API), archival versions available (Memento Aggregator API) and URL shortening services (Bitly).
 
-J. F. Brunelle, M. Kelly, H. SalahEldeen, M. C. Weigle, and M. L. Nelson. Not all mementos are created equal: measuring the impact of missing resources. In Proceedings of the 14th ACM/IEEE-CS Joint Conference on Digital Libraries, pages 321–330. IEEE Press, 2014.
+The authors tested their system by creating a corpus of 1200 Web documents on popular media sites with clearly marked creation times, and then using their technique to guess the creation time. The results showed that they were able to determine the correct creation date in 75% of the cases. However the Google backlinks and Bitly short URLs had little effect on the result. The determining factors were the archival snapshots available and the references on Twitter. Future areas of research would be identifying other potential social media indicators such as Facebook, Instagram and Twitter. Also, it would be interesting to see how well the process works when using a baseline of comparison of pages that are not from large media outlets, which may not be as well represented in Twitter.
 
+@Brunelle:2014
 
+Brunelle et al. observe that the nature of the Web has changed significantly in the last 15 years, in that there is an increasing amount of dynamic content being made available with JavaScript. This content has historically been difficult to archive because of the asymmetry between the technology use to archive content (the Web crawler) and the technology used for accessing archived content (the Web browser). Their study aims to measure the degree to which  1) this hypothesis is true and 2) the degree to which this impacts the experience of using archived content over time. 
+
+The first part of the study uses two sets of 1000 URLs: one being Bitly URLs found in Twitter, and the other being a sample of URLs found in ArchiveIt collections. These two sets were deemed to be quite different in terms of their source. A measure of URL complexity was used to characterize the URLs from each source, which showed that URLs obtained through Twitter were significantly more complex that those from ArchiveIt. Three different archiving tools (wget, Heritrix and WebCite) were then used to archive the URLs, and then results were compared using an instance of the Wayback Machine. The Wayback Machine ran on a server disconnected from the Internet in order to highlight potential leakage (URLs that targeted the live Web instead of the archive). The PhantomJS browser was used to measure the types of requests and their results. Results showed that the Twitter dataset is much more difficult to archive, and that this is the result of a page's reliance on JavaScript for loading resources.
+
+The second part of the study looks at the combined set of Twitter and ArchiveIt URLs, and identifies ones that are available for the 2005-2012 time period. Mementos, or snapshots of the pages were then retrieved from the Internet Archive and the number of requests coming from HTML vs JavaScript was measured. They were able to show that between 2005-2012 there was a 14.7% increase in JavaScript use. More striking was the finding that over the same period the number of missing resources due to JavaScript rose from 39% to 73.1%.
+
+This format of this paper was somewhat hard to digest in that it really felt like two separate studies in one. The results were significant both for Web archive crawlers that must integrate JavaScript execution in order to be create full fidelity websites. In addition there need to be easy to use curator tools for identifying leakage in the Web archive. Ideally there should be a solution which does not require the archivist to run a local Web archive server (e.g. Wayback Machine) with the data held locally. The implications for Web publishers were also signifcant, if they value archivability of their web content. Another avenue to explore would be an *archivability* metric that could be derived through an analysis of the page, which could be useful when assessing content in a Web crawl.
 
 [Heritrix]: https://en.wikipedia.org/wiki/Heritrix
 [IIPC]: http://netpreserve.org
 [BibSonomy]: http://www.bibsonomy.org/
 [CTRNet]: http://ctrnet.net/
 [CLEAR]: http://archiveready.com/
+[Internet Archive]: http://archive.org
+[PRISM]: http://prism.cornell.edu
