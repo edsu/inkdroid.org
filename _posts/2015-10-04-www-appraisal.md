@@ -13,10 +13,6 @@ tags:
 
 ---
 
-*If you prefer this post is also [available](/papers/www-appraisal.pdf) as a PDF*
-
----
-
 In 2008 Google estimated that it had 1 trillion unique URLs in its index
 <span class="citation">(Alpert & Hajaj, 2008)</span>. When I looked
 today (7 years later) the [Internet Archive](http://archive.org)'s home
@@ -28,9 +24,10 @@ page can change over time.  Capturing the record of documents as they change
 over time is essential for Web archives. So by design, there are many duplicate URLs included in
 the 438 billion Web pages that the Internet Archive has collected. If
 you ignore the duplicates and the fact that the Web has grown, it looks
-like Internet Archive has archived 37% of the Web. But if you consider
-the growth of the Web and the duplicates that are present in the archive
-this estimate is far too high.
+like Internet Archive has archived 43.8% of the Web. But if you consider
+the growth of the Web, the duplicates that are present in the archive, and the
+fact that Google removes URLs from its index when documents dissappear, the 
+actual percentage of the Web that is preserved must be much, much lower.
 
 As more and more information is made available on the Web how do
 archivists decide what to collect, and when? The Internet Archive's
