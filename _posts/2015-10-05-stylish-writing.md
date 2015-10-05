@@ -35,7 +35,13 @@ Here's another paragraph that I particularly liked, and which I was trying to re
 
 I think the first sentence is one of the best and shortest description of the peculiar medium of the Web I've ever read. Lepore is able to balance what often appears to be a fatal flaw in the technology of the Web with its real strengths: immediacy and currency. 
 
-This post wasn't meant to be a complete review of *Cobweb* but just to highlight a few things I really like about it for class. There's a lot more good stuff in there, so be sure to check it out if you are interested in the Web and history. Maybe I'll add more over time as I inevitably return to reading *Cobweb* in the future...as long as newyorker.com is still there. I guess there's always the print copy somewhere if they forget to renew their DNS registration, or the whole Internet goes up in flames dues to world energy crisis and cyberwarfare. Maybe?
+This post wasn't meant to be a complete review of *Cobweb* but just to highlight
+a few things I really like about it for class. There's a lot more good stuff in
+there, so be sure to check it out if you are interested in the Web and history.
+Maybe I'll add more over time as I inevitably return to reading *Cobweb* in the
+future...as long as newyorker.com is still there. I guess there's always the
+print copy somewhere if they forget to renew their DNS registration, or the
+whole Internet goes up in flames due to a world energy crisis and cyberwarfare. Maybe?
 
 [Stylish Academic Writing]: http://www.hup.harvard.edu/catalog.php?isbn=9780674064485
 [Helen Sword]: http://www.helensword.com/
