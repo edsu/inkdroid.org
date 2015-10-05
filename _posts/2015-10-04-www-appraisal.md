@@ -13,6 +13,10 @@ tags:
 
 ---
 
+*If you prefer this post is also [available](/papers/www-appraisal.pdf) as a PDF.*
+
+---
+
 In 2008 Google estimated that it had 1 trillion unique URLs in its index
 <span class="citation">(Alpert & Hajaj, 2008)</span>. When I looked
 today (7 years later) the [Internet Archive](http://archive.org)'s home
