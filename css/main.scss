@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 $font-family-sans-serif: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-$font-size-base: 16pt;
+$font-size-base: 14pt;
 
 table {
     @extend .table
@@ -55,6 +55,10 @@ body {
     padding-top: 10px;
     font-size: 12pt;
     border: thin solid gray;
+}
+
+h3 { 
+    font-size: 13pt;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
