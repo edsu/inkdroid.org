@@ -109,7 +109,9 @@ The thing I didn't mention earlier is that we found 417,972 unique, unshortened
 URLs. Among them were 21,457 YouTube videos. Here's [the fourth most shared
 YouTube video], that ended up being seen over half a million times.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GO1SKC6dK7o" frameborder="0" allowfullscreen></iframe>
+<div class="text-center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/GO1SKC6dK7o" frameborder="0" allowfullscreen></iframe>
+</div>
  
 As Bergis said in July of this year as he prepared for a [class] about archiving social media at Archival Education and Research Initiative (AERI):
 
