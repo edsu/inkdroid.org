@@ -3,11 +3,14 @@ layout: post
 title: White Dudes Giving Speeches
 ---
 
-Thank you for inviting me here today to be here with you all here at MARAC. I'll admit that I'm more than a bit nervous to be up here. I normally apologize for being a software developer right about now. But I'm not going to do that today...although I guess I just did. I'm not paying software developers any compliments by using them as a scapegoat for my public presentation skills. And the truth is that I've seen plenty of software developers give moving and inspiring talks.
+Thank you for inviting me here today to be with you all here at MARAC. I'll admit that I'm more than a bit nervous to be up here. I normally apologize for being a software developer right about now. But I'm not going to do that today...although I guess I just did. I'm not paying software developers any compliments by using them as a scapegoat for my public presentation skills. And the truth is that I've seen plenty of software developers give moving and inspiring talks.
 
 The reason why I'm a bit more nervous today than usual is because you are *archivists*. I don't need to [#askanarchivist] to know that you think differently about things, in subtle and profound ways. To paraphrase Orwell: You work in the present to shape what we know about the past, in order to help create our future. You are a bunch of time travelers. How do you decide what to hold on to, and what to let go of? How do you care for this material? How do you let people know about it? You do this for organizations, communities and collectively for entire cultures. I want to pause a moment to thank you for your work. You should applaud yourselves.
 
-My Twitter profile used to say I was a "hacker for libraries". I changed it a few years ago to "pragmatist, archivist and humanist". But the reality is that these are aspirational..these are the things I *want* to be. I have major imposter syndrome about claiming to be an archivist. That's why I'm nervous.
+My Twitter profile used to say I was a "hacker for libraries". I changed it a
+few years ago to "pragmatist, archivist and humanist". But the reality is that
+these are aspirational..these are the things I *want* to be. I have major
+imposter syndrome about claiming to be an archivist...and that's why I'm nervous.
 
 Can you believe that I went through a Masters in Library & Information Science program without learning a lick about archival theory? Maybe I just picked the wrong classes, but this was truly a missed opportunity, both for me and the school. After graduating I spent some time working with metadata in libraries, then as a software developer at a startup, then at a publisher, and then in government. It was in this last role helping bits move around at the Library of Congress (yes, some of the bits did still move, kinda, sorta) that I realized how much I had missed about the theory of archives in school.
 
@@ -85,8 +88,6 @@ affiliated with the University library. [Neil Fraistat], the director of MITH,
 immediately recognized the value of doing this work. He not only supported me in
 spending time on it with Bergis, but also talked about the work with his olleagues at the University.
 
-slide: #12
-
 When there was a Town Hall meeting on December 3, 2014 we were invited to speak along with other faculty, students and the University Police Commissioner. The slides you saw earlier of popular tweets during that period was originally created for the Town Hall. I spoke very briefly about the data we collected and invited students and faculty who were interested in working with the data to please get in touch. The meeting was attended by hundreds of students, and ended up lasting some 4 hours, with most of the time being taken up by students sharing stories from their experience on campus of harassment by police, concern about military grade weapons being deployed in the community, insight into the forms of institutionalized racism that we all still live with today. It was an incredibly moving experience, and our images from the "archive" were playing the whole time as a backdrop.
 
 <a href="http://blacklivesmatterumd.tumblr.com/"><img class="img-responsive img-thumbnail" src="/images/blm-umd.png"></a>
@@ -107,10 +108,8 @@ As with all good ideas, we're not alone in seeing the usefulness of social media
 
 > The Integrated Digital Event Archive and Library (IDEAL) system addresses the need for combining the best of digital library and archive technologies in support of stakeholders who are remembering and/or studying important events. It extends the work at Virginia Tech on the Crisis, Tragedy, and Recovery network (see http://www.ctrnet.net) to handle government and community events, in addition to a range of significant natural or manmade disasters. It addresses needs of those interested in emergency preparedness/response, digital government, and the social sciences. It proves the effectiveness of the 5S (Societies, Scenarios, Spaces, Structures, Streams) approach to intelligent information systems by crawling and archiving events of broad interest. It leverages and extends the capabilities of the Internet Archive to develop spontaneous event collections that can be permanently archived as well as searched and accessed, and of the LucidWorks Big Data software that supports scalable indexing, analyzing, and accessing of very large collections. 
 
-Maybe you should have another Ed up here speaking! Or an archivist like Bergis. As Hillel tweeted recently at SAA:
+Maybe you should have another Ed up here speaking! Or an archivist like Bergis.
 
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Your semi-regular reminder that direct, local action is what makes change happen, not white dudes giving speeches. <a href="https://twitter.com/hashtag/saa15?src=hash">#saa15</a> <a href="https://twitter.com/hashtag/s610?src=hash">#s610</a></p>&mdash; Hillel Arnold (@helrond) <a href="https://twitter.com/helrond/status/635082493729878016">August 22, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Seriously though, this has been fun. Before I leave you here are a few places you could go to get involved in and learn about this work.
 
@@ -118,7 +117,12 @@ Seriously though, this has been fun. Before I leave you here are a few places yo
 2. If you're not an SAA member there's a new discussion list called [Web Archives](https://groups.google.com/forum/#!forum/web-archives). It's just getting started, so it's a perfect time to join.
 3. Bergis, Christie Peterson, Bert Lyons, Ryan Baumann and I have been writing short little stories about this kind of work on [Medium] in the [On Archivy] publication. If you have ideas for little stories, thought experiments, actual work, ideas or commentary please write it on Medium and send us request to include it.
 
-If you know of other why don't you tell me and the rest of us. Thanks everyone.
+And as Hillel Arnold pointed out recently: 
+
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Your semi-regular reminder that direct, local action is what makes change happen, not white dudes giving speeches. <a href="https://twitter.com/hashtag/saa15?src=hash">#saa15</a> <a href="https://twitter.com/hashtag/s610?src=hash">#s610</a></p>&mdash; Hillel Arnold (@helrond) <a href="https://twitter.com/helrond/status/635082493729878016">August 22, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Let's get to work.
 
 [hillel slide]: https://twitter.com/helrond/status/635082493729878016
 
