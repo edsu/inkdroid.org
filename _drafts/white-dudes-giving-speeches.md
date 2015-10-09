@@ -21,7 +21,7 @@ So why am *I* up *here* talking to *you*? This isn't about *me* right? It's abou
 
 Don't worry I'm not really going to be talking about the creation of finding aids. I think that they are something we all roughly understand. We use them to manage physical and intellectual access to our collections right? Finding aids are also used by researchers to discover what collections we have. Hey, it happens. Instead what I would like to focus on in this talk is the nature of this particular collection. What are the records being described here?
 
-Yes, they are tweets that the Cuban Heritage Collection at the University of Miami collected after the announcement by President Obama on December 17, 2015 that the United States was going to begin normalizing relations with Cuba. You can see information about what format the data is in, when the data was collection, how it was collected, how much data there is, and the rights associated with the data.
+Yes, they are tweets that the Cuban Heritage Collection at the University of Miami collected after the announcement by President Obama on December 17, 2014 that the United States was going to begin normalizing relations with Cuba. You can see information about what format the data is in, when the data was collection, how it was collected, how much data there is, and the rights associated with the data.
 
 Why would you want to do this? What can 25 million tweets tell us about the public reaction to Obama's announcement? What will they tell us in 10, 25 or 50 years? Nathalie is thinking they could tell us a lot, and I think she is right. What I like about Nathalie's work is that she has managed to fold this data collection work in with the traditional work of the archive. I know there were some technical hoops to jump through regarding data collection, but the social engineering required to get people working together as a team so that data collection leads leads to processing and then to product in a timely manner is what I thought was truly impressive. Nathalie got in touch with Bergis Jules and I to help with some of the technical pieces since she knew that we had done some similar work in this area before. I thought I would tell you about how that work came to be. But if you take nothing else from my talk today take this example of Nathalie's work.
 
@@ -63,9 +63,10 @@ Ok, I can imagine some eyes glazing over at these mundane details so lets get ba
 
 We then took a look just within the first day of tweets that we had to eyeball what the [most tweeted URLs tweeted initially] looked like. Look at number #2 there, [Racial Profiling Data/2013]. It's a government document from the Missouri Attorney General's Office with statistics from the Ferguson Police Department. Let's take a moment to digest those stats along with the [1,538 Twitter users] who did that day.
 
-Now what's interesting is that the URL that was tweeted so many times then is already broken. And look, Internet Archive has it, but it was collected for the first time on August 12, 2015. Just as the conversation was erupting on Twitter. Perhaps this URL was submitted by an archivist to the form ArchiveIt put together. Or perhaps someone recognized the importance of archiving it and submitted it directly to the Internet Archive using their [Save Now] form.
+Now what's interesting is that the URL that was tweeted so many times then is already broken. And look, Internet Archive has it, but it was collected for the first time on August 12, 2014. Just as the conversation was erupting on Twitter. Perhaps this URL was submitted by an archivist to the form ArchiveIt put together. Or perhaps someone recognized the importance of archiving it and submitted it directly to the Internet Archive using their [Save Now] form.
 
-The thing I didn't mention earlier is that we found 417,972 unique, unshortened URLs. Among them were 21,457 YouTube videos. Here's an example of one that ended up being seen over half a million times on YouTube.
+The thing I didn't mention earlier is that we found 417,972 unique, unshortened
+URLs. Among them were 21,457 YouTube videos. Here's the fourth most shared video an example of one that ended up being seen over half a million times on YouTube.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GO1SKC6dK7o" frameborder="0" allowfullscreen></iframe>
  
