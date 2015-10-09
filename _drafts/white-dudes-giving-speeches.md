@@ -66,7 +66,8 @@ We then took a look just within the first day of tweets that we had to eyeball w
 Now what's interesting is that the URL that was tweeted so many times then is already broken. And look, Internet Archive has it, but it was collected for the first time on August 12, 2014. Just as the conversation was erupting on Twitter. Perhaps this URL was submitted by an archivist to the form ArchiveIt put together. Or perhaps someone recognized the importance of archiving it and submitted it directly to the Internet Archive using their [Save Now] form.
 
 The thing I didn't mention earlier is that we found 417,972 unique, unshortened
-URLs. Among them were 21,457 YouTube videos. Here's the fourth most shared video an example of one that ended up being seen over half a million times on YouTube.
+URLs. Among them were 21,457 YouTube videos. Here's the fourth most shared
+YouTube video, that ended up being seen over half a million times.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GO1SKC6dK7o" frameborder="0" allowfullscreen></iframe>
  
