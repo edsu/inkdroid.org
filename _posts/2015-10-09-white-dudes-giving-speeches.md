@@ -175,8 +175,7 @@ list](http://forums.archivists.org/aread/?forum=webarchiving). One of the cool
 things that happend on this discussion list last year was drafting a [letter to
 Facebook] that was sent by President Kathleen Roe.
 2. If you're not an SAA member there's a new discussion list called [Web Archives](https://groups.google.com/forum/#!forum/web-archives). It's just getting started, so it's a perfect time to join.
-3. Bergis, Christie Peterson, Bert Lyons, Ryan Baumann and I have been writing
-short pieces about this kind of work on Medium in the [On Archivy] publication. If you have ideass, thought experiments, actual work, or commentary please write it on Medium and send us request to include it.
+3. Bergis, Christie Peterson, Bert Lyons, Allison Jai O'Dell, Ryan Baumann and I have been writing short pieces about this kind of work on Medium in the [On Archivy] publication. If you have ideass, thought experiments, actual work, or commentary please write it on Medium and send us request to include it.
 
 And as Hillel Arnold pointed out recently: 
 

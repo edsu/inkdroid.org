@@ -38,7 +38,7 @@ find my code up on <a href="http://github.com/edsu">Github</a>, and my photos on
 <a href="https://secure.flickr.com/photos/inkdroid">Flickr</a>. I like to chat
 on <a href="http://twitter.com/edsu">Twitter</a>, and in the <a
 href="irc://freenode.net/code4lib">#code4lib</a> IRC channel. I try to keep my
-<a href="http://inkdroid.org/ehs/">CSV</a> fairly up to date. Feel free to get in touch with me via email at <a href="mailto:ehs@pobox.com">ehs@pobox.com</a>, you can find my public key <a href="https://keybase.io/edsu/key.asc">here</a>.
+<a href="http://inkdroid.org/ehs/">CV</a> fairly up to date. Feel free to get in touch with me via email at <a href="mailto:ehs@pobox.com">ehs@pobox.com</a>, you can find my public key <a href="https://keybase.io/edsu/key.asc">here</a>.
 
 A bit more about me...
 
