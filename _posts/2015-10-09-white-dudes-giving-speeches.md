@@ -123,9 +123,10 @@ Bergis was thinking specifically about events like the Watts Riots in Los Angele
 Of course the story does not end there. As I mentioned I work at the Maryland
 Institute for Technology in the Humanities at the University of Maryland. We
 aren't an archive or a library, we're a digital humanities lab that is closely
-affiliated with the University library. [Neil Fraistat], the director of MITH,
+affiliated with the University library. [Neil Fraistat], the Director of MITH,
 immediately recognized the value of doing this work. He not only supported me in
-spending time on it with Bergis, but also talked about the work with his olleagues at the University.
+spending time on it with Bergis, but also talked about the work with his
+colleagues at the University of Maryland.
 
 When there was a Town Hall meeting on December 3, 2014 we were invited to speak along with other faculty, students and the University Police Commissioner. The slides you saw earlier of popular tweets during that period was originally created for the Town Hall. I spoke very briefly about the data we collected and invited students and faculty who were interested in working with the data to please get in touch. The meeting was attended by hundreds of students, and ended up lasting some 4 hours, with most of the time being taken up by students sharing stories from their experience on campus of harassment by police, concern about military grade weapons being deployed in the community, insight into the forms of institutionalized racism that we all still live with today. It was an incredibly moving experience, and our images from the "archive" were playing the whole time as a backdrop.
 
