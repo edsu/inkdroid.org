@@ -3,7 +3,7 @@ layout: post
 title: White Dudes Giving Speeches
 ---
 
-Thank you for inviting me here today to be with you all here at MARAC. I'll admit that I'm more than a bit nervous to be up here. I normally apologize for being a software developer right about now. But I'm not going to do that today...although I guess I just did. I'm not paying software developers any compliments by using them as a scapegoat for my public presentation skills. And the truth is that I've seen plenty of software developers give moving and inspiring talks.
+Thank you for inviting me here today to be with you all at MARAC. I'll admit that I'm more than a bit nervous to be up here. I normally apologize for being a software developer right about now. But I'm not going to do that today...although I guess I just did. I'm not paying software developers any compliments by using them as a scapegoat for my public presentation skills. And the truth is that I've seen plenty of software developers give moving and inspiring talks.
 
 So the reason why I'm a bit more nervous today than usual is because you are
 *archivists*. I don't need to [#askanarchivist] to know that you think
@@ -124,9 +124,10 @@ Bergis was thinking specifically about events like the Watts Riots in Los Angele
 Of course the story does not end there. As I mentioned I work at the Maryland
 Institute for Technology in the Humanities at the University of Maryland. We
 aren't an archive or a library, we're a digital humanities lab that is closely
-affiliated with the University library. [Neil Fraistat], the director of MITH,
+affiliated with the University library. [Neil Fraistat], the Director of MITH,
 immediately recognized the value of doing this work. He not only supported me in
-spending time on it with Bergis, but also talked about the work with his olleagues at the University.
+spending time on it with Bergis, but also talked about the work with his
+colleagues at the University of Maryland.
 
 When there was a Town Hall meeting on December 3, 2014 we were invited to speak along with other faculty, students and the University Police Commissioner. The slides you saw earlier of popular tweets during that period was originally created for the Town Hall. I spoke very briefly about the data we collected and invited students and faculty who were interested in working with the data to please get in touch. The meeting was attended by hundreds of students, and ended up lasting some 4 hours, with most of the time being taken up by students sharing stories from their experience on campus of harassment by police, concern about military grade weapons being deployed in the community, insight into the forms of institutionalized racism that we all still live with today. It was an incredibly moving experience, and our images from the "archive" were playing the whole time as a backdrop.
 
@@ -150,8 +151,11 @@ And of course, we didn't know it at the time, but Ferguson was just the beginnin
 Bergis and I [did our best] to collect what we could from these sad, terrifying
 and enraging events. The protests in Baltimore were of particular interest to us
 at the University of Maryland since it was right in our backyard. Our data
-collection efforts got the attention of Rashawn Ray who is a professor in
-sociology at the University of Maryland. He and his PhD student Melissa Brown were interested in studying how the discussion of Ferguson changed in four datasets we had collected: the initial killing of Michael Brown, the non-indictment of Darren Wilson, the Justice Department Report and then the one year anniversary. They have been exploring what the hashtags, images and text tell us about the shaping of narratives, sub-narratives and counter-narratives around the Black experience in the United States.
+collection efforts got the attention of Rashawn Ray who is an Assistant
+Professor of Sociology at the University of Maryland. He and his PhD student
+Melissa Brown were interested in studying how the discussion of Ferguson changed
+in four Twitter datasets we had collected: the killing of Michael Brown, the
+non-indictment of Darren Wilson, the Justice Department Report, and then the one year anniversary. They have been exploring what the hashtags, images and text tell us about the shaping of narratives, sub-narratives and counter-narratives around the Black experience in the United States.
 
 And we haven't even accessioned any of the data. It's sitting in MITH's Amazon cloud storage. This really isn't anybody's fault but my own. I haven't made it a priority to figure out how to get it into the University's Fedora repository. In theory it should be doable. This is why I'm such a fan of Natalie's work at the University of Miami that I mentioned at the beginning. Not only did she get the data into the archive, but she described it with a finding aid that is now on the Web, waiting to be discovered by a researcher like Rashawn.
 
