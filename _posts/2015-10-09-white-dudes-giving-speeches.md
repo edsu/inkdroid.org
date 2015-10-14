@@ -59,7 +59,8 @@ You can see from this graph of tweets per day, that there were definite cycles
 in the Twitter traffic. In fact the volume was so high at times, and we had
 started data collection 6 days late, you can see there are periods where we weren't able to get the tweets. You might be wondering what this data collection looks like. Before looking closer at the data let me try to demystify it a little bit for you.
 
-<a href="https://dev.twitter.com/rest/public/search"><img class="img-responsive img-thumbnail"></a>
+<a href="https://dev.twitter.com/rest/public/search"><img class="img-responsive
+img-thumbnail" src="/images/twitter-api.png"></a>
 
 Here is a page from the online documentation for Twitter's API. If you haven't heard the term API before it stands for Application Programming Interface, and that's just a fancy name for a website that delivers up data (such as XML or JSON) instead of human readable web pages. If you have a Twitter app on your phone it most likely uses Twitter's API to access the tweets of people you follow. Twitter isn't the only place making APIs available: they are *everywhere* on the Web: Facebook, Google, YouTube, Wikipedia, OCLC, even the Library of Congress has APIs. In some ways if you make your EAD XML available on the Web it is a kind of API. I really hope I didn't just mansplain what APIs are, that's not what I was trying to do.
 
