@@ -10,50 +10,26 @@ tags:
 - inst888
 - bibliography
 - appraisal
-
----
-
-*If you prefer this post is also [available](/papers/www-appraisal.pdf) as a PDF.*
+- web archiving
 
 ---
 
 In 2008 Google estimated that it had 1 trillion unique URLs in its index
 <span class="citation">(Alpert & Hajaj, 2008)</span>. When I looked
 today (7 years later) the [Internet Archive](http://archive.org)'s home
-page announced that it has archived 438 billion Web pages. It's an
-astounding achievement, but the Web has certainly grown many times over
-since 2008. Also, it's important to note the difference in terminology: *URL* versus *Web
-page*. A Web page has a unique URL, or address, but the content of a Web
-page can change over time.  Capturing the record of documents as they change
-over time is essential for Web archives. So by design, there are many duplicate URLs included in
-the 438 billion Web pages that the Internet Archive has collected. If
-you ignore the duplicates and the fact that the Web has grown, it looks
-like Internet Archive has archived 43.8% of the Web. But if you consider
-the growth of the Web, the duplicates that are present in the archive, and the
-fact that Google removes URLs from its index when documents dissappear, the 
-actual percentage of the Web that is preserved must be much, much lower.
+page announced that it has archived 438 billion Web pages, or 43.8% of the Web. Of course the Web has grown many times in the last 7 years, and the Internet Archive itself takes multiple snapshots of the same URL--so the actual coverage is much, much lower. 
 
 As more and more information is made available on the Web how do
-archivists decide what to collect, and when? The Internet Archive's
-[Heritrix](https://en.wikipedia.org/wiki/Heritrix) bots walk from link
-to link on the Web archiving what they can. Members of the International
-Internet Preservation Consortium ([IIPC](http://netpreserve.org)) run
-their own crawls of specific parts of the Web: either country domains
-like the .uk top-level-domain, or specific websites that have been
-deemed within scope of their collection development policy. These
-policies inform the appraisal of whether particular Web content is
-deemed worth adding to an archive. Archivists are aware of how these
-appraisal decisions shape the archive over time, and by extension also
-shape what we know of our past. Appraisal, or deciding what to save, and
-what not to save, is difficult in the face of so much information.
+archivists decide what to collect, and when? Some archives have clear collection development policies that help guide collection in particular areas. But archivists are often reduced to supplying lists of website URLs (seed lists) that are deemed important to capture. How do archivists decide what to add, and what not to add to these seed lists? The Web is an incredibly large information space, so given a topic area it is often difficult to know what website URLs are available.
+
+The Internet Archive's [Heritrix](https://en.wikipedia.org/wiki/Heritrix) bots walk from link to link on the Web archiving what they can. Members of the International
+Internet Preservation Consortium ([IIPC](http://netpreserve.org)) run their own crawls of specific parts of the Web: either country domains like the .uk top-level-domain, or specific websites that have been selected. Over the past two centuries archivists have developed a body of research literature around appraisal, or deciding what is to be collected. Key to these theories is the understanding that appraisal decisions shape the archive over time, and by extension, also shape our present day culture, and what we know of our past. However appraisal is difficult in the face of such a super-abundance of highly volatile information on the Web.
 
 This annotated bibliography provides a view into the emerging field of
 computer assisted appraisal in Web archives. How can computers assist
 archivists in the selection of content for archiving? Similarly, how can
-archivists guide the appraisal and crawling of Web content? There are two
-primary themes that emerge in this review: identification and evaluation.
-This review is not meant to be complete, but rather to be suggestive of 
-a field of study at the intersection of archival and computer science. 
+archivists guide the crawling and evaluation of Web content? There are two
+primary themes that emerge in the literature covered here: identification of Web content and evaluation of Web content. Both activities are essential activities in the appraisal process. This review is not exhaustive, but rather suggestive of a field of study at the intersection of archival and computer science. The hope is that it can serve as a guide post for future work in computer assisted appraisal of Web content--specifically with regards to the use of social media context when making appraisal decisions.
 
 ## 1. Finding Content
 
@@ -185,8 +161,7 @@ The paper does a nice job of introducing a new idea (social media
 streams in Web archiving) and sets the stage for future work in terms of
 how to filter out spam and measure precision. Similar to <span
 class="citation">Gossen et al. (2015)</span> it hints at future work
-that could integrate a archivist or curator who can influence the
-direction of the crawl as part of the process.
+that could use feedback from an archivist or curator to help determine the scope of Web crawls.
 
 ### Pereira, P., Macedo, J., Craveiro, O., & Madeira, H. (2014). Time-aware focused web crawling. In *Advances in Information Retrieval* (pp.  534–539). Springer.
 
