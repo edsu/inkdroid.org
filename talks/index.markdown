@@ -19,8 +19,16 @@ tags: []
 comments: []
 ---
 <p>Occasionally I've given presentations about the application of information technology in libraries. If any of this sounds appropriate for a group you belong to let me know.</p>
+
 <p class="story">
-  <strong>@congressedits - Wikipedia + Twitter + Congress = ?</strong><br /><a href="http://hackandtell.org/">DC Hack and Tell</a><br />Washington, DC (July 21, 2014)<br /> [<a href="https://edsu.github.io/congressedits-slides/">slides</a>]</p>
+<strong>White Dudes Giving Speeches</strong><br>
+<a href="">Mid-Atlantic Regional Archives Conference</a><br>
+Roanoke, Virginia (October 8, 2015)<br>
+[<a href="http://inkdroid.org/2015/10/09/white-dudes-giving-speeches/">text</a>] [<a href="https://edsu.github.io/marac-slides/">slides</a>]
+</p>
+
+<p class="story">
+  <strong>\@congressedits - Wikipedia + Twitter + Congress = ?</strong><br /><a href="http://hackandtell.org/">DC Hack and Tell</a><br />Washington, DC (July 21, 2014)<br /> [<a href="https://edsu.github.io/congressedits-slides/">slides</a>]</p>
 <p class="story">
   <strong>The Web as a Preservation Medium</strong><br /> <a href="http://www.ndf.org.nz/">National Digital Forum</a><br /> Wellington, New Zealand (November 28, 2013)<br /> [<a href="http://inkdroid.org/journal/2013/11/26/the-web-as-a-preservation-medium/">text</a>] [<a href="http://edsu.github.io/webpresmed/#/">slides</a>] [<a href="https://www.youtube.com/watch?v=HpJgX8a9d3I">video</a>]</p>
 <p class="story">
