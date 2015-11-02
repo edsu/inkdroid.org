@@ -45,7 +45,13 @@ Then I tried to explore the limits of the analogy by thinking about the 404 as a
 
 Finally I tried to work the metaphor back into the original sentence:
 
-> An established way to do this is to use the modest HTTP redirect. Think of a redirect as a message from an unseen postal worker in the Dead Letter Office of the Web, who squints at your URL’s cramped handwriting, perhaps consults an index of helpfully supplied forwarding addresses, and sends your HTTP request on to the next post office that may be able to get your request to where it needs to go. Or, in the event that no forwarding address is found, returns your HTTP request stamped Return to Sender, 404 Not Found.
+> An established way to do this is to use the modest HTTP redirect. Think of a
+> redirect as the work of an unseen postal worker in the Dead Letter Office of 
+> the Web, who squints at your URL’s cramped handwriting, perhaps consults an 
+> index of supplied forwarding addresses, and sends your HTTP request on to 
+> the next post office that may be able to get your request to where it needs 
+> to go. Or, in the event that no forwarding address is found, returns your 
+> HTTP request stamped Return to Sender, 404 Not Found.
 > 
 > <div class="text-center">
 > <a href="https://commons.wikimedia.org/wiki/File:The_Dead_Letter_Office_at_Washington.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/The_Dead_Letter_Office_at_Washington.jpg/579px-The_Dead_Letter_Office_at_Washington.jpg" class="center-block img-responsive"></a>
@@ -54,7 +60,13 @@ Finally I tried to work the metaphor back into the original sentence:
 > 
 > </div>
 
-I feel like I stretched the metaphor a bit too far because, according to [Wikipedia], workers in a DLO would open up the envelope or package looking for clues about where the letter should go. If the destination still cannot be determined the item will either be destroyed, or (if it's valuable) auctioned off. The worker would never would stamp the letter or package return to sender, since it only goes to the DLO when a return address is not included. Incidentally [99% Invisble] have a recent [podcast episode] about DLO auctions, which is entertaining.
+I feel like I stretched the metaphor a bit too far because, according to
+[Wikipedia], workers in a DLO would open up the envelope or package looking for
+clues about where the letter should go. If the destination still cannot be
+determined the item will either be destroyed, or (if it's valuable) auctioned
+off. The worker would never would stamp the letter or package return to sender,
+since it only goes to the DLO when a return address is not included.
+Incidentally [99% Invisible] have a recent [podcast episode] about DLO auctions, which is entertaining.
 
 Anyway I digress. If you have any comments or ideas for how to improve this metaphor (including completely removing it from my blog post) shoot me a message on [Twitter] until I get comments working again... Hopefully the blog post itself will get published soon.
 
