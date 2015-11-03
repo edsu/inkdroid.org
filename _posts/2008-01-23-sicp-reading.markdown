@@ -16,7 +16,9 @@ wordpress_url: http://inkdroid.org/journal/2008/01/23/sicp-reading/
 date: '2008-01-23 19:42:12 +0000'
 date_gmt: '2008-01-24 02:42:12 +0000'
 tags:
-- lisp scheme programming mit courses
+- lisp
+- scheme
+- programming
 comments:
 - id: 85340
   author: "&gt;Saturday Afternoon in Berlin: A snapshot of my brain at the moment
