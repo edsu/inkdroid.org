@@ -7,7 +7,7 @@ url: "http://inkdroid.org"
 twitter_username: edsu
 github_username: edsu
 permalink: pretty
-paginate: 15 
+paginate: 50 
 paginate_path: "/page/:num/"
 
 tag_page_layout: tag
