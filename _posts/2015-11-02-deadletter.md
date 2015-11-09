@@ -5,6 +5,7 @@ tags:
 - inst800
 - study
 - web archiving
+- writing
 ---
 
 For the past few weeks (honestly, perhaps event months) I've been in the process of writing a piece for [MITH] about techniques for preserving websites. The idea is for it to be part of a series that [Porter Olsen] and [Trevor Muñoz] started on the topic of stewarding digital humanities work on the Web. I'm trying to follow on from Porter's piece which focused on the materiality of web servers, or how to work with webserver hard drives as objects of preservation and data curation. My contribution on the other hand is going to examine the ephemeral nature of the Web: how broken links break the illusion of a World Wide Web, and what we can do about it. Most of the content will be centered on techniques for mitigating this breakage using principles of repair borrowed from Web architecture.
