@@ -5,6 +5,7 @@ tags:
 - study
 - writing
 - inst800
+- repair
 ---
 
 For one of my classes this semester we've been reading [Stylish Academic Writing] by [Helen Sword]. The goal of the class is to help PhD students learn about the value of research, with a particular focus on *accessible* research that makes a significant difference in a particular community and (hopefully) the world. Too often valuable research results are packaged up in dry containers, that are generally unaccessible to other members of the field, and all the smart people and interested people outside of the academic community. We're reading Sword's book to learn some techniques for helping make this happen.
