@@ -80,3 +80,6 @@ RewriteRule ^/wikippoc/? "https://github.com/edsu/wikippoc" [R,L]
 # wordpress site used to be in /journal now it's in the root
 RewriteRule ^journal(.*) "$1" [R=permanent,L]
 RewriteRule ^feed/?$ "/feed.xml" [R=permanent,L]
+
+# some odd things that moved
+RewriteRule ^2015/03/12/javascript-and-archives/ http://inkdroid.org/2015/03/11/javascript-and-archives/ [R=permanent,L]
