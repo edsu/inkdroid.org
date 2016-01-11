@@ -18,6 +18,8 @@ date_gmt: '2015-04-24 20:28:32 +0000'
 tags:
 - pragmatism
 - John Dewey
+- quotes
+- repair
 comments: []
 ---
 <p><a href="https://www.goodreads.com/book/show/2080244.Human_Nature_and_Conduct" style="float: left; padding-right: 20px"><img alt="Human Nature and Conduct" border="0" src="https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png" /></a><a href="https://www.goodreads.com/book/show/2080244.Human_Nature_and_Conduct">Human Nature and Conduct</a> by <a href="https://www.goodreads.com/author/show/42738.John_Dewey">John Dewey</a><br />
