@@ -26,3 +26,4 @@ meditation on scale:
 [Chevron]: http://chevrontoxico.com/
 [the people affected by the contaminated soil]: https://www.youtube.com/watch?v=BvrZRvgwBS8
 [lack]: http://archive.org/stream/essayslettersfro01shelrich#page/44/mode/2up
+[hydrocarbons]: https://en.wikipedia.org/wiki/Hydrocarbon
