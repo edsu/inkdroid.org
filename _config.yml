@@ -31,7 +31,7 @@ gems:
   - jekyll/tagging
   - jekyll-pandoc
 
-markdown: 'pandoc'
+markdown: 'PandocProcessor'
 
 pandoc:
   extensions:

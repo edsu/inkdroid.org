@@ -6,5 +6,5 @@ group :jekyll_plugins do
   gem 'jekyll-compose'
   gem 'jekyll-tagging'
   gem 'jekyll-paginate'
-  gem 'jekyll-pandoc', :github => 'edsu/jekyll-pandoc', :branch => 'jekyll3-dependency'
+  gem 'jekyll-pandoc', :github => 'edsu/jekyll-pandoc', :branch => 'jekyll3'
 end
