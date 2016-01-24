@@ -306,52 +306,43 @@ comments:
   content: |
     [&#8230;] en un panel sobre e-Gobierno. Y lo explico con un esquema gráfico que ya ha venido promoviendo en otras apariciones públicas últimamente: las cinco estrellas hacia los linked data, o los datos enlazados (un poquito más [&#8230;]
 ---
-<p>While perusing the <a href="http://www.w3.org/2010/06/04-egov-minutes.html">minutes</a> of today's <a href="http://www.w3.org/egov/">w3c egov</a> telecon I noticed mention of Tim Berners-Lee's <a href="http://www.youtube.com/watch?v=ga1aSJXCFe0">Bag of Chips</a> talk at the <a href="http://www.gov2expo.com/gov2expo2010">gov2.0 expo</a> last week in Washington, DC. I actually enjoyed the talk not so much for the bag-of-chips example (which is good), but for the examination of Linked Data as part of a continuum of web publishing activities associated with gold stars, like the ones you got in school. Here they are:<br />
+<p>While perusing the <a
+href="http://www.w3.org/2010/06/04-egov-minutes.html">minutes</a> of today's <a
+href="http://www.w3.org/egov/">w3c egov</a> telecon I noticed mention of Tim
+Berners-Lee's <a href="http://www.youtube.com/watch?v=ga1aSJXCFe0">Bag of
+Chips</a> talk at the <a href="http://www.gov2expo.com/gov2expo2010">gov2.0
+expo</a> last week in Washington, DC. I actually enjoyed the talk not so much
+for the bag-of-chips example (which is good), but for the examination of Linked
+Data as part of a continuum of web publishing activities associated with gold
+stars, like the ones you got in school. Here they are:</p>
+
 <style>
-  .stars {color: gold; font-size: 10pt; text-align: right; margin-right: 10px;}<br />
-</style></p>
+.stars {color: gold; font-size: 10pt; text-align: right; margin-right: 10px;}<br />
+</style>
+
 <table style="font-size: smaller;">
 <tr>
-<td class="stars" style="width: 20%;">
-      &#x2605;
-    </td>
-<td>
-      make your stuff available on the web (whatever format)
-    </td>
+<td class="stars" style="width: 20%;">★</td>
+<td>make your stuff available on the web (whatever format)</td>
 </tr>
 <tr>
-<td class="stars">
-      &#x2605;&#x2605;
-    </td>
-<td>
-      make it available as structured data (e.g. excel instead of image scan of a table)
-    </td>
+<td class="stars">★★</td>
+<td>make it available as structured data (e.g. excel instead of image scan of a table)</td>
 </tr>
 <tr>
-<td class="stars">
-      &#x2605;&#x2605;&#x2605;
-    </td>
-<td>
-      non-proprietary format (e.g. csv instead of excel)
-    </td>
+<td class="stars">★★★</td>
+<td>non-proprietary format (e.g. csv instead of excel)</td>
 </tr>
 <tr>
-<td class="stars">
-      &#x2605;&#x2605;&#x2605;&#x2605;
-    </td>
-<td>
-      use URLs to identify things, so that people can point at your stuff
-    </td>
+<td class="stars">★★★★</td>
+<td>use URLs to identify things, so that people can point at your stuff</td>
 </tr>
 <tr>
-<td class="stars">
-      &#x2605;&#x2605;&#x2605;&#x2605;&#x2605;
-    </td>
-<td>
-      link your data to other people's data to provide context
-    </td>
+<td class="stars">★★★★★</td>
+<td>link your data to other people's data to provide context</td>
 </tr>
 </table>
+
 <p>I think it's helpful to think of Linked Data in this context, and not to minimize (or trivialize) the effort and the importance of getting the first 3 stars. It was interesting that he didn't mention RDF once (unless I missed it) and talked instead about Linked Data Format. <em>Correction he did mention it, thanks Anders.</em></p>
 <p><iframe width="560" height="315" src="//www.youtube.com/embed/ga1aSJXCFe0" frameborder="0" allowfullscreen></iframe></p>
 <p>The inclusiveness and ambiguity appeals to me.</p>
