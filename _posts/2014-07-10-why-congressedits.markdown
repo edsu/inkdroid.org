@@ -300,8 +300,15 @@ comments:
 <p>  <a href="https://twitter.com/parliamentedits/statuses/486539012413607936">July 8, 2014</a>
 </p></blockquote>
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> The simplicity of combining Wikipedia and Twitter in this way immediately struck me as a potentially useful transparency tool. So using my experience on a <a href="http://wikistream.wmflabs.org">previous side project</a> I quickly put together a short <a href="http://github.com/edsu/anon">program</a> that listens to all major language Wikipedias for <em>anonymous</em> edits from Congressional IP address ranges (<a href="https://twitter.com/JoshData/status/486825061504917504">thanks Josh</a>) ... and tweets them.</p>
-<p><a href="http://twitter.com/congressedits"><img src="http://inkdroid.org/images/congressedits.png" alt="" /></a></p>
-<p>In less than 48 hours the <a href="http://twitter.com/congressedits">@congressedits</a> Twitter account had more than 3,000 followers. My friend <a href="http://twitter.com/ruebot">Nick</a> set up <a href="https://twitter.com/gccaedits">gccaedits</a> for Canada using the <a href="http://github.com/edsu/anon">same software</a> ... and <a href="http://twitter.com/wikiAssemblee">@wikiAssemblee</a> (France) and <a href="http://twitter.com/RiksdagWikiEdit">@RiksdagWikiEdit</a> (Sweden) were quick to follow.</p>
+<p><a href="http://twitter.com/congressedits"><img class="img-responsive" src="http://inkdroid.org/images/congressedits.png" alt="" /></a></p>
+<p>In less than 48 hours the <a
+href="http://twitter.com/congressedits">\@congressedits</a> Twitter account had
+more than 3,000 followers. My friend <a
+href="http://twitter.com/ruebot">Nick</a> set up <a
+href="https://twitter.com/gccaedits">gccaedits</a> for Canada using the <a
+href="http://github.com/edsu/anon">same software</a> ... and <a
+href="http://twitter.com/wikiAssemblee">\@wikiAssemblee</a> (France) and <a
+href="http://twitter.com/RiksdagWikiEdit">\@RiksdagWikiEdit</a> (Sweden) were quick to follow.</p>
 <hr />
 <p>Watching the followers rise, and the flood of <a href="https://twitter.com/search?f=realtime&amp;q=congress%20edits">tweets</a> from them brought home something that I believed intellectually, but hadn't felt quite so viscerally before. There is an incredible yearning in this country and around the world for using technology to provide more transparency about our democracies.</p>
 <p>Sure, there were tweets and media stories that belittled the few edits that have been found so far. But by and large people on Twitter have been encouraging, supportive and above all interested in what their elected representatives are doing. Despite historically low approval ratings for Congress, people still care deeply about our democracies, our principles and dreams of a government of the people, by the people and for the people.</p>
@@ -310,8 +317,9 @@ comments:
 <p>Consider this thought experiment. Imagine if our elected representatives and their staffers <em>logged in</em> to Wikipedia, identified much like <a href="https://en.wikipedia.org/wiki/User:Dominic">Dominic McDevitt-Parks</a> (a federal employee at the National Archives) and used their knowledge of the issues and local history to help make Wikipedia better? Perhaps in the process they enter into conversation in an article's talk page, with a constituent, or political opponent and learn something from them, or perhaps compromise? The version history becomes a history of the debate and discussion around a topic. Certainly there are issues of <a href="https://en.wikipedia.org/wiki/Wikipedia:Conflict_of_interest">conflict of interest</a> to consider, but we always edit topics we are interested and knowledgeable about, don't we?</p>
 <p>I think there is often fear that increased transparency can lead to increased criticism of our elected officials. It's not surprising given the way our political party system and media operate: always looking for scandal, and the salacious story that will push public opinion a point in one direction, to someone's advantage. This fear encourages us to clamp down, to decrease or obfuscate the transparency we have. We all kinda lose, irrespective of our political leanings, because we are ultimately less informed.</p>
 <hr />
-<p>I wrote this post to make it clear that my hope for @congressedits wasn't to expose inanity, or belittle our elected officials. The truth is, @congressedits has only announced a handful of edits, and some of them are pretty banal. But can't a staffer or politician make a grammatical change, or update an article about a movie? Is it really news that they are human, just like the rest of us?</p>
-<p>I created @congressedits because I hoped it could engender more, better ideas and tools like it. More thought experiments. More care for our communities and peoples. More understanding, and willingness to talk to each other. More humor. More human.</p>
+<p>I wrote this post to make it clear that my hope for \@congressedits wasn't to
+expose inanity, or belittle our elected officials. The truth is, \@congressedits has only announced a handful of edits, and some of them are pretty banal. But can't a staffer or politician make a grammatical change, or update an article about a movie? Is it really news that they are human, just like the rest of us?</p>
+<p>I created \@congressedits because I hoped it could engender more, better ideas and tools like it. More thought experiments. More care for our communities and peoples. More understanding, and willingness to talk to each other. More humor. More human.</p>
 <blockquote class="twitter-tweet" lang="en">
 <p>
     <a href="https://twitter.com/congressedits">@Congressedits</a> is why we invented the Internet
@@ -319,7 +327,8 @@ comments:
 <p>— zarkinfrood (@zarkinfrood) </p>
 <p>  <a href="https://twitter.com/zarkinfrood/statuses/487438418457010177">July 11, 2014</a>
 </p></blockquote>
-<p>I'm pretty sure zarkinfrood meant @congressedits figuratively, not literally. As if perhaps @congressedits was emblematic, in its very small way, of something a lot bigger and more important. Let's not forget that when we see the inevitable mockery and bickering in the media. Don't forget the big picture. We need transparency in our government more than ever, so we can have healthy debates about the issues that matter. We need to protect and enrich our Internet, and our Web ... and to do that we need to positively engage in debate, not tear each other down.</p>
+<p>I'm pretty sure zarkinfrood meant \@congressedits figuratively, not
+literally. As if perhaps \@congressedits was emblematic, in its very small way, of something a lot bigger and more important. Let's not forget that when we see the inevitable mockery and bickering in the media. Don't forget the big picture. We need transparency in our government more than ever, so we can have healthy debates about the issues that matter. We need to protect and enrich our Internet, and our Web ... and to do that we need to positively engage in debate, not tear each other down.</p>
 <blockquote>
 <p>Educate and inform the whole mass of the people. Enable them to see that it is their interest to preserve peace and order, and they will preserve them. And it requires no very high degree of education to convince them of this. They are the only sure reliance for the preservation of our liberty. -- Thomas Jefferson</p>
 </blockquote>
