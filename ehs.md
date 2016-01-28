@@ -205,11 +205,10 @@ the MARC format
 * [MJ no more: Using Concurrent Wikipedia Edit Spikes with Social Network Plausibility Checks for Breaking News Detection] [mj]. 2013.
 * [Linking Things on the Web: A Pragmatic Examination of Linked Data] [linking-things], 2013.
 * [Key Choices in the Design of Simple Knowledge Organization System (SKOS)] [key-choices], 2013.
-* [Library Linked Data Final Report] [lld], W3C Incubator Group Report, October
-  2011.
-* [SKOS Simple Knowledge Organization System Primer] [skos], W3C Working Group Note,
-  August 18th, 2008.
-  http://www.w3.org/TR/skos-primer/
+* [Library Linked Data Final Report] [lld], W3C Incubator Group Report, 
+  October 2011.
+* [SKOS Simple Knowledge Organization System Primer] [skos], W3C Working Group 
+  Note, August 18th, 2008.  http://www.w3.org/TR/skos-primer/
 * [LCSH, SKOS and Linked Data] [lcsh-skos-ld], Proceedings of the International
   Conference on DublinCore and Metadata Applications, 2008.
 * [Following Your Nose to the Web of Data] [nose], Information Standards
