@@ -66,6 +66,7 @@ to the textual content but not the styling of the documentation. It's
 interesting how a service for developers that use the APIs and businesses 
 that provide APIs can have a mirror purpose for those that are studying APIs.
 
+
 ### References
 
 [platform studies]: http://platformstudies.com/
