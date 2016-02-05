@@ -53,7 +53,7 @@ thing that popped out at me was the addition of this phrase:
 > published in the past 7 days.
 
 Like most people who work with the Twitter API I've known about the 7 day limit
-for some time. What poppoed out at me (and what I emphasized in the quote) was
+for some time. What popped out at me (and what I emphasized in the quote) was
 the use of the word *sampling* ... which indicated to me that not all tweets in
 that time period are being searched. Of course this raises questions about what
 sort of sample is being employed, and recalls research into the bias present
