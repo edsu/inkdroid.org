@@ -202,6 +202,7 @@ the MARC format
 
 ## Selected Publications
 
+* [Automating Transparency] [automating]. The Source. April, 2015.
 * [MJ no more: Using Concurrent Wikipedia Edit Spikes with Social Network Plausibility Checks for Breaking News Detection] [mj]. 2013.
 * [Linking Things on the Web: A Pragmatic Examination of Linked Data] [linking-things], 2013.
 * [Key Choices in the Design of Simple Knowledge Organization System (SKOS)] [key-choices], 2013.
@@ -267,3 +268,4 @@ the MARC format
 [microdata]: https://github.com/edsu/microdata
 [twarc]: https://github.com/edsu/twarc
 [rdflib]: https://github.com/RDFLib
+[automating]: https://source.opennews.org/en-US/learning/automating-transparency/
