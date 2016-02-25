@@ -21,6 +21,13 @@ comments: []
 <p>Occasionally I've given presentations about the application of information technology in libraries. If any of this sounds appropriate for a group you belong to let me know.</p>
 
 <p class="story">
+<strong>Data First Interventions</strong><br>
+<a href="http://www.lib.umich.edu/webarchivesconference">Web Archives Conference</a><br>
+Ann Arbor, Michigan (November 12, 2015)<br>
+[<a href="http://inkdroid.org/2015/11/12/data-first/">text</a>] [<a href="http://edsu.github.io/ferguson-tweet-viewer/">slides</a>]
+</p>
+
+<p class="story">
 <strong>White Dudes Giving Speeches</strong><br>
 <a href="">Mid-Atlantic Regional Archives Conference</a><br>
 Roanoke, Virginia (October 8, 2015)<br>
