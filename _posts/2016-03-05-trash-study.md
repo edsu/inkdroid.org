@@ -7,16 +7,17 @@ tags:
 - recycling
 ---
 
-*For my qualitative studies class I was asked to visit a particular place twice
-to experiment with a (very brief) ethnographic field study. All the names
-included here are fictitious, and were only included to try to help provide a 
-sense of narrative in places.  I've uploaded most of the photos I took to 
-a [Flickr] album, but you will see some of them interspersed with the text. 
-This was also an experiment in trying out the technique of [live field notes], 
+*For my qualitative research methods class I was asked to visit a particular
+place twice to experiment with a (very brief) ethnographic field study. All the
+names included here are fictitious, and were only included to try to help
+provide a sense of narrative in places.  I've uploaded most of the photos I took
+to a [Flickr] album, but you will see some of them interspersed with the text.
+This was also an experiment in trying out the technique of [live field notes],
 which is why you are seeing them here.*
 
 *Please feel free to leave comments at the bottom or to annotate inline by
-highlighting regions of the text...thanks [Hypothesis]!*
+highlighting regions of the text...thanks [Hypothesis]! Oh, and sorry about the
+typos.*
 
 ---
 
@@ -35,14 +36,13 @@ participate in the activity.
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/inkdroid/25447064761/in/album-72157665147588826/" title="Screen Shot 2016-03-05 at 5.53.32 PM"><img src="https://farm2.staticflickr.com/1592/25447064761_1ace3e9580_z.jpg" width="640" height="446" alt="Screen Shot 2016-03-05 at 5.53.32 PM"></a>
 
 
-On my first visit I learned that while it is open to the public the facility
-is actually a public/private space where companies routinely dropped off 
-large amounts of trash and other companies took it away. It was easy to identify
-the individuals working there because they wore fluorescent vests, and yellow
-hard hats. I learned that most of these individuals were not state employees,
-but worked for a contracting company named Most of the people
-working there were contractors working for [Covanta Energy] a publicly traded
-corporation. Maryland Environmental Service is the state partner in the
+On my first visit I learned that while it is open to the public the facility is
+actually a public/private space where companies routinely dropped off large
+amounts of trash and other companies took it away. It was easy to identify the
+individuals working there because they wore fluorescent vests, and yellow hard
+hats. I learned that most of these individuals were not state employees, but
+worked for a contracting company named [Covanta Energy], which is a publicly
+traded corporation. Maryland Environmental Service is the state partner in the
 facility. The boundaries between what was Covanta and what was MES weren't
 completely clear to me, but the people I spoke with seemed to have a sense of
 it. As I was told by one employee:
@@ -80,13 +80,13 @@ were proud of what they were doing. Employees were in constant communication
 with people who were dropping off material to help people find the right 
 place to drop particular materials off. I also observed employees sorting 
 materials themselves, for example: finding a working bicycle in the scrap metal
-and moving to an area where there working bicycles. On both my visits I noticed
-members of the public who were there to pick up materials in addition to
-dropping things off.
+and moving to an area for working bicycles. On both my visits I noticed
+several members of the public who were there to pick up materials in addition to
+dropping things off. In many ways it was more like a market than a dump.
 
 On my second visit I was much more comfortable because I didn't stay in one
-place for an longer amount of time taking notes on my phone and taking
-pictures as I had the first time. I also felt more comfortable entering into
+place for a long time while taking notes on my phone and taking
+pictures...like I had the first time. I also felt more comfortable entering into
 conversation with people there since I knew they were proud and interested in
 their work. I was more comfortable waiting to jot down some notes until I was
 back in my car and moving on somewhere else.
@@ -98,22 +98,24 @@ back in my car and moving on somewhere else.
 I noticed the no cell phones sign on my first visit, and after being 
 discouraged from taking pictures I thought
 perhaps that was the reason. But I learned that the primary reason was that 
-they are a potential hazard around flamable material. This made me reflect on how easy it is to jump to particular conclusions, and how important it is to 
+they are a potential hazard around flammable material. This made me reflect on how easy it is to jump to particular conclusions, and how important it is to 
 being open to alternate and multiple interpretations of events.
  
 This was my first time doing an ethnographic field study in the small, and I was
 struck by how enjoyable it was to really pay close attention to things I might
 otherwise ignore. The conversations made me appreciate this important
 infrastructure work to reuse materials that are discarded. It made me wonder
-about the connection between corporations and governments. Why are some things
-better handled by business entities? What are the policy and legal implications?
-What does it mean for this infrastructure to be sustained by a publicly traded
-company?
+about the connection between corporations and governments. What are the
+processes that are handled by businesses, and what are handled by the
+government? What is the division of labor, and how do they interact? What are 
+the policy and legal implications?  What does it mean for this infrastructure 
+to be sustained by a publicly traded company? The processing plant seemed like a
+rich and unique site for exploring these questions.
 
 A couple few hour trips were barely enough to scratch the surface. A real study
 would involve contacting officials in MES and Covanta to get approval, and IRB
 approval. Ideally I would need to work in the facility, perhaps helping sort
-materials, and answering questions. One thing I wanted to do in this experiment was try to try [studying up]. I think focusing on public/private infrastructure 
+materials, and answering questions. One thing I wanted to do in this experiment was to try [studying up]. I think focusing on public/private infrastructure 
 like recycling initiatives that are deeply connected to energy systems provided a way to do that.
 
 ---
@@ -211,8 +213,6 @@ take notes about a place and I was wondering if I could do that here? Is
 that ok?
 
 Dave: Yes, that's ok.
-
-(Dave is black and appears to have an African accent of some kind)
 
 Me: So can I go take a picture of that pile of pylons over there.
 
@@ -471,8 +471,8 @@ that.
 
 I'm surprised and impressed that he uses the word "consent".
 
-Me: Well, not really. I did ask Dave in the Yard Waste area if I could take a
-picture of him and he said Ok.
+Me: Well, not really. I did ask in the Yard Waste area if I could take a
+picture of someone and they said Ok.
 
 Tom continues to look at me. I notice him looking behind me, and another man 
 coming up from behind. I turn to face him and notice he isn't wearing the 
