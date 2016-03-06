@@ -31,9 +31,13 @@ take: paints, gasoline, electronics, large amounts of yard waste, etc. I also
 had some things I needed to drop off so I thought it would be a good way to
 participate in the activity.
 
+<div class="text-center" style="max-width: 100%; height: auto;">
+
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/inkdroid/25513670276/in/album-72157665147588826/" title="Shady Grove Processing Facility"><img src="https://farm2.staticflickr.com/1708/25513670276_9715544ed6_z.jpg" width="640" height="461" alt="Shady Grove Processing Facility"></a>
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/inkdroid/25447064761/in/album-72157665147588826/" title="Screen Shot 2016-03-05 at 5.53.32 PM"><img src="https://farm2.staticflickr.com/1592/25447064761_1ace3e9580_z.jpg" width="640" height="446" alt="Screen Shot 2016-03-05 at 5.53.32 PM"></a>
+
+</div>
 
 
 On my first visit I learned that while it is open to the public the facility is
@@ -53,7 +57,9 @@ The facility was equipped with lots of heavy machinery (bulldozers, and trucks)
 and had a train with many containers for transferring trash to an incinerator in
 Dickerson, Maryland.
 
+<div class="text-center" style="max-width: 100%; height: auto;">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/inkdroid/24726090493/in/album-72157665147588826/" title="Cranes for lifting containers onto the train."><img src="https://farm2.staticflickr.com/1601/24726090493_4fb38a1802_z.jpg" width="640" height="480" alt="Cranes for lifting containers onto the train."></a>
+</div>
 
 This incinerator is a mass burn facility, that is owned and
 operated by Covanta, and burns the trash to generate electricity and to also 
@@ -91,7 +97,7 @@ conversation with people there since I knew they were proud and interested in
 their work. I was more comfortable waiting to jot down some notes until I was
 back in my car and moving on somewhere else.
 
-<div class="text-center">
+<div class="text-center" style="max-width: 100%; height: auto;">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/inkdroid/24985179389/in/album-72157665147588826/" title="Cellular phones prohibited."><img src="https://farm2.staticflickr.com/1678/24985179389_913b5eedcf_z.jpg" width="480" height="640" alt="Cellular phones prohibited."></a>
 </div>
 
@@ -136,7 +142,7 @@ thought about taking the metro there and just walking in, but I wonder if they
 even allowed that. I thought it would be better if I turned up with some actual
 recycling to drop off, so I would experience it more.
 
-<div class="text-center">
+<div class="text-center" style="max-width: 100%; height: auto;">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/inkdroid/24720216883/in/album-72157665147588826/" title="Leaving with some stuff from the garage."><img src="https://farm2.staticflickr.com/1690/24720216883_c966aa75ac_z.jpg" width="480" height="640" alt="Leaving with some stuff from the garage."></a>
 </div>
 
@@ -163,7 +169,9 @@ were some large buildings that looked like they had loading areas for trucks.
 There was also someone else with a fluorescent vest walking near those
 buildings. 
 
+<div class="text-center" style="max-width: 100%; height: auto;">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/inkdroid/24725918733/in/album-72157665147588826/" title="More heavy machinery."><img src="https://farm2.staticflickr.com/1692/24725918733_b2ac137e65_z.jpg" width="640" height="480" alt="More heavy machinery."></a>
+</div>
 
 Some heavy machinery, bulldozers mostly were also there. To the right was a
 cement structure with multiple large diagonal entrances. I missed the sign
@@ -183,7 +191,9 @@ I entered the Yard Waste area, and went to the left and parked my car near a
 large pile of yard waste. It looked to be mostly bramble, thorns, vines,
 branches, Christmas trees, leaves, that sort of thing.
 
+<div class="text-center" style="max-width: 100%; height: auto;">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/inkdroid/24725668173/in/album-72157665147588826/" title="Refuse Pile"><img src="https://farm2.staticflickr.com/1553/24725668173_7fb2e762e5_z.jpg" width="640" height="183" alt="Refuse Pile"></a>
+</div>
 
 I got out of the car and nodded to Dave who was wearing a vest and the yellow
 hard hat. I opened up my trunk and began to take some notes on my phone using
@@ -258,7 +268,9 @@ containers further away near some railroad tracks. The containers have large
 numeric codes on them like NEAU 377, NEAU 027, etc. I also saw some other 
 signs for Used Books, Bottles and Cans, Hazardous Waste, Car Tires, Plastic.
 
+<div class="text-center" style="max-width: 100%; height: auto;">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/inkdroid/25234390692/in/album-72157665147588826/" title="Hazardous Waste area"><img src="https://farm2.staticflickr.com/1675/25234390692_e8c4340215_z.jpg" width="640" height="480" alt="Hazardous Waste area"></a>
+</div>
 
 Two black men Gary and Tony were having a conversation and appeared to be 
 joking. They then went into a small booth and sat there for a few minutes.
@@ -331,7 +343,7 @@ Vince: Metal
 
 Me: Ok thanks
 
-<div class="text-center">
+<div class="text-center" style="max-width: 100%; height: auto;">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/inkdroid/24985002119/in/album-72157665147588826/" title="One of three scrap metal areas."><img src="https://farm2.staticflickr.com/1573/24985002119_7709d1fe37_z.jpg" width="480" height="640" alt="One of three scrap metal areas."></a>
 </div>
 
@@ -383,7 +395,7 @@ the other one.
 I found myself thinking about the movie Wallie, I guess because of this sorting
 process, and finding things that work.
 
-<div class="text-center">
+<div class="text-center" style="max-width: 100%; height: auto;">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/inkdroid/24985173639/in/album-72157665147588826/" title="Oil recycling."><img src="https://farm2.staticflickr.com/1467/24985173639_348b9594cb_z.jpg" width="480" height="640" alt="Oil recycling."></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
@@ -414,7 +426,9 @@ areas that abut on some large enclosed dumpsters that you can throw material
 down into.  There are about 10 different vehicles parked there. People come in
 and out of the area quickly, only staying about 5 minutes or so.
 
+<div class="text-center" style="max-width: 100%; height: auto;">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/inkdroid/25057235610/in/album-72157665147588826/" title="Paint splattered bumpers."><img src="https://farm2.staticflickr.com/1593/25057235610_41f63a0cbe_z.jpg" width="640" height="480" alt="Paint splattered bumpers."></a>
+</div>
 
 There is a sign that says "No Paint Dumping". It appears like the dumpsters and
 surrounding area have been splattered with lots of paint that is now dry. The
@@ -433,7 +447,9 @@ been openly using my phone to take pictures and am feeling a bit awkward. It has
 been a bit more than an hour (I can see from photo timestamps) so I decide to
 leave.
 
+<div class="text-center" style="max-width: 100%; height: auto;">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/inkdroid/24985191339/in/album-72157665147588826/" title="Panorama of the televisions."><img src="https://farm2.staticflickr.com/1710/24985191339_a1f2ccb287_z.jpg" width="640" height="197" alt="Panorama of the televisions."></a>
+</div>
 
 I get back into my car and head out of the garbage area and follow the signs for
 the exit. This is the same road I entered on where I had seen the back of the
@@ -664,7 +680,7 @@ the truck is half the size of a normal truck cabin. It seems to be bringing
 trash or something out of the large building. There is a symbol on the side of
 the truck that says [Covanta Energy].
 
-<div class="text-center">
+<div class="text-center" style="max-width: 100%; height: auto;">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/inkdroid/25418533172/in/album-72157665147588826/" title="Trucks with stranage half cabins."><img src="https://farm2.staticflickr.com/1656/25418533172_b7760daa35_z.jpg" width="480" height="640" alt="Trucks with stranage half cabins."></a>
 </div>
 
