@@ -12,7 +12,7 @@ efforts have suffered from being a bit too cluttered. I'd like to be able
 to state the core of my research problem in a lot less space, with a lot less
 words.
  
-Hernon and Schwartz advice is welcome because they encourage a very concise
+Hernon and Schwartz's advice is welcome because they encourage a very concise
 series of statements--almost like an elevator pitch for your research--that 
 address three interlocking things:
 
