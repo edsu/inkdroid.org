@@ -71,6 +71,7 @@ RewriteRule ^maintainers/$ https://edsu.github.io/maintainers-urls/ [R=permanent
 RewriteRule ^iipcga16/?$ /iipc16/ [R=permanent,L]
 RewriteRule ^iipc16/?$ http://edsu.github.io/iipc16/ [R=permanent,L]
 RewriteRule ^TtW16/?$ http://edsu.github.io/ttw16/ [R=permanent,L]
+RewriteRule ^chi2016/$ https://edsu.github.io/chi2016/ [R=permanent,L]
 
 RewriteRule ^dpla-map(.*) "https://github.com/edsu/dpla-map" [R,L]
 RewriteRule ^echochamber/? "https://github.com/edsu/echochamber" [R,L]
