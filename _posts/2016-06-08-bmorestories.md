@@ -179,6 +179,8 @@ Ultimately this is the advantage of creating a blog on [Wordpress], [Medium] or
 hosting it yourself since you can claim copyright and license your material as
 you see fit.  However it is a trade off since it may be more difficult to get
 the exposure that you will see in platforms like Instagram, Vine or Facebook.
+If you want you could give low resolution versions to social media outlets with
+links to high resolution versions you publish yourself with your own license.
 
 ### Archive
 
