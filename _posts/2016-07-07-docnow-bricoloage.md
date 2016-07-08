@@ -24,8 +24,8 @@ I have been collaborating on for the last year called [Documenting the Now].
 When deciding whether to continue the presentation Ricky suggested that I use
 this time to share some background information and preliminary work about the
 Documenting the Now project. For the purposes of this panel I thought I would
-also try to highlight some of theoretical touchstones that are guiding the
-project.  Please bear in mind that this is largely what we might call in the
+also try to highlight some of theoretical perspectives that I think are guiding
+the project.  Please bear in mind that this is largely what we might call in the
 software world *vaporware*. It is research that is still in the process of
 becoming.
 
