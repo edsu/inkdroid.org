@@ -31,8 +31,6 @@ becoming.
 
 ### Documenting the Now
 
-*slide 1* 
-
 A good friend of mine once advised me to lead presentations with the punchline:
 to start with the thing I want the audience to remember, in case they decide to
 tune out, or walk out. Perhaps that window has already closed. But just in case
@@ -55,8 +53,6 @@ If you remember nothing else from this presentation just remember those three th
 ### The Dataset 
 
 Almost two years ago, Michael Brown, an 18 year old black man was killed by Darren Wilson, a white police officer in Ferguson, Missouri. The killing initiated a series of ongoing protests and demonstrations in Ferguson, that were then amplified by the emerging BlackLivesMatter movement. Two days after Michael Brown was killed, the Society of American Archivists annual meeting began in Washington, DC. There was much conversation among attendees about the need to document what was going on in social media and on the Web around the protests. It makes sense that this would be the case, for as @Punzalan:2016 recently wrote:
-
-*slide 2*
 
 > ... the cause of social justice has been a topic of discussion on various archival
 > fronts for at least 40 years. If the birth of the modern Western archival
@@ -85,8 +81,6 @@ analysis of @Jackson:2015b as well as @Freelon:2016 has since confirmed the
 pivotal role that Twitter played in incubating and building awareness about
 the killing of Michael Brown. They write:
 
-*slide 3*
-
 > Without focusing on the first week of the Ferguson network and further
 > unpacking the network by day, we would not have been able to see the important
 > influence of key crowdsourced elites and members of American counterpublics.
@@ -100,8 +94,6 @@ the killing of Michael Brown. They write:
 This Ferguson dataset is what we are planning to deposit in some form into the Fedora based institutional repository at Washington University in St. Louis.
 
 ### The Application
-
-*slide 4*
 
 We performed data collection using a utility I had previously created called [twarc]. I think it's fair to say that twarc is a user *unfriendly* tool. It runs (assuming you can install it in the first place) from the command line, which isn't really accessible to a large number of users. There are a variety of other [tools] available, but none that would allow us to easily search tweets that had already been sent, and save the richly structured data available from the Twitter API. Realistically, twarc was also *ready-to-hand* since I was already familiar with it, and time was of the essence.
 
@@ -122,8 +114,6 @@ interpretation of social media platforms using @Braman:2006's concept of
 collective's ability to make choices about how information about them is
 collected and shared.
 
-*slide 5*
-
 > What is important is that access to information about how this part of the
 > platform works creates the possibility for the individual to make a choice.
 > Choice creates the possibility for the expression of informational power.
@@ -139,11 +129,7 @@ creators in the building of social media archives.
 
 ### The Community
 
-*slide 6*
-
 Finally, and most perhaps most importantly, we want to build a community of practice around the ethical collection of content like the Ferguson dataset from Twitter and the Web. This work began in small part at the Maryland Institute for Technology in the Humanities where we hosted a series of four [BlackLivesMatter Teach Ins] around the Ferguson dataset. We also sought out a partnership with Washington University in St. Louis since their work on the [Documenting Ferguson] project complements the work we were doing in social media.
-
-*slide 7*
 
 As the Documenting the Now project took shape, and we put our proposal to the
 Mellon Foundation together, Bergis assembled an [advisory board] of 20
@@ -160,10 +146,7 @@ and is informed by two strands of theory.
 
 The second is the application of a feminist ethics of care recently outlined by @Caswell:2016 where relations between the archivist, record creators, subjects, users and communities are marked by an attention to the contingencies of mutual responsibility. As they say:
 
-*slide 8*
-
-> We cannot ethically continue to conceive of our primary users as academic
-> scholars; survivors of human rights abuse and victims' families use records,
+> We cannot ethically continue to conceive of our primary users as academic > scholars; survivors of human rights abuse and victims' families use records,
 > community members use records. We need to build policies, procedures, and
 > services with these users in mind, but even more so, we need to shift our
 > affective orientations in service to these users.
