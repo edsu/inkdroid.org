@@ -146,7 +146,8 @@ and is informed by two strands of theory.
 
 The second is the application of a feminist ethics of care recently outlined by @Caswell:2016 where relations between the archivist, record creators, subjects, users and communities are marked by an attention to the contingencies of mutual responsibility. As they say:
 
-> We cannot ethically continue to conceive of our primary users as academic > scholars; survivors of human rights abuse and victims' families use records,
+> We cannot ethically continue to conceive of our primary users as academic 
+> scholars; survivors of human rights abuse and victims' families use records,
 > community members use records. We need to build policies, procedures, and
 > services with these users in mind, but even more so, we need to shift our
 > affective orientations in service to these users.
