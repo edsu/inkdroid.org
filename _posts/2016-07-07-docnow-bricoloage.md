@@ -177,7 +177,7 @@ the project.
 [advisory board]: https://news.docnow.io/introducing-documenting-the-now-416874c07e0
 [prototype]: https://github.com/docnow/dnflow
 [Slack channel]: https://docs.google.com/forms/d/1Wk0JdF2Cty2VHMqpf_QlJXVKQdUtfeeFhaYRben3qaM/viewform
-[Value Sensititive Design]: https://en.wikipedia.org/wiki/Value_sensitive_design
+[Value Sensitive Design]: https://en.wikipedia.org/wiki/Value_sensitive_design
 [Documenting Ferguson]: http://digital.wustl.edu/ferguson/
 [newsletter]: http://eepurl.com/bMNJsX
 [On Archivy]: https://medium.com/on-archivy
