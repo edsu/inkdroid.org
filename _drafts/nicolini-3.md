@@ -10,14 +10,17 @@ Chapter 3 takes a look at the work of two twentieth century thinkers who are
 emblematic of the turn to practice: [Anthony Giddens] and [Pierre Bourdieu].
 
 Giddnens is one of the most influential sociologists of the 20th century.  His
-idea of structuration draws on the work of [Marx], [Weber] and [Durkheim]. Originally I was going to focus on specifically on structuration in my independent 
-study, but decided in the end that it might be more useful to focus on the
+idea of structuration draws on the work of [Marx], [Weber] and [Durkheim].
+Originally I was going to focus on specifically on structuration in my
+independent study, but ultimately decided against it because of the breadth of
+Giddens' influence, and the idea that it might be more useful to focus on the
 practice theory angle, which conceptually ties together Giddens work with the
-work of other folks. 
+work of other folks in the field of IS and ITC.
 
-The idea of structuration is to resolve dualist issues related to subjectivity
-and objectivity using a [recursive] model of society in which practices are
-defined in terms of actors, rules and resources.
+Giddens uses the idea of structuration to resolve dualist tensions in social
+theory related to subjectivity and objectivity. Structuration is a [recursive]
+model of society defined by practices that are composed of actors, rules and
+resources.
 
 * **actors**: the producers of activity, who draw on rules and resoures
 * **rules**: generalized procedures for action, not to be confused with 
@@ -27,18 +30,22 @@ defined in terms of actors, rules and resources.
 
 Nicolini uses language as an example. Spoken language and the rules of language
 mutually constitute themselves. Spoken language is based on rules of language,
-but the rules of language would not exist without being enacted in spoken
-language
+but the rules of language would not exist if they were not enacted and
+reinvented in spoken language. So there's the recursion.
 
-Giddens: characteristics of activity (p. 46)
+Actors are required to be knowledgeable and reflexive in structuration theory.
+However their knowledge and abilities are finite which is how change and
+mutation can get in. Giddens also emphasizes that activity is always situated in
+time and place, which shows his connection to Marx's historical materialism.
+And finally practices are related to each other--they form interdependencies and
+accrete which manifests as structures and systems. Sometimes practices may
+result in structures that contravene each other which can result in reorderings
+and revolutions in practice.
 
-Activity is also always situated in place and time. Seems like a no-brainer, but
-I guess the point is that those times and places are significant in a Marxist
-kinda way (materiality).
-
-Practical and discursive conciousness. 
-
-Practices are interdependent -- they rely on each other.
+Another interesting concept Giddens introduces is practical and discursive
+conciousness. Where practical consciousness is "saturated with taken for
+grantedness" and has a lot of parallels to the idea of tacit knowledge that we
+saw earlier in Heidegger's idea of [ready-to-hand].
 
 Could Giddens' rules be comparable to algorithms? Who follows the rules in
 either case? Could people using technologies that embody alogorthmic rules be
@@ -69,6 +76,17 @@ This seems rather odd, and perhaps at odds with ANT.
 @Orlikowski:1992 introduced the use of Structuration Theory but in
 @Orlikowski:2000 she moved away from it, towards practice theory. These might be
 useful to read.
+
+> Giddens appeared too busy developing a theory of society and individuals 
+> which put everything inthe right place, portrayed people as reflexive and 
+> rational, and allowed almostno room for pathos, emotions, disorder, 
+> conflict, and violence. Moreover,Giddens' structurationism failed to inspire 
+> a community that had been held to ransom for decades by the boxes, arrows, 
+> and loops of system theory. In spite of its innovative, strong, processual 
+> character, Giddens' system theory looked suspiciously like more of the 
+> same.  Finally, critical authors were some-what unhappy with Giddens' flat 
+> and a-conflictual view of the social, and were weary of the potentially 
+> deeply conservative implications of structurationism.
 
 Bourdieu
 
@@ -141,3 +159,4 @@ reflexivity as part of practice.
 [Pierre Bourdieu]: https://en.wikipedia.org/wiki/Pierre_Bourdieu
 [Anthony Giddens]: https://en.wikipedia.org/wiki/Anthony_Giddens
 [recursion]: https://en.wikipedia.org/wiki/Recursion
+[ready-to-hand]: https://en.wikipedia.org/wiki/Heideggerian_terminology#Ready-to-hand
