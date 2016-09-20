@@ -94,6 +94,7 @@ archive, the archival system, the Web and the people working with it
 (archivists, researchers, etc)--and I'm not sure I can come up with it myself.
 
 Brokenness, fragmentation -> broken world thinking & repair ; Knotworking
+@Engestrom:1999
 
 [Activity Theory]: https://en.wikipedia.org/wiki/Activity_theory 
 [Lev Vygotsky]: https://en.wikipedia.org/wiki/Lev_Vygotsky
