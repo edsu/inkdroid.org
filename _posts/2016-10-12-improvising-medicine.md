@@ -22,7 +22,8 @@ does a wonderful job describing the ways in which doctors, nurses, patients and
 relatives work together in an overcrowded hospital in a system of universal
 health care and a culture of humanism or [Botho] [^1] to improvise solutions
 that embody care in the face of overwhelming suffering. She makes a beautiful,
-nuanced and impassioned case for how health care embodies politics.
+nuanced and impassioned case for a specific hospital setting (Princess Marina
+Hosopital) as a fractal of health care, politics and culture.
 
 There are many
 memorable characters and moments in the book, but Dr P stands out as a unique
