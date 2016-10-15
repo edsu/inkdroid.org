@@ -7,7 +7,7 @@ tags:
 - politics
 ---
 
-*TLDR; what happened at 10:21 PM EDT in the second Presidential Debate?*
+*TLDR; What happened at 10:21 PM EDT in the second Presidential Debate?*
 
 ---
 
