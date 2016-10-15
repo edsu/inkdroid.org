@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "10:21 EDT"
+title: "10:21 PM EDT"
 tags:
 - data
 - twitter
 - politics
 ---
 
-*TLDR; what happened at 10:21 EDT in the second Presidential Debate?*
+*TLDR; what happened at 10:21 PM EDT in the second Presidential Debate?*
 
 ---
 
@@ -85,7 +85,7 @@ src="https://docs.google.com/spreadsheets/d/1YOb71PxaX13I4L_KMd9PyXT5RwBDo42cqOq
 
 I was pleased to see Clinton is gaining more supporters than Trump again; but
 this graph looks noticeably different. Do you see the bump in followers at 10:21
-EDT (02:21 GMT). What happened there? Well, thanks to the Web you can see
+PM EDT (02:21 GMT). What happened there? Well, thanks to the Web you can see
 exactly what happened there, it was the question from Beth Miller about the
 Supreme Court that begins at 10:19:54:
 
@@ -97,8 +97,8 @@ allowfullscreen></iframe>
 
 <br>
 
-If you watch the time tick by you can see in the exact minute of 10:21 Hillary 
-is saying this:
+If you watch the time tick by you can see in the exact minute of 10:21 PM
+Hillary is saying this:
 
 >  I want a Supreme Court that will stick with Roe v. Wade and a woman’s right
 >  to choose, and I want a Supreme Court that will stick with marriage equality.
@@ -116,8 +116,11 @@ necessary to inspect the users to get a sense of that.
 
 But maybe, just maybe, this data points at the fact that a Woman's right to
 choose is still a polarizing and hot button issue, more than any other, for
-folks in this years election? If you have ideas, questions, criticisms about any
-of this I'd love to hear from you.
+folks in this years election? Or at least for folks who use Twitter...which is
+definitely  not all voters. That's probably the biggest caveat there is.
+
+If you have ideas, questions, criticisms about any of this I'd love to hear from
+you.
 
 [Night Against Hate]: http://mith.umd.edu/research/night-against-hate/
 [spreadsheet]: https://docs.google.com/spreadsheets/d/1LsJHAdSexX4yoYq_Pgfb7XWZgRmBuCcS-7QEETfHxlA/edit#gid=740279925
