@@ -7,15 +7,15 @@ tags:
 - politics
 ---
 
-*TLDR; What happened at 10:21 PM EDT in the second Presidential Debate?*
+*TLDR; Why was there such a large bump in the number of Hillary and Trump followers at 10:21 PM EDT in the second Presidential Debate?*
 
 ---
 
 During the last two presidential debates [MITH] has been collecting Twitter data
 using the words *trump* and *hillary*. [Neil Fraistat]'s motivation for
-organizing our [Night Against Hate] this week was to try to identify social
-media accounts for hate groups that are in the Southern Poverty Law Center's
-[Extremist Files], and then to use this information to help see how these groups
+organizing our [Night Against Hate] this week was to identify social media
+accounts for hate groups that are in the Southern Poverty Law Center's
+[Extremist Files], and then use this information to help see how these groups
 were using Trump's own words in their tweets. So it was super to see [How Trump
 Took Hate Groups Mainstream] in Mother Jones just yesterday. Sarah Posner and
 David Neiwert have been on this trail for a while, and their write up is a must
@@ -25,12 +25,14 @@ We're still talking about what we want to look for in the debate datasets and
 how we want to use the [spreadsheet] that we collaboratively built. Look for
 another blog post about the Night Against Hate soon.
 
-One limitation is that the Presidential Debates are high volume events, and we
-know that the Twitter streaming API only gives us a portion of it. For example
-our dataset for the [first debate] contains 1,303,084 tweets that mentioned
-"hillary" and the Twitter API let us know that at least 730,512 tweets were not
-delivered. Very little is known about what kind of sample Twitter provides, and
-without the full picture it is difficult to draw inferences from the numbers.
+One limitation of looking for patterns in collected Twitter data is that the
+Presidential Debates are high volume events. We know that the Twitter streaming
+API only gives us a portion of all the available tweets when there is a spike in
+traffic. For example our dataset for the [first debate] contains 1,303,084
+tweets that mentioned "hillary" and the Twitter API let us know that at least
+730,512 tweets were not delivered.  Very little is known about what kind of
+sample Twitter provides, and without the full picture it is difficult to draw
+inferences from the numbers.
 
 ### follower_count
 
@@ -86,7 +88,7 @@ src="https://docs.google.com/spreadsheets/d/1YOb71PxaX13I4L_KMd9PyXT5RwBDo42cqOq
 I was pleased to see Clinton is gaining more supporters than Trump again; but
 this graph looks noticeably different. Do you see the bump in followers at 10:21
 PM EDT (02:21 GMT). What happened there? Well, thanks to the Web you can see
-exactly what happened there, it was the question from Beth Miller about the
+exactly what happened there: it was the question from Beth Miller about the
 Supreme Court that begins at 10:19:54:
 
 <br>
