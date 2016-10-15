@@ -10,7 +10,7 @@ tags:
 TLDR;
 
 Q: Why was there such a large bump in the number of Hillary and Trump followers
-at 10:21 PM EDT in the second Presidential Debate?
+at 10:21 PM EDT during the second Presidential Debate?
 
 A: I'm not sure, but maybe it has something to do with abortion?
 
@@ -39,12 +39,12 @@ tweets that mentioned "hillary" and the Twitter API let us know that at least
 sample Twitter provides, and without the full picture it is difficult to draw
 inferences from the numbers.
 
-### follower_count
+### followers_count
 
 But one interesting metric that is available is the number of followers a person
 has. This number can be particularly interesting to look at over time as it
 rises and falls. Every tweet that you get from the Twitter API includes a [User
-Object] which in turn contains the *follower_count* for that user at the time
+Object] which in turn contains the *followers_count* for that user at the time
 that the request was made of the Twitter API. So if you collect data in real
 time from the [Twitter Streaming API] you get a moving picture of a user's
 followers. What's also super handy is that in every *retweet* you get the user
