@@ -16,7 +16,7 @@ using the words *trump* and *hillary*. [Neil Fraistat]'s motivation for
 organizing our [Night Against Hate] this week was to try to identify social
 media accounts for hate groups that are in the Southern Poverty Law Center's
 [Extremist Files], and then to use this information to help see how these groups
-were using Trump's own words in their work. So it was super to see [How Trump
+were using Trump's own words in their tweets. So it was super to see [How Trump
 Took Hate Groups Mainstream] in Mother Jones just yesterday. Sarah Posner and
 David Neiwert have been on this trail for a while, and their write up is a must
 read.
