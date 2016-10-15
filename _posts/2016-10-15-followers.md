@@ -7,7 +7,12 @@ tags:
 - politics
 ---
 
-*TLDR; Why was there such a large bump in the number of Hillary and Trump followers at 10:21 PM EDT in the second Presidential Debate?*
+TLDR;
+
+Q: Why was there such a large bump in the number of Hillary and Trump followers
+at 10:21 PM EDT in the second Presidential Debate?
+
+A: I'm not sure, but maybe it has something to do with abortion?
 
 ---
 
