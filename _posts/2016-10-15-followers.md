@@ -12,7 +12,8 @@ TLDR;
 Q: Why was there such a large bump in the number of Hillary and Trump followers
 at 10:21 PM EDT during the second Presidential Debate?
 
-A: I'm not sure, but maybe it has something to do with abortion?
+A: I'm not sure, but maybe it has something to do with abortion or marriage
+equality?
 
 ---
 
@@ -55,9 +56,10 @@ tweets. This means you can get smooth record of how many followers they have by
 the minute ... or even second. The fact that you're not getting *all* the tweets
 at a given point in time doesn't really matter.
 
-So I wrote a very simple utility that reads through collected Twitter data
-looking for particular users and collects how many followers they have at
-particular times and writes it out as a CSV file, for analysis in a spreadsheet:
+So I wrote a very simple utility that reads through Twitter data I collected
+with [twarc] looking for particular users and collects how many followers they
+have at particular times and writes it out as a CSV file, for analysis in a
+spreadsheet:
 
 <br>
 <style>
@@ -122,9 +124,10 @@ Maybe there's a bot army that's working for both candidates? It would be
 necessary to inspect the users to get a sense of that.
 
 But maybe, just maybe, this data points at the fact that a Woman's right to
-choose is still a polarizing and hot button issue, more than any other, for
-folks in this years election? Or at least for folks who use Twitter...which is
-definitely  not all voters. That's probably the biggest caveat there is.
+choose and marriage equality are still polarizing and hot button issues, more so
+than any others, for folks in this years election? At least for folks who use
+Twitter...which is definitely not all voters. That's probably the biggest caveat
+there is.
 
 If you have ideas, questions, criticisms about any of this I'd love to hear from
 you.
@@ -140,3 +143,4 @@ you.
 [Neil Fraistat]: https://twitter.com/fraistat
 [How Trump Took Hate Groups Mainstream]: http://www.motherjones.com/politics/2016/10/donald-trump-hate-groups-neo-nazi-white-supremacist-racism
 [spreadsheet data]: https://docs.google.com/spreadsheets/d/1YOb71PxaX13I4L_KMd9PyXT5RwBDo42cqOqtmru055Q/edit?usp=sharing
+[twarc]: https://github.com/edsu/twarc
