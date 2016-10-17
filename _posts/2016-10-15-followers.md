@@ -132,6 +132,29 @@ there is.
 If you have ideas, questions, criticisms about any of this I'd love to hear from
 you.
 
+---
+
+### Updates
+
+<div class="text-center">
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a
+href="https://twitter.com/edsu">@edsu</a> <a
+href="https://twitter.com/peteskomoroch">@peteskomoroch</a> fascinating. I&#39;d
+love to see what the rate of new followers looks like - seems like Trump&#39;s
+bump is slightly bigger?</p>&mdash; Jane Wang (@janexwang) <a
+href="https://twitter.com/janexwang/status/787624981198954496">October 16,
+2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js"
+charset="utf-8"></script>
+</div>
+
+I'm not sure my rate of change calculation was the best. I simply subtracted the
+new subscribers in the previous minute from new subscribers in the current
+minute. It does show that Trump got a bigger bump in this minute, and really
+highlights how much of a change it was. If you have an idea for calculating the
+rate of change that is better take a look at the [data].
+
+<iframe width="707.0982839313574" height="437.0195580296895" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1YOb71PxaX13I4L_KMd9PyXT5RwBDo42cqOqtmru055Q/pubchart?oid=1106607821&amp;format=interactive"></iframe>
+
 [Night Against Hate]: http://mith.umd.edu/research/night-against-hate/
 [spreadsheet]: https://docs.google.com/spreadsheets/d/1LsJHAdSexX4yoYq_Pgfb7XWZgRmBuCcS-7QEETfHxlA/edit#gid=740279925
 [first debate]: http://umd-mith.github.io/bagcat/#56B1171F-E859-47C0-B3BD-B4D5932B8D4C
@@ -144,3 +167,4 @@ you.
 [How Trump Took Hate Groups Mainstream]: http://www.motherjones.com/politics/2016/10/donald-trump-hate-groups-neo-nazi-white-supremacist-racism
 [spreadsheet data]: https://docs.google.com/spreadsheets/d/1YOb71PxaX13I4L_KMd9PyXT5RwBDo42cqOqtmru055Q/edit?usp=sharing
 [twarc]: https://github.com/edsu/twarc
+[data]: https://docs.google.com/spreadsheets/d/1YOb71PxaX13I4L_KMd9PyXT5RwBDo42cqOqtmru055Q/edit?usp=sharing
