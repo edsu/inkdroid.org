@@ -33,7 +33,7 @@ being worked on.
 
 The work is also iterative where the robot successively works on the parts of 
 the whole piece, getting closer and closer with Marv's help. The process resists
-complete autmation:
+complete automation:
 
 > *At the end of the day, it's the physical properties of the
 > material that drives our process*, says Marv as he
