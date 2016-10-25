@@ -145,6 +145,7 @@ archives...but perhaps it could.
 
 ### References
 
+[Law]: https://en.wikipedia.org/wiki/John_Law_(sociologist)
 [Mol]: https://en.wikipedia.org/wiki/Annemarie_Mol
 [last post]: http://inkdroid.org/2016/10/17/ant/ 
 [imagine]: http://inkdroid.org/2013/06/20/tiny-alien-phenomenology-review/
