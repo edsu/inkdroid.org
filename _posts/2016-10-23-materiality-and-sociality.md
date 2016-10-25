@@ -151,3 +151,4 @@ archives...but perhaps it could.
 [imagine]: http://inkdroid.org/2013/06/20/tiny-alien-phenomenology-review/
 [Object Oriented Ontology]: https://en.wikipedia.org/wiki/Object-oriented_ontology
 [reading]: http://inkdroid.org/2016/10/12/improvising-medicine/
+[coproduction]: https://en.wikipedia.org/wiki/Coproduction_(society)
