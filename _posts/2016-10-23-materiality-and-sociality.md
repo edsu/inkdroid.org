@@ -30,7 +30,7 @@ interesting because I was really interested in exploring the idea of
 together.
 
 At any rate, Law along with Latour and Callon helped establish Actor Network
-Theory, which took a quick look at in my [last post]. In the 90s he started
+Theory, which I took a quick look at in my [last post]. In the 90s he started
 moving away from the idea of ANT being a theory as such, and cited his
 collaborative work with Mol as being one of the reasons for this shift. It
 appears that this article was the second collaboration, at least in their
@@ -39,7 +39,7 @@ interesting to identify these moments of intellectual shifting, where one idea
 gives way to another. Perhaps it's where the limits of theory are easiest to
 see.
 
-The style if very sparse and is driven by short case studies or *stories that
+The style is very sparse and is driven by short case studies or *stories* that
 highlight three aspects, or metaphors of materiality and sociality: semiotics,
 strategy and patchwork. For an example of this sparse style, which I really
 like, here's how they start out:
@@ -59,12 +59,12 @@ like, here's how they start out:
 > we are witnessing the production of the social. That, at any rate, is a
 > possibility. The possibility that we explore here.
 
-I like the rhythm of the words here, and how it holds and turns the ideas
-around. The use of the stories (electric cars, pasteurization, speak & spell
-games, World War 2 bunkers, Long Island parkway) are also really helpful because
-they help ground the philosophical discussion in particulars. They are also
-drawn from other work by Latour, Langdon Winner and Sherry Turkle which
-constellates their ideas.
+I like the rhythm of the words here: how they hold and turn the ideas of
+material and social around, as if inspecting them. The use of the stories
+(electric cars, pasteurization, speak & spell games, World War 2 bunkers, Long
+Island parkway) are also really helpful because they help ground the
+philosophical discussion in particulars.  They are also drawn from other work by
+Latour, Langdon Winner and Sherry Turkle which constellates their ideas.
 
 I hadn't run across the use of semiotics in my reading of practice theory
 yet...so that was a novel introduction. Perhaps it was trendier in the 90s when
