@@ -1,6 +1,6 @@
 \begin{center}
 {\large Ed Summers}\\
-ehs@pobox.com / 240-478-7086 / @edsu\\
+ehs@pobox.com / @edsu / 240-478-7086\\
 304 Brewster Court, Silver Spring, MD 20901\\
 \end{center}
 
