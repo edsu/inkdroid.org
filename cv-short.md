@@ -1,7 +1,7 @@
 \begin{center}
 {\large Ed Summers}\\
-304 Brewster Court, Silver Spring, MD 20901\\
 ehs@pobox.com / 240-478-7086 / @edsu\\
+304 Brewster Court, Silver Spring, MD 20901\\
 \end{center}
 
 I am a recovering software developer with two decades of experience working at
