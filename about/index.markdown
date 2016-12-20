@@ -18,12 +18,14 @@ date_gmt: '2008-07-28 13:54:42 +0000'
 ---
 
 <div style="font-size: 28pt;">
-I am a [recovering] software developer with two decades of experience working at
-the intersection of libraries, archives and the World Wide Web. I study and work
-with the Web as a sociotechnical system, with a particular eye to its evolving
-architecture and practices of curation and preservation. I also help to keep the
-lights on at the [Maryland Institute for Technology in the Humanities].
+I am a [recovering] software developer with two decades of [experience] 
+working at the intersection of libraries, archives and the World Wide Web. I 
+study and work with the Web as a sociotechnical system, with a particular eye to
+its evolving architecture and practices of curation and preservation. I also
+help to keep the lights on at the [Maryland Institute for Technology in the
+Humanities].
 </div>
 
 [recovering]: https://github.com/edsu
 [Maryland Institute for Technology in the Humanities]: http://mith.umd.edu
+[experience]: http://inkdroid.org/ehs/
