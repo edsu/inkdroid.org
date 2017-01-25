@@ -8,7 +8,7 @@ tags:
 ---
 
 You may have noticed back in December that the Washington Post [released] a fact
-checking plugin for Chrome that provides inline context for Trumps tweets.
+checking plugin for Chrome that provides inline context for Trump's tweets.
 
 <a href="https://www.washingtonpost.com/news/the-fix/wp/2016/12/16/now-you-can-fact-check-trumps-tweets-in-the-tweets-themselves/"><img class="img-responsive" src="/images/wapo-plugin.png"></a>
 
