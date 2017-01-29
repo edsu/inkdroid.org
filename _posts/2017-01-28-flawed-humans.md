@@ -2,7 +2,7 @@
 layout: post
 title: Flawed Humans
 tags:
-- archive
+- archives
 - lbsc785
 ---
 
