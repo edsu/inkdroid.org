@@ -31,6 +31,13 @@ Portland, Oregon (February 26, 2017)<br>
 </p>
 
 <p class="story">
+<strong>DocNow's Theoretical Bricolage</strong><br>
+<a href="http://www.kent.edu/aeri2016">Archival Education and Research Institute</a><br>
+Kent State University (July 8, 2016)<br>
+[<a href="https://inkdroid.org/2016/07/07/docnow-bricoloage/">text</a>] [<a href="https://edsu.github.io/docnow-bricolage/#/">slides</a>]
+</p>
+
+<p class="story">
 <strong>Data First Interventions</strong><br>
 <a href="http://www.lib.umich.edu/webarchivesconference">Web Archives Conference</a><br>
 Ann Arbor, Michigan (November 12, 2015)<br>
