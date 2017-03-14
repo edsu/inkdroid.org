@@ -24,6 +24,13 @@ technology in libraries. A lot of this stuff looks kind of dated now, but I
 guess it is descriptive of my particular career path.
 
 <p class="story">
+<strong>Bots, Seeds and People</strong><br>
+<a href="https://cscw.acm.org/2017/">Computer-Supported Cooperative Work</a><br>
+Portland, Oregon (February 26, 2017)<br>
+[<a href="https://arxiv.org/abs/1611.02493v1">paper</a>] [<a href="http://edsu.github.io/bots-seeds-people/#/">slides</a>]
+</p>
+
+<p class="story">
 <strong>Data First Interventions</strong><br>
 <a href="http://www.lib.umich.edu/webarchivesconference">Web Archives Conference</a><br>
 Ann Arbor, Michigan (November 12, 2015)<br>
