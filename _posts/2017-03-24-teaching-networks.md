@@ -48,9 +48,7 @@ experiences with me.
 Anyhow, here's the video! If you want to get to the good stuff skip to 8:40
 where I stop selfishly talking about the classes were teaching at MITH.
 
-<div style="text-align: middle">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lAhvXWezwRQ" frameborder="0" allowfullscreen></iframe>
-</div>
+<div style="text-align: center;"><iframe width="80%" src="https://www.youtube.com/embed/lAhvXWezwRQ" frameborder="0" allowfullscreen></iframe></div>
 
 
 ---
