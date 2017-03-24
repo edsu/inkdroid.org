@@ -56,7 +56,7 @@ where I stop selfishly talking about the classes were teaching at MITH.
 
 *PS. this post was brought to you by the letter B since (as you will see) Thomas
 thinks that blogs are sooooo late 2000s :-) I suspect he is right, but I'm
-clearly holding fast to my vast media empire.*
+clearly still tightly clutching my vast media empire.*
 
 [Gephi]: https://gephi.org/
 [Cytoscape]: http://cytoscape.org/
