@@ -20,19 +20,20 @@ teaching networks:
 
 Scott suggested that other folks who teach this stuff in a digital humanities
 context might be interested as well so we decided to record it, and share it
-online.
+online (see below).
 
 The conversation includes some discussion of tools (such as [Gephi],
 [Cytoscape], [NodeXL], [Google Fusion Tables], [DataBasic], [R]) but also some
 really neat exercises for learning about networks with yarn, balls, short
 stories and more.
 
-A particular fun part of discussion focuses on the approaches to
-teaching graph measurement and analytics as well as humanistic approaches to
-graph visualization that emphasize discovery and creativity.
+A particular fun part of discussion focuses on approaches to teaching graph
+measurement and analytics as well as humanistic approaches to graph
+visualization that emphasize discovery and generative creativity.
 
-During the email exchange that led up tot he conversation they shared some of 
-their materials which you may find useful in your own teaching/learning:
+During the email exchange that led up to our chat Miriam, Scott and Thomas
+shared some of their materials which you may find useful in your own
+teaching/learning:
 
 * [Network Analysis](http://miriamposner.com/classes/dh101f16/tutorials-guides/network-analysis/): Miriam's three part video lecture from UCLA's Introduction to Digital Humanities.
 * [Network Analysis: An Introduction](https://docs.google.com/presentation/d/12afAfAD6cftTKHwIWC5AWEDdU2PshFnyIYg29MmfwwA/edit?usp=sharing): Thomas' slides from his class at HILT in 2016.
@@ -56,7 +57,7 @@ where I stop selfishly talking about the classes were teaching at MITH.
 
 *PS. this post was brought to you by the letter B since (as you will see) Thomas
 thinks that blogs are sooooo late 2000s :-) I suspect he is right, but I'm
-clearly still tightly clutching my vast media empire.*
+clearly still tightly clutching to my vast media empire.*
 
 [Gephi]: https://gephi.org/
 [Cytoscape]: http://cytoscape.org/
