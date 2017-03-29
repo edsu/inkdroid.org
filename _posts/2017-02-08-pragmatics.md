@@ -4,6 +4,7 @@ title: Discourse and Pragmatics
 tags:
 - edci788
 - reading
+- discourse
 ---
 
 *In keeping with past semesters I'm going to try posting my written notes for
