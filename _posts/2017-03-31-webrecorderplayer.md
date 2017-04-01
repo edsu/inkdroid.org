@@ -80,6 +80,24 @@ href="https://twitter.com/webrecorder_io/status/841743910359597056">March 14,
 But we're not quite there yet. Till we are, here's to Rhizome's Webrecorder
 team for bringing us one step closer!
 
+---
+
+*Update: I feel like I subconsciously plagiarized Christie Peterson's [Web
+Archives, Performance &amp;
+Capture](https://medium.com/on-archivy/web-archives-performance-capture-78f06c119850)
+which I've definitely read and enjoyed before. Heck I saw her
+[present](https://www.lib.umich.edu/webarchivesconference/webarchives-schedule)
+it!  So if you want to read more about this idea of performance with more
+connections to the archival literature do check it out.  Also, Mark Matienzo
+[pointed out](https://twitter.com/anarchivist/status/847921310449532928) that
+this idea of performance in digital records has roots back to [An Approach to
+the Preservation of Digital
+Records](http://pandora.nla.gov.au/pan/49636/20050511-0000/www.naa.gov.au/recordkeeping/er/digital_preservation/Green_Paper.pdf)
+by Helen Heslop, Simon Davis and Andrew Wilson. There was a point in my career
+where discovering my ideas were neither new nor original would be disappointing.
+But luckily those days are past. But I do still believe it's extremely important
+to give credit where credit is due!*
+
 [Webrecorder]: https://webrecorder.io/
 [Lynx]: https://en.wikipedia.org/wiki/Lynx_(web_browser)
 [WARC]: https://en.wikipedia.org/wiki/Web_ARChive
