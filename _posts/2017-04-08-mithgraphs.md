@@ -113,7 +113,7 @@ and Neil Fraistat. You can also see bridging people like Ben Schneiderman who
 brought in people from outside of MITH's usual collaborators.  If you are
 interested and have Cytoscape you can find the cys file
 [here](https://github.com/umd-mith/mithgraph/raw/master/people.cys). The nodes
-colored in red were selected because they were all people who had worked
+colored in yellow were selected because they were all people who had worked
 directly with Neil.
 
 If you have ideas or comments about any of this I'd enjoy hearing them either
