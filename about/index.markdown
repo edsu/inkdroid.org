@@ -18,6 +18,7 @@ date_gmt: '2008-07-28 13:54:42 +0000'
 ---
 
 <div style="font-size: 28pt;">
+<img style="float: left; width: 35%; margin-right: 20px;" src="/images/ehs-flowers.jpg">
 Hi, my name is Ed Summers. I am a [recovering] software developer with two
 decades of [experience] working at the intersection of libraries, archives and
 the World Wide Web. I study and work with the Web as a sociotechnical system,
