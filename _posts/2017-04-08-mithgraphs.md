@@ -108,7 +108,7 @@ src="/images/mith-people.png"></a></div>
 
 It's not really very legible here, but in Cytoscape it's easy to zoom in and see
 that there was a cohort of people who did lots of work together: Trevor Muñoz,
-Kirsten Keister, Jennifer Guiliano, Amanda Viscontin, Travis Brown, James Smith
+Kirsten Keister, Jennifer Guiliano, Amanda Visconti, Travis Brown, James Smith
 and Neil Fraistat. You can also see bridging people like Ben Schneiderman who
 brought in people from outside of MITH's usual collaborators.  If you are
 interested and have Cytoscape you can find the cys file
