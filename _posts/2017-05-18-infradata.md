@@ -7,11 +7,18 @@ tags:
 - history
 ---
 
+
+<img class="img-responsive" src="/images/arpanet.png"><br>
+<div style="font-size: smaller; text-align: center;">
+<em><a href="https://www.google.com/search?q=arpanet+map&amp;tbm=isch">Screenshot of images of Arpanet Maps from Google Images</a>
+</em>
+</div>
+
 If you enjoy reading about the relationship between data and metadata and/or the
 history of the Internet you'll definitely want to check out [Bradley Fidler] and
 [Amelia Acker]'s excellent paper *Metadata, infrastructure, and
 computer-mediated communication in historical perspective* [@Fidler:2016]. If
-you need a copy drop me an [email]).
+you need a copy drop me an [email].
 
 In this paper Acker and Fidler develop the idea of *infradata* which is a
 specific kind of metadata that is required *maintain* infrastructure. They use
@@ -39,8 +46,8 @@ scenarios when knowing what camera was used to image the microfilm frame was
 actually important are easy to talk about, but they can also expand to fill up
 all available space.
 
-At the time I comforted myself with the idea that "Digital preservation is
-access in the future" [@Summers:2013b] and therfore focusing on access in the
+At the time I comforted myself with the idea that "digital preservation is
+access in the future" [@Summers:2013b] and therefore focusing on access in the
 present was the best way to ensure preservation. But now I'm not so sure. This
 idea of infradata highlights that while some metadata is actively used to
 maintain the system it is a part of, not all of it is, or necessarily should be.
