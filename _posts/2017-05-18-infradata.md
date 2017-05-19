@@ -21,9 +21,9 @@ computer-mediated communication in historical perspective* [@Fidler:2016]. If
 you need a copy drop me an [email].
 
 In this paper Acker and Fidler develop the idea of *infradata* which is a
-specific kind of metadata that is required *maintain* infrastructure. They use
-this idea to examine the evolution of the Arpanet by taking a close look at the
-development of the [Host/Host Protocol] that allowed computers to connect to
+specific kind of metadata that is required to *maintain* infrastructure. They
+use this idea to examine the evolution of the Arpanet by taking a close look at
+the development of the [Host/Host Protocol] that allowed computers to connect to
 each other. The source for this history is found in the IETF RFC's many of which
 were originally circulated in hard copy but have been digitized and made
 available online.
