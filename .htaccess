@@ -31,8 +31,8 @@ RewriteCond %{HTTP_ACCEPT} text/plain [OR]
 RewriteCond %{HTTP_ACCEPT} text/x-markdown
 RewriteRule ^ehs$ ehs.md [R=303]
 
-RewriteRule ^ehs$ ehs/ [R=303]
-RewriteRule ^ehs.txt$ ehs.md [R=301]
+RewriteRule ^ehs$ ehs.html [R=303]
+RewriteRule ^ehs.txt$ ehs.md
 
 RewriteRule ^ehs/ ehs.html
 RewriteRule ^creepy-polaroid/?$ https://edsu.github.io/creepy-polaroid/ [R=301]

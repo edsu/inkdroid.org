@@ -202,6 +202,9 @@ the MARC format
 
 ## Selected Publications
 
+* [Ferguson and the death of Michael Brown on Twitter: #BlackLivesMatter, #TCOT, and the evolution of collective identities]. Ethnic and Racial Studies, 40(10).
+* [#sayhername: a case study of intersectional social media activism]. Ethnic and Racial Studies, 40(10).
+* [Bots, Seeds and People: Web Archives as Infrastructure]. Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing, CSCW 17.
 * [Automating Transparency] [automating]. The Source. April, 2015.
 * [MJ no more: Using Concurrent Wikipedia Edit Spikes with Social Network Plausibility Checks for Breaking News Detection] [mj]. 2013.
 * [Linking Things on the Web: A Pragmatic Examination of Linked Data] [linking-things], 2013.
@@ -269,3 +272,6 @@ the MARC format
 [twarc]: https://github.com/edsu/twarc
 [rdflib]: https://github.com/RDFLib
 [automating]: https://source.opennews.org/en-US/learning/automating-transparency/
+[Bots, Seeds and People: Web Archives as Infrastructure]: /papers/bots-seeds-people.pdf
+[#sayhername: a case study of intersectional social media activism]: http://dx.doi.org/10.1080/01419870.2017.1334934
+[Ferguson and the death of Michael Brown on Twitter: #BlackLivesMatter, #TCOT, and the evolution of collective identities]: http://dx.doi.org/10.1080/01419870.2017.1335422

@@ -1,50 +1,158 @@
-\section{Ed Summers}
+\section{Ed Summers}\label{ed-summers}
 
 Silver Spring, Maryland, USA
 
-\href{mailto:ehs@pobox.com}{\texttt{ehs@pobox.com}}\\\url{http://inkdroid.org}\\\url{http://twitter.com/edsu}\\\url{http://github.com/edsu}
+\href{mailto:ehs@pobox.com}{\nolinkurl{ehs@pobox.com}}\\
+\url{http://inkdroid.org}\\
+\url{http://twitter.com/edsu}\\
+\url{http://github.com/edsu}
 
-\subsection{Expertise}
+I am a software developer with two decades of experience bridging the
+worlds of libraries and archives with the World Wide Web. I have worked
+in academia, startups, corporations and the government. I work best in
+agile, highly collaborative teams, that want to help make the world a
+better place.
+
+\subsection{Skills}\label{skills}
 
 \begin{itemize}
+\tightlist
 \item
-  web technology, REST, linked data\\
+  web technology, APIs, REST, linked data, web archiving
 \item
-  digital preservation, metadata, search\\
+  digital preservation, data management, knowledge management, search
 \item
-  opensource, standards development, community building\\
+  opensource, standards development, community building
 \item
-  automated testing, agile software development, prototyping\\
+  automated testing, agile software development, rapid prototyping
 \item
-  python, javascript, ruby, perl, php, java, c, scheme
+  Python, JavaScript, Go, Ruby, Perl, PHP, Java, C, Scheme
+\item
+  Ubuntu, Red Hat, Amazon Web Services
 \end{itemize}
-\subsection{Work History}
 
-Information Technology Specialist\\Repository Development
-Center\\Library of Congress, Washington, DC\\03/2006 - present
+\subsection{Work History}\label{work-history}
+
+Lead Software Developer\\
+Maryland Institute for Technology in the Humanities\\
+University of Maryland\\
+08/2014 - Present
 
 \begin{itemize}
+\tightlist
+\item
+  digital humanities research and development
+\item
+  linked data publishing
+\item
+  automated testing
+\item
+  requirements gathering / project management
+\item
+  digital archives
+\end{itemize}
+
+Information Technology Specialist\\
+Repository Development Center\\
+Library of Congress, Washington, DC\\
+03/2006 - 08/2014
+
+\begin{itemize}
+\tightlist
 \item
   digital preservation and repository software design and development
 \item
   lead software developer on the
-  \href{http://chroniclingamerica.loc.gov/}{National Digital Newspaper Project}
+  \href{http://chroniclingamerica.loc.gov/}{National Digital Newspaper
+  Project}
 \item
   created a web based quality assurance tool for handling high volume
   image digitization projects
 \item
-  digital archiving of social media (Twitter)
+  social media archiving (Twitter)
 \item
-  designed and implemented the
-  \href{http://id.loc.gov/}{Library of Congress Linked Data Service}
+  designed and implemented the \href{http://id.loc.gov/}{Library of
+  Congress Linked Data Service}
 \item
-  contributing member to the Semantic Web Deployment Group, and
-  Library Linked Data Incubator Group at the W3C
+  contributing member to the Semantic Web Deployment Group, Library
+  Linked Data Incubator Group, and eGov Interest Group at the W3C
 \end{itemize}
-Consultant\\Canary Project\\Yale School of Medicine, New Haven,
-CT\\07/2005 - 12/2005
+
+Consultant\\
+George Washington University, Washington, DC\\
+10/2013 - present
 
 \begin{itemize}
+\tightlist
+\item
+  Django Web Development
+\item
+  Voyager ILS integration (Oracle)
+\item
+  Serial Solutions Summon API integration
+\end{itemize}
+
+Consultant\\
+Nelson Institute for Environmental Studies\\
+University of Wisconsin, Madison, WI\\
+09/2013 - present
+
+\begin{itemize}
+\tightlist
+\item
+  web harvesting
+\item
+  data managment
+\end{itemize}
+
+Consultant\\
+Hypothes.is\\
+San Fransisco, CA\\
+01/2013 - 10/2013
+
+\begin{itemize}
+\tightlist
+\item
+  CoffeeScript and Python development
+\item
+  development of the opensource
+  \href{http://github.com/okfn/anotator}{Annotator} and
+  \href{http://github.com/okfn/anotator-store}{Annotator Store} projects
+\item
+  design and implementation of
+  \href{http://hypothes.is/blog/cross-format-annotation/}{cross format
+  annotation support}
+\item
+  functional and unit testing support using Selenium, PyTest, Travis-CI
+  and SauceLabs
+\end{itemize}
+
+Consultant\\
+GlueJar\\
+11/2011 - 04/2012
+
+\begin{itemize}
+\tightlist
+\item
+  Django software development \href{http://unglueit.com}{UnglueIt}
+\item
+  Amazon AWS Deployment (EC2, RDS, Route 53) for dev, test and
+  production
+\item
+  Google Books integration
+\item
+  Google, Facebook, Twitter social media integration
+\item
+  automated testing and continuous integration (Jenkins)
+\end{itemize}
+
+Consultant\\
+Canary Project\\
+Yale School of Medicine, New Haven, CT\\
+07/2005 - 12/2005
+
+\begin{itemize}
+\tightlist
 \item
   Python object oriented design
 \item
@@ -52,15 +160,17 @@ CT\\07/2005 - 12/2005
 \item
   implemented a reporting framework
 \item
-  quixote, pylucene, mysql, redhat administration
+  Quixote, Pylucene, MySQL, Red Hat administration
 \end{itemize}
-Senior Software Engineer\\Follett Corporation, McHenry IL\\05/2005
-- 03/2006
+
+Senior Software Engineer\\
+Follett Corporation, McHenry IL\\
+05/2005 - 03/2006
 
 \begin{itemize}
+\tightlist
 \item
-  building and supporting a distributed knowledge management
-  application
+  building and supporting a distributed knowledge management application
 \item
   requirements gathering and project planning
 \item
@@ -76,20 +186,27 @@ Senior Software Engineer\\Follett Corporation, McHenry IL\\05/2005
 \item
   Linux/Windows systems administration
 \end{itemize}
-Consultant\\Performix, Chicago IL\\02/2004 - 04/2005
+
+Consultant\\
+Performix, Chicago IL\\
+02/2004 - 04/2005
 
 \begin{itemize}
+\tightlist
 \item
-  object oriented design using CRC cards
+  object oriented design
 \item
   refactored large Perl codebase
 \item
   Perl, Apache, mod\_perl, DB2
 \end{itemize}
-Consultant\\Queens Borough Public Library, New York NY\\06/2004 -
-05/2005
+
+Consultant\\
+Queens Borough Public Library, New York NY\\
+06/2004 - 05/2005
 
 \begin{itemize}
+\tightlist
 \item
   character encoding conversion
 \item
@@ -97,9 +214,12 @@ Consultant\\Queens Borough Public Library, New York NY\\06/2004 -
 \item
   Perl data processing training
 \end{itemize}
-Consultant\\Notre Dame University, South Bend IN 06/2004 - 12/2004
+
+Consultant\\
+Notre Dame University, South Bend IN 06/2004 - 12/2004
 
 \begin{itemize}
+\tightlist
 \item
   training in object oriented programming and unit testing
 \item
@@ -109,10 +229,13 @@ Consultant\\Notre Dame University, South Bend IN 06/2004 - 12/2004
 \item
   ported Java Commonn Query Language parser to Perl
 \end{itemize}
-Applications Developer\\Follett Library Resources, McHenry
-IL\\07/2002 - 05/2004
+
+Applications Developer\\
+Follett Library Resources, McHenry IL\\
+07/2002 - 05/2004
 
 \begin{itemize}
+\tightlist
 \item
   PHP/Perl development in a Unix/Oracle environment
 \item
@@ -128,10 +251,13 @@ IL\\07/2002 - 05/2004
 \item
   distributed application design using SOAP/XMLRPC
 \end{itemize}
-Senior Software Engineer CheetahMail, New York NY 02/2000 -
-07/2002
+
+Senior Software Engineer\\
+CheetahMail, New York NY\\
+02/2000 - 07/2002
 
 \begin{itemize}
+\tightlist
 \item
   team lead in a group of 8 programmers
 \item
@@ -149,10 +275,13 @@ Senior Software Engineer CheetahMail, New York NY 02/2000 -
 \item
   networking and systems administration as required
 \end{itemize}
-Electronic Resources Librarian\\Old Dominion University, Norfolk,
-VA\\04/1998 - 02/2000
+
+Electronic Resources Librarian\\
+Old Dominion University, Norfolk, VA\\
+04/1998 - 02/2000
 
 \begin{itemize}
+\tightlist
 \item
   SGML data processing for electronic texts for 39 universities in
   Virginia.
@@ -166,10 +295,13 @@ VA\\04/1998 - 02/2000
 \item
   III/OCLC metadata management integration
 \end{itemize}
-Visiting Assistant Professor\\University of Illinois,
-Champaign-Urbana, IL\\08/1996 - 03/1998
+
+Visiting Assistant Professor University of Illinois, Champaign-Urbana,
+IL\\
+08/1996 - 03/1998
 
 \begin{itemize}
+\tightlist
 \item
   web/database development (ASP/SQLServer)
 \item
@@ -180,55 +312,139 @@ Champaign-Urbana, IL\\08/1996 - 03/1998
 \item
   managed reference services in the Social Science Library
 \end{itemize}
-\subsection{Selected Publications}
+
+\subsection{Selected Projects}\label{selected-projects}
+
+I like to learn and keep my skills sharp by working on or participating
+in opensource projects. This is a shortlist of projects that I am proud
+to have started or been involved with:
 
 \begin{itemize}
+\tightlist
 \item
-  \href{http://www.w3.org/2005/Incubator/lld/XGR-lld-20111025/}{Library Linked Data Final Report},
-  W3C Incubator Group Report, October 2011.
+  \href{http://wikistream.wmflabs.org}{wikistream}: visualize realtime
+  edits to all major language Wikipedias
 \item
-  \href{http://www.w3.org/TR/skos-primer}{SKOS Simple Knowledge Organization System Primer},
-  W3C Working Group Note, August 18th, 2008.
-  http://www.w3.org/TR/skos-primer/
+  \href{http://github.com/edsu/anon}{anon}: post anonymous Wikipedia
+  edits from particular IP ranges to Twitter e.g.
+  \href{http://twitter.com/congressedits}{congress-edits}
 \item
-  \href{http://dcpapers.dublincore.org/ojs/pubs/article/view/916}{LCSH, SKOS and Linked Data},
-  Proceedings of the International Conference on DublinCore and
-  Metadata Applications, 2008.
+  \href{http://github.com/edsu/pymarc}{pymarc}: a python library for
+  liberating library data locked up in the MARC format
 \item
-  \href{http://inkdroid.org/journal/2008/01/04/following-your-nose-to-the-web-of-data/}{Following Your Nose to the Web of Data},
-  Information Standards Quarterly, 2008
+  \href{http://github.com/code4lib/shortimer}{shortimer}: a jobs board
+  that uses Google Freebase
 \item
-  \href{http://www.ariadne.ac.uk/issue38/summers}{Building OAI-PMH Harvesters With Net::OAI::Harvester},
-  Ariadne, no. 38, Jan 2004.
+  \href{http://github.com/edsu/linkypedia}{linkypedia}: view how
+  websites are used on Wikipedia
 \item
-  Cyril: Expanding the Horizons of MARC21, Library Hi Tech, v. 22,
-  no. 1, 2004.
+  \href{http://github.com/fondz}{fondz}: generate an archival
+  description for describing born digital content
 \item
-  A Consortial Approach to Cooperative Cataloging and Authority
-  Control: The Virtual Library of Virginia Experience, Resource
-  Sharing and Information Networks, v. 16, no. 1, 2003, p.~33--53.
+  \href{http://github.com/ici}{ici}: view Wikipedia articles for your
+  current location on a map
 \item
-  \href{http://www.theperlreview.com/articles/php.html}{Paying Homage to Perl (PHP)},
-  The Perl Review, January, 2003.
+  \href{https://github.com/edsu/microdata}{microdata}: a python library
+  for parsing HTML 5 microdata
+\item
+  \href{https://github.com/edsu/twarc}{twarc}: a command line utility
+  for archiving Twitter
+\item
+  \href{https://github.com/RDFLib}{rdflib}: a Python library for
+  processing RDF
+\end{itemize}
+
+\subsection{Selected Publications}\label{selected-publications}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{http://dx.doi.org/10.1080/01419870.2017.1335422}{Ferguson and
+  the death of Michael Brown on Twitter: \#BlackLivesMatter, \#TCOT, and
+  the evolution of collective identities}. Ethnic and Racial Studies,
+  40(10).
+\item
+  \href{http://dx.doi.org/10.1080/01419870.2017.1334934}{\#sayhername: a
+  case study of intersectional social media activism}. Ethnic and Racial
+  Studies, 40(10).
+\item
+  \href{/papers/bots-seeds-people.pdf}{Bots, Seeds and People: Web
+  Archives as Infrastructure}. Proceedings of the 2017 ACM Conference on
+  Computer Supported Cooperative Work and Social Computing, CSCW 17.
+\item
+  \href{https://source.opennews.org/en-US/learning/automating-transparency/}{Automating
+  Transparency}. The Source. April, 2015.
+\item
+  \href{http://arxiv.org/abs/1303.4702}{MJ no more: Using Concurrent
+  Wikipedia Edit Spikes with Social Network Plausibility Checks for
+  Breaking News Detection}. 2013.
+\item
+  \href{http://arxiv.org/abs/1302.4591}{Linking Things on the Web: A
+  Pragmatic Examination of Linked Data}, 2013.
+\item
+  \href{http://arxiv.org/abs/1302.1224}{Key Choices in the Design of
+  Simple Knowledge Organization System (SKOS)}, 2013.
+\item
+  \href{http://www.w3.org/2005/Incubator/lld/XGR-lld-20111025/}{Library
+  Linked Data Final Report}, W3C Incubator Group Report, October 2011.
+\item
+  \href{http://www.w3.org/TR/skos-primer}{SKOS Simple Knowledge
+  Organization System Primer}, W3C Working Group Note, August 18th,
+  2008. http://www.w3.org/TR/skos-primer/
+\item
+  \href{http://dcpapers.dublincore.org/pubs/article/view/916}{LCSH, SKOS
+  and Linked Data}, Proceedings of the International Conference on
+  DublinCore and Metadata Applications, 2008.
+\item
+  \href{http://inkdroid.org/journal/2008/01/04/following-your-nose-to-the-web-of-data/}{Following
+  Your Nose to the Web of Data}, Information Standards Quarterly, 2008
+\item
+  \href{http://www.ariadne.ac.uk/issue38/summers}{Building OAI-PMH
+  Harvesters With Net::OAI::Harvester}, Ariadne, no. 38, Jan 2004.
+\item
+  Cyril: Expanding the Horizons of MARC21, Library Hi Tech, v. 22, no.
+  1, 2004.
+\item
+  A Consortial Approach to Cooperative Cataloging and Authority Control:
+  The Virtual Library of Virginia Experience, Resource Sharing and
+  Information Networks, v. 16, no. 1, 2003, p.~33-53.
+\item
+  \href{http://www.theperlreview.com/articles/php.html}{Paying Homage to
+  Perl (PHP)}, The Perl Review, January, 2003.
 \item
   MARC it your way: MARC.pm, Information Technology and Libraries,
   March, 2002.
 \item
   Comprehensive Access to Periodicals: A Database Solution, Library
-  Collections Acquisitions and Technical Services, v. 24, no. 2,
-  2000, p.~33--44.
+  Collections Acquisitions and Technical Services, v. 24, no. 2, 2000,
+  p.~33-44.
 \item
   Show Me the Metadata, Against the Grain, v.11, no.1, 1998.
 \item
-  Gateways to Social Work/Welfare on the Net, C\&RL News, v.59, no.
-  3, 1998, p.163--167.
+  Gateways to Social Work/Welfare on the Net, C\&RL News, v.59, no. 3,
+  1998, p.163-167.
 \end{itemize}
-\subsection{Education}
+
+\subsection{Education}\label{education}
 
 \begin{itemize}
+\tightlist
 \item
   MLS, School of Communications, Information and Library Science,
-  Rutgers University, 1995--1996
+  Rutgers University, 1995-1996
 \item
-  BA English and American Literature, Rutgers University, 1987--1991.
+  BA English and American Literature, Rutgers University, 1987-1991.
+\end{itemize}
+
+\subsection{Awards}\label{awards}
+
+\begin{itemize}
+\tightlist
+\item
+  2015 University of Maryland Scholarship and Research Award
+\item
+  2015 Frederick G. Kilgour Award for Research in Library and
+  Information Technology
+\item
+  2015 Shorty Award
 \end{itemize}
