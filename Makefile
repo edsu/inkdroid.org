@@ -1,15 +1,21 @@
-all: build_full sync
+all: bib build_full resume sync
 
-quick: build sync
-
-build_full:
+indexes:
 	touch feed.xml
 	touch index.html
+
+bib:
+	cp ~/Dropbox/BibDesk/citations.bib citations.bib
+
+serve: indexes bib
+	jekyll serve 
+
+quick: bib build sync
+
+build_full: indexes
 	JEKYLL_ENV=production jekyll build --full-rebuild
 
-build:
-	touch feed.xml
-	touch index.html
+build: indexes
 	JEKYLL_ENV=production jekyll build
 
 sync:
