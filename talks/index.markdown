@@ -24,6 +24,13 @@ technology in libraries. A lot of this stuff looks kind of dated now, but I
 guess it is descriptive of my particular career path.
 
 <p class="story">
+<strong></strong><br>
+<a href="http://aeri2017.org/">Archival Education and Research Institute 2017</a><br>
+Toronto, Canada (July 12, 2017)<br>
+[<a href="aeri2017.pdf">poster</a>]
+</p>
+
+<p class="story">
 <strong>Bots, Seeds and People</strong><br>
 <a href="https://cscw.acm.org/2017/">Computer-Supported Cooperative Work</a><br>
 Portland, Oregon (February 26, 2017)<br>
