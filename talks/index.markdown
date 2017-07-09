@@ -24,7 +24,7 @@ technology in libraries. A lot of this stuff looks kind of dated now, but I
 guess it is descriptive of my particular career path.
 
 <p class="story">
-<strong>Exploring Assemblages for Appraisal in Web Archives</strong><br>
+<strong>Exploring Assemblages of Appraisal in Web Archives</strong><br>
 <a href="http://aeri2017.org/">Archival Education and Research Institute</a><br>
 Toronto, Canada (July 12, 2017)<br>
 [<a href="aeri2017.pdf">poster</a>]
