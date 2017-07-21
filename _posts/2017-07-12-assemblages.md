@@ -8,25 +8,21 @@ tags:
 ---
 
 *I had the opportunity to put together a [poster](/talks/aeri2017.pdf) for
-[AERI](http://aeri2017.org) this year. The poster presents a paper that I gave
-earlier this year [@Summers:2017] at CSCW.* 
-
-*I can't help but feel like I did things a bit backwards since posters are
-usually ways to explore nascent ideas, or preliminary results instead of
-presenting something that's more complete.*
-
-*But creating the poster turned out to be a really interesting process trying to
-distill the paper to the essentials while re-presenting it more visually. While
-doing this it occurred to me that the poster content could also maybe work as a
-blog post, so ...*
+[AERI](http://aeri2017.org) this year. The poster presents a paper that I
+recently gave at CSCW [@Summers:2017]. Creating it was a surprisingly useful
+process of distilling the paper to its essentials while re-presenting it
+visually. It occurred to me that the poster session audience and the typical web
+audience have something in common: limited attention. So I reworked the poster
+content here as a blog post to try to make my research findings a bit more
+accessible.*
 
 ---
 
-Even after over 20 years of active web archiving we know surprising little about
-how archivists appraise and select web content for preservation.  Since we can’t
-keep it all, how we decide what to keep from the web is certain to shape the
-historical record [@Cook:2011]. In this context, we ask the following research
-questions: 
+Even after over 20 years of active web archiving we know surprisingly little
+about how archivists appraise and select web content for preservation.  Since we
+can’t keep it all, how we decide what to keep from the web is certain to shape
+the historical record [@Cook:2011]. In this context, we ask the following
+research questions: 
 
 1. How are archivists deciding what to collect from the web?
 
@@ -39,11 +35,11 @@ questions:
 
 <img style="margin-right: 10px; float: left;" src="/images/aeri-notes.jpg">
 
-This study conducted a series ethnographic interviews with 29 individuals
-involved in the selection of web content. Participants include web archivists as
-well as researchers, managers, local government employees, volunteers, social
-activists, and entrepreneurs. The field notes from these interviews were
-analyzed using inductive thematic analysis. 
+To answer these questions I conducted a series ethnographic interviews with 29
+individuals involved in the selection of web content. Participants include web
+archivists as well as researchers, managers, local government employees,
+volunteers, social activists, and entrepreneurs. The field notes from these
+interviews were analyzed using inductive thematic analysis. 
 
 Analysis began with reading all the field notes together, followed by line by
 line coding. While coding was done without reference to an explicit theoretical
@@ -107,9 +103,9 @@ repair work as well as improvisational and participatory design [@Jackson:2014].
 
 Thank you to Ricky Punzalan for much guidance during the planning and execution
 of the study. Leah Findlater and Jessica Vitak also helped in the selection of
-research methods. Nicholas Taylor and Jess Ogden provided lots of useful
-feedback on early drafts, as well as pointers into the literature that were
-extremely helpful.
+research methods. Nicholas Taylor, Jess Ogden and Samantha Abrams provided lots
+of useful feedback on early drafts, as well as pointers into the literature that
+were extremely helpful.
 
 I also want to thank the Maryland Institute for Technology in the Humanities and
 the Documenting the Now project (funded by the Mellon Foundation) who provided
