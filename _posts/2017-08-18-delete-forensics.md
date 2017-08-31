@@ -4,6 +4,7 @@ title: Delete Forensics
 tags:
 - twitter
 - archive
+- forensics
 ---
 
 *TL;DR Deleted tweets in a #unitetheright dataset seem to largely be the result
