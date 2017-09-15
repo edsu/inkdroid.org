@@ -1,4 +1,3 @@
-# Site settings
 title: inkdroid 
 email: ehs@pobox.com
 description: Paper or Plastic 
@@ -14,7 +13,6 @@ tag_page_layout: tag
 tag_page_dir: tag
 tag_permalink_style: pretty
 
-# Build settings
 sass:
   sass_dir: _sass
 
