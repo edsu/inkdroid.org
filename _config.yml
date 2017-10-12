@@ -24,12 +24,12 @@ include:
   - .well-known
   - .htaccess
 
-gems:
+plugins:
   - jekyll-compose
   - jekyll/tagging
   - jekyll-pandoc
 
-markdown: 'PandocProcessor'
+markdown: 'Pandoc'
 
 pandoc:
   extensions:

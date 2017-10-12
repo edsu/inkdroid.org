@@ -69,5 +69,15 @@ h3 {
     font-size: 13pt;
 }
 
+figure {
+  padding: 10px;
+  border: thin solid #eeeeee;
+}
+
+figcaption {
+    text-align: center;
+}
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap";
