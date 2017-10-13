@@ -129,7 +129,7 @@
   </macro>
   <macro name="access">
     <choose>
-      <if type="thesis report" match="any">
+      <if type="article thesis report" match="any">
         <choose>
           <if variable="archive" match="any">
             <group>

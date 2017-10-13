@@ -16,7 +16,7 @@ build_full: indexes
 	JEKYLL_ENV=production jekyll build --full-rebuild
 
 build: indexes
-	JEKYLL_ENV=production jekyll build
+	JEKYLL_ENV=production jekyll build --incremental
 
 sync:
 	rsync -ar --rsh='ssh -p22334' _site/ ed@inkdroid.org:/var/www/inkdroid.org
