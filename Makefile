@@ -13,7 +13,7 @@ serve: indexes bib
 quick: bib build sync
 
 build_full: indexes
-	JEKYLL_ENV=production jekyll build --full-rebuild
+	JEKYLL_ENV=production jekyll build
 
 build: indexes
 	JEKYLL_ENV=production jekyll build --incremental
