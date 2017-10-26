@@ -1,10 +1,12 @@
 ---
-layout: "post"
-title: "Appraisal Talk in Web Archives"
+layout: post
+title: Appraisal Talk
 date: "2017-10-22 08:07"
 ---
 
-*Working draft of a paper I'm giving at [SIGCIS](http://meetings.sigcis.org/conference-schedule.html)*
+*This is a working draft of a paper I'm giving at [SIGCIS](http://meetings.sigcis.org/conference-schedule.html) on October 29, 2017.*
+
+---
 
 As the World Wide Web has become a prominent, if not the predominant, form of
 global communications and publishing over the last 25 years we have seen the
@@ -121,7 +123,7 @@ themselves as much as possible without fear of repercussions from their
 employer.
 
 -------------------------------------------------------------------------------
- Line # Speaker Utterance
+   Line Speaker Utterance
 ------- ------- ---------------------------------------------------------------
      41 Jim     Well Alex helped me get in contact with the employees /
 
@@ -138,8 +140,8 @@ employer.
      47 \       and was like /
 
      48 \       ok so [be a little more] /
-d into
-     49 Ed      &nbsp; &nbsp; &nbsp; &nbsp; [ahhhh]
+
+     49 Ed      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [ahhhh]
 
      50 Jim     careful with this
 
@@ -160,10 +162,10 @@ lend weight and formality to what is actually a much richer set of circular
 relationships within the organization. The relationships also extended outside
 the archive and into the organization that had created the video content.
 
-We see this pattern reflected in another interview with Jack, who is an archivist at a large university, who has been working to document the activities of the fracking industry within his state.j
+We see this pattern reflected in another interview with Jack, who is an archivist at a large university, who has been working to document the activities of the fracking industry within his state.
 
 -------------------------------------------------------------------------------
- Line # Speaker Utterance
+   Line Speaker Utterance
 ------- ------- ---------------------------------------------------------------
       1 Jack    I really see like one of / my next curatorial
                 responsibilities being /
@@ -230,7 +232,7 @@ transformed almost beyond recognition. The architecture and infrastructure of
 the web, as well as the underlying Internet, allow content to be instantly
 retrieved across vast distances. All you need to know is the URL for the
 resource and to point your web client (be it a browser or a *crawler*) in that
-direction. When it is all working. As noted by @Brügger:2012b the reliability of
+direction. When it is all working. As noted by @Brugger:2012b the reliability of
 archived copies of web content is not a given. Features of the HTTP protocol,
 such as cookies [@Barth:2011] and caching [@Fielding:2014] combined with the
 rendering capabilities of the client software mean that the idea of a single
@@ -240,10 +242,14 @@ very real assemblage of physical networks, computer machinery, storage devices,
 electrical grids and cooling units that must operate in concert to deliver
 access.
 
+<br>
 <figure>
-  <img title="Tim Berners-Lee's Server Diagram" src="/images/timbl-server.png">
-  <figcaption>A client/server model for a distributed hypertext system.</figcaption>
+  <img class="img-responsive" title="Tim Berners-Lee's Server Diagram" src="/images/timbl-servers.png">
+  <br>
+  <br>
+  <figcaption>A client/server model for a distributed hypertext system by Tim Berners-Lee.</figcaption>
 </figure>
+<br>
 
 As we saw with Jack, there is no need to enter into a conversation with a
 website owner to start archiving web content. When the content is on the the
