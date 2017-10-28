@@ -4,7 +4,7 @@ title: Appraisal Talk
 date: "2017-10-22 08:07"
 ---
 
-*This is a working draft of a paper I'm giving at [SIGCIS](http://meetings.sigcis.org/conference-schedule.html) on October 29, 2017.*
+*This is a draft of a talk I'm giving at [SIGCIS](http://meetings.sigcis.org/conference-schedule.html) on October 29, 2017. It's part of a larger article that I will hopefully publish shortly or drop in a pre-print archive.*
 
 ---
 
@@ -16,14 +16,21 @@ resists the idea of "archiving it all" [@Masanes:2006]. The web is also a site
 for constant breakdown in the form of broken links, failed business models,
 unsustainable infrastructure, obsolescence and general neglect. Web archiving
 projects work in varying measures to stem this tide of loss--to save what is
-deemed worth saving before it is 404 Not Found. In many ways you can think
-of web archiving as a form of repair or maintenance work that is conducted by archivists in collaboration with each other, as well as tools and infrastructures.
+deemed worth saving before it is 404 Not Found. In many ways you can think of
+web archiving as a form of repair or maintenance work that is conducted by
+archivists in collaboration with each other, as well as tools and
+infrastructures [@Graham:2007 ; @Jackson:2014].
 
-In this presentation I will quickly describe some research I've been
-doing into how web archives are constructed and why I think it matters for
-historians of technology. What follows is essentially what [@Brugger:2012a]
-calls a *web historiography*: it's a story that focuses on the users of a
-*technology of history* rather than a *history of a technology*.  
+In this presentation I will describe some research I've been doing into how web
+archives are assembled and why I think this matters for historians of
+technology. What follows is essentially what [@Brugger:2012a] calls a *web
+historiography* where the focus is on the web as a particular technology of
+history rather than a particular history of web technology. The web, and by
+extension, web archives provide a singular view of life and culture since its
+inception 25 years ago. Understanding how and why web archives are assembled is
+an important task for the scholars who are attempting to use them
+[@Maemura:2016]. As we will see, it is the network of relationships and
+connections that a web archive is involved with that make it an archive.
 
 By *web archives* I specifically mean archives *of* web content, not necessarily
 archives that are *on* the web. Brügger distinguishes between three types of
@@ -36,16 +43,16 @@ content that can be found on the web:
 It is this third category of *reborn-digital* content that I'm concerned with
 here. A prime example is the Internet Archive, which I imagine some of you have
 used as a source of material in your own research. There are now thousands of
-entities around the world collecting web content for a variety of archival
+organizations around the world collecting web content for a variety of archival
 purposes.
 
-The question of *what* and *how* web content ends up in an archive is of great
+The question of *what* and *how* web content ends up in an archive is of
 [historiographical](https://en.wikipedia.org/wiki/Historiography) significance,
-because what we know of the past is necessarily shaped by the evidence of the
-past that survives into the present. Since it is physically impossible to
-archive everything, archives have always contained gaps or silences.
-@Trouillot:1995 provides a framework for thinking about these moments in which
-these silences enter the archive:
+because history is necessarily shaped by the evidence of the past that survives
+into the present. Since it is physically impossible to archive everything,
+archives have always contained gaps or silences. @Trouillot:1995 provides a
+framework for thinking about these moments in which these silences enter the
+archive:
 
 > Silences enter the process of historical production at four crucial moments:
 > the moment of fact creation (the making of sources): *the moment of fact
@@ -53,14 +60,15 @@ these silences enter the archive:
 > of narratives); and the moment of retrospective significance (the making
 > of history in the final instance).
 
-Given the significance of the making of archives to the making of history, and the abundance of material on the web, how do archivists decide what to
-save?
+Given the significance of the making of archives to the making of history, and
+the abundance of material on the web, how do archivists decide what to save?
 
-Archivists have traditionally used the term *appraisal* to describe the process by which they identify materials that they think are of enough
-enduring value to care for in an archive. While notions of value, and the
-methods for measuring it differ, the activity of appraisal is central to the
-work of the archivist. To further specify this moment in which content becomes
-archival @Ketelaar:2001 introduced the neologism *archivalization* as
+Archivists have traditionally used the term *appraisal* to describe the process
+of determining the value of records, in order to justify their inclusion into
+the archive. While notions of value, and the methods for measuring it differ,
+the activity of appraisal is central to the work of the archivist. To further
+specify this moment in which content becomes archival @Ketelaar:2001 introduced
+the neologism *archivalization* as
 
 > the conscious or unconscious choice (determined by social and
 > cultural factors) to consider something worth archiving. Archivalization
@@ -72,23 +80,24 @@ archival @Ketelaar:2001 introduced the neologism *archivalization* as
 In order to better understand this process of *lighting up* web content in web
 archives I conducted 30 interviews with web archivists, software developers,
 researchers and activists to discover how they decide to preserve web content.
-Inspired by the work of researchers such as @Suchman:1985, @Star:1999 and
-@Kelty:2008 these were [ethnographic](https://en.wikipedia.org/wiki/Ethnography)
-interviews that aimed to develop a thick description of how practitioners enact
-appraisal in their particular work environments.
+Inspired by the work of @Suchman:1995, @Star:1999 and @Kelty:2008 these were
+[ethnographic](https://en.wikipedia.org/wiki/Ethnography) interviews that aimed
+to develop a thick description of how practitioners enact appraisal in their
+particular work environments.
 
-In the first pass at analysis I coded the the jottings and field notes
-generated. These provided a detailed pictures of the sociotechnical environment
-in which this work is being performed [@Summers:2017]. However questions still
-remained about the psychological or social nature of the decision making process
-around moments of archivalization in web archives.
+In the first pass at analysis I coded the jottings and field notes generated.
+These provided a detailed picture of the sociotechnical environment in which
+appraisal work is being performed [@Summers:2017]. However questions still
+remained about the particular psychological or social context for the decision
+making process around moments of archivalization in web archives.
 
-On a second pass at analysis I performed a [critical discourse analysis](https://en.wikipedia.org/wiki/Critical_discourse_analysis) on the
-interview transcripts. Critical discourse analysis was selected because it
-offers a theoretical framework for analyzing the way in which participants' use
-of language reflects identity formation, figured worlds and communities of
-practice, while also speaking to the larger sociocultural context that web
-archiving work is taking place within.
+On a second pass I performed a [critical discourse
+analysis](https://en.wikipedia.org/wiki/Critical_discourse_analysis) on the
+interview transcripts themselves. I selected critical discourse analysis (CDA)
+because it offers a theoretical framework for analyzing the way in which
+participants' use of language reflects identity formation, figured worlds and
+communities of practice, while also speaking to the larger sociocultural context
+that web archiving work is taking place within.
 
 > A Discourse is a socially accepted association among ways of using
 > language, of thinking, feeling, believing, valuing, and of acting that
@@ -96,10 +105,12 @@ archiving work is taking place within.
 > group or 'social network', or to signal (that one is playing) a socially
 > meaningful 'role'. [@Gee:2015, p. 143]
 
-Gee's 7 building tasks provide a framework for examining the ways in which
-language is used as a tool to shape the social world of web archiving work, and
-also the ways in which the social context of archival work in turn shapes the
-use of language by its practitioners. These tasks include:
+CDA provides a theoretical framework for empirically studying the way that form
+and function operate in language, and how this analysis can provide insight into
+social practices. One of CDA's key proponents is James Gee, whose 7 building
+tasks provided me with a guide for analyzing my interview transcripts to gain
+insight into practices of appraisal in web archives [@Gee:2014a]. The 7 building
+tasks include:
 
 * *Significance*: how is language used to foreground and background certain
   things?
@@ -115,12 +126,11 @@ use of language by its practitioners. These tasks include:
 * *Sign systems and knowledge*: how does language position (privilege or
   disprivilege) particular sign systems, or ways of knowing and believing?
 
-There's not enough time to get into all the details of my findings here, but I
-thought I would provide you with a brief look at what this analysis looks like
-as a way of introducing my key findings. All the names used in the
-transcriptions are pseudonyms in order to allow the participants to be
-themselves as much as possible without fear of repercussions from their
-employer.
+There's not enough time for me to get into all the details of my findings here,
+but I would like to share a brief look at what this analysis looks like as a way
+of introducing my key findings. All the names used in the transcriptions are
+pseudonyms in order to allow the participants to be themselves as much as
+possible.
 
 -------------------------------------------------------------------------------
    Line Speaker Utterance
@@ -147,14 +157,16 @@ employer.
 
 -------------------------------------------------------------------------------
 
-Here I am interviewing Jim, who works at a non-profit web archiving organization.
 
-I selected this snippet because it highlights how discourse reflects the
-*relationships* that are involved in the appraisal process. Just before this
-snippet Jim is talking about how he wasn't sure whether a particular video
-streaming site could be archived because of the amount of data involved. He
-sought the advice of his immediate supervisor Ariana, who then brought in Alex,
-who is the Director of the archive. It turned out that the Director had a
+<img class="img-responsive" src="images/archive-video.png">
+
+Here I am interviewing Jim, who works at a non-profit web archiving
+organization. I selected this snippet because it highlights how discourse
+reflects the *relationships* that are involved in the appraisal process. Just
+before this snippet Jim is talking about how he wasn't sure whether a particular
+video streaming site could be archived because of the amount of data involved.
+He sought the advice of his immediate supervisor Ariana, who then brought in
+Alex, who is the Director of the archive. It turned out that the Director had a
 connection with a staff person who was working at the video streaming company,
 who could provide key information about the amount of data that needed to be
 archived. Here Jim is using the hierarchical, chain-of-command relationships to
@@ -185,6 +197,8 @@ We see this pattern reflected in another interview with Jack, who is an archivis
       8 \       without really doing that in advance //
 -------------------------------------------------------------------------------
 
+<img class="img-responsive" src="images/archives-activists.png">
+
 Here Jack is explicitly describing "connections" or relationships as an
 essential part of his job as an archivist. Just before this snippet he had
 finished describing how he got the idea to document fracking from a web
@@ -195,7 +209,7 @@ collaborate with this archivist to better document fracking activity as it
 extends across geopolitical boundaries. He sought the approval from the
 Associate Dean of the Library who was very supportive of the idea. However as
 this snippet illustrates Jack sees these professional relationships as necessary
-but not sufficient for doing the work. He sees dialogue with the communities
+but not sufficient for doing the work.  He sees dialogue with the communities
 being documented, in this case activist communities, as an important dimension
 to the work of web archiving.
 
@@ -230,15 +244,15 @@ process.
 But in web archives this material transaction is not necessary or it is
 transformed almost beyond recognition. The architecture and infrastructure of
 the web, as well as the underlying Internet, allow content to be instantly
-retrieved across vast distances. All you need to know is the URL for the
-resource and to point your web client (be it a browser or a *crawler*) in that
-direction. When it is all working. As noted by @Brugger:2012b the reliability of
-archived copies of web content is not a given. Features of the HTTP protocol,
-such as cookies [@Barth:2011] and caching [@Fielding:2014] combined with the
-rendering capabilities of the client software mean that the idea of a single
-idealized, canonical representation of a web resource retreats from view. And of
-course the seeming immateriality of web content is an illusion generated by the
-very real assemblage of physical networks, computer machinery, storage devices,
+retrieved across vast distances. You only need to know the URL for the resource
+and to instruct your web client (be it a browser or a *crawler*) to retrieve it.
+When it is all working. As noted by @Brugger:2012b the reliability of archived
+copies of web content is not a given. Features of the HTTP protocol, such as
+cookies [@Barth:2011] and caching [@Fielding:2014] combined with the rendering
+capabilities of the client software mean that the idea of a single idealized,
+canonical representation of a web resource retreats from view. This seeming
+immateriality of web content is an illusion generated by the very real
+assemblage of physical networks, computing machinery, storage devices,
 electrical grids and cooling units that must operate in concert to deliver
 access.
 
@@ -247,28 +261,30 @@ access.
   <img class="img-responsive" title="Tim Berners-Lee's Server Diagram" src="/images/timbl-servers.png">
   <br>
   <br>
-  <figcaption>A client/server model for a distributed hypertext system by Tim Berners-Lee.</figcaption>
+  <figcaption>@BernersLee:1990</figcaption>
 </figure>
 <br>
 
 As we saw with Jack, there is no need to enter into a conversation with a
-website owner to start archiving web content. When the content is on the the
-public web an archivist can start the archiving software, give it a URL,
-configure the crawling behavior (how far, how long, how much, etc) and let it do
-its work. The decision of what to crawl is detached from the relationships that
-have traditionally guided appraisal. But like a ghost limb, Jack still felt the
+website owner to start archiving web content. When the content is on the web an
+archivist can start the archiving software, give it a URL, configure the
+crawling behavior (how far, how long, how much, etc) and let it do its work. The
+decision of what to crawl is detached from the relationships that have
+traditionally guided appraisal. But like a ghost limb, Jack still felt the
 significance of these connections between the archive and the content creators
 for doing archival work. He wanted to establish them, even if they were not
 technically necessary. The links of relationships between people have
-effectively been replaced by hypertext links that provide discoverability and access.
+effectively been replaced by hypertext links that provide discoverability and
+access.
 
 In many ways what this analysis seems to point to is an evolving practice of web
 archiving where traditional concepts of appraisal are being unbracketed from one
 context and reapplied in another. Focusing on the objects, be they paper files,
 boxes, or representations of HTTP transactions, is less at issue than the
-practices that involve those objects. A practice orientation recalls Annemarie
-Mol's field study work observing the treatment of atherosclerosis, which
-multiple realities.
+practices that involve those objects, and their network of interactions. This
+shift in attention recalls the work of ethnographer and philosopher Annemarie
+Mol, whose work studying the treatment of atherosclerosis highlights the
+importance of practice:
 
 > It is possible to refrain from understanding objects as the central focus
 > of different people's perspectives. It is possible to understand them
@@ -276,7 +292,7 @@ multiple realities.
 > bracketing the practices in which objects are handled we foreground
 > them--this has far reaching effects. Reality multiplies. [@Mol:2002, p. 5]
 
-The archive is situated among these multiple record realities involving the
+The web archive is situated among these multiple record realities involving the
 creators of records with the preservers of records with the users of records.
 
 But to return to the question I started with: what does all this tell us about
@@ -285,18 +301,21 @@ these brief examples highlight just how important it is to maintain the manifold
 of relationships between record creators and the archive. Appraisal, as it is
 embodied in the practices of archivists, and encoded into software tools, is a
 social enterprise that shapes the historical record. Just as the infrastructure
-of the web enables communication across great geographic  distances, it also
-paradoxically moves to obscure the relationship between the archive and the
-archived. Practices that help bridge this gap and make it legible, while
-allowing for new methods of appraisal to evolve are needed.
+of the web enables communication across great geographic distances, it also
+simultaneously moves to obscure the relationship between the archive and the
+archived. Further research is needed to discover practices that help bridge this
+gap and make it legible, while allowing for new conceptions of appraisal to
+develop and be translated.
 
 If you're a scholar who uses archives of web content I encourage you to reach
-out to the archivists at your respective organizations and to work with them to
-help build these practices and ensure that they are collecting the things you
-value. If you work as part of an organization and want to ensure that your web
-content is being collected and archives try reaching out to an archivist to let
-them know of your interest. And of course if you are an archivist and you are
-stymied by thinking about archiving web content, there are good reasons for
-that. The web is a big place, and its hard to know what to collect. Maintaining relationship
+out to the archivists you know, and to work with them to help build these
+practices and ensure that they are collecting the things you value.  If you work
+as part of an organization and want to ensure that your web content is being
+collected and archives try reaching out to an archivist to let them know of your
+interest. And of course if you are an archivist, and you are stymied by thinking
+about archiving web content, there are good reasons for that. The web is a big
+place, and its hard to know what to collect. Focusing on the relationships you
+have with the communities you document can help make it more manageable and
+meaningful.
 
 ### References
