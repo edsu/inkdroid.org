@@ -158,7 +158,7 @@ possible.
 -------------------------------------------------------------------------------
 
 
-<img class="img-responsive" src="images/archive-video.png">
+<img class="img-responsive" src="/images/archive-video.png">
 
 Here I am interviewing Jim, who works at a non-profit web archiving
 organization. I selected this snippet because it highlights how discourse
@@ -197,7 +197,7 @@ We see this pattern reflected in another interview with Jack, who is an archivis
       8 \       without really doing that in advance //
 -------------------------------------------------------------------------------
 
-<img class="img-responsive" src="images/archives-activists.png">
+<img class="img-responsive" src="/images/archives-activists.png">
 
 Here Jack is explicitly describing "connections" or relationships as an
 essential part of his job as an archivist. Just before this snippet he had
