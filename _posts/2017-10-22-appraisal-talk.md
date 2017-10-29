@@ -4,7 +4,7 @@ title: Appraisal Talk
 date: "2017-10-22 08:07"
 ---
 
-*This is a draft of a talk I'm giving at [SIGCIS](http://meetings.sigcis.org/conference-schedule.html) on October 29, 2017. It's part of a larger article that I will hopefully publish shortly or drop in a pre-print archive.*
+*This is a draft of a talk I'm giving at [SIGCIS](http://meetings.sigcis.org/conference-schedule.html) on October 29, 2017. It's part of a larger article that I will hopefully publish shortly or drop in a pre-print repository.*
 
 ---
 
@@ -203,7 +203,7 @@ Here Jack is explicitly describing "connections" or relationships as an
 essential part of his job as an archivist. Just before this snippet he had
 finished describing how he got the idea to document fracking from a web
 archivist at another institution, who was already engaged in documenting
-fracking in his tate. Jack's interest in documenting environmental issues had
+fracking in his state. Jack's interest in documenting environmental issues had
 developed while working with a mentor at a previous university. Jack wanted to
 collaborate with this archivist to better document fracking activity as it
 extends across geopolitical boundaries. He sought the approval from the
