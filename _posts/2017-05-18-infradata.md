@@ -75,10 +75,10 @@ against a master blueprint, and announces any new or changed data properties on
 Twitter. The master blueprint is really just a snapshot of all the previous data
 fields the bot has seen, which is currently 1229 fields that you can see [here].
 
-The blueprint is a uses a [jq] like syntax to represent each path in the JSON
-data.  It's a bit more difficult to notice when fields are removed because not
-all tweets contain all fields. Just because a given field isn't present in a
-tweet doesn't mean it has been removed. I guess the bot could keep some kind of
+The blueprint uses a [jq] like syntax to represent each path in the JSON data.
+It's a bit more difficult to notice when fields are removed because not all
+tweets contain all fields. Just because a given field isn't present in a tweet
+doesn't mean it has been removed. I guess the bot could keep some kind of
 timestamp associated with each field and then if it grows really stale (like
 months?) it could assume that it has been removed? That was a bit more
 adventurous for the time I had available to test this idea out.
