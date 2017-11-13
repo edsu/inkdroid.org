@@ -93,8 +93,8 @@ Clearly, a firm grounding in the literature of appraisal practices in archives
 is an important dimension to this research project. Understanding the various
 appraisal techniques that have been articulated and deployed will help in
 assessing how these techniques are being translated to the appraisal of web
-content. Particular attention will be paid to emerging practices for the
-appraisal of electronic records and web content. Because the web is a
+content [@Maemura:2016]. Particular attention will be paid to emerging practices
+for the appraisal of electronic records and web content. Because the web is a
 significantly different medium than archives have traditionally dealt with it is
 important to situate archival appraisal within the larger context of social or
 collective memory practices [@Jacobsen:2013]. In addition, the emerging practice
