@@ -75,7 +75,7 @@ contingencies of the historical moment that the archive is created, sustained
 and used [@Booms:1987 ; @Harris:2002]. The desire for a technology that enables
 a complete archival record of the web, where everything is preserved and
 remembered in an archival panopticon, is an idea that has deep philosophical
-roots, and many social and political ramifications [@Bothman:2001 ;
+roots, and many social and political ramifications [@Brothman:2001 ;
 @Mayer:2011].
 
 Notwithstanding these theoretical and practical complexities, the construction
