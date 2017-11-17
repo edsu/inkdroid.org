@@ -33,7 +33,6 @@ markdown: 'Pandoc'
 
 pandoc:
   extensions:
-    - smart
     - mathjax
     - csl: _styles/apa.csl
     - bibliography: citations.bib

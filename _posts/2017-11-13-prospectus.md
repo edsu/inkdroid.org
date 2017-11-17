@@ -186,6 +186,9 @@ Press.
 Chun, W. H. K. (2016). Updating to Remain the Same: Habitual New Media.
 Cambridge: MIT Press.
 
+Cubitt, S. (2016). Finite Media: Environmental Implications of Digital
+Technologies. Durham: Duke University Press.
+
 Dourish, P. (2017). The Stuff of Bits: An Essay on the Materialities of
 Information. Cambridge: MIT Press.
 
@@ -206,6 +209,9 @@ Durham: Duke University Press.
 
 Kitchin, R. and Dodge, M. (2011). Code/Space: Software and Everyday Life.
 Cambridge: MIT Press.
+
+Rossiter, N. (2016). Software, Infrastructure, Labor: A Media Theory of
+Logistical Nightmares. Oxford: Routledge.
 
 Russell, A. L. (2014). Open standards and the digital age. Cambridge: Cambridge
 University Press.
