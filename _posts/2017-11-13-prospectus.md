@@ -189,6 +189,8 @@ Cambridge: MIT Press.
 Cubitt, S. (2016). Finite Media: Environmental Implications of Digital
 Technologies. Durham: Duke University Press.
 
+Hu, T. (2015). A Prehistory of the Cloud. Cambridge: MIT Press.
+
 Dourish, P. (2017). The Stuff of Bits: An Essay on the Materialities of
 Information. Cambridge: MIT Press.
 
