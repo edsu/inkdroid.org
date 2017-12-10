@@ -1,10 +1,11 @@
-\section{Ed Summers}\label{ed-summers}
+\hypertarget{ed-summers}{%
+\section{Ed Summers}\label{ed-summers}}
 
 Silver Spring, Maryland, USA
 
 \href{mailto:ehs@pobox.com}{\nolinkurl{ehs@pobox.com}}\\
-\url{http://inkdroid.org}\\
-\url{http://twitter.com/edsu}\\
+\url{http://inkdroid.org}~\\
+\url{http://twitter.com/edsu}~\\
 \url{http://github.com/edsu}
 
 I am a software developer with two decades of experience bridging the
@@ -13,7 +14,8 @@ in academia, startups, corporations and the government. I work best in
 agile, highly collaborative teams, that want to help make the world a
 better place.
 
-\subsection{Skills}\label{skills}
+\hypertarget{skills}{%
+\subsection{Skills}\label{skills}}
 
 \begin{itemize}
 \tightlist
@@ -31,7 +33,8 @@ better place.
   Ubuntu, Red Hat, Amazon Web Services
 \end{itemize}
 
-\subsection{Work History}\label{work-history}
+\hypertarget{work-history}{%
+\subsection{Work History}\label{work-history}}
 
 Lead Software Developer\\
 Maryland Institute for Technology in the Humanities\\
@@ -62,17 +65,16 @@ Library of Congress, Washington, DC\\
 \item
   digital preservation and repository software design and development
 \item
-  lead software developer on the
-  \href{http://chroniclingamerica.loc.gov/}{National Digital Newspaper
-  Project}
+  lead software developer on the {[}National Digital Newspaper
+  Project{]} \href{http://chroniclingamerica.loc.gov/}{ndnp}
 \item
   created a web based quality assurance tool for handling high volume
   image digitization projects
 \item
   social media archiving (Twitter)
 \item
-  designed and implemented the \href{http://id.loc.gov/}{Library of
-  Congress Linked Data Service}
+  designed and implemented the {[}Library of Congress Linked Data
+  Service{]} \href{http://id.loc.gov/}{id}
 \item
   contributing member to the Semantic Web Deployment Group, Library
   Linked Data Incubator Group, and eGov Interest Group at the W3C
@@ -116,12 +118,13 @@ San Fransisco, CA\\
   CoffeeScript and Python development
 \item
   development of the opensource
-  \href{http://github.com/okfn/anotator}{Annotator} and
-  \href{http://github.com/okfn/anotator-store}{Annotator Store} projects
+  \href{http://github.com/okfn/anotator}{Annotator}
+  \href{http://github.com/okfn/anotator}{annotator} and {[}Annotator
+  Store{]} \href{http://github.com/okfn/anotator-store}{annotator-store}
+  projects
 \item
-  design and implementation of
-  \href{http://hypothes.is/blog/cross-format-annotation/}{cross format
-  annotation support}
+  design and implementation of {[}cross format annotation support{]}
+  \href{http://hypothes.is/blog/cross-format-annotation/}{cross-format-annotation}
 \item
   functional and unit testing support using Selenium, PyTest, Travis-CI
   and SauceLabs
@@ -135,6 +138,7 @@ GlueJar\\
 \tightlist
 \item
   Django software development \href{http://unglueit.com}{UnglueIt}
+  \href{http://unglueit.com}{unglueit}
 \item
   Amazon AWS Deployment (EC2, RDS, Route 53) for dev, test and
   production
@@ -313,7 +317,8 @@ IL\\
   managed reference services in the Social Science Library
 \end{itemize}
 
-\subsection{Selected Projects}\label{selected-projects}
+\hypertarget{selected-projects}{%
+\subsection{Selected Projects}\label{selected-projects}}
 
 I like to learn and keep my skills sharp by working on or participating
 in opensource projects. This is a shortlist of projects that I am proud
@@ -322,39 +327,50 @@ to have started or been involved with:
 \begin{itemize}
 \tightlist
 \item
+  \href{http://wikistream.wmflabs.org}{wikistream}
   \href{http://wikistream.wmflabs.org}{wikistream}: visualize realtime
   edits to all major language Wikipedias
 \item
+  \href{http://github.com/edsu/anon}{anon}
   \href{http://github.com/edsu/anon}{anon}: post anonymous Wikipedia
   edits from particular IP ranges to Twitter e.g.
   \href{http://twitter.com/congressedits}{congress-edits}
+  \href{http://twitter.com/congressedits}{congress-edits}
 \item
+  \href{http://github.com/edsu/pymarc}{pymarc}
   \href{http://github.com/edsu/pymarc}{pymarc}: a python library for
   liberating library data locked up in the MARC format
 \item
+  \href{http://github.com/code4lib/shortimer}{shortimer}
   \href{http://github.com/code4lib/shortimer}{shortimer}: a jobs board
   that uses Google Freebase
 \item
+  \href{http://github.com/edsu/linkypedia}{linkypedia}
   \href{http://github.com/edsu/linkypedia}{linkypedia}: view how
   websites are used on Wikipedia
 \item
+  \href{http://github.com/fondz}{fondz}
   \href{http://github.com/fondz}{fondz}: generate an archival
   description for describing born digital content
 \item
-  \href{http://github.com/ici}{ici}: view Wikipedia articles for your
-  current location on a map
+  \href{http://github.com/ici}{ici} \href{http://github.com/ici}{ici}:
+  view Wikipedia articles for your current location on a map
 \item
+  \href{https://github.com/edsu/microdata}{microdata}
   \href{https://github.com/edsu/microdata}{microdata}: a python library
   for parsing HTML 5 microdata
 \item
+  \href{https://github.com/edsu/twarc}{twarc}
   \href{https://github.com/edsu/twarc}{twarc}: a command line utility
   for archiving Twitter
 \item
+  \href{https://github.com/RDFLib}{rdflib}
   \href{https://github.com/RDFLib}{rdflib}: a Python library for
   processing RDF
 \end{itemize}
 
-\subsection{Selected Publications}\label{selected-publications}
+\hypertarget{selected-publications}{%
+\subsection{Selected Publications}\label{selected-publications}}
 
 \begin{itemize}
 \tightlist
@@ -372,35 +388,40 @@ to have started or been involved with:
   Archives as Infrastructure}. Proceedings of the 2017 ACM Conference on
   Computer Supported Cooperative Work and Social Computing, CSCW 17.
 \item
-  \href{https://source.opennews.org/en-US/learning/automating-transparency/}{Automating
-  Transparency}. The Source. April, 2015.
+  {[}Automating Transparency{]}
+  \href{https://source.opennews.org/en-US/learning/automating-transparency/}{automating}.
+  The Source. April, 2015.
 \item
-  \href{http://arxiv.org/abs/1303.4702}{MJ no more: Using Concurrent
-  Wikipedia Edit Spikes with Social Network Plausibility Checks for
-  Breaking News Detection}. 2013.
+  {[}MJ no more: Using Concurrent Wikipedia Edit Spikes with Social
+  Network Plausibility Checks for Breaking News Detection{]}
+  \href{http://arxiv.org/abs/1303.4702}{mj}. 2013.
 \item
-  \href{http://arxiv.org/abs/1302.4591}{Linking Things on the Web: A
-  Pragmatic Examination of Linked Data}, 2013.
+  {[}Linking Things on the Web: A Pragmatic Examination of Linked
+  Data{]} \href{http://arxiv.org/abs/1302.4591}{linking-things}, 2013.
 \item
-  \href{http://arxiv.org/abs/1302.1224}{Key Choices in the Design of
-  Simple Knowledge Organization System (SKOS)}, 2013.
+  {[}Key Choices in the Design of Simple Knowledge Organization System
+  (SKOS){]} \href{http://arxiv.org/abs/1302.1224}{key-choices}, 2013.
 \item
-  \href{http://www.w3.org/2005/Incubator/lld/XGR-lld-20111025/}{Library
-  Linked Data Final Report}, W3C Incubator Group Report, October 2011.
+  {[}Library Linked Data Final Report{]}
+  \href{http://www.w3.org/2005/Incubator/lld/XGR-lld-20111025/}{lld},
+  W3C Incubator Group Report, October 2011.
 \item
-  \href{http://www.w3.org/TR/skos-primer}{SKOS Simple Knowledge
-  Organization System Primer}, W3C Working Group Note, August 18th,
-  2008. http://www.w3.org/TR/skos-primer/
+  {[}SKOS Simple Knowledge Organization System Primer{]}
+  \href{http://www.w3.org/TR/skos-primer}{skos}, W3C Working Group Note,
+  August 18th, 2008. http://www.w3.org/TR/skos-primer/
 \item
-  \href{http://dcpapers.dublincore.org/pubs/article/view/916}{LCSH, SKOS
-  and Linked Data}, Proceedings of the International Conference on
-  DublinCore and Metadata Applications, 2008.
+  {[}LCSH, SKOS and Linked Data{]}
+  \href{http://dcpapers.dublincore.org/pubs/article/view/916}{lcsh-skos-ld},
+  Proceedings of the International Conference on DublinCore and Metadata
+  Applications, 2008.
 \item
-  \href{http://inkdroid.org/journal/2008/01/04/following-your-nose-to-the-web-of-data/}{Following
-  Your Nose to the Web of Data}, Information Standards Quarterly, 2008
+  {[}Following Your Nose to the Web of Data{]}
+  \href{http://inkdroid.org/journal/2008/01/04/following-your-nose-to-the-web-of-data/}{nose},
+  Information Standards Quarterly, 2008
 \item
-  \href{http://www.ariadne.ac.uk/issue38/summers}{Building OAI-PMH
-  Harvesters With Net::OAI::Harvester}, Ariadne, no. 38, Jan 2004.
+  {[}Building OAI-PMH Harvesters With Net::OAI::Harvester{]}
+  \href{http://www.ariadne.ac.uk/issue38/summers}{harvesters}, Ariadne,
+  no. 38, Jan 2004.
 \item
   Cyril: Expanding the Horizons of MARC21, Library Hi Tech, v. 22, no.
   1, 2004.
@@ -409,8 +430,9 @@ to have started or been involved with:
   The Virtual Library of Virginia Experience, Resource Sharing and
   Information Networks, v. 16, no. 1, 2003, p.~33-53.
 \item
-  \href{http://www.theperlreview.com/articles/php.html}{Paying Homage to
-  Perl (PHP)}, The Perl Review, January, 2003.
+  {[}Paying Homage to Perl (PHP){]}
+  \href{http://www.theperlreview.com/articles/php.html}{homage}, The
+  Perl Review, January, 2003.
 \item
   MARC it your way: MARC.pm, Information Technology and Libraries,
   March, 2002.
@@ -425,7 +447,8 @@ to have started or been involved with:
   1998, p.163-167.
 \end{itemize}
 
-\subsection{Education}\label{education}
+\hypertarget{education}{%
+\subsection{Education}\label{education}}
 
 \begin{itemize}
 \tightlist
@@ -436,7 +459,8 @@ to have started or been involved with:
   BA English and American Literature, Rutgers University, 1987-1991.
 \end{itemize}
 
-\subsection{Awards}\label{awards}
+\hypertarget{awards}{%
+\subsection{Awards}\label{awards}}
 
 \begin{itemize}
 \tightlist
