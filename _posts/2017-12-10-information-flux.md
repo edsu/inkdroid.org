@@ -24,7 +24,7 @@ various parties and giving the pattern a name.
 
 <figure>
   <img class="img-responsive" src="/images/flux2.png">
-  <figcaption><h3>Souveillance</h3></figcaption>
+  <figcaption><h3>Sousveillance</h3></figcaption>
 </figure>
 
 <br><br>
