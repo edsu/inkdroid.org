@@ -10,10 +10,13 @@ tags:
 @Bossewitch:2012 contains a useful description of *information flux* which is a
 conceptual framework for thinking about the flow of information between an
 individual and a network with respect to knowledge and power. The authors build
-on @Foucault:2012's analysis of the panopticon to provide other *blueprints* or
-strategies of information transfer. This makes it sound complicated but really
-it's just a method of diagramming how information moves in a system between
-various parties and giving the pattern a name. 
+on well known analyses of surveillance and the  panopticon [@Foucault:2012] to
+provide additional *blueprints* or strategies of information transfer, and a
+method for means for generating them.
+
+This makes it sound complicated but really it's just a method of diagramming how
+information moves in a system between various parties and giving the pattern a
+name. 
 
 <figure>
   <img class="img-responsive" src="/images/flux1.png">
