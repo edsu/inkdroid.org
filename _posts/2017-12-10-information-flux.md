@@ -72,9 +72,34 @@ Now that I think about it the paper reminds me quite a bit of a [talk] [Hillel
 Arnold] gave at SAA back in 2014 during a panel [A Trickle Becomes a Flood:
 Agency, Ethics and Information] that I participated in.
 
+Here are some references mentioned in the article that I flagged to follow up on
+:
+
+Gandy Jr, O. (2006). *The new politics of surveillance and visibility*, chapter
+Data Mining, Surveillance, and Discrimination in the Post-9/11 Environment,
+pages 363–384. University of Toronto Press. (On the ways in which electronic
+information resists deletion in its very nature).
+
+Nippert-Eng, C. E. (2010). *[Islands of privacy]*. University of Chicago Press.
+(An ethnography of secret sharing -- sounds like a really tough thing to do an
+ethnography on, so I'm super interested to read it.)
+
+Lethem, J. (2000). *[The Vintage Book of Amnesia: An Anthology of Writing on the
+Subject of Memory Loss]*. Vintage. (This one seems like a good book for
+inspiration on the topic of memory. As my studies go on the more I've become
+interested in memory studies -- so this might be a fun read.)
+
+Clarke, A. C. and Baxter S. (2000). *[The Light of Other Days].*  Tor. (A sci-fi
+novel about how a technology that allows people to spy on each other via light
+sent through wormholes. The story explores the effects this technology has upon
+society.)
+
 ### References
 
 [Documenting the Now]: http://www.docnow.io
 [talk]: http://files.archivists.org/conference/dc2014/materials/201-arnoldB.pdf
 [Hillel Arnold]: https://twitter.com/helrond
 [A Trickle Becomes a Flood: Agency, Ethics and Information]: https://archives2014.sched.com/event/57ce8b8ded5c6f74d721b5902f259d14#.U-ShqoBdXfs
+[Islands of Privacy]: http://www.press.uchicago.edu/ucp/books/book/chicago/I/bo8854921.html
+[The Vintage Book of Amnesia: An Anthology of Writing on the Subject of Memory Loss]: https://www.goodreads.com/book/show/146858.The_Vintage_Book_of_Amnesia
+[The Light of Other Days]: https://en.wikipedia.org/wiki/The_Light_of_Other_Days#cite_note-Profiles-1
