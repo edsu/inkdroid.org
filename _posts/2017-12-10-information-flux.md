@@ -102,4 +102,4 @@ society.)
 [A Trickle Becomes a Flood: Agency, Ethics and Information]: https://archives2014.sched.com/event/57ce8b8ded5c6f74d721b5902f259d14#.U-ShqoBdXfs
 [Islands of Privacy]: http://www.press.uchicago.edu/ucp/books/book/chicago/I/bo8854921.html
 [The Vintage Book of Amnesia: An Anthology of Writing on the Subject of Memory Loss]: https://www.goodreads.com/book/show/146858.The_Vintage_Book_of_Amnesia
-[The Light of Other Days]: https://en.wikipedia.org/wiki/The_Light_of_Other_Days#cite_note-Profiles-1
+[The Light of Other Days]: https://en.wikipedia.org/wiki/The_Light_of_Other_Days
