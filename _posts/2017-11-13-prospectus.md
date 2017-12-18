@@ -126,17 +126,9 @@ study that I plan on using in my research.
 
 ### Timeline
 
-2017-11-01 - Prospectus Draft
+February, 2018 - Committee Review
 
-2017-12-01 - Prospectus Final Draft
-
-2017-12-15 - Committee Review
-
-2018-01-15 - Committee Approval Meeting
-
-2018-09-01 - Proposal Final Draft
-
-2018-10-01 - Proposal Defense
+September, 2018 - Propectus Final Draft
 
 ### Reading
 
