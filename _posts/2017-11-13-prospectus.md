@@ -10,16 +10,15 @@ assumption being that anybody even finds it, and then finds the time to read the
 content.*
 
 *As with most PhD programs the work is leading up to the dissertation. I'm
-finishing my coursework this semester and so I have put together a prospectus
-for the research I'd like to do in my dissertation. I'm going to spend the next
-8 months or so doing a lot of background reading and writing about it, in order
-to set up this research. I imagine this prospectus will get revised some more
-before I share it with my committee, and the trajectory itself will surely
-change as I work through it. But I thought I'd share the prospectus in this
-preliminary state to see if anyone has suggestions for things to read or angles
-to take.*
+finishing my coursework this semester and so I have put together a preliminary
+prospectus for the research I'd like to do in my dissertation. I'm going to
+spend the next 8 months or so doing a lot of background reading and writing
+about it, in order to set up this research. This prospectus will get revised and
+added to over the coming months before I defend it in the fall.  But I thought
+I'd share the prospectus in this preliminary state to see if anyone has
+suggestions for things to read or angles to take.*
 
-*Many thanks to my advisor Ricky Punzalan for his help getting me this far.*
+*Many thanks to Ricky Punzalan for his help getting me this far.*
 
 ---
 
