@@ -69,3 +69,4 @@ one too, particularly because of the software studies angle [it seems] to take.
 [Umlaut]: https://en.wikipedia.org/wiki/Metal_umlaut
 [Jon Udell]: https://en.wikipedia.org/wiki/Jon_Udell
 [it seems]: https://mitpress.mit.edu/books/programmed-visions
+[Heavy Metal Umlaut]: https://en.wikipedia.org/wiki/Metal_umlaut
