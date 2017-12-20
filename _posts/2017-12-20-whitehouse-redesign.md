@@ -48,20 +48,21 @@ src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Don't get me wrong: content migrations like this can be tricky. So I thought it
 would be interesting to see how many of the old URLs still resolve properly.
-This checking work can be difficult to get right, particularly because of the
-problem of false positives when the web server responds 200 OK for content that
-that is no longer available, or drastically changed. Nevertheless I took a quick
-look at the URLs that my diffengine instance has collected for the last year for
-www.whitehouse.gov. There are [315 of them] and can you believe that 47% of the
-URLs are currently 404 Not Found? For the grim details checkout this [CSV]. 
+This link checking work can be difficult to get right, particularly because of
+the problem of false positives when the web server responds 200 OK for content
+that that is no longer available, or drastically changed. Nevertheless I took a
+quick look at the URLs that my diffengine instance has collected for the last
+year for www.whitehouse.gov. There are [315 of them] and can you believe that
+47% of the URLs are currently 404 Not Found? For the grim details check out this
+[CSV]. 
 
-Unfortunately this little sampling from this year does not bode well for the
-entirety of the URLs for the White House website. Presumably (hopefully?) the
-content is still living at a new location. But not maintaining these links, or
-at least redirecting them, means that the many, many links from the larger web
-to the whitehouse.gov website are now broken. This will most likely effect how
-White House web pages are represented in Google as well, since Google will treat
-these pages as effectively gone, and (if it were any other website)
+Unfortunately this little sampling from 2017 does not bode well for the entirety
+of the URLs for the White House website. Presumably (hopefully?) the content is
+still living at a new location. But not maintaining these links, or at least
+redirecting them, means that the many, many links from the larger web to the
+whitehouse.gov website are now broken. This will most likely effect how White
+House web pages are represented in Google's search index as well, since Google
+will treat these pages as effectively gone, and (if it were any other website)
 significantly dinging their [Google Juice].  But I imagine the current
 administration isn't too worried about that as they focus their attention on
 trashing our economy and the environment while sending us teetering on the brink
