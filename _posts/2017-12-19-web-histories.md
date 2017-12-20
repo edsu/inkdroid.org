@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Web Histories 
+tags: 
+- web archives
 ---
 
 @Rogers:2017 provides a useful introduction of how to use screencasts of
@@ -8,7 +10,7 @@ archived web content as a method when doing web history. He credits [Jon Udell]
 for coming up with the *software as movie* technique in his [screencast] of the
 editing history of the Wikipedia article [Heavy Metal Umlaut]. The contribution
 Rogers makes is applying this method to historical work with web archives, which
-he does in the [Google and the politics of tabs] screencast.
+he provides an example of in his [Google and the politics of tabs] screencast.
 
 The article contains a description of the method itself, which is to use the
 [Wayback Machine] as a data source, [Grab Them All] for collecting screenshots,
