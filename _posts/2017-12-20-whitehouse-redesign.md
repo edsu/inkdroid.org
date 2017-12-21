@@ -81,7 +81,7 @@ environment while sending us teetering on the brink of nuclear war.
 
 ---
 
-For more about the redesign story see this [Mashable](http://mashable.com/2017/12/08/cleep-kickstarter-wearable-camera/#uXj7qXmVKPqE) article. Thanks to [Derek Willis](https://twitter.com/derekwillis) for pointers and taking a look at this as it was being written.
+For more about the redesign story see this [Mashable](http://mashable.com/2017/12/15/white-house-website-redesign/#0HHWFqqyeOqB) article.  Thanks to [Derek Willis](https://twitter.com/derekwillis) for pointers and taking a look at this as it was being written.
 
 
 [a bot]: https://github.com/edsu/whrss
