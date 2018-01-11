@@ -138,7 +138,8 @@ At any rate it seemed like a worthwhile experiment. So here are a few tidbits I 
 The first is to build a static representation of your data. Many React
 applications rely on an external REST API being available. This type of
 dependency is an obvious no-no for minimal computing applications, because an
-Internet connection is needed, and someone needs to keep the REST API service up and running constantly, which is infrastructure and costs money.
+Internet connection is needed, and someone needs to keep the REST API service up
+and running constantly, which is infrastructure and costs money.
 
 One way of getting around this is to take all the structured data your
 application needs and bundle it up as a single file. You can see the one I
@@ -168,6 +169,11 @@ HTML will look as simple as something like this:
 </html>
 ```
 
+*Update: Another more scalable approach to this suggested by Alex Gil after this
+post went live, is to try using an in browser database like [PouchDB].  When
+combined with [Lunr] for search this could make for quite a rich and extensible
+data layer for minimal computing browser apps.*
+
 ### Static Images
 
 Similarly, the image files need to be available locally. I took all the images
@@ -180,7 +186,8 @@ lakeland-images/static/{omeka-id}/fullsize.jpg
 ```
 
 My React application has an `Image` component that simply renders the image
-along with a caption using the &gt;figure&lt;, &lt;img&gt; &lt;figcaption&gt; elements.  
+along with a caption using the &lt;figure&gt;, &lt;img&gt; &lt;figcaption&gt;
+elements.  
 
 - image
 ```es6
@@ -261,6 +268,11 @@ probably rely on some form of browser continuing to exist as functioning
 software, either natively, or in some sort of emulator, for a good time to
 come...or at least longer than the typical website is kept online.
 
+---
+
+*Many thanks to [Raff Viglianti], [Trevor Muñoz] and [Stephanie Sapienza] who
+helped frame and explore many of the ideas expressed in this post.*
+
 [Omeka]: http://www.omeka.net
 [minimal computing]: https://go-dh.github.io/mincomp/
 [Lakeland Community Heritage Project]: https://lakelandchp.com/
@@ -294,3 +306,10 @@ come...or at least longer than the typical website is kept online.
 [create-react-app]: https://github.com/facebookincubator/create-react-app
 [Sneakernet]: https://en.wikipedia.org/wiki/Sneakernet
 [says]: https://go-dh.github.io/mincomp/thoughts/2015/05/21/user-vs-learner/
+[Lunr]: https://lunrjs.com/
+[PouchDB]: https://pouchdb.com/
+[copy-webpack-plugin]: https://www.npmjs.com/package/copy-webpack-plugin
+[Alex Gil]: https://twitter.com/elotroalex
+[Raff Viglianti]: https://twitter.com/raffazizzi
+[Trevor Muñoz]: https://twitter.com/trevormunoz
+[Stephanie Sapienza]: https://twitter.com/sapienza77
