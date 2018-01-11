@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Static React
+title: Offline Sites with React
 tags:
 - mincomp
 - react
@@ -12,41 +12,47 @@ tags:
 This post contains some brief notes about building offline, static web sites using [React], in order to further the objectives of [minimal computing]. But before I go there, first let me give you a little background...
 
 The [Lakeland Community Heritage Project] is an effort to collect, preserve, and
-interpret the heritage and history of those African Americans who have lived in
-the Lakeland community of [Prince George's County], Maryland from the late 19th
-century to the present. This effort has been led by members of the Lakeland
-community, with help from students from University of Maryland working   with
-Professor [Mary Sies] to collect photographs, maps, deeds, and oral histories
-and published them in an [Omeka] instance at [lakeland.umd.edu]. As Mary nears
-retirement she has become increasingly interested in making these resources
-available and useful to the community of Lakeland, rather than embedded in a
-software application that is running on servers owned by UMD.
+interpret the heritage and history of African Americans who have lived in the
+Lakeland community of [Prince George's County], Maryland since the late 19th
+century. This effort has been led by members of the Lakeland community, with
+help from students from the University of Maryland working with Professor [Mary
+Sies]. As part of the work they've collected photographs, maps, deeds, and oral
+histories and published them in an [Omeka] instance at [lakeland.umd.edu]. As
+Mary is wrapping up the UMD side of the project she has become increasingly
+interested in making these resources available and useful to the community of
+Lakeland, rather than leaving them embedded in a software application that is
+running on servers owned by UMD.
 
 Recently [MITH] has been in conversation with LCHP to help explore ways that
 this data stored in Omeka could be meaningfully transferred to the Lakeland
 community. This has involved first getting the Omeka site back online, since it
 partially fell offline as the result of some infrastructure migrations at UMD.
 We also have been collecting and inventorying disk drives of content used by the
-students as they have collected and transfer devices over the years.   
+students as they have collected and transfer devices over the years.
+
+<img style="width: 200px; margin-left: 10px; float: right;" src="/images/sneakers.jpg">
 
 One relatively small experiment I tried recently was to extract all the images
 and their metadata from Omeka to create a very simple visual display of the
 images that could run in a browser without an Internet connection. The point was
 to provide a [generous interface] from which community members attending a
 meeting could browse content quickly and potentially take it away with them.
-Since we were going to be doing this in a environment where there wasn't stable
-network access it was important that for the content to be
-browsed without an Internet connection. We wanted to be able to put the
-application on a thumb drive, and move it around as a zip file, which could also
-ultimately allow us to make it available to community members independent of the
-files needing to be kept online on the Internet.
+Since this meeting was in a environment where there wasn't stable network access
+it was important that for the content to be browsed without an Internet
+connection. We also wanted to be able to put the application on a thumb drive,
+and move it around as a zip file, which could also ultimately allow us to make
+it available to community members independent of the files needing to be kept
+online on the Internet at a particular location. Basically we wanted the site to
+be on the [Sneakernet] instead of the Internet.
+
+### Static Data
 
 The first step was getting all the data out of Omeka. This was a simple matter with Omeka's very clean, straightforward and well documented [REST API].
 Unfortunately, LCHP was running an older version of Omeka (v1.3.1) that needed
 to be upgraded to 2.x before the API was available. The upgrade process itself
 leapfrogged a bunch of versions so I wasn't surprised to run into a [small snag], which I was fortunately able to fix myself (go team open source).  
 
-I wrote a small utility named [nyakara] that talks to Omeka and downloads all
+I wrote a small utility named [nyaraka] that talks to Omeka and downloads all
 the items (metadata and files) as well as the collections they are a part of,
 and places them on the filesystem. This was a fairly straightforward process
 because Omeka's database ensures the one-to-many-relationships between a site
@@ -73,11 +79,13 @@ omeka.example.org/collections/1/items/1/files/1/square_thumbnail.jpg
 
 This post was really meant to be about building a static site with React, and
 not about extracting data from Omeka. But this filesystem data is *kinda* like a
-static site, right? It was really just building the foundation for the next step
+static site, right? It was really just laying the foundation for the next step
 of building the static site application, since I didn't really want to keep
-downloading content from the API as I was developing my application. Having all
+downloading content from the API as I was developing the application. Having all
 the content local made it easier to introspect with command line tools like
 [grep], [find] and [jq] as I was building the static site.
+
+### React
 
 Before I get into a few of the details here's a short video that shows what the
 finished static site looked like:   
@@ -121,6 +129,8 @@ really matter so much?
 
 At any rate it seemed like a worthwhile experiment. So here are a few tidbits I learned when bending React to the purposes of minimal computing:
 
+### Static Database
+
 The first is to build a static representation of your data. Many React
 applications rely on an external REST API being available. This type of
 dependency is an obvious no-no for minimal computing applications, because an
@@ -153,6 +163,8 @@ HTML will look as simple as something like this:
   </body>
 </html>
 ```
+
+### Static Images
 
 Similarly, the image files need to be available locally. I took all the images
 and saved them into a directory I named `static`, and named the file using a
@@ -188,6 +200,8 @@ It's pretty common to use [webpack] to build React applications, and the
 [copy-webpack-plugin] will [handle copying] the files from the static
 directory into the distribution directory during the build.
 
+### URLs
+
 You may have noticed that in both cases the `data.js` and images are being loaded using a relative URL (without a leading slash, or a protocol/hostname). This is a small but important detail that allows the application to be moved around from zip file, to thumb drive to disk drive, without needing paths to be rewritten. The images and data are loaded relative to where the index.html was  initially loaded from.
 
 In addition many React applications these days use the new [History API] in modern browsers. This lets your application have what appear to be normal URLs structured with slashes which you can manage with [react-router]. However slash URLs are problematic in a offline static site for a couple reasons. The first is that there is no server so you can't tweak it to respond to any request with the HTML file I included above that will bootstrap your application. This means that if you reload a page you will get a 404 not found.
@@ -211,13 +225,31 @@ This way the browser will look to load `static/data.js` from
 `file://lakeland-images/index.html/items/`. Luckily react-router lets you simply
 import and use [createHashHistory] in your application initialization and it will write these URLs for you.
 
-It's important to reiterate that this was an experiment. We don't know if the LCHP is interested in us developing this approach further. But regardless I thought it was worth just jotting down these notes for others considering similar approaches with React and minimal computing applications.
+### Minimal?
+
+It's important to reiterate that this was an experiment. We don't know if the
+LCHP is interested in us developing this approach further. But regardless I
+thought it was worth just jotting down these notes for others considering
+similar approaches with React and minimal computing applications.
 
 I'll just close by saying in some ways it seems counter-intuitive to refer to a
 React application as an example of *minimal computing*. After working with React
-off and on for a couple years it still seems quite complicated when you throw [Redux] into the mix. Assembling the boilerplate needed to get started is still tedious, unless you use [create-react-app] which is a smart way to start. It's much easier to get Jekyll out of the box and start using it.
+off and on for a couple years it still seems quite complicated--especially when
+you throw [Redux] into the mix. Assembling the boilerplate needed to get started
+is still tedious, unless you use [create-react-app] which is a smart way to
+start. By comparison it's much easier to get Jekyll out of the box and start
+using it. If the goal is truly to deliver something static and unchanging, then
+this up front investment in time is not so significant.
 
-But static sites ultimately rely on a web browser, which is an insanely complicated piece of code. With a few exceptions (e.g. Flash) browsers have been pretty good at maintaining backwards compatibility as they've evolved along with the web. JavaScript is so central to a functioning web it's difficult to imagine it going away. So really this approach is a bet on the browser and the web remaining viable. Whatever happens to the web and the Internet we can probably rely on some form of browser continuing to exist as functioning software, either natively, or in some sort of emulator, for a good time to come...or at least longer than the typical website will be kept online.
+But static sites ultimately rely on a web browser, which are insanely
+complicated pieces of code. With a few exceptions (e.g. Flash) browsers have
+been pretty good at maintaining backwards compatibility as they've evolved along
+with the web. JavaScript is so central to a functioning web it's difficult to
+imagine it going away. So really this approach is a bet on the browser and the
+web remaining viable. Whatever happens to the web and the Internet we can
+probably rely on some form of browser continuing to exist as functioning
+software, either natively, or in some sort of emulator, for a good time to
+come...or at least longer than the typical website is kept online.
 
 [Omeka]: http://www.omeka.net
 [minimal computing]: https://go-dh.github.io/mincomp/
@@ -228,7 +260,7 @@ But static sites ultimately rely on a web browser, which is an insanely complica
 [MITH]: http://mith.umd.edu
 [REST API]: https://omeka.readthedocs.io/en/latest/Reference/api/
 [small snag]: https://github.com/omeka/Omeka/issues/831
-[nyakara]: https://github.com/edsu/nyaraka
+[nyaraka]: https://github.com/edsu/nyaraka
 [Jekyll]: https://jekyllrb.com/
 [this zip file]: https://github.com/edsu/lakeland-images/archive/v0.0.1.zip
 [here]: https://github.com/edsu/lakeland-images/blob/master/static/data.js
@@ -250,3 +282,4 @@ But static sites ultimately rely on a web browser, which is an insanely complica
 [History API]: https://developer.mozilla.org/en-US/docs/Web/API/History
 [react-router]: https://reacttraining.com/react-router/
 [create-react-app]: https://github.com/facebookincubator/create-react-app
+[Sneakernet]: https://en.wikipedia.org/wiki/Sneakernet
