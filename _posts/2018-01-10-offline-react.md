@@ -23,6 +23,8 @@ interested in making these resources available and useful to the community of
 Lakeland, rather than leaving them embedded in a software application that is
 running on servers owned by UMD.
 
+### Sneakernet
+
 Recently [MITH] has been in conversation with LCHP to help explore ways that
 this data stored in Omeka could be meaningfully transferred to the Lakeland
 community. This has involved first getting the Omeka site back online, since it
@@ -30,7 +32,7 @@ partially fell offline as the result of some infrastructure migrations at UMD.
 We also have been collecting and inventorying disk drives of content used by the
 students as they have collected and transfer devices over the years.
 
-<img style="width: 200px; margin-left: 10px; float: right;" src="/images/sneakers.jpg">
+<a href="https://commons.wikimedia.org/wiki/File:Converse_red.JPG"><img style="width: 200px; margin-left: 10px; float: right;" src="/images/sneakers.jpg"></a>
 
 One relatively small experiment I tried recently was to extract all the images
 and their metadata from Omeka to create a very simple visual display of the
@@ -60,21 +62,21 @@ and its collections, items, and files which means they can be written to the
 filesystem in a structured way:
 
 ```
-omeka.example.org
-omeka.example.org/site.json
-omeka.example.org/collections
-omeka.example.org/collections/1
-omeka.example.org/collections/1/collection.json
-omeka.example.org/collections/1/items
-omeka.example.org/collections/1/items/1
-omeka.example.org/collections/1/items/1/item.json
-omeka.example.org/collections/1/items/1/files
-omeka.example.org/collections/1/items/1/files/1
-omeka.example.org/collections/1/items/1/files/1/fullsize.jpg
-omeka.example.org/collections/1/items/1/files/1/original.jpg
-omeka.example.org/collections/1/items/1/files/1/file.json
-omeka.example.org/collections/1/items/1/files/1/thumbnail.jpg
-omeka.example.org/collections/1/items/1/files/1/square_thumbnail.jpg
+lakeland.umd.edu
+lakeland.umd.edu/site.json
+lakeland.umd.edu/collections
+lakeland.umd.edu/collections/1
+lakeland.umd.edu/collections/1/collection.json
+lakeland.umd.edu/collections/1/items
+lakeland.umd.edu/collections/1/items/1
+lakeland.umd.edu/collections/1/items/1/item.json
+lakeland.umd.edu/collections/1/items/1/files
+lakeland.umd.edu/collections/1/items/1/files/1
+lakeland.umd.edu/collections/1/items/1/files/1/fullsize.jpg
+lakeland.umd.edu/collections/1/items/1/files/1/original.jpg
+lakeland.umd.edu/collections/1/items/1/files/1/file.json
+lakeland.umd.edu/collections/1/items/1/files/1/thumbnail.jpg
+lakeland.umd.edu/collections/1/items/1/files/1/square_thumbnail.jpg
 ```
 
 This post was really meant to be about building a static site with React, and
@@ -98,8 +100,9 @@ You can see that content is loaded dynamically as the user scrolls down the
 page. Lots of content is presented at once in random orderings each time to
 encourage serendipitous connections between items. Items can also be filtered
 based on type (buildings, people and documents). If you want to check it out for
-yourself download [this zip file] and open up the index.html in the root of your
-home directory. Go ahead and turn off your wi-fi connection so you can see it working without an Internet connection.
+yourself download and unzip [this zip file] and open up the index.html in the
+directory that is created. Go ahead and turn off your wi-fi connection so you
+can see it working without an Internet connection.
 
 When building static sites in the past I've often reached for [Jekyll] but this
 time I was interested in putting together a small client side application that
@@ -113,9 +116,10 @@ I've been thinking about the potential of offline web applications to function
 as little [time capsules] for web content that can live independently of the
 Internet. Grailbird lets you view your Twitter content offline in a dynamic web
 application where you can view your tweets over time. Over the past few years
-the [minimal computing] has been gaining traction in the digital humanities
-community, as a way to ethically and sustainably deliver web content without
-necessarily needing to mentally make promises of keeping it online forever.
+the [minimal computing] movement has been gaining traction in the digital
+humanities community, as a way to ethically and sustainably deliver web content
+without needing to make promises about keeping it online forever, or 25 years
+(whichever comes first).
 
 [React] seemed like a natural fit because I've been using it for the past year
 on [another project]. React offers a rich ecosystem of tools, plugins and
@@ -123,9 +127,9 @@ libraries like [Redux] for building complex client side apps. The downside of
 using React is that it is not as easy for people to set up out of the box, or
 for changing over time if you you aren't an experienced software developer. With
 Jekyll it's not simple, but at least its relatively easy to dive in and edit
-HTML and CSS. But on the plus side for Reactf  you really want to deliver an
-unchanging finished thing (static) artifact, then maybe these things don't
-really matter so much?
+HTML and CSS. But on the plus side for React, if you really want to deliver an
+unchanging, finished (static) artifact, then maybe these things don't really
+matter so much?
 
 At any rate it seemed like a worthwhile experiment. So here are a few tidbits I learned when bending React to the purposes of minimal computing:
 
@@ -233,20 +237,26 @@ thought it was worth just jotting down these notes for others considering
 similar approaches with React and minimal computing applications.
 
 I'll just close by saying in some ways it seems counter-intuitive to refer to a
-React application as an example of *minimal computing*. After working with React
-off and on for a couple years it still seems quite complicated--especially when
-you throw [Redux] into the mix. Assembling the boilerplate needed to get started
-is still tedious, unless you use [create-react-app] which is a smart way to
-start. By comparison it's much easier to get Jekyll out of the box and start
-using it. If the goal is truly to deliver something static and unchanging, then
-this up front investment in time is not so significant.
+React application as an example of *minimal computing*. As Alex Gil [says]: 
 
-But static sites ultimately rely on a web browser, which are insanely
-complicated pieces of code. With a few exceptions (e.g. Flash) browsers have
-been pretty good at maintaining backwards compatibility as they've evolved along
-with the web. JavaScript is so central to a functioning web it's difficult to
-imagine it going away. So really this approach is a bet on the browser and the
-web remaining viable. Whatever happens to the web and the Internet we can
+> In general we can say that minimal computing is the application of 
+> minimalist principles to computing. In reality, though, minimal computing 
+> is in the eye of the beholder.
+
+After working with React off and on for a couple years it still seems quite
+complicated--especially when you throw [Redux] into the mix. Assembling the
+boilerplate needed to get started is still tedious, unless you use
+[create-react-app] which is a smart way to start. By comparison it's much easier
+to get Jekyll out of the box and start using it. But, if the goal is truly to
+deliver something static and unchanging, then perhaps this up front investment
+in time is not so significant.
+
+Static sites, thus conceived, ultimately rely on a web browser, which are
+insanely complicated pieces of code. With a few exceptions (e.g. Flash) browsers
+have been pretty good at maintaining backwards compatibility as they've evolved
+along with the web. JavaScript is so central to a functioning web it's difficult
+to imagine it going away. So really this approach is a bet on the browser and
+the web remaining viable. Whatever happens to the web and the Internet we can
 probably rely on some form of browser continuing to exist as functioning
 software, either natively, or in some sort of emulator, for a good time to
 come...or at least longer than the typical website is kept online.
@@ -283,3 +293,4 @@ come...or at least longer than the typical website is kept online.
 [react-router]: https://reacttraining.com/react-router/
 [create-react-app]: https://github.com/facebookincubator/create-react-app
 [Sneakernet]: https://en.wikipedia.org/wiki/Sneakernet
+[says]: https://go-dh.github.io/mincomp/thoughts/2015/05/21/user-vs-learner/
