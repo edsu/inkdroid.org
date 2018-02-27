@@ -122,13 +122,14 @@ Dunn reminded me of a significant (and useful) term from Scott, *oikodomi*:
 > physical environments. (p. 120)
 
 As I'm researching infrastructures of web archiving I expect that the case
-study, and documentary analysis will be extremely important methods for seeing
-where standards meet and merge with practice. Also, it will also be good to
-reacquaint myself with how Scott theorizes and mobilizes his idea of *oikodomi*.
-I don't usually think Scott is often thought of as an STS scholar, at least he's
-not in [this list]. Perhaps that's because of his interest in politics?  But I'd
-argue that he really does have a great deal to offer to the STS project,
-particularly because of interest in the goals and effects of *legibility*.
+study, [multi-sited ethnography] and documentary analysis will be extremely
+important methods for seeing where standards meet and merge with practice. Also,
+it will also be good to reacquaint myself with how Scott theorizes and mobilizes
+his idea of *oikodomi*.  I don't usually think Scott is often thought of as an
+STS scholar, at least he's not in [this list]. Perhaps that's because of his
+interest in politics?  But I'd argue that he really does have a great deal to
+offer to the STS project, particularly because of interest in the goals and
+effects of *legibility*.
 
 One chapter that stood out for me was Millerand and Bowker's *Metadata
 Standards*. Of course, Bowker was a frequent collaborator with Star -- and as
@@ -248,3 +249,5 @@ and super relevant for our work.
 [data science]: https://en.wikipedia.org/wiki/Data_science
 
 [Trace Ethnography]: http://ethnographymatters.net/blog/2016/03/23/trace-ethnography-a-retrospective/
+
+[multi-sited ethnography]: https://medanth.wikispaces.com/Multi-Sited+Ethnography
