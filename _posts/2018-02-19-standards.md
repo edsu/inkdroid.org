@@ -250,4 +250,4 @@ and super relevant for our work.
 
 [Trace Ethnography]: http://ethnographymatters.net/blog/2016/03/23/trace-ethnography-a-retrospective/
 
-[multi-sited ethnography]: https://medanth.wikispaces.com/Multi-Sited+Ethnography
+[multi-sited ethnography]: https://en.wikipedia.org/wiki/Cultural_anthropology#Multi-sited_ethnography
