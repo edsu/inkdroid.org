@@ -9,9 +9,9 @@ I wish I had a dime for every time I've been told the web wasn't an archive. I
 wouldn't be rich, but I could buy us a couple slices of pizza.
 
 I know these people mean well. They are trying to say that an archive is
-something *more* than a mere collection of computer files on a computer plugged
-into the Internet, with some software running on it. An archive is made of
-records, and [recordkeeping] is the
+something *more* than a mere collection of files on a computer plugged into the
+Internet, with some software running on it. An archive is made of records, and
+[recordkeeping] is the
 
 > systematic creation, use, maintenance, and disposition of records to 
 > meet administrative, programmatic, legal, and financial needs and 
@@ -20,10 +20,10 @@ records, and [recordkeeping] is the
 > @Pearce:2005a
 
 But this somewhat orthodox position misses the point that a website can often be
-a highly significant collection of records, that are used by individuals, an
-organization, or even specific communities. There are recordkeeping processes
-and practices that feed into and out-of the website, which need the attention of
-people who are trained to be able to see these movements records, and think
+a highly significant collection of records, that are used by individuals,
+organizations, or even specific communities. There are recordkeeping processes
+and practices that feed into and out-of websites, which need the attention of
+people who are trained to be able to see these movements of records, and think
 about them as archives.
 
 At any rate, if you ever find yourself in this defensive position as a student
