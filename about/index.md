@@ -17,7 +17,7 @@ date: '2008-07-28 06:54:42 +0000'
 date_gmt: '2008-07-28 13:54:42 +0000'
 ---
 
-<img style="float: left; width: 35%; margin-right: 20px;" src="/images/ehs-kesa.jpg">
+<img style="float: left; width: 40%; margin-right: 20px;" src="/images/ehs-kesa.jpg">
 
 Hi, my name is Ed Summers (on the right). I am a [recovering] software
 developer with two decades of [experience] working at the intersection of
@@ -29,11 +29,11 @@ keep the lights on at the [Maryland Institute for Technology in the Humanities].
 
 If you want to get in touch please email me at [ehs@pobox.com]. You can also
 find me on Twitter as [\@edsu] or (increasingly) on Mastodon as
-[\@edsu@digipres.club].
+[\@edsu@social.coop].
 
 [recovering]: https://github.com/edsu
 [Maryland Institute for Technology in the Humanities]: http://mith.umd.edu
 [experience]: http://inkdroid.org/ehs/
 [ehs@pobox.com]: mailto:ehs@pobox.com
 [\@edsu]: https://twitter.com/edsu
-[\@edsu@digipres.club]: https://digipres.club/@edsu
+[\@edsu@social.coop]: https://social.coop/@edsu
