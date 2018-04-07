@@ -20,14 +20,36 @@ comments: []
 ---
 
 Occasionally I've given presentations about the application of information
-technology in libraries. A lot of this stuff looks kind of dated now, but I 
-guess it is descriptive of my particular career path.
+technology in libraries and archives. Some of this stuff looks kind of dated
+now, but I guess it illustrates my meandering career path. If you'd like me to
+visit please drop me an <a href="mailto:ehs@pobox.com">email</a>.
+
+<p class="story">
+<strong>Archives on the Web: The Curious Case of the Vine Archive</strong><br>
+<a href="https://www.lib.umd.edu/rc/big-data">Big Data Interdisciplinary Dialogue</a><br>
+College Park, Maryland (April 3, 2018)<br>
+[<a href="https://edsu.github.io/vine-tweets-slides/#/">slides</a>]
+</p>
+
+<p class="story">
+<strong>Appraisal Talk in Web Archives</strong><br>
+<a href="https://www.historyoftechnology.org/annual-meeting/2017-shot-annual-meeting-26-29-october-philadelphia/">Society for the History of Technology: SIGCIS</a><br>
+Philadelphia, Pennsylvania (October 29, 2017)<br>
+[<a href="https://edsu.github.io/appraisal-talk/#/">slides</a>]
+</p>
 
 <p class="story">
 <strong>Exploring Assemblages of Appraisal in Web Archives</strong><br>
 <a href="http://aeri2017.org/">Archival Education and Research Institute</a><br>
 Toronto, Canada (July 12, 2017)<br>
 [<a href="aeri2017.pdf">poster</a>]
+</p>
+
+<p class="story">
+<strong>Under Surveillance: Power &amp; Empowerment in the Social Media Archive</strong><br>
+<a href="https://rrchnm.org/">Roy Rosenzweig Center for History and New Media</a><br>
+Fairfax, Virginia (April 17, 2017)<br>
+[<a href="https://edsu.github.io/under-surveillance/#/">slides</a>]
 </p>
 
 <p class="story">
