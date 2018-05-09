@@ -4,11 +4,10 @@ ehs@pobox.com / @edsu / 240-478-7086\\
 304 Brewster Court, Silver Spring, MD 20901\\
 \end{center}
 
-I am a recovering software developer with two decades of experience working at
-the intersection of libraries, archives and the World Wide Web. I study and work
-with the Web as a sociotechnical system, with a particular eye to its evolving
-architecture and practices of curation and preservation. I also help to keep the
-lights on at the Maryland Institute for Technology in the Humanities.
+I am a software developer with two decades of experience working at the
+intersection of libraries, archives and the World Wide Web. I study and work
+with the web as a sociotechnical system, with a particular eye to its evolving
+architecture and practices of curation and preservation.
 
 ## Experience
 
