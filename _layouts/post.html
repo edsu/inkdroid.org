@@ -19,7 +19,6 @@ layout: default
     {{ content }}
   </article>
 
-  {% if jekyll.environment == "production" %}
   <hr>
   <h3>Comments</h3>
   <article id="disqus_thread"></article>
@@ -35,5 +34,4 @@ layout: default
       (d.head || d.body).appendChild(s);
     })();
   </script>
-  {% endif %}
 </div>
