@@ -11,10 +11,13 @@ layout: post
 I've been enjoying reading [J.R. Carpenter]'s [An Ocean of Static], which uses a
 particular syntax borrowed from the [list] notation found in popular programming
 languages, to provide inline, alternate readings to choose from. In some ways it
-recalls the [Choose Your Own Adventure] series, but in a way that is less action
-oriented, that operates at a more structural level. To give you a sense of how
-this works here is an excerpt from a longer [sample] that Carpenter has made
-available on [her website]:
+recalls the [Choose Your Own Adventure] series and the venerable hyperlink
+itself that allow multiple readings to emerge from a text. This is no accident
+since Carpenter is an accomplished hypermedia artist. But this list notation
+works a bit differently, in a way that is less action oriented, which operates
+at a more structural level. To give you a sense of how it looks here is an
+excerpt from a longer [sample] that Carpenter has made available on [her
+website]:
 
 <a href="http://luckysoap.com/owlandgirl/"><img style="border: thin solid #ccc"
 class="img-responsive" src="/images/ocean-of-static-page.png"></a>
@@ -27,11 +30,11 @@ possibilities exist in potential, at the same time. However, when reading aloud,
 as Carpenter does [here], you are compelled to choose for the narrative to flow.
 
 Computer programs can automatically unlock the various possibilities and
-dynamically collapse them into a choice as you load a webpage, like the text in
-this example on Carpenter's [website]. In many ways these poems are a metaphor
-for the architecture of the web, where web browsers receive representations of
-resources at a given period of time, not some fixed static thing, or as Fielding
-notes:
+dynamically collapse them into a choice as the page is assembled--like the text
+in [this example] found on Carpenter's website. In many ways these poems are a
+metaphor for the web itself, where web browsers receive representations of
+resources at a given period of time, not some fixed static thing, or as [Roy
+Fielding] notes in his dissertation about the architecture of the web:
 
 > ... a resource R is a temporally varying membership function MR(t), which 
 > for time t maps to a set of entities, or values, which are equivalent.
@@ -48,15 +51,15 @@ notes:
 >
 > @Fielding:2000, p. 88
 
-By viewing the source you can see how Carpenter's poem is composed using
-[JavaScript]. As a thought experiment I thought it could be interesting to
-consider how these types of generative texts could be written more
-[declaratively] in HTML. So instead of needing to drop down into procedural
-JavaScript when writing, the writer could compose a series of possible words as
-a simple unordered list &lt;ul&gt;. Then, on display, the page would collapse
-the various possibilities into a particular reading by some JavaScript that runs
-behind the scenes by simply including a &lt;script&gt; element in on your page.
-So something like this:
+By viewing [the source] for [Notes on the Voyage Of Owl and Girl] you can see
+how Carpenter's poem is composed using JavaScript. As a thought experiment I
+thought it could be interesting to consider how these types of generative texts
+could be written more [declaratively] in HTML. So instead of needing to drop
+down into procedural JavaScript when writing, the writer could compose a series
+of possible words as a simple unordered list &lt;ul&gt;. Then, on display, the
+page would collapse the various possibilities into a particular reading by some
+JavaScript that runs behind the scenes when it is loaded with a simpmle
+&lt;script&gt; element in your page. So something like this:
 
 <script src="https://edsu.github.io/multiverse/multiverse.js"></script>
 
@@ -91,8 +94,8 @@ in a
 
 &lt;script src="https://edsu.github.com/multiverse/multiverse.js"&gt;&lt;/script&gt;</code></pre>
 
-And so a weekend later the thought experiment took shape as [Multiverse.js], a
-JavaScript library which does just that. Multiverse.js is really just an
+And so a little bit later the thought experiment took shape as [Multiverse.js],
+a JavaScript library which does just that. Multiverse.js is really just an
 exercise in whimsy--I don't really expect it to take the hypertext writing web
 by storm. As Carpenter responded to me in a tweet:
 
@@ -107,9 +110,9 @@ It seems fitting that it should be so, right? One interesting thing about using
 HTML to declare the possibilities is that you can embed images or links, CSS
 styled text or audio/video in the list. The multiverse is multimedia.
 
-Multiverse.js was also an exercise in using [webpack] to build a standalone
-JavaScript library, written in modern JavaScript, instead of the situation I was
-more familiar with when building a specific web application. You can find
+Truth be told, Multiverse.js was really also an exercise in using [webpack] to
+build a standalone JavaScript library instead of the scenario I was more
+familiar with when building a specific web application with React. You can find
 Multiverse.js on [GitHub] if you are interested in seeing how it is put
 together.
 
@@ -132,11 +135,11 @@ for another day.
 
 [here]: https://www.youtube.com/watch?v=lhoDdhc2ei4
 
-[website]: https://t.co/iAFdYgWfZX
+[this example]: http://luckysoap.com/owlandgirl/
 
 [list]: https://en.wikipedia.org/wiki/List_(abstract_data_type)
 
-[JavaScript]: http://luckysoap.com/owlandgirl/owlandgirl.js?
+[the source]: http://luckysoap.com/owlandgirl/owlandgirl.js?
 
 [declaratively]: https://en.wikipedia.org/wiki/Declarative_programming
 
@@ -151,3 +154,7 @@ for another day.
 [block-level]: https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements
 
 [Choose Your Own Adventure]: https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure
+
+[Roy Fielding]: https://en.wikipedia.org/wiki/Roy_Fielding
+
+[Notes on the Voyage Of Owl and Girl]: http://luckysoap.com/owlandgirl/
