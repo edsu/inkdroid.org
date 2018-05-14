@@ -14,10 +14,9 @@ languages, to provide inline, alternate readings to choose from. In some ways it
 recalls the [Choose Your Own Adventure] series and the venerable hyperlink
 itself that allow multiple readings to emerge from a text. This is no accident
 since Carpenter is an accomplished hypermedia artist. But this list notation
-works a bit differently, in a way that is less action oriented, which operates
-at a more structural level. To give you a sense of how it looks here is an
-excerpt from a longer [sample] that Carpenter has made available on [her
-website]:
+works a bit differently, in a way that is less action oriented, and operates at
+a more structural level. To give you a sense of how it looks here is an excerpt
+from a longer [sample] that Carpenter has made available on [her website]:
 
 <a href="http://luckysoap.com/owlandgirl/"><img style="border: thin solid #ccc"
 class="img-responsive" src="/images/ocean-of-static-page.png"></a>
@@ -27,7 +26,7 @@ been made available, and are invited to choose one. As you choose you can't help
 but consider the contingencies that lead you to one word over the others. The
 set of choices also work to form a type of musical chord, where the multiple
 possibilities exist in potential, at the same time. However, when reading aloud,
-as Carpenter does [here], you are compelled to choose for the narrative to flow.
+as Carpenter does [here], you are compelled to choose for the words to flow.
 
 Computer programs can automatically unlock the various possibilities and
 dynamically collapse them into a choice as the page is assembled--like the text
@@ -58,8 +57,7 @@ could be written more [declaratively] in HTML. So instead of needing to drop
 down into procedural JavaScript when writing, the writer could compose a series
 of possible words as a simple unordered list &lt;ul&gt;. Then, on display, the
 page would collapse the various possibilities into a particular reading by some
-JavaScript that runs behind the scenes when it is loaded with a simpmle
-&lt;script&gt; element in your page. So something like this:
+JavaScript that runs behind the scenes. So something like this:
 
 <script src="https://edsu.github.io/multiverse/multiverse.js"></script>
 
