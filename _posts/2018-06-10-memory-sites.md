@@ -6,7 +6,11 @@ tags:
 - memory
 ---
 
-I recently got around to reading [Pierre Nora]'s classic paper about history and memory, which archivists like to cite because of his claim that *modern memory is archival*. The paper is actually an English translation from the introduction to his massive three volume work [Les Lieux de Mémoire]. I thought I'd include the full quote here to make a few comments:
+I recently got around to reading [Pierre Nora]'s classic paper about history and
+memory, which archivists like to cite because of his claim that *modern memory
+is archival* [@Nora:1989]. The paper is actually an English translation of the
+introduction to his massive three volume work [Les Lieux de Mémoire]. I thought
+I'd include the full quote here to make a few comments:
 
 > Modern memory is, above all, archival. It relies entirely on 
 > the materiality of the trace, the immediacy of the recording,
@@ -22,11 +26,42 @@ I recently got around to reading [Pierre Nora]'s classic paper about history and
 > testimony, the most modest vestige, the potential 
 > dignity of the memorable.
 
-It's an interesting idea because of the way it implicates technology (photography and sound recording) in our ideas about memory and the archive. Nora is writing in 1989, after almost 200 years of development in photography and recording technologies that led to television. In that same year Tim Berners-Lee is taking his first steps at creating the World Wide Web at CERN. Nora is interested in how technologies leave traces, which are records that we *feel* we must keep. At least this is the leap that he claims we make, from trace to record, which leads to an anxiety of the archive. I would argue that this anxiety about what is collected as records existed well before the advent of photography and sound recording. The technologies of text and print, which made the traces of speech recordable inevitably led us to worry about what documents need to be preserved...or to unquestioningly record the words of the powerful. This is appraisal.
+It's an interesting idea because of the way it implicates technology
+(photography and sound recording) in our ideas about memory and the archive.
+Nora is writing in 1989, after almost 200 years of development in photography
+and recording technologies that led to television. In that same year Tim
+Berners-Lee is taking his first steps at creating the World Wide Web at CERN.
+Nora is interested in how technologies leave traces, which are records that we
+*feel* we must keep. At least this is the leap that he claims we make, from
+trace to record, which leads to an anxiety of the archive. I would argue that
+this anxiety about collection existed well before the advent of photography and
+sound recording. The technologies of text and print, which made the traces of
+speech recordable inevitably led us to worry about what documents need to be
+preserved...or to unquestioningly record the words of the powerful.  One
+technique archivists have developed for easing this anxiety is through the
+practice of appraisal.
 
-It is in this way that the anxiety about record production masks an anxiety of a different sort, which Nora doesn't quite speak to  explicitly here. It is an anxiety about *who* records -- or *whose* traces are to be made archival. As the means of trace production have become widely available so has the number of people that are engaged in archival work. The camera enabled the generation of boxes of photographs, and albums, which really operate as miniature archives, and may find their way into larger ones. The [Records Continuum], and specifically post-custodial archival theory [@Upward:1997a ; @Upward:1997b], allow us to examine this production and movement of records in a way that generously enlarges, or even democratizes, the scope of archival work. This enlargement works to ameliorate the anxiety about the archive by allowing archival processes to extend out into the world.
+Anxiety about record production actually masks another kind of anxiety, which
+Nora doesn't quite speak to explicitly here. It is an anxiety about *who*
+records -- or *whose* traces are to be made archival. As the means of trace
+production have become widely available so has the number of people that are
+peripherally engaged in archival work. The camera enabled the generation of
+boxes of photographs, and albums, which are in effect miniature archives which
+may find their way into larger ones. The [Records Continuum], and specifically
+post-custodial archival theory [@Upward:1997a ; @Upward:1997b], allow us to
+examine this production and movement of records in a way that generously
+enlarges, or even democratizes, the scope of archival work. This enlargement
+works to ameliorate the anxiety about the archive by allowing archival processes
+to extend out into the world.
 
-But Nora isn't interested in the archive so much, but in the topic of *lieux de mémoire* or places of memory. As an example of a places of memory he looks at the [French Revolutionary Calendar], which was an attempt to remove royalist and religious influence in the calendar. Nora points out that the calendar itself was a failure, because France is still using the Gregorian calendar. But some events are remembered for their placement on the calendar ... and so the calendar becomes a place of memory.
+But Nora isn't interested in the archive here as much as he is in the topic of
+*lieux de mémoire* or places of memory. It's the subject of the three volumes he
+is introducing. As an example of a place of memory he examines the [French
+Revolutionary Calendar], which was an attempt to remove royalist and religious
+influence in the calendar.  Nora points out that the calendar itself was a
+failure, because France is still using the Gregorian years. But some events are
+remembered for their placement on the calendar ...  and so the calendar becomes
+a place of memory.
 
 But places of memory are not simply collections of traces or records that have survived over time--agency or the will to remember is what distinguishes simply a collection of traces, from a lieux du mémoire. 
 
