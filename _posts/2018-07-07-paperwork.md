@@ -41,13 +41,17 @@ desire, affect [@Cifor:2018 ; @Caswell:2016] and re-imagination
 Is it at all useful to consider how these re-conceptions of archival work map
 onto web infrastructures [@Srinivasan:2017]?  Does the web really offer us new
 modes for participation, or does the slippage in media forms provide the
-breathing room for us to question what an archive is, and who an archivist can
-be?  [@Huvila:2015]?
+breathing room necessary for us to really question what an archive is, and who
+an archivist can be?  [@Huvila:2015]?
 
-I think Scott also invites us to think about the new algorithmic audiences for
-legibility that the web and the digitalization of our records (aka Big Data)
-provide. The Empire Strikes Back against our attempts to transform archival
-work, and the standards and inner workings of web infrastructure may be
-knowingly or unknowingly complicit in this truly ancient project of legibility.
+Like much of Scott's other work I think Against the Grain implicitly invites us
+to think about the new algorithmic readers for our digitalized and networked
+records (aka Big Data). The Empire has always struck back against our attempts
+to transform archival work, and the standards and inner workings of web
+infrastructure are knowingly, or unknowingly, complicit in this truly ancient
+project of legibility. What modes of resistance and solidarity will help us
+cultivate new genres of archive that are needed for our survival?
 
-## References
+Lots of questions -- let me know your answers!
+
+### References
