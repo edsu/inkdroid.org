@@ -25,13 +25,14 @@ As you read the text to yourself silently you see the possibilities that have
 been made available, and are invited to choose one. As you choose you can't help
 but consider the contingencies that lead you to one word over the others. The
 set of choices also work to form a type of musical chord, where the multiple
-possibilities exist in potential, at the same time. However, when reading aloud,
-as Carpenter does [here], you are compelled to choose for the words to flow.
+possibilities exist in potential. However, when reading aloud, as Carpenter does
+[here], you are compelled to choose for the words to flow.
 
 Computer programs can automatically unlock the various possibilities and
 dynamically collapse them into a choice as the page is assembled--like the text
-in [this example] found on Carpenter's website. In many ways these poems are a
-metaphor for the web itself, where web browsers receive representations of
+in [this example] found on Carpenter's website. If you watch you'll see that the
+text changes over time and if you reload the page. In many ways these poems are
+a metaphor for the web itself, where web browsers receive representations of
 resources at a given period of time, not some fixed static thing, or as [Roy
 Fielding] notes in his dissertation about the architecture of the web:
 
@@ -56,8 +57,8 @@ thought it could be interesting to consider how these types of generative texts
 could be written more [declaratively] in HTML. So instead of needing to drop
 down into procedural JavaScript when writing, the writer could compose a series
 of possible words as a simple unordered list &lt;ul&gt;. Then, on display, the
-page would collapse the various possibilities into a particular reading by some
-JavaScript that runs behind the scenes. So something like this:
+page would collapse the various possibilities into a particular reading using
+some JavaScript that runs behind the scenes. So something like this:
 
 <script src="https://edsu.github.io/multiverse/multiverse.js"></script>
 
