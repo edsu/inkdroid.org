@@ -27,9 +27,9 @@ tags:
 It's hard to read Scott's description of govermentality and not think of the
 archive. The archive is often directly associated with state, corporate and
 institutional power [@Jimerson:2009], sometimes even going back millennia
-[@Derrida:1996]. The vast scope of effects of writing and record making/keeping
-is a major theme in this book, which at a surface level seems to be about
-archaeology and agriculture.
+[@Derrida:1996]. The vast scope of effects that writing and record
+making/keeping have brought about is a major theme in this book, which at a
+surface level seems to be about archaeology and agriculture.
 
 Hyperfocusing on the governmentality of archives and record keeping practices
 actually helps throw into relief aspects of the archive that decenter this
@@ -44,13 +44,14 @@ modes for participation, or does the slippage in media forms provide the
 breathing room necessary for us to really question what an archive is, and who
 an archivist can be?  [@Huvila:2015]?
 
-Like much of Scott's other work I think Against the Grain implicitly invites us
-to think about the new algorithmic readers for our digitalized and networked
-records (aka Big Data). The Empire has always struck back against our attempts
-to transform archival work, and the standards and inner workings of web
-infrastructure are knowingly, or unknowingly, complicit in this truly ancient
-project of legibility. What modes of resistance and solidarity will help us
-cultivate new genres of archive that are needed for our survival?
+Like much of Scott's other work I think *Against the Grain* implicitly invites
+us to think about the new algorithmic readers for our digitalized and networked
+records (aka Big Data). The Empire has always struck back against, or at least
+enveloped, our attempts to transform archival work. The standards and inner
+workings of web infrastructure are knowingly, or unknowingly, complicit in this
+truly ancient project of legibility. What modes of resistance and solidarity
+will help us cultivate new genres of archive that are needed for our survival as
+a species?
 
 Lots of questions -- let me know your answers!
 
