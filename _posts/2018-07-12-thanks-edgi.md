@@ -7,6 +7,12 @@ tags:
 - python
 ---
 
+*TLDR; I created a small command line utility [waybackprov] to help try to
+understand who is doing all the work of deciding what needs to get archived from
+the web ... like Pruitt's (now deleted) Twitter timeline.*
+
+---
+
 Last week, amidst at least 14 separate federal investigations by the Government
 Accountability Office, [Scott Pruitt] resigned from his post as the head of the
 Environmental Protection Agency. Soon afterwards he deleted the Twitter account
@@ -181,6 +187,105 @@ systems and workflows for selecting particular content, are directly selecting
 content yourself, or find yourself somewhere in between, your voice matters and
 agency matter...a lot.
 
+<div id="coda"></div>
+
+### Coda: Thank You Concerned Citizens
+
+After publishing this, [David Van Duzer] got in touch to show me how you can use
+the Wayback's [CDX API] to see how many of Pruitt's individual tweets were
+archived at the Internet Archive. He gave them to me as a list of 628 URLs which
+was startlingly close to the [631] that GWU collected.
+
+Here's a way of grabbing the URLs out of the CDX API, and consolidating them
+(a URL can be crawled more than once).
+
+```
+curl 'http://web.archive.org/cdx/search/cdx?url=twitter.com/EPAScottPruitt/status&matchType=prefix' \
+  | cut -f 3 -d ' ' \
+  | perl -ne '/(status\/\d+$)/; print "https://twitter.com/EPAScottPruitt/$1\n";' \
+  | sort \
+  | uniq;
+```
+
+The CDX API can return the same URL with HTTP and HTTPS protocols so I used a
+bit of Perl to account for that. If you know of a more elegant way to get this
+information please share it. You can find the resulting list of URLs [here].
+
+In addition to being a command line utility, you can also use [waybackprov] as a
+small library. I wrote a small program to read the tweet URLs from a file and
+then summarize the collections that were used to collect these individual
+tweets:
+
+<pre>
+<code lang="python">
+#!/usr/bin/env python3 
+
+import collections
+import waybackprov
+
+coll_count = collections.Counter()
+
+for line in open('pruitt_tweets.txt'):
+    url = line.strip()
+    for crawl in waybackprov.get_crawls(url, start_year=2017, end_year=2018, collapse=True):
+        coll_count.update(crawl['collections'])
+
+for coll_id, count in coll_count.most_common():
+    print("%5i %s" % (count, coll_id))
+</code>
+</pre>
+
+Here's what it found:
+
+```text
+ 1026 liveweb
+   38 ArchiveIt-Collection-5518
+   38 GovWebDataArchive
+   18 ArchiveIt-Collection-6793
+   15 archiveitpartners
+   15 warczone
+   12 ArchiveIt-Collection-1632
+   11 top_domains-07500
+   11 ArchiveIt-Collection-6829
+   10 ArchiveIt-Collection-5486
+    7 archivebot
+    7 ArchiveIt-Collection-9813
+    6 ArchiveIt-Collection-9742
+    4 ArchiveIt-Collection-6830
+    4 ArchiveIt-Collection-2082
+    4 twitterarchive
+    4 ArchiveIt-Collection-8119
+    3 ArchiveIt-Collection-9323
+    3 aol.com
+    3 nytimes.com
+    2 ArchiveIt-Partner-89
+    2 ArchiveIt-Collection-10270
+    1 ArchiveIt-Collection-1657
+    1 NO404-GDELT
+    1 ArchiveIt-Collection-8905
+    1 ArchiveIt-Collection-7319
+    1 ArchiveIt-Collection-7310
+    1 ArchiveIt-Collection-5456
+    1 ArchiveIt-Collection-10284
+    1 ArchiveIt-Collection-9430
+    1 ArchiveIt-Partner-480
+    1 ArchiveIt-Collection-2361
+    1 ArchiveIt-Collection-3241
+    1 ArchiveIt-Collection-2948
+    1 ArchiveIt-Collection-10368
+    1 ArchiveIt-Collection-10403
+    1 ximm-collections-news-crawls-v3
+```
+
+So overwhelmingly (81%) of these individual tweets are being archived into the
+[liveweb] collection, which is the collection that the Internet Archive's
+[SavePageNow] function feeds into. In other words, there are either people or
+bots that made sure that each of Scott Pruitt's tweets (all but 3?) were
+archived. But who these kinds souls are is a mystery.
+
+If you are interested I put the full JSON results of running [waybackprov] on
+the tweet URLs up as a [gist].
+
 ### References
 
 [Scott Pruitt]: https://en.wikipedia.org/wiki/Scott_Pruitt
@@ -197,6 +302,12 @@ agency matter...a lot.
 [Website Monitoring]: https://envirodatagov.org/website-monitoring/
 [Environmental and Data Governance Initiative]: https://envirodatagov.org/
 [don't appear]: https://projects.propublica.org/politwoops/user/EPAAWheeler
-[collecting tweets]: https://twitter.com/justin_littman/status/1016667098125348866
+[collecting]: https://twitter.com/justin_littman/status/1016667098125348866
 [Social Feed Manager]: https://gwu-libraries.github.io/sfm-ui/
 [Politwoops]: https://projects.propublica.org/politwoops/
+[David Van Duzer]: https://twitter.com/dvanduzer
+[here]: https://gist.github.com/edsu/4542240c527f3dc3c9537481fd0a6a5e
+[CDX API]: https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server
+[631]: https://twitter.com/justin_littman/status/1016667098125348866
+[gist]: https://gist.github.com/edsu/afae4681841abe37e39ab3e5c5fb887b
+[liveweb]: https://archive.org/details/liveweb
