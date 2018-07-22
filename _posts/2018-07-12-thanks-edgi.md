@@ -2,8 +2,7 @@
 layout: post
 title: Thanks EDGI!
 tags:
-- web
-- archive
+- web archives
 - python
 ---
 
