@@ -49,7 +49,7 @@ Library of Congress, Washington, DC
 
 Consultant  
 George Washington University, Washington, DC  
-10/2013 - present  
+10/2013 - 12/2014  
 
 * Django Web Development
 * Voyager ILS integration (Oracle)
@@ -58,7 +58,7 @@ George Washington University, Washington, DC
 Consultant  
 Nelson Institute for Environmental Studies  
 University of Wisconsin, Madison, WI  
-09/2013 - present
+09/2013 - 06/2014
 
 * web harvesting
 * data managment
