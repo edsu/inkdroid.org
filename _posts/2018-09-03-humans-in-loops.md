@@ -81,16 +81,17 @@ Considering the autonomy or *agentness* of algorithms is a question of relations
 where positionality matters. 
 
 In a way, I'm defending the validity of treating software as a fully fledged
-actor, not simply as a minion that does the bidding of human masters.  I'm
-thinking specifically of how a deeply anthropological approach like
-[Actor-Network-Theory] offers a way of exploring the dense set of relations
-between people and computer systems, where the automated systems have a social,
-historical and material dimension that is not simply reducible to the humans
-that have designed them for a given purpose [@Latour:2005]. Indeed our purposes
-and goals, the things that we design algorithms for, are conditioned and shaped
-by these non-human agents. Algorithms do not operate as agents independent of
-cultural worlds, but whether they have autonomy or not, they work on us as much
-as we work on them.
+actor, not simply as a minion that does the bidding of human masters who are in
+complete control. These algorithmic systems bite back, often in ways we don't
+expect or anticipate. I'm thinking specifically of how a deeply anthropological
+approach like [Actor-Network-Theory] offers a way of exploring the dense set of
+relations between people and computer systems, where the automated systems have
+a social, historical and material dimension that is not simply reducible to the
+humans that have designed them for a given purpose [@Latour:2005]. Indeed our
+purposes and goals, the things that we design algorithms for, are conditioned
+and shaped by these non-human agents. Algorithms do not operate as agents
+independent of cultural worlds, but whether they have autonomy or not, they work
+on us as much as we work on them.
 
 Seaver is asking us to tread carefully, and not to fall into the trap of overly 
 mythologizing algorithms, and in doing so forgetting that they are in fact
@@ -98,7 +99,7 @@ designed by us folk. Anthropology and ethnography provide a viable theory and
 methodology for developing an understanding of how algorithms are fashioned by a
 set of human practices. But it is important to remember who is doing the
 designing, who is doing the using, and who is being used. There are many types
-of humans that are in the loop.
+of humans in many types of loops.
 
 ### References
 
