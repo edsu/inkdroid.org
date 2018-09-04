@@ -87,7 +87,7 @@ thinking specifically of how a deeply anthropological approach like
 between people and computer systems, where the automated systems have a social,
 historical and material dimension that is not simply reducible to the humans
 that have designed them for a given purpose [@Latour:2005]. Indeed our purposes
-and goals, the things that we deign algorithms for, are conditioned and shaped
+and goals, the things that we design algorithms for, are conditioned and shaped
 by these non-human agents. Algorithms do not operate as agents independent of
 cultural worlds, but whether they have autonomy or not, they work on us as much
 as we work on them.
