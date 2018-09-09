@@ -10,12 +10,12 @@ table {
     @extend .table
 }
 
-.post-list {
-    list-style-type: none;
+.post-title a {
+    color: black;
 }
 
-.post-list li {
-    margin-bottom: 20px;
+.post-title a:hover {
+    color: black;
 }
 
 .post-meta {
@@ -23,8 +23,17 @@ table {
     color: #999;
 }
 
+.post-list hr {
+  border: 0;
+  height: 0px;
+  width: 400px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 .tag {
     font-size: 10pt;
+    color: #999;
 }
 
 .navbar {
@@ -77,7 +86,6 @@ figure {
 figcaption {
     text-align: center;
 }
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap";
