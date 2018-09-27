@@ -10,7 +10,7 @@ bib:
 serve: indexes bib
 	jekyll serve 
 
-quick: bib build sync
+quick: bib build rsync dat
 
 build_full: indexes
 	JEKYLL_ENV=production jekyll build
@@ -18,8 +18,11 @@ build_full: indexes
 build: indexes
 	JEKYLL_ENV=production jekyll build --incremental
 
-sync:
+rsync:
 	rsync -ar --rsh='ssh -p22334' _site/ ed@inkdroid.org:/var/www/inkdroid.org
+
+dat:
+	cd _site ; dat sync
 
 resume: 
 	pandoc ehs.md -o ehs.pdf

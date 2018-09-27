@@ -20,6 +20,9 @@ exclude:
   - sync.sh
   - inkdroid.wordpress.2015-08-31.xml
 
+keep_files:
+  - .dat
+
 include:
   - .well-known
   - .htaccess
