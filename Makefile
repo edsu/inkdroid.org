@@ -30,3 +30,9 @@ resume:
 	pandoc ehs.md -c https://inkdroid.org/ehs.css -o ehs.html
 	pandoc ehs.md -o ehs.docx
 	mv ehs.docx ehs.doc
+
+	pandoc ehs.md -o body.html
+	echo "<html><head><title>Ed Summers CV</title><link rel="stylesheet" href="/ehs.css"></head><body>" > ehs.html
+	cat body.html >> ehs.html
+	echo "</body></html>" >> ehs.html
+	rm body.html
