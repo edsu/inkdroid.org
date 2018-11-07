@@ -19,9 +19,11 @@ sass:
 exclude:
   - sync.sh
   - inkdroid.wordpress.2015-08-31.xml
+  - .git
 
 keep_files:
   - .dat
+  - dat.json
 
 include:
   - .well-known

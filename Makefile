@@ -1,4 +1,4 @@
-all: bib resume build_full sync
+all: bib resume build_full rsync dat
 
 indexes:
 	touch feed.xml
