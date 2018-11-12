@@ -81,10 +81,11 @@ h3 {
 figure {
   padding: 10px;
   border: thin solid #eeeeee;
+  margin: 10px;
 }
 
-figcaption {
-    text-align: center;
+caption {
+  text-align: center;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
