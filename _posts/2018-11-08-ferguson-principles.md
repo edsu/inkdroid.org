@@ -2,7 +2,7 @@
 title: The Ferguson Principles
 layout: post
 tags:
-- archive
+- archives
 - social media
 - docnow
 ---
@@ -13,13 +13,14 @@ picture-in-picture" allowfullscreen></iframe>
 
 ---
 
-Thank you for the opportunity to speak with you today here in Wellington. For
-the next few minutes I'm going to be talking about the efforts of the
-[Documenting the Now] project to build a community of practice around social
-media archiving. For @Lave:1991 a *community of practice* is a way of
-understanding how groups of people learn, by sharing skills and tools in
-relationship with each other, and in their daily lived experience. I think the
-best of what IIPC has to offer is as a community of practice.
+Thank you for the opportunity to speak with you today here in Wellington. It
+really is a privilege to be here. For the next few minutes I'm going to be
+talking about the efforts of the [Documenting the Now] project to build a
+community of practice around social media archiving. For @Lave:1991 a *community
+of practice* is a way of understanding how groups of people learn, by sharing
+skills and tools in relationship with each other, and in their daily lived
+experience. I think the best of what IIPC has to offer is as a community of
+practice.
 
 But before I tell you about DocNow I need to do a little framing. Please forgive me if this seems redundant or obvious. I've been interested in web archiving for close to 10 years, but this is my first time here at the Web Archiving Conference.
 
@@ -31,11 +32,20 @@ A significant part of our work in Documenting the Now has been appreciating, and
   </a>
 </figure>
 
-So I said it truly is a privilege to be here, and I meant it. According to the [Carbon Footprint Calculator] my return trip from Washington DC amounts to 2.19 metric tons of CO₂. To put this in perspective the Environmental Defense Fund [estimates] that the average American car emits about 7 tons of CO₂ in a year. How many cars do you think our conference amounts to? Hopefully you'll see why this is important in a moment.
+So I said it is a privilege to be here, and I meant it. According to the [Carbon
+Footprint Calculator] my return trip from Washington DC amounts to 2.19 metric
+tons of CO₂. To put this in perspective the Environmental Defense Fund
+[estimates] that the average American car emits about 7 tons of CO₂ in a year.
+How many cars do you think our conference amounts to? Hopefully you'll see why
+this is important in a moment.
 
 ### Bigger
 
-Perhaps you saw [this story] in the Guardian about the projected energy consumption of the Internet? According to the piece, researchers estimate that by 2020 running the Internet will generate 3.5% of all global emissions, which will which exceed that of the entire aviation and shipping industries. That's only a year away.
+Perhaps you saw [this story] in the Guardian about the projected energy
+consumption of the Internet? According to the piece, researchers estimate that
+by 2020 running the Internet will generate 3.5% of all global emissions, which
+will exceed that of the entire aviation and shipping industries. That's only a
+year away.
 
 <figure>
 <a href="https://www.theguardian.com/environment/2017/dec/11/tsunami-of-data-could-consume-fifth-global-electricity-by-2025">
