@@ -28,8 +28,8 @@ evolving architecture and practices of curation and preservation. I also help to
 keep the lights on at the [Maryland Institute for Technology in the Humanities].
 
 If you want to get in touch please email me at [ehs@pobox.com]. You can also
-find me on Twitter as [\@edsu] or (increasingly) on Mastodon as
-[\@edsu@social.coop].
+find me on Twitter as [\@edsu], Mastodon as [\@edsu@social.coop] and Scuttlebutt
+as \@n2ax/dvrm+u76UhEv6aN0MzlH0Zw7o0MOd5QIHjouSw=.ed25519
 
 [recovering]: https://github.com/edsu
 [Maryland Institute for Technology in the Humanities]: http://mith.umd.edu
