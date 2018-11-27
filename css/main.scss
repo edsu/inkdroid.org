@@ -6,6 +6,9 @@
 $font-family-sans-serif: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 $font-size-base: 14pt;
 
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "bootstrap";
+
 table {
     @extend .table
 }
@@ -84,9 +87,6 @@ figure {
   margin: 10px;
 }
 
-caption {
+figcaption {
   text-align: center;
 }
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import "bootstrap";

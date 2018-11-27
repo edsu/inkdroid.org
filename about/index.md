@@ -17,11 +17,14 @@ date: '2008-07-28 06:54:42 +0000'
 date_gmt: '2008-07-28 13:54:42 +0000'
 ---
 
-<img style="float: left; width: 40%; margin-right: 20px;" src="/images/ehs-kesa.jpg">
+<figure>
+  <img class="img-responsive" src="/images/twarc.jpg">
+  <figcaption>Photo by <a href="https://twitter.com/joshuatj/status/1063207047607410689">Joshua Ng</a></figcaption>
+</figure>
 
-Hi, my name is Ed Summers (on the right). I am a [recovering] software
-developer with two decades of [experience] working at the intersection of
-libraries, archives and the World Wide Web.
+Hi, my name is Ed Summers, and I am a [recovering] software developer with two
+decades of [experience] working at the intersection of libraries, archives and
+the World Wide Web.
 
 I study and work with the Web as a sociotechnical system, with an eye to its
 evolving architecture and practices of curation and preservation. I also help to
