@@ -72,7 +72,7 @@ This is not to say we don't need better tech for web archiving--we do. But bette
 
 The Internet Archive's mission is to archive the web and to provide universal access to all knowledge [@Kahle:2007]. How much of the web is in the Internet Archive? Of course it's hard, if not impossible, to say. But let's not let that stop us.
 
-In 2016 [Google announced] that it had 130 trillion *URLs* in its index. In a [blog post] also written in 2016 the Internet Archive [shared] that they had saved 510 billion *web captures*. So we could estimate that in 2016 the world's largest public archive of web content, had collected 0.39% of the web. What 0.39% of the web do you think they archived?
+In 2016 [Google announced] that it had 130 trillion *URLs* in its index. In a [blog post] also written in 2016 the Internet Archive shared that they had saved 510 billion *web captures*. So we could estimate that in 2016 the world's largest public archive of web content, had collected 0.39% of the web. What 0.39% of the web do you think they archived?
 
 Of course this is mixing apples and oranges, because on the one hand we are talking about web captures and on the other URLs. But comparing distinct URLs in the Internet Archive would only make this percentage smaller. Even worse, Google themselves don't really know how big the web is: they just know how many distinct URLs their bots have wandered into.
 
@@ -187,7 +187,7 @@ Thanks!
 [Documenting the Now]: https://www.docnow.io/
 [this story]: https://www.theguardian.com/environment/2017/dec/11/tsunami-of-data-could-consume-fifth-global-electricity-by-2025
 [Google announced]: https://searchengineland.com/googles-search-indexes-hits-130-trillion-pages-documents-263378
-[shared]: https://blog.archive.org/2016/10/23/defining-web-pages-web-sites-and-web-captures/
+[blog post]: https://blog.archive.org/2016/10/23/defining-web-pages-web-sites-and-web-captures/
 [13 million tweets]: https://archive.org/details/ferguson-tweet-ids/
 [Walter Scott]: https://en.wikipedia.org/wiki/Shooting_of_Walter_Scott
 [Freddie Gray]: https://en.wikipedia.org/wiki/Death_of_Freddie_Gray
