@@ -10,20 +10,29 @@ $font-size-base: 14pt;
 @import "bootstrap";
 
 table {
-    @extend .table
+  @extend .table
 }
 
 .post-title a {
-    color: black;
+  color: black;
 }
 
 .post-title a:hover {
-    color: black;
+  color: black;
 }
 
 .post-meta {
-    font-size: smaller;
-    color: #999;
+  font-size: smaller;
+  color: #999;
+}
+
+.post-summary .date {
+  font-size: smaller;
+  font-family: courier;
+}
+
+.post-summary a {
+  color: black;
 }
 
 .post-list hr {
@@ -35,50 +44,38 @@ table {
 }
 
 .tag {
-    font-size: 10pt;
-    color: #999;
+  font-size: 10pt;
+  color: white;
 }
 
 .navbar {
-    font-size: 12pt;
+  font-size: 12pt;
 }
 
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 body {
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-    hyphens: auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 #page-content {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 #page-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    padding-top: 10px;
-    font-size: 12pt;
-    border: thin solid gray;
-}
-
-h1 {
-    font-size: 15pt;
-}
-
-h2 {
-    font-size: 14pt;
-}
-
-h3 { 
-    font-size: 13pt;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  padding-top: 10px;
+  font-size: 12pt;
+  border: thin solid gray;
 }
 
 figure {
@@ -90,3 +87,4 @@ figure {
 figcaption {
   text-align: center;
 }
+
