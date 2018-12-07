@@ -79,18 +79,20 @@ Of course this is mixing apples and oranges, because on the one hand we are talk
 But this low percentage probably doesn't come as any surprise to the archivists
 in the room, who know that between 1 and 5 percent of all institutional records
 will survive as archives [@Cook:2011]. As @Harris:2007 would perhaps say, the
-Wayback Machine and all our web archives will alway be "a sliver of a sliver of
+Wayback Machine and all our web archives will always be "a sliver of a sliver of
 a sliver of a window into process" [@Harris:2007]. This is why they are so
-important to us.
+important to us, and why an environmental analysis is so fundamental to digital
+preservation work [@Goldman:2018].
 
-We need to decide what to collect. How we decide is what's important. We need to talk about about how we decided. This is what you do here.
+We need to decide what to collect. How we decide is what's important. We need to
+talk about about how we decided. This is what you do here.
 
 ### Smaller
 
 Ok, so the web is a lot bigger than us, and trying to archive it all might kill us all, if we were able to do it. But how is web archiving smaller than the IIPC and its individual member institutions?
 
-evideo autoplay>
-  <source=src="/videos/blm-twitter.mp4">
+<video width="100%" autoplay controls>
+  <source src="/videos/blm-tweets.mp4">
 </video>
 
 In August of 2014, my friend and collaborator [Bergis Jules] and I sat in a bar with a small group of friends at the Society of American Archivists meeting in Washington DC. We were talking about what it would take to collect the tweets about the protests in Ferguson, Missouri that were happening as we spoke.

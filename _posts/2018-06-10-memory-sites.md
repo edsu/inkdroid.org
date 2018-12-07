@@ -48,7 +48,7 @@ production have become widely available so has the number of people that are
 peripherally engaged in archival work. The camera enabled the generation of
 boxes of photographs, and albums, which are in effect miniature archives which
 may find their way into larger ones. The [Records Continuum], and specifically
-post-custodial archival theory [@Upward:1997a ; @Upward:1997b], allow us to
+post-custodial archival theory [@Upward:1997 ; @Upward:1996], allow us to
 examine this production and movement of records in a way that generously
 enlarges, or even democratizes, the scope of archival work. This enlargement
 works to ameliorate the anxiety about the archive by allowing archival processes
@@ -88,7 +88,7 @@ But places of memory are not simply collections of traces or records that have s
 
 It is this will to remember which is what allows places of memory to exist. Memory sites are not something that technologies, records or media do alone -- they require interpretation by *people*. Memory is social. Nora is stressing the role of people in memory, and trying to disabuse us of the idea that memory can be found in physical traces alone. When distinguishing between *true* memory and *historical* memory in the lead up to the quote about all memory being archival above he says:
 
-> Of course, we still cannot do without the word [memory], but we
+> Of course, we still cannot do without the word \[memory\], but we
 > should be aware of the difference between true memory, which
 > has taken refuge in gestures and habits, in skills passed 
 > down by unspoken traditions, in the body's inherent 
