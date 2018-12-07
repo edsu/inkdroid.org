@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Continued
+title: Two Archival Apocalypses
 tags:
 - archives
 - appraisal
