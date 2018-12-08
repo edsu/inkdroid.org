@@ -70,10 +70,14 @@ little thought experiment about archives:
 > I leave it to you to conjecture as you please. My own guess is that 
 > between these two worlds there wouldn't be all that much difference.
 
-Why would there be no difference between these two scenarios? Do you agree?
+Why would there be no difference between these two scenarios? Do you agree? How
+prescient are they as we look at what technologies like [IPFS] are attempting to
+make available, and we consider the threat of a strategically deployed 
+[Nuclear Electromagnetic Pulse]?
 
 ### References
 
 [Federal Records Act of 1950]: https://en.wikipedia.org/wiki/Federal_Records_Act
-
 [electronic records]: https://www.congress.gov/bill/113th-congress/house-bill/1233
+[Nuclear Electromagnetic Pulse]: https://en.wikipedia.org/wiki/Nuclear_electromagnetic_pulse
+[IPFS]: https://ipfs.io/
