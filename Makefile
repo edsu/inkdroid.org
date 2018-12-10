@@ -10,7 +10,7 @@ bib:
 serve: indexes bib
 	jekyll serve 
 
-quick: bib build rsync
+quick: bib build rsync dat
 
 build_full: indexes
 	JEKYLL_ENV=production jekyll build
