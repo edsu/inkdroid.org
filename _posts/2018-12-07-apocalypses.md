@@ -29,7 +29,7 @@ design systems that enforce or enshrine this idea.
 Obviously not all archives are run the same way as NARA in the US of A.  But it
 is comforting to recognize that the architects of this system understood that
 not only could we not keep all records, but there were limits on how long they
-could be kept. Rapport makes a strong and humanistic argument that the cost of
+could be kept. Rapport makes a strong humanistic argument that the cost of
 keeping records should always be weighed as best they can against their
 perceived use, and that this is an iterative process.
 
