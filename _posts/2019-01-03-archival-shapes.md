@@ -36,7 +36,7 @@ archives including Google's Cache to see how web archives are shared in social
 media. The thought being that this data could provide some insight into how
 archival representations are being used on the web (props to [Jess
 Ogden](https://archivingtheweb.me/) for the idea).  So far it has found 631,811
-tweets, only 10,053 of which point at Google's Cache Here's an example of one
+tweets, only 10,053 of which point at Google's Cache. Here's an example of one
 such tweet:
 
 <a href="https://twitter.com/1o5CleanEnergy/status/1081938670616231938"><img class="img-responsive" src="/images/twitter-google-cache.png"></a>
