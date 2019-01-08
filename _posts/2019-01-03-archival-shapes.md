@@ -105,12 +105,12 @@ For now let's set aside the ethical questions raised by Tumblr's decision to
 purge their site, and ArchiveTeam's response to unilaterally archive the at risk
 Tumblr content for perpetuity without with the content creator's consent. These
 are important questions, and are a big part of what I'm concerned with in my own
-research, but they aren't the topic of this discussion. Instead what I wanted to
-emphasize is that the different shapes of web archives extend outside of their
-technical architectures and into the forms of labor that they make possible, or
-are made possible by, and that the assemblages of technology. We can think about
-this as usability, collaboration, or crowdsourcing, but ultimately these amount
-to different types of labor.
+research, but they aren't really the focus of this post. Instead what I wanted
+to emphasize is that the different shapes of web archives extend outside of
+their technical architectures and into the forms of labor that they make
+possible, or are made possible by, and that the assemblages of technology. We
+can think about this as usability, collaboration, or crowdsourcing, but
+ultimately these amount to different types of labor.
 
 Allow me to close this meandering blog post by connecting the discussion of
 archival shapes back to archives. In his genealogical exploration of the
