@@ -46,7 +46,7 @@ As another archival shape consider the social media site
 collections of images from the web.  Users add images as *pins* to *boards*
 where they can be described, put into different *sections* and then shared and
 reshared with others both inside and outside of the Pinterest platform.
-Pinboard provide a [browser
+Pinterest provide a [browser
 extension](https://about.pinterest.com/en/browser-button) that lets you hover
 over any image you see on the web and easily add it to one of your boards.  This
 *pinning* operation doesn't capture the entire page, but just the one image that
