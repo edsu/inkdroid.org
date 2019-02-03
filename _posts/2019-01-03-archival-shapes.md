@@ -50,8 +50,8 @@ Pinterest provide a [browser
 extension](https://about.pinterest.com/en/browser-button) that lets you hover
 over any image you see on the web and easily add it to one of your boards.  This
 *pinning* operation doesn't capture the entire page, but just the one image that
-you have selected. Pinboard does attempt to extract the title and description of
-the image, and they also remember where the image has from in terms of its
+you have selected. Pinterest does attempt to extract the title and description
+of the image, and they also remember where the image has from in terms of its
 original URL if you want to go back to see where this image came from. In this
 example below I've added a [portrait of Michelle
 Obama](https://npg.si.edu/object/npg_NPG.2018.15) from the National Portrait
