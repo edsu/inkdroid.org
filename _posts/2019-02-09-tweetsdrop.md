@@ -1,0 +1,193 @@
+---
+layout: post
+title: Streams
+tags:
+- twitter
+- data
+---
+
+<figure>
+  <a href="https://www.flickr.com/photos/27457334@N02/3072058650/"><img class="img-responsive" src="/images/stream.jpg"></a>
+  <figcaption>
+    <a href="https://www.flickr.com/photos/27457334@N02/3072058650/">Stream</a> by <a href="https://www.flickr.com/photos/27457334@N02/">Andrew Price</a>
+  </figcaption>
+</figure>
+
+One of the things that still sets Twitter apart as a social media platform is
+the access they provide to the *Stream*. The Stream is a set of API endpoints
+that allow you to collect tweets in real time: the *Filter Stream* which lets
+you collect tweets that match a keyword filter that you provide; the *Sample
+Stream* which represents some sample of all the available tweets; and (if you
+are able to pay for it) the *Firehose* which includes all (public) tweets.  To
+make things more complicated Twitter's stream endpoints exist in several
+products (Standard, Premium and Enterprise) which generally provide you with
+increasing levels access to more data. See @Driscoll:2014 for an in depth analysis of how the free
+filter stream have related to the paid services in the past. This post is
+concerned with trying to understand what we see and don't see in the *Filter*
+stream, in order to communicate it it effectively to people who are using it to
+collect data.
+
+### Streams on the Web
+
+Of course, there were streams of content on the web before Twitter.  Here I'm
+thinking of blogs and their associated RSS feeds. While an RSS or Atom feed is a
+representation of a stream, they are typically *pulled* from a server. Streams
+are different beasts altogether because a client initiates a stream request,
+holds the connection open, and then the server *pushes* new content as it is
+created in the platform, until the client decides to close the connection, which
+could be hours, days or even months later.
+
+Today there are many platforms like [Slack](https://api.slack.com/rtm),
+[Wikipedia](https://wikitech.wikimedia.org/wiki/EventStreams), and
+[WordPress](https://developer.wordpress.com/docs/firehose/) that offer various
+types of streams using [WebSockets](https://en.wikipedia.org/wiki/WebSocket) and 
+[Server-Sent Events (SSE)](https://en.wikipedia.org/wiki/Server-sent_events).
+There are others like [Facebook](https://developers.facebook.com/docs/graph-api/webhooks)
+and [Instagram](https://developers.facebook.com/docs/instagram-api/webhooks/)
+(is there really any difference?) who use a hybrid solution called
+[WebHooks](https://en.wikipedia.org/wiki/Webhook) to push chunks of new or
+updated content to your application in realtime.
+
+But the relative simplicity and utility of Twitter's Filter Stream API is still
+a bit of a unique thing on the web. Part of the reason for this is Twitter's
+user base of journalists which has been cause for some to liken Twitter to some
+kind of [wire service for the 21st
+century](https://niemanreports.org/articles/why-news-organizations-should-buy-twitter/).
+No doubt this has something to do with newsroom's ability to use the stream in
+their own back-office applications, like a
+[ticker-tape](https://en.wikipedia.org/wiki/Ticker_tape) for the web.
+
+### Twitter Streams
+
+Sometime in
+[2007](https://blog.twitter.com/en_us/a/2008/twitter-and-xmpp-drinking-from-the-fire-hose.html)
+Twitter was working with the now defunct blogging infrastructure company
+[Technorati](https://en.wikipedia.org/wiki/Technorati) to develop a real time
+feed of all its content using a standard called [Extensible Messaging and
+Presence Protocol (XMPP)](https://en.wikipedia.org/wiki/XMPP). But by [mid
+2009](https://twitter.com/jkalucki/status/1785648409) Twitter began to roll
+their [Hosebird](https://en.wikipedia.org/wiki/Hosebird) project which
+rearchitected the streaming infrastructure in order to provide largely what we
+see today: full, sample and filter streams using plain old HTTP.
+
+It's hard to say when, since the documentation is now gone, and the coverage in
+the Internet Archive does not back further, but at least as early as [April 18,
+2012](https://web.archive.org/web/20120418141854/https://dev.twitter.com/docs/faq),
+Twitter's FAQ had a short description of how they rate limited their streaming API:
+
+> If you're using the filter feature of the Streaming API, you'll be streamed Y
+> tweets per "streaming second" that match your criteria, where Y tweets can
+> never exceed 1% of X public tweets in the firehose during that same "streaming
+> second." If there are more tweets that would match your criteria, you'll be
+> streamed a rate limit message indicating how many tweets fell outside of 1%. 
+
+When particular topics trend the volume of the filter stream can get so high
+that it's difficult for Twitter to send it over a single connection. And so
+the notion of a *streaming second* was born, where a streaming client could
+never receive more than 1% of public tweets that were being sent in that
+particular moment. This little factoid still circulates as a bit of folk wisdom
+amongst users of the Twitter API. Some special people that Twitter liked even
+had *unlimited* accounts where this limit was turned off.
+
+But somewhere between [July 28,
+2012](https://web.archive.org/web/20120803065924/https://dev.twitter.com/docs/faq)
+and [August 3,
+2012](https://web.archive.org/web/20120804145332/https://dev.twitter.com/docs/faq)
+this description changed to drop the mention of 1% and to simply talk about an
+abstract *streaming cap*:
+
+> Filtered streams return all matching Tweets up to a volume equal to the
+> streaming cap. If there are more tweets that would match your criteria, you'll
+> be streamed a rate limit message indicating how many tweets were not delivered. 
+
+Twitter's documentation was completely redesigned so that page is no longer available outside of the Internet Archive. Today there is similar language in the [Filter realtime Tweets](https://developer.twitter.com/en/docs/tweets/filter-realtime/guides/streaming-message-types) documentation:
+
+> These messages indicate that a filtered stream has matched more Tweets than
+> its current rate limit allows to be delivered. Limit notices contain a total
+> count of the number of undelivered Tweets since the connection was opened,
+> making them useful for tracking counts of track terms, for example. Note that
+> the counts do not specify which filter predicates undelivered messages matched.
+
+### An Experiment
+
+The [Documenting the Now](https://www.docnow.io) project is developing tools for
+archivists and researchers to work with Twitter. I thought it would useful to
+try an experiment to try to gauge how accurate the reported dropped tweets were.
+The idea being that we could come up with a design to inform our users when
+there is uncertainty about what is being collected.
+
+Here's was the experiment:
+
+1. I collected tweets from the *filter stream* for 15 minutes using a set of
+   keywords that was certain to trigger the rate limit notices. I chose to
+   filter by *fuck,shit,damn,trump* because, well, this is Twitter.
+2. Immediately after the 15 minutes of collection I searched for the tweets using an 
+   equivalent query of Twitter's search API and also minimum and maximum tweet identifiers
+   based on the data collected from the filter stream.
+3. After the search completed I immediately *rehydrated* the original tweets
+   collected from the filter API to get a sense of how many tweets have been
+   deleted, and thus were not available for search.
+
+Here were the results in a table, which I'll explain below.
+
+|                    | Tweets   |
+| ------------------ | --------:|
+| Collected (Stream) |   43,448 |
+| Rate Limited       |   12,262 |
+| Hydrated           |   42,162 |
+| Deleted            |    1,286 |
+| Collected (Search) |   35,861 |
+
+
+[twarc](https://github.com/docnow/twarc) was used to do the data collection.
+Connecting to the filter stream for 15 minutes yielded 43,448 tweets. During that
+time 838 limit notices were delivered, the last of which reported that 12,262
+had not been sent. This implies the expected size of the full dataset.
+
+    Collected (Stream) + Rate Limited = Expected Size
+    43,448             + 12,262       = 55,710
+
+The data collection from the search API ended up returning 35,861 tweets. This
+is a lot lower than the expected 55,710. What could explain this discrepancy?
+Re-hydrating the initial dataset obtained from the filter API yielded 42,558
+tweets. Which meant that 890 tweets (2%) were deleted almost immediately, and
+would not be available for search. Why are these 42,558 tweets not available
+from the search API instead of 35,861?
+
+There is clearly a discrepancy between the number of tweets we were able
+to fetch from the filter API, the report of rate limited tweets, and the results
+we are able to get from the search API. Perhaps this was the result of my query,
+and the inner workings of the search API, as compared with the filter stream? Or
+it could be that the 15 minute window was such a short period observation period
+that the *max_id* and *since_id* parameters I used to limit my search query were
+misinterpreted? It's very difficult to say from the outside looking in.
+
+> Researchers in the humanities and social sciences are not accustomed to
+> thinking of their work in terms of laboratory science—we are not technicians
+> in white coats, pipetting solutions and peering into microscopes, after all!
+> But mass-scale observation is possible only with the assistance of specialized
+> technologies. As such, the sociology of science has come home in surprising
+> ways. The infrastructures we construct to aggregate and store tweets—servers,
+> scripts, and databases—mirror the internal architectures of commercial systems
+> such as Twitter. [@Driscoll:2014].
+
+As Driscoll and Walker point out, there is also the question of how this
+experiment was conducted. Is it possible that the internal workings of twarc, or
+my particular use of it in this experiment, could better explain the result?
+Certainly, yes.  It's also possible that my storage, querying and tallying of
+the data could be somehow responsible. So the challenge for us as we develop
+tools and *interfaces* for data collection is that they adequately reflect this
+*uncertainty* back to the user, and stop short of making positivist claims about
+these datasets.
+
+Just because these streams of data were generated by logic, encrusted in code,
+doesn't mean we can describe them perfectly, even with error rates and other
+statistical tools. These data streams are highly complex and historically
+situated algorithmic system, that resist comfortable claims about their
+behavior. Kind of like a real, roiling stream. What are we really asking for
+when we ask for transparency into these systems [@Ananny:2016]? How can the
+technical and conceptual limits of transparency be used as design elements in
+data collection tools? If you have ideas, or pointers to interesting work in
+this area please get in touch!
+
+### References
