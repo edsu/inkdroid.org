@@ -7,7 +7,7 @@ RewriteRule ^(.*) http://inkdroid.org/$1 [last,redirect=301]
 RewriteRule \.sql - [F]
 
 RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
-RewriteRule ^ehs$ ehs.rdf [R=303]
+RewriteRule ^ehs$ ehs/ehs.rdf [R=303]
 
 RewriteCond %{HTTP_ACCEPT} text/html [OR]
 RewriteCond %{HTTP_ACCEPT} application/xml [OR]
@@ -16,25 +16,25 @@ RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
 RewriteRule ^ehs$ ehs/ [R=303]
 
 RewriteCond %{HTTP_ACCEPT} application/turtle 
-RewriteRule ^ehs$ ehs.ttl [R=303]
+RewriteRule ^ehs$ ehs/ehs.ttl [R=303]
 
 RewriteCond %{HTTP_ACCEPT} application/json
-RewriteRule ^ehs$ ehs.json [R=303]
+RewriteRule ^ehs$ ehs/ehs.json [R=303]
 
 RewriteCond %{HTTP_ACCEPT} application/x-tex
-RewriteRule ^ehs$ ehs.tex [R=303]
+RewriteRule ^ehs$ ehs/ehs.tex [R=303]
 
 RewriteCond %{HTTP_ACCEPT} application/pdf
-RewriteRule ^ehs$ ehs.pdf [R=303]
+RewriteRule ^ehs$ ehs/ehs.pdf [R=303]
 
 RewriteCond %{HTTP_ACCEPT} text/plain [OR]
 RewriteCond %{HTTP_ACCEPT} text/x-markdown
-RewriteRule ^ehs$ ehs.md [R=303]
+RewriteRule ^ehs$ ehs/ehs.md [R=303]
 
-RewriteRule ^ehs$ ehs.html [R=303]
-RewriteRule ^ehs.txt$ ehs.md
+RewriteRule ^ehs$ ehs/index.html [R=303]
+RewriteRule ^ehs.txt$ ehs/ehs.md
 
-RewriteRule ^ehs/$ ehs.html
+RewriteRule ^ehs/$ ehs/index.html
 RewriteRule ^creepy-polaroid/?$ https://edsu.github.io/creepy-polaroid/ [R=301]
 RewriteRule ^polaroid/?$ creepy-polaroid/ [R=301]
 RewriteRule ^vogon/?$ https://edsu.github.io/vogon/ [R=301]
