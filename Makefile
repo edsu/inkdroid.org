@@ -32,7 +32,7 @@ resume:
 	mv ehs.docx ehs.doc
 
 	pandoc ehs.md -o body.html
-	echo "<html><head><title>Ed Summers CV</title><link rel="stylesheet" href="/ehs.css"></head><body>" > ehs.html
+	echo '<html><head><meta charset="utf-8"><title>Ed Summers CV</title><link rel="stylesheet" href="/ehs.css"></head><body>' > ehs.html
 	cat body.html >> ehs.html
 	echo "</body></html>" >> ehs.html
 	rm body.html

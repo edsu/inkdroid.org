@@ -204,6 +204,8 @@ the MARC format
 
 ## Selected Publications
 
+* [Archival Circulation on the Web: The Vine-Tweets Dataset]. Cultural Analytics. June, 2019.
+* [Algorithms and Agenda-Setting in Wikileaks' #PodestaEmails Release]. Information, Communication & Society. 2019
 * [Ferguson and the death of Michael Brown on Twitter: #BlackLivesMatter, #TCOT, and the evolution of collective identities]. Ethnic and Racial Studies, 40(10).
 * [#sayhername: a case study of intersectional social media activism]. Ethnic and Racial Studies, 40(10).
 * [Bots, Seeds and People: Web Archives as Infrastructure]. Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing, CSCW 17.
@@ -248,6 +250,9 @@ the MARC format
 * 2015 [Frederick G. Kilgour Award for Research in Library and Information Technology](http://www.ala.org/news/press-releases/2015/03/ed-summers-recipient-2015-kilgour-award).  American Library Association.
 * 2015 Shorty Award. 
 
+[Automating Transparency]: https://source.opennews.org/articles/automating-transparency/
+[Algorithms and Agenda-Setting in Wikileaks' #PodestaEmails Release]: https://medium.com/@nproferes/algorithms-and-agenda-setting-in-wikileaks-podestaemails-release-3e13d44211ad?sk=dd87b1e326e1c73306f911974c1114cd
+[Archival Circulation on the Web: The Vine-Tweets Dataset]: https://culturalanalytics.org/2019/06/archival-circulation-on-the-web-the-vine-tweets-dataset/
 [Library Linked Data Final Report]: http://www.w3.org/2005/Incubator/lld/XGR-lld-20111025/ "Library Linked Data Incubator Group Final Report"
 [SKOS Simple Knowledge Organization System Primer]: http://www.w3.org/TR/skos-primer
 [LCSH, SKOS and Linked Data]: http://dcpapers.dublincore.org/pubs/article/view/916
