@@ -23,6 +23,7 @@ sociotechnical practices that support them.
 * open source, standards development, community building
 * automated testing, agile software development, rapid prototyping
 * Python, JavaScript, Go, Ruby, Perl, PHP, Java, C, Scheme
+* data analysis, Pandas, SciPy, Spark
 * Ubuntu, Red Hat, Amazon Web Services
 
 ## Work History
