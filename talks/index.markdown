@@ -25,6 +25,20 @@ now, but I guess it illustrates my meandering career path. If you'd like me to
 visit please drop me an <a href="mailto:ehs@pobox.com">email</a>.
 
 <p class="story">
+<strong>Opening the Black Box of Save Page Now</strong><br>
+<a href="http://thewebthatwas.net/">The Web That Was: RESAW 2019</a><br>
+Amsterdam, Netherlands (June 21, 2019)<br>
+[<a href="resaw19.pdf">slides</a>]
+</p>
+
+<p class="story">
+<strong>Always Already Social: Social Media in Archives</strong><br>
+<a href="">Congrés d'Arxivistica i Gestió de Documents de Catalunya</a><br>
+Sant Feliu de Guixols, Catalonia (May 10, 2019)<br>
+[<a href="https://edsu.github.io/always-already-social/">slides</a>] [<a href="https://www.youtube.com/watch?v=VjI2WL6eZpY&list=PLQk4S7xp9SuZBFOU9sHbTMQpJXFtbSI1H&index=6&t=2639s">video</a>]
+</p>
+
+<p class="story">
 <strong>Archives on the Web: The Curious Case of the Vine Archive</strong><br>
 <a href="https://www.lib.umd.edu/rc/big-data">Big Data Interdisciplinary Dialogue</a><br>
 College Park, Maryland (April 3, 2018)<br>
