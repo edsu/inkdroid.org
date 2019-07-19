@@ -12,7 +12,9 @@ tags:
 
 I recently got a real kick out of reading Adam Burke's [Occluded Algorithms]
 that got me thinking in more concrete terms about how popular uses of the term
-*algorithm* are deployed relative to their use in computer programming.
+*algorithm* are deployed relative to their use in computer programming. It
+builds on some previous work of @Seaver:2017 which I've also briefly written
+about [here](https://inkdroid.org/2018/01/30/algorithms/).
 
 It has become quite common to see news stories that talk about Facebook's news
 feed algorithm, or Google's ranking algorithm, as things that shape our
@@ -46,11 +48,11 @@ eyes are [getting
 strained](https://blog.npmjs.org/post/180565383195/details-about-the-event-stream-incident).
 
 But I guess this focused little piece by Burke really got my attention because
-of the way it knitted together theoretical ideas like agential cut [Barad:2007],
-assemblage [Deleuze:1987], algorithms as culture [Seaver:2017], technical
-objects [Simondon:1958], and governmentality [Foucault:2008]. This last point on
-governmentality and its connection to algorithms is something that Burke draws
-from @Introna:2016, which is new to me.
+of the way it knitted together theoretical ideas like agential cut
+[@Barad:2007], assemblage [@Deleuze:1987], algorithms as culture [@Seaver:2017],
+technical objects [@Simondon:1958], and governmentality [@Foucault:2008]. This
+last point on governmentality and its connection to algorithms is something that
+Burke draws from @Introna:2016, which is new to me.
 
 I'm [interested](https://osf.io/preprints/socarxiv/75mjp) in how governmentality
 can provide a way of understanding a wide variety of theories and approaches to
@@ -58,5 +60,7 @@ archival appraisal--especially in web archives. Apart from @Mackenzie:2017 I
 haven't seen a whole lot written about algorithms and governmentality. Since I'm
 mostly focused on web archives algorithms are an important topic. So if you find
 other connections please let me know.
+
+### References
 
 [Occluded Algorithms]: https://journals.sagepub.com/doi/full/10.1177/2053951719858743
