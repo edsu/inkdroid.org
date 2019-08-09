@@ -28,7 +28,7 @@ sociotechnical practices that support them.
 
 ## Work History
 
-Lead Software Developer  
+Research Faculty  
 Maryland Institute for Technology in the Humanities  
 University of Maryland  
 08/2014 - Present  
@@ -256,7 +256,7 @@ the MARC format
 [Appraisal Practices in Web Archives]: https://osf.io/preprints/socarxiv/75mjp/
 [Twitter and Tear Gas: Book Review]: https://www.tandfonline.com/doi/abs/10.1080/24701475.2017.1383639
 [Automating Transparency]: https://source.opennews.org/articles/automating-transparency/
-[Algorithms and Agenda-Setting in Wikileaks' #PodestaEmails Release]: https://medium.com/@nproferes/algorithms-and-agenda-setting-in-wikileaks-podestaemails-release-3e13d44211ad?sk=dd87b1e326e1c73306f911974c1114cd
+[Algorithms and Agenda-Setting in Wikileaks' #PodestaEmails Release]: https://www.tandfonline.com/doi/abs/10.1080/1369118X.2019.1626469
 [Archival Circulation on the Web: The Vine-Tweets Dataset]: https://culturalanalytics.org/2019/06/archival-circulation-on-the-web-the-vine-tweets-dataset/
 [Library Linked Data Final Report]: http://www.w3.org/2005/Incubator/lld/XGR-lld-20111025/ "Library Linked Data Incubator Group Final Report"
 [SKOS Simple Knowledge Organization System Primer]: http://www.w3.org/TR/skos-primer

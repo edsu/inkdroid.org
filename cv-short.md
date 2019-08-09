@@ -15,7 +15,7 @@ evolving architecture and practices of curation and preservation.
 
 ## Work History
 
-**Senior Research Associate**  
+**Resarch Faculty**  
 Maryland Institute for Technology in the Humanities  
 College Park, Maryland  
 August 2014 - Present
@@ -46,7 +46,7 @@ May 2002 – March 2006
 * Metadata harvesting and analysis
 * Automated testing.
 
-**Software Engineer**  
+**Senior Software Engineer**  
 Cheetahmail  
 New York, New York  
 January 2000 - June 2002
@@ -71,9 +71,15 @@ August 1996 - July 1998
 
 * Website design and implementation
 * Collection development: social work, arms control.
-* Graduate Assistant supervisor
+* Reference desk supervisor
 
-## Recent Publications
+## Selected Publications
+
+Summers, E., Wickner, A. (2019). Archival Circulation on the Web: The Vine-Tweets Dataset. *Cultural Analytics*. https://culturalanalytics.org/2019/06/archival-circulation-on-the-web-the-vine-tweets-dataset/
+
+Proferes, N., Summers, E. (2019). Algorithms and Agenda-Setting in Wikileaks' #PodestaEmails Release. *Information, Communication & Society*. https://www.tandfonline.com/doi/abs/10.1080/1369118X.2019.1626469
+
+Summers, E. (2018). Appraisal Practices in Web Archives. *SocArXiv Papers*. https://osf.io/preprints/socarxiv/75mjp
 
 Ray, R., Brown, M., Fraistat, N., and Summers, E. (2017). Ferguson and the death
 of Michael Brown on Twitter: #blacklivesmatter, #tcot, and the evolution of
@@ -85,9 +91,7 @@ study of intersectional social media activism. *Ethnic and Racial Studies*,
 
 Summers, E. and Punzalan, R. (2017). Bots, seeds and people: Web archives as infrastructure. In *Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing, CSCW ’17*, pages 821–834. https://arxiv.org/abs/1611.02493
 
-Summers, E. (2015) Automating transparency: How I made congressedits. 
-*Source*.  
-https://source.opennews.org/articles/automating-transparency/
+Summers, E. (2015) Automating transparency: How I made congressedits.  *Source*. https://source.opennews.org/articles/automating-transparency/
 
 Steiner, T., Van Hooland, S., and Summers, E. (2013). MJ no more: using concurrent Wikipedia edit spikes with social network plausibility checks for breaking news detection. In *Proceedings of the 22nd International Conference on World Wide Web*, pages 791–794. International World Wide Web Conferences Steering Committee. https://arxiv.org/pdf/1303.4702.pdf
 

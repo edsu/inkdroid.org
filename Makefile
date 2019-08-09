@@ -25,4 +25,6 @@ dat:
 	cd _site ; dat sync
 
 resume: 
+	pandoc cv-short.md -o cv-short.pdf
+	pandoc cv-short.md -o cv-short.docx
 	cd ehs && make
