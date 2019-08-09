@@ -81,12 +81,12 @@ What if there were an application that you could run on *your computer* that
 allowed you to import these GDPR archives and access your photos, posts, etc in
 a meaningful way so you could have them yourself? This idea has been tried
 before by folks like [Aaron Straup-Cope] with his [PrivateSquare], or [Dan
-Phiffer]'s [smoldata]. But these have been a bit hamstrung by the fact that they
-require you to get keys so that you can access your data. This, and setting up
-an application aren't things just anybody can typically do. Working off of the
-GDPR download would be slower, and less up to date, but it would at least would
-only require you to download a zip file from the said platform and then start up
-a desktop app and import it. Then you'd have to repeat that process
+Phiffer]'s [smol.archive]. But these have been a bit hamstrung by the fact that
+they require you to get keys so that you can access your data. This, and setting
+up an application aren't things just anybody can typically do. Working off of
+the GDPR download would be slower, and less up to date, but it would at least
+would only require you to download a zip file from the said platform and then
+start up a desktop app and import it. Then you'd have to repeat that process
 occasionally. 
 
 I mentioned this idea on Twitter, and got some interesting responses. One of
@@ -178,3 +178,9 @@ archive ;-)
 [consent]: https://news.docnow.io/designing-for-consent-2f9e9cb2ab4f
 
 [TwArxiv]: https://twtr-analyser.herokuapp.com/users/
+
+[twarc]: https://github.com/docnow/twarc
+
+[twint]: https://github.com/twintproject/twint
+
+[smol.archive]: https://github.com/smoldata/smol.archive
