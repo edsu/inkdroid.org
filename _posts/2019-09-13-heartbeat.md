@@ -20,13 +20,13 @@ to collect them.
 
 > If you're using the filter feature of the Streaming API, you'll be streamed Y tweets per "streaming second" that match your criteria, where Y tweets can never exceed 1% of X public tweets in the firehose during that same "streaming second." If there are more tweets that would match your criteria, you'll be streamed a rate limit message indicating how many tweets fell outside of 1%. 
 
-Whether this legend is still true or not we can be sure that an event like the Democratic Presidential Debate will trigger any rate limits that might exist. Sure enough, when I sifted through my collected data and graphed the tweets-per-minute I found that the rate rose to about 6,000 tweets per minute and then got throttled for the duration of the debate:
+Whether this legend is still true or not we can be sure that an event like the Democratic Presidential Debate will trigger any rate limits that might exist. Sure enough, when I sifted through my collected data and graphed the tweets-per-minute I found that the rate rose to about 3,000 tweets per minute and then got throttled for the duration of the debate:
 
 <img class="img-responsive" src="/images/demdebate-tweets.png">
 
-You can also see a short around 2AM UTC when Twitter closed the filter stream
-connection, and twarc dutifully reopened it immediately. Some additional tweets
-were dropped on the floor when this happened.
+You can also see a short drop around 2AM UTC when Twitter closed the filter
+stream connection, and twarc dutifully reopened it immediately. Some additional
+tweets were dropped on the floor when this happened.
 
 Twitter's [status/filter](https://developer.twitter.com/en/docs/tweets/filter-realtime/api-reference/post-statuses-filter.html) API endpoint actually will emit [Limit Notices](https://developer.twitter.com/en/docs/tweets/filter-realtime/guides/streaming-message-types) which are delivered right along with the tweets on the stream, and indicate how many tweets were undelivered.
 
@@ -35,7 +35,7 @@ Twitter's [status/filter](https://developer.twitter.com/en/docs/tweets/filter-re
 ```json
 {
   "limit": {
-    "track":1234
+    "track":51
   }
 }
 ```
@@ -46,18 +46,18 @@ about Twitter's internal infrastructure. But
 messages as it encounters them. For example you might see messages like this in
 your log if your data collection has been limited:
 
-```
+```text
 2019-09-13 00:13:08,866 WARNING 51 tweets undelivered
 ```
 
 So you can actually parse the log file and extract these counts to see how many
 tweets were dropped. It's important to note that the numbers are cumulative for
-the duration of the connection. We can graph the dropped we can add them to our
-graph to see if we can get a better sense of the volume of tweets.
+the duration of the connection.
 
 <img class="img-responsive" src="/images/demdebate-dropped.png">
 
-And just to drive the point home, perhaps it looks better to layer them on top of each other as an area graph:
+And just to drive the point home, it looks better to layer the received and
+dropped tweets on top of each other as an area graph:
 
 <img class="img-responsive" src="/images/demdebate-combined.png">
 
