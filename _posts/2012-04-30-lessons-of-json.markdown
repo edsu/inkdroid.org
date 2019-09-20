@@ -85,8 +85,12 @@ comments:
     the format itself similarly verbose and cluttered up with markup which just gets
     in the way."
 ---
-<p>A recent (and short) <a href="http://www.computer.org/portal/web/computingnow/computing-conversations/-/blogs/discovering-javascript-object-notation-with-douglas-crockford?_33_redirect=%2Fportal%2Fweb%2Fcomputingnow%2Fcomputing-conversations">IEEE Computing Conversations interview</a> with <a href="http://en.wikipedia.org/wiki/Douglas_Crockford">Douglas Crockford</a> about the development of <a href="http://en.wikipedia.org/wiki/JSON">JavaScript Object Notation (JSON)</a> offers some profound, and sometimes counter-intuitive, insights into standards development on the Web.</p>
-<p><iframe width="560" height="315" src="http://www.youtube.com/embed/kc8BAR7SHJI" frameborder="0" allowfullscreen></iframe></p>
+<p>A recent (and short) <a href="https://web.archive.org/web/20120503181458/http://www.computer.org/portal/web/computingnow/computing-conversations/-/blogs/discovering-javascript-object-notation-with-douglas-crockford?_33_redirect=%2Fportal%2Fweb%2Fcomputingnow%2Fcomputing-conversations">IEEE Computing Conversations interview</a> with <a href="http://en.wikipedia.org/wiki/Douglas_Crockford">Douglas Crockford</a> about the development of <a href="http://en.wikipedia.org/wiki/JSON">JavaScript Object Notation (JSON)</a> offers some profound, and sometimes counter-intuitive, insights into standards development on the Web.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kc8BAR7SHJI"
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
 <h2>Pave the Cowpaths</h2>
 <blockquote><p>
 I don't claim to have invented it, because it already existed in nature. I just saw it, recognized the value of it, gave it a name, and a description, and showed its benefits. I don't claim to be the only person to have discovered it.
