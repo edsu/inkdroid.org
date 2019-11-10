@@ -25,7 +25,15 @@ now, but I guess it illustrates my meandering career path. If you'd like me to
 visit please drop me an <a href="mailto:ehs@pobox.com">email</a>.
 
 <p class="story">
+<strong>Automating Archives: The Challenges of Investigating Large-Scale Web Archival Infrastructures</strong><br>
+with Jessica Ogden and Shawn Walker<br>
+<a href="https://mappingthehow.wordpress.com/">Mapping the <em>How</em> of Collaborative Action: CSCW 2020</a><br>
+Austin, Texas (November 10, 2019)<br>
+</p>
+
+<p class="story">
 <strong>Opening the Black Box of Save Page Now</strong><br>
+with Jessica Ogden and Shawn Walker<br>
 <a href="http://thewebthatwas.net/">The Web That Was: RESAW 2019</a><br>
 Amsterdam, Netherlands (June 21, 2019)<br>
 [<a href="resaw19.pdf">slides</a>]
