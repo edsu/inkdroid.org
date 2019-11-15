@@ -44,9 +44,8 @@ actively engaged with, in an arbitrary order, so I can get them out of my head.
 * Unlocking the Airwaves Development
 * Lakeland Community Archive Development
 * SavePageNow Research
-* Bagit Python Development
 * Enacting Appraisal (NSRL)
-* Teaching Programming
+* Computer Programming: Control, Structure and Ethics
 
 [software developer]: https://github.com/edsu
 [Maryland Institute for Technology in the Humanities]: http://mith.umd.edu
