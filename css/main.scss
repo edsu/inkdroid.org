@@ -88,3 +88,76 @@ figcaption {
   text-align: center;
 }
 
+@media(prefers-color-scheme: dark) {
+
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  .post-title a {
+    color: #33ff00;
+  }
+
+  .post-title a:hover {
+    color: #33ff00;
+  }
+
+  .post-meta {
+    color: #999;
+  }
+
+  .post-summary a {
+    color: #33ff00;
+  }
+
+  .post-summary {
+    color: #33ff00;
+  }
+
+  .navbar {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+
+  .navbar-default .navbar-nav > li a {
+    color: #33ff00;
+  }
+
+  .navbar-default .navbar-nav > li a:hover {
+    color: #33ff00;
+    text-decoration: underline;
+  }
+
+  a {
+    color: #33ff00;
+  }
+
+  a:hover {
+    color: #33ff00;
+    text-decoration: underline;
+  }
+
+  .navbar-default .navbar-brand {
+    color: #33ff00;
+  }
+
+  .navbar-default .navbar-brand:hover {
+    color: #33ff00;
+  }
+
+  img {
+  }
+
+  pre {
+    background-color: black;
+    color: white;
+  }
+
+  pre code.hljs {
+    background-color: black;
+    color: white;
+  }
+
+}
