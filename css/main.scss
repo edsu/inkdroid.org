@@ -130,6 +130,36 @@ figcaption {
     text-decoration: underline;
   }
 
+  .pagination > li > a, .pagination > li > span {
+    color: #33ff00;
+    background-color: black;
+  }
+
+  .pagination > .active {
+    background-color: #33ff00;
+    color: black;
+  } 
+
+  .pagination > li > a:hover,
+  .pagination > li > a:focus,
+  .pagination > li > span:hover,
+  .pagination > li > span:focus {
+    background-color: #33ff00;
+    color: black;
+    border-color: white;
+  }
+
+  .pagination > .active > a,
+  .pagination > .active > a:hover,
+  .pagination > .active > a:focus,
+  .pagination > .active > span,
+  .pagination > .active > span:hover,
+  .pagination > .active > span:focus {
+    background-color: #33ff00;
+    color: black;
+    border-color: white;
+  }
+
   a {
     color: #33ff00;
   }
