@@ -37,13 +37,46 @@ governmentality seem to resonate pretty strongly with @Scott:1998 as well. In re
 >
 > ... The invention of programmes of government depended upon and demanded an "avalanche of printed numbers", which rendered the population calculable by turning it into inscriptions that were durable and transportable, that could be accumulated in the offices of officials, that could be added, subtracted, compared, and contrasted. The term given to these practices of inscription was "statistics". From the seventeenth, through the eighteenth and the nineteenth centuries, statistics--the sciences of state--began to transcribe the attributes of the population in to a form in which they could enter into the calculations of rulers. Persons in the land, their ages, their places and forms of habitation, their employment, their births, illnesses, and deaths--all these were noted and transcribed. They were turned into figures, and collected together at central points; the unruly population was rendered into a form in which it could be used in political arguments and administrative decisions. [@Rose:1999, p. 5-6]
 
-Of course those "central points" were (and still are) archives. But I think Rose's argument goes deeper for my research project if you substitute "the knowledges of subjectivity" with memory practices (like those of the archive). In what ways do statistical practices, and notions of population (rendered as a state, city or community) form the fabric of what an archive is--the very conception of what archives are? In my field work I'm specifically looking at a case where explicit notions of measurement and file fixity are deployed with particular goals in mind, which in turn become cornerstones of what digital preservation means [@Kirschenbaum:2010]. These concepts are transferred from physical digital media to the web, so they are directly relevant to my research question about how web archives are constructed.
+Of course those "central points" were (and still are) archives. But I think
+Rose's argument goes deeper for my research project if you substitute "the
+knowledges of subjectivity" with memory practices (like those of archives). In
+what ways do statistical practices, and notions of population (rendered as a
+state, city or community) become possible because of archival practices--or what
+an archive is? It's remarkable how much Rose, writing in 1990, anticipated
+concerns such as the role of algorithms, machine learning and data practices
+such as those found in so called "smart cities". These are technologies of
+population measurement, that render and predict individual behavior through
+large amounts of data. *Big Data* is really just another word for archive, but
+one in which individual records are not read by a person, but by an algorithm
+that generates representations for a human to read. However these algorithms and
+representations are designed (explicitly or implicitly) with particular goals
+and outcomes in mind. 
 
-So this post is just a note to my future self, who will be actively doing data analysis and writing in the first half of 2020, so as not to forget this kind of slippery, but (I think) compelling angle on (web) archives.
+In my field work I'm specifically examining a case where explicit notions of
+measurement and file fixity are deployed with very specific goals in mind
+(forensic analysis), which (I argue) then work to articulate the larger field of
+how digital preservation is conceived [@Kirschenbaum:2010]. These are concepts
+that are that are then translated (with some difficulty) from paper records, to
+physical digital media, to the networked resources of the web--so I think they
+are directly relevant to questions about how web archives are constructed and
+conceived.
+
+The issues of trust and authenticity in archival studies are arguably as old as
+archival records themselves [@Duranti:1994]. But in what ways has this juridical
+framing of archives worked to shape what it means to archive the web?
+Furthermore my research is interested in studying practices of web archiving
+that fall outside the familiar stack of technologies the archives profession has
+become familiar with (web crawlers, WARC data, and playback technologies like
+the Wayback machine) to see how they shed light on the variety of web archiving
+projects that are underway, and their social/political impacts.
+
+So this post is really just a note to my future self (who will be actively doing
+data analysis and writing in the first half of 2020) so as not to forget how
+*governmentality* provides a useful angle on (web) archives. If you've got some
+favorite readings about how governmentality intersects with archival studies
+please [drop me a line](mailto:ehs@pobox.com).
 
 ### References
-
-
 
 [dissertation research]: https://inkdroid.org/2019/09/18/proposal/
 [here]: https://osf.io/preprints/socarxiv/75mjp/
