@@ -148,3 +148,5 @@ coming.
 [Tavistock Institute]: https://en.wikipedia.org/wiki/Tavistock_Institute
 [Governing the Soul]: https://www.goodreads.com/book/show/1660467.Governing_the_Soul
 [Nikolas Rose]: https://nikolasrose.com/
+[IPFS]: https://ipfs.io/
+[Dat]: https://dat.foundation/
