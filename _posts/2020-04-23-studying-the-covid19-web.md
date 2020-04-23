@@ -113,8 +113,7 @@ graphs in their notebooks.
 Given that Shopify claims to have started blocking shops that sold testing
 equipment I thought it could be interesting to see how many of the Shopify
 websites mention "test kit". This is pretty easy to do with warcio with some
-similar code, but this time looking at the content of the HTTP response when it
-is HTML:
+similar code, but this time looking at the HTML response content:
 
 ```python
 import re
