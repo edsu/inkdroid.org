@@ -105,10 +105,10 @@ roughly with the general trend in domains that DomainTools is tracking:
 
 <img class="img-responsive" src="/images/covid19-domains.png">
 
-So it's important to note that what we are seeing here is a picture of the
-Coranvirus Internet through the lens of DomainTools, which must also reflect
-DomainTools data collection and analysis as they do about the larger Internet.
-You can find the chart generation for these graphs in their notebooks.
+It's important to stress that what we are seeing here is as much (perhaps more)
+a picture of *how* DomainTools collects, analyzes and classifies DNS, as it is a
+picuture of the the Coronavirus web. You can find the chart generation for these
+graphs in their notebooks.
 
 Given that Shopify claimed to have started blocking shops that sold testing
 equipment I thought it could be interesting to see how many of the Shopify
