@@ -257,7 +257,7 @@ the MARC format
 [Twitter and Tear Gas: Book Review]: https://www.tandfonline.com/doi/abs/10.1080/24701475.2017.1383639
 [Automating Transparency]: https://source.opennews.org/articles/automating-transparency/
 [Algorithms and Agenda-Setting in Wikileaks' #PodestaEmails Release]: https://www.tandfonline.com/doi/abs/10.1080/1369118X.2019.1626469
-[Archival Circulation on the Web: The Vine-Tweets Dataset]: https://culturalanalytics.org/2019/06/archival-circulation-on-the-web-the-vine-tweets-dataset/
+[Archival Circulation on the Web: The Vine-Tweets Dataset]: https://culturalanalytics.org/article/11048
 [Library Linked Data Final Report]: http://www.w3.org/2005/Incubator/lld/XGR-lld-20111025/ "Library Linked Data Incubator Group Final Report"
 [SKOS Simple Knowledge Organization System Primer]: http://www.w3.org/TR/skos-primer
 [LCSH, SKOS and Linked Data]: http://dcpapers.dublincore.org/pubs/article/view/916
