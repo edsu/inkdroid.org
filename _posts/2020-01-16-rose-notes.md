@@ -27,9 +27,9 @@ created by Eric Trist, Ken Bamforth and A. K. Rice.
 > Trist and his colleagues thus claimed that the technology did not *determine*
 > the relations of work -- there were social and psychological properties that
 > were independent of technology. Hence organizations could choose how tasks
-> should be organized to promote the pscyhological and social processes that
+> should be organized to promote the psychological and social processes that
 > were conducive to efficeint, productive, and harmonious relations. The
-> analytic procedure coul, as it were, be reversed to conceptualize and
+> analytic procedure could, as it were, be reversed to conceptualize and
 > construct the details of a labour process that would be in line with both
 > technological and psychological requirements.
 >
@@ -52,7 +52,7 @@ protection of children. The emergence of social welfare and rights for children,
 and the emergence of public space of the community, with the private space of
 the family in the 19th century. That these moves weren't so much about the
 rights of children, as they were moves to provide "antidotes to social unrest"
-while create modes of social control:
+while creating modes of social control:
 
 > Further, it appeared that the extension of social regulation to the lives of
 > children actually had little to do with recognition of their rights. Children
@@ -94,7 +94,7 @@ here, not just the excerpt from Rose:
 > memory, but a document for possible use. And this new describability is all
 > the more marked in that the disciplinary framework is a strict one: the child,
 > the patient, the madman, the prisoner, were to become, with increasing ease
-> from the eighteenth century and according to a curve twhich is that of the
+> from the eighteenth century and according to a curve which is that of the
 > mechanisms of discipline, the object of individual descriptions and
 > biographical accounts. This turning of real lives into writing is no longer a
 > procedure of heroization; it functions as a procedure of objectification and
