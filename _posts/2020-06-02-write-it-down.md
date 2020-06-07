@@ -10,7 +10,8 @@ Music for writing...or to get down to writing.
 > We'll get by, I suppose  
 > But any sudden movement  
 > I've got to write it down  
-> They wipe out an entire race and I've got to write it down  
+> They wipe out an entire race and 
+> I've got to write it down  
 > But I'm still getting educated  
 > But I've got to write it down  
 > And it won't be forgotten  
