@@ -8,14 +8,17 @@ tags:
 ---
 
 I'm deep in writing the final chapters of my dissertation (wish me luck!), but
-happened to notice that a recent article that I published in Archivaria is now
-not publicly available. I wanted to drop a note here with a [link to the PDF]
-which I'm allowed to distribute. The article was available initially because of
-some loosening of access that happened during the first months of the
-Coronavirus. But it seems that the grip of academic publishing has tightened
-again, even while the grip of the Coronavirus has not. Eventually Archivaria make
-their back catalog of articles available for free on the web, but until then
-here it is.
+happened to notice that a recent article that I published in Archivaria is no
+longer publicly available. I wanted to drop a note here with a [link to the PDF]
+which I'm allowed to distribute.
+
+This article was available initially because of some loosening of access that
+happened during the first months of the Coronavirus. But it seems that the grip
+of academic publishing has tightened again, even while the grip of the
+Coronavirus has not. Eventually Archivaria make their back catalog of articles
+available for free on the web, but until then here it is.
+
+---
 
 Summers, E. (2020). [Appraisal Talk in Web Archives]. *Archivaria*, 89 (Spring), 70-102.
 
