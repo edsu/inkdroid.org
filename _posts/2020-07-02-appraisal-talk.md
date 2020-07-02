@@ -3,8 +3,8 @@ layout: post
 title: Appraisal Talk in Web Archives
 tags:
 - archives
-- writing
-- web
+- web archives
+- research
 ---
 
 I'm deep in writing the final chapters of my dissertation (wish me luck!), but
