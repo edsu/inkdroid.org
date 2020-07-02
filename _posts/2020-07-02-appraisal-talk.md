@@ -46,5 +46,13 @@ implications for the ways archivists communicate with each other and interact
 with the communities that they document. The results help ground the encounter
 between archival practice and the architecture of the Web.
 
+---
+
+I should note that I remain very grateful for the editorial guidance that I
+received from Fiorella Foscarini and Jennifer Douglas while preparing this
+article for publication. They helped refine many of the ideas in it contains,
+and specifically helped me present the application of Critical Discourse
+Analysis as a research method.
+
 [Appraisal Talk in Web Archives]: https://inkdroid.org/papers/appraisal-talk.pdf
 [link to the pdf]: https://inkdroid.org/papers/appraisal-talk.pdf
