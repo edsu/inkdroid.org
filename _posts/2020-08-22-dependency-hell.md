@@ -276,6 +276,9 @@ $ xkcd2347.py --depth 2 docnow/twarc
  unicodecsv: https://github.com/jdunck/python-unicodecsv
 ```
 
+The hierarchy could probably be better presented, at the moment a dependency is
+indented by a space.
+
 If you like you can use it as a Python library too:
 
 ```
@@ -283,12 +286,10 @@ import xkcd2347
 
 gh = xkcd2347.GitHub(key="yourkeyhere")
 
-for dep in gh.get_dependencies('docnow', 'twarc'):
+for dep in gh.get_dependencies(repo_owner='docnow', repo_name='twarc'):
     print(dep['packageName'])
 ```
 
-The hierarchy could probably be better presented, at the moment a dependency is
-indented by a space
 
 If you run it with `--level 0` it will walk as far into the dependency hierarchy
 as it can. But beware...these go very deep. The utility is smart enough to cache
