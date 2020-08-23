@@ -228,7 +228,7 @@ dependencies are managed in the project (`requirements.txt`, `pom.xml`,
 calculating some of this information?
 
 To test the API I created a small command line utility called
-[xkcd2347](https://github.com/edus/xkcd2347) which you give a GitHub repository
+[xkcd2347](https://github.com/edsu/xkcd2347) which you give a GitHub repository
 and it will print out the dependencies:
 
 ```shell
@@ -276,8 +276,8 @@ $ xkcd2347.py --depth 2 docnow/twarc
  unicodecsv: https://github.com/jdunck/python-unicodecsv
 ```
 
-The hierarchy could probably be better presented, at the moment a dependency is
-indented by a space.
+The hierarchy could probably be better displayed: currently each level of
+dependency is presented as a space.
 
 If you like you can use it as a Python library too:
 
