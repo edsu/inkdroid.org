@@ -22,30 +22,30 @@ date_gmt: '2008-07-28 13:54:42 +0000'
   <figcaption>Photo by <a href="https://twitter.com/joshuatj/status/1063207047607410689">Joshua Ng</a></figcaption>
 </figure>
 
-Hi, my name is Ed Summers, and I am a [software developer] with two decades of
-[experience] working at the intersection of libraries, archives and the World
-Wide Web. I study and work with the Web as a sociotechnical system, with an eye
-to its evolving architecture and practices of curation and preservation. I work
-at the [Maryland Institute for Technology in the Humanities] and am a PhD
-Candidate in the College of Information Studies at the University of Maryland.
+Hi! My name is Ed Summers and this is my website. I'm a [software developer]
+with two decades of [experience] working at the intersection of libraries,
+archives and the World Wide Web. I study and work with the Web as a
+sociotechnical system, with an eye to its evolving architecture and practices of
+curation and preservation. I work at the [Maryland Institute for Technology in
+the Humanities] and am a PhD Candidate in the College of Information Studies at
+the University of Maryland.
 
 If you want to get in touch please email me at [ehs@pobox.com]. You can also
-find me on Twitter as [\@edsu], Mastodon as [\@edsu@social.coop] and Scuttlebutt
-as \@n2ax/dvrm+u76UhEv6aN0MzlH0Zw7o0MOd5QIHjouSw=.ed25519
+find me on fediverse at [\@edsu@social.coop]. Once upon a time I was on Twitter
+as [\@edsu] which I don't actively use anymore. Sometimes I still dabble in
+Scuttlebutt as \@n2ax/dvrmlkjkjksjf:Sw=.ed25519 
 
 #### Projects
 
-This is a list of projects that I'm actively working on. It's not meant to be a
-fine grained list of tasks--I use other collaborative tools like Trello and
-Asana for that. It's simply a place to write down the high level things that I'm
-actively engaged with, in an arbitrary order, so I can get them out of my head.
+This is a list of projects I'm working on at the moment. It's not meant to be a
+fine grained list of tasks--I use other collaborative tools for that. It's
+simply a place to write down the high level things that I'm actively engaged
+with, in an arbitrary order, so I can see them change over time.
 
+* Teaching Digital Curation: INST341 
 * Documenting the Now Development
 * Unlocking the Airwaves Development
 * Lakeland Community Archive Development
-* SavePageNow Research
-* Enacting Appraisal (NSRL)
-* Computer Programming: Control, Structure and Ethics
 
 [software developer]: https://github.com/edsu
 [Maryland Institute for Technology in the Humanities]: http://mith.umd.edu
