@@ -1,28 +1,21 @@
 ---
-layout: page
-status: publish
-published: true
 title: Talks
-author:
-  display_name: ed
-  login: ed
-  email: ehs@pobox.com
-  url: http://www.inkdroid.org
-author_login: ed
-author_email: ehs@pobox.com
-author_url: http://www.inkdroid.org
-wordpress_id: 64
-wordpress_url: http://www.inkdroid.org/journal/talkspresentations/
-date: '2006-01-12 09:55:32 +0000'
-date_gmt: '2006-01-12 16:55:32 +0000'
-tags: []
-comments: []
+layout: page
 ---
 
-Occasionally I've given presentations about the application of information
-technology in libraries and archives. Some of this stuff looks kind of dated
-now, but I guess it illustrates my meandering career path. If you'd like me to
-visit please drop me an <a href="mailto:ehs@pobox.com">email</a>.
+Occasionally I've given or been part of presentations about the application of
+information technology in libraries and archives. Some of this stuff looks kind
+of dated now, but I guess it illustrates my meandering career path.
+
+<p class="story">
+<strong>Knowing Infrastructure</strong><br>
+Jessica Ogden, Shawn Walker and me<br>
+<a href="https://stsinfrastructures.org/content/knowing-infrastructure">Society
+for the Social Studies of Science</a><br>
+Prague, Czech Republic (August 13, 2020)<br>
+[<a href="knowing-infrastructure.mp4">video + slides</a>]
+</p>
+
 
 <p class="story">
 <strong>Automating Archives: The Challenges of Investigating Large-Scale Web Archival Infrastructures</strong><br>
