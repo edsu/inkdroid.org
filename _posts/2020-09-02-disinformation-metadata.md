@@ -12,9 +12,10 @@ as *disinformation*. This structured data is important for building tools that h
 trace how disinformation is propagating in Twitter and social media. It is also
 can provide a view into how Twitter themselves are working to combat the problem.
 
-I've looked before for the disinformation label in the Twitter API JSON and not
-seen it. I figured it could hurt to look again.  I used [this example] I don't
-see anything, do you?  ([Here](https://gist.github.com/edsu/3271d6aec4a2ed9192065425c9aeb56b) is a gist if you'd prefer the data)
+I've looked for the disinformation label in Twitter API JSON before and not seen
+it. But I figured it couldn't hurt to look again so I used [this example]. I
+don't see anything related to the label, do you?
+([gist](https://gist.github.com/edsu/3271d6aec4a2ed9192065425c9aeb56b))
 
 ```json
 {
@@ -115,7 +116,11 @@ see anything, do you?  ([Here](https://gist.github.com/edsu/3271d6aec4a2ed919206
 }
 ```
 
-I also took the opportunity to look at Twitter's new [v2 API] and see how the tweet looks there ([gist](https://gist.github.com/edsu/2e039cc078e1bb5a2e69940c8ff99e17)):
+I also took the opportunity to look at Twitter's new [v2 API] and see how the
+tweet looks there
+([gist](https://gist.github.com/edsu/2e039cc078e1bb5a2e69940c8ff99e17)). In case
+you want to give it a try yourself I put the code I used up in [this
+gist](https://gist.github.com/edsu/1e2c4fc2ea2dae90ea8fb660b708e690).
 
 ```json
 {
@@ -244,9 +249,9 @@ I also took the opportunity to look at Twitter's new [v2 API] and see how the tw
 }
 ```
 
-I still didn't see it, but maybe I missed it? I did see that according to the
-data that Donald Trump is in the class of *Person* who are "Named people in the
-world like Nelson Mandela". I mean yes, but no.
+I still didn't see it, but maybe I wasn't squinting right? I did see that
+according to the data that Donald Trump is in the class of *Person* who are
+"Named people in the world like Nelson Mandela". I mean yes, but no.
 
 When using the [v2 API] you need to indicate in the request what *fields* you
 would like to have in the response. There are set of names for the types of
@@ -301,9 +306,12 @@ tweets. I did notice that the `public_metrics` counts were all zero, so I guess 
 }
 ```
 
+For the meantime it might be useful to get support in a scraping tool like
+[twint] to see if this important metadata could be pulled out of the page.
+
 [Ilya Kreymer]: https://twitter.com/IlyaKreymer
 [this example]: https://twitter.com/realDonaldTrump/status/1297495295266357248
 [Documenting the Now Slack]: https://bit.ly/docnow-slack
 [v2 API]: https://developer.twitter.com/en/docs/twitter-api/tweets/lookup/api-reference/get-tweets
 [v1.1 Metrics API]: https://developer.twitter.com/en/docs/twitter-api/v1/metrics/get-tweet-engagement/overview
-
+[twint]: https://github.com/twintproject/twint
