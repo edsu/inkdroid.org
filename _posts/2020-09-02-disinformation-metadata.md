@@ -8,19 +8,23 @@ layout: post
 
 [Ilya Kreymer] recently asked a question over in [Documenting the Now Slack] about whether
 Twitter's API data includes information about whether a tweet has been labeled
-as *disinformation*. This structured data is important for building tools that help
-trace how disinformation is propagating in Twitter and social media. It is also
-can provide a view into how Twitter themselves are working to combat the problem.
+as *disinformation*. This structured data is important for building tools that
+help trace how disinformation is propagating in Twitter and social media more
+generally. It also can provide a view into how Twitter themselves are working to
+combat the problem.
 
 I've looked for the disinformation label in Twitter API JSON before and not seen
-it. But I figured it couldn't hurt to look again so I used [this example]. I
-don't see anything related to the label, do you?
-([gist](https://gist.github.com/edsu/3271d6aec4a2ed9192065425c9aeb56b))
+it. But I figured it couldn't hurt to look again so I used [this example]. Once
+installed it's a snap to fetch the JSON data for a tweet with [twarc]:
+
+    twarc tweet 1297495295266357248
+
+I've included the data below here and as a [gist](https://gist.github.com/edsu/3271d6aec4a2ed9192065425c9aeb56b). I don't see anything related to the label, do you?
 
 ```json
 {
   "created_at": "Sun Aug 23 11:25:59 +0000 2020",
-  "id": 1297495295266357200,
+  "id": 1297495295266357248,
   "id_str": "1297495295266357248",
   "full_text": "So now the Democrats are using Mail Drop Boxes, which are a voter security disaster. Among other things, they make it possible for a person to vote multiple times. Also, who controls them, are they placed in Republican or Democrat areas? They are not Covid sanitized. A big fraud!",
   "truncated": false,
@@ -254,20 +258,21 @@ according to the data that Donald Trump is in the class of *Person* who are
 "Named people in the world like Nelson Mandela". I mean yes, but no.
 
 When using the [v2 API] you need to indicate in the request what *fields* you
-would like to have in the response. There are set of names for the types of
+would like to have in the response. There are a set of names for the types of
 fields, such as `media.fields`, `tweet.fields`, `place.fields`, `poll.fields`
 and `user.fields`. Each of these field types has an enumerated set of assocated
-values like `duration_minutes` for a poll, or `context_annotations` for a tweet.
+values like `duration_minutes` for a poll, or `context_annotations` for a tweet,
+etc.
 
 There are lots of these enumerated values so I started by just requesting all of
 them. Interestingly this failed, and the error message I received indicated that
 I had requested field values that required elevated privileges. Once I removed
 these from the request I was able to get back the JSON I pasted above.
 
-This little error message did provide a little glimpse at what data Twitter
-don't provide to regular API developer accounts. I had to remove
-`non_public_metrics` from `media_fields` and `tweet_fields` because the
-following fields required additional permissions:
+This little error message did provide a glimpse of what data Twitter don't
+provide to regular API developer accounts through the v2 API. For example I had
+to remove `non_public_metrics` from `media_fields` and `tweet_fields` because
+the following fields required additional permissions:
 
 * non_public_metrics.impression_count
 * non_public_metrics.url_link_clicks
@@ -306,8 +311,9 @@ tweets. I did notice that the `public_metrics` counts were all zero, so I guess 
 }
 ```
 
-For the meantime it might be useful to get support in a scraping tool like
-[twint] to see if this important metadata could be pulled out of the page.
+As much as I might wish that to be true I know it's not. For the meantime it
+might be useful to get support in a scraping tool like [twint] to see if this
+important metadata could be pulled out of the page.
 
 [Ilya Kreymer]: https://twitter.com/IlyaKreymer
 [this example]: https://twitter.com/realDonaldTrump/status/1297495295266357248
@@ -315,3 +321,4 @@ For the meantime it might be useful to get support in a scraping tool like
 [v2 API]: https://developer.twitter.com/en/docs/twitter-api/tweets/lookup/api-reference/get-tweets
 [v1.1 Metrics API]: https://developer.twitter.com/en/docs/twitter-api/v1/metrics/get-tweet-engagement/overview
 [twint]: https://github.com/twintproject/twint
+[twarc]: https://github.com/docnow/twarc
