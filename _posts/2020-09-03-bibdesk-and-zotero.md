@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BibDesk and Zotero
+title: BibDesk, Zotero and JabRef 
 tags:
 - metadata
 ---
@@ -110,6 +110,26 @@ Hopefully this helps someone sometime, but if not, it certainly helped me :)
     $ pip install bibdesk2zotero
     $ bibdesk2zotero citations.bib /home/ed/DropBox/BibDesk/ > new-citations.bib
 
+Update:
+
+It turns out Zotero doesn't respect *citation-keys* on import. It
+generates new ones! Ordinarily I guess this would be OK. But for me it is a
+problem because I don't want to have to update all the citation-keys I have
+littered around my dissertation manuscript and in my blog. In theory I could do
+it, but if it could be avoided that would be best. 
+
+This sent me looking at [JabRef] which looks a lot cleaner and functional and
+maps much better on to how I used BibDesk since it treats the BibTeX file as a
+database and not just as an import and export format. Plus the munging of the
+BibTeX I did in order to decode the file paths works for JabRef as well!
+
+<figure>
+  <a href="/images/jabref.png">
+    <img class="img-responsive" src="/images/jabref.png">
+  </a>
+  <figcaption>A screenshot of JabRef</figcaption>
+</figure>
+
 
 [just]: https://www.nytimes.com/2020/08/19/technology/apple-2-trillion.html
 [gross]: https://www.vice.com/en_us/article/wjvdb4/apple-is-telling-lawmakers-people-will-hurt-themselves-if-they-try-to-fix-iphones
@@ -119,3 +139,4 @@ Hopefully this helps someone sometime, but if not, it certainly helped me :)
 [pybtex]: https://pybtex.org/
 [bibdesk2zotero]: https://pypi.org/project/bibdesk2zotero/
 [BibDesk]: https://bibdesk.sourceforge.io/
+[JabRef]: https://www.jabref.org/
