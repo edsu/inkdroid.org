@@ -5,10 +5,11 @@ tags:
 - metadata
 ---
 
-I've recently moved off of OS X after 10 years of use. Partly it was just time
-for a change, but partly Apple is [just] [gross] and I needed to press eject.
+I've recently moved off of OS X and on to Ubuntu. My decision was partly
+motivated by recent hardware failure,  partly it was just time for a change, but
+you know honestly Apple is [just] kinda [gross] and I needed to press eject.
 Before I switched to Apple ~10 years ago I had been using various Linux based
-systems pretty happily. Honestly, I don't even remember why I switched back
+systems pretty happily.  Honestly, I don't even remember why I switched back
 then. It was probably some mixture of being able to get a work laptop for free
 and peer pressure.
 
@@ -23,7 +24,7 @@ cite things here on my blog. But most importantly it kept a link between my
 bibliographic metadata and the two thousand or so PDF and EPUB files I've
 <strike>pirated</strike> collected, which sit on a DropBox share. Having these
 papers ready to hand was essential to me when writing. It's hard to imagine any
-other way of doing this research work.
+other way of doing my research.
 
 But alas BibDesk is Mac only. After a bit of looking around I thought I'd try
 giving Zotero a try. It has a BibTeX importer, which worked pretty well. But
@@ -58,17 +59,11 @@ so that they don't break the syntax of a BibTeX record.  Here's what the file
 path looks like when you Base64 decode it:
 
 ```
-bplist00Ò\relativePathYaliasData_@papers/Berg/The multiple bodies of the medical
-record Toward.pdfOððMacOSXBDÿÿÿÿThe multiple bodie#FFFFFFFF.pdfÿÿÿÿ
- cuBerg]/:Users:edsu:Dropbox:BibDesk:papers:Berg:The multiple bodies of the
- medical record Toward.pdfj4The multiple bodies of the medical record
- Toward.pdfMacOSX[Users/edsu/Dropbox/BibDesk/papers/Berg/The multiple bodies of
- the medical record Toward.pdf/
- $g[
+bplist00Ò\relativePathYaliasData_@papers/Berg/The multiple bodies of the medical record Toward.pdfOððMacOSXBDÿÿÿÿThe multiple bodie#FFFFFFFF.pdfÿÿÿÿ cuBerg]/:Users:edsu:Dropbox:BibDesk:papers:Berg:The multiple bodies of the medical record Toward.pdfj4The multiple bodies of the medical record Toward.pdfMacOSX[Users/edsu/Dropbox/BibDesk/papers/Berg/The multiple bodies of the medical record Toward.pdf/ $g[
 ```
 
 This doesn't even serialize well in a blog entry because there are various
-control characters sprinkled all over. We can see some useful information is
+control characters sprinkled all over. I can see some useful information is
 starting to emerge, but it doesn't look like it is encoded right. That's because
 it's an OS X only binary format for structured data called a [Property List].
 You know, maybe JSON would have been a better choice here, but I'm sure there
@@ -96,13 +91,13 @@ Which will print out:
 ```
 
 It may be hard to tell but this is a Python dictionary! There's still some
-binary data in there for the `aliasMetadata` (shrug) but all I really need is in
-the `relativePath`.  It's the path to the PDF for this bibliographic entry on my
-DropBox share:
+binary data in there for the `aliasMetadata` (who knows) but all I really need
+is in the `relativePath`.  It's the path to the PDF for this bibliographic entry
+on my DropBox share:
 
-    'papers/Berg/The multiple bodies of the medical record Toward.pdf'
+    papers/Berg/The multiple bodies of the medical record Toward.pdf
 
-So now I just need to read in my BibTeX file, convert all the `Bdsk-File-n`
+So now I just needed to read in my BibTeX file, convert all the `Bdsk-File-n`
 files (there can be more than one), and add them as `File` fields so that Zotero
 can find them. I turned to the venerable [pybtex] module to do the parsing and
 writing of the BibTeX data.
