@@ -5,7 +5,7 @@ indexes:
 	touch index.html
 
 bib:
-	cp ~/Dropbox/BibDesk/citations.bib citations.bib
+	cp ~/Dropbox/JabRef/citations.bib citations.bib
 
 serve: indexes bib
 	jekyll serve 
