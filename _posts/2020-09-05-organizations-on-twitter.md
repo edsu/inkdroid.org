@@ -72,6 +72,10 @@ Wikipedia instead of relying on conventions in English Wikipedia.
 
 But I leave those ideas for another day...
 
+Update 2020-09-06: Another day came and the results for this use case were very low (2/50). I
+tried again with a different approach of using Google's top result and looking
+for links in there, which found 30/50. The code is up on GitHub as [luckysocial](https://github.com/edsu/luckysocial)
+
 [air-l]: http://listserv.aoir.org/pipermail/air-l-aoir.org/2020-September/080004.html
 [the thread]: http://listserv.aoir.org/pipermail/air-l-aoir.org/2020-September/080004.html
 [a Jupyter notebook]: https://colab.research.google.com/drive/1OfKcSrwm3Q1VaLIiply5zz6cCDX_QdFJ
