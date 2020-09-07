@@ -76,6 +76,13 @@ Update 2020-09-06: Another day came and the results for this use case were very 
 tried again with a different approach of using Google's top result and looking
 for links in there, which found 30/50. The code is up on GitHub as [luckysocial](https://github.com/edsu/luckysocial)
 
+Update 2020-09-07: Another day came and I turned it into a command line utility
+that you can install with `pip install luckysocial`. If you happen to know the
+URL for a website already you can use the `--url-col` option to skip the Google
+lookup and head straight to extracting the accounts from the page. Oh, and it
+will also look for Facebook, Instagram, YouTube and RSS feeds now, in addition
+to Twitter.
+
 [air-l]: http://listserv.aoir.org/pipermail/air-l-aoir.org/2020-September/080004.html
 [the thread]: http://listserv.aoir.org/pipermail/air-l-aoir.org/2020-September/080004.html
 [a Jupyter notebook]: https://colab.research.google.com/drive/1OfKcSrwm3Q1VaLIiply5zz6cCDX_QdFJ
