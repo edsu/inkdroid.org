@@ -81,7 +81,15 @@ that you can install with `pip install luckysocial`. If you happen to know the
 URL for a website already you can use the `--url-col` option to skip the Google
 lookup and head straight to extracting the accounts from the page. Oh, and it
 will also look for Facebook, Instagram, YouTube and RSS feeds now, in addition
-to Twitter.
+to Twitter. For example:
+
+    % luckysocial "uc santa barbara"
+
+    name: uc santa barbara
+    homepage: https://www.ucsb.edu/
+    twitter: https://twitter.com/ucsantabarbara
+    facebook: https://www.facebook.com/ucsantabarbara
+    instagram: https://www.instagram.com/ucsantabarbara
 
 [air-l]: http://listserv.aoir.org/pipermail/air-l-aoir.org/2020-September/080004.html
 [the thread]: http://listserv.aoir.org/pipermail/air-l-aoir.org/2020-September/080004.html
