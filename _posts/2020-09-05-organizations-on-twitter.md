@@ -20,7 +20,7 @@ organization in the first place, which might be a stretch depending on what
 organizations you are looking for. This particular list was of non-profits, so
 there might be a chance.
 
-I coded up the experiment over in Colab as [a Jupyter notebook]. I was fun to
+I coded up the experiment over in Colab as [a Jupyter notebook]. It was fun to
 decompose the problem into discrete functions that perform and test each step
 and then combine them all at the end to create a function that takes an
 organization name and returns the Twitter account. You can see that it does
