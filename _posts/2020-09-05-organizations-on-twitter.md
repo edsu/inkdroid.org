@@ -91,6 +91,8 @@ to Twitter. For example:
     facebook: https://www.facebook.com/ucsantabarbara
     instagram: https://www.instagram.com/ucsantabarbara
 
+Read more about it [here](https://inkdroid.org/2020/09/08/rss/).
+
 [air-l]: http://listserv.aoir.org/pipermail/air-l-aoir.org/2020-September/080004.html
 [the thread]: http://listserv.aoir.org/pipermail/air-l-aoir.org/2020-September/080004.html
 [a Jupyter notebook]: https://colab.research.google.com/drive/1OfKcSrwm3Q1VaLIiply5zz6cCDX_QdFJ
