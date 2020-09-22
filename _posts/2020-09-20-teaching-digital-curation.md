@@ -17,15 +17,15 @@ privilege either approach. A sociotechnical framing of information studies has
 been extremely important in my own research, but asking undergraduates to dive
 into the STS literature is asking for a lot I think. I want to whet their
 appetite for STS approaches (maybe they will take a senior seminar or go on to
-grad school). But I also want to give them some useful *knowledge* and *skills*
-that they can use in their current and future work.
+grad school). But I also want them to gain some *knowledge* and *skills* that
+they can use in their current and future work.
 
 I think it is also critically important to situate the study of digital curation
 so that it isn't simply an esoteric matter that's only relevant for cultural
 heritage organizations. Digital curation is set of concerns and practices that
 are present in students' every day lives, and can be found all throughout
-society--and practices have real, social and political consequences.  Jobs in
-the GLAM sector or digital humanities can be difficult to find, and the
+society--and these practices have real, social and political consequences.  Jobs
+in the GLAM sector or digital humanities can be difficult to find, and the
 practices of digital curation extend into several fields: data science, data
 visualization, computer security, software development, etc. I think it's
 important to show the continuity between these areas of expertise when teaching
