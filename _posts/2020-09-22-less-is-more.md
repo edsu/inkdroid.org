@@ -63,30 +63,31 @@ describe his process for designing web standards like HTML:
 Ok, so what does a all this have to do with a list of numbers? To understand
 that I need to quickly tell you about three interrelated problems we encountered
 on the [Documenting the Now] project (they should sound familiar). Documenting
-the Now is a project (thank you Mellon Foundation) that is building a community
-of practice for social media and web archiving that centers the rights, safety
-and voices of content creators. The project started in 2014 in the wake of the
-murder of Michael Brown in Ferguson, Missouri with the recognition that:
+the Now is a project (thank you Mellon Foundation) that is cultivating a
+community of practice for social media and web archiving that centers the
+rights, safety and voices of content creators. The project started in 2014 in
+the wake of the murder of Michael Brown in Ferguson, Missouri with the
+recognition that:
 
 1. Social media presents a huge opportunity for documenting previously
-   undocumented historical events. However cultural organizations steer clear of
-   engaging in it because of concerns about how to provide meaningful access
-   without harming the people doing the documentation. For more about this
-   please see Michelle Caswell's keynote [Whose Digital Preservation?] from last
-   year.
+   undocumented historical events. However cultural organizations often
+   (rightly) steer clear of engaging in it because of concerns about how to
+   provide meaningful access without harming the people doing the documentation.
+   You may remember this subject being described last year at iPRES by Michelle
+   Caswell's in her keynote: [Whose Digital Preservation?].
 2. Researchers of all disciplinary stripes routinely create collections of
-   social media for use as data in their research. But they were by and large
-   not providing access to these collections because platforms forbade it.
+   social media for use as data in their research. But by and large they do not
+   provide access to these collections because social media platforms forbid it.
 3. Content creators in social media have little control over how their data is
-   being used in archives, and are largely a commodity in surveillance
-   capitalism [@Zuboff:2015]. 
+   being used in archives, and instead are the subject of widespread
+   *surveillance capitalism* [@Zuboff:2015]. 
 
 Why would we want to wade into this river you might ask? Honestly, it was the
 voices of [the activists] [in Ferguson] that kept us going as we tried to find
-what we could do so that their work was not forgotten. It is worth saying
+what we could do so that their work was not forgotten. It is worth stating
 clearly at this point, that *there is no technical-fix* for this problem.
-Memory is a people problem. Tools can help but they aren't going to solve this
-problem. 
+Memory is a people problem. Tools can help (and hurt), but there is no silver
+bullet [@Stiegler:2012 ; @Brooks:1975].
 
 Over the past five years we've developed a few tools that can be used separately
 or in combination to address parts of these problems given the right set of
@@ -158,7 +159,7 @@ properties. Use this value lever wisely!
 
 [Whose Digital Preservation?]: https://www.youtube.com/watch?v=atX14DDvKbw
 
-[that]: https://www.docnow.io
+[that]: https://github.com/docnow/docnow#readme
 
 [some]: https://twitter.com/realDonaldTrump
 
