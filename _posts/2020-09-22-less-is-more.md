@@ -146,6 +146,8 @@ are slides containing a bee, a cat and a bell.
 
 ---
 
+### References
+
 [iPRES 2020]: https://www.dpconline.org/events/wemissipres
 
 [Future Proofing the Web]: https://ipres-conference.org/ipres05/download/Future-Proofing%20The%20Web%20What%20We%20Can%20Do%20Today%20-%20John%20Kunze.pdf
