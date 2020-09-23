@@ -139,6 +139,13 @@ properties. Use this value lever wisely!
 
 ---
 
+Here is an audio version of this post with some slides. Spoiler Alert: there
+are slides containing a bee, a cat and a bell.
+
+<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" src="https://tube.nocturlab.fr/videos/embed/098178e4-8f0a-43ff-b78f-f34258060114" frameborder="0" allowfullscreen></iframe>
+
+---
+
 [iPRES 2020]: https://www.dpconline.org/events/wemissipres
 
 [Future Proofing the Web]: https://ipres-conference.org/ipres05/download/Future-Proofing%20The%20Web%20What%20We%20Can%20Do%20Today%20-%20John%20Kunze.pdf
