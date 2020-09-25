@@ -21,9 +21,6 @@ build: indexes
 rsync:
 	rsync -ar --exclude '.dat' --rsh='ssh -p22334' _site/ ed@inkdroid.org:/var/www/inkdroid.org
 
-dat:
-	cd _site ; dat sync
-
 resume: 
 	pandoc cv-short.md -o cv-short.pdf
 	pandoc cv-short.md -o cv-short.docx
