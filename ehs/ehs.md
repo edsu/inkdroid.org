@@ -3,9 +3,8 @@
 Silver Spring, Maryland, USA  
 
 <ehs@pobox.com>  
-<http://inkdroid.org>  
-<http://twitter.com/edsu>  
-<http://github.com/edsu>
+<https://inkdroid.org>  
+<https://github.com/edsu>
 
 I am a researcher and software developer with two decades of experience
 bridging the worlds of libraries and archives with the World Wide Web. I have
