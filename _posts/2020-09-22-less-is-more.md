@@ -60,7 +60,7 @@ describe his process for designing web standards like HTML:
 > "Rule of Least Power" suggests choosing the least powerful language suitable
 > for a given purpose. 
 
-Ok, so what does a all this have to do with a list of numbers? To understand
+Ok, so what does all this have to do with a list of numbers? To understand
 that I need to quickly tell you about three interrelated problems we encountered
 on the [Documenting the Now] project (they should sound familiar). Documenting
 the Now is a project (thank you Mellon Foundation) that is cultivating a
@@ -98,7 +98,7 @@ documenting the events in Ferguson:
 1. Twitter do not allow data to be collected from them and then reshared with
    third parties. It's bad for business, because they want to sell it. But they
    do allow the sharing tweet identifiers (long numbers like above), and
-   [explicitly] encourage academic researchers to do this. Why not encourage he
+   [explicitly] encourage academic researchers to do this. Why not encourage the
    sharing of tweet id datasets in digital repositories and provide a view into
    them as a whole. That's why we created [The Catalog](https://catalog.docnow.io/).
 
