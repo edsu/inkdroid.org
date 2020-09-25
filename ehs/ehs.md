@@ -7,14 +7,13 @@ Silver Spring, Maryland, USA
 <http://twitter.com/edsu>  
 <http://github.com/edsu>
 
-I am a researcher and software developer with two decades of experience bridging
-the worlds of libraries and archives with the World Wide Web. I have worked in
-academia, startups, corporations and government. I work best in agile, highly
-collaborative teams. I work best as a member of agile, highly collaborative
-teams that focus on furthering social justice work through community building,
-knowledge sharing and attention to sustainability. In my research I am
-particularly interested in the medial forms of archives, memory and the
-sociotechnical practices that support them.
+I am a researcher and software developer with two decades of experience
+bridging the worlds of libraries and archives with the World Wide Web. I have
+worked in academia, startups, corporations and government. I work best as a
+member of agile, highly collaborative teams that focus on furthering social
+justice work through community building, knowledge sharing and a commitment
+sustainability. In my research I am particularly interested in sociotechnical
+approaches to memory work.
 
 ## Skills
 
