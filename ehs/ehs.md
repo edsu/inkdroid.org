@@ -204,7 +204,9 @@ the MARC format
 
 ## Selected Publications
 
-* [Archival Circulation on the Web: The Vine-Tweets Dataset]. Cultural Analytics. June, 2019.
+* [Appraisal Talk in Web Archives]. Arcivaria. May, 2020.
+* [Archival Circulation on the Web: The Vine-Tweets Dataset]. Cultural
+Analytics. June, 2019.
 * [Algorithms and Agenda-Setting in Wikileaks' #PodestaEmails Release]. Information, Communication & Society. 2019
 * [Appraisal Practices in Web Archives]. SocArXiv Papers, 2018.
 * [Twitter and Tear Gas: Book Review]. Internet Histories, 2017.
@@ -252,6 +254,7 @@ the MARC format
 * 2015 [Frederick G. Kilgour Award for Research in Library and Information Technology](http://www.ala.org/news/press-releases/2015/03/ed-summers-recipient-2015-kilgour-award).  American Library Association.
 * 2015 Shorty Award. 
 
+[Appraisal Talk in Web Archives]: https://inkdroid.org/papers/appraisal-talk.pdf
 [Appraisal Practices in Web Archives]: https://osf.io/preprints/socarxiv/75mjp/
 [Twitter and Tear Gas: Book Review]: https://www.tandfonline.com/doi/abs/10.1080/24701475.2017.1383639
 [Automating Transparency]: https://source.opennews.org/articles/automating-transparency/
