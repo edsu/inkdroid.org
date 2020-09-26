@@ -15,22 +15,23 @@ just one URL:
 As you can see this is the endpoint for Facebook's [GraphQL API]. Unlike the
 typical [REST API], where there are different URL names for resources, GraphQL
 requires a client to HTTP POST a query expressed as a JSON object in order to
-get back a JSON response that matches the shape of the query. This idea is
-generally known as [query-by-example], where the exchange is kind of like a
-fill-in-the-blank [MadLibs] game where the client provides the fill-in-the blank
-statement and the service fills-in-the-blanks and returns it. Maybe
-[Cards-Against-Humanity] is a more contemporary example. Facebook promulgated
-the GraphQL standard and it's used quite a bit now, notably on GitHub.
+get back a JSON response that matches the shape of the query.
+
+This pattern is generally known as [query-by-example], where the exchange is
+kind of like a fill-in-the-blank [MadLibs] game where the client provides the
+fill-in-the blank statement and the service fills-in-the-blanks and returns it.
+Maybe [Cards-Against-Humanity] is a better morecontemporary example. Facebook
+promulgated the GraphQL standard and it's used quite a bit now, notably on
+GitHub.
 
 Anyway, most web archiving tools include a bot that wanders around some region
 of the web following URL links, saving what is retrieved and looking for more
 URLs, rinse-lather-repeat. The crawlers use HTTP GET requests to fetch
-representations of resources using the URL. This technique won't really work
-crawlers. Archiving bots or tools like Webrecorder and [Brozzler] that load and
-interact with the DOM using some set of user driven or automated behaviors have
-more luck recording. Andy Jackson [ventured] that Facebook may be intentionally
-designing their JavaScript this way to ensure that their content doesn't get
-archived.
+representations of resources using the URL. This crawling the web with GET
+requests won't really work with Facebook because the bot needs to do a POST, and
+needs to know what data to post. Archiving bots or tools like Webrecorder and
+[Brozzler] that load and interact with the DOM using some set of user driven or
+automated behaviors have much more luck recording.
 
 But even Webrecorder has trouble playing back the archived data because it needs
 to determine which response is appropriate in the archive for a given user
@@ -46,7 +47,11 @@ fuzziness need to change as Facebook changes their applications. So if the rule
 is to look for a particular id by name, and the name for that id changes, then
 the fuzzy matching will break. Or if the data includes some kind of timestamp
 generated at runtime during playback then that would cause a match to fail
-unless it was ignored.
+unless it was ignored. Andy Jackson [ventured] that Facebook may be
+intentionally designing their JavaScript this way to ensure that their content
+doesn't get archived. It's hard to say for sure, but they certainly have always
+tried to keep users in their platform, so it wouldn't be surprising, although
+they probably have some catchy euphemism for it.
 
 I'm not actually sure if FB's GraphQL interface is something that Webrecorder
 has tackled yet, since I don't see `/api/graphql` in the current list of
