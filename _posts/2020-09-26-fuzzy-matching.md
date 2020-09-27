@@ -47,20 +47,43 @@ fuzziness need to change as Facebook changes their applications. So if the rule
 is to look for a particular id by name, and the name for that id changes, then
 the fuzzy matching will break. Or if the data includes some kind of timestamp
 generated at runtime during playback then that would cause a match to fail
-unless it was ignored. Andy Jackson [ventured] that Facebook may be
-intentionally designing their JavaScript this way to ensure that their content
-doesn't get archived. It's hard to say for sure, but they certainly have always
-tried to keep users in their platform, so it wouldn't be surprising, although
-they probably have some catchy euphemism for it.
+unless it was ignored.
 
-I'm not actually sure if FB's GraphQL interface is something that Webrecorder
-has tackled yet, since I don't see `/api/graphql` in the current list of
-[rules]. But there does seem to be an `/api/graphqlbatch` in there. But even if
-there are good rules if the archive is large there could be a lot of records to
-sift through if the fuzzy parameters aren't somehow baked into the index.
-Obviously I'm just thinking out loud here, but I thought I'd jot this all down
-as a reminder to dig a little deeper in the future.
+Andy Jackson [ventured] that Facebook may be intentionally designing their
+JavaScript this way to ensure that their content doesn't get archived. It's hard
+to say for sure, but they certainly have always tried to keep users in their
+platform, so it wouldn't be surprising. It's sort of fun to imagine what catchy
+marketing-speak name they might use for the technique in meetings, like
+brand-loyalty-policy, customer-content-guards, content-protection-framework,
+boundary-rules or...build-that-wall. Ok, it's not really that much fun.
 
+I'm not actually sure if Facebook's GraphQL interface is something that
+Webrecorder has tackled yet, since I don't see `/api/graphql` in the current
+list of [rules].  But there does seem to be an `/api/graphqlbatch` in there. But
+even if there are good rules if the archive is large there could be a lot of
+records to sift through if the fuzzy parameters aren't somehow baked into the
+index.  Obviously I'm just thinking out loud here, but I thought I'd jot this
+all down as a reminder to dig a little deeper in the future.
+
+One last note is that Ilya led a presentation at a recent [IIPC meeting] to
+socialize some of the problems around reliably being able to crawl the social
+web. He suggested that the problem isn't just technical and has a social
+component. People interested in archiving the social web need to work together
+to maintain them as the inevitable changes occur on the platforms which
+complicate recording and playback. He described how the Webrecorder project is
+setting up a continuous integration tools to regularly run a test suite checking
+that captures are working. When they fail we need a group of dedicated people on
+hand who can notice the failure and work on a fix and get it deployed.
+
+I think Ilya is right. But part of the opportunity here is to make this
+community a bit broader a bit broader than the national libraries and cultural
+heritage organizations in the IIPC. Although starting there makes a lot of
+sense. One possible partner would be media organizations who routinely cite
+social media in their own content. Having accurate, authoritative web archives
+for the content they are citing seems like a very important thing to have.
+Innovations like Webrecorder's [replayweb.page] could offer newsrooms a rich way
+of presenting social media content from platforms like Twitter and Facebook
+without being entirely reliant on the content staying available.
 
 [interesting discussion]: https://forum.webrecorder.net/t/archiving-facebook/37
 [GraphQL API]: https://developers.facebook.com/docs/graph-api/
@@ -71,3 +94,7 @@ as a reminder to dig a little deeper in the future.
 [rules]: https://github.com/webrecorder/pywb/blob/master/pywb/rules.yaml
 [ventured]: https://digipres.club/@anj/104932687238894116 
 [Cards-Against-Humanity]: https://en.wikipedia.org/wiki/Cards_Against_Humanity
+
+[IIPC meeting]: https://netpreserve.org/events/iipc-rss-webinar-web-archiving-social-media-and-news-websites-ii/
+
+[replayweb.page]: https://replayweb.page/
