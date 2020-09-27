@@ -20,7 +20,7 @@ get back a JSON response that matches the shape of the query.
 This pattern is generally known as [query-by-example], where the exchange is
 kind of like a fill-in-the-blank [MadLibs] game where the client provides the
 fill-in-the blank statement and the service fills-in-the-blanks and returns it.
-Maybe [Cards-Against-Humanity] is a better morecontemporary example. Facebook
+Maybe [Cards-Against-Humanity] is a better, more contemporary example. Facebook
 promulgated the GraphQL standard and it's used quite a bit now, notably on
 GitHub.
 
