@@ -8,8 +8,8 @@ tags:
 
 We just finished the third module in the [Intro to Digital Curation] class that
 I'm teaching this semester. The first module was mostly us getting our
-bearings, and the second was learning about how confusing a term [digital
-object] is, and [getting acquainted] with interacting with the file system.
+bearings, and the second was learning about how confusing the term *digital
+object* is, and [getting acquainted] with interacting with the file system.
 
 The overarching goal of the class is to start with seeming simple ideas like
 digital objects, and files and keep zooming out until the last module where we
