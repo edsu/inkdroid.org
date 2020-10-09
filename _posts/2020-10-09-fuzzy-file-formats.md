@@ -1,5 +1,6 @@
 ---
 title: Fuzzy File Formats
+layout: post
 tags:
 - teaching
 - digital curation
