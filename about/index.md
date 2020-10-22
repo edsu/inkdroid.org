@@ -23,12 +23,11 @@ date_gmt: '2008-07-28 13:54:42 +0000'
 </figure>
 
 Hi! My name is Ed Summers and this is my website. I'm a [software developer]
-with two decades of [experience] working at the intersection of libraries,
-archives and the World Wide Web. I study and work with the Web as a
-sociotechnical system, with an eye to its evolving architecture and practices of
-curation and preservation. I work at the [Maryland Institute for Technology in
-the Humanities] and am a PhD Candidate in the College of Information Studies at
-the University of Maryland.
+[working] at the intersection of libraries, archives and the World Wide Web.
+I study and work with the Web as a sociotechnical system, with an eye to its
+evolving architecture and practices of curation and preservation. I work at the
+[Maryland Institute for Technology in the Humanities] and am a PhD Candidate in
+the College of Information Studies at the University of Maryland.
 
 If you want to get in touch please email me at [ehs@pobox.com]. You can also
 find me on fediverse at [\@edsu@social.coop]. Once upon a time I was on Twitter
@@ -49,7 +48,7 @@ with, in an arbitrary order, so I can see them change over time.
 
 [software developer]: https://github.com/edsu
 [Maryland Institute for Technology in the Humanities]: http://mith.umd.edu
-[experience]: http://inkdroid.org/ehs/
+[working]: http://inkdroid.org/ehs/
 [ehs@pobox.com]: mailto:ehs@pobox.com
 [\@edsu]: https://twitter.com/edsu
 [\@edsu@social.coop]: https://social.coop/@edsu
