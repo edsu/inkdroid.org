@@ -22,17 +22,17 @@ date_gmt: '2008-07-28 13:54:42 +0000'
   <figcaption>Photo by <a href="https://twitter.com/joshuatj/status/1063207047607410689">Joshua Ng</a></figcaption>
 </figure>
 
-Hi! My name is Ed Summers and this is my website. I'm a [software developer]
-[working] at the intersection of libraries, archives and the World Wide Web.
-I study and work with the Web as a sociotechnical system, with an eye to its
-evolving architecture and practices of curation and preservation. I work at the
-[Maryland Institute for Technology in the Humanities] and am a PhD Candidate in
-the College of Information Studies at the University of Maryland.
+Hi! My name is Ed Summers and this is my website. I'm a [software developer],
+teacher and researcher [working] at the intersection of libraries, archives and
+the World Wide Web. I'm interested in how the Web functions as a sociotechnical
+system, especially with regard to memory practices such as curation and
+preservation. I am currently working at the [Maryland Institute for Technology
+in the Humanities] and am a PhD Candidate in the College of Information Studies
+at the University of Maryland.
 
 If you want to get in touch please email me at [ehs@pobox.com]. You can also
 find me on fediverse at [\@edsu@social.coop]. Once upon a time I was on Twitter
-as [\@edsu] which I don't actively use anymore. Sometimes I still dabble in
-Scuttlebutt as \@n2ax/dvrmlkjkjksjf:Sw=.ed25519 
+as [\@edsu] but I don't actively it anymore.
 
 #### Projects
 
