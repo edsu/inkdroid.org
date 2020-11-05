@@ -32,7 +32,7 @@ at the University of Maryland.
 
 If you want to get in touch please email me at [ehs@pobox.com]. You can also
 find me on fediverse at [\@edsu@social.coop]. Once upon a time I was on Twitter
-as [\@edsu] but I don't actively it anymore.
+as [\@edsu] but I don't actively use it anymore.
 
 #### Projects
 
