@@ -33,8 +33,16 @@ the tools it has developed, as the project draws down on its grant funding and
 moves into sustaining some of the things it has started. Perhaps it would be
 useful for other projects like [Webrecorder] potentially too?
 
+PS. It's enabled here on my blog for people who have their browser/os set to
+dark mode.
+
+<a href="/images/dark-mode.png">
+  <img class="img-responsive" src="/images/dark-mode.png">
+</a>
+
 [Dark Reader]: https://darkreader.org/
 [Open Collective]: https://opencollective.com/darkreader
 [dark mode]: https://en.wikipedia.org/wiki/Light-on-dark_color_scheme
 [eyes]: https://inkdroid.org/2020/10/14/fuzzy-eyesight/
 [social.coop]: https://social.coop
+[Webrecorder]: https://webrecorder.net
