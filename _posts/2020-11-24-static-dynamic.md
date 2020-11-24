@@ -122,12 +122,13 @@ a build of the website to be deployed.
 
 We have a program that runs from cron every few minutes and looks at this table
 and then decides whether a build of the site is needed. It is still early days
-so I'm not sure how well this approach will work in practice. It definitely
-took a bit of thinking to come up with an approach where the release program
-used this Airtable row as
+so I'm not sure how well this approach will work in practice. It took a little
+bit of head scratching to come up with an initial solution where the release
+program uses this Airtable row as
 a [lock](https://en.wikipedia.org/wiki/Mutual_exclusion) to prevent multiple
 deploy processes from starting at the same time. Experience will show if we got
-this right. Let me know if you are interested in the details.
+this right. [Let me know](mailto:ehs@pobox.com) if you are interested in the
+details.
 
 But stepping back a moment I think it's interesting how static site web
 technology simultaneously creates a site of static content, while also pushing
@@ -144,3 +145,5 @@ extraction as well. What economies are our data participating in?
 This is all to say that understanding the motivations to go static are
 complicated, and more work could be done to strategically think through some of
 these design decisions in a repeatable and generative way.
+
+### References
