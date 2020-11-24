@@ -1,4 +1,5 @@
 ---
+date: 2020-11-24 17:00:16
 layout: post
 title: Static-Dynamic
 tags:
@@ -23,9 +24,9 @@ the value of static site technology, especially in humanities scholarship.
 
 The underlying idea here is that a *static site* makes the content more
 resilient, or less prone to failure over time, because there are less moving
-pieces involved in keeping it in and on the web. The pieces that *are* moving
-are tried-and-true software like web browsers and web servers, instead of
-pieces of software that have had less eyes on them (my code). The web has
+pieces involved in keeping it both *in* and *on* the web. The pieces that *are*
+moving are tried-and-true software like web browsers and web servers, instead
+of pieces of software that have had less eyes on them (my code). The web has
 changed *a lot* over its lifetime, but the standards and software of the web
 have stayed remarkably backwards compatible [@Rosenthal:2010]. There is long
 term value in mainstreaming your web publishing practices and investing in
