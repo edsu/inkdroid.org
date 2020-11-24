@@ -24,7 +24,7 @@ the value of static site technology, especially in humanities scholarship.
 
 The underlying idea here is that a *static site* makes the content more
 resilient, or less prone to failure over time, because there are less moving
-pieces involved in keeping it both *in* and *on* the web. The pieces that *are*
+pieces involved in keeping it both *on* and *of* the web. The pieces that *are*
 moving are tried-and-true software like web browsers and web servers, instead
 of pieces of software that have had less eyes on them (my code). The web has
 changed *a lot* over its lifetime, but the standards and software of the web
@@ -67,8 +67,8 @@ those things there is a danger that making a site static can well, make it
 *too* static, which can have significant consequences for an active project
 that uses the web as a canvas.
 
-One way of adjusting for this is to make the static site more dynamic. (It's ok
-if you lol here :) This [tacking
+One way of adjusting for this is to make the static site more dynamic. *It's ok
+if you lol here.* This [tacking
 back](https://en.wikipedia.org/wiki/Tacking_(sailing)) can be achieved in
 a multitude of ways, but they mostly boil down to:
 
@@ -141,10 +141,13 @@ architectural shift. What is the environmental impact of our use of
 [NetlifyCMS](https://www.netlifycms.org/) or Airtable? It's almost impossible
 to say, whereas before when we were running all the pieces ourselves it was
 conceiveable that we could audit them. These platforms are also sites of
-extraction as well. What economies are our data participating in?
+extraction as well. What economies are our data participating in? What does
+knowing infrastructure even mean? [@Geiger:2009 ; @Ogden:2020a] 
 
 This is all to say that understanding the motivations to go static are
 complicated, and more work could be done to strategically think through some of
 these design decisions in a repeatable and generative way.
 
 ### References
+
+

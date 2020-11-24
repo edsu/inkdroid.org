@@ -203,7 +203,7 @@ the MARC format
 
 ## Selected Publications
 
-* [Appraisal Talk in Web Archives]. Arcivaria. May, 2020.
+* [Appraisal Talk in Web Archives]. Archivaria. May, 2020.
 * [Archival Circulation on the Web: The Vine-Tweets Dataset]. Cultural
 Analytics. June, 2019.
 * [Algorithms and Agenda-Setting in Wikileaks' #PodestaEmails Release]. Information, Communication & Society. 2019
