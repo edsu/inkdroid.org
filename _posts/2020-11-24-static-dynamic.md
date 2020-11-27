@@ -141,8 +141,8 @@ architectural shift. What is the environmental impact of our use of
 [NetlifyCMS](https://www.netlifycms.org/) or Airtable? It's almost impossible
 to say, whereas before when we were running all the pieces ourselves it was
 conceiveable that we could audit them. These platforms are also sites of
-extraction as well. What economies are our data participating in? What does
-knowing infrastructure even mean? [@Geiger:2009 ; @Ogden:2020a] 
+extraction as well, where it's difficult to even know what economies our data
+are even participating in.
 
 This is all to say that understanding the motivations to go static are
 complicated, and more work could be done to strategically think through some of
