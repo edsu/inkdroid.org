@@ -23,7 +23,7 @@ definitely helped me organize my own thoughts about a topic that can branch off
 in many directions. This is especially the case because I wanted the class to
 include discussion of digital curation concepts while also providing an
 opportunity to get some hands on experience using digital curation techniques
-and tools in the context of Jupyter notebooks. In addition to zoming out, it
+and tools in the context of Jupyter notebooks. In addition to zooming out, it
 was a dialectical approach, flipping between reading and writing prose and
 reading and writing code, with the goal of reaching a kind of synthesis of
 understanding that digital curation practice is about both concepts and
