@@ -20,7 +20,7 @@ I leaned heavily on [Bandcamp](https://bandcamp.com/edsu) over this time period,
 
 I'm also a long time [LastFM](https://www.last.fm/user/inkdroid) user. So all the music I listened to over this period was logged (or "scrobbled"). LastFM have an API so I thought it would be fun to create a little report of the top albums I listened to each month of my dissertation.
 
-So this is the music of my dissertation--or the hidden soundtrack of my research. You can see how I obtained the information from the API in [this Jupyter notebook](https://github.com/edsu/notebooks/blob/master/LastFM%20Dissertation%20Highlights.ipynb). But the results are here below. 
+So this is the music of my dissertation--or the hidden soundtrack of my research, between August 2015 and November 2020. You can see how I obtained the information from the API in [this Jupyter notebook](https://github.com/edsu/notebooks/blob/master/LastFM%20Dissertation%20Highlights.ipynb). But the results are here below. 
 
 <style>
 
