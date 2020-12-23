@@ -22,6 +22,6 @@ rsync:
 	rsync -ar --exclude '.dat' --rsh='ssh -p22334' _site/ ed@inkdroid.org:/var/www/inkdroid.org
 
 resume: 
-	pandoc cv-short.md -o cv-short.pdf
+	pandoc -V geometry:margin=1in cv-short.md -o cv-short.pdf
 	pandoc cv-short.md -o cv-short.docx
 	cd ehs && make
