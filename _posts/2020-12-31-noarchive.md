@@ -19,7 +19,7 @@ While doing some research with Jess and Shawn into the use of web archives
 I recently ran across something I felt like I should have known, or perhaps did
 know once and then forgot about, which I thought might I'd drop a note about
 here so I am less likely to forget it again. This concerns the [noarchive] meta
-tag and HTTP header.
+tag and HTTP header (see [this page] if the previous link fails).
 
 It appears that since [at least 2007] Google and other major search engines
 have allowed web publishers to control whether the content that Google has
@@ -27,7 +27,7 @@ crawled from their website will show up with a [Google Cache] link in search
 results. I had certainly known about the use of *noindex* and *nofollow* in
 meta tags and [on links] to control whether search engines index a page. But
 even after writing an entire dissertation about web archiving practice I'm
-somewhat ashamed to admit that I didn't know *noarchive* existed.
+somewhat abashed to admit that I didn't know *noarchive* existed.
 
 The basic idea is that you can put this in your Web page:
 
@@ -93,12 +93,27 @@ standards and crawling practices.
 But bringing us back to the question of the use of *noarchive* on the web, it
 seems to me that *noarchive* is a striking example of an explicit practice for
 expressing consent (or lack thereof) to having your content archived on the
-web. It is better than robots.txt practices because it better expresses the
-intent that the content not be archived, and it allows for two modes of
+web. It is better than robots.txt because it more accurately expresses the
+intent that the content not be *archived*, and it allows for two modes of
 expression (HTML and HTTP). The caveat being that the archive most likely still
 exists, but only as a [shadow]. How long those shadows are cast would be an
 interesting research project in itself. How much of an archive is the Google
-Cache, really? If you have answers to this question please [let me know].
+Cache, really? Do any public (or private) web archiving projects actually look
+for and act on *noarchive*?
+
+But it also would be nice to know a bit more about the prehistory of noarchive.
+It was introduced not long after a lawsuit was brought by Belgian company
+Copiepresse against Google and Google News. The order in 2006 found that
+
+> the activities of Google News and the use of cache by Google violates
+copyrights and neighbouring rights (Act of 1994) and rights on databases (Act
+of 1998).
+
+Perhaps there was a direct connection between Google losing this case and the
+introduction of a control for whether cache links are displayed? Maybe the
+proceedings of that case provide more insight into how Google's cache operates?
+And how did [noarchive.net](http://noarchive.net/mission/) come about, and who
+is keeping it online? Answering those questions are for another day...
 
 [wrote]: https://inkdroid.org/2020/12/02/robots/
 [robots.txt]: https://en.wikipedia.org/wiki/Robots_exclusion_standard
@@ -111,5 +126,6 @@ Cache, really? If you have answers to this question please [let me know].
 [in computing]: https://en.wikipedia.org/wiki/Cache_(computing)
 [intrinsic feature]: https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
 [cache invalidation]: https://en.wikipedia.org/wiki/Cache_invalidation
-[shadow]: https://inkdroid.org/2018/05/08/memory/
-[let me know]: mailto:ehs@pobox.com
+[shadow]: https://inkdroid.org/2018/05/08/memory/ 
+[hit me up]: mailto:ehs@pobox.com
+[this page]: https://developers.google.com/search/reference/robots_meta_tag

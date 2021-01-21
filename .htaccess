@@ -98,3 +98,6 @@ ForceType application/rss+xml
 
 # some odd things that moved
 RewriteRule ^2015/03/12/javascript-and-archives/ http://inkdroid.org/2015/03/11/javascript-and-archives/ [R=permanent,L]
+RewriteRule ^rss/whitehouse.xml https://www.whitehouse.gov/feed/ [L,R=301,NC]
+RewriteRule ^rss/1600daily.xml https://www.whitehouse.gov/feed/ [L,R=301,NC]
+
