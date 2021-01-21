@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Trump's Tweets
-date: 2021-01-12 21:00:00
+date: 2021-01-21 20:29:05
 tags:
 - Twitter
 - Archive
@@ -34,8 +34,7 @@ Where indeed? One hopes that they will end up in the National Archives (more on 
 Twitter removed Trump's tweets from public view at *twitter.com*. But
 fortunately, as [Shawn Jones notes], embedded tweets like the one above persist
 the tweet text into the HTML document itself. When a tweet is deleted from
-twitter.com the text stays behind like a residue, as evidence (that can be
-faked) of what was said and when.
+twitter.com the text stays behind elsewhere on the web like a residue, as evidence (that can be faked) of what was said and when.
 
 It's difficult to say whether this graceful degradation was an intentional
 design decision to make their content more resilient, or it was simply
@@ -84,25 +83,23 @@ These records will be turned over to the National Archives beginning on January
 NARA's newly established trumplibrary.gov website.
 
 NARA is the logical place for these records to go. But it is unclear what shape
-these archival records will take. Reading between the lines it appears that
-a third party service is being used to collect the social media content:
-possibly one of the several e-discovery tools like [ArchiveSocial] or [Hanzo].
+these archival records will take. Sure the Library of Congress has (or had)
+it's Twitter archive. It's not at all clear if they are still adding to it. But
+even if they are LC probably hasn't felt obligated to collect the records
+of an official from the Executive Branch, since they are firmly lodged in the
+Legislative. Then again they collect [GIFs] so, maybe?
 
-It also looks like the Trump Administration themselves have entered into this
-contract, and at the end of its term (i.e. now) will extract their data and
-deliver it to NARA. Given their past behavior it's not difficult to imagine the
-Trump administration not living up to this agreement in substantial ways.
+Reading between the lines it appears that a third party service is being used to collect the social media content: possibly one of the several e-discovery tools like [ArchiveSocial] or [Hanzo]. It also looks like the Trump Administration themselves have entered into this contract, and at the end of its term (i.e. now) will extract their data and deliver it to NARA. Given their past behavior it's not difficult to imagine the Trump administration not living up to this agreement in substantial ways.
 
 This current process is a slight departure from the approach taken by the Obama
-administration. Obama initiated a process where platforms [migrate official accounts] to new accounts that were then managed going forward by NARA [@Acker:2017a]. We can see that this has [happened again] on January 20, 2021 when  Biden became President. But what is different is that Barack Obama retained ownership of his personal account [\@barackobama], which he continues to use.NARA has announced that they will be archiving Trump's now deleted (or hidden) personal account.
+administration. Obama initiated a process where platforms [migrate official accounts] to new accounts that were then managed going forward by NARA [@Acker:2017a]. We can see that this practice is [being used again] on January 20, 2021 when Biden became President. But what is different is that Barack Obama retained ownership of his personal account [\@barackobama], which he continues to use.NARA has [announced] that they will be archiving Trump's now deleted (or hidden) personal account.
 
 > A number of Trump administration officials, including President Trump, used personal accounts when conducting government business. The National Archives will make the social media content from those designated accounts publicly available as soon as possible.
 
 The question remains, what representation should be used, and what is Twitter's role in providing it? 
 
-Meanwhile there are online collections like [The Trump Archive], the NYTimes
-[Complete List of Trump's Twitter Insults] and countless GitHub repositories of
-data which have collected Trump's tweets. These tweets are used in a multitude of ways including as a source for [conducting trades on the stock market].
+Meanwhile there are online collections like [The Trump Archive], the New York Times' [Complete List of Trump's Twitter Insults], Propublica's [Politwoops] and countless GitHub repositories of
+data which have collected Trump's tweets. These tweets are used in a multitude of ways including things as absurd as a source for [conducting trades on the stock market].
 
 But seeing these tweets as they appeared in the browser, with associated
 metrics and comments is important. Of course you can go view the account in the
@@ -184,6 +181,12 @@ https://ws-dl.blogspot.com/2021/01/2021-01-09-embedded-tweets-from.html
 
 [announced]: https://www.trumplibrary.gov/research/archived-social-media
 
+[being used again]: https://www.trumplibrary.gov/research/archived-social-media
+
 [here]: https://archive.org/details/trump-tweets-wayback
 
 [The Trump Archive]: https://www.thetrumparchive.com/
+
+[Politwoops]: https://projects.propublica.org/politwoops/
+
+[GIFs]: https://www.loc.gov/item/lcwaN0010391/
