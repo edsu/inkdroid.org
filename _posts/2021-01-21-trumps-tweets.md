@@ -9,6 +9,8 @@ tags:
 
 *TLDR: Trump's tweets are gone from twitter.com but still exist spectrally in various states all over the web. After profiting off of their distribution Twitter now have a responsibility to provide meaningful access to the Trump tweets as a read only archive.*
 
+*This post is also published on the [Documenting the Now Medium](https://news.docnow.io/trumps-tweets-2d3f348ccd24) where you can comment, if the mood takes you.*
+
 ---
 
 So Trump's Twitter account is gone. *Finally*. It's strange to have had to wait
