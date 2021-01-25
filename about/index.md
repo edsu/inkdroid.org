@@ -27,8 +27,8 @@ teacher and researcher [working] at the intersection of libraries, archives and
 the World Wide Web. I'm interested in how the Web functions as a sociotechnical
 system, especially with regard to memory practices such as curation and
 preservation. I am currently working at the [Maryland Institute for Technology
-in the Humanities] and am a PhD Candidate in the College of Information Studies
-at the University of Maryland.
+in the Humanities] and am affiliated with the College of Information Studies at
+the University of Maryland.
 
 If you want to get in touch please email me at [ehs@pobox.com]. You can also
 find me on fediverse at [\@edsu@social.coop]. Once upon a time I was on Twitter
