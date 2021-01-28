@@ -143,7 +143,7 @@ Yes, something *definitely* went wrong (in more ways than one). Just spot checki
 
 <a href="https://web.archive.org/web/20200307194518if_/https://twitter.com/realdonaldtrump/status/646009823356690432"><img class="img-responsive" src="/images/trump-missing-from-archive.png"></a>
 
-Notice how the media will not play there? It would take some heavy manual curation work to sort through these tweet IDs to see which ones are legit, and which ones aren't. But if you are interested here's an [editable Google Sheet]().
+Notice how the media will not play there? It would take some heavy manual curation work to sort through these tweet IDs to see which ones are legit, and which ones aren't. But if you are interested here's an [editable Google Sheet](https://docs.google.com/spreadsheets/d/1UlSV5hkiXzprwPnM1SKJGhlTjrmMpro-c2rN6SkhIqc/edit?usp=sharing).
 
 Finally, here is a list of the top ten archived (at Internet Archive) tweets. The counts here reflect *all* the variations for a given tweet URL. So they will very likely not match the count you see in the Wayback Machine, which is for the specific URL (no query paramters).
 
@@ -170,25 +170,14 @@ The point of this rambling data spelunking, if you've made it this far, is to hi
 [Shawn Jones notes]:
 https://ws-dl.blogspot.com/2021/01/2021-01-09-embedded-tweets-from.html
 [Wayback Machine]: https://web.archive.org/web/\*/https://twitter.com/realDonaldTrump/
-
 [conducting trades on the stock market]: https://github.com/maxbbraun/trump2cash
-
 [Complete List of Trump's Twitter Insults]: https://www.nytimes.com/interactive/2021/01/19/upshot/trump-complete-insult-list.html?referringSource=articleShare#
-
 [API]: https://github.com/webrecorder/pywb/wiki/CDX-Server-API
-
 [experiments]: https://archive.org/details/trump-tweets-wayback
-
 [\@barackobama]: https://twitter.com/barackobama
-
 [announced]: https://www.trumplibrary.gov/research/archived-social-media
-
 [being used again]: https://www.trumplibrary.gov/research/archived-social-media
-
 [here]: https://archive.org/details/trump-tweets-wayback
-
 [The Trump Archive]: https://www.thetrumparchive.com/
-
 [Politwoops]: https://projects.propublica.org/politwoops/
-
 [GIFs]: https://www.loc.gov/item/lcwaN0010391/
