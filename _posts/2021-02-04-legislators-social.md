@@ -13,7 +13,7 @@ tags:
   </a> <br>
   <figcaption>
   <a href="https://www.flickr.com/photos/tracy_olson/405540276/">Tree Rings</a> by <a href="https://www.flickr.com/photos/tracy_olson/">Tracy O</a> <br>
-  <em style="font-size: 10pt;">This post is really about exploring historical datasets with version control.</em>
+  <em style="font-size: 10pt;">This post is really about exploring historical datasets with version control systems.</em>
   </figcaption>
 </figure>
 
@@ -42,7 +42,7 @@ parse the YAML at that previous state, and merge that information into a union
 of all the current and past legislator information. You can see the resulting
 program and output in [us-legislators-social].
 
-There's a little bit of wrinkle in that not everything in the version history
+There's a little bit of a wrinkle in that not everything in the version history
 should be carried forward because errors were corrected and bugs were fixed.
 Without digging into the diffs and analyzing them more it's hard to say whether
 a commit was a bug fix or if it was simply adding new or deleting old
