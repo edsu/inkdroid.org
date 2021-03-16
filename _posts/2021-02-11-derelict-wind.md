@@ -8,9 +8,9 @@ tags:
 - archive
 ---
 
-The Trump impeachment is underway. As expected the
-tweets-seen-by-millions-that-are-no-longer-available are being used
-as exhibits. For example here is one I saw in [this NYTimes
+The second Trump impeachment is underway. As expected the
+tweets-seen-by-millions-that-are-no-longer-available are being used as
+exhibits. For example here is one I saw in [this NYTimes
 article](https://www.nytimes.com/2021/02/10/us/politics/trump-impeachment-takeaways-day-2.html).
 
 <a href="https://www.nytimes.com/2021/02/10/us/politics/trump-impeachment-takeaways-day-2.html">
