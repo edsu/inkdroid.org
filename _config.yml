@@ -40,5 +40,5 @@ pandoc:
   extensions:
     - mathjax
     - csl: _styles/apa.csl
-    - bibliography: citations.bib
+    - bibliography: citations.json
     - metadata link-citations:true

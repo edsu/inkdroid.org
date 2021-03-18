@@ -70,7 +70,7 @@ identified and scrubbed in a live system that is then dumping out the data? Or
 maybe the code that is being used to update the dataset in ArcGIS Hub
 itself is malfunctioning in some way? If you are interested in toying around
 with the code and data it is [up on
-GitHub](https://github.com/edsu/md-covid-vaccination-data).
+GitHub](https://github.com/edsu/md-covid-vaccination-data). I was interested to learn about [pandas.DataFrame.merge](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html?highlight=merge#pandas.DataFrame.merge) which is useful for diffing tables when you use `indicator=True`.
 
 At any rate, having students notice, measure and document anomalies like this
 seems pretty useful. I also asked them to *speculate* about what kinds of
@@ -96,7 +96,7 @@ the code or data processing, rather than at the macro super-system level. But
 that has its place too.
 
 Another difference is that I was asking students to engage in speculation about
-the past rather than the future. How did the the data end up this way? Perhaps
+the past rather than the future. How did the data end up this way? Perhaps
 this is more of a genealogical approach, of winding things backwards, and
 tracing what is known. Maybe it's more Mystery than Sci-Fi. The speculative
 element is important because (in this case) operations at the MD Dept of
@@ -106,6 +106,7 @@ there being a dearth of information you are drowning in it. Speculation is
 a useful [abductive] approach to hypothesis generation and, hopefully,
 understanding.
 
+*Update 2021-03-17: Over [in the fediverse](https://post.lurk.org/@air_pump/105904508701388654) David Benque recommended I take a look at Matthew Stanley's chapter in [@Gitelman:2013] "Where Is That Moon, Anyway? The Problem of Interpreting Historical Solar Eclipse Observations" for the connection to Mystery. For the connection to Peirce and abduction he also pointed to Luciana Parisi's chapter "Speculation: A method for the unattainable" in @Lury:2012. Definitely things to follow up on!*
 
 ### References
 
