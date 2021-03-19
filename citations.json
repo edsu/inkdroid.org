@@ -1076,7 +1076,8 @@
 				[
 					"2019"
 				]
-			]
+			],
+			"season": "Arpril"
 		}
 	},
 	{
@@ -2268,7 +2269,8 @@
 				[
 					"2020"
 				]
-			]
+			],
+			"season": "Spring"
 		}
 	},
 	{
@@ -2652,7 +2654,8 @@
 				[
 					"2020"
 				]
-			]
+			],
+			"season": "Summer"
 		}
 	},
 	{
@@ -2782,7 +2785,8 @@
 				[
 					"2019"
 				]
-			]
+			],
+			"season": "Fall"
 		}
 	},
 	{
@@ -2934,7 +2938,8 @@
 				[
 					"2020"
 				]
-			]
+			],
+			"season": "Winter"
 		}
 	},
 	{
@@ -3094,7 +3099,8 @@
 				[
 					"2019"
 				]
-			]
+			],
+			"season": "Spring"
 		}
 	},
 	{
@@ -3227,7 +3233,8 @@
 				[
 					"2010"
 				]
-			]
+			],
+			"season": "Fall"
 		}
 	},
 	{
@@ -4699,7 +4706,8 @@
 				[
 					"1982"
 				]
-			]
+			],
+			"season": "Summer"
 		}
 	},
 	{
@@ -4767,7 +4775,8 @@
 				[
 					"1984"
 				]
-			]
+			],
+			"season": "Winter"
 		}
 	},
 	{
@@ -4790,7 +4799,8 @@
 				[
 					"1981"
 				]
-			]
+			],
+			"season": "Winter"
 		}
 	},
 	{
@@ -4855,7 +4865,8 @@
 				[
 					"2016"
 				]
-			]
+			],
+			"season": "Winter"
 		}
 	},
 	{
@@ -6552,7 +6563,8 @@
 				[
 					"2019"
 				]
-			]
+			],
+			"season": "Spring"
 		}
 	},
 	{
@@ -7089,7 +7101,8 @@
 				[
 					"2019"
 				]
-			]
+			],
+			"season": "Spring"
 		}
 	},
 	{
@@ -9535,7 +9548,8 @@
 				[
 					"2006"
 				]
-			]
+			],
+			"season": "Spring"
 		}
 	},
 	{
@@ -11444,7 +11458,8 @@
 				[
 					"1987"
 				]
-			]
+			],
+			"season": "Winter"
 		}
 	},
 	{
@@ -12511,7 +12526,8 @@
 				[
 					"1993"
 				]
-			]
+			],
+			"season": "Fall"
 		}
 	},
 	{
@@ -12855,7 +12871,8 @@
 				[
 					"0001"
 				]
-			]
+			],
+			"season": "https://dx.doi.org/ .14296/resaw.  2017"
 		}
 	},
 	{
@@ -14076,7 +14093,8 @@
 				[
 					"2018"
 				]
-			]
+			],
+			"season": "Spring"
 		}
 	},
 	{
@@ -14977,7 +14995,8 @@
 				[
 					"1986"
 				]
-			]
+			],
+			"season": "Spring"
 		}
 	},
 	{
@@ -17218,7 +17237,8 @@
 				[
 					"2018"
 				]
-			]
+			],
+			"season": "Sprign"
 		}
 	},
 	{
@@ -17938,7 +17958,8 @@
 				[
 					"1993"
 				]
-			]
+			],
+			"season": "Fall"
 		}
 	},
 	{
@@ -18001,7 +18022,8 @@
 				[
 					"1982"
 				]
-			]
+			],
+			"season": "Spring"
 		}
 	},
 	{
@@ -56890,6 +56912,46 @@
 			"date-parts": [
 				[
 					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "Nietzsche:2001",
+		"type": "book",
+		"call-number": "B3313.F72 E5 2001",
+		"collection-title": "Cambridge texts in the history of philosophy",
+		"event-place": "Cambridge, U.K. ; New York",
+		"ISBN": "978-0-521-63159-4",
+		"language": "eng",
+		"number-of-pages": "277",
+		"publisher": "Cambridge University Press",
+		"publisher-place": "Cambridge, U.K. ; New York",
+		"source": "Library of Congress ISBN",
+		"title": "The gay science: with a prelude in German rhymes and an appendix of songs",
+		"title-short": "The gay science",
+		"author": [
+			{
+				"family": "Nietzsche",
+				"given": "Friedrich Wilhelm"
+			},
+			{
+				"family": "Williams",
+				"given": "Bernard"
+			},
+			{
+				"family": "Nauckhoff",
+				"given": "Josefine"
+			},
+			{
+				"family": "Del Caro",
+				"given": "Adrian"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
 				]
 			]
 		}

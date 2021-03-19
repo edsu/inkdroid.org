@@ -1,16 +1,13 @@
-all: bib resume build_full rsync
+all: resume build_full rsync
 
 indexes:
 	touch feed.xml
 	touch index.html
 
-bib:
-	cp ~/Dropbox/JabRef/citations.bib citations.bib
-
-serve: indexes bib
+serve: indexes
 	jekyll serve 
 
-quick: bib build rsync
+quick: build rsync
 
 build_full: indexes
 	JEKYLL_ENV=production jekyll build
