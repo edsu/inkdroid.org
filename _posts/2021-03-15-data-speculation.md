@@ -17,7 +17,7 @@ another lens after spring break.
 
 That being said, one of the interesting things we've been doing is looking at
 [vaccination data] that is being released by the Maryland Department of Health
-through [their] ESRI [ArcGIS Hub]. Note: this dataset has since been removed from the web because it has been superseded by a [new dataset] that includes single dose vaccinations.
+through [their] ESRI [ArcGIS Hub]. *Note: this dataset has since been removed from the web because it has been superseded by a [new dataset] that includes single dose vaccinations. I guess it's good that students get a feel for how ephemeral data on the web is, even when it is published by the government.*
 
 We noticed that this dataset recorded
 a small number of vaccinations as happening as early as the 1930s up until
