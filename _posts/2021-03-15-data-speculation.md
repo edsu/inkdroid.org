@@ -17,7 +17,9 @@ another lens after spring break.
 
 That being said, one of the interesting things we've been doing is looking at
 [vaccination data] that is being released by the Maryland Department of Health
-through [their] ESRI [ArcGIS Hub]. We noticed that this dataset recorded
+through [their] ESRI [ArcGIS Hub]. Note: this dataset has since been removed from the web because it has been superseded by a [new dataset] that includes single dose vaccinations.
+
+We noticed that this dataset recorded
 a small number of vaccinations as happening as early as the 1930s up until
 December 11, 2020 when vaccines were approved for use. I [asked
 students](https://umd-ischool-inst326.github.io/inst326-public/modules/module05/exercises/exercise05_covid.html)
@@ -116,3 +118,4 @@ understanding.
 [ArcGIS Hub]: https://www.esri.com/en-us/arcgis/products/arcgis-hub/overview
 [their]: https://coronavirus.maryland.gov
 [abductive]: https://plato.stanford.edu/entries/abduction/peirce.html
+[new dataset]: https://coronavirus.maryland.gov/datasets/md-covid19-totalvaccinationscountyfirstandsecondsingledose
