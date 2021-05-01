@@ -4,15 +4,15 @@ ehs@pobox.com / 240-478-7086\\
 304 Brewster Court, Silver Spring, MD 20901\\
 \end{center}
 
-I am a software software developer, technical manager and service designer with
-over two decades of experience working at the intersection of libraries,
-archives and the World Wide Web. My work focuses on how the web functions as
-a sociotechnical system, with an emphasis on its evolving architecture and
-practices of curation and preservation.
+I am a software developer and data scientist with over two decades of
+experience designing, developing, maintaining and analyzing information
+infrastructures. I work best at the boundaries between the disciplines, and
+specialize in the application of both qualitative and quantitative methods to
+accelerate the work of research teams who work with the web as data.
 
 ## Experience
 
-**Lead Software Developer**  
+**Research Faculty**  
 Maryland Institute for Technology in the Humanities  
 August 2014 - Present
 
@@ -46,43 +46,53 @@ May 2002 – March 2006
 
 Summers, E. (2020). Legibility Machines: Archival Appraisal and the Genealogies
 of Use. *PhD Dissertation*. University of Maryland.
+https://drum.lib.umd.edu/handle/1903/26731
 
 Summers, E. (2020). Appraisal Talk in Web Archives. *Archivaria*, 89(Spring),
-70-102. 
+70-102.  
+https://archivaria.ca/index.php/archivaria/article/view/13733
 
 Summers, E. and Wickner, A. (2019). Archival Circulation on the Web: The
 Vine-Tweets Dataset. *Cultural Analytics*. Retrieved from
 https://culturalanalytics.org/article/11048
 
 Proferes, N. and Summers, E. (2019). Algorithms and Agenda Setting in
-Wikileaks' #PodestaEmails Release. Information, Communication \& Society,
-22(11), 1630-1645.
+Wikileaks' #PodestaEmails Release. *Information, Communication \& Society*,
+22(11), 1630-1645. https://doi.org/10.1080/1369118X.2019.1626469
 
-Summers, E. (2018). Appraisal Practices in Web Archives. SocArXiv Papers.
+Summers, E. (2018). Appraisal Practices in Web Archives. *SocArXiv Papers*.
 Retrieved from https://osf.io/preprints/socarxiv/75mjp/
 
 Summers, E. and Punzalan, R. (2017). Bots, Seeds and People: Web Archives as
 Infrastructure. *Proceedings of the 2017 ACM Conference on Computer Supported
 Cooperative Work and Social Computing, CSCW 17.*
+https://doi.org/10.1145/2998181.2998345
+
+Brown, M., Ray, R., Summers, E. and Fraistat N. (2016). #SayHerName: a case
+study of intersectional social media activism. *Ethnic and Racial Studies*,
+40(11), 1831-1846. https://doi.org/10.1080/01419870.2017.1334934
 
 Steiner, T., van Hooland, S. and Summers, E. (2013). MJ no more: Using
 Concurrent Wikipedia Edit Spikes with Social Network Plausibility Checks for
 Breaking News Detection. *International World Wide Web Conference*.
+https://arxiv.org/abs/1303.4702
 
 Baker, T., Bechhofer, S., Isaac, A., Miles, A. Schreiber, G. and Summers, E.
 (2013). Key Choices in the Design of Simple Knowledge Organization System
 (SKOS). *Journal of Web Semantics*, 20, 35-49.
+https://doi.org/10.1016/j.websem.2013.05.001
 
 Isaac, I. and Summers, E. (2008). Simple Knowledge Organization System Primer.
 *W3C Working Group Note*, Retrieved from http://www.w3.org/TR/skos-primer/
 
 Summers, E., Issac, A., Redding, C. and Krech, D. (2008). LCSH, SKOS and Linked
 Data. *Proceedings of the International Conference on Dublin Core and Metadata
-Applications.*
+Applications.*  
+https://dcpapers.dublincore.org/pubs/article/viewFile/916/912
 
 ## Education
 
-**PhD Information Studies**  
+**Ph.D Information Studies**  
 University of Maryland  
 2015 - 2020
 
@@ -94,13 +104,16 @@ the National Institute for Standards and Technology.
 Rutgers University  
 1995 - 1996
 
-My studies focused on the use of the emerging Web to deploy reference and cataloging services.
+My studies focused on the use of the emerging Web to deploy metadata standards
+and services.
 
 **B.A. English**  
 Rutgers University  
 1987 - 1991
 
-In my senior seminars I focused on the study of the African American experience through the works of James Baldwin. I minored in Computer Science, and began my studies in the Engineering program.
+In my senior seminars I focused on the study of the African American experience
+through the works of James Baldwin. I minored in Computer Science where
+I focused on object oriented programming languages.
 
 ---
 
