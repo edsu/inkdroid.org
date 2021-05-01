@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 856
 date: 2021-04-27T16:13:12
 tags:
@@ -11,7 +12,6 @@ Coincidence?
   <img class="img-responsive" src="/images/856a.png">
 </a>
 
-<br>
 <br>
 
 <a href="https://www.wikidata.org/wiki/Property:P856">
