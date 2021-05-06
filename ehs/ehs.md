@@ -242,7 +242,8 @@ Analytics. June, 2019.
 
 ## Education
 
-* MLS, School of Communications, Information and Library Science, Rutgers University, 1995-1996
+* PhD, College of Information Studies, University of Maryland, 2015-2020.
+* MLS, School of Communications, Information and Library Science, Rutgers University, 1995-1996.
 * BA English and American Literature, Rutgers University, 1987-1991.
 
 ## Awards
