@@ -41,8 +41,7 @@ instructors try to teach alongside the computer programming concepts is a sense
 of how computation is a technology and practice that gets deployed in
 particular settings, with real social and political outcomes. And on the flip
 side, that computational technology itself has been shaped by these social and
-political projects. In short that computer programming is a sociotechnical
-phenomena.
+political projects. In short that software is a sociotechnical thing.
 
 I think it's fair to say that this can be difficult to do, not only because the
 study of sociotechnical systems is an advanced topic, probably for a senior
