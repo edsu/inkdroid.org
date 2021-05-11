@@ -58,7 +58,7 @@ rather than in the sense of an "app"?)
 One technique that I tried this semester was to orient all the exercises around
 a particular sociotechnical theme. So rather than the exercises and assignments
 being about the usual object oriented topics like shapes, number patterns,
-, pizza ingredients, books, music, etc I structured all the exercises around
+pizza ingredients, books, music, etc I structured all the exercises around
 the topic of COVID-19. I've written in a [few](/2021/03/16/data-speculation/)
 [other posts](/2021/02/19/python30/) that perhaps this wasn't the best topic to
 choose given the situations that many students found themselves in. But despite
