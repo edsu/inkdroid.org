@@ -49,10 +49,10 @@ seminar or graduate school, but also because it's a *level problem*. It's
 difficult to learn the grammar and syntax of programming while also
 understanding that this grammar and syntax is *coproduced* by cultures of
 computing and society [@Jasanoff:2006]. It is a struggle to just get the
-students thinking computationally, and so the application of computation falls
-by the wayside. (Isn't it interesting to think about *application* in this
-difference sense, as a concept, technique or practice that is being *applied*
-rather than in the sense of an "app"?)
+students thinking computationally, and so thinking critically aboutthe
+application of computation falls by the wayside. (Isn't it interesting to think
+about *application* in this difference sense, as a concept, technique or
+practice that is being *applied* rather than in the sense of an "app"?)
 
 One technique that I tried this semester was to orient all the exercises around
 a particular sociotechnical theme. So rather than the exercises and assignments
