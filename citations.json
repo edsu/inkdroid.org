@@ -1074,10 +1074,11 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2019"
+					"2019",
+					4,
+					19
 				]
-			],
-			"season": "Arpril"
+			]
 		}
 	},
 	{
@@ -3542,6 +3543,7 @@
 		"id": "Stevenson:2020",
 		"type": "article-journal",
 		"container-title": "Internet Histories",
+		"DOI": "10.1080/24701475.2020.1723345",
 		"note": "tex.date-added: 2020-02-19 18:07:09 -0500\ntex.date-modified: 2020-02-19 18:09:14 -0500\ntex.timestamp: 2020-02-19",
 		"title": "The historical trajectories of algorithmic techniques: an interview with Bernhard Rieder",
 		"author": [
@@ -56728,7 +56730,7 @@
 		"id": "Macey:2012",
 		"type": "book",
 		"note": "tex.timestamp: 2021-02-27",
-		"title": "Frantz fanon: A biography",
+		"title": "Frantz Fanon: A biography",
 		"author": [
 			{
 				"family": "Macey",
@@ -56771,14 +56773,33 @@
 	{
 		"id": "Shapiro:2021",
 		"type": "report",
-		"genre": "Elizabeth hansen shapiro and michael sugarman and fernando bermejo and ethan zuckerman",
 		"note": "tex.timestamp: 2021-02-27",
 		"publisher": "Netgain Partnership",
 		"title": "New approaches to platform data research",
+		"author": [
+			{
+				"family": "Shapiro",
+				"given": "Elizabeth Hansen"
+			},
+			{
+				"family": "Sugarman",
+				"given": "Michael"
+			},
+			{
+				"family": "Bermejo",
+				"given": "Fernando"
+			},
+			{
+				"family": "Zuckerman",
+				"given": "Ethan"
+			}
+		],
 		"issued": {
 			"date-parts": [
 				[
-					"2021"
+					"2021",
+					2,
+					1
 				]
 			]
 		}
@@ -56952,6 +56973,2443 @@
 			"date-parts": [
 				[
 					"2001"
+				]
+			]
+		}
+	},
+	{
+		"id": "BrianJustie:2021",
+		"type": "article-journal",
+		"container-title": "Internet Histories",
+		"DOI": "10.1080/24701475.2020.1831197",
+		"issue": "1",
+		"page": "30-47",
+		"title": "Little history of CAPTCHA",
+		"URL": "https://www.tandfonline.com/doi/full/10.1080/24701475.2020.1831197",
+		"volume": "5",
+		"author": [
+			{
+				"family": "Brian Justie",
+				"given": ""
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Hardin:2006",
+		"type": "book",
+		"collection-title": "Key concepts in the social sciences",
+		"event-place": "Cambridge",
+		"ISBN": "978-0-7456-2464-8",
+		"language": "eng",
+		"note": "OCLC: 255408456",
+		"number-of-pages": "206",
+		"publisher": "Polity",
+		"publisher-place": "Cambridge",
+		"source": "Gemeinsamer Bibliotheksverbund ISBN",
+		"title": "Trust",
+		"author": [
+			{
+				"family": "Hardin",
+				"given": "Russell"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2006"
+				]
+			]
+		}
+	},
+	{
+		"id": "Aikhenvald:2004",
+		"type": "book",
+		"abstract": "Evidentiality is one of the most fascinating categories of human languages. In a number of languages, scattered across the world, every statement must contain a specification of the type of evidence on which it is based - whether the speaker saw it, or heard it, or inferred it from indirect evidence, or learnt it from somebody else. This is a very powerful device for human communication. Many people think that it would be a good thing if our politicians had to talk in this way. The book investigates a variety of other grammatical categories related to evidentiality, such as aspect and person.",
+		"ISBN": "978-1-4356-1001-9",
+		"language": "English",
+		"note": "OCLC: 740735068",
+		"source": "Open WorldCat",
+		"title": "Evidentiality",
+		"author": [
+			{
+				"family": "Aĭkhenvalʹd",
+				"given": "A. I︠U︡"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2004"
+				]
+			]
+		}
+	},
+	{
+		"id": "Lemieux:2017",
+		"type": "paper-conference",
+		"abstract": "This paper presents a synthesis of original research documenting several cases of the application of blockchain technology to land transaction, medical, and financial record keeping. Using a thematic synthesis of the cases, the paper describes a typology of blockchain solutions for managing current records representing three distinct design patterns. It then considers the different types of solutions in relation to implications for recordkeeping and long-term preservation of authentic records.",
+		"container-title": "2017 IEEE International Conference on Big Data",
+		"DOI": "10.1109/BigData.2017.8258180",
+		"event-place": "Boston, MA, USA",
+		"page": "2271-2278",
+		"publisher": "IEEE",
+		"publisher-place": "Boston, MA, USA",
+		"title": "A typology of blockchain recordkeeping solutions and some reflections on their implications for the future of archival preservation",
+		"author": [
+			{
+				"family": "Victoria L. Lemieux",
+				"given": ""
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "Bastos:2021",
+		"type": "article-journal",
+		"abstract": "Literature on influence operations has identified metrics that are indicative of social media manipulation, but few studies have explored the lifecycle of low-quality information. We contribute to this literature by reconstructing nearly 3 million messages posted by 1 million users in the last days of the Brexit referendum campaign. While previous studies have found that on average only 4% of tweets disappear, we found that 33% of the tweets leading up to the referendum vote are no longer available. Only about half of the most active accounts that tweeted the referendum continue to operate publicly, and 20% of all accounts are no longer active. We tested whether partisan content was more likely to disappear and found more messages from the Leave campaign that disappeared than the entire universe of tweets affiliated with the Remain campaign. We compare these results with an assorted set of 45 hashtags posted in the same period and find that political campaigns present much higher ratios of user and tweet decay. These results are validated by inspecting 2 million Brexit-related tweets posted over a period of nearly 4 years. The article concludes with an overview of these findings and recommendations for future research.",
+		"container-title": "American Behavioral Scientist",
+		"DOI": "10.1177/0002764221989772",
+		"ISSN": "0002-7642, 1552-3381",
+		"journalAbbreviation": "American Behavioral Scientist",
+		"language": "en",
+		"page": "000276422198977",
+		"source": "DOI.org (Crossref)",
+		"title": "This Account Doesn’t Exist: Tweet Decay and the Politics of Deletion in the Brexit Debate",
+		"title-short": "This Account Doesn’t Exist",
+		"URL": "http://journals.sagepub.com/doi/10.1177/0002764221989772",
+		"author": [
+			{
+				"family": "Bastos",
+				"given": "Marco"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					4
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					1,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "Halvorson:2020",
+		"type": "book",
+		"abstract": "Part I LEARNING TO CODE. 1 How Important is Programming? -- 1.1 Programming Culture -- 1.2 Learning a Language -- 1.3 New Ways of Thinking -- 1.4 Equity and Access -- 1.5 Personal Connections -- 1.6 Manifestos of the Movement -- 1.7 A New History of Personal Computing. 2 Four Computing Mythologies -- 2.1 The NATO Conference on Software Engineering -- 2.2 The Complexity of Software -- 2.3 Systems are for Customers -- 2.4 The Counterculture Movement -- 2.5 Everything is Deeply Intertwingled -- 2.6 The Birth of Computer Science -- 2.7 Computers for the People -- 2.8 Personal Computing. 3 FORTRAN, Logo, and the Tower of Babel -- 3.1 Solving Problems with Computers -- 3.2 The Tower of Babel -- 3.3 High-level Languages -- 3.4 Learning FORTRAN -- 3.5 Daniel McCracken's Primers -- 3.6 Seymour Papert and Logo -- 3.7 Cynthia Solomon -- 3.8 Logo as a Model for Code Nation -- 3.9 How successful was Logo? 4 Advocating Computer Literacy -- 4.1 Robert Albrecht and the Popularization of the Movement -- 4.2 I Speak BASIC -- 4.3 The B.F. Skinner Approach -- 4.4 Hold Me Closer Tiny BASIC -- 4.5 Arthur Luehrmann and the Computer Literacy Debate -- 4.6 A Blow to the Movement -- 4.7 Apple Computer's Education Agenda -- 4.8 Applications over Languages. 5 Four Million BASIC Programmers -- 5.1 Introducing David Ahl -- 5.2 A Proliferation of BASICs -- 5.3 IBM BASICA -- 5.4 Adventure Games -- 5.5 Structured Programming -- 5.6 Microsoft Press and Learn BASIC Now -- 5.7 Microsoft Game Shop -- 5.8 Visual Basic for Windows -- 5.9 Innovative Programming Primers. Part II HOBBYIST AND HACKER CULTURES. 6 Power Users, Tinkerers, and Gurus -- 6.1 Computing Terminology -- 6.2 Tinkering with Personal Computers -- 6.3 Van Wolverton and Batch Files -- 6.4 The DOS for Dummies Phenomenon -- 6.5 The Economic Impact of Personal Computers -- 6.6 Cary Lu Introduces the Macintosh -- 6.7 The Waite Group's Macintosh Primers -- 6.8 The Maturing Mac Platform. 7 Hackers and Cyberpunks -- 7.1 Bill Landreth and 1980s Hacker Culture -- 7.2 Jude Milhon: From Civil Rights Activist to Cyberpunk -- 7.3 Mondo 2000 and The Cyberpunk Handbook -- 7.4 Cypherpunks and Cryptography. 8 Computer Magazines and Historical Research -- 8.1 Magazines and a Popular Culture of Computing -- 8.2 Letters from the Programming Community -- 8.3 New PC Users -- 8.4 Power Users -- 8.5 Advanced Hobbyists -- 8.6 Professional Programmers -- 8.7 New Approaches to Historical Research. Part III PROFESSIONAL PROGRAMMING CULTURES. 9 Developing for MS-DOS: Authors and Entrepreneurs -- 9.1 New Platforms for Commercial Software -- 9.2 Inside the IBM PC with Peter Norton -- 9.3 Borland's Turbo Pascal -- 9.4 Ray Duncan's Advanced MS-DOS -- 9.5 The MS-DOS Encyclopedia -- 9.6 MS-DOS Sample Code -- 9.7 Technology Diffusion. 10 C Programming Nation: From Tiny C to Microsoft Windows -- 10.1 The C Language -- 10.2 Learning C on Personal Computers -- 10.3 Academic and Professional Resources -- 10.4 C Programming for the People -- 10.5 Charles Petzold's Programming Windows -- 10.6 On Complexity. 11 \"Evangelism is sales done right\": PCs and Commercial Programming Culture -- 11.1 The Macintosh Way -- 11.2 The West Coast Computer Faire -- 11.3 COMDEX and the Trade Show Movement -- 11.4 The Trouble with Self-taught Programmers -- 11.5 Software Engineering for the People -- 11.6 Professional and Enterprise Development Systems -- 11.7 Commercialization \"Code Nation is a popular history of programming and software culture from the first years of personal computing in the 1970s to the early commercial infrastructure of the World Wide Web.\"--Publisher description",
+		"ISBN": "978-1-4503-7756-0",
+		"language": "English",
+		"note": "OCLC: 1196291511",
+		"source": "Open WorldCat",
+		"title": "Code nation: personal computing and the learn to program movement in America",
+		"title-short": "Code nation",
+		"URL": "https://doi.org/10.1145/3368274",
+		"author": [
+			{
+				"family": "Halvorson",
+				"given": "Michael"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					6
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "Safari:2020",
+		"type": "book",
+		"abstract": "Statistical methods are a key part of data science, yet few data scientists have formal statistical training. Courses and books on basic statistics rarely cover the topic from a data science perspective. The second edition of this practical guide-now including examples in Python as well as R-explains how to apply various statistical methods to data science, tells you how to avoid their misuse, and gives you advice on what's important and what's not. Many data scientists use statistical methods but lack a deeper statistical perspective. If you're familiar with the R or Python programming languages, and have had some exposure to statistics but want to learn more, this quick reference bridges the gap in an accessible, readable format. With this updated edition, you'll dive into: Exploratory data analysis Data and sampling distributions Statistical experiments and significance testing Regression and prediction Classification Statistical machine learning Unsupervised learning.",
+		"language": "English",
+		"note": "OCLC: 1138943866",
+		"source": "Open WorldCat",
+		"title": "Practical Statistics for Data Scientists, 2nd Edition",
+		"URL": "https://safarijv.auth0.com/authorize?client_id=UtNi1m1IRXgzYFIwZrhSxell9EDRaL2v&response_type=code&connection=queensland-university-of-technology&redirect_uri=https://www.safaribooksonline.com/complete/auth0-oauth2/&state=/library/view/-/ 9781492072935/?ar",
+		"author": [
+			{
+				"family": "Bruce",
+				"given": "Peter"
+			},
+			{
+				"family": "Bruce",
+				"given": "Andrew"
+			},
+			{
+				"family": "Gedeck",
+				"given": "Peter"
+			},
+			{
+				"family": "Safari",
+				"given": "an O'Reilly Media Company"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					8
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "FUCHS:2021",
+		"type": "book",
+		"event-place": "S.l.",
+		"ISBN": "978-1-5297-5274-8",
+		"language": "English",
+		"note": "OCLC: 1199802071",
+		"publisher": "SAGE PUBLICATIONS",
+		"publisher-place": "S.l.",
+		"source": "Open WorldCat",
+		"title": "SOCIAL MEDIA: a critical introduction.",
+		"title-short": "SOCIAL MEDIA",
+		"author": [
+			{
+				"family": "FUCHS",
+				"given": "CHRISTIAN"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Cath:2021",
+		"type": "article-journal",
+		"container-title": "Telecommunications Policy",
+		"DOI": "10.1016/j.telpol.2021.102144",
+		"ISSN": "03085961",
+		"issue": "6",
+		"journalAbbreviation": "Telecommunications Policy",
+		"language": "en",
+		"page": "102144",
+		"source": "DOI.org (Crossref)",
+		"title": "The technology we choose to create: Human rights advocacy in the Internet Engineering Task Force",
+		"title-short": "The technology we choose to create",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S0308596121000483",
+		"volume": "45",
+		"author": [
+			{
+				"family": "Cath",
+				"given": "Corinne"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "Floridi:2017",
+		"type": "article-journal",
+		"container-title": "Science and Engineering Ethics",
+		"DOI": "10.1007/s11948-016-9793-y",
+		"ISSN": "1353-3452, 1471-5546",
+		"issue": "2",
+		"journalAbbreviation": "Sci Eng Ethics",
+		"language": "en",
+		"page": "449-468",
+		"source": "DOI.org (Crossref)",
+		"title": "The Design of the Internet’s Architecture by the Internet Engineering Task Force (IETF) and Human Rights",
+		"URL": "http://link.springer.com/10.1007/s11948-016-9793-y",
+		"volume": "23",
+		"author": [
+			{
+				"family": "Cath",
+				"given": "Corinne"
+			},
+			{
+				"family": "Floridi",
+				"given": "Luciano"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "Matamoros-Fernandez:2020",
+		"type": "article-journal",
+		"abstract": "Over the past 15 years, YouTube has emerged as a large and dominant social media service, giving rise to a ‘platformed media system’ within its technical and regulatory infrastructures. This paper relies on a large-scale sample of channels (n=36M+) to explore this media system along three main lines. First, we investigate stratification and hierarchization in broadly quantitative terms, connecting to well-known tropes on structural hierarchies emerging in networked systems, where a small number of elite actors often dominate visibility. Second, we inquire into YouTube’s channel categories, their relationships, and their proportions as a means to better understand the topics on offer and their relative importance. Third, we analyze channels according to country affiliation to gain insights into the dynamics and fault lines that align with country and language. Throughout the paper, we emphasize the inductive character of this research, by highlighting the many follow-up questions that emerge from our findings.",
+		"container-title": "First Monday",
+		"DOI": "10.5210/fm.v25i8.10667",
+		"ISSN": "1396-0466",
+		"journalAbbreviation": "FM",
+		"source": "DOI.org (Crossref)",
+		"title": "Mapping YouTube",
+		"URL": "https://journals.uic.edu/ojs/index.php/fm/article/view/10667",
+		"author": [
+			{
+				"family": "Rieder",
+				"given": "Bernhard"
+			},
+			{
+				"family": "Coromina",
+				"given": "Òscar"
+			},
+			{
+				"family": "Matamoros-Fernández",
+				"given": "Ariadna"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					7,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "MacKinnon:2013",
+		"type": "book",
+		"abstract": "Making decisions by consensus -- Facilitating consensus -- Facilitating consensus in large groups -- Facilitating consensus in virtual meetings -- Quick consensus decision making -- Facilitation techniques and activities -- Troubleshooting in your meetings -- Bridging the gap between theory and practice -- Consensus in wider society -- Afterword -- Appendix: Short guide to facilitating workshops -- Glossary",
+		"edition": "First edition",
+		"event-place": "Lancaster, England",
+		"ISBN": "978-0-9575871-0-6",
+		"language": "eng",
+		"note": "OCLC: 1007537428",
+		"number-of-pages": "224",
+		"publisher": "Seeds For Change Lancaster Co-operative Ltd",
+		"publisher-place": "Lancaster, England",
+		"source": "Gemeinsamer Bibliotheksverbund ISBN",
+		"title": "A consensus handbook: co-operative decision-making for activists, co-ops and communities",
+		"title-short": "A consensus handbook",
+		"editor": [
+			{
+				"family": "MacKinnon",
+				"given": "Carrie"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		}
+	},
+	{
+		"id": "Whyte:1991",
+		"type": "book",
+		"call-number": "HD3218.M66 W48 1991",
+		"collection-number": "no. 14",
+		"collection-title": "Cornell international industrial and labor relations report",
+		"edition": "2nd ed., rev",
+		"event-place": "Ithaca, N.Y",
+		"ISBN": "978-0-87546-182-3",
+		"number-of-pages": "333",
+		"publisher": "ILR Press",
+		"publisher-place": "Ithaca, N.Y",
+		"source": "Library of Congress ISBN",
+		"title": "Making Mondragon: the growth and dynamics of the worker cooperative complex",
+		"title-short": "Making Mondragon",
+		"author": [
+			{
+				"family": "Whyte",
+				"given": "William Foote"
+			},
+			{
+				"family": "Whyte",
+				"given": "Kathleen King"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1991"
+				]
+			]
+		}
+	},
+	{
+		"id": "Verkerk:2021",
+		"type": "thesis",
+		"abstract": "Cloud  computing  provides  ready  access  to  data,  anywhere,  anytime  through  a  one-click connection to centralised data storage. For the user the physicality of cloud com-puting  is  reduced  to  a  browser  icon.  While  highly  convenient,  users  have  concerns  regarding privacy, security, and data surveillance, and don’t understand the technol-ogy. This suggests an imaginary of the cloud as benign, poetic and immaterial. How does the metaphor of the cloud shape how users imagine cloud computing? This  research  investigates  how  users  understand,  perceive  and  imagine  the  hidden  technology of cloud computing. Participatory design methodology was employed with groups of cloud computing users. Data was gathered using visual narrative method-ology  through  a  Cloud  Drawing  exercise  and  Follow-up  interview.  Stimulus  Images  of clouds in the arts and cloud computing industry further revealed how participants imagine the cloud. Findings informed a critical making methodology that addressed the immaterial nature of cloud computing through physical artefacts inspired by par-ticipant responses. An  exhibition  of  the  artefacts  provided  a  phenomenological  encounter  with  diverse cloud narratives for new participants’ responses. An enclosed server cabinet exploring  the  first  theme  of  Surveillance  uses  video,  Pepper’s  Ghost  magic  illusion,  and  smoke.  Viewers  observe  an  imaginary  of  mobile  connection  to  the  cloud  that  incorporates  a  panoptical  vision  from  an  all-seeing  eye  above.  The  second  themed  artefact,  Factory,  portrays  a  system-wide  imaginary  of  cloud  computing  infrastruc-ture through a network of fibre optic strands, and transparent user figurines. A third artefact, Noosphere, presents an imaginary of cloud computing as a technology that enables  knowledge  sharing  and  social  connection.  A  networked  bust  containing  an  interactive  element  empowers  the  viewer  to  distribute  light  and  knowledge  hori-zontally. The artefacts have a dual purpose – a manifestation of the critical making process, and a means to gather further participant feedback. Through critical making I intentionally used physical means to explore the dig-ital  technology  of  centralised  cloud  computing.  Photographs  and  drawings  provide  documentation of the creative process, moving the research into a digital format. The digital  capture  of  the  work  is  recorded,  while  the  physical  experience  through  light,  smoke and interactive elements is no longer possible. A final record of the artefacts and accompanying research will reside in digital form in the finite, digital shadow of the cloud, and in a physical book. This  research  highlights  the  imbalance  between  users’  imaginaries  of  the  cloud, the physical reality of the industry, and the metaphor it uses to advertise itself. While  the  growing  cloud  computing  industry,  with  a  market  total  of  US$214  billion  in 2019 alone, is driven by users’ streaming of video and music, it also enables data surveillance,  and  impacts  on  the  environment  (Gartner,  n.d.).  For  cloud  computing  companies,  including  Google,  Facebook  and  Amazon,  the  aim  is  delivery  of  a  work-ing product rather than a trusted one. My research seeks to address this imbalance through  investigating  users’  experience  of  the  cloud.  Through  cloud  artefacts  that  function as models of the cloud, this research provides a record of the human experi-ence of the invisible digital cloud.",
+		"event-place": "Wellington, New Zealand",
+		"genre": "PhD",
+		"language": "English",
+		"number-of-pages": "203",
+		"publisher": "Te Herenga Waka Victoria University of Wellington",
+		"publisher-place": "Wellington, New Zealand",
+		"title": "Could Computing as Digital Imaginary: A critical making approach to user perceptions and experiences",
+		"URL": "https://openaccess.wgtn.ac.nz/articles/thesis/Cloud_computing_as_Digital_Imaginary_A_critical_making_approach_to_user_perceptions_and_experiences/14411111",
+		"author": [
+			{
+				"family": "Verkerk",
+				"given": "Jayn"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "Weber:2021",
+		"type": "report",
+		"event-place": "Dublin, Ohio",
+		"page": "28",
+		"publisher": "OCLC Research",
+		"publisher-place": "Dublin, Ohio",
+		"title": "Total Cost of Stewardship:Responsible Collection Building in Archives and Special Collections",
+		"URL": "https://doi.org/10.25333/zbh0-a044",
+		"author": [
+			{
+				"family": "Weber",
+				"given": "Chela Scott"
+			},
+			{
+				"family": "Conway",
+				"given": "Martha O'Hara"
+			},
+			{
+				"family": "Martin",
+				"given": "Nicholas"
+			},
+			{
+				"family": "Stevens",
+				"given": "Gioia"
+			},
+			{
+				"family": "Kamsler",
+				"given": "Brigette C."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "Konheim:2010",
+		"type": "book",
+		"call-number": "QA76.9.H36 K65 2010",
+		"event-place": "Hoboken, N.J",
+		"ISBN": "978-0-470-34473-6",
+		"number-of-pages": "386",
+		"publisher": "John Wiley & Sons",
+		"publisher-place": "Hoboken, N.J",
+		"source": "Library of Congress ISBN",
+		"title": "Hashing in computer science: fifty years of slicing and dicing",
+		"title-short": "Hashing in computer science",
+		"author": [
+			{
+				"family": "Konheim",
+				"given": "Alan G."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010"
+				]
+			]
+		}
+	},
+	{
+		"id": "Mailund:2019",
+		"type": "book",
+		"event-place": "New York, NY",
+		"ISBN": "978-1-4842-4065-6",
+		"publisher": "Springer Science+Business Media",
+		"publisher-place": "New York, NY",
+		"source": "978-1-4842-4065-6",
+		"title": "The joys of hashing: hash table programming with C",
+		"title-short": "The joys of hashing",
+		"author": [
+			{
+				"family": "Mailund",
+				"given": "Thomas"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "Esyllt:2021",
+		"type": "article-journal",
+		"container-title": "FACETS",
+		"page": "545-568",
+		"title": "Remembering is a form of honouring:preserving the COVID-19 archival record",
+		"URL": "http://dx.doi.org/10.1139/facets-2020-0115",
+		"volume": "6",
+		"author": [
+			{
+				"family": "Jones",
+				"given": "Esyllt W."
+			},
+			{
+				"family": "Sweeney",
+				"given": "Shelley"
+			},
+			{
+				"family": "Milligan",
+				"given": "Ian"
+			},
+			{
+				"family": "Bak",
+				"given": "Greg"
+			},
+			{
+				"family": "McCutcheon",
+				"given": "Jo-Anne"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Zanella-Beguelin:2016",
+		"type": "paper-conference",
+		"abstract": "Ethereum is a framework for cryptocurrencies which uses blockchain technology to provide an open global computing platform, called the Ethereum Virtual Machine (EVM). EVM executes bytecode on a simple stack machine. Programmers do not usually write EVM code; instead, they can program in a JavaScript-like language, called Solidity, that compiles to bytecode. Since the main purpose of EVM is to execute smart contracts that manage and transfer digital assets (called Ether), security is of paramount importance. However, writing secure smart contracts can be extremely difficult: due to the openness of Ethereum, both programs and pseudonymous users can call into the public methods of other programs, leading to potentially dangerous compositions of trusted and untrusted code. This risk was recently illustrated by an attack on TheDAO contract that exploited subtle details of the EVM semantics to transfer roughly $50M worth of Ether into the control of an attacker.\n\nIn this paper, we outline a framework to analyze and verify both the runtime safety and the functional correctness of Ethereum contracts by translation to F*, a functional programming language aimed at program verification.",
+		"container-title": "ACM Workshop on Programming Languages and Analysis for Security",
+		"DOI": "10.1145/2993600.2993611",
+		"event-place": "Vienna, Austria",
+		"publisher-place": "Vienna, Austria",
+		"source": "HAL Archives Ouvertes",
+		"title": "Formal Verification of Smart Contracts: Short Paper",
+		"title-short": "Formal Verification of Smart Contracts",
+		"URL": "https://hal.inria.fr/hal-01400469",
+		"author": [
+			{
+				"family": "Bhargavan",
+				"given": "Karthikeyan"
+			},
+			{
+				"family": "Delignat-Lavaud",
+				"given": "Antoine"
+			},
+			{
+				"family": "Fournet",
+				"given": "Cédric"
+			},
+			{
+				"family": "Gollamudi",
+				"given": "Anitha"
+			},
+			{
+				"family": "Gonthier",
+				"given": "Georges"
+			},
+			{
+				"family": "Kobeissi",
+				"given": "Nadim"
+			},
+			{
+				"family": "Kulatova",
+				"given": "Natalia"
+			},
+			{
+				"family": "Rastogi",
+				"given": "Aseem"
+			},
+			{
+				"family": "Sibut-Pinote",
+				"given": "Thomas"
+			},
+			{
+				"family": "Swamy",
+				"given": "Nikhil"
+			},
+			{
+				"family": "Zanella-Béguelin",
+				"given": "Santiago"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					27
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "Amin:1987",
+		"type": "article-journal",
+		"container-title": "Review (Fernand Braudel Center)",
+		"ISSN": "0147-9032",
+		"issue": "3",
+		"note": "publisher: Research Foundation of SUNY",
+		"page": "435-444",
+		"source": "JSTOR",
+		"title": "A Note on the Concept of Delinking",
+		"URL": "https://www.jstor.org/stable/40241067",
+		"volume": "10",
+		"author": [
+			{
+				"family": "Amin",
+				"given": "Samir"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1987"
+				]
+			]
+		}
+	},
+	{
+		"id": "Deutsch:1998",
+		"type": "book",
+		"event-place": "New York",
+		"language": "English",
+		"note": "OCLC: 1149036332",
+		"publisher": "Penguin Books",
+		"publisher-place": "New York",
+		"source": "Open WorldCat",
+		"title": "The fabric of reality: the science of parallel universes-- and its implications",
+		"title-short": "The fabric of reality",
+		"URL": "https://archive.org/details/fabricofreality00davi",
+		"author": [
+			{
+				"family": "Deutsch",
+				"given": "David"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1998"
+				]
+			]
+		}
+	},
+	{
+		"id": "Kunegis:2018",
+		"type": "article-journal",
+		"container-title": "Journal of Web Science",
+		"DOI": "10.1561/106.00000014",
+		"ISSN": "2332-4031",
+		"issue": "4",
+		"journalAbbreviation": "JWS",
+		"page": "53-66",
+		"source": "DOI.org (Crossref)",
+		"title": "On the Ubiquity of Web Tracking: Insights from a Billion-Page Web Crawl",
+		"title-short": "On the Ubiquity of Web Tracking",
+		"URL": "http://www.nowpublishers.com/article/Details/JWS-0014",
+		"volume": "4",
+		"author": [
+			{
+				"family": "Schelter",
+				"given": "Sebastian"
+			},
+			{
+				"family": "Kunegis",
+				"given": "Jérôme"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					4
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					3,
+					19
+				]
+			]
+		}
+	},
+	{
+		"id": "Eghbal:2020",
+		"type": "book",
+		"event-place": "San Francisco",
+		"ISBN": "978-0-578-67586-2",
+		"publisher": "Stripe Press",
+		"publisher-place": "San Francisco",
+		"title": "Working in Public: The Making and Maintenance of Open Source Software",
+		"author": [
+			{
+				"family": "Eghbal",
+				"given": "Nadia"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "Brand:1995",
+		"type": "book",
+		"abstract": "\"Buildings have often been studied whole in space, but never before have they been studied whole in time.\" \"Architects (and architectural historians) are interested only in a building's original intentions. Most are dismayed by what happens later, when a building develops its own life, responsive to the life within. To get the rest of the story - to explore the years between the dazzle of a new building and its eventual corpse - Stewart Brand went to facilities managers and real estate professionals, to preservationists and building historians, to photo archives and to futurists. He inquired, \"What makes some buildings come to be loved?\" He found that all buildings are forced to adapt, but only some adapt gracefully.\" \"How Buildings Learn is a masterful new synthesis which proposes that buildings adapt best when constantly refined and reshaped by their occupants, and that architects can mature from being artists of space to becoming artists of time. A rich resource and point of departure, as stimulating for the general reader and home improvement hobbyist as for the building professional, the book is sure to generate ideas, provoke debate, and shake up habitual thinking.\" \"From the connected farmhouses of New England to I.M. Pei's Media Lab, from \"satisficing\" to \"form follows funding,\" from the evolution of bungalows to the invention of Santa Fe Style, from Low Road military surplus buildings to a High Road English classic like Chatsworth - this is a far-ranging survey of unexplored essential territory.\" \"More than any other human artifact, buildings improve with time - if they're allowed. How Buildings Learn shows how to work with time rather than against it.\"--Jacket.",
+		"ISBN": "978-1-101-56264-2",
+		"language": "English",
+		"note": "OCLC: 860833630",
+		"source": "Open WorldCat",
+		"title": "How buildings learn: what happens after they're built",
+		"title-short": "How buildings learn",
+		"URL": "https://www.overdrive.com/search?q=1FA701FE-EC71-4D4E-805D-04F4CCA4E23E",
+		"author": [
+			{
+				"family": "Brand",
+				"given": "Stewart"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1995"
+				]
+			]
+		}
+	},
+	{
+		"id": "Appadurai:2013",
+		"type": "book",
+		"edition": "11. print",
+		"event-place": "Cambridge",
+		"ISBN": "978-0-521-35726-5",
+		"language": "eng",
+		"note": "event: Ethnohistory workshop\nOCLC: 935348822",
+		"number-of-pages": "329",
+		"publisher": "Cambridge Univ. Press",
+		"publisher-place": "Cambridge",
+		"source": "Gemeinsamer Bibliotheksverbund ISBN",
+		"title": "The social life of things: commodities in cultural perspective",
+		"title-short": "The social life of things",
+		"editor": [
+			{
+				"family": "Appadurai",
+				"given": "Arjun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		}
+	},
+	{
+		"id": "Miller:2012",
+		"type": "book",
+		"abstract": "\"Anthropology has two main tasks: to understand what it is to be human and to examine how humanity is manifested differently in the diversity of culture. These tasks have gained new impetus from the extraordinary rise of the digital. This book brings together several key anthropologists working with digital culture to demonstrate just how productive an anthropological approach to the digital has already become. Through a range of case studies from Facebook to Second Life to Google Earth, Digital Anthropology explores how human and digital can be defined in relation to one another, from avatars and disability; cultural differences in how we use social networking sites or practise religion; the practical consequences of the digital for politics, museums, design, space and development to new online world and gaming communities. The book also explores the moral universe of the digital, from new anxieties to open-source ideals. Digital Anthropology reveals how only the intense scrutiny of ethnography can overturn assumptions about the impact of digital culture and reveal its profound consequences for everyday life. Combining the clarity of a textbook with an engaging style which conveys a passion for these new frontiers of enquiry, this book is essential reading for students and scholars of anthropology, media studies, communication studies, cultural studies and sociology.\"--Publisher's website",
+		"call-number": "P96.A56 D54 2012",
+		"edition": "English ed",
+		"event-place": "London ; New York",
+		"ISBN": "978-0-85785-291-5",
+		"note": "OCLC: ocn764357614",
+		"number-of-pages": "316",
+		"publisher": "Berg",
+		"publisher-place": "London ; New York",
+		"source": "Library of Congress ISBN",
+		"title": "Digital anthropology",
+		"editor": [
+			{
+				"family": "Horst",
+				"given": "Heather A."
+			},
+			{
+				"family": "Miller",
+				"given": "Daniel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "Elmer:2015",
+		"type": "book",
+		"call-number": "QA76.9.D343 C4785 2015",
+		"event-place": "New York ; London",
+		"ISBN": "978-1-5013-0650-1",
+		"number-of-pages": "284",
+		"publisher": "Bloomsbury Academic, an imprint of Bloomsbury Publishing, Inc",
+		"publisher-place": "New York ; London",
+		"source": "Library of Congress ISBN",
+		"title": "Compromised data: from social media to big data",
+		"title-short": "Compromised data",
+		"editor": [
+			{
+				"family": "Langlois",
+				"given": "Ganaele"
+			},
+			{
+				"family": "Redden",
+				"given": "Joanna"
+			},
+			{
+				"family": "Elmer",
+				"given": "Greg"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "Downey:2020",
+		"type": "article-journal",
+		"container-title": "Digital War",
+		"DOI": "10.1057/s42984-020-00001-2",
+		"ISSN": "2662-1975, 2662-1983",
+		"issue": "1-3",
+		"journalAbbreviation": "Digi War",
+		"language": "en",
+		"page": "18-28",
+		"source": "DOI.org (Crossref)",
+		"title": "Algorithmic anxieties: Trevor Paglen in conversation with Anthony Downey",
+		"title-short": "Algorithmic anxieties",
+		"URL": "http://link.springer.com/10.1057/s42984-020-00001-2",
+		"volume": "1",
+		"author": [
+			{
+				"family": "Paglen",
+				"given": "Trevor"
+			},
+			{
+				"family": "Downey",
+				"given": "Anthony"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "Rogers:2018",
+		"type": "article",
+		"language": "en",
+		"note": "type: dataset\nDOI: 10.1285/I20356609V11I2P557",
+		"publisher": "University of Salento",
+		"source": "DOI.org (Datacite)",
+		"title": "Social Media Research After the Fake News Debacle",
+		"URL": "http://siba-ese.unisalento.it/index.php/paco/article/view/19556/16638",
+		"author": [
+			{
+				"family": "Rogers",
+				"given": "Richard"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "Chautemps:2020",
+		"type": "article-journal",
+		"container-title": "Annales des Mines",
+		"language": "en",
+		"page": "7",
+		"source": "Zotero",
+		"title": "Web archives or the Web as contemporary society’s memory",
+		"URL": "http://www.annales.org/edit/enjeux-numeriques/DG/2020/DG-2020-06/EnjNum20b_11Chautemps.pdf",
+		"volume": "10",
+		"author": [
+			{
+				"family": "Chautemps",
+				"given": "Alexandre"
+			}
+		],
+		"translator": [
+			{
+				"family": "Mellott",
+				"given": "Noal"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					2,
+					11
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "Hayes:2001",
+		"type": "article-magazine",
+		"container-title": "RLG DigiNews",
+		"issue": "2",
+		"title": "Collecting and Preserving the Web: the MINERVA Prototype",
+		"URL": "http://worldcat.org/arcviewer/2/OCC/2009/08/11/H1250005040496/viewer/file2.html",
+		"volume": "5",
+		"author": [
+			{
+				"family": "Arms",
+				"given": "William Y."
+			},
+			{
+				"family": "Adkins",
+				"given": "Roger"
+			},
+			{
+				"family": "Ammen",
+				"given": "Casey"
+			},
+			{
+				"family": "Hayes",
+				"given": "Allene"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2015",
+					8,
+					13
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2001",
+					4,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "Rosenthal:2000",
+		"type": "paper-conference",
+		"abstract": "LOCKSS   (Lots   Of   Copies   Keep   Stuff   Safe)   is   a   prototype  of  a  system  to  preserve  access  to  scientific  journals  published  on  the  Web.  It  is  a  majority-voting  fault-tolerant  system  that,  unlike  normal  systems,  has  far more replicas than would be required just to survive the  anticipated  failures.  We  are  exploring  techniques  that  exploit  the  surplus  of  replicas  to  permit  a  much  looser   form   of   coordination   between   them   than   conventional fault-tolerant technology would require.",
+		"container-title": "Proceedings of FREENIX Track:2000 USENIX Annual Technical Conference",
+		"event": "USENIX Annual Technical Conference",
+		"event-place": "San Diego, California",
+		"publisher": "USENIX Association",
+		"publisher-place": "San Diego, California",
+		"title": "Permanent Web publishing",
+		"author": [
+			{
+				"family": "David Rosenthal and Vicky Reich",
+				"given": ""
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2000",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "Hanna:2020",
+		"type": "article-journal",
+		"abstract": "You can’t understand the AI systems that are transforming our world without understanding the datasets they are built on.",
+		"container-title": "Logic",
+		"issue": "12",
+		"title": "Lines of Sight",
+		"URL": "https://logicmag.io/commons/lines-of-sight/",
+		"author": [
+			{
+				"family": "Hanna",
+				"given": "Alex"
+			},
+			{
+				"family": "Denton",
+				"given": "Emily"
+			},
+			{
+				"family": "Amironesei",
+				"given": "Razvan"
+			},
+			{
+				"family": "Smart",
+				"given": "Andrew"
+			},
+			{
+				"family": "Nicole",
+				"given": "Hilary"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "Hill:2020",
+		"type": "article-newspaper",
+		"abstract": "A little-known start-up helps law enforcement match photos of unknown people to their online images — and “might lead to a dystopian future or something,” a backer says.",
+		"container-title": "The New York Times",
+		"ISSN": "0362-4331",
+		"language": "en-US",
+		"section": "Technology",
+		"source": "NYTimes.com",
+		"title": "The Secretive Company That Might End Privacy as We Know It",
+		"URL": "https://www.nytimes.com/2020/01/18/technology/clearview-privacy-facial-recognition.html",
+		"author": [
+			{
+				"family": "Hill",
+				"given": "Kashmir"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					26
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					1,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "Paglen:2014",
+		"type": "article-journal",
+		"abstract": "…",
+		"container-title": "e-flux",
+		"issue": "59",
+		"language": "en",
+		"title": "Operational Images",
+		"URL": "https://www.e-flux.com/journal/59/61130/operational-images/",
+		"author": [
+			{
+				"family": "Paglen",
+				"given": "Trevor"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					26
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "Howell:",
+		"type": "article-journal",
+		"container-title": "Journal of Internet Law",
+		"issue": "5",
+		"page": "3-9",
+		"title": "Proving Web history: How to use the Internet Archive",
+		"volume": "3",
+		"author": [
+			{
+				"family": "Howell",
+				"given": "Beryl A."
+			}
+		]
+	},
+	{
+		"id": "Paris:2020",
+		"type": "article-journal",
+		"abstract": "The Internet was conceptualized as a technology that would be capable of bringing about a better future, but recent literature in science and technology studies and adjacent fields provides numerous examples of how this pervasive sociotechnical system has been shaped and used to dystopic ends. This article examines different future imaginaries present in Future Internet Architecture (FIA) projects funded by the National Science Foundation (NSF) from 2006 to 2016, whose goal was to incorporate social values while building new protocols to replace Transmission Control Protocol and Internet Protocol to transfer and route information across the ever-expanding Internet. I examine the findings from two of the NSF’s FIA projects—Mobility First (MF) and eXpressive Internet Architecture—to understand the projects’ trajectories and values directives through their funding cycle and their projections into the future. I discuss how project documentation and participant articulations fall into the following three distinct themes about past experience and speculation: understanding the public, negotiating resources, and carrying project values into the future. I conclude that if the future Internet is to promote positive sociotechnical relationships, its architects must recognize that complex social and political decisions pervade each step of technical work and do more to honor this fact.",
+		"container-title": "Science, Technology, & Human Values",
+		"DOI": "10.1177/0162243920974083",
+		"ISSN": "0162-2439",
+		"journalAbbreviation": "Science, Technology, & Human Values",
+		"language": "en",
+		"note": "publisher: SAGE Publications Inc",
+		"page": "0162243920974083",
+		"source": "SAGE Journals",
+		"title": "The Internet of Futures Past: Values Trajectories of Networking Protocol Projects",
+		"title-short": "The Internet of Futures Past",
+		"URL": "https://doi.org/10.1177/0162243920974083",
+		"author": [
+			{
+				"family": "Paris",
+				"given": "Britt"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					27
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					11,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": ":",
+		"type": "webpage",
+		"title": "The Datafication of Forests? From the Wood Wide Web to the Internet of Trees | Zenodo",
+		"URL": "https://zenodo.org/record/3840215",
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					28
+				]
+			]
+		}
+	},
+	{
+		"id": "KABKLectorateDesign:",
+		"type": "webpage",
+		"abstract": "This publication by the KABK Lectorate Design features projects by KABK tutors and students in which walking plays a pivotal role.",
+		"container-title": "Issuu",
+		"language": "en",
+		"title": "Walking as a Research Method",
+		"URL": "https://issuu.com/kabk/docs/kabk_designlectorate_walkingpublication",
+		"author": [
+			{
+				"literal": "KABK Lectorate Design"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					28
+				]
+			]
+		}
+	},
+	{
+		"id": "Hammond:2018",
+		"type": "article-journal",
+		"abstract": "This article explores the concept of theorising in social research: what is theorising; how does theorising look to those doing it and how can it be explained a...",
+		"archive_location": "Sage UK: London, England",
+		"container-title": "Methodological Innovations",
+		"DOI": "10.1177/2059799118787756",
+		"language": "en",
+		"note": "publisher: SAGE PublicationsSage UK: London, England",
+		"source": "journals.sagepub.com",
+		"title": "‘An interesting paper but not sufficiently theoretical’: What does theorising in social research look like?:",
+		"title-short": "‘An interesting paper but not sufficiently theoretical’",
+		"URL": "https://journals.sagepub.com/doi/full/10.1177/2059799118787756",
+		"author": [
+			{
+				"family": "Hammond",
+				"given": "Michael"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					7,
+					26
+				]
+			]
+		}
+	},
+	{
+		"id": "Swedberg:2012",
+		"type": "article-journal",
+		"abstract": "Since World War II methods have advanced very quickly in sociology and social science, while this has not been the case with theory. In this article I suggest that one way of beginning to close the gap between the two is to focus on theorizing rather than on theory. The place where theorizing can be used in the most effective way, I suggest, is in the context of discovery. What needs to be discussed are especially ways for how to develop theory before hypotheses are formulated and tested. To be successful in this, we need to assign an independent place to theorizing and also to develop some basic rules for how to theorize. An attempt is made to formulate such rules; it is also argued that theorizing can only be successful if it is done in close unison with observation in what is called a prestudy. Theorizing has turned into a skill when it is iterative, draws on intuitive ways of thinking, and goes beyond the basic rules for theorizing.",
+		"container-title": "Theory and Society",
+		"DOI": "10.1007/s11186-011-9161-5",
+		"ISSN": "1573-7853",
+		"issue": "1",
+		"journalAbbreviation": "Theor Soc",
+		"language": "en",
+		"page": "1-40",
+		"source": "Springer Link",
+		"title": "Theorizing in sociology and social science: turning to the context of discovery",
+		"title-short": "Theorizing in sociology and social science",
+		"URL": "https://doi.org/10.1007/s11186-011-9161-5",
+		"volume": "41",
+		"author": [
+			{
+				"family": "Swedberg",
+				"given": "Richard"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					1,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "Moretti:",
+		"type": "report",
+		"collection-title": "Literary Lab Pamphlet",
+		"number": "6",
+		"publisher": "Stanford University",
+		"title": "\"Operationalizing\": or, the function of measurement in modern literary theory",
+		"author": [
+			{
+				"family": "Moretti",
+				"given": "Franco"
+			}
+		]
+	},
+	{
+		"id": ":a",
+		"type": "webpage",
+		"abstract": "Can ‘digital humanities’ recover from Thomas Kuhn’s before-the-fact critique—that no new ‘laws of nature’ will be discovered just by inspecting the numbers? Testing the limits of the approach, Moretti investigates whether data-crunching can falsify Hegel’s theory of tragedy.",
+		"container-title": "New Left Review",
+		"language": "en",
+		"title": "Franco Moretti, ‘Operationalizing’, NLR 84, November–December 2013",
+		"URL": "https://newleftreview.org/issues/ii84/articles/franco-moretti-operationalizing",
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					28
+				]
+			]
+		}
+	},
+	{
+		"id": "Plasek:2016",
+		"type": "article-journal",
+		"abstract": "The construction, maintenance, and mobilization of data used to both constrain and enable machine learning systems poses profound historiographical questions and offers an intellectual opportunity to engage in fundamental questions about novelty in historical narratives. To effectively explore the intellectual, material, and disciplinary contingencies surrounding both the curation and subsequent distribution of datasets, we need to take seriously the field of machine learning as a worthy subject for historical investigation.",
+		"container-title": "IEEE Annals of the History of Computing",
+		"DOI": "10.1109/MAHC.2016.43",
+		"ISSN": "1934-1547",
+		"issue": "4",
+		"note": "event: IEEE Annals of the History of Computing",
+		"page": "6-8",
+		"source": "IEEE Xplore",
+		"title": "On the Cruelty of Really Writing a History of Machine Learning",
+		"volume": "38",
+		"author": [
+			{
+				"family": "Plasek",
+				"given": "Aaron"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "IIPCWorkingGropu:2006",
+		"type": "report",
+		"publisher": "International Internet Preservation Consortium",
+		"title": "Use cases for Access to Internet Archives",
+		"URL": "http://web.archive.org/web/20060613164905id_/https://netpreserve.org/publications/iipc-r-003.pdf",
+		"author": [
+			{
+				"family": "IIPC Working Gropu",
+				"given": ""
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2006",
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "Jacobsen:2021",
+		"type": "book",
+		"ISBN": "978-1-5292-1815-2",
+		"language": "English",
+		"note": "OCLC: 1231959408",
+		"source": "Open WorldCat",
+		"title": "Social media and the automatic production of memory: classification, ranking and the sorting of the past",
+		"title-short": "Social media and the automatic production of memory",
+		"author": [
+			{
+				"family": "Jacobsen",
+				"given": "Ben"
+			},
+			{
+				"family": "Beer",
+				"given": "David"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Kahle:1997",
+		"type": "article-journal",
+		"container-title": "Scientific American",
+		"issue": "3",
+		"page": "82-83",
+		"title": "Preserving the Internet: An archive of the Internet may prove to be a vital record for historians, businesses and governments.",
+		"volume": "276",
+		"author": [
+			{
+				"family": "Kahle",
+				"given": "Brewster"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1997",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "Weltevrede:",
+		"type": "webpage",
+		"title": "View of Where do bloggers blog? Platform transitions within the historical Dutch blogosphere | First Monday",
+		"URL": "https://journals.uic.edu/ojs/index.php/fm/article/view/3775/3142",
+		"author": [
+			{
+				"family": "Helmond",
+				"given": "Anne"
+			},
+			{
+				"family": "Weltevrede",
+				"given": "Esther"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					28
+				]
+			]
+		}
+	},
+	{
+		"id": "EstherWeltevrede:2019",
+		"type": "article-journal",
+		"abstract": "This article discusses methodological approaches to app studies, focusing on their embeddedness and situatedness within multiple infrastructural settings. Our a...",
+		"archive_location": "Sage UK: London, England",
+		"container-title": "Social Media + Society",
+		"DOI": "10.1177/2056305119846486",
+		"language": "en",
+		"note": "publisher: SAGE PublicationsSage UK: London, England",
+		"source": "journals.sagepub.com",
+		"title": "Multi-Situated App Studies: Methods and Propositions:",
+		"title-short": "Multi-Situated App Studies",
+		"URL": "https://journals.sagepub.com/doi/10.1177/2056305119846486",
+		"author": [
+			{
+				"family": "Dieter",
+				"given": "Michael"
+			},
+			{
+				"family": "Gerlitz",
+				"given": "Carolin"
+			},
+			{
+				"family": "Helmond",
+				"given": "Anne"
+			},
+			{
+				"family": "Tkacz",
+				"given": "Nathaniel"
+			},
+			{
+				"family": "Vlist",
+				"given": "Fernando N.",
+				"dropping-particle": "van der"
+			},
+			{
+				"family": "Esther Weltevrede",
+				"given": "(alphabetical)"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					11,
+					17
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					6,
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "Schneider:2006",
+		"type": "book",
+		"abstract": "The use of the Web in U.S. political campaigns has developed dramatically over the course of the last several election seasons. In Web Campaigning, Kirsten Foot and Steven Schneider examine the evolution of campaigns' Web practices, based on hundreds of campaign Web sites produced by a range of political actors during the U.S. elections of 2000, 2002, and 2004. Their developmental analyses of how and why campaign organizations create specific online structures illuminates the reciprocal relationship between these production practices and the structures of both the campaign organization and the electoral arena. This practice-based approach and the focus on campaigns as Web producers make the book a significant methodological and theoretical contribution to both science and technology studies and political communication scholarship.Foot and Schneider explore the inherent tension between the desire of campaigns to maintain control over messages and resources and the generally decentralizing dynamic of Web-based communication. They analyze specific strategies by which campaigns mitigate this, examining the ways that the production techniques, coproducing Web content, online-offline convergence, and linking to other Web sites mediate the practices of informing, involving, connecting, and mobilizing supporters. Their conclusions about the past decade's trajectory of Web campaigning point the way to a political theory of technology and a technologically grounded theory of electoral politics.A digital installation available on the web illustrates core concepts discussed in the text of the book with examples drawn from archived campaign Web sites. Users have the opportunity to search these concepts in the context of fully operational campaign sites, recreating the Web experience of users during the election periods covered in the book.",
+		"language": "en",
+		"note": "publisher: The MIT Press",
+		"publisher": "MIT Press",
+		"title": "Web Campaigning",
+		"URL": "https://mitpress.mit.edu/books/web-campaigning",
+		"author": [
+			{
+				"family": "Foot",
+				"given": "Kirsten A."
+			},
+			{
+				"family": "Schneider",
+				"given": "Steven M"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2006"
+				]
+			]
+		}
+	},
+	{
+		"id": "Alexander:1979",
+		"type": "book",
+		"collection-number": "1",
+		"collection-title": "Center for Environmental Structure series",
+		"edition": "24. print",
+		"event-place": "New York, NY",
+		"ISBN": "978-0-19-502402-9",
+		"language": "eng",
+		"note": "OCLC: 254783619",
+		"number-of-pages": "551",
+		"publisher": "Oxford Univ. Press",
+		"publisher-place": "New York, NY",
+		"source": "Gemeinsamer Bibliotheksverbund ISBN",
+		"title": "The timeless way of building",
+		"author": [
+			{
+				"family": "Alexander",
+				"given": "Christopher"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1979"
+				]
+			]
+		}
+	},
+	{
+		"id": "Madani:2021",
+		"type": "article-journal",
+		"container-title": "Resources, Conservation and Recycling",
+		"DOI": "10.1016/j.resconrec.2020.105389",
+		"ISSN": "0921-3449",
+		"journalAbbreviation": "Resources, Conservation and Recycling",
+		"language": "en",
+		"page": "105389",
+		"source": "ScienceDirect",
+		"title": "The overlooked environmental footprint of increasing Internet use",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0921344920307072",
+		"volume": "167",
+		"author": [
+			{
+				"family": "Obringer",
+				"given": "Renee"
+			},
+			{
+				"family": "Rachunok",
+				"given": "Benjamin"
+			},
+			{
+				"family": "Maia-Silva",
+				"given": "Debora"
+			},
+			{
+				"family": "Arbabzadeh",
+				"given": "Maryam"
+			},
+			{
+				"family": "Nateghi",
+				"given": "Roshanak"
+			},
+			{
+				"family": "Madani",
+				"given": "Kaveh"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					31
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "Otlet:2021",
+		"type": "book",
+		"language": "French",
+		"publisher": "Open Edition Books",
+		"title": "Traité de documentation Le livre sur le livre. Théorie et pratique",
+		"author": [
+			{
+				"family": "Otlet",
+				"given": "Paul"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Broecheler:2020",
+		"type": "book",
+		"ISBN": "978-1-4920-4407-9",
+		"language": "English",
+		"note": "OCLC: 1152988505",
+		"publisher": "O'Reilly Media, Incorporated",
+		"source": "Open WorldCat",
+		"title": "Practitioner's Guide to Graph Data: Applying Graph Thinking and Graph Technologies to Solve Complex Problems.",
+		"title-short": "Practitioner's Guide to Graph Data",
+		"author": [
+			{
+				"family": "Broecheler",
+				"given": "Matthias"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "Corbett:2021",
+		"type": "article-journal",
+		"abstract": "Sustainability is a ubiquitous term today and one that is central to key environmental and social policy discussions relating to the most pressing questions faced in contemporary societies. In this paper we argue that sustainability needs to be understood in relation to social space. We do so by engaging with Pierre Bourdieu’s thinking tools as well as Edward Soja’s spatial analysis to deconstruct how differently positioned actors understand and relate to space, including how to sustain it. Drawing on focus group and interview data from a small Australian city, we use Soja’s typology to critique spatial tropes and dualistic frames common in sustainability discourses such as ecological/social, global/local, and reveal nuanced interpretations of spatial relations.",
+		"container-title": "Environmental Sociology",
+		"DOI": "10.1080/23251042.2021.1913320",
+		"ISSN": "null",
+		"issue": "0",
+		"note": "publisher: Routledge\n_eprint: https://doi.org/10.1080/23251042.2021.1913320",
+		"page": "1-11",
+		"source": "Taylor and Francis+NEJM",
+		"title": "What counts as sustainability?: a sociospatial analysis",
+		"title-short": "What counts as sustainability?",
+		"URL": "https://doi.org/10.1080/23251042.2021.1913320",
+		"volume": "0",
+		"author": [
+			{
+				"family": "Beasy",
+				"given": "Kim"
+			},
+			{
+				"family": "Corbett",
+				"given": "Michael"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					14
+				]
+			]
+		}
+	},
+	{
+		"id": "Hoberman:2012",
+		"type": "book",
+		"event-place": "Westfield",
+		"ISBN": "978-1-935504-21-4",
+		"language": "English",
+		"note": "OCLC: 893408461",
+		"publisher": "Technics publications",
+		"publisher-place": "Westfield",
+		"source": "Open WorldCat",
+		"title": "Data and reality: a timeless perspective on perceiving and managing information in our imprecise world",
+		"title-short": "Data and reality",
+		"author": [
+			{
+				"family": "Kent",
+				"given": "William"
+			},
+			{
+				"family": "Hoberman",
+				"given": "Steve"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "Skinner:2017",
+		"type": "book",
+		"publisher": "Torque Editions",
+		"title": "Artists re:thinking the blockchain",
+		"editor": [
+			{
+				"family": "Catlow",
+				"given": "Ruth"
+			},
+			{
+				"family": "Garrett",
+				"given": "Mark"
+			},
+			{
+				"family": "Jones",
+				"given": "Nathan"
+			},
+			{
+				"family": "Skinner",
+				"given": "Sam"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "AmateurCities:2020",
+		"type": "report",
+		"abstract": "Amateur Cities and the Institute of Network Cultures are proud to present a feminist finance zine titled ‘Radical Care: Embracing Feminist Finance’. It is a cooperative future-thinking effort from the MoneyLab network, a collective of artists, designers, researchers, geeks and activists dedicated to the task of experimenting with more equitable, diverse, and sustainable futures for finance and economy.\n\nThe zine is a diverse collection of voices organized in three types of contributions: quickfire interviews (short reactions to big questions), double interviews (conversational long reads), and artworks (projects addressing discussed subjects visually).",
+		"event-place": "Amsterdam",
+		"publisher": "Institute for Networked Cultures",
+		"publisher-place": "Amsterdam",
+		"title": "Radical Care: Embracing Feminist Finance",
+		"URL": "https://networkcultures.org/blog/publication/radical-care-embracing-feminist-finance/",
+		"author": [
+			{
+				"literal": "Amateur Cities"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "Radkau:2009",
+		"type": "book",
+		"event-place": "Cambridge",
+		"ISBN": "978-0-7456-4147-8",
+		"language": "eng",
+		"note": "OCLC: 602144016",
+		"number-of-pages": "683",
+		"publisher": "Polity",
+		"publisher-place": "Cambridge",
+		"source": "Gemeinsamer Bibliotheksverbund ISBN",
+		"title": "Max Weber: a biography",
+		"title-short": "Max Weber",
+		"author": [
+			{
+				"family": "Radkau",
+				"given": "Joachim"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2009"
+				]
+			]
+		}
+	},
+	{
+		"id": "Mills:2000",
+		"type": "book",
+		"call-number": "H61 .M5 2000",
+		"event-place": "Oxford [England] New York",
+		"ISBN": "978-0-19-513373-8",
+		"number-of-pages": "248",
+		"publisher": "Oxford University Press",
+		"publisher-place": "Oxford [England] New York",
+		"source": "Library of Congress ISBN",
+		"title": "The sociological imagination",
+		"author": [
+			{
+				"family": "Mills",
+				"given": "C. Wright"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2000"
+				]
+			]
+		}
+	},
+	{
+		"id": "Willis:2000",
+		"type": "book",
+		"call-number": "GN345 .W52 2000",
+		"event-place": "Cambridge, U.K. : Malden, MA",
+		"ISBN": "978-0-7456-0173-1",
+		"note": "OCLC: ocm43836534",
+		"number-of-pages": "153",
+		"publisher": "Polity ; Blackwell",
+		"publisher-place": "Cambridge, U.K. : Malden, MA",
+		"source": "Library of Congress ISBN",
+		"title": "The ethnographic imagination",
+		"author": [
+			{
+				"family": "Willis",
+				"given": "Paul E."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2000"
+				]
+			]
+		}
+	},
+	{
+		"id": "Stanton:2021",
+		"type": "report",
+		"abstract": "Hyperlinks are a powerful tool for journalists and their readers. Diving deep into the context of an article is just a click away. But hyperlinks are a double-edged sword; for all of the internet’s boundlessness, what’s found on the web can also be modified, moved, or entirely disappeared. This often-irreversible decay of web content is commonly known as linkrot. It comes with a similar problem of content drift, or the often-unannounced changes––retractions, additions, replacement––to the content at a particular URL.  Our team of researchers at Harvard Law School has undertaken a project to gain insight into the extent and characteristics of journalistic linkrot and content drift. We examined hyperlinks in New York Times articles starting with the launch of the Times website in 1996 up through mid-2019, developed on the basis of a dataset provided to us by the Times. We focus on the Times not because it is an influential publication whose archives are often used to help form a historical record. Rather, the substantial linkrot and content drift we find here across the New York Times corpus accurately reflects the inherent difficulties of long-term linking to pieces of a volatile web.  Results show a near linear increase of linkrot over time, with interesting patterns emerging within certain sections of the paper or across top level domains. Over half of articles containing at least one URL also contained a dead link. Additionally, of the ostensibly “healthy” links existing in articles, a hand review revealed additional erosion to citations via content drift.",
+		"event-place": "Rochester, NY",
+		"genre": "SSRN Scholarly Paper",
+		"language": "en",
+		"note": "DOI: 10.2139/ssrn.3833133",
+		"number": "ID 3833133",
+		"publisher": "Social Science Research Network",
+		"publisher-place": "Rochester, NY",
+		"source": "papers.ssrn.com",
+		"title": "The Paper of Record Meets an Ephemeral Web: An Examination of Linkrot and Content Drift within The New York Times",
+		"title-short": "The Paper of Record Meets an Ephemeral Web",
+		"URL": "https://papers.ssrn.com/abstract=3833133",
+		"author": [
+			{
+				"family": "Zittrain",
+				"given": "Jonathan L."
+			},
+			{
+				"family": "Bowers",
+				"given": "John"
+			},
+			{
+				"family": "Stanton",
+				"given": "Clare"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					26
+				]
+			]
+		}
+	},
+	{
+		"id": "Butler:1993",
+		"type": "chapter",
+		"container-title": "Reading Rodney King/reading urban uprising",
+		"event-place": "New York",
+		"page": "15-22",
+		"publisher": "Routledge",
+		"publisher-place": "New York",
+		"title": "Endangered/endangering: Schematic racism and white paranoia.",
+		"author": [
+			{
+				"family": "Butler",
+				"given": "Judith"
+			}
+		],
+		"editor": [
+			{
+				"family": "Gooding-Williams",
+				"given": "Robert"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1993"
+				]
+			]
+		}
+	},
+	{
+		"id": "Kuntz:2021",
+		"type": "article-journal",
+		"container-title": "Journal of Radical Librarianship",
+		"ISSN": "2399-956X",
+		"journalAbbreviation": "JRL",
+		"language": "en",
+		"page": "17-52",
+		"source": "journal.radicallibrarianship.org",
+		"title": "Stolen Memories: Israeli State Repression and Appropriation of Palestinian Cultural Resources",
+		"title-short": "Stolen Memories",
+		"URL": "https://journal.radicallibrarianship.org/index.php/journal/article/view/54",
+		"volume": "7",
+		"author": [
+			{
+				"family": "Kuntz",
+				"given": "Blair"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					19
+				]
+			]
+		}
+	},
+	{
+		"id": "Pickering:1992",
+		"type": "book",
+		"call-number": "Q175.5 .S3495 1992",
+		"event-place": "Chicago",
+		"ISBN": "978-0-226-66800-0",
+		"number-of-pages": "474",
+		"publisher": "University of Chicago Press",
+		"publisher-place": "Chicago",
+		"source": "Library of Congress ISBN",
+		"title": "Science as practice and culture",
+		"editor": [
+			{
+				"family": "Pickering",
+				"given": "Andrew"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1992"
+				]
+			]
+		}
+	},
+	{
+		"id": "Kolbert:2014",
+		"type": "book",
+		"call-number": "QE721.2.E97 K65 2014",
+		"edition": "First edition",
+		"event-place": "New York",
+		"ISBN": "978-0-8050-9299-8",
+		"number-of-pages": "319",
+		"publisher": "Henry Holt and Company",
+		"publisher-place": "New York",
+		"source": "Library of Congress ISBN",
+		"title": "The sixth extinction: an unnatural history",
+		"title-short": "The sixth extinction",
+		"author": [
+			{
+				"family": "Kolbert",
+				"given": "Elizabeth"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "Heuguet:2021",
+		"type": "article-journal",
+		"container-title": "Internet Histories",
+		"DOI": "10.1080/24701475.2021.1878649",
+		"ISSN": "2470-1475",
+		"issue": "1",
+		"note": "publisher: Routledge\n_eprint: https://doi.org/10.1080/24701475.2021.1878649",
+		"page": "1-7",
+		"source": "Taylor and Francis+NEJM",
+		"title": "Genealogies of online content identification - an introduction",
+		"URL": "https://doi.org/10.1080/24701475.2021.1878649",
+		"volume": "5",
+		"author": [
+			{
+				"family": "Eriksson",
+				"given": "Maria"
+			},
+			{
+				"family": "Heuguet",
+				"given": "Guillaume"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					7
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					1,
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "Schneider:2016",
+		"type": "book",
+		"call-number": "HM851 .O973 2016",
+		"event-place": "New York",
+		"ISBN": "978-1-68219-062-3",
+		"note": "OCLC: ocn957955797",
+		"number-of-pages": "251",
+		"publisher": "OR Books",
+		"publisher-place": "New York",
+		"source": "Library of Congress ISBN",
+		"title": "Ours to hack and to own: the rise of platform cooperativism, a new vision for the future of work and a fairer internet",
+		"title-short": "Ours to hack and to own",
+		"editor": [
+			{
+				"family": "Scholz",
+				"given": "Trebor"
+			},
+			{
+				"family": "Schneider",
+				"given": "Nathan"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "Kropotkin:2016",
+		"type": "book",
+		"abstract": "In this cornerstone of modern liberal social theory, Peter Kropotkin states that the most effective human and animal communities are essentially cooperative, rather than competitive. Kropotkin based this classic on his observations of natural phenomena and history, forming a work of stunning and well-reasoned scholarship. Essential to the understanding of human evolution as well as social organization, it offers a powerful counterpoint to the tenets of Social Darwinism. It also cites persuasive evidence of human nature's innate compatibility with anarchist society.\"\"Kropotkin's basic argument.",
+		"event-place": "Newburyport",
+		"ISBN": "978-1-5154-0976-2",
+		"language": "English",
+		"note": "OCLC: 1159654085",
+		"publisher": "Dover Publications",
+		"publisher-place": "Newburyport",
+		"source": "Open WorldCat",
+		"title": "Mutual aid: a factor of evolution",
+		"title-short": "Mutual aid",
+		"URL": "http://ebookcentral.proquest.com/lib/bath/detail.action?docID=1890084",
+		"author": [
+			{
+				"family": "Kropotkin",
+				"given": "Petr Alekseevich"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					8
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "Shatz:1995",
+		"type": "book",
+		"call-number": "HX833 .K65213 1995",
+		"collection-title": "Cambridge texts in the history of political thought",
+		"event-place": "Cambridge ; New York",
+		"ISBN": "978-0-521-45398-1",
+		"language": "eng",
+		"number-of-pages": "263",
+		"publisher": "Cambridge University Press",
+		"publisher-place": "Cambridge ; New York",
+		"source": "Library of Congress ISBN",
+		"title": "The conquest of bread and other writings",
+		"author": [
+			{
+				"family": "Kropotkin",
+				"given": "Petr Alekseevich"
+			},
+			{
+				"family": "Shatz",
+				"given": "Marshall"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1995"
+				]
+			]
+		}
+	},
+	{
+		"id": "Maemura:2021",
+		"type": "article-journal",
+		"abstract": "Abstract\n            \n              Our work considers the sociotechnical and organisational constraints of web archiving in order to understand how these factors and contingencies influence research engagement with national web collections. In this article, we compare and contrast our experiences of undertaking web archival research at two national web archives: the UK Web Archive located at the British Library and the Netarchive at the Royal Danish Library. Based on personal interactions with the collections, interviews with library staff and observations of web archiving activities, we invoke three conceptual devices (\n              orientating, auditing\n              and\n              constructing\n              ) to describe common research practices and associated challenges in the context of each national web archive. Through this framework we centre the early stages of the research process that are often only given cursory attention in methodological descriptions of web archival research, to discuss the epistemological entanglements of researcher practices, instruments, tools and methods that create the conditions of possibility for new knowledge and scholarship in this space. In this analysis, we highlight the significant time and energy required on the part of researchers to begin using national web archives, as well as the value of engaging with the curatorial infrastructure that enables web archiving in practice. Focusing an analysis on these research infrastructures facilitates a discussion of how these web archival interfaces both enable and foreclose on particular forms of researcher engagement with the past Web and in turn contributes to critical ongoing debates surrounding the opportunities and constraints of digital sources, methodologies and claims within the Digital Humanities.",
+		"container-title": "International Journal of Digital Humanities",
+		"DOI": "10.1007/s42803-021-00032-5",
+		"ISSN": "2524-7832, 2524-7840",
+		"journalAbbreviation": "Int J Digit Humanities",
+		"language": "en",
+		"source": "DOI.org (Crossref)",
+		"title": "‘Go fish’: Conceptualising the challenges of engaging national web archives for digital research",
+		"title-short": "‘Go fish’",
+		"URL": "https://link.springer.com/10.1007/s42803-021-00032-5",
+		"author": [
+			{
+				"family": "Ogden",
+				"given": "Jessica"
+			},
+			{
+				"family": "Maemura",
+				"given": "Emily"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					9
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					27
+				]
+			]
+		}
+	},
+	{
+		"id": "Feinler:2011",
+		"type": "article-journal",
+		"abstract": "From as far back as 1971, the Arpanet Network Information Center (NIC) at Stanford Research Institute (now SRI International or SRI), located in Menlo Park, California, maintained the official Arpanet Host Table. This work was carried out under contract to DARPA. Later, the same activity was carried out by the NIC for the Defense Communications Agency (DCA) and the Defense Data Network (DDN), of which the Arpanet eventually became one segment. In this Anecdote article, Elizabeth (Jake) Feinler describes the organizations and people involved in the early efforts at naming and addressing, in particular the transition to the domain naming system (DNS) and the origin of the top-level domains (TLDs).",
+		"container-title": "IEEE Annals of the History of Computing",
+		"DOI": "10.1109/MAHC.2011.58",
+		"ISSN": "1934-1547",
+		"issue": "3",
+		"note": "event: IEEE Annals of the History of Computing",
+		"page": "74-79",
+		"source": "IEEE Xplore",
+		"title": "Host Tables, Top-Level Domain Names, and the Origin of Dot Com",
+		"volume": "33",
+		"author": [
+			{
+				"family": "Feinler",
+				"given": "Elizabeth"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "Krais:1991",
+		"type": "book",
+		"call-number": "HM24 .B67213 1991",
+		"event-place": "Berlin ; New York",
+		"ISBN": "978-0-89925-870-6",
+		"language": "eng",
+		"number-of-pages": "271",
+		"publisher": "Walter de Gruyter",
+		"publisher-place": "Berlin ; New York",
+		"source": "Library of Congress ISBN",
+		"title": "The craft of sociology: epistemological preliminaries",
+		"title-short": "The craft of sociology",
+		"author": [
+			{
+				"family": "Bourdieu",
+				"given": "Pierre"
+			},
+			{
+				"family": "Chamboredon",
+				"given": "J.-C."
+			},
+			{
+				"family": "Passeron",
+				"given": "Jean Claude"
+			},
+			{
+				"family": "Krais",
+				"given": "Beate"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1991"
+				]
+			]
+		}
+	},
+	{
+		"id": "StanfordUniversity:2021",
+		"type": "report",
+		"title": "Stanford Internet Observatory: 2019-2021",
+		"URL": "https://cyber.fsi.stanford.edu/io/news/stanford-internet-observatory-two-years",
+		"author": [
+			{
+				"literal": "Stanford University"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Bachelard:1984",
+		"type": "book",
+		"event-place": "Boston",
+		"publisher": "Beacon Press",
+		"publisher-place": "Boston",
+		"title": "The New Scientific Spirit",
+		"author": [
+			{
+				"family": "Bachelard",
+				"given": "Gaston"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1984"
 				]
 			]
 		}

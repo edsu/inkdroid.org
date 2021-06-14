@@ -20,8 +20,7 @@ August 2014 - Present
 * Digital humanities research and development
 * Web and cloud based infrastructure development and sustainability
 * Technical lead for Documenting the Now and Unlocking the Airwaves projects
-* Instructor of record for courses in archival studies, digital curation, web and
-  software development
+* Teaching in archival studies, digital curation, web and software development
 
 **Information Technology Specialist**  
 Library of Congress  
@@ -37,10 +36,38 @@ March 2006 – August 2014
 Follett Corporation  
 May 2002 – March 2006
 
-* Design and construction of a distributed knowledge management application
-* Requirements gathering and project planning
+* Ebook publishing and distribution
 * Web Service design and implementation
-* Metadata harvesting and analysis
+* Book metadata harvesting and analysis
+* Requirements gathering and project planning
+
+**Senior Software Engineer**  
+Cheetahmail  
+December 1999 - May 2002
+
+* Design and implementation of data ingest applications
+* Data analytics and reporting infrastructure 
+* Creation and development of web service APIs (REST)
+* Networking and systems administration (Linux)
+* Technical sales representative
+
+**Electronic Resources Librarian**  
+Old Dominion University  
+April 1998 - December 1999
+
+* SGML data processing for electronic texts for the VIVA consortium
+* Created a program for alerting students and faculty about new research publications in their field of interest.
+* Created a publishing system for archival finding aids (EAD XML)
+* Bibliographic data processing
+
+**Visiting Assistant Professor**  
+University of Illinois Urbana-Champaign  
+August 1996 - April 1998
+
+* Web database development (ASP SQL Server)
+* Managed the preservation of 19th century criminology pamphlet collection
+* Collection development in the social sciences
+* Managed references services in the Social Science Library
 
 ## Selected Publications
 
