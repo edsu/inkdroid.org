@@ -44,8 +44,7 @@ with, in an arbitrary order, so I can see them change over time.
 * Social Life of Web Archives (SLoWA)
 * Documenting the Now
 * Unlocking the Airwaves
-* Lakeland Community Archive
-* Teaching: Digital Curation, Introduction to Programming, Object Oriented Programming
+* Teaching: Data Curation, Introduction to Programming, Object Oriented Programming
 
 [software developer]: https://github.com/edsu
 [Maryland Institute for Technology in the Humanities]: http://mith.umd.edu

@@ -8,6 +8,13 @@ information technology in libraries and archives. Some of this stuff looks kind
 of dated now, but I guess it illustrates my meandering career path.
 
 <p class="story">
+<strong>Patterns of Use: Conceptualizing the Role of Web Archives in Online
+Discourse</strong><br> Jessica Ogden, Shawn Walker and me<br>
+<a href="https://www.resaw2021.net/programme/">RESAW 2021</a><br>
+Luxembourg (June 18, 2021)<br>
+</p>
+
+<p class="story">
 <strong>Knowing Infrastructure</strong><br>
 Jessica Ogden, Shawn Walker and me<br>
 <a href="https://stsinfrastructures.org/content/knowing-infrastructure">Society
