@@ -45,7 +45,7 @@ to better understand the role of theory in their work. These first person
 accounts were helpful because they highlighted the degree of uncertainty and
 anxiety that researchers felt around their use of theory. Hammond and his
 participants noted the connection to Grounded theory [@Glaser:1967], and the
-role of reflexivity in qualitative methods more generally. But he suggestes
+role of reflexivity in qualitative methods more generally. But he suggests
 that a broader discussion of theorizing takes it out of the realm of what
 happens when asking specific research questions, and into the exploratory work
 that needs to happen before. 
@@ -57,36 +57,39 @@ piece does many things, but its basic point is that this theorizing work is
 crucial for theory, and that it's not really talked about enough. The premium
 is on the theory, but that we are often left in the dark about how that theory
 was generated, because all the focus goes into the verification of that theory.
+
 Swedberg has this idea of the *prestudy* which is work that happens before
 a theory is expressed, and tested/verified. The prestudy is empirical work that
 is creative and aimed at making a discovery. He draws quite a bit on Peirce's
-idea of abductive reasoning, or the practice of guessing right. He
-pushes back on the idea that empirical data should only be collected in the
-context of theory justification, and that data is extremely valuable in
-exploratory work.
+idea of abductive reasoning, or the practice of guessing right. He pushes back
+on the idea that empirical data should only be collected in the context of
+theory justification, and that data is extremely valuable in exploratory work.
 
 In addition to Peirce, Swedberg also draws on Wittgenstein's philosophy of
 "Don't think but look!" which highlights how existing concepts (theories) can
 actually be a barrier to insight. Sometimes simply restating phenomena without
-using the name of the concept can unlock things. He also mentions
-@Bachelard:1984 "epistemological obstacles" to theorizing such as managing data
-when theorizing, and overly reliance on existing theory instead of engaging in
-theorizing. I've definitely experienced the managing data problem as we've been
-looking at links to web archives at multiple levels of abstraction, and how to
-keep them organized for recall without overly prescribing what they signify. He
-also cites @Mills:2000 quite a bit who stressed that researchers should strive
-to be their own theorist in addition to being their own methodologist--and that
+using the name of the concept can unlock important insights into processes and
+practices. He also mentions @Bachelard:1984 "epistemological obstacles" to
+theorizing such as managing data when theorizing, and overly reliance on
+existing theory instead of engaging in theorizing.
+
+I've definitely experienced the managing data problem as we've been looking at
+links to web archives at multiple levels of abstraction, and how to keep them
+organized for recall without overly prescribing what they signify. He also
+cites @Mills:2000 quite a bit who stressed that researchers should strive to be
+their own theorist in addition to being their own methodologist--and that
 theorizing can be learned. One method he suggested for gaining insight and
 bypassing existing theories is to dump out all the data (folders in his case)
-and sorting them again.
+and to sort them again, to get to know the data again.
 
 Swedberg's idea of the prestudy is compelling I think because in part it is
 a call for there to be more writing about the prestudy so that we can learn how
-to do it. This reminds me a bit of what I really liked about @Law:2004 which
-attempted to look at where social science gets done. If we don't know
-where our ideas come from how will be able to recognize what they contain, and
-what they might be missing? For Swedberg theorizing can be neatly summarized
-as:
+to theorize. This reminds me a bit of what I really liked about @Law:2004 which
+examines the messy and difficult to contain sites where social science work
+actually gets done. If we don't know where our ideas come from how will be able
+to recognize what they contain, and what they might be missing?
+
+For Swedberg theorizing can be neatly summarized as:
 
 1. *Observing* and *choosing* something to investigate 
 2. *Naming* the central concept(s)
@@ -104,15 +107,16 @@ Insisting on exact operational definitions is usually not helpful at this
 stage. According to a well-known formulation, concepts should at this stage be
 seen as sensitizing and not as definitive. 
 
-I'm just grateful for this connection between theorizing and some elements of
-pragmatic philosophy that I've been drawn to for some time ... and also to have
-some new people to read: Mills and Bachelard. Practical advice for theorizing,
-and how to do it, is especially important when starting new projects, and seems
-like an essential ingredient for staying happy and productive in this line of
-work. It should be hard, but it should be fun too, right?
+I'm just grateful to have learned about this connection between theorizing and
+some elements of pragmatic philosophy that I've been drawn to for some time ...
+and also to have some new people to read: Mills and Bachelard. Practical advice
+for theorizing, and how to do it, is especially important when starting new
+projects, and it seems like an essential ingredient for staying happy and
+productive as a researcher. Research is hard work, but it also has an element
+of intuitive play that seems to get undervalued in the shapes of many
+scholarly outputs.
 
 ### References
-
 
 [research]: https://gitlab.com/slowa/ 
 [RESAW2021]: https://www.resaw2021.net/programme/
