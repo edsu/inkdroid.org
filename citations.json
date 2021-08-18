@@ -56845,11 +56845,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/31976/items/FYD9H53U",
-		"type": "article",
-		"title": "Import errors found: line 18897, column 43: Expected \"\\\\\", \"\\\\begin{\", \"{\", \"{\\\\\", \"{\\\\verb\", \"}\", [^\\^_${}\\\\], or [_\\^]"
-	},
-	{
 		"id": "BuildSoftwareBetter",
 		"type": "webpage",
 		"abstract": "GitHub is where people build software. More than 56 million people use GitHub to discover, fork, and contribute to over 100 million projects.",
@@ -59410,6 +59405,1122 @@
 			"date-parts": [
 				[
 					"1984"
+				]
+			]
+		}
+	},
+	{
+		"id": "Winters:2021",
+		"type": "article-journal",
+		"abstract": "This article considers how the development, promotion and adoption of a set of core values for web archives, linked to principles of “good governance”, will help them to tackle the challenges of sustainability, accountability and inclusiveness that are central to their long-term societal and cultural worth. It outlines the work that has already been done to address these questions, as web archiving begins to move out of its establishment phase, and then discusses seven key principles of good governance that might be adapted by and embedded within web archives: participation, consensus, accountability, transparency, effectiveness and efficiency, inclusivity and legality. The article concludes with a call to action for researchers and archivists to co-create the core values for web archives that will be required if they are to remain a vital part of our cultural heritage infrastructure.",
+		"container-title": "International Journal of Digital Humanities",
+		"DOI": "10.1007/s42803-021-00037-0",
+		"ISSN": "2524-7840",
+		"journalAbbreviation": "Int J Digit Humanities",
+		"language": "en",
+		"source": "Springer Link",
+		"title": "The values of web archives",
+		"URL": "https://doi.org/10.1007/s42803-021-00037-0",
+		"author": [
+			{
+				"family": "Schafer",
+				"given": "Valérie"
+			},
+			{
+				"family": "Winters",
+				"given": "Jane"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					14
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "Acker:2019a",
+		"type": "article-journal",
+		"abstract": "An invitation to participate in a broad ranging discussion that infuses information maintenance with practices, relationships, and ways of thinking and being that represent a coherent ethic of care.",
+		"language": "eng",
+		"note": "DOI: 10.5281/zenodo.3251131\npublisher: Zenodo",
+		"source": "Zenodo",
+		"title": "Information Maintenance as a Practice of Care",
+		"URL": "https://zenodo.org/record/3251131",
+		"author": [
+			{
+				"family": "Maintainers",
+				"given": "The Information"
+			},
+			{
+				"family": "Olson",
+				"given": "D."
+			},
+			{
+				"family": "Meyerson",
+				"given": "J."
+			},
+			{
+				"family": "Parsons",
+				"given": "M. A."
+			},
+			{
+				"family": "Castro",
+				"given": "J."
+			},
+			{
+				"family": "Lassere",
+				"given": "M."
+			},
+			{
+				"family": "Wright",
+				"given": "D. J."
+			},
+			{
+				"family": "Arnold",
+				"given": "H."
+			},
+			{
+				"family": "Galvan",
+				"given": "A. S."
+			},
+			{
+				"family": "Hswe",
+				"given": "P"
+			},
+			{
+				"family": "Nowviskie",
+				"given": "B."
+			},
+			{
+				"family": "Russell",
+				"given": "A."
+			},
+			{
+				"family": "Vinsel",
+				"given": "L."
+			},
+			{
+				"family": "Acker",
+				"given": "A."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					6,
+					17
+				]
+			]
+		}
+	},
+	{
+		"id": "Fonseca:",
+		"type": "article-journal",
+		"abstract": "Data Science can be considered a technique or a science. As a technique, it is more interested in the “what” than in the “why” of data. It does not need theories that explain how things work, it just needs the results. As a science, however, working strictly from data and without theories contradicts the post-empiricist view of science. In this view, theories come before data and data is used to corroborate or falsify theories. Nevertheless, one of the most controversial statements about Data Science is that it is a science that can work without theories. In this conceptual paper, we focus on the science aspect of Data Science. How is Data Science as a science? We propose a three-phased view of Data Science that shows that different theories have different roles in each of the phases we consider. We focus on when theories are used in Data Science rather than the controversy of whether theories are used in Data Science or not. In the end, we will see that the statement “Data Science works without theories” is better put as “in some of its phases, Data Science works without the theories that originally motivated the creation of the data.”",
+		"container-title": "Journal of the Association for Information Science and Technology",
+		"DOI": "10.1002/asi.24537",
+		"ISSN": "2330-1643",
+		"issue": "n/a",
+		"language": "en",
+		"note": "_eprint: https://asistdl.onlinelibrary.wiley.com/doi/pdf/10.1002/asi.24537",
+		"source": "Wiley Online Library",
+		"title": "Whether or when: The question on the use of theories in data science",
+		"title-short": "Whether or when",
+		"URL": "https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/asi.24537",
+		"volume": "n/a",
+		"author": [
+			{
+				"family": "Fonseca",
+				"given": "Fred"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "Loukissas:2019",
+		"type": "book",
+		"abstract": "In our data-driven society, it is too easy to assume the transparency of data. Instead, Yanni Loukissas argues in All Data Are Local, we should approach data sets with an awareness that data are created by humans and their dutiful machines, at a time, in a place, with the instruments at hand, for audiences that are conditioned to receive them. The term data set implies something discrete, complete, and portable, but it is none of those things. Examining a series of data sources important for understanding the state of public life in the United States—Harvard's Arnold Arboretum, the Digital Public Library of America, UCLA's Television News Archive, and the real estate marketplace Zillow—Loukissas shows us how to analyze data settings rather than data sets.\n\nLoukissas sets out six principles: all data are local; data have complex attachments to place; data are collected from heterogeneous sources; data and algorithms are inextricably entangled; interfaces recontextualize data; and data are indexes to local knowledge. He then provides a set of practical guidelines to follow. To make his argument, Loukissas employs a combination of qualitative research on data cultures and exploratory data visualizations. Rebutting the “myth of digital universalism,” Loukissas reminds us of the meaning-making power of the local.",
+		"ISBN": "978-0-262-03966-6",
+		"number-of-pages": "272",
+		"publisher": "MIT Press",
+		"title": "All Data are Local",
+		"author": [
+			{
+				"literal": "Yanni Alexander Loukissas"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "Thylstrup:2021",
+		"type": "book",
+		"abstract": "\"The ambition of this book is to examine in close detail the whole range of epistemological, political and ethical uncertainties that are being raised by big data in our time\"--",
+		"call-number": "CD931 .U53 2021",
+		"event-place": "Cambridge, Massachusetts",
+		"ISBN": "978-0-262-53988-3",
+		"number-of-pages": "624",
+		"publisher": "The MIT Press",
+		"publisher-place": "Cambridge, Massachusetts",
+		"source": "Library of Congress ISBN",
+		"title": "Uncertain archives: critical keywords for big data",
+		"title-short": "Uncertain archives",
+		"editor": [
+			{
+				"family": "Thylstrup",
+				"given": "Nanna Bonde"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Patil:2021",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+		"DOI": "10.1145/3411764.3445293",
+		"event": "CHI '21: CHI Conference on Human Factors in Computing Systems",
+		"event-place": "Yokohama Japan",
+		"ISBN": "978-1-4503-8096-6",
+		"language": "en",
+		"page": "1-18",
+		"publisher": "ACM",
+		"publisher-place": "Yokohama Japan",
+		"source": "DOI.org (Crossref)",
+		"title": "Empowering Resignation: There’s an App for That",
+		"title-short": "Empowering Resignation",
+		"URL": "https://dl.acm.org/doi/10.1145/3411764.3445293",
+		"author": [
+			{
+				"family": "Seberger",
+				"given": "John S."
+			},
+			{
+				"family": "Llavore",
+				"given": "Marissel"
+			},
+			{
+				"family": "Wyant",
+				"given": "Nicholas Nye"
+			},
+			{
+				"family": "Shklovski",
+				"given": "Irina"
+			},
+			{
+				"family": "Patil",
+				"given": "Sameer"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "Nembhard:2021",
+		"type": "article",
+		"abstract": "In Collective Courage, Jessica Gordon Nembhard chronicles African American cooperative business ownership and its place in the movements for Black civil rights and economic equality. Not since W. E. B. Du Bois's 1907 Economic Co-operation Among Negro Americans has there been a full-length, nationwide study of African American cooperatives. Collective Courage extends that story into the twenty-first century. Many of the players are well known in the history of the African American experience: Du Bois, A. Philip Randolph and the Ladies' Auxiliary to the Brotherhood of Sleeping Car Porters, Nannie Helen Burroughs, Fannie Lou Hamer, Ella Jo Baker, George Schuyler and the Young Negroes' Co-operative League, the Nation of Islam, and the Black Panther Party. Adding the cooperative movement to Black history results in a retelling of the African American experience, with an increased understanding of African American collective economic agency and grassroots economic organizing. To tell the story, Gordon Nembhard uses a variety of newspapers, period magazines, and journals; co-ops' articles of incorporation, minutes from annual meetings, newsletters, budgets, and income statements; and scholarly books, memoirs, and biographies. These sources reveal the achievements and challenges of Black co-ops, collective economic action, and social entrepreneurship. Gordon Nembhard finds that African Americans, as well as other people of color and low-income people, have benefitted greatly from cooperative ownership and democratic economic participation throughout the nation's history.",
+		"language": "In English",
+		"note": "ISBN: 9780271064260\nOCLC: 1256410188",
+		"source": "Open WorldCat",
+		"title": "Collective Courage: A History of African American Cooperative Economic Thought and Practice",
+		"title-short": "Collective Courage",
+		"author": [
+			{
+				"family": "Nembhard",
+				"given": "Jessica Gordon"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Christian:2021",
+		"type": "book",
+		"event-place": "S.l.",
+		"ISBN": "978-0-393-86833-3",
+		"language": "English",
+		"note": "OCLC: 1233266753",
+		"publisher": "W W Norton",
+		"publisher-place": "S.l.",
+		"source": "Open WorldCat",
+		"title": "The Alignment Problem: Machine Learning and Human Values.",
+		"title-short": "The Alignment Problem",
+		"author": [
+			{
+				"family": "Christian",
+				"given": "Brian"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Graham:2017",
+		"type": "article-journal",
+		"container-title": "Journal of Archival Organization",
+		"DOI": "10.1080/15332748.2018.1517589",
+		"ISSN": "1533-2748",
+		"issue": "3-4",
+		"note": "publisher: Routledge\n_eprint: https://doi.org/10.1080/15332748.2018.1517589",
+		"page": "103-110",
+		"source": "Taylor and Francis+NEJM",
+		"title": "Guest Editorial: Reflections on the Ethics of Web Archiving",
+		"title-short": "Guest Editorial",
+		"URL": "https://doi.org/10.1080/15332748.2018.1517589",
+		"volume": "14",
+		"author": [
+			{
+				"family": "Graham",
+				"given": "Pamela M."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					10,
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "Nofre:2021",
+		"type": "article-journal",
+		"abstract": "There probably has never been such a controversial programming language as Algol. In the early 1960s the disciplinary success of the so-called Algol project in helping to forge the discipline of computer science was not matched by a significant adoption of the Algol language, in any of its three versions. This contrast is even more striking when considering the contemporary success of IBM’s Fortran, a language that, like Algol, was also conceived for scientific computation, but unlike Algol, initially only available for IBM computers. Through extensive archival research, this article shows how the relentless pursuit of a still better language that came to dominate the agenda of the Algol project brought to the fore the tension between the research-driven dimension of the project and the goal of developing a reliable programming language. Such a strong research-oriented agenda increased IBM’s doubts about a project that the firm already felt little urge to support. Yet IBM did not want to appear as obstructing the development of either Algol or Cobol, even if these “common languages” posed a clear risk to the firm’s marketing model. The US Department of Defense’s endorsement of Cobol and the rising popularity of Algol in Europe convinced IBM to push for the use of Fortran in Western Europe in order to protect the domestic market. IBM’s action in support of Fortran reminds us of the power imbalances that have shaped computer science.",
+		"container-title": "Historical Studies in the Natural Sciences",
+		"DOI": "10.1525/hsns.2021.51.3.379",
+		"ISSN": "1939-1811",
+		"issue": "3",
+		"journalAbbreviation": "Historical Studies in the Natural Sciences",
+		"language": "en",
+		"note": "publisher: University of California Press",
+		"page": "379-413",
+		"source": "online.ucpress.edu",
+		"title": "The Politics of Early Programming Languages: IBM and the Algol Project",
+		"URL": "https://online.ucpress.edu/hsns/article/51/3/379/117357/The-Politics-of-Early-Programming-LanguagesIBM-and",
+		"volume": "51",
+		"author": [
+			{
+				"family": "Nofre",
+				"given": "David"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "Philip:2020",
+		"type": "book",
+		"abstract": "\"Collection of arguments about STEM fields' blind spots in computing and a deliberately provocative underscoring of humanists' appeals for a \"wake up call\" in computing culture\"--",
+		"call-number": "QA76.9.C66 Y67 2020",
+		"event-place": "Cambridge, Massachusetts",
+		"ISBN": "978-0-262-53973-9",
+		"publisher": "The MIT Press",
+		"publisher-place": "Cambridge, Massachusetts",
+		"source": "Library of Congress ISBN",
+		"title": "Your computer is on fire",
+		"editor": [
+			{
+				"family": "Mullaney",
+				"given": "Thomas S."
+			},
+			{
+				"family": "Peters",
+				"given": "Benjamin"
+			},
+			{
+				"family": "Hicks",
+				"given": "Mar"
+			},
+			{
+				"family": "Philip",
+				"given": "Kavita"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "Parrique:2019",
+		"type": "thesis",
+		"abstract": "What is degrowth and what are its implications for political economy? Divided in three parts, this dissertation explores the why, what, and howof degrowth.",
+		"publisher": "Stockholm University",
+		"title": "The Political Economy of Degrowth",
+		"author": [
+			{
+				"family": "Parrique",
+				"given": "Timothee"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "Metcalf:2021",
+		"type": "report",
+		"abstract": "This report maps the challenges of constructing algorithmic impact assessments (AIAs) by analyzing impact assessments in other domains—from the environment to human rights to privacy. Impact assessment is a promising model of algorithmic governance because it bundles an account of potential and actual harms of a system with a means for identifying who is responsible for their remedy. Success in governing with AIAs requires thoughtful engagement with the ongoing exercise of social and political power, rather than defaulting to self-assessment and narrow technical metrics. Without such engagement, AIAs run the risk of not adequately facilitating the measurement of, and contestation over, harms experienced by people, communities, and society",
+		"publisher": "Data & Society",
+		"title": "Assembling Accountability: Algorithmic Assessment Impact for the Public Interest",
+		"URL": "https://datasociety.net/library/assembling-accountability-algorithmic-impact-assessment-for-the-public-interest/",
+		"author": [
+			{
+				"family": "Emanuel",
+				"given": "Moss"
+			},
+			{
+				"family": "Watkins",
+				"given": "Elizabeth Anne"
+			},
+			{
+				"family": "Singh",
+				"given": "Ranjit"
+			},
+			{
+				"family": "Elish",
+				"given": "Madeleine Clare"
+			},
+			{
+				"family": "Metcalf",
+				"given": "Jacob"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "Matthews:2018",
+		"type": "report",
+		"publisher": "Data & Society",
+		"title": "Algorithmic Accountability: A Primer",
+		"URL": "https://datasociety.net/library/algorithmic-accountability-a-primer/",
+		"author": [
+			{
+				"family": "Caplan",
+				"given": "Robyn"
+			},
+			{
+				"family": "Donovan",
+				"given": "Joan"
+			},
+			{
+				"family": "Hanson",
+				"given": "Lauren"
+			},
+			{
+				"family": "Matthews",
+				"given": "Jeanna"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "McNeil:2019",
+		"type": "book",
+		"abstract": "\"A concise but wide-ranging personal history of the internet from-for the first time-the point of view of the user\"--",
+		"call-number": "HM851 .M3965 2019",
+		"edition": "First edition",
+		"event-place": "New York",
+		"ISBN": "978-0-374-19433-8",
+		"publisher": "MCD, Farrar, Straus and Giroux",
+		"publisher-place": "New York",
+		"source": "Library of Congress ISBN",
+		"title": "Lurking: how a person became a user",
+		"title-short": "Lurking",
+		"author": [
+			{
+				"family": "McNeil",
+				"given": "Joanne"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "Abbing:2021",
+		"type": "paper-conference",
+		"abstract": "This paper describes how principles derived from degrowth can be a useful heuristic for designing an ICT system within energy limits. It does so by discussing the design choices behind https://solar.lowtechmagazine.com, an ongoing design research project that set out to build a ’low-tech website’. This research re-sulted in a design which is lightweight, tailored towards older and lower-powered devices, is powered by off-grid solar energy and thus designed with energy scarcity in mind. The project shows that values and frameworks theorized within the Computing within Limits community are technically applicable to practices of web development but also identifies hurdles to their more widespread applicability.",
+		"container-title": "LIMITS '21",
+		"event": "Workshop on Computation Within Limits",
+		"title": "‘This is a solar-powered website, which means it sometimes goesoffline’: a design inquiry into degrowth and ICT",
+		"URL": "https://computingwithinlimits.org/2021/papers/limits21-abbing.pdf",
+		"author": [
+			{
+				"family": "Abbing",
+				"given": "Roel Roscam"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					14
+				]
+			]
+		}
+	},
+	{
+		"id": "Strathern:2020",
+		"type": "book",
+		"abstract": "\"In RELATIONS, Marilyn Strathern offers a deep and sustained analysis of the concept \"relations.\" Strathern traces the English language use of the term through the centuries, showing that up until the eighteenth century, relations had been limited to describing logic and epistemology and had not been used as a reference to kin (or any other social relations). As Strathern traces the historical shift and the way this reflected emerging ideas about learning and new forms of kinship, she also weaves analysis relating to knowledge-making, comparison, and social science criticism. Strathern explores these themes in eight chapters, each with their own substantive focus, but which when read together offer diverse yet interconnected reflections on the theoretical expansiveness of the concept. In weaving together analysis of kin-making and knowledge-making, she opens up new ways of thinking about the contours (and limits) of epistemic and relational possibilities of the English-speaking world. In chapter 1, Strathern analyzes how relations emerge within contexts of debate and conversation. This functions as a model to imagine what types of connections and associations emerge as a result of what Strathern calls \"knowledge exchanges.\" This leads her to analyze the relationship between anthropologists and the communities and to raise questions about the limit of ethnographic methods and knowledge-making. The final chapter, chapter 8, is concerned with the relationships between anthropologists and scholars in other disciplines, as well as the relationship between anthropology as a discipline and other disciplines. This chapter generates critical questions about the particular tools that emerge from an anthropological discussion of relations and, more specifically, an English-speaking discussion of relations. Here, Strathern suggests that English-speaking anthropologists can use relations as an analytic to better understand their disciplinary conventions, as well as think beyond these conventions to generate more critical analyses. This project will be of interest to students and scholars of anthropology and social theory\"--",
+		"call-number": "GN345",
+		"event-place": "Durham",
+		"ISBN": "978-1-4780-0934-4",
+		"number-of-pages": "1",
+		"publisher": "Duke University Press",
+		"publisher-place": "Durham",
+		"source": "Library of Congress ISBN",
+		"title": "Relations: an anthropological account",
+		"title-short": "Relations",
+		"author": [
+			{
+				"family": "Strathern",
+				"given": "Marilyn"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "Bruckman:2021",
+		"type": "article-journal",
+		"abstract": "Deplatforming refers to the permanent ban of controversial public figures with large followings on socialmedia sites. In recent years, platforms like Facebook, Twitter and YouTube have deplatformed many offensiveinfluencers to curb the spread of offensive speech. We present a case study of three high-profile influencerswho were deplatformed on Twitter—Alex Jones, Milo Yiannopoulos, and Owen Benjamin. Working withover 49M tweets, we found that deplatforming significantly reduced the number of conversations about allthree influencers o\nn Twitter. Further, analyzing the Twitter-wide activity of these influencers’ supporters, weshow that the overall activity and toxicity levels of supporters declined after deplatforming. We contributea methodological framework to systematically examine the effectiveness of moderation interventions anddiscuss broader implications of using deplatforming as a moderation strategy.",
+		"container-title": "Journal of the ACM (JACM)",
+		"issue": "4",
+		"title": "Evaluating the Effectiveness of Deplatforming as a Moderation Strategy on Twitter",
+		"volume": "37",
+		"author": [
+			{
+				"family": "Jhaver",
+				"given": "Shagun"
+			},
+			{
+				"family": "Boylston",
+				"given": "Christian"
+			},
+			{
+				"family": "Yang",
+				"given": "Diyi"
+			},
+			{
+				"family": "Bruckman",
+				"given": "Amy"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "Scott:1989",
+		"type": "article-journal",
+		"container-title": "The Copenhagen Journal of Asian Studies",
+		"issue": "89",
+		"title": "Everyday forms of resistance",
+		"volume": "4",
+		"author": [
+			{
+				"family": "Scott",
+				"given": "James C."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1989"
+				]
+			]
+		}
+	},
+	{
+		"id": "JeremyBlackburn:",
+		"type": "paper-conference",
+		"abstract": "Proceedings of the Fourteenth International AAAI Conference on Web and Social Media (ICWSM 2020)The Pushshift Reddit DatasetJason Baumgartner,1,*Savvas Zannettou,2, Brian Keegan,3Megan Squire,4Jeremy Blackburn5, 1Pushshift.io,2Max-Planck-Institut f ̈ur Informatik,3University of Colorado Boulder,4Elon University,5Binghamton University*Network Contagion Research Institute, iDRAMA Labjason@pushshift.io, szannett@mpi-inf.mpg.de, brian.keegan@colorado.edu, msquire@elon.edu,blackburn@cs.binghamton.eduAbstractSocial media data has become crucial to the advancement ofscientific understanding. However, even though it has becomeubiquitous,  just  collecting  large-scale  social  media  data  in-volves a high degree of engineering skill set and computa-tional resources. In fact, research is often times gated by dataengineering problems that must be overcome before analy-sis can proceed. This has resulted recognition of datasets asmeaningful research contributions in and of themselves.Reddit, the so called “front page of the Internet,” in particularhas been the subject of numerous scientific studies. AlthoughReddit is relatively open to data acquisition compared to so-cial media platforms like Facebook and Twitter, the technicalbarriers  to  acquisition  still  remain.  Thus,  Reddit’s  millionsof subreddits, hundreds of millions of users, and billions ofcomments are at the same time relatively accessible, but timeconsuming to collect and analyze systematically.In  this  paper,  we  present  the  Pushshift  Reddit  dataset.Pushshift  is  a  social  media  data  collection,  analysis,  andarchiving  platform  that  since  2015  has  collected  Redditdata and made it available to researchers. Pushshift’s Redditdataset is updated in real-time, and includes historical databack  to  Reddit’s  inception.  In  addition  to  monthly  dumps,Pushshift  provides  computational  tools  to  aid  in  searching,aggregating, and performing exploratory analysis on the en-tirety of the dataset. The Pushshift Reddit dataset makes itpossible  for  social  media  researchers  to  reduce  time  spentin the data collection, cleaning, and storage phases of their projects.",
+		"container-title": "Proceedings of the Fourteenth International AAAI Conference on Web and Social Media",
+		"event": "ProceedingsAAAI Conference on Web and Social Media",
+		"event-place": "Atlanta, Georgia",
+		"publisher-place": "Atlanta, Georgia",
+		"title": "The PushShift Reddit Dataset",
+		"author": [
+			{
+				"literal": "Jason Baumgartner"
+			},
+			{
+				"literal": "Savvas Zannettou"
+			},
+			{
+				"literal": "Brian Keegan"
+			},
+			{
+				"literal": "Megan Squire"
+			},
+			{
+				"literal": "Jeremy Blackburn"
+			}
+		]
+	},
+	{
+		"id": "DigitalPreservationCoalition:2018",
+		"type": "book",
+		"call-number": "HE7551 .T37 2018",
+		"collection-number": "no. 175",
+		"collection-title": "CLIR publication",
+		"event-place": "Washington, DC",
+		"ISBN": "978-1-932326-59-8",
+		"note": "OCLC: on1049574908",
+		"number-of-pages": "120",
+		"publisher": "Council on Library and Information Resources",
+		"publisher-place": "Washington, DC",
+		"source": "Library of Congress ISBN",
+		"title": "The future of email archives: a report from the Task Force on Technical Approaches for Email Archives, August 2018",
+		"title-short": "The future of email archives",
+		"editor": [
+			{
+				"family": "Task Force on Technical Approaches to Email Archives",
+				"given": ""
+			},
+			{
+				"family": "Andrew W. Mellon Foundation",
+				"given": ""
+			},
+			{
+				"family": "Digital Preservation Coalition",
+				"given": ""
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "Brown:2021",
+		"type": "book",
+		"edition": "First",
+		"event-place": "Chico",
+		"ISBN": "978-1-84935-418-9",
+		"publisher": "AK Press",
+		"publisher-place": "Chico",
+		"source": "Library of Congress ISBN",
+		"title": "Holding change: the way of emergent strategy facilitation and mediation",
+		"title-short": "Holding change",
+		"author": [
+			{
+				"family": "brown",
+				"given": "adrienne",
+				"dropping-particle": "maree"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Kang:2021",
+		"type": "book",
+		"abstract": "\"Once one of Silicon Valley's greatest success stories, Facebook has been under constant fire for the past five years, roiled by controversies and crises. It turns out that while the tech giant was connecting the world, they were also mishandling users' data, spreading fake news, and amplifying dangerous, polarizing hate speech ... Drawing on their unrivaled sources, Sheera Frenkel and Cecilia Kang take readers inside the complex court politics, alliances and rivalries within the company to shine a light on the fatal cracks in the architecture of the tech behemoth\"--",
+		"ISBN": "978-0-06-296067-2",
+		"language": "English",
+		"note": "OCLC: 1257551998",
+		"source": "Open WorldCat",
+		"title": "An ugly truth: inside Facebook's battle for domination",
+		"title-short": "An ugly truth",
+		"author": [
+			{
+				"family": "Frenkel",
+				"given": "Sheera"
+			},
+			{
+				"family": "Kang",
+				"given": "Cecilia"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Peters:2021",
+		"type": "article-journal",
+		"abstract": "Abstract\n            The preponderance of Western methods, practices, standards, and classifications in the manner in which new technology-related knowledge is created and globalised has led to calls for more inclusive approaches to design. A decolonisation project is concerned with how researchers might contribute to dismantling and re-envisioning existing power relations, resisting past biases, and balancing Western heavy influences in technology design by foregrounding the authentic voices of the indigenous people in the entire design process. We examine how the establishment of local Global South HCI communities (AfriCHI and ArabHCI) has led to the enactment of decolonisation practices. Specifically, we seek to uncover how decolonisation is perceived in the AfriCHI and ArabHCI communities as well as the extent to which both communities are engaged with the idea of decolonisation without necessarily using the term. We drew from the relevant literature, our own outsider/insider lived experiences, and the communities’ responses to an online anonymised survey to highlight three problematic but interrelated practical paradoxes: a terminology, an ethical, and a micro-colonisation paradox. We argue that these paradoxes expose the dilemmas faced by local non-Western researchers as they pursue decolonisation thinking. This article offers a blended perspective on the decolonisation debate in HCI, CSCW, and the practice-based CSCW scholarly communities and invites researchers to examine their research work using a decolonisation lens.",
+		"container-title": "Computer Supported Cooperative Work (CSCW)",
+		"DOI": "10.1007/s10606-021-09398-0",
+		"ISSN": "0925-9724, 1573-7551",
+		"journalAbbreviation": "Comput Supported Coop Work",
+		"language": "en",
+		"source": "DOI.org (Crossref)",
+		"title": "Challenges and Paradoxes in Decolonising HCI: A Critical Discussion",
+		"title-short": "Challenges and Paradoxes in Decolonising HCI",
+		"URL": "https://link.springer.com/10.1007/s10606-021-09398-0",
+		"author": [
+			{
+				"family": "Lazem",
+				"given": "Shaimaa"
+			},
+			{
+				"family": "Giglitto",
+				"given": "Danilo"
+			},
+			{
+				"family": "Nkwo",
+				"given": "Makuochi Samuel"
+			},
+			{
+				"family": "Mthoko",
+				"given": "Hafeni"
+			},
+			{
+				"family": "Upani",
+				"given": "Jessica"
+			},
+			{
+				"family": "Peters",
+				"given": "Anicia"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					7,
+					29
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					7,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "Marantz:2019",
+		"type": "book",
+		"call-number": "HN90.R3 M343 2019",
+		"event-place": "New York",
+		"ISBN": "978-0-525-52226-3",
+		"number-of-pages": "380",
+		"publisher": "VIKING, an imprint of Penguin Random House LLC",
+		"publisher-place": "New York",
+		"source": "Library of Congress ISBN",
+		"title": "Antisocial: online extremists, techno-utopians, and the hijacking of the American conversation",
+		"title-short": "Antisocial",
+		"author": [
+			{
+				"family": "Marantz",
+				"given": "Andrew"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "Watts:",
+		"type": "article-journal",
+		"abstract": "We examine potential bias in Facebook’s 10-trillion  cell  URLs  dataset,  consisting  of  URLs  shared  on  its \nplatform and their engagement metrics. Despite the unprecedented size of the dataset, it was altered to \nprotect user privacy in two ways: 1) by adding differentially private noise to engagement counts, and 2) \nby  censoring  the  data  with a  100-public-share threshold for a URL’s inclusion. To understand how these \nalterations  affect  conclusions  drawn  from  the  data,  we  estimate  the  prevalence  of  fake  news  in  the \nmassive, censored URLs dataset and compare it to an estimate from a smaller, representative dataset. We \nshow  that  censoring  can  substantially  alter  conclusions  that  are  drawn  from  the  Facebook  dataset. \nBecause of this 100-public-share threshold, descriptive statistics from the Facebook URLs  dataset \noverestimate the share of fake news and news overall by as much as 4X. We conclude with more general \nimplications for censoring data.",
+		"container-title": "Harvard Kennedy School Misinformation Review",
+		"DOI": "10.37016/mr-2020-74",
+		"issue": "4",
+		"title": "Research note: Examining potential bias in large-scale  censored data",
+		"URL": "https://misinforeview.hks.harvard.edu/article/research-note-examining-potential-bias-in-large-scale-censored-data/",
+		"volume": "2",
+		"author": [
+			{
+				"family": "Allen",
+				"given": "Jennifer"
+			},
+			{
+				"family": "Mobius",
+				"given": "Markus"
+			},
+			{
+				"family": "Rothschild",
+				"given": "David M."
+			},
+			{
+				"family": "Watts",
+				"given": "Duncan J."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					7,
+					29
+				]
+			]
+		}
+	},
+	{
+		"id": "Thevenot:1984",
+		"type": "article-journal",
+		"container-title": "Social Science Information",
+		"DOI": "10.1177/053901884023001001",
+		"ISSN": "0539-0184, 1461-7412",
+		"issue": "1",
+		"journalAbbreviation": "Social Science Information",
+		"language": "en",
+		"page": "1-45",
+		"source": "DOI.org (Crossref)",
+		"title": "Rules and implements: investment in forms",
+		"title-short": "Rules and implements",
+		"URL": "http://journals.sagepub.com/doi/10.1177/053901884023001001",
+		"volume": "23",
+		"author": [
+			{
+				"family": "Thévenot",
+				"given": "Laurent"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					7,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1984",
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "Stengers:2008",
+		"type": "article-journal",
+		"abstract": "Throughout much of his writing, Whitehead outlines a critique of what he termed the `bifurcation of nature'. This position divides the world into objective causal nature, on the one hand, with the perceptions of subjects on the other. On such a view, truth lies in a reality external to such subjects and it is the task of science to deliver clear and immediate access to this realm. Further, judgments about this external reality are the province of human subjects and it is the task of philosophy to ascertain the validity or otherwise of these. This article outlines Whitehead's attempts to develop a conception of nature (and the social) which avoids this premise; it also explains how he offers a way for contemporary theories to construct or engineer abstractions which go beyond notions of social construction or deconstruction. This article argues that not only does Whitehead offer a coherent alternative to such approaches but that the manner in which his major text ( Process and Reality ) is written reflects his commitment to the inherently constructed and constructing character of all existence.",
+		"container-title": "Theory, Culture & Society",
+		"DOI": "10.1177/0263276408091985",
+		"ISSN": "0263-2764, 1460-3616",
+		"issue": "4",
+		"journalAbbreviation": "Theory, Culture & Society",
+		"language": "en",
+		"page": "91-110",
+		"source": "DOI.org (Crossref)",
+		"title": "A Constructivist Reading of Process and Reality",
+		"URL": "http://journals.sagepub.com/doi/10.1177/0263276408091985",
+		"volume": "25",
+		"author": [
+			{
+				"family": "Stengers",
+				"given": "Isabelle"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					8,
+					4
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2008",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "Gillespie:2014b",
+		"type": "chapter",
+		"container-title": "Media Technologies",
+		"ISBN": "978-0-262-52537-4",
+		"note": "DOI: 10.7551/mitpress/9780262525374.003.0009",
+		"page": "167-194",
+		"publisher": "The MIT Press",
+		"source": "DOI.org (Crossref)",
+		"title": "The Relevance of Algorithms",
+		"URL": "http://mitpress.universitypressscholarship.com/view/10.7551/mitpress/9780262525374.001.0001/upso-9780262525374-chapter-9",
+		"editor": [
+			{
+				"family": "Gillespie",
+				"given": "Tarleton"
+			},
+			{
+				"family": "Boczkowski",
+				"given": "Pablo J."
+			},
+			{
+				"family": "Foot",
+				"given": "Kirsten A."
+			}
+		],
+		"author": [
+			{
+				"family": "Gillespie",
+				"given": "Tarleton"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					8,
+					6
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					2,
+					28
+				]
+			]
+		}
+	},
+	{
+		"id": "Karaganis:2018",
+		"type": "book",
+		"abstract": "This collection looks at how university students in Russia, Argentina, South Africa, Poland, Brazil, India, and Uruguay get the books and articles they need for their education. The death of Aaron Swartz and the more recent controversy around the SciHub and Libgen repositories have drawn attention to the question of access to knowledge, particularly for students facing financial and other constraints. Open access currently provides a very limited answer to this question, which piracy answers more comprehensively. This edited volume explores how access to knowledge has changed in the past twenty years, as student populations have boomed and as educators and publishers navigated the transition from paper to digital materials. It is concerned primarily with the experience of developing countries, where growing numbers of students, rapid development of Internet and device infrastructures, and high relative inequality have produced the sharpest tensions in the publishing and educational ecosystem",
+		"call-number": "Z286.S37 S48 2018",
+		"event-place": "Cambridge, MA : Ottawa, ON",
+		"ISBN": "978-0-262-53501-4",
+		"publisher": "The MIT Press ; International Development Research Centre",
+		"publisher-place": "Cambridge, MA : Ottawa, ON",
+		"source": "Library of Congress ISBN",
+		"title": "Shadow libraries: access to knowledge in global higher education",
+		"title-short": "Shadow libraries",
+		"editor": [
+			{
+				"family": "Karaganis",
+				"given": "Joe"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "Weir:2021",
+		"type": "book",
+		"abstract": "A lone astronaut must save the earth from disaster in this incredible new science-based thriller from the Sunday Times bestselling author of The Martian. Ryland Grace is the sole survivor on a desperate, last-chance mission - and if he fails, humanity and the earth itself will perish. Except that right now, he doesn't know that. He can't even remember his own name, let alone the nature of his assignment or how to complete it. All he knows is that he's been asleep for a very, very long time. And he's just been awakened to find himself millions of miles from home, with nothing but two corpses for company. His crew mates dead, his memories fuzzily returning, he realises that an impossible task now confronts him. Alone on this tiny ship that's been cobbled together by every government and space agency on the planet and hurled into the depths of space, it's up to him to conquer an extinction-level threat to our species. And thanks to an unexpected ally, he just might have a chance. Part scientific mystery, part dazzling interstellar journey, Project Hail Mary is a tale of discovery, speculation, and survival to rival The Martian - while taking us to places it never dreamed of going.",
+		"ISBN": "978-0-593-35527-5",
+		"language": "English",
+		"note": "OCLC: 1184684645",
+		"source": "Open WorldCat",
+		"title": "Project Hail Mary",
+		"author": [
+			{
+				"family": "Weir",
+				"given": "Andy"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Benque:2020",
+		"type": "thesis",
+		"abstract": "This PhD thesis utilises diagrams as a language for research and design practice to critically investigate algorithmic prediction. As a tool for practice-based research, the language of diagrams is presented as a way to\nread algorithmic prediction as a set of intricate computational geometries, and to write it through critical practice immersed in the very materials in question: data and code. From a position rooted in graphic and interaction design, the research uses diagrams to gain purchase on algorithmic prediction, making it available for examination, experimentation, and critique. The project is framed by media archaeology, used here as a methodology through which both the technical and historical \"depths\" of algorithmic systems are excavated.\n\nMy main research question asks:\n\nHow can diagrams be used as a language to critically investigate algorithmic prediction through design practice?\n\nThis thesis presents two secondary questions for critical examination, asking:\n\nThrough which mechanisms does thinking/writing/designing in diagrammatic terms inform research and practice focused on algorithmic prediction?\n\nAs algorithmic systems claim to produce objective knowledge, how can diagrams be used as instruments for speculative and/or conjectural knowledge production?\n\nI contextualise my research by establishing three registers of relations between diagrams and algorithmic prediction. These are identified as: Data Diagrams to describe the algorithmic forms and processes through which data are turned into predictions; Control Diagrams to afford critical perspectives on algorithmic prediction, framing the latter as an apparatus of prescription and control; and Speculative Diagrams to open up opportunities for reclaiming the generative potential of computation. These categories form the scaffolding for the three practice-oriented chapters where I evidence a range of meaningful ways to investigate algorithmic prediction through diagrams.\n\nThis includes, the 'case board' where I unpack some of the historical genealogies of algorithmic prediction. A purpose-built graph application materialises broader reflections about how such genealogies might be conceptualised, and facilitates a visual and subjective mode of knowledge production. I then move to producing 'traces', namely probing the output of an algorithmic prediction system|in this case YouTube recommendations. Traces, and the purpose-built instruments used to visualise them, interrogate both the mechanisms of algorithmic capture and claims to make these mechanisms transparent through data visualisations. Finally, I produce algorithmic predictions and examine the diagrammatic \"tricks,\" or 'chicanes', that this involves. I revisit a historical prototype for algorithmic prediction, the almanac publication, and use it to question the boundaries between data-science and divination. This is materialised through a new version of the almanac - an automated publication where algorithmic processes are used to produce divinatory predictions.\n\nMy original contribution to knowledge is an approach to practice-based research which draws from media archaeology and focuses on diagrams to investigate algorithmic prediction through design practice. I demonstrate to researchers and practitioners with interests in algorithmic systems, prediction, and/or speculation, that diagrams can be used as a language to engage critically with these themes.",
+		"event-place": "London",
+		"genre": "PhD Thesis",
+		"publisher": "Royal College of Art",
+		"publisher-place": "London",
+		"title": "Case board, traces, & chicanes: Diagrams for an archaeology of algorithmic prediction through critical design practice",
+		"author": [
+			{
+				"family": "Benque",
+				"given": "David"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "Zittrain:2021",
+		"type": "webpage",
+		"container-title": "The Atlantic",
+		"title": "That Internet is Rotting",
+		"URL": "https://www.theatlantic.com/technology/archive/2021/06/the-internet-is-a-collective-hallucination/619320/",
+		"author": [
+			{
+				"family": "Zittrain",
+				"given": "Jonathan"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					30
 				]
 			]
 		}
