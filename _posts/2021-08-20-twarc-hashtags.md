@@ -24,8 +24,8 @@ twarc2 search --archive '"marielle franco"' tweets.jsonl
 ```
 
 
-But we wanted to discover what hashtags were used over time in order to broaden
-the collected results.
+But we wanted to discover what hashtags were used in this initial dataset in
+order to broaden the search using relevant hashtags and then run it again.
 
 Once you `pip install twarc-hashtags` you get a new command `hashtags` which
 you can use to generate a CSV dataset that represents the hashtags present in
