@@ -40,8 +40,8 @@ While your data is being read a little SQLite database is populated which has
 three columns: `tweet id`, `created`, and `hashtag`. This allows for easy
 counting (using SQL) but also for a bit more manipulation. 
 
-For example, if you would like to see the hashtags grouped over time, for
-example by month, you can:
+For example, if you would like to see the hashtags grouped by month you
+can:
 
 ```bash
 twarc2 hashtags tweets.jsonl hashtags.csv --group month
