@@ -40,15 +40,16 @@ connection between "data cultures" and fields like [critical data studies].
 
 ### New Technologies, Crowdsourcing and Online User Participation in Archives / Alexandra Eveleigh
 
-[Alexandra Eveleigh] works at [Wellcome Trust] and has been at the intersection
-between participatory archives and archives for 10 years. She gave an overview
-of the idea of participation in archives, and how the social web, or web 2.0
-perspectives/technologies impacted archives. Terms like "crowdsourcing",
-"archives 2.0", "participatory archives" are slippery. Much work has ended up
-being facilitated in part through social media. Eveleigh put this XKCD cartoon
-alongside her timeline to emphasize how much early thinking about participation
-has been understood through our evolving conceptions about social media
-platforms, that are themselves fragmented territories.
+[Alexandra Eveleigh] is currently working at the [Wellcome Trust] and has been
+involved at the intersection between crowdsourcing/participation and archives
+for about 10 years. She gave an overview of the idea of participation in
+archives, and how the social web, or web 2.0 perspectives/technologies impacted
+archives. Terms like "crowdsourcing", "archives 2.0", "participatory archives"
+are slippery. Much work has ended up being facilitated in part through social
+media. Eveleigh put this XKCD cartoon alongside her timeline to emphasize how
+much early thinking about participation has been understood through our
+evolving conceptions about social media platforms, that are themselves
+fragmented territories.
 
 <a href="/images/participatory-archives-01.png"><img class="img-responsive" src="/images/participatory-archives-01.png"></a>
 
@@ -193,51 +194,34 @@ join the [Documenting the Now Slack](https://bit.ly/docnow-slack). We want it
 to be bigger than just a discussion of Twitter, and welcome participation from
 all different perspectives.
 
+A note to the organizers (in the unlikely event that they read this): Having an
+online event about *participatory* archives where participants can't chat and
+use the Q&A is perhaps not the greatest look.
+
 ### References
 
 [The Development of Black-Led Archives in London]: https://discovery.ucl.ac.uk/id/eprint/10112604/
-
 [Witness]: https://witness.org
-
 [Syrian Archive]: https://syrianarchive.org/
-
 [Anat Ben-David]: https://www.anatbendavid.info
-
 [Counter-archiving Facebook]: https://journals.sagepub.com/doi/full/10.1177/0267323120922069
-
 [Mayday Rooms]: https://maydayrooms.org/
-
 [Dig Where You Stand]: https://en.wikipedia.org/wiki/Dig_Where_You_Stand_movement
-
 [participatory design]: https://en.wikipedia.org/wiki/Participatory_design
-
 [Sven Lindqvist]: https://en.wikipedia.org/wiki/Sven_Lindqvist
-
 [CARE Principles]: https://www.gida-global.org/care
-
 [FAIR Principles]: https://www.go-fair.org/fair-principles/
-
 [critical data studies]: https://en.wikipedia.org/wiki/Critical_data_studies
-
 [Archives 2.0: If we build it will they come]: http://www.ariadne.ac.uk/issue/60/palmer/
-
 [LocalContexts]: https://localcontexts.org/
-
 [book sprint]: https://www.booksprints.net/
-
 [Collective Wisdom: Perspectives on Crowdsourcing in Cultural Heritage]:
 https://www.booksprints.net/book/collective-wisdom/
-
 [Alexandra Eveleigh]: https://twitter.com/ammeveleigh
-
 [Recordkeeping Cultures]: https://www.routledge.com/Recordkeeping-Cultures/Oliver-Foscarini/p/book/9781783303991
-
 [Recordkeeping Informatics for a Networked Age]: https://bridges.monash.edu/articles/monograph/Recordkeeping_Informatics_for_a_Networked_Age/12821381
-
 [collectivism]: https://en.wikipedia.org/wiki/Collectivism
-
 [Gillian Oliver]: https://research.monash.edu/en/persons/gillian-oliver
-
 [has exploded]: https://www.youtube.com/watch?v=s2V2gYxjCP4
-
 [Wellcome Trust]: https://wellcome.org/
+[community informatics]: https://en.wikipedia.org/wiki/Community_informatics
