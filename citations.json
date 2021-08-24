@@ -60524,5 +60524,219 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "York:2021",
+		"type": "book",
+		"abstract": "\"What is the impact of surveillance capitalism on our right to free speech? The Internet once promised to be a place of extraordinary freedom beyond the control of money or politics, but today corporations and platforms exercise more control over our ability to access information and share knowledge to a greater extent than any state. From the online calls to arms in the thick of the Arab Spring to the contemporary front line of misinformation, Jillian York charts the war over our digital rights. She looks at both how the big corporations have become unaccountable censors, and the devastating impact it has had on those who have been censored. In Silicon Values, leading campaigner Jillian York, looks at how our rights have become increasingly undermined by the major corporations desire to harvest our personal data and turn it into profit. She also looks at how governments have used the same technology to monitor citizens and threatened our ability to communicate. As a result our daily lives, and private thoughts, are being policed in an unprecedented manner. Who decides the difference between political debate and hate speech? How does this impact on our identity, our ability to create communities and to protest? Who regulates the censors? In response to this threat to our democracy, York proposes a user-powered movement against the platforms that demands change and a new form of ownership over our own data\"--",
+		"event-place": "Brooklyn",
+		"ISBN": "978-1-78873-880-4",
+		"publisher": "Verso Books",
+		"publisher-place": "Brooklyn",
+		"source": "Library of Congress ISBN",
+		"title": "Silicon Values: The Future of Free Speech Under Surveillance Capitalism",
+		"title-short": "Silicon Values",
+		"author": [
+			{
+				"family": "York",
+				"given": "Jillian"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Stanton:2021a",
+		"type": "article-journal",
+		"container-title": "SSRN Electronic Journal",
+		"DOI": "10.2139/ssrn.3833133",
+		"ISSN": "1556-5068",
+		"journalAbbreviation": "SSRN Journal",
+		"language": "en",
+		"source": "DOI.org (Crossref)",
+		"title": "The Paper of Record Meets an Ephemeral Web: An Examination of Linkrot and Content Drift within The New York Times",
+		"title-short": "The Paper of Record Meets an Ephemeral Web",
+		"URL": "https://www.ssrn.com/abstract=3833133",
+		"author": [
+			{
+				"family": "Zittrain",
+				"given": "Jonathan"
+			},
+			{
+				"family": "Bowers",
+				"given": "John"
+			},
+			{
+				"family": "Stanton",
+				"given": "Clare"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Appadurai:2016",
+		"type": "chapter",
+		"container-title": "Colonial knowledges",
+		"event-place": "London; New York",
+		"ISBN": "978-1-315-23733-6",
+		"language": "English",
+		"note": "OCLC: 973034266",
+		"publisher": "Routledge",
+		"publisher-place": "London; New York",
+		"source": "Open WorldCat",
+		"title": "Number in the Colonial Imagination",
+		"URL": "https://www.taylorfrancis.com/books/e/9781315237336",
+		"author": [
+			{
+				"family": "Appadurai",
+				"given": "Arjun"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					8,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "Ben-David:2020",
+		"type": "article-journal",
+		"abstract": "The article proposes archival thinking as an analytical framework for studying Facebook. Following recent debates on data colonialism, it argues that Facebook dialectically assumes a role of a new archon of public records, while being unarchivable by design. It then puts forward counter-archiving – a practice developed to resist the epistemic hegemony of colonial archives – as a method that allows the critical study of the social media platform, after it had shut down researcher’s access to public data through its application programming interface. After defining and justifying counter-archiving as a method for studying datafied platforms, two counter-archives are presented as proof of concept. The article concludes by discussing the shifting boundaries between the archivist, the activist and the scholar, as the imperative of research methods after datafication.",
+		"container-title": "European Journal of Communication",
+		"DOI": "10.1177/0267323120922069",
+		"ISSN": "0267-3231, 1460-3705",
+		"issue": "3",
+		"journalAbbreviation": "European Journal of Communication",
+		"language": "en",
+		"page": "249-264",
+		"source": "DOI.org (Crossref)",
+		"title": "Counter-archiving Facebook",
+		"URL": "http://journals.sagepub.com/doi/10.1177/0267323120922069",
+		"volume": "35",
+		"author": [
+			{
+				"family": "Ben-David",
+				"given": "Anat"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					8,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "Caswell:2021",
+		"type": "book",
+		"abstract": "\"Urgent Archives argues that archivists can and should do more to disrupt white supremacy and hetero-patriarchy beyond the standard liberal archival solutions of more diverse collecting and more inclusive description. Grounded in the emerging field of critical archival studies, this book uncovers how dominant western archival theories and practices are oppressive by design, while looking toward the the radical politics of community archives to envision new liberatory theories and practices. Based on more than a decade of ethnography at community archives sites including the South Asian American Digital Archive (SAADA), the book explores how members of minoritized communities activate records to build solidarities across and within communities, trouble linear progress narratives, and disrupt cycles of oppression. Caswell explores the temporal, representational, and material aspects of liberatory memory work, arguing that archival disruptions in time and space should be neither about the past nor the future, but about the liberatory affects and effects of memory work in the present. Urgent Archives extends the theoretical range of critical archival studies and provides a new framework for archivists looking to transform their practices. The book should also be of interest to scholars of archival studies, museum studies, public history, memory studies, gender and ethnic studies and digital humanities\"--",
+		"call-number": "CD3021 .C37 2021",
+		"collection-title": "Routledge studies in archives",
+		"event-place": "Abingdon, Oxon ; New York, NY",
+		"ISBN": "978-0-367-42727-6",
+		"publisher": "Routledge",
+		"publisher-place": "Abingdon, Oxon ; New York, NY",
+		"source": "Library of Congress ISBN",
+		"title": "Urgent archives: enacting liberatory memory work",
+		"title-short": "Urgent archives",
+		"author": [
+			{
+				"family": "Caswell",
+				"given": "Michelle"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Kashmere:2010",
+		"type": "book",
+		"collection-number": "2",
+		"collection-title": "INCITE Journal of Experimental Media",
+		"event-place": "Oakland, California",
+		"publisher-place": "Oakland, California",
+		"title": "Counter-Archive",
+		"URL": "http://www.incite-online.net/issuetwo.html",
+		"editor": [
+			{
+				"family": "Kashmere",
+				"given": "Brett"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010"
+				]
+			]
+		}
+	},
+	{
+		"id": "Palmer:2009",
+		"type": "article-journal",
+		"container-title": "Ariadne",
+		"issue": "60",
+		"title": "Archives 2.0: If We Build It, Will They Come?",
+		"URL": "http://www.ariadne.ac.uk/issue/60/palmer/",
+		"author": [
+			{
+				"family": "Palmer",
+				"given": "Joy"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2009"
+				]
+			]
+		}
 	}
 ]
