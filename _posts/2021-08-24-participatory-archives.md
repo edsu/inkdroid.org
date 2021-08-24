@@ -40,8 +40,8 @@ connection between "data cultures" and fields like [critical data studies].
 
 ### New Technologies, Crowdsourcing and Online User Participation in Archives / Alexandra Eveleigh
 
-[Alexandra Eveleigh] works at [Wellcome Trust] and has been working at the
-intersection between participatory archives and archives. She gave an overview
+[Alexandra Eveleigh] works at [Wellcome Trust] and has been at the intersection
+between participatory archives and archives for 10 years. She gave an overview
 of the idea of participation in archives, and how the social web, or web 2.0
 perspectives/technologies impacted archives. Terms like "crowdsourcing",
 "archives 2.0", "participatory archives" are slippery. Much work has ended up
