@@ -1,7 +1,6 @@
 all:
 	pandoc -V geometry:margin=1in ehs.md -o ehs.pdf
 	pandoc ehs.md -o ehs.latex
-	pandoc header.md ehs.md -c https://inkdroid.org/ehs/style.css -o ehs.html
 	pandoc ehs.md -o ehs.docx
 	mv ehs.docx ehs.doc
 
