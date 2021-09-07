@@ -1,18 +1,16 @@
-# Ed Summers
+\begin{center}
+{\large Ed Summers}\\
+ehs@pobox.com / 240-478-7086\\
+304 Brewster Court, Silver Spring, MD 20901\\
+\end{center}
 
-Silver Spring, Maryland, USA  
-
-<ehs@pobox.com>  
-<https://inkdroid.org>  
-<https://github.com/edsu>
-
-I am a researcher and software developer with two decades of experience
+I am a software developer and design researcher with two decades of experience
 bridging the worlds of libraries and archives with the World Wide Web. I have
-worked in academia, startups, corporations and government. I work best as a
-member of agile, highly collaborative teams that focus on furthering social
+worked in academia, startups, corporations and government. I work best as
+a member of agile, highly collaborative teams that focus on furthering social
 justice work through community building, knowledge sharing and a commitment
-sustainability. In my research I am particularly interested in sociotechnical
-approaches to memory work.
+sustainability. In my research I am especially interested in sociotechnical
+approaches to digital preservation and memory work.
 
 ## Skills
 
@@ -32,10 +30,10 @@ University of Maryland
 08/2014 - Present  
 
 * digital humanities research and development
-* linked data publishing
+* linked data publishing 
+* sustainable digital preservation workflows 
 * automated testing 
 * requirements gathering / project management
-* digital archives
 
 Information Technology Specialist  
 Repository Development Center  
@@ -70,8 +68,8 @@ Hypothes.is
 San Fransisco, CA  
 01/2013 - 10/2013
 
-* CoffeeScript and Python development
-* development of the opensource [Annotator] and [Annotator Store] projects
+* JavaScript and Python development
+* development of the open source [Annotator] and [Annotator Store] projects
 * design and implementation of [cross format annotation support] [cross-format-annotation]
 * functional and unit testing support using Selenium, PyTest, Travis-CI and 
   SauceLabs
@@ -184,21 +182,21 @@ University of Illinois, Champaign-Urbana, IL
 
 ## Selected Projects
 
-I like to learn and keep my skills sharp by working on or
-participating in opensource projects. This is a shortlist of projects that
-I am proud to have started or been involved with:
+These are some projects where I've been directly involved in the technical
+development.
 
-* [wikistream] - visualize realtime edits to all major language Wikipedias
-* [anon] - post anonymous Wikipedia edits from particular IP ranges to Twitter
-e.g. [congress-edits] [congress-edits]
-* [pymarc] - a python library for liberating library data locked up in
-the MARC format
-* [shortimer] - a jobs board that uses Google Freebase
-* [linkypedia] - view how websites are used on Wikipedia
-* [fondz] - generate an archival description for describing born digital content
-* [ici] - view Wikipedia articles for your current location on a map
-* [microdata] - a python library for parsing HTML 5 microdata
-* [twarc] - a command line utility for archiving Twitter
+* [Unlocking the Airwaves] - NEH funded virtual reunification and minimal computing project
+* [Documenting the Now] - Mellon funded social media archiving practices and tools
+* [Chronicling America] - Library of Congress access to historical newspapers.
+* [Linked Data Service] - Publishing controlled vocabularies at the Library of Congress using Linked Data
+* [Hypothesis] - An annotation tool for the web
+* [Wikistream] - visualize realtime edits to all major language Wikipedias
+* [Anon] - track anonymous Wikipedia edits using Twitter 
+* [Pymarc] - a python library for MARC processing
+* [jobs.code4lib.org] - a jobs board for the code4lib community
+* [Linkypedia] - view how websites are used on Wikipedia
+* [Fondz] - generate an archival description for describing born digital content
+* [Microdata] - a python library for parsing HTML 5 microdata
 * [rdflib] - a Python library for processing RDF
 
 ## Selected Publications
@@ -275,7 +273,7 @@ Analytics. June, 2019.
 [#sayhername: a case study of intersectional social media activism]: http://dx.doi.org/10.1080/01419870.2017.1334934
 [Ferguson and the death of Michael Brown on Twitter: #BlackLivesMatter, #TCOT, and the evolution of collective identities]: http://dx.doi.org/10.1080/01419870.2017.1335422
 
-[Natioanal Digital Newspaper Project]: http://chroniclingamerica.loc.gov/ "Chronicling America"
+[National Digital Newspaper Project]: http://chroniclingamerica.loc.gov/ "Chronicling America"
 [Library of Congress Linked Data Service]: http://id.loc.gov/
 [Annotator]: http://github.com/okfn/anotator
 [Annotator Store]: http://github.com/okfn/anotator-store
@@ -291,3 +289,9 @@ Analytics. June, 2019.
 [microdata]: https://github.com/edsu/microdata
 [twarc]: https://github.com/edsu/twarc
 [rdflib]: https://github.com/RDFLib
+
+[Chronicling America]: https://chroniclingamerica.loc.gov
+[Documenting the Now]: https://docnow.io
+[Unlocking the Airwaves]: https://unlockingtheairwaves.org
+[Linked Data Service]: https://id.loc.gov
+[Hypothesis]: https://web.hypothes.is/
