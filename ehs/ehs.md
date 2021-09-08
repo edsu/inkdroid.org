@@ -289,9 +289,9 @@ Analytics. June, 2019.
 [microdata]: https://github.com/edsu/microdata
 [twarc]: https://github.com/edsu/twarc
 [rdflib]: https://github.com/RDFLib
-
 [Chronicling America]: https://chroniclingamerica.loc.gov
-[Documenting the Now]: https://docnow.io
+[Documenting the Now]: https://www.docnow.io
 [Unlocking the Airwaves]: https://unlockingtheairwaves.org
 [Linked Data Service]: https://id.loc.gov
 [Hypothesis]: https://web.hypothes.is/
+[jobs.code4lib.org]: https://jobs.code4lib.org

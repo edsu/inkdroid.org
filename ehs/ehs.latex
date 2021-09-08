@@ -329,8 +329,8 @@ technical development.
   \href{https://unlockingtheairwaves.org}{Unlocking the Airwaves} - NEH
   funded virtual reunification and minimal computing project
 \item
-  \href{https://docnow.io}{Documenting the Now} - Mellon funded social
-  media archiving practices and tools
+  \href{https://www.docnow.io}{Documenting the Now} - Mellon funded
+  social media archiving practices and tools
 \item
   \href{https://chroniclingamerica.loc.gov}{Chronicling America} -
   Library of Congress access to historical newspapers.
@@ -350,7 +350,8 @@ technical development.
   \href{http://github.com/edsu/pymarc}{Pymarc} - a python library for
   MARC processing
 \item
-  {[}jobs.code4lib.org{]} - a jobs board for the code4lib community
+  \href{https://jobs.code4lib.org}{jobs.code4lib.org} - a jobs board for
+  the code4lib community
 \item
   \href{http://github.com/edsu/linkypedia}{Linkypedia} - view how
   websites are used on Wikipedia
