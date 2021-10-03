@@ -152,7 +152,7 @@ CheetahMail, New York NY
 * team lead in a group of 8 programmers
 * developed data processing infrastructure for Fortune 500 clients
 * designed/developed real time reporting system
-* creation and maintainance of web service API
+* creation and maintenance of web service API
 * in depth knowledge of SMTP and HTTP protocols
 * web services development
 * technical representative for partners and sales
