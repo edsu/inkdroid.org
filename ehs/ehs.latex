@@ -9,8 +9,8 @@ experience bridging the worlds of libraries and archives with the World
 Wide Web. I have worked in academia, startups, corporations and
 government. I work best as a member of agile, highly collaborative teams
 that focus on furthering social justice work through community building,
-knowledge sharing and a commitment sustainability. In my research I am
-especially interested in sociotechnical approaches to digital
+knowledge sharing and a commitment to sustainability. My research and
+writing is focused on sociotechnical approaches to understanding digital
 preservation and memory work.
 
 \hypertarget{skills}{%
@@ -21,7 +21,7 @@ preservation and memory work.
 \item
   web technology, APIs, REST, linked data, web archiving
 \item
-  digital preservation, data management, knowledge management, search
+  digital preservation, data management, knowledge graphs, search
 \item
   open source, standards development, community building
 \item
@@ -30,6 +30,8 @@ preservation and memory work.
   Python, JavaScript, Go, Ruby, Perl, PHP, Java, C, Scheme
 \item
   data analysis, Pandas, SciPy, Spark
+\item
+  data visualization: D3, Plotly, vis.js, Gephi
 \item
   Ubuntu, Red Hat, Amazon Web Services
 \end{itemize}
@@ -45,15 +47,21 @@ University of Maryland\\
 \begin{itemize}
 \tightlist
 \item
-  digital humanities research and development
+  Digital humanities research and development (minimal computing, web
+  archives)
 \item
-  linked data publishing
+  Linked Data publishing (Python, NodeJS)
 \item
-  sustainable digital preservation workflows
+  Sustainable digital preservation workflows (AWS)
 \item
-  automated testing
+  Automated testing and continuous integration (GitHub)
 \item
-  requirements gathering / project management
+  Configuration management (Git, Docker, Ansible)
+\item
+  Requirements gathering / project management
+\item
+  Instructor of record: data science, software development, data
+  curation
 \end{itemize}
 
 Information Technology Specialist\\
@@ -64,22 +72,23 @@ Library of Congress, Washington, DC\\
 \begin{itemize}
 \tightlist
 \item
-  digital preservation and repository software design and development
+  Digital preservation and repository software design and development
+  (Python, Java, MySQL)
 \item
-  lead software developer on the
+  Lead software developer on the
   \href{http://chroniclingamerica.loc.gov/}{National Digital Newspaper
-  Project}
+  Project} (Django, MySQL)
 \item
-  created a web based quality assurance tool for handling high volume
+  Created a web based quality assurance tool for handling high volume
   image digitization projects
 \item
   social media archiving (Twitter)
 \item
-  designed and implemented the \href{http://id.loc.gov/}{Library of
+  Designed and implemented the \href{http://id.loc.gov/}{Library of
   Congress Linked Data Service}
 \item
-  contributing member to the Semantic Web Deployment Group, Library
-  Linked Data Incubator Group, and eGov Interest Group at the W3C
+  Specification writing and testing {[}W3C Semantic Web Deployment
+  Group{]}
 \end{itemize}
 
 Consultant\\
@@ -104,9 +113,9 @@ University of Wisconsin, Madison, WI\\
 \begin{itemize}
 \tightlist
 \item
-  web harvesting
+  Web harvesting (Python)
 \item
-  data managment
+  Data managment (Git, AWS)
 \end{itemize}
 
 Consultant\\
@@ -119,15 +128,14 @@ San Fransisco, CA\\
 \item
   JavaScript and Python development
 \item
-  development of the open source
+  Development of the open source
   \href{http://github.com/okfn/anotator}{Annotator} and
   \href{http://github.com/okfn/anotator-store}{Annotator Store} projects
 \item
-  design and implementation of {[}cross format annotation support{]}
-  \href{http://hypothes.is/blog/cross-format-annotation/}{cross-format-annotation}
+  Design and implementation of {[}cross format annotation{]} annotation
+  support
 \item
-  functional and unit testing support using Selenium, PyTest, Travis-CI
-  and SauceLabs
+  Functional/unit testing (Selenium, PyTest, Travis-CI, SauceLabs)
 \end{itemize}
 
 Consultant\\
@@ -143,11 +151,11 @@ GlueJar\\
   Amazon AWS Deployment (EC2, RDS, Route 53) for dev, test and
   production
 \item
-  Google Books integration
+  Google Books metadata harvesting
 \item
   Google, Facebook, Twitter social media integration
 \item
-  automated testing and continuous integration (Jenkins)
+  Automated testing and continuous integration (Jenkins)
 \end{itemize}
 
 Consultant\\
@@ -160,9 +168,9 @@ Yale School of Medicine, New Haven, CT\\
 \item
   Python object oriented design
 \item
-  automated testing
+  Automated testing
 \item
-  implemented a reporting framework
+  Implemented a reporting framework
 \item
   Quixote, Pylucene, MySQL, Red Hat administration
 \end{itemize}
@@ -174,19 +182,19 @@ Follett Corporation, McHenry IL\\
 \begin{itemize}
 \tightlist
 \item
-  building and supporting a distributed knowledge management application
+  Building and supporting a distributed knowledge management application
 \item
-  requirements gathering and project planning
+  Requirements gathering and project planning
 \item
-  web service design and implementation
+  Web service design and implementation
 \item
   ONIX metadata harvesting and ingest
 \item
   Java performance tuning
 \item
-  automated testing
+  Automated testing
 \item
-  database administration
+  Database administration (Oracle, SQL Server)
 \item
   Linux/Windows systems administration
 \end{itemize}
@@ -198,9 +206,9 @@ Performix, Chicago IL\\
 \begin{itemize}
 \tightlist
 \item
-  object oriented design
+  Object oriented design
 \item
-  refactored large Perl codebase
+  Refactored large Perl codebase
 \item
   Perl, Apache, mod\_perl, DB2
 \end{itemize}
@@ -212,9 +220,9 @@ Queens Borough Public Library, New York NY\\
 \begin{itemize}
 \tightlist
 \item
-  character encoding conversion
+  Character encoding conversion
 \item
-  controlled vocabulary mining
+  Controlled vocabulary mining
 \item
   Perl data processing training
 \end{itemize}
@@ -225,13 +233,13 @@ Notre Dame University, South Bend IN 06/2004 - 12/2004
 \begin{itemize}
 \tightlist
 \item
-  training in object oriented programming and unit testing
+  Training in object oriented programming and unit testing
 \item
-  high volume metadata harvesting
+  High volume metadata harvesting
 \item
-  guidance and implementation search technologies
+  Guidance and implementation search technologies
 \item
-  ported Java Commonn Query Language parser to Perl
+  Ported Java Commonn Query Language parser to Perl
 \end{itemize}
 
 Applications Developer\\
@@ -243,17 +251,17 @@ Follett Library Resources, McHenry IL\\
 \item
   PHP/Perl development in a Unix/Oracle environment
 \item
-  determined project requirements, created task lists and schedules
+  Determined project requirements, created task lists and schedules
 \item
-  designed and developed library collection analysis application
+  Designed and developed library collection analysis application
 \item
-  unit and application level automated testing
+  Unit and application level automated testing
 \item
   Oracle/Apache stress testing and performance tuning
 \item
   XML processing
 \item
-  distributed application design using SOAP/XMLRPC
+  Distributed application design using web services
 \end{itemize}
 
 Senior Software Engineer\\
@@ -263,21 +271,21 @@ CheetahMail, New York NY\\
 \begin{itemize}
 \tightlist
 \item
-  team lead in a group of 8 programmers
+  Team lead in a group of 8 programmers
 \item
-  developed data processing infrastructure for Fortune 500 clients
+  Developed data processing infrastructure for Fortune 500 clients
 \item
-  designed/developed real time reporting system
+  Designed/developed real time reporting system
 \item
-  creation and maintenance of web service API
+  Creation and maintenance of web service API
 \item
-  in depth knowledge of SMTP and HTTP protocols
+  Expertise in SMTP and HTTP protocols
 \item
-  web services development
+  Web services development
 \item
-  technical representative for partners and sales
+  Technical representative for partners and sales
 \item
-  networking and systems administration as required
+  Networking and systems administration as required
 \end{itemize}
 
 Electronic Resources Librarian\\
@@ -287,17 +295,12 @@ Old Dominion University, Norfolk, VA\\
 \begin{itemize}
 \tightlist
 \item
-  SGML data processing for electronic texts for 39 universities in
-  Virginia.
+  SGML and XML data processing for the VIVA Consortium
 \item
-  created current awareness system to alert students/faculty to new
+  Created current awareness system to alert students/faculty to new
   items in their field of interest.
 \item
-  created XML publishing system for archival finding aids.
-\item
-  developed serials database for locating licensed fulltext.
-\item
-  III/OCLC metadata management integration
+  ILS and OCLC metadata workflow management
 \end{itemize}
 
 Visiting Assistant Professor University of Illinois, Champaign-Urbana,
@@ -307,21 +310,21 @@ IL\\
 \begin{itemize}
 \tightlist
 \item
-  web/database development (ASP/SQLServer)
+  Web development (ASP, SQL Server)
 \item
-  collection development and cataloging in Sociology and Political
+  Collection development and cataloging in Sociology and Political
   Science
 \item
-  preservation of 19th century criminology pamphlet collection
+  Preservation of 19th century criminology pamphlet collection
 \item
-  managed reference services in the Social Science Library
+  Managed reference services in the Social Science Library
 \end{itemize}
 
 \hypertarget{selected-projects}{%
 \subsection{Selected Projects}\label{selected-projects}}
 
-These are some projects where I've been directly involved in the
-technical development.
+These are some projects and experiments where I've been directly
+involved in the technical development.
 
 \begin{itemize}
 \tightlist
@@ -489,6 +492,4 @@ technical development.
   \href{http://www.ala.org/news/press-releases/2015/03/ed-summers-recipient-2015-kilgour-award}{Frederick
   G. Kilgour Award for Research in Library and Information Technology}.
   American Library Association.
-\item
-  2015 Shorty Award.
 \end{itemize}

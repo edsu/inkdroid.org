@@ -8,18 +8,19 @@ I am a software developer and design researcher with two decades of experience
 bridging the worlds of libraries and archives with the World Wide Web. I have
 worked in academia, startups, corporations and government. I work best as
 a member of agile, highly collaborative teams that focus on furthering social
-justice work through community building, knowledge sharing and a commitment
-sustainability. In my research I am especially interested in sociotechnical
-approaches to digital preservation and memory work.
+justice work through community building, knowledge sharing and a commitment to
+sustainability. My research and writing is focused on sociotechnical approaches
+to understanding digital preservation and memory work.
 
 ## Skills
 
 * web technology, APIs, REST, linked data, web archiving
-* digital preservation, data management, knowledge management, search
+* digital preservation, data management, knowledge graphs, search
 * open source, standards development, community building
 * automated testing, agile software development, rapid prototyping
 * Python, JavaScript, Go, Ruby, Perl, PHP, Java, C, Scheme
 * data analysis, Pandas, SciPy, Spark
+* data visualization: D3, Plotly, vis.js, Gephi
 * Ubuntu, Red Hat, Amazon Web Services
 
 ## Work History
@@ -29,23 +30,25 @@ Maryland Institute for Technology in the Humanities
 University of Maryland  
 08/2014 - Present  
 
-* digital humanities research and development
-* linked data publishing 
-* sustainable digital preservation workflows 
-* automated testing 
-* requirements gathering / project management
+* Digital humanities research and development (minimal computing, web archives)
+* Linked Data publishing (Python, NodeJS)
+* Sustainable digital preservation workflows (AWS)
+* Automated testing and continuous integration (GitHub)
+* Configuration management (Git, Docker, Ansible)
+* Requirements gathering / project management
+* Instructor of record: data science, software development, data curation
 
 Information Technology Specialist  
 Repository Development Center  
 Library of Congress, Washington, DC  
 03/2006 - 08/2014
 
-* digital preservation and repository software design and development
-* lead software developer on the [National Digital Newspaper Project]
-* created a web based quality assurance tool for handling high volume image digitization projects
+* Digital preservation and repository software design and development (Python, Java, MySQL)
+* Lead software developer on the [National Digital Newspaper Project] (Django, MySQL)
+* Created a web based quality assurance tool for handling high volume image digitization projects
 * social media archiving (Twitter)
-* designed and implemented the [Library of Congress Linked Data Service]
-* contributing member to the Semantic Web Deployment Group, Library Linked Data Incubator Group, and eGov Interest Group at the W3C
+* Designed and implemented the [Library of Congress Linked Data Service]
+* Specification writing and testing [W3C Semantic Web Deployment Group]
 
 Consultant  
 George Washington University, Washington, DC  
@@ -60,8 +63,8 @@ Nelson Institute for Environmental Studies
 University of Wisconsin, Madison, WI  
 09/2013 - 06/2014
 
-* web harvesting
-* data managment
+* Web harvesting (Python)
+* Data managment (Git, AWS)
 
 Consultant  
 Hypothes.is  
@@ -69,10 +72,9 @@ San Fransisco, CA
 01/2013 - 10/2013
 
 * JavaScript and Python development
-* development of the open source [Annotator] and [Annotator Store] projects
-* design and implementation of [cross format annotation support] [cross-format-annotation]
-* functional and unit testing support using Selenium, PyTest, Travis-CI and 
-  SauceLabs
+* Development of the open source [Annotator] and [Annotator Store] projects
+* Design and implementation of [cross format annotation] annotation support
+* Functional/unit testing (Selenium, PyTest, Travis-CI, SauceLabs)
 
 Consultant  
 GlueJar  
@@ -80,9 +82,9 @@ GlueJar
 
 * Django software development [UnglueIt] [unglueit]
 * Amazon AWS Deployment (EC2, RDS, Route 53) for dev, test and production
-* Google Books integration
+* Google Books metadata harvesting
 * Google, Facebook, Twitter social media integration
-* automated testing and continuous integration (Jenkins)
+* Automated testing and continuous integration (Jenkins)
 
 Consultant  
 Canary Project  
@@ -90,100 +92,97 @@ Yale School of Medicine, New Haven, CT
 07/2005 - 12/2005
 
 * Python object oriented design
-* automated testing
-* implemented a reporting framework
+* Automated testing
+* Implemented a reporting framework
 * Quixote, Pylucene, MySQL, Red Hat administration
 
 Senior Software Engineer  
 Follett Corporation, McHenry IL  
 05/2005 - 03/2006
 
-* building and supporting a distributed knowledge management application
-* requirements gathering and project planning
-* web service design and implementation
+* Building and supporting a distributed knowledge management application
+* Requirements gathering and project planning
+* Web service design and implementation
 * ONIX metadata harvesting and ingest
 * Java performance tuning
-* automated testing
-* database administration
+* Automated testing
+* Database administration (Oracle, SQL Server)
 * Linux/Windows systems administration
 
 Consultant  
 Performix, Chicago IL  
 02/2004 - 04/2005
 
-* object oriented design
-* refactored large Perl codebase
+* Object oriented design
+* Refactored large Perl codebase
 * Perl, Apache, mod_perl, DB2
 
 Consultant  
 Queens Borough Public Library, New York NY  
 06/2004 - 05/2005
 
-* character encoding conversion
-* controlled vocabulary mining
+* Character encoding conversion
+* Controlled vocabulary mining
 * Perl data processing training
 
 Consultant  
 Notre Dame University, South Bend IN
 06/2004 - 12/2004
 
-* training in object oriented programming and unit testing
-* high volume metadata harvesting
-* guidance and implementation search technologies
-* ported Java Commonn Query Language parser to Perl
+* Training in object oriented programming and unit testing
+* High volume metadata harvesting
+* Guidance and implementation search technologies
+* Ported Java Commonn Query Language parser to Perl
 
 Applications Developer  
 Follett Library Resources, McHenry IL  
 07/2002 - 05/2004
 
 * PHP/Perl development in a Unix/Oracle environment
-* determined project requirements, created task lists and
+* Determined project requirements, created task lists and
   schedules
-* designed and developed library collection analysis application
-* unit and application level automated testing
+* Designed and developed library collection analysis application
+* Unit and application level automated testing
 * Oracle/Apache stress testing and performance tuning
 * XML processing
-* distributed application design using SOAP/XMLRPC
+* Distributed application design using web services
 
 Senior Software Engineer  
 CheetahMail, New York NY  
 02/2000 - 07/2002  
 
-* team lead in a group of 8 programmers
-* developed data processing infrastructure for Fortune 500 clients
-* designed/developed real time reporting system
-* creation and maintenance of web service API
-* in depth knowledge of SMTP and HTTP protocols
-* web services development
-* technical representative for partners and sales
-* networking and systems administration as required
+* Team lead in a group of 8 programmers
+* Developed data processing infrastructure for Fortune 500 clients
+* Designed/developed real time reporting system
+* Creation and maintenance of web service API
+* Expertise in SMTP and HTTP protocols
+* Web services development
+* Technical representative for partners and sales
+* Networking and systems administration as required
 
 Electronic Resources Librarian  
 Old Dominion University, Norfolk, VA  
 04/1998 - 02/2000
 
-* SGML data processing for electronic texts for 39 universities
-  in Virginia.
-* created current awareness system to alert students/faculty to
+* SGML and XML data processing for the VIVA Consortium
+* Created current awareness system to alert students/faculty to
   new items in their field of interest.
-* created XML publishing system for archival finding aids.
-* developed serials database for locating licensed fulltext.
-* III/OCLC metadata management integration
+* ILS and OCLC metadata workflow management
 
 Visiting Assistant Professor
 University of Illinois, Champaign-Urbana, IL  
 08/1996 - 03/1998
 
-* web/database development (ASP/SQLServer)
-* collection development and cataloging in Sociology and
+* Web development (ASP, SQL Server)
+* Collection development and cataloging in Sociology and
   Political Science
-* preservation of 19th century criminology pamphlet collection
-* managed reference services in the Social Science Library
+* Preservation of 19th century criminology pamphlet collection
+* Managed reference services in the Social Science Library
 
 ## Selected Projects
 
-These are some projects where I've been directly involved in the technical
-development.
+These are some projects and experiments where I've been directly involved in
+the technical development.
 
 * [Unlocking the Airwaves] - NEH funded virtual reunification and minimal computing project
 * [Documenting the Now] - Mellon funded social media archiving practices and tools
@@ -250,7 +249,6 @@ Analytics. June, 2019.
 * 2018 [Exemplary Service Award](https://www2.archivists.org/node/23172). Society of American Archivists.
 * 2015 University of Maryland Scholarship and Research Award
 * 2015 [Frederick G. Kilgour Award for Research in Library and Information Technology](http://www.ala.org/news/press-releases/2015/03/ed-summers-recipient-2015-kilgour-award).  American Library Association.
-* 2015 Shorty Award. 
 
 [Appraisal Talk in Web Archives]: https://inkdroid.org/papers/appraisal-talk.pdf
 [Appraisal Practices in Web Archives]: https://osf.io/preprints/socarxiv/75mjp/
@@ -295,3 +293,5 @@ Analytics. June, 2019.
 [Linked Data Service]: https://id.loc.gov
 [Hypothesis]: https://web.hypothes.is/
 [jobs.code4lib.org]: https://jobs.code4lib.org
+
+[W3C Semantic Web Deployment Working Group]: https://www.w3.org/2006/07/SWD/
