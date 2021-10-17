@@ -30,13 +30,14 @@ Maryland Institute for Technology in the Humanities
 University of Maryland  
 08/2014 - Present  
 
-* Digital humanities research and development (minimal computing, web archives)
+* Full stack software development (JavaScript, React, Python, PostgreSQL, ElasticSearch)
+* Social media data analysis and visualization (Python, JavaScript, D3, VisJS)
 * Linked Data publishing (Python, NodeJS)
-* Sustainable digital preservation workflows (AWS)
+* Sustainable data preservation workflows (AWS)
 * Automated testing and continuous integration (GitHub)
 * Configuration management (Git, Docker, Ansible)
-* Requirements gathering / project management
-* Instructor of record: data science, software development, data curation
+* Agile requirements gathering & project management
+* Instructor & Mentor: software development (Python, JavaScript), data science (Python, Pandas, Spark)
 
 Information Technology Specialist  
 Repository Development Center  

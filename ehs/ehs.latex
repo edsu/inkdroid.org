@@ -47,21 +47,24 @@ University of Maryland\\
 \begin{itemize}
 \tightlist
 \item
-  Digital humanities research and development (minimal computing, web
-  archives)
+  Full stack software development (JavaScript, React, Python,
+  PostgreSQL, ElasticSearch)
+\item
+  Social media data analysis and visualization (Python, JavaScript, D3,
+  VisJS)
 \item
   Linked Data publishing (Python, NodeJS)
 \item
-  Sustainable digital preservation workflows (AWS)
+  Sustainable data preservation workflows (AWS)
 \item
   Automated testing and continuous integration (GitHub)
 \item
   Configuration management (Git, Docker, Ansible)
 \item
-  Requirements gathering / project management
+  Agile requirements gathering \& project management
 \item
-  Instructor of record: data science, software development, data
-  curation
+  Instructor \& Mentor: software development (Python, JavaScript), data
+  science (Python, Pandas, Spark)
 \end{itemize}
 
 Information Technology Specialist\\

@@ -41,10 +41,10 @@ fine grained list of tasks--I use other collaborative tools for that. It's
 simply a place to write down the high level things that I'm actively engaged
 with, in an arbitrary order, so I can see them change over time.
 
+* Webrecorder: WACZ Standardization
 * Social Life of Web Archives (SLoWA)
 * Documenting the Now
-* Unlocking the Airwaves
-* Teaching: Data Curation, Introduction to Programming, Object Oriented Programming
+* Teaching: Data Curation, Object Oriented Programming
 
 [software developer]: https://github.com/edsu
 [Maryland Institute for Technology in the Humanities]: http://mith.umd.edu
