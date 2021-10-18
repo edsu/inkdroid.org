@@ -18,14 +18,15 @@ date_gmt: '2007-11-02 17:45:40 +0000'
 tags:
 - metadata
 - rdf
-- semanticweb
+- semweb
 - http
 - libraries
-- oai-pmh
-- oai-ore
+- oaipmh
+- oaiore
 - w3c
 comments: []
 ---
+
 <p><a href="http://www.openarchives.org/pipermail/oai-general/2007-November/000480.html"><img src="/images/ore.png" style="margin-right: 10px; border: none; float: left;"/></a>In case you missed <a href="http://www.openarchives.org/pipermail/oai-general/2007-November/000480.html">it</a> the <a href="http://www.openarchives.org/ore/">Object-Reuse-and-Exchange (ORE) folks</a> are having a get together at Johns Hopkins University (Baltimore, MD) on March 3, 2008. It's free to register, but space is limited. The <a href="http://www.openarchives.org/ore/documents/CompoundObjects-200705.html">Compound information objects whitepaper</a>, <a href="http://www.openarchives.org/ore/documents/OAI-ORE%20TC%20Meeting%20200705_public.pdf">May 2007 Technical Committee notes</a> and the more recent <a href="http://www.ctwatch.org/quarterly/articles/2007/08/interoperability-for-the-discovery-use-and-re-use-of-units-of-scholarly-communication"> Interoperability for the Discovery, Use, and Re-Use of Units of Scholarly Communication</a> provide a good taste of what the beta ORE specs are likely to look like.</p>
 <p>The ORE <a href="http://www.openarchives.org/ore/ORE_Community.php">group</a> isn't small, and includes individuals from quite different organizations. So any consensus that can be garnered I think will be quite powerful. Personally I've been really pleased to see how much the ORE work is leaning on <a href="http://www.w3.org/TR/webarch/">web architecture</a>: notably resolvable HTTP URIs, <a href="http://en.wikipedia.org/wiki/Content_negotiation">content-negotiation</a>, <a href="http://www.w3.org/DesignIssues/LinkedData.html">linked-data</a> and <a href="http://www.w3.org/2004/03/trix/">named graphs</a>. Also interesting in the recent announcement is that the initial specs will use <a href="http://www.ietf.org/rfc/rfc4287.txt">RFC 4287</a> for encoding the data model. Who knows, perhaps the spec will rely on <a href="http://www.ietf.org/rfc/rfc5005.txt">archive feeds</a> as <a href="http://www.mail-archive.com/code4lib%40listserv.nd.edu/msg02060.html">discussed </a> recently on the code4lib discussion list.</p>
 <p>I'm particularly interested to see what flavor of URIs are used to identify the compound objects:</p>

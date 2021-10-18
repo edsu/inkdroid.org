@@ -8,6 +8,7 @@ tags:
 - graph
 ---
 
+
 Yesterday I had the good fortune to speak with [Miriam Posner], [Scott Weingart]
 and [Thomas Padilla] about their experiences teaching digital humanities
 students about network visualization, analysis and representation. This started

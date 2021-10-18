@@ -17,10 +17,11 @@ date: '2014-06-05 02:53:41 +0000'
 date_gmt: '2014-06-05 09:53:41 +0000'
 tags:
 - nsa
-- edward snowden
-- glenn greenwald
+- edward-snowden
+- glenn-greenwald
 comments: []
 ---
+
 <p><a href="https://www.goodreads.com/book/show/18213403-no-place-to-hide" style="float: left; padding-right: 20px"><img alt="No Place to Hide: Edward Snowden, the NSA, and the U.S. Surveillance State" border="0" src="https://d.gr-assets.com/books/1383352779m/18213403.jpg" /></a><a href="https://www.goodreads.com/book/show/18213403-no-place-to-hide">No Place to Hide: Edward Snowden, the NSA, and the U.S. Surveillance State</a> by <a href="https://www.goodreads.com/author/show/205996.Glenn_Greenwald">Glenn Greenwald</a><br />
 My rating: <a href="https://www.goodreads.com/review/show/938660965">4 of 5 stars</a></p>
 <p>I think Greenwald's book is a must read if you have any interest in the Snowden story, and the role of investigative journalism and its relationship to political power and the media. Greenwald is clearly a professional writer: his narrative is both lucid and compelling, and focuses on three areas that roughly correlate to sections of the book.</p>

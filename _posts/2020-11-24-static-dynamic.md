@@ -7,6 +7,7 @@ tags:
 - web
 ---
 
+
 At work we've been moving [lots](https://archive.mith.umd.edu) of previously
 *dynamic* web sites over to being *static* sites. Many of these sites have been
 Wordpress, Omeka or custom sites for projects that are no longer active, but

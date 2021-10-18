@@ -18,6 +18,7 @@ date_gmt: '2013-11-08 20:50:39 +0000'
 tags: []
 comments: []
 ---
+
 <p>Neil Gaiman <a href="http://www.theguardian.com/books/2013/oct/15/neil-gaiman-future-libraries-reading-daydreaming">wrote recently</a> in the Guardian about reading, writing and libraries. I suspect you've seen it already, but it sat in my to-read pile (on my Kindle) till now. I think I'm going to read it to my kids tonight.</p>
 <p>One of the nice things about reading on my Kindle is I'm much more likely to highlight and annotate. Really, I would've highlighted the whole thing if I could have. But anyway, here is what I highlighted:</p>
 <h3>The Web</h3>

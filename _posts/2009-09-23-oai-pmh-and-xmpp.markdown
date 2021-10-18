@@ -25,6 +25,7 @@ comments:
   date_gmt: '2009-09-25 18:46:18 +0000'
   content: "Nice Ed, but all that white space in the Python code makes me feel woozy.\r\n\r\n--Th"
 ---
+
 <p><a href="http://xmpp.org"><img src="http://xmpp.org/images/xmpp.png" style="border: none; margin-right: 15px; float: left;"/></a>As an experiment to learn more about <a href="http://xmpp.org">xmpp</a> I created a little utility that will poll an <a href="http://www.openarchives.org/OAI/openarchivesprotocol.html">oai-pmh</a> server and send new records as a chunk of xml over xmpp.  The idea wasn't necessarily to see all the xml coming into my jabber client (although you can do that). I wanted  to enable downstream applications to have records pushed to them, instead of them having to constantly poll for updates.  So you could write a client that archived away metadata and potentially articles as they are found, or write a current awareness tool that listened for articles that matched a particular users research profile, etc...</p>
 <p>Here's how you start it up:</p>
 <pre>

@@ -16,10 +16,10 @@ wordpress_url: http://inkdroid.org/journal/?p=6171
 date: '2013-09-30 20:56:27 +0000'
 date_gmt: '2013-10-01 03:56:27 +0000'
 tags:
-- linked data
-- digital preservation
+- linked-data
+- digital-preservation
 - dns
-- web archiving
+- web-archives
 - memento
 comments:
 - id: 86583
@@ -30,31 +30,20 @@ comments:
   date_gmt: '2013-10-01 08:24:15 +0000'
   content: |
     <p>While I really love the Internet Archive, this approach won't scale if everybody wants to access http://web.archive.org/... in case of failures or outages.</p>
-
     <p>Some failures may be temporary or non-fatal and some will implement Internet Archive as fallback for every kind of situations while others won't.</p>
-
     <p>As a result, the challenge of coping with failures and outages is just moved over to the Internet Archive team. This will surely work because he team is very clever, but only if the Internet  Archive team is guaranteed to perform well for a long time, as it does today.</p>
-
     <p>Same for Wikipedia.</p>
-
     <p>Here is my idea.</p>
-
     <p>My approach wouldn't depend on other institutions. It uses namespace prefixes and a mechanism of "local resolution" of URIs with lots of caches distributed over the web.</p>
-
     <p>Here is how this works: Every URI should be imported to local systems by transforming them to compact URIs (or CURIEs http://en.wikipedia.org/wiki/CURIE.</p>
-
     <p>My Linked Data Co-Location (LDCL) rules are:</p>
-
     <p>Never import full URIs into your triple stores. Select a preferred namespace prefix. Transform URIs to CURIEs in your triples. Save the map of namespace prefixes you used into your triple store configuration.
     When triples are exported in responses, transform the CURIEs back to URIs according to configured namespaces for CURIE to URI resolution.
     Copy/mirror the domains you use regularly to a local domain near your triple store and add this cache to your triple store's URI/CURIE resolver. Use this cache first. If you get cache misses, check out other remote sources, and at last, the original source.
     Publish your local CURIE cache so others can access it for reading. Provide the cache as timestamped linked open data in bulks. For example, using the BitTorrent protocol or CDN mechanisms might help to move snapshots of caches over the wire.
     Maintain priority lists of remote sources, build a trust network of CURIE caches, update them regularly.</p>
-
     <p>I know, my idea means adding a new functionality to existing Linked Data platforms. But I think it's worth it.</p>
-
     <p>Best,</p>
-
     <p>Jörg</p>
 - id: 86584
   author: Chris Adams
@@ -64,11 +53,8 @@ comments:
   date_gmt: '2013-10-01 18:16:41 +0000'
   content: |
     There are two ideas which seem worth exploring. One would simply be seeing whether the <a href="http://www.coralcdn.org/overview/" rel="nofollow">CoralCDN</a> crowd would be interested in extending their DHT to include temporal information, which opens this really interesting prospect of making the web archive aspect almost transparent to the public.
-
     The more pragmatic idea, however, which I find increasingly intriguing is whether you could simply use BitTorrent to basically publish the list of domains archived by a particular organization, making it trivial to distribute very large lists and allow new players to volunteer their content without requiring prior gatekeeper approval. That becomes particularly interesting when you consider that non-mainstream groups might start wanting to take control of their collective history – imagine a few decades hence when the people who were involved with Occupy Wall Street want to do the equivalent of <a href="https://twitter.com/mkirschenbaum/status/385064104764788736" rel="nofollow">what the AFL-CIO just did in being able to donate their history</a> to a library so future historians have a more complete copy of some incredibly ephemeral media.
-
     Obviously you'd still need to tackle the question of trustworthiness but something as simple as a ZIP file containing a text file listing domains and a PGP signature would make it easy to allow users to decide who to trust and still make it very straight forward to protect against a single point of failure. It'd also have the nice characteristic of making minimal demands on the implementation stack and bringing a lot of battle-tested network code, with significant precedent for browser integration (e.g. Opera has native BitTorrent support) which would be really nice for closing the final loop by allowing clients to deeply integrate Memento support.
-
     (There's some precedent for deeper integration into a server stack, too: <a href="http://codeascraft.com/2012/01/23/solr-bittorrent-index-replication/" rel="nofollow">Etsy famously uses BitTorrent to distribute Solr indices more efficiently</a>, which would be a really interesting way to bootstrap new TimeGate servers efficiently)
 - id: 86614
   author: christophe-gueret.myopenid.com/
@@ -78,7 +64,6 @@ comments:
   date_gmt: '2013-10-14 11:55:54 +0000'
   content: |
     Interesting blog post and conversation! Having several copies of the same content would indeed be the most reliable solution, and Bittorrent could be an interesting way to share content and/or indexes.
-
     Staying close to what has been done on the Web so far, could we maybe also pick some ideas from the research done against the so-called "Slashdot effect" ? I remember having read some years ago (&gt; 10) a paper that was about redirecting server queries to client machines that browse the site earlier. This sounded like a workable solution: the more you have people browsing, the more you get content providers (assuming these clients accept to play that role and stay up). There has surely more work that has been done on this topic over the past decade, maybe something worth checking out...
 - id: 86616
   author: On the use of HTTP URIs and the archiving of Linked Data - Knowledge Representation
@@ -105,11 +90,10 @@ comments:
   date_gmt: '2013-10-29 14:12:24 +0000'
   content: |
     I agree that it would be really interesting to explore client caches but trust is such a problem, particularly given how much more organized and advanced attackers are today.
-
     The easiest solution would be a well-reputed third-parties like Google, the Internet Archive, etc. were willing to publish content hashes from earlier retrievals but that runs into problems if they didn't get a copy before the server goes down. It would be interesting to see whether you could run a service where browsers publish hashes and you try to have some sort of majority consensus but it'd be easy to game without strict oversight – someone with a botnet could cast a LOT of votes for their trojaned version of the page they just DDoS-ed.
-
     What could work quite well would be requiring crypto – if the protocol required a signed content signature and the browser would perform the standard origin checks, the response could be trusted even if it came from an unknown source. The catch would be that this would either require HTTPS or at least one of the HTTP signature proposals using either HTTPS-style x509 or something like a public key published in DNS (preferably with DNSSEC), both of which would require some changes by content providers even if it's arguably work they should be doing anyway.
 ---
+
 <p>Earlier this morning <a href="https://twitter.com/geckomarma">Martin Malmsten</a> of the <a href="http://www.kb.se/">National Library of Sweden</a> asked an interesting question on Twitter:</p>
 <blockquote class="twitter-tweet">
 <p>

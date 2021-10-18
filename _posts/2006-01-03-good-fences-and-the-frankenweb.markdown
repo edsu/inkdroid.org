@@ -29,6 +29,7 @@ comments:
     through an XSLT transformation to handoff a valid XHTML page?  What matters is
     that a) it works b) in a timely fashion.
 ---
+
 <p><img src="/images/frankenstein.jpg" width="200" align="left" /> Ian Bicking has some interesting <a href="http://blog.ianbicking.org/theres-so-much-more-than-rails.html">notes</a> about competing web development technologies--mainly in response to <a href="http://blogs.law.harvard.edu/ivan/2005/12/20#a42">some</a> <a href="http://blogs.law.harvard.edu/ivan/2005/07/12#a9">posts</a> from Ivan Krystic.  The discussion is definitely recommended, especially if you find yourself looking at web application frameworks for Python and Ruby. I found the pivot point of the discussion to be around a new term (for me) -- the "frankenweb".</p>
 <p>My understanding is that like Frankenstein (a being created by stitching together random body parts from dead humans) the frankenweb is an unholy mixture of MVC components pulled from different projects, when put together result in an ugly partially functional whole. I think this characterization of Ian's work is really unpleasant, but strangely compelling. I think that this is mainly because of Ian's response:</p>
 <blockquote><p>

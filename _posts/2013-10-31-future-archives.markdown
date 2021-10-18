@@ -19,7 +19,7 @@ tags:
 - skos
 - wikipedia
 - bbc
-- linked data
+- linked-data
 - dbpedia
 - audio
 comments:
@@ -32,6 +32,7 @@ comments:
   content: |
     [&#8230;] are used to annotate, correct and add metadata for search and navigation. Ed Summers has a blog post about this project, making a comment I wholeheartedly agree with: &#8221;… [I]t is the (implied) [&#8230;]
 ---
+
 <p><a href="https://en.wikipedia.org/wiki/File:Magtape1.jpg"><img style="width: 200px; margin-right: 10px; float: left;" src="http://inkdroid.org/images/magtape.jpg" /></a> It's hard to read <a href="https://twitter.com/moustaki">Yves Raimond</a> and <a href="https://twitter.com/tristanf">Tristan Ferne</a>'s paper <a href="http://challenge.semanticweb.org/2013/submissions/swc2013_submission_5.pdf">The BBC World Service Archive Prototype </a> and not imagine a possible future for radio archives, archives on the Web, and archival description in general.</p>
 <p>Actually, it's not just the future, it's also the present, as embodied in the <a href="http://worldservice.prototyping.bbc.co.uk/">BBC World Service Archive</a> prototype itself, where you can search and listen to 45 years of radio, and pitch in by helping describe it if you want.</p>
 <p>As their paper describes, Raimond and Ferne came up with some automated techniques to connect up text about the programs (derived directly from the audio, or indirectly through supplied metadata) to Wikipedia and DBPedia. This resulted in some 20 million RDF assertions, that form the database that the (very polished) web application sits on top of. Registered users can then help augment and correct these assertions. I can only hope that some of these users are actually BBC archivists, who can also help monitor and tune the descriptions provided from the general public.</p>

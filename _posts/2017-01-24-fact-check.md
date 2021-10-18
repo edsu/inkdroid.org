@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Facts as Annotations
-tags: 
+tags:
 - annotation
 - journalism
 - web
 ---
+
 
 You may have noticed back in December that the Washington Post [released] a fact
 checking plugin for Chrome that provides inline context for Trump's tweets.

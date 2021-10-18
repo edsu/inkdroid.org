@@ -30,6 +30,7 @@ comments:
   content: "[...] heeft ze ook nog niet, maar vertelt over de structuur (Archiving
     tweets) : deels CSV, deels JSON, maar die tekst is nogal [...]"
 ---
+
 <p>If you are an active Twitter user you may have <a href="http://blogs.wsj.com/digits/2012/12/19/how-to-download-your-entire-twitter-history-and-laugh-at-how-bad-it-is/?mod=e2tw">heard</a> that you can now download your complete archive of tweets. The functionality is still being rolled out across the millions of accounts, so don't be surprised if you don't see the function yet in your settings.</p>
 <p>The WSJ piece kind of joked about the importance of this move on Twitter's part, which is a bit unfortunate, since it's a pretty important issue. Yes you can use a 3rd party apps for downloading your Twitter data, but it says a lot when a company takes "archiving" seriously enough to offer it as a service to its users.</p>
 <p>If you work in the digital preservation space it's kind of fun to take a look at the way that Twitter makes these personal archives available. Luckily (if you don't have the archive download button yet like me) <a href="http://davewiner.com/">Dave Winer</a> has started <a href="http://threads2.scripting.com/2012/december/uploadYourTwitterArchive">collecting</a> some archives, and making them publicly available for browsing and download off of S3. For example we can look at <a href="http:/twitter.com/sarahebourne">Sarah Bourne's</a> (who tipped me off to Dave's work--thanks Sarah!).  After you've downloaded the ZIP file you get a directory that looks like:</p>

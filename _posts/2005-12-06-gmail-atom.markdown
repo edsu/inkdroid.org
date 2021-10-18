@@ -18,6 +18,7 @@ date_gmt: '2005-12-06 15:56:21 +0000'
 tags: []
 comments: []
 ---
+
 <p>I imagine this is old hat to long time <a href="http://gmail.com">gmail</a> users but I just noticed that my gmail is available via atom...and very easily at that with Mark Pilgrim's <a href="http://feedparser.org/">Universal Feed Parser</a>.</p>
 <pre lang="python">
     import feedparser

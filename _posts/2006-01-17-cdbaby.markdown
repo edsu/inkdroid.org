@@ -18,6 +18,7 @@ date_gmt: '2006-01-17 19:11:29 +0000'
 tags: []
 comments: []
 ---
+
 <p>Thanks to a ping from <a href="http://onebiglibrary.net">Dan</a> I just finished listening to an inteview with David Sivers of  <a href="http://www.cdbaby.com">CDBaby</a> over on <a href="http://www.venturevoice.com/2005/11/vv_show_19_derek_sivers_of_cd.html">Venture Voice</a>. Sivers talks about how being a musician and working briefly in the music industry informed his decision to build CDBaby. </p>
 <p>The interview spans a ton of subjects from what's wrong with the music industry and what to do about it; how being in a circus informs your business acumen; why rejecting venture capital can help you focus on what really matters; and how a lot of heart and hubris can get you really far. Really refreshing (and funny) stuff.</p>
 <p>CDBaby is now the single largest digital catalog in the world, and provides a gateway for independent musicians into distribution chains like <a href="http://www.apple.com/itunes/">iTunes</a>. They started with three people sharing a 56k modem in Woodstock, NY. What a fun story.</p>

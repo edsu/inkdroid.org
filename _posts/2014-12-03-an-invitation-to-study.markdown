@@ -28,6 +28,7 @@ comments:
   content: |
     [&#8230;] http://inkdroid.org/journal/2014/12/03/an-invitation-to-study/ [&#8230;]
 ---
+
 <p><em>These are some brief remarks I prepared for a 5 minute lightning talk at the <a href="http://www.bsos.umd.edu/featuredstory/1219">Ferguson Town Hall meeting</a> at UMD on December 3, 2014.</em></p>
 <p>Thank you for the opportunity to speak here this evening. It is a real privilege. I'd like to tell you a little bit about an <a href="http://mith.umd.edu/miths-ed-summers-discusses-ferguson-twitter-archive/">archive</a> of 13 million Ferguson related tweets we've assembled here at the University of Maryland. You can see a random sampling of some of them up on the screen <a href="https://edsu.github.io/ferguson-tweet-viewer/">here</a>. The 140 characters of text in a tweet only makes up about 2% of the data for each tweet. The other 98% includes metadata such as who sent it, their profile, how many followers they have, what tweet they are replying to, who they are retweeting, when the tweet was sent, (sometimes) where the tweet was sent from, embedded images and video. I'm hoping that I can interest some of you in studying this data.</p>
 <p>I intentionally used the word privilege in my opening sentence to recognize that my ethnicity and my gender enabled me to be here speaking to you this evening. I'd actually like to talk very quickly about about a different set of privileges I have: those of my profession, and as a member of the UMD academic community that we are all a part of:</p>

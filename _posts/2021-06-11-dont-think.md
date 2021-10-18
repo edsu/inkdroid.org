@@ -7,6 +7,7 @@ tags:
 layout: post
 ---
 
+
 As part of some [research] I've been a part of I've recently had the
 opportunity to do a bit of reading and chatting about the special role of
 *theorizing* in research. For some context, Jess, Shawn and I have been

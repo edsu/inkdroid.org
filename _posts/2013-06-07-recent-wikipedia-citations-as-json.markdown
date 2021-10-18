@@ -20,5 +20,6 @@ tags:
 - streaming
 comments: []
 ---
+
 <p>Here is a little webcast about some <a href="http://github.com/edsu/wikicites">work in progress</a> to stream recent citations out of Wikipedia. It uses previous work I did on the <a herf="https://npmjs.org/package/wikichanges">wikichanges</a> Node library. Beware, I say "um" and "uh" a lot while showing you my terminal window. This idea could very well be brain damaged since it pings the Wikipedia API for the diff of each change in selected Wikipedias, to see if it contains one or more citations. On the plus side, it emits the citations as JSON, which is suitable for downstream apps of some dimensions, which I haven't thought much about yet. Get in touch if you have some ideas.</p>
 <p>https://vimeo.com/67893886</p>

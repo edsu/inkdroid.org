@@ -25,6 +25,7 @@ tags:
 - maps
 comments: []
 ---
+
 <p><em>TL;DR -- I created <a href="http://edsu.github.io/wikigeo/">a JavaScript library</a> for getting GeoJSON out of Wikipedia's API in your browser (and Node.js). I also created <a href="http://inkdroid.org/ici/">a little app</a> that uses it to display Wikipedia articles for things near you that need a photograph/image or editorial help.</em></p>
 <hr />
 <p>I probably don't need to tell you how much the state of mapping on the Web has changed in the past few years. <a href="http://www.youtube.com/watch?v=6xG4oFny2Pk">I was there</a>. I can remember trying to get <a href="http://mapserver.org/">MapServer</a> set up in the late 1990s, with limited success. I was there squinting at how <a href="http://en.wikipedia.org/wiki/Adrian_Holovaty">Adrian Holovaty</a> reverse engineered a mapping API out of Google Maps at <a href="http://web.archive.org/web/20060408105215/http://www.chicagocrime.org/map/">chicagocrime.org</a>. I was there when Google released their official API, which I used some, and then they changed their terms of service. I was there in the late 2000s using OpenLayers and TileCache, which were so much more approachable than MapServer was a decade earlier. I'm most definitely not a mapping expert, or even an amateur--but you can't be a Web developer without occasionally needing to dabble, and pretend you are.</p>

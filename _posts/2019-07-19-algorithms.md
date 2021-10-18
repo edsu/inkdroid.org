@@ -2,9 +2,10 @@
 layout: post
 title: Algorithms
 tags:
-- algorithm
+- algorithms
 - sts
 ---
+
 
 *This short post started as a [Twitter thread](https://twitter.com/edsu/status/1152151283362619392) but I thought I'd drop it in here for future reference.*
 

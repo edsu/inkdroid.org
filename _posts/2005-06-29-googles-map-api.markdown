@@ -18,6 +18,7 @@ date_gmt: '2005-06-30 01:58:15 +0000'
 tags: []
 comments: []
 ---
+
 <p><a href="http://web.archive.org/web/20110215085610/http://www.holovaty.com/images/2005-06-18_tribune_article.jpg">Adrian</a> pointed out at the last <a href="http://chipy.org">chipy</a> meeting that a formal API for GoogleMaps was in the works...but I had no idea it was <a href="http://www.google.com/apis/maps/">this</a> close.</p>
 <p>After you've got an authentication key for your site directory, all you need to do to embed a map in your page is include a javascript library source URL directly from google, create a &lt;div&gt; tag with an id (say "map") and add some javascript to your page.</p>
 <pre lang="javascript">

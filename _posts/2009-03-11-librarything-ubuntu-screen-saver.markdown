@@ -31,6 +31,7 @@ comments:
   content: Dear $techlead, the fact that I happened to be on google reader when this
     post came through should not be noted too closely either ;)
 ---
+
 <p>I read about the <a href="http://www.librarything.com/blog/2009/03/librarything-mac-screensaver_11.php">LibraryThing Mac Screensaver</a> and of course wanted the same thing for my Ubuntu workstation at $work. Naturally, I'm supposed to be working on some high-priority tickets on a tight deadline...so I started to work right away on how to do this. Your tax dollars at work, etc...</p>
 <p>I'm sure that there's a much more elegant way of doing this, but I basically created a simple python program <a href="http://web.archive.org/web/20101216223621/http://inkdroid.org/bzr/bin/extract-images">extract-images</a> that will pull image urls out of arbitrary text, suck down the images, and dump them to a directory. This can be combined with cron and the standard GLSlideshow screensaver, which displays a slideshow of images in a particular directory.</p>
 <p>So you just download <a href="http://web.archive.org/web/20101216223621/http://inkdroid.org/bzr/bin/extract-images">extract-images</a>, put it in your path, add a crontab entry like (substituting edsu for your LibraryThing username):</p>

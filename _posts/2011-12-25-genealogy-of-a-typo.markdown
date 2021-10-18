@@ -38,6 +38,7 @@ comments:
     title in brackets) because I've set the Canonical\r\nTitle field in the Common
     Knowledge section:\r\nhttp://www.librarything.com/work/11420163"
 ---
+
 <p>I got a <a href="http://www.amazon.com/gp/product/B005890G8O/">Kindle Touch</a> today for Christmas--thanks Kesa! Admittedly I'm pretty late to this party. As I made ready to purchase my first ebook I hopped over to my GoodReads <a href="http://www.goodreads.com/review/list/5899086?shelf=to-read">to-read</a> list, to pick something out. I scanned  the list quickly, and my eye came to rest on <a href="http://lenz.unl.edu/">Stephen Ramsey</a>'s recent book <a href="http://www.goodreads.com/book/show/11296511-reading-machines">Reading Machines</a>. But I got hung up on something irrelevant: the subtitle was <em>Toward <span style="color: red;">and</span> Algorithmic Criticism</em> instead of <em>Toward <span style="color: red;">an</span> Algorithmic Criticism</em>, the latter of which is clearly correct based on the cover image.</p>
 <p><a href="http://www.goodreads.com/book/show/11296511-reading-machines"><img style="border: thin solid gray;" src="http://inkdroid.org/images/reading-machines/reading-machines-goodreads.png"/></a></p>
 <p>Having recently looked at API services for book data I got curious about how the title appeared on other popular web properties, such as <a href="http://www.amazon.com/Reading-Machines-Algorithmic-Criticism-Humanities/dp/0252078209">Amazon</a>:</p>

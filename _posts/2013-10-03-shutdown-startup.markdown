@@ -19,7 +19,7 @@ tags:
 - dc
 - love
 - crafts
-- silver spring
+- silver-spring
 comments:
 - id: 86589
   author: fblanco3
@@ -30,6 +30,7 @@ comments:
   content: |
     Beautiful tribute.
 ---
+
 <p><a href="http://www.indiegogo.com/projects/freehands-craft-studio--2">TL;DR</a></p>
 <p>At the moment, I don't have a job. The government has been shut down, and with it my job at the Library of Congress. I've had the good fortune to be able to pick up some part time work here and there with a few friends, to help make ends meet. I know I shouldn't say it, but it has actually been kind of rejuvenating to scramble and brainstorm outside of the "permanent" job mentality that I supposedly have. It's sounding pretty unlikely that I will be paid when the Federal Government re-opens, and it's not really even clear at this point when it will re-open. Meanwhile there is a mortgage to pay, mouths to feed, and not a whole lot of wiggle room in our budget, or savings to speak of. But we'll scrape by, like everyone else in the same boat.</p>
 <p>But this post isn't about the shutdown, and it's not really about me. It's about a startup, and it's about my wife Kesa.</p>

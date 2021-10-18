@@ -77,6 +77,7 @@ comments:
   content: |
     <p>[...]  skos as atom [...]</p>
 ---
+
 <p>I'll be the first to admit the tone and content of my <a href="http://inkdroid.org/journal/2009/11/03/alien-vs-predator-www-style/">last post</a> was a bit off kilter. I guess it was pretty clear immediately from the title of the post. Chalk it up to a second night of insomnia; and also to my unrealistic and probably unnecessary goal of bringing the Atom/REST camp in closer alignment with the RDF/LinkedData camp ... at least in my own brain if not on the web.</p>
 <p>So, ever the pragmatist, Ian Davis called my bluff a bit on some of the crazier stuff I said:</p>
 <p><a href="http://twitter.com/iand/status/5434457944"><img src="http://inkdroid.org/images/iand-twitter.png" style="width: 400px;" /></a></p>

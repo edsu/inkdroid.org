@@ -18,7 +18,7 @@ date_gmt: '2011-03-31 13:57:38 +0000'
 tags:
 - rdf
 - archives
-- linkeddata
+- linked-data
 - viaf
 - eac
 - ead
@@ -46,6 +46,7 @@ comments:
     httpRange-14 compliant. I guess it would make sense to rewrite them as foaf:page
     in the final named graph to make things correct.
 ---
+
 <p>A few months ago <a href="http://www.cdlib.org/contact/staff_directory/btingle.html">Brian Tingle</a> <a href="http://www.mail-archive.com/code4lib@listserv.nd.edu/msg09694.html">posted</a> some exciting news that the <a href="http://socialarchive.iath.virginia.edu/">Social Networks and Archival Context</a> (SNAC) project was releasing the data that sits behind their initial <a href="http://socialarchive.iath.virginia.edu/xtf/search">prototype</a>:</p>
 <blockquote><p>
 As a part of our work on the Social Networks and Archival Context Project, the SNAC team is please to release more early results of our ongoing research.</p>

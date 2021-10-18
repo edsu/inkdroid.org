@@ -18,7 +18,7 @@ date_gmt: '2009-11-03 11:24:34 +0000'
 tags:
 - atom
 - semweb
-- linkeddata
+- linked-data
 comments:
 - id: 81552
   author: johnwcowan
@@ -78,10 +78,8 @@ comments:
   date_gmt: '2009-12-23 08:33:38 +0000'
   content: |
     <p>See also DataRSS from Yahoo SearchMonkey folk -</p>
-
     <p>http://web.archive.org/web/20120219171016/http://developer.yahoo.com:80/searchmonkey/smguide/datarss.html
     http://web.archive.org/web/20090131231201/http://developer.yahoo.com:80/searchmonkey/smguide/understand_datarss.html</p>
-
     <p>This uses rdfa. Are you an rdfa optimist?</p>
 - id: 81568
   author: ed
@@ -94,6 +92,7 @@ comments:
     thinking about at the time. Yes, I guess I'm an RDFa optimist -- but ultimately
     I'm an optimist about the RDF data model, and the Web :-)"
 ---
+
 <p><img src="http://inkdroid.org/images/feed.png" style="float: left; margin: 15px; border: none;"/> I finally got around to reading <a href="http://escholarship.org/uc/item/0fv601z8">Web Services for Recovery.gov</a> by <a href="http://www.ischool.berkeley.edu/people/faculty/erikwilde">Erik Wilde</a>, <a href="http://www.ischool.berkeley.edu/people/faculty/erickansa">Eric Kansa</a> and <a href="http://www.ischool.berkeley.edu/people/faculty/raymondyee">Raymond Yee</a>. The authors wrote the report with funding from the <a href="http://www.sunlightfoundation.com/">Sunlight Foundation</a>, who are deeply engaged in improving the way the US Federal Government provides transparent access to its data assets.</p>
 <p>I highly recommend giving it a read if you are interested in web services, REST, Linked Data, and simple things you can do to open up access to data. The practicality of the advice is clearly gleaned from the experience of an actual implementation over at <a href="http://web.archive.org/web/20101101232234/http://recovery.berkeley.edu:80/">recovery.berkeley.edu</a> where they kick the tires on their ideas.</p>
 <p>Erik's <a href="http://dret.typepad.com/dretblog/2009/10/web-services-for-recoverygov.html">blog</a> has a succinct summary of the paper's findings, which for me boils down to:</p>

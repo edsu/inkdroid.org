@@ -53,6 +53,7 @@ comments:
   date_gmt: '2007-04-24 17:50:24 +0000'
   content: I thought it was evident how much more open I wanted them to get :-)
 ---
+
 <p><a href="http://www.google.com/calendar/"><img src="http://www.google.com/calendar/images/calendar_sm2.gif" border="0" align="left" style="margin-right:15px" /></a>So it's been <a href="http://microformats.org/discuss/mail/microformats-discuss/2006-April/thread.html#3661">noted</a> elsewhere that the latest ajaxy application out of google labs (<a href="http://www.google.com/calendar">Google Calendar</a>) lacks support for the <a href="http://microformats.org/wiki/hcalendar">hCalendar</a> microformat.</p>
 <p>Perhaps it's an oversight--but with all the high profile <a href="http://radar.oreilly.com/archives/2006/03/etech_ray_ozzie.html">exposure</a> microformats have been getting lately it's kind of hard to imagine. But people have deadlines and some things just can't make it into the first release--even at Google. The main thing, as Mark Pilgrim says is:</p>
 <blockquote><p>

@@ -21,6 +21,7 @@ tags:
 - sparql
 comments: []
 ---
+
 <p>I'm just in the process of getting my head around <a href="http://www.w3.org/TR/rdf-sparql-query/">SPARQL</a> a bit more. At $work, Clay and I ran up against a situation where we wanted a query that would return a subgraph from an entire SKOS concept scheme for any assertions involving a particular concept URI as the subject. Easy enough right?</p>
 <pre>
   DESCRIBE &lt;http://lcsh.info/sh96010624#concept&gt;

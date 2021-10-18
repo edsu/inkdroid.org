@@ -17,11 +17,12 @@ date: '2012-09-19 13:32:59 +0000'
 date_gmt: '2012-09-19 20:32:59 +0000'
 tags:
 - python
-- digital preservation
-- internet archive
+- digital-preservation
+- internet-archive
 - storage
 comments: []
 ---
+
 <p>Earlier this year I created a little toy webapp called <a href="http://wikitweets.herokuapp.com">wikitweets</a> that uses the <a href="https://dev.twitter.com/docs/api/1.1/post/statuses/filter">Twitter streaming API</a> to identify tweets that reference Wikipedia, which it then displays realtime in your browser. It was basically a fun experiment to kick the tires on NodeJS and <a href="http://socket.io/">SocketIO</a> using a free, single process Heroku instance.</p>
 <p>At the time I <a href="http://lists.wikimedia.org/pipermail/wiki-research-l/2012-April/001982.html">announced</a> the app on the wiki-research-l discussion list to see if anyone was interested in it. Out of the responses I received were ones from <a href="http://lists.wikimedia.org/pipermail/wiki-research-l/2012-April/001985.html">Emilio Rodríguez-Posada</a> and <a href="http://lists.wikimedia.org/pipermail/wiki-research-l/2012-April/001989.html">Taha Yasseri</a> where they asked whether the tweets are archived as they stream by. This struck a chord with me, since I'm a software developer working in the field of "digital preservation". You know that feeling when you suddenly see one of your huge gaping blindspots? Yeah.</p>
 <p>Anyway, some 6 months or so later I finally got around to adding an <a href="https://github.com/edsu/wikitweets/blob/master/app.js#L131">archive function</a> to wikitweets, and I thought it might be worth writing about very quickly. Wikitweets uses the <a href="http://archive.org/help/abouts3.txt">S3 API</a> at Internet Archive to store every 1000 tweets. So you can visit <a href="http://archive.org/details/wikitweets">this page</a> at Internet Archive and download the tweets. Now I don't know how long Internet Archive is going to be around, but I bet it will be longer than inkdroid.org, so it seemed like a logical (and free) safe harbor for the data. </p>

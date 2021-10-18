@@ -18,6 +18,7 @@ date_gmt: '2006-07-02 20:46:09 +0000'
 tags: []
 comments: []
 ---
+
 <p>Here's to making sure that code4libcon 2007 is a <a href="http://www.librarywebchic.net/wordpress/2006/07/01/on-being-the-library-web-chic/">watershed</a> moment for women library technologists. </p>
 <p>code4libcon 2006 in Corvallis wasn't all male, but it was largely...and I can only remember two women speaking to the audience. To a large extent code4libcon was modeled after technology conferences like yapc, pycon, oscon, barcamp, etc--which have much the same sort of ratio. But libraries are different because the majority of people who work in libraries are women. So it was a bit surprising that more women didn't end up at code4libcon 2006.</p>
 <p>2006 did get organized practically overnight with a very small (male) clique in an irc room (that's not always well behaved, but mean well--hey it's IRC). When people actually started signing up and sending in papers to the more formal discussion list I think we were all kind of surprised. I seriously thought we were just going to be hanging out in some random space with free wifi, and it turned into this really successful event.</p>

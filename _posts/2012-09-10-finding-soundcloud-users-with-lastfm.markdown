@@ -18,7 +18,7 @@ date_gmt: '2012-09-10 15:31:52 +0000'
 tags:
 - html
 - javascript
-- apis
+- api
 - lastfm
 - soundcloud
 comments:
@@ -34,6 +34,7 @@ comments:
     can see the soundcloud link there. Obviously this requires the soundcloud metadata
     to be linked rather than implied, but it's certainly more reliable."
 ---
+
 <p>I stumbled upon the lovely <a href="http://developers.soundcloud.com/docs">Soundcloud API</a> this weekend, and before I knew it I was hacking together something that would use the <a href="http://www.last.fm/api">LastFM API</a> to lookup artists that I listen to, and then look to see if they are on Soundcloud. If you haven't seen it before <a href="http://soundcloud.com">Soundcloud</a> is a social networking site for musicians and audiophiles to share tracks. Sometimes artists will share works in progress, which is really fascinating.</p>
 <p>It's kind of amazing what you can accomplish in just HTML and JavaScript these days. It sure makes it easy to deploy, which I did at <a href="http://inkdroid.org/lastcloud/">http://inkdroid.org/lastcloud/</a>. If you want to give it a try enter your LastFM username, or the username of someone you know, like mine: inkdroid. As you can see the hack <em>sorta</em> worked. I say <em>sorta</em> because there seem to be a fair amount of users who are squatting on names of musicians. There also seem to be accounts that are run by fans, pretending to be the artist. Below is a list of seemingly legit Soundcloud accounts I found, and have followed. If you have any ideas for improving the hack, I put the code up on <a href="http://github.com/edsu/lastcloud">GitHub</a>.</p>
 <ul style="float: left; display: inline;">

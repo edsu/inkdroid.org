@@ -7,6 +7,7 @@ tags:
 layout: post
 ---
 
+
 When I was [reviewing] the research literature about [archival appraisal] I
 arrived at Foucault's idea of [governmentality] [@Foucault:2008], or the conduct
 of conduct, as a way of framing how archivists have theorized the practice of

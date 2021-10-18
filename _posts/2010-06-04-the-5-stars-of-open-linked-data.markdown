@@ -16,7 +16,7 @@ wordpress_url: http://inkdroid.org/journal/?p=1987
 date: '2010-06-04 13:44:01 +0000'
 date_gmt: '2010-06-04 20:44:01 +0000'
 tags:
-- linkeddata
+- linked-data
 - egov
 comments:
 - id: 82693
@@ -306,6 +306,7 @@ comments:
   content: |
     [&#8230;] en un panel sobre e-Gobierno. Y lo explico con un esquema gráfico que ya ha venido promoviendo en otras apariciones públicas últimamente: las cinco estrellas hacia los linked data, o los datos enlazados (un poquito más [&#8230;]
 ---
+
 <p>While perusing the <a
 href="http://www.w3.org/2010/06/04-egov-minutes.html">minutes</a> of today's <a
 href="http://www.w3.org/egov/">w3c egov</a> telecon I noticed mention of Tim

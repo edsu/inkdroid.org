@@ -18,4 +18,5 @@ date_gmt: '2005-05-11 12:15:22 +0000'
 tags: []
 comments: []
 ---
+
 <p>Jane Jacobs (the brains behind <a href="http://search.cpan.org/dist/MARC-Detrans">MARC::Detrans</a>) let me know that the CPAN module won the <a href="http://nylink.suny.edu/amtg05.htm">NYLink Achievement Award</a> for "Innovation in Technology" (search for Detrans, it's a big page). Good going Jane, Elizabeth and Stuart!</p>

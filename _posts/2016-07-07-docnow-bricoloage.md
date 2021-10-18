@@ -5,8 +5,8 @@ tags:
 - archives
 - docnow
 - conference
-
 ---
+
 
 *Below are some remarks I made on a panel at Archival Education and Research
 Institute ([AERI]) 2016 about the [Documenting the Now] project.*

@@ -19,9 +19,8 @@ tags:
 - metadata
 - rdf
 - libraries
-- oai-pmh
-- oai-ore
-- digital libraries
+- oaipmh
+- oaiore
 - harvesting
 - web
 - grddl
@@ -38,6 +37,7 @@ comments:
     March 3, 2008 (présentations) | Oai-Ore post Baltimore thoughts (à propos de la
     conférence précitée, sur inkdroid, [...]"
 ---
+
 <p><img src="http://inkdroid.org/images/constellation.png" style="float: left; margin-right: 5px;" title="Herbert's (or was it Carl's) analogy of oai-ore resource maps as constellations in the night sky was perfect" />The recent <a href="http://www.openarchives.org/ore/meetings/hopkins/agenda.htm">OAI-ORE meeting</a> was just up the road in Baltimore, so it was easy for a bunch of us from the Library of Congress to attend. I work on a team at LC that is specifically looking at the role that repositories play at the library; I've implemented OAI-PMH data providers and harvesters, and in the past couple of years I've gotten increasingly interested in semantic web technologies -- so OAI-ORE is of particular interest to me. I've commented a bit about OAI-ORE on <a href="http://inkdroid.org/journal/2008/02/22/oai-ore-and-the-shadow-web/">here</a> <a href="http://inkdroid.org/journal/2007/11/02/good-ore/">before</a>, but I figure it can't hurt to follow in my <a href="http://onebiglibrary.net/story/the-cranky-librarians-guide-to-oai-ore">coworker's footsteps</a> and summarize my thoughts after the meeting.</p>
 <p><em>(BTW, above is an image of some constellations I nabbed off of <a href="http://commons.wikimedia.org/wiki/Image:Tri%C3%A1ngulo_de_verano.png">wikipedia</a>. I included it here because the repeated analogy (during the meeting) of OAI-ORE resource maps as constellations was really compelling -- and quite poetic.)</em></p>
 <h3>The Vocabulary</h3>

@@ -18,6 +18,7 @@ date_gmt: '2005-08-11 02:53:07 +0000'
 tags: []
 comments: []
 ---
+
 <p>I mentioned Pascal's Triangle in the previous post, and after typing in the Oz code decided to make a Pascal's Triangle pretty printer in python. </p>
 <pre lang="python">
 from sys import argv

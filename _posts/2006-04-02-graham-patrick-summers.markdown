@@ -68,6 +68,7 @@ comments:
   date_gmt: '2006-04-14 03:23:01 +0000'
   content: He's beautiful!  Congratulations to your family.
 ---
+
 <div><img src="http://static.flickr.com/37/122218006_b789d5cfae_m.jpg" style="margin-right: 15px;" /></p>
 <p>Graham Patrick Summers<br />
 Born: April 2, 2006 in McHenry, IL at 11:51 AM <br />

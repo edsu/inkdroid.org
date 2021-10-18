@@ -17,9 +17,9 @@ date: '2010-08-12 15:16:19 +0000'
 date_gmt: '2010-08-12 22:16:19 +0000'
 tags:
 - archives
-- xml schema
+- xml-schema
 - people
-- authorities
+- authority-control
 comments:
 - id: 83033
   author: 'SNAC: The Social Networks and Archival Context Project &laquo; Walker Sampson'
@@ -50,6 +50,7 @@ comments:
     rdfa and existing rdf vocabularies to express the same XML data in HTML. Perhaps
     an experiment is in order?
 ---
+
 <p>On <a href="http://matienzo.org/">Mark's</a> advice I attended the <a href="http://gslis.simmons.edu/blogs/jobs/2010/06/01/eac-cpf-moving-forward-with-authority-nara/">Moving Forward With Authority</a> Society of American Archivists pre-conference, which focused on the role of authority control in archival descriptions. There were lots of presentations/discussions over the day, but by and large most of them revolved around the recent release of the Encoded Archival Context: Corporate Bodies, Persons and Families (<a href="http://eac.staatsbibliothek-berlin.de/">EAC-CPF</a>) XML schema. Work on the EAC-CPF began in 2001 with the <a href="http://www.library.yale.edu/eac/torontotenets.htm">Toronto Tenets</a>, which articulated the need for encoding not only the contents of archival finding aids (w/ <a href="http://www.loc.gov/ead/">Encoded Archival Description</a>), but also the context (people, families, organizations) that the finding aid referenced:</p>
 <blockquote><p>
 Archival context information consists of information describing the circumstances under which records (defined broadly here to include personal papers and records of organizations) have been created and used.  This context includes the identification and characteristics of the persons, organizations, and families who have been the creators, users, or subjects of records, as well as the relationships amongst them.<br />

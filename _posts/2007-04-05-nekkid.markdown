@@ -25,4 +25,5 @@ comments:
   date_gmt: '2007-04-05 13:57:41 +0000'
   content: Lucky  me, who has nothing to remove and nothing to add back.
 ---
+
 <p>Yeah, today is <a title="CSS Naked Day" href="http://naked.dustindiaz.com/">CSS Naked Day</a> I just hope I remember to re-enable CSS tomorrow :-)</p>

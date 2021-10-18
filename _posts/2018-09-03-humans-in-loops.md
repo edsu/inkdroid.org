@@ -7,6 +7,7 @@ tags:
 - algorithms
 ---
 
+
 This is just a quick note about another excellent piece from Nick Seaver on why
 it's useful, and necessary, to study algorithms ethnographically or
 anthropologically.

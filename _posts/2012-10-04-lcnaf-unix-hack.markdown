@@ -17,7 +17,9 @@ date: '2012-10-04 20:02:10 +0000'
 date_gmt: '2012-10-05 03:02:10 +0000'
 tags:
 - statistics
-- unix. lcnaf
+- unix
+- lcnaf
+- authority-control
 comments:
 - id: 85468
   author: dr0i
@@ -28,6 +30,7 @@ comments:
   content: 'Inspired by your visualisation I did this with our 16 Mio library records:
     https://wiki1.hbz-nrw.de/display/SEM/2012/10/10/Issues-per-year+diagram'
 ---
+
 <p>I was in a <a href="http://socialarchive.iath.virginia.edu/NAAC_meeting2_agenda.html">meeting</a> today listening to a presentation about the Library of Congress Name Authority File and I got it into my head to see if I could quickly graph record creation by year. Part of this might've been prompted by sitting next to Kevin Ford, who was multi-tasking by what looked like loading some MARC data into id.loc.gov. I imagine this isn't perfect, but I thought it was kind of fun hack that demonstrates what you can get away with on the command line with some open data:</p>
 <pre lang="bash">
   curl http://id.loc.gov/static/data/authoritiesnames.nt.skos.gz \

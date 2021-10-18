@@ -7,6 +7,7 @@ tags:
 - curation
 ---
 
+
 We started the semester in my [Digital Curation] class by engaging in a little
 exercise I called [Mystery File]. The exercise was ungraded and was designed to
 simply get the students thinking about some of the issues we would be exploring

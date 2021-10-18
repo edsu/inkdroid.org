@@ -7,6 +7,7 @@ tags:
 - mith
 ---
 
+
 For the next few weeks I'm helping out in Matt Kirschenbaum's [Critical Topics
 in Digital
 Studies](http://mith.umd.edu/mith-announces-first-courses-ever-spring-2017/)

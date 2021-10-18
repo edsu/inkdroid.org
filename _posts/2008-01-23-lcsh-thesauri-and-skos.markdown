@@ -16,7 +16,7 @@ wordpress_url: http://inkdroid.org/journal/2008/01/23/lcsh-thesauri-and-skos/
 date: '2008-01-23 07:46:29 +0000'
 date_gmt: '2008-01-23 14:46:29 +0000'
 tags:
-- skos semweb rdf lcsh metadata libraries thesarui
+- skos-semweb-rdf-lcsh-metadata-libraries-thesarui
 comments:
 - id: 52231
   author: John Cowan
@@ -132,6 +132,7 @@ comments:
   content: |
     <p>[...] lcsh, thesauri and skos [...]</p>
 ---
+
 <p><a href="http://www.ibiblio.org/fred2.0/wordpress/?p=20">Simon Spero</a> has an interesting post on why LCSH cannot be considered a thesaurus. At $work I've been working on mapping <a href="http://www.loc.gov/marc/authority/">LCSH/MARC</a> to <a href="http://www.w3.org/2004/02/skos/">SKOS</a>, so Simon's efforts in both collecting and analyzing LCSH authority data have been extremely valuable. In particular <a href="http://lists.w3.org/Archives/Public/public-swd-wg/2007Dec/0076.html">Simon</a> and <a href="http://lists.w3.org/Archives/Public/public-swd-wg/2007Dec/0081.html">Leonard Willpower's</a> involvement with SKOS alerted me relatively early on to some of the problems that lie in store when thinking of LCSH in terms of a thesaurus.</p>
 <p>The problem stems from very specific (standardized) notions of what thesauri are. <a href="http://www.niso.org/standards/resources/Z39-19-2005.pdf">Z39-19-2005</a> defines <em>broader</em> relationships in thesauri as being transitive. So if <em>a</em> has the broader term <em>b</em>, and <em>b</em> has the broader term <em>c,</em> then you can infer <em>a</em> has the broader term <em>c</em>.</p>
 <p>Now consider the broader relationships (BT for those of you w/ the red books handy, or care to browse <a href="http://authorities.loc.gov">authorities.loc.gov</a> from the comfort of your chair) from the heading "Non-alcoholic cocktails":</p>

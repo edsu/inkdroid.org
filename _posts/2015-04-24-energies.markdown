@@ -17,10 +17,11 @@ date: '2015-04-24 13:14:35 +0000'
 date_gmt: '2015-04-24 20:14:35 +0000'
 tags:
 - pragmatism
-- John Dewey
+- john-dewey
 - quotes
 comments: []
 ---
+
 <blockquote>
 <p>Human nature exists and operates in an environment. And it is not "in" that environment as coins are in a box, but as a plant is in the sunlight and soil. It is of them, continuous with their energies, dependent upon their support, capable of increase only as it utilizes them, and as it gradually rebuilds from their crude indifference an environment genially civilized.</p>
 <p>

@@ -26,6 +26,7 @@ comments:
   content: |
     [&#8230;] day that what we choose to preserve is only a very small &#8220;sliver of a sliver&#8221; as stated so eloquently by South African archivist Verne [&#8230;]
 ---
+
 <p>Just a quick note for my future self, that Verne Harris' notion of the "archival sliver" seems like a great sanity inducing antidote to the notion of <a href="http://www2.archivists.org/glossary/terms/t/total-archives">total archives</a>.</p>
 <blockquote>
 <p>The archival record is best understood as a sliver of a sliver of a sliver of a window into process. It is a fragile thing, an enchanted thing, defined not by its connection to "reality", but by its open-ended layerings of construction and reconstruction.</p>

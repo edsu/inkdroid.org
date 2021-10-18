@@ -2,11 +2,12 @@
 layout: post
 title: Baltimore Stories
 tags:
-- Baltimore
-- Social Media
-- Twitter
-- BlackLivesMatter
+- baltimore
+- social-media
+- twitter
+- blacklivesmatter
 ---
+
 
 <a href="https://arhusynergy.umd.edu/programs/baltimore-stories-narratives-and-life-american-city"><img src="https://arhusynergy.umd.edu/sites/arhusynergy.umd.edu/files/styles/grid/public/baltimore_stories_rectangle.jpg" style="float: left; margin-right: 10px;" class="img-responsive"></a>
 

@@ -18,6 +18,7 @@ date_gmt: '2006-02-16 15:17:02 +0000'
 tags: []
 comments: []
 ---
+
 <p>So the first day of "the conference" was a lot of fun. It is just great to see all these people who care about the same stuff in the same place. The lightning talks and the breakout sessions built in some breathing space between the presentations which worked pretty well I thought. Memorable moments for me included:</p>
 <p>- hearing people in the audience shout "OPA!" like we were in Greek Town during Dan's "Connecting Everything to Everything" talk.<br />
 - being able to ask Jeff Young to do a lightning talk about <a href="http://info-uri.info/">Info URIs</a> and then hear him do it later. (jyoung++)<br />

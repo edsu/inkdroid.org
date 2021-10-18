@@ -17,9 +17,9 @@ date: '2014-02-26 10:44:23 +0000'
 date_gmt: '2014-02-26 17:44:23 +0000'
 tags:
 - oclc
-- linked data
+- linked-data
 - isbn
-- json-ld
+- jsonld
 comments:
 - id: 86844
   author: sschindehette
@@ -29,9 +29,7 @@ comments:
   date_gmt: '2014-02-26 20:26:16 +0000'
   content: |
     Thank you for the suggestions.  We are already working on some of the ideas and we will add the others to our list.
-
     Just a note on retrieving Work URIs - Your screen shot of xISBN results lists the OWI so you could have taken the value from the first step.
-
     The good thing about your examples is that they show you can come at it from a number of angles.  Knowing any one of the xID identifiers (ISBN, OCN or LCCN) will allow you to get the Work identifier.  Having the Work URI released in the WorldCat linked data will make this step even easier.
 - id: 86846
   author: Can you please remove &#8216;meaningful punctuation&#8217; from field contents,
@@ -68,6 +66,7 @@ comments:
   content: |
     <p>I've flipped the blog post back to the original content (2 xID lookups) but with the correct JSON response this time. Hopefully xID can be updated to return the OCLC Work Identifier consistently. Thanks very much Stephan Schindehette and Alf Eaton for noticing the inconsistencies.</p>
 ---
+
 <p>The news about OCLC's Linked Data service <a href="http://dataliberate.com/2014/02/oclc-preview-194-million-open-bibliographic-work-descriptions/">circulated</a> <a href="http://hangingtogether.org/?p=3614">widely</a> on Twitter yesterday. I've never been a big OCLC cheerleader, but the news really hit home for me. I've been writing in my rambling way about <a href="http://inkdroid.org/journal/tag/linked-data/">Linked Data</a> here for about <a href="http://inkdroid.org/journal/2008/01/04/following-your-nose-to-the-web-of-data/">6 years</a>. Of course there are many others who've been at it much longer than I have ... and in a way I think librarians and archivists feel a kinship with the effort because it is cooked into the DNA of how we think about the Web as an information space.</p>
 <h2>Like Button</h2>
 <p>This new OCLC service struck me as an excellent development for the library Web community for a few reasons, that I thought I would quickly jot down:</p>

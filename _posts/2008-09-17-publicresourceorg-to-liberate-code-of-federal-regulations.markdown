@@ -29,6 +29,7 @@ comments:
   content: |
     <p>Man, Malamud rocks. The GPO should not be a revenue-generating, or even self-sustaining, arm of the goverment.</p>
 ---
+
 <p><a href="http://public.resource.org/gpo.gov"><img src="http://inkdroid.org/images/public-resource-org.png" style="border: none; float: right;" /></a></p>
 <p>good news via the <a href="http://groups.yahoo.com/group/govtrack/message/629">govtrack mailing list</a></p>
 <blockquote><p>

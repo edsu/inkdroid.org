@@ -21,6 +21,7 @@ tags:
 - congressedits
 comments: []
 ---
+
 <blockquote class="twitter-tweet" lang="en">
 <p>Senate Intelligence Committee report on CIA torture Wikipedia article edited anonymously from US Senate <a href="http://t.co/Bj4q8Naed1">http://t.co/Bj4q8Naed1</a></p>
 <p>&mdash; congress-edits (@congressedits) <a href="https://twitter.com/congressedits/status/542441545002004481">December 9, 2014</a></p></blockquote>

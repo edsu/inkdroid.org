@@ -18,7 +18,7 @@ date_gmt: '2013-06-27 14:22:28 +0000'
 tags:
 - health
 - cancer
-- open access
+- open-access
 comments:
 - id: 86191
   author: "@atomotic"
@@ -30,6 +30,7 @@ comments:
     artist suffering brain cancer, a year ago published online its clinical data to
     find a cure for the disease."
 ---
+
 <p>I <a href="http://inkdroid.org/journal/2013/06/21/open-science-champions-of-change/">wrote</a> briefly about the Open Science Champions of Change event last week, but almost a week later the impassioned message that <a href="https://twitter.com/KathyGiusti">Kathy Giusti</a> delivered is still with me. Giusti is the Founder and Chief Executive Officer of the Multiple Myeloma Research Foundation (MMRF), and is herself battling the fatal disease. In her introduction, and later during the panel discussion, she made a strong case for patients to be able to opt-in to open access data sharing. I thought I'd point to these two moments in the 2 hour video stream, and transcribe what she said:</p>
 <p>http://www.youtube.com/watch?v=a26cEwbyMGQ#t=1h15m50s</p>
 <blockquote><p>

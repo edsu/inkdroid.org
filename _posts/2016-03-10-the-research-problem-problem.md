@@ -3,6 +3,7 @@ layout: post
 title: The Research Problem Problem
 ---
 
+
 My [advisor] recently clued me in to a very short editorial [@Hernon:2007] about
 how to construct an effective research problem statement.
 

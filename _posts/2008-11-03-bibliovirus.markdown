@@ -52,6 +52,7 @@ comments:
     their motives and the negative viral effects of the policy as it is proposed to
     be [...]"
 ---
+
 <p><a href="http://en.wikipedia.org/wiki/Image:Influenza_virus.jpg"><img src="http://inkdroid.org/images/flu.jpg" style="float: left; margin-right: 10px; border: none;" /></a></p>
 <p>Terry's <a href="http://oregonstate.edu/~reeset/blog/archives/574">analysis</a> of the proposed changes to OCLC's record policy is essential reading. I'm really concerned that these 996 fields will slip somewhat unnoticed into data that I use.</p>
 <blockquote><p>

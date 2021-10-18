@@ -3,6 +3,7 @@ title: Fuzzy
 layout: post
 ---
 
+
 It's pretty weird to watch your eyesight dim. Over the past 6 months or so I've
 noticed my eyesight degrading surprisingly fast. I learned a few months ago
 that I've developed cataracts in both eyes. My right eye is significantly

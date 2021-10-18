@@ -16,7 +16,7 @@ wordpress_url: http://inkdroid.org/journal/?p=3603
 date: '2011-08-06 22:21:09 +0000'
 date_gmt: '2011-08-07 05:21:09 +0000'
 tags:
-- web services
+- web-services
 - rdio
 - spotify
 - music
@@ -38,6 +38,7 @@ comments:
   content: |
     [&#8230;] more? Ed Summers did his own fascinating deep-dive into Spotify and Rdio uses top album lists from Alf Eaton&rsquo;s Album of the Year list [&#8230;]
 ---
+
 <p>I've recently started listening to streamed music a bit more on <a href="http://rdio.com">Rdio</a> right around when <a href="http://spotify.com">Spotify</a> launched in the US. I noticed that some albums that I might want to listen to weren't available for streaming on Rdio, so I got it into my head that I'd like to compare the coverage of Rdio and Spotify--but I wasn't sure what albums to check. Earlier this week I remembered that since 2007 <a href="http://twitter.com/invisiblecomma">Alf Eaton</a> has put together <a href="http://aoty.hubmed.org">Albums of the Year (AOTY)</a> lists, where he has compiled the top albums of the year from a variety of sources. I think Alf's tastes tend a bit toward independent music, which suits me fine because that's the kind of stuff I listen to. So ...</p>
 <p>The AOTY HTML is eminently readable (thanks Alf), so I wrote a <a href="https://github.com/edsu/aotycmp/blob/master/aoty.py">scraper</a> to pull down the albums and store it as <a href="https://raw.github.com/edsu/aotycmp/master/aoty.json">a JSON file</a>. With this in hand I was able to use the Rdio and Spotify web services to look up the albums, and record whether it was found, and whether it was streamable in the United States, which I saved off as <a href="https://raw.github.com/edsu/aotycmp/master/aoty-cmp.json">another JSON file</a>. So, of the 7,406 unique albums on AOTY, <strike>60% of them were available in Spotify, and 46% in Rdio</strike> 32% of them were available on Spotify, and 46% on Rdio (the strikeout is because of a bug that Alf spotted in the Spotify lookup code). I put the data in a <a href="http://www.google.com/fusiontables/DataSource?dsrcid=1256513">public Fusion Table</a> if you want to look at the results. If you notice anomalies please let me know. And speaking of anomalies...</p>
 <h2>Caveat Lector!</h2>

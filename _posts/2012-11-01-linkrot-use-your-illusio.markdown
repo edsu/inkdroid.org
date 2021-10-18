@@ -18,7 +18,7 @@ date_gmt: '2012-11-01 15:01:04 +0000'
 tags:
 - url
 - linkrot
-- terms of service
+- terms-of-service
 comments:
 - id: 85480
   author: google.com/accounts/o8&hellip;
@@ -44,6 +44,7 @@ comments:
     of application that is concerned with the longevity of scholarly publishing on
     the Web?
 ---
+
 <p>Mike Giarlo <a href="http://www.personal.psu.edu/mjg36/blogs/2012/10/understanding-eg-dois-for-data-sets.html">wrote a bit</a> last week about the issues of citing datasets on the Web with <a href="https://en.wikipedia.org/wiki/Digital_object_identifier">Digital Object Identifiers (DOI)</a>. It's a really nice, concise characterization of why libraries and publishers have promoted and used the DOI, and <em>indirect identifiers</em> more generally. Mike defines indirect identifiers as</p>
 <blockquote><p>
 ... identifiers that point at and resolve to other identifiers.

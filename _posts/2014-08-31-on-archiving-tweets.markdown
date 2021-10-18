@@ -28,21 +28,13 @@ comments:
   date_gmt: '2014-09-03 16:53:53 +0000'
   content: |
     TOSes already carry far much more power than they ought to, adding more is not a good idea.
-
     You must remember that copyright is really just a state imposed monopoly, and as such it works differently around the world.   Just because the Twitter TOS requires us to license or even assign our copyright, even after we have assigned our copyright to Twitter, we Canadians retain our moral rights under law, <em>which gives <b>us</b> a say in what <b>you</b> do with it.</em>
-
     I very strongly disagree with your conclusion that:
-
     <blockquote>...(the research community) need to manage access to this data so that it’s not just out there for anyone to use..."</blockquote>
-
     The data in archives needs to be OPEN data.  Why on earth should institutional archives be able to store my data, and what entitles researchers use my data, while preventing others &mdash; including <em>me</em> &mdash; from having the same access?
-
     Certainly there are privacy issues, but rather than taking the paternalistic view that researchers (or worse, <em>institutions</em>) are somehow better equipped (<em>morally? ethically? intellectually?</em>) than the public to manage <em>our</em> personal data &mdash; presumably because most of the public continues to be ignorant of the serious consequences of private information made public &mdash; why not help educate people instead?
-
     If more people understood privacy issues, it would be easier to deal with breaches or concerns.
-
     Despite legal idiocy, no one has the "right to be forgotten."  Setting aside the problems of doublespeak and thoughtcrime inherent in such a dangerous legal precedent, the fact remains: <b>the only way privacy can be protected is by keeping private information private</b>.
-
     People will continue to be deluded into believing Twitter or Facebook privacy settings will make it "private," so long as credence is given to the fairy tale that privacy can be magically restored after publication.  <b>Instead help people understand anything they post on the Internet can never again be private because the Internet is a public space.</b>.
 - id: 87161
   author: ed
@@ -52,27 +44,18 @@ comments:
   date_gmt: '2014-09-03 17:33:18 +0000'
   content: |
     <p>Thanks for your comment. I really sympathize with your position. Actually, you've channeled my inner voice on this matter pretty well :-)</p>
-
     <p>It's a bit of a gray area, but I believe <a href="https://twitter.com/tos" rel="nofollow">Twitter's ToS</a> do not claim copyright over your tweets:</p>
-
     <blockquote>
       <p>Twitter has an evolving set of rules for how ecosystem partners can interact with your Content. These rules exist to enable an open ecosystem with your rights in mind. But what’s yours is yours – you own your Content (and your photos are part of that Content).</p>
     </blockquote>
-
     <p>I think it's a gray area because even though Twitter does not claim to own your content, they also don't say whether it is ownable. I guess whether a tweet can be copyrighted is open for debate, at least in some circles. Do a Google search on "is a tweet copyrightable" and get lost for a while :-)</p>
-
     <p>Be that as it may, I think you are spot on in saying that users of social media need to understand that they should be very careful about the personal data that they put "into the cloud". It is something I talk to my kids about it, and I'm sure it's a familiar conversation everywhere. So a new generation of more savvy social media users aka "the public" will soon take center stage.</p>
-
     <p>One other thing to keep in mind is that traditionally, when archives are given collections, there is normally a <a href="http://www2.archivists.org/publications/brochures/deeds-of-gift" rel="nofollow">deed of gift</a> that stipulates certain conditions under which the content can be used. Sometimes these deeds restrict access to particular content, or require approval from the record creators, or keep the content closed for a period of time. These deeds of gift can vary from collection to collection. For example <a href="http://blogs.loc.gov/loc/files/2010/04/LOC-Twitter.pdf" rel="nofollow">here</a> is the deed of gift of the Twitter data to the Library of Congress. Not all information in archives is public. I personally think archives that make sharing information publicly on the Web a priority will be the ones that thrive. One needs to look no further than the Wikipedia success story to see that.</p>
-
     <p>Now in the case of my particular collection of Ferguson tweets, I used Twitter's API to generate the dataset. Yes, it was all information put on the public Web by users. But if I am going to be a responsible actor I should try to at least abide by the ToS for the API should I. However I also have responsibilities as an archivist, in particular the <a href="http://www2.archivists.org/statements/saa-core-values-statement-and-code-of-ethics" rel="nofollow">SAA Code of Ethics</a> which says:</p>
-
     <blockquote>
       <p>Archivists promote and provide the widest possible accessibility of materials, consistent with any mandatory access restrictions, such as public statute, donor contract, business/institutional privacy, or personal privacy. Although access may be limited in some instances, archivists seek to promote open access and use when possible. Access to records is essential in personal, academic, business, and government settings, and use of records should be both welcomed and actively promoted. Even individuals who do not directly use archival materials benefit indirectly from research, public programs, and other forms of archival use, including the symbolic value of knowing that such records exist and can be accessed when needed.</p>
     </blockquote>
-
     <p>I am hopeful that we will see emerging consensus in the archival community about how to balance the needs of businesses and their ToS, the rights of individuals who put content into the public space of the Web, and the needs of researchers who would like to use these collections.</p>
-
     <p>I strongly sympathize with your main point that archives need to focus and give preference to open content. If the archival profession is to continue in its current form I think it needs to get its donors thinking in terms of Creative Commons license, and how their content can be made part of the Web, when the time comes.</p>
 - id: 87163
   author: Archiving the web during the conflict and protest in Ferguson, MO | Learn
@@ -100,6 +83,7 @@ comments:
   content: |
     [&#8230;] On Archiving Tweets [&#8230;]
 ---
+
 <p><img src="http://inkdroid.org/images/webpresmed/package.png" style="width: 200px; float: left; margin-right: 10px;" /></p>
 <p>After my last <a href="http://inkdroid.org/journal/2014/08/30/a-ferguson-twitter-archive/">post</a> about collecting 13 million Ferguson tweets <a href="http://twitter.com/liblaura">Laura Wrubel</a> from George Washington University's <a href="http://social-feed-manager.readthedocs.org/">Social Feed Manager</a> project <a href="https://twitter.com/liblaura/status/505925215852191745">recommended</a> looking at how <a href="http://twitter.com/vphill">Mark Phillips</a> made his <a href="http://digital.library.unt.edu/ark:/67531/metadc304853/m1/">Yes All Women</a> collection of tweets available in the <a href="http://digital.library.unt.edu/">University of North Texas Digital Library</a>. <em>By the way, both are awesome projects to check out if you are interested in how access informs digital preservation.</em></p>
 <p>If you take a look you'll see that only the Twitter ids are listed in the data that you can download. The full metadata that Mark collected (with <a href="http://github.com/edsu/twarc">twarc</a> incidentally) doesn't appear to be there. Laura knows from her work on the <a href="http://social-feed-manager.readthedocs.org/">Social Feed Manager</a> that it is fairly common practice in the research community to only openly distribute lists of Tweet ids instead of the raw data. I believe this is done out of concern for Twitter's <a href="https://dev.twitter.com/terms/api-terms">terms of service</a> (1.4.A):</p>

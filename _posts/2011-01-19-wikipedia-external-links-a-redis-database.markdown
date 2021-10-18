@@ -22,6 +22,7 @@ tags:
 - redis
 comments: []
 ---
+
 <p>As part of my continued meandering <a href="https://github.com/edsu/linkypedia/wiki/linkypedia-v2">linkypedia v2</a> experiments I created a Redis database of high level statistics about host names and top-level-domain names in external links from Wikipedia articles. <a href="http://web.archive.org/web/20110201040356/http://tom.opiumfield.com:80/">Tom Morris</a> happened to <a href="http://twitter.com/tommorris/status/27717927000088576">mention</a> he has been loading the external links as well (thanks <a href="http://twitter.com/invisiblecomma/status/27735169200824321">Alf</a>), so I thought I'd make the <a href="http://inkdroid.org/data/wikipedia-extlinks.rdb" rel="nofollow">redis database dump</a> available to anyone that is interested in looking at it. If you want to give it a whirl try this out:</p>
 <pre>
 % wget http://inkdroid.org/data/wikipedia-extlinks.rdb

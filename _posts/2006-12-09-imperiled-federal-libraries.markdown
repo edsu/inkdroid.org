@@ -18,6 +18,7 @@ date_gmt: '2006-12-09 12:43:05 +0000'
 tags: []
 comments: []
 ---
+
 <p>Tim Reiterman has a good <a href="http://web.archive.org/web/20070124095318/http://www.latimes.com:80/news/nationworld/politics/la-na-libraries8dec08,0,5849200.story?">article</a> about imperiled federal libraries, and their collections...some of which are already ending up in dumpsters.</p>
 <blockquote><p>
 I think we are living in a world of digitized information...In the end there will be better access. </p>

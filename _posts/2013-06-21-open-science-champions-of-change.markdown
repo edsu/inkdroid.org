@@ -20,6 +20,7 @@ tags:
 - politics
 comments: []
 ---
+
 <p>I had the opportunity to go the White House yesterday to attend the Open Science <a href="http://www.whitehouse.gov/champions">Champions of Change</a> award ceremony. I'm not sure why I was invited, perhaps because I <a href="https://docs.google.com/document/d/1U5v_gKvLPwUU8xdORKMhq6f6EZAoCU8bq3RwAa47l2c/edit">nominated</a> Aaron Swartz for it, and happen to be local. Unfortunately, Aaron didn't win the award. I guess it would've been sad to award it to him posthumously. But it's a sad story. Whatever the reason, I was sure honored to be there. </p>
 <p>It was just amazing to see some of my heroes like <a href="http://en.wikipedia.org/wiki/Paul_Ginsparg">Paul Ginsparg</a> (arXiv), <a href="http://en.wikipedia.org/wiki/David_J._Lipman">David Lipman</a> (PubMed, Genbank) and <a href="http://en.wikipedia.org/wiki/Jeremiah_P._Ostriker">Jeremiah Ostriker</a> (Sloan Digital Sky Survey) in the same room, and on a panel where they could share ideas about the work they've done--and what remains to be done. The event was live streamed and is now available on the White House Youtube channel. The full list of the other amazing recipients and their bios is available <a href="http://www.whitehouse.gov/sites/default/files/microsites/ostp/openscience_release_6-18-13.pdf">here</a>.</p>
 <p>http://www.youtube.com/watch?v=a26cEwbyMGQ</p>

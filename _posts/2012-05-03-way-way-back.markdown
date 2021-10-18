@@ -18,7 +18,7 @@ date_gmt: '2012-05-03 16:04:09 +0000'
 tags:
 - http
 - xml
-- internet archive
+- internet-archive
 - wayback
 - memento
 comments:
@@ -112,6 +112,7 @@ comments:
     making things more consistent with other Wayback deployments. Specifically, the
     API calls will look like this once we are live:\r\n\r\nwww.webarchive.org.uk/wayback/archive/xmlquery.jsp?url=http://www.bl.uk/"
 ---
+
 <p>For some experimental work I've been talking about with <a href="http://twitter.com/nullhandle">Nicholas Taylor</a> (his idea, which he or I will write about later if it pans out) I've gotten interested in programmatic ways of seeing when a URL is available in a <a href="http://en.wikipedia.org/wiki/Web_archiving">web archive</a>. Of course there is the <a href="http://archive.org">Internet Archive</a>'s collection; but what isn't as widely known perhaps is that web archiving is going on around the world at a smaller scale, often using similar software, and often under the auspices of the <a href="http://web.archive.org/web/20120831153724/http://netpreserve.org:80/about/index.php">International Internet Preservation Consortium</a>.</p>
 <p>Nicholas pointed me at some <a href="http://code.google.com/p/memento-server/source/browse/trunk/proxies/<br />
 ">work</a> around Memento, which provides a proxy-like API in front of some web archives. If you aren't already familiar with it, <a href="http://www.mementoweb.org/guide/quick-intro/">Memento</a> is some machinery, or a REST API for deterimining when a given URL is available in a Web Archive--which is pretty useful. Of course, like many standardization efforts it relies on people actually implementing it. For Web Architecture folks, the core idea in Memento is pretty simple; but I think its core simplicity may be obscured from software developers who need to fully digest the <a href="http://www.mementoweb.org/guide/rfc/ID/">spec</a> in order to say they "do" Memento.</p>

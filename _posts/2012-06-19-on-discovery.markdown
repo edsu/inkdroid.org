@@ -18,7 +18,7 @@ date_gmt: '2012-06-19 20:47:48 +0000'
 tags:
 - cataloging
 - history
-- abraham lincoln
+- abraham-lincoln
 comments:
 - id: 85413
   author: pogonippy
@@ -61,6 +61,7 @@ comments:
     all the discovery has been pre-...&#8221; Which I also agree with, archives are
     are places to explore and discover and celebrating [...]"
 ---
+
 <p>There's an interesting <a href="http://www.theatlantic.com/technology/archive/12/06/nota-bene-if-you-discover-something-in-an-archive-its-not-a-discovery/258538/">story</a> over at The Atlantic which discusses the important role that cataloging and archival description play in historical research. The example is a recently discovered report to the Surgeon General from <a href="http://en.wikipedia.org/wiki/Charles_Leale">Charles Leale</a> about his treatment of Abraham Lincoln after he was shot. A few weeks ago a researcher named Helen Papaioannou discovered the report while combing a collection of correspondence to the Surgeon General looking for materials related to Lincoln for a project at the <a href="http://en.wikipedia.org/wiki/Abraham_Lincoln_Presidential_Library_and_Museum">Abraham Lincoln Presidential Library and Museum</a>. The Atlantic piece boldly declares in its title:</p>
 <blockquote><p>
 If You 'Discover' Something in an Archive, It's Not a Discovery.

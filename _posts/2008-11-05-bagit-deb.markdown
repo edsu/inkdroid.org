@@ -21,6 +21,7 @@ tags:
 - linux
 comments: []
 ---
+
 <p>I'm just now (OK I'm slow) marveling at how similar <a href="http://purl.oclc.org/net/bagit">BagIt</a> turned out to be to the <a href="http://en.wikipedia.org/wiki/Debian_package">Debian Package Format</a>.  Given <a href="http://andy.boyko.net/">some</a> of the <a href="http://dot.ucop.edu/home/jak/biography.html">folks</a> involved, this synchronicity isn't too surprising.</p>
 <p>Both .deb and BagIt use a directory 'data' for bundling the files in the package (well .deb has it as a compressed file data.tar.gz). Both have md5sum-style checksum files for stating the fixity values of said files. Both have simple <a href="ftp://ftp.isi.edu/in-notes/rfc2822.txt">rfc2822</a>-style text files for expressing metadata. Both have files that contain the version number of the packaging format. One nice thing that deb has which BagIt intentionally eschewed was a serialization format. But no matter.</p>
 <p>At LC we (a.k.a. coding machine <a href="http://www.dlib.org/dlib/may06/authors/05authors.html#LITTMAN">Justin Littman</a>) are working on a software library for creating and validating bags, as well as a shiny GUI that'll sit on top of it to assist in bag creation for people who like shiny things.</p>

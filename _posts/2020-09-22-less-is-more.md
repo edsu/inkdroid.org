@@ -2,8 +2,9 @@
 title: Less is (sometimes) More
 layout: post
 tags:
-- social media
+- social-media
 ---
+
 
 *Below is a short presentation that I prepared for [iPRES 2020] (a.k.a
 [#WeMissiPRES]) which was held remotely due to the Coronavirus pandemic.*

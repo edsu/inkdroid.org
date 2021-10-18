@@ -18,6 +18,7 @@ date_gmt: '2014-02-19 16:05:19 +0000'
 tags: []
 comments: []
 ---
+
 <p>There's an interesting <a href="http://www.nytimes.com/2014/02/19/opinion/obama-and-his-library-go-small.html">piece</a> in the New York Times this morning: about the future of Obama's Presidential library</p>
 <blockquote>
 <p>There are reports that Mr. Obama used to be skeptical of having a library at all; a bold move would be to revert to tradition and deposit his papers at the Library of Congress. (The National Archives and Records Administration manages the 13 presidential libraries, which nowadays are built and maintained with private funds. The Herbert C. Hoover Library opened in 1962.) I knew that the <a href="http://memory.loc.gov/ammem/presprvw/23pres.html">Presidential Papers</a> collection at the Library of Congress, but never knew that LC was the place Presidents would deposit their papers before FDR built the first presidential library.</p>

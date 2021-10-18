@@ -1,10 +1,11 @@
 ---
 title: Disinformation Metadata
 tags:
-- social media
+- social-media
 - moderation
 layout: post
 ---
+
 
 [Ilya Kreymer] recently asked a question over in [Documenting the Now Slack] about whether
 Twitter's API data includes information about whether a tweet has been labeled

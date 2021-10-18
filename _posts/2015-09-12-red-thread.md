@@ -6,6 +6,7 @@ tags:
 - study
 ---
 
+
 *Bates, M. (1999). The invisible substrate of information science. Journal of the Society for Information Science, 50(12):1043–1050.*
 
 Of all the introductions to information science we've read so far I'm quite

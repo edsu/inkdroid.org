@@ -28,6 +28,7 @@ comments:
     are programs that follow lines of reference (and they are used in the wild), RDF
     is just another standardized XML... a matter of taste, as you say."
 ---
+
 <p>While <a href="http://mail.pm.org/pipermail/chicago-talk/2005-October/002532.html">fielding </a> a question on a local Perl list this weekend I ran across some more RDF alive and kicking in the very useful <a href="geocoder.us">geocoder.us</a> service. They have a nice RESTful web service, which allows you to drop an address or intersection into a URL like:</p>
 <p><a href="http://rpc.geocoder.us/service/rest?address=1340%20Ridgeview%20Drive%20McHenry%2C%20Illinois%2060050">http://rpc.geocoder.us/service/rest?address=<br />1340%20Ridgeview%20Drive%20McHenry%2C%20Illinois%2060050</a></p>
 <p>and get back the longtitude and latitude in a chunk of RDF like:</p>

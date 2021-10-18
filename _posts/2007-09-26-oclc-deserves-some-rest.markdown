@@ -39,6 +39,7 @@ comments:
     about delivering HTML.  But, come the day that we want to deliver XML in other
     schemas, that's exactly the mechanism we'll use.
 ---
+
 <p>Hey Worldcat Identities you are doing awesome work--you deserve some <a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">REST</a>. Why not use content-negotiation to serve up your HTML and XML representations? So:</p>
 <pre>
   curl --header "Accept: text/html" <a href="http://orlabs.oclc.org/Identities/key/lccn-no99-10609">http://orlabs.oclc.org/Identities/key/lccn-no99-10609</a>

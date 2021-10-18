@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Craft and Computation
-tag: 
+tag:
 - study
-- web archiving
+- web-archives
 - hci
 - art
 - craft
 ---
+
 
 @Cheatle:2015 provides an interesting view into how the funiture artist
 [Wendell Castle] uses 3D scanning and digital fabrication tools in his work.

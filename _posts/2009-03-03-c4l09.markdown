@@ -19,9 +19,8 @@ tags:
 - code4lib
 - web
 - conferences
-- c4l09
 - providence
-- linkddata
+- linked-data
 - hypertext
 comments:
 - id: 81164
@@ -34,6 +33,7 @@ comments:
     involved in recently. Most of them linked to from here:\r\n\r\nhttp://www.crossref.org/CrossTech/2009/02/an_interview_about_author_ids.html\r\n\r\nAnd
     am happy to chat about author-id any time.\r\n\r\n--G"
 ---
+
 <p>So <a href="http://code4lib.org/2009">code4lib2009</a> was a whole lot of fun. The amazing thing about the conference isn't really reflected in the <a href="http://code4lib.org/conference/2009/schedule">program</a> of talks. I feel like I can say that since I was <a href="http://inkdroid.org/talks/sword.pdf">one</a> of them.</p>
 <p>The real value is the social space and the time to talk to people you've seen online, throw around ideas, get background/contextual information on projects, etc. Hats off to <a href="http://www.linkedin.com/pub/dir/jean/rainwater">Jean Rainwater</a> and <a href="http://bspace.us/notes/tags/code4lib/">Birkin Diana</a> for picking an beautifully casual and intimate <a href="http://www.marriott.com/hotels/travel/pvdbr-renaissance-providence-hotel/">hotel</a> to hold the conference in.</p>
 <p>It's taken me a few days to get some perspective on all that happened. In the meantime I've read a few accounts that capture important aspects of the event from: <a href="http://oregonstate.edu/~reeset/blog/archives/623">Terry Reese</a>, <a href="http://managemetadata.org/blog/2009/02/25/embrace-the-chaos/">Jon Phipps</a>, <a href="http://blog.reallywow.com/archives/45">Jay Luker</a>, <a href="http://www.declan.net/2009/03/01/code4lib-2009-in-providence-ri/">Declan Fleming</a>, Richard Wallis (<a href="http://blogs.talis.com/panlibus/archives/2009/02/code4lib-2009-day-1.php">1</a>,<a href="http://blogs.talis.com/panlibus/archives/2009/02/fight-the-good-fight-code4lib-day-2.php">2</a>,<a href="http://blogs.talis.com/panlibus/archives/2009/02/code4lib-final-day-in-providence-looking-forward-to-asheville.php">3</a>), <a href="http://onebiglibrary.net/story/late-night-with-library-geeks">Dan Chudnov</a>, <a href="http://rc98.net/c4l2009">Gabe Farrell</a>.</p>

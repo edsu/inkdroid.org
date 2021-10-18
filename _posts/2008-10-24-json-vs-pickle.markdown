@@ -23,6 +23,7 @@ tags:
 - databases
 comments: []
 ---
+
 <p><em>in python JSON is faster, smaller and more portable than pickle ... </em></p>
 <p>At work, I'm working on a project where we're modeling newspaper content in a relational database. We've got newspaper titles, issues, pages, institutions, places and some other fun stuff. It's a django app, and the db schema currently looks something like:</p>
 <p><a href="http://inkdroid.org/images/ndnp-schema.png"><br />

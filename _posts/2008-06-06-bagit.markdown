@@ -84,6 +84,7 @@ comments:
     to fast-track data acquisition presently.  That doesn't mean that the spec, as
     implemented by others, wouldn't benefit from a data associated with data."
 ---
+
 <p>One little bit of goodness that has percolated out from my group at $work in collaboration with the <a href="http://www.cdlib.org/">California Digital Library</a> is the <a href="http://tools.ietf.org/id/draft-kunze-bagit">BagIt</a> spec (<a href="http://www.cdlib.org/inside/diglib/bagit/bagitspec.html">more readable version</a>). BagIt is an IETF RFC for bundling up files for transfer over the network, or for shipping on physical media. Just yesterday a little <a href="http://www.digitalpreservation.gov/news/2008/20080602news_article_bagit.html">article</a> about BagIt surfaced on the LC digital preservation website, so I figure now is a good time to mention it.</p>
 <p>The goodness of BagIt is in its simplicity and utility. A Bag is essentially: a set of files in a particular directory named <em>data</em>, a <em>manifest file</em> which states what files ought to be in the <em>data</em> directory, and a <em>bagit.txt</em> file that states the version of BagIt. For example here's a sample (abbreviated) directory structure for a bag of digitized newspapers via the <a href="http://www.loc.gov/ndnp/">National Digital Newspaper Program</a>:</p>
 <pre>

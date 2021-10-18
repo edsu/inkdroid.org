@@ -33,6 +33,7 @@ comments:
     protocols which scaled massively to the web we know today&#8230;with a little
     help from his friends. [...]"
 ---
+
 <p>I couldn't pass up the opportunity to hear Simeon Warner talk about <a href="http://www.openarchives.org">oai-pmh</a> in the second group of tutorials. I've implemented data and service providers before--so I consider myself fairly knowledgeable about the protocol. But Simeon works with this stuff constantly at Cornell since <a href="http://arxiv.org">arXiv</a> so I was certain there would be things to learn from him...he did not disappoint.</p>
 <p>Using some recent work at <a href="http://web.archive.org/web/20070702003636/http://oai-best.comm.nsdl.org:80/cgi-bin/wiki.pl?">NSDL</a>, and his experience with the protocol Simeon provided some really useful advice on sing oai-pmh. Here are the things I picked up on:</p>
 <ul>

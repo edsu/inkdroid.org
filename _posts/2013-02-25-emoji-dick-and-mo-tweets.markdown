@@ -18,11 +18,12 @@ date_gmt: '2013-02-25 19:39:44 +0000'
 tags:
 - humor
 - twitter
-- library of congress
+- library-of-congress
 - emoji
-- herman melville
+- herman-melville
 comments: []
 ---
+
 <p>The <a href="http://blogs.loc.gov/loc/2013/02/a-whale-of-an-acquisition/">news</a> about <a href="http://lccn.loc.gov/2012454709">Emoji Dick</a> (the version of Moby Dick translated into Emoji) being acquired by the Library of Congress prompted me to capriciously go to Twitter Search to see <a href="https://twitter.com/search?q=emoji%20dick">who was talking about it</a>. As I drilled backwards I was surprised to see the search results went back to Fred Benenson's original Tweet about the project.</p>
 <p>https://twitter.com/fredbenenson/status/1195751643</p>
 <p><em>That Tweet is from 4 years ago!</em></p>

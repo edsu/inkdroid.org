@@ -43,9 +43,9 @@ comments:
   date_gmt: '2011-01-27 17:24:55 +0000'
   content: |
     <p>"I’m a bit curious about the use of ‘aggregations’ in the RLUK vision. Is that some OAI-ORE terminology percolating through?"</p>
-
     <p>I was involved in the writing of the RDTF vision, and as far as I remember OAI-ORE wasn't mentioned. Think this blog post from Paul Walk might clarify the thinking behind the need for 'aggregations' http://web.archive.org/web/20110809022857/http://www.ukoln.ac.uk/jisc-ie/blog/2010/08/19/aggregation-and-the-resource-discovery-taskforce-vision/</p>
 ---
+
 <p><em><a href="http://twitter.com/#!/andypowe11">Andy Powell</a> has a <a href="http://efoundations.typepad.com/efoundations/2011/01/metadata-guidelines-for-the-uk-resource-discovery-taskforce.html">post</a> over on the eFoundations blog about some metadata guidelines he and <a href="http://twitter.com/#!/repetej">Pete Johnston</a> are working on for the UK Resource Discovery Taskforce. I got to rambling in a text area on his blog, but I guess I wrote too much, or included too many external URLs, so I couldn't post it in the end. So I thought I'd just post it here, and let trackback do the rest.</em></p>
 <p><em>So uh, please s/you/Andy/g in your head as you are reading this ... </em></p>
 <p>A bit of healthy skepticism, from a 15-year vantage point is definitely warranted. Bearing in mind that often times its hard to move things forward without taking a few risks. I imagine constrained fiscal resources could also be a catalyst to improving access to data flows that cultural heritage institutions participate in, or want to participate in. I wonder if it would be useful to factor in the money that organizations can save by working together better?</p>

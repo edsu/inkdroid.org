@@ -122,6 +122,7 @@ comments:
     how rather than trying to pull in data from all over the world to present to local
     users, [&#8230;]"
 ---
+
 <p>Peter Brantley tells a <a href="http://www.publishersweekly.com/pw/by-topic/industry-news/libraries/article/55131-you-have-two-maybe-three-years.html">sad tale</a> about where public library leadership is at, as we plunge headlong into the ebook future, that has been talked about for what seems like forever, and which is now upon us. It's not pretty.</p>
 <blockquote><p>
 The general consensus among participants was that public libraries have two, maybe three years to establish their relevance in the digital realm, or risk fading from the central place they have long occupied in the world’s literary culture.

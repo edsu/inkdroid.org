@@ -153,6 +153,7 @@ comments:
     \r\n         rel=\"resourcemap\" />\r\n</pre>\r\n\r\n(see http://www.openarchives.org/ore/1.0/discovery#HTMLLinkElement)\r\n\r\nThat
     is, of course, if one were to use ORE to achieve this all, as I did in the experiment."
 ---
+
 <p>Michael Smethurst's <a href="http://www.bbc.co.uk/blogs/radiolabs/2009/01/in_search_of_cultural_identifi.shtml">In Search of Cultural Identifiers</a> post over at the BBC Radio Labs got me thinking about web identifiers for works, about LibraryThing and OCLC as linked library data providers, and finally about the <a href="http://www.istc-international.org">International Standard Text Code</a>. Admittedly it's kind of a hodge-podge of topics, and I'm going to taking some liberties with what 'linked data' and 'works' mean, so bear with me.</p>
 <p>Both <a href="http://worldcat.org">OCLC Worldcat</a> and <a href="http://librarything.com">LibraryThing</a> mint URIs for bibliographic works, like these for Wide Sargasso Sea:</p>
 <ul>

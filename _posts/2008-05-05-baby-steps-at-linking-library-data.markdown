@@ -49,6 +49,7 @@ comments:
   content: I'm wondering about the "#manifestation" bit myself, and if Ian Davis has
     any thoughts.
 ---
+
 <p><a href="http://purl.org/net/aliman">Alistair</a> wanted to have some data to demonstrate the potential of linked library data, so I quickly converted 10K MARC records (using a slightly <a href="http://web.archive.org/web/20101216220649/http://inkdroid.org/bzr/marc-rdf/MARC21slim2RDFDC.xsl">modified</a> version of <a href="http://www.loc.gov/standards/marcxml/xslt/MARC21slim2RDFDC.xsl">MARC21slim2RDFDC.xsl</a>  and rewrote the subjects as <a href="http://web.archive.org/web/20130812145007/http://lcsh.info/">lcsh.info</a> URIs using a few lines of <a href="http://web.archive.org/web/20101216220710/http://inkdroid.org/bzr/marc-rdf/rewrite.py">python</a>...all a bit hackish, but it got this particular job done quickly.</p>
 <p>The rewriting of subjects is basically a transformation of:</p>
 <pre>

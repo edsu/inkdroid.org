@@ -18,6 +18,7 @@ date_gmt: '2006-12-05 16:16:52 +0000'
 tags: []
 comments: []
 ---
+
 <p>In case you missed it in your overstuffed RSS reader Jon Udell recently <a href="http://weblog.infoworld.com/udell/2006/12/01.html#a1570">interviewed</a> John Price-Wilkin who is coordinating the University of Michigan's joint digitization project with Google.</p>
 <p>The interview covers interesting bits of history about the <a href="http://web.archive.org/web/20090401160917/http://www.si.umich.edu:80/UMDL/">University of Michigan Digital Library</a>,<br />
 <a href="http://moa.umdl.umich.edu">Making of America</a>, <a href="http://www.jstor.org/">JSTOR</a> (didn't realize there was a <a href="http://www.amazon.com/JSTOR-History-Roger-C-Schonfeld/dp/0691115311/">book</a>), and of course the project with Google.</p>

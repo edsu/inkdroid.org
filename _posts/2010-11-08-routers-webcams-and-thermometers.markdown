@@ -19,7 +19,7 @@ tags:
 - http
 - web
 - identifiers
-- linked data
+- linked-data
 comments:
 - id: 83750
   author: me.yahoo.com/danbri3
@@ -93,6 +93,7 @@ comments:
     his router and its admin console) don&#8217;t help with the general level of understanding.
     I&#8217;ve tried many times to explain to [...]"
 ---
+
 <p><a href="http://en.wikipedia.org/wiki/Router"><img src="http://inkdroid.org/images/linksys-router.jpg" style="width: 300px; margin-right: 10px; margin-bottom: 5px; float: left; border: medium solid grey;" /></a> If you have a local wi-fi network at home you probably use something like this Linksys wireless router on the left, to let your laptop and other devices connect to the Internet. When you bought it and plugged it in you probably followed the instructions and typed "http://192.168.1.1/" into your web browser and visited a page to configure the router: settings its name, admin password, etc.</p>
 <p>Would you agree that this router sitting on top of your TV, or wherever it is, is a <em>real world thing</em>? It's not some abstract concept of a router: you can pick it up, turn it off and on, take it apart and try to put it back together again. And the router is identified with a URL: <a href="http://192.68.1.1.">http://192.168.1.1</a>. When your web browser resolves the URL for your router it gets back some HTML, that lets you see the router's current state, and make modifications to it. You don't get the <em>router itself</em>. That would be silly right?</p>
 <p>In terms of <a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">REST</a>, the router is a <em>Resource</em> that has a URL <em>Identifier</em>, which when resolved returns an HTML <em>Representation</em> of the <em>Resource</em>. But you don't really have to think about it much at all, because it's intuitively part of how you use the web every day.</p>

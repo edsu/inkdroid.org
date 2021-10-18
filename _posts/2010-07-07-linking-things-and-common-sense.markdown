@@ -17,9 +17,9 @@ date: '2010-07-07 14:28:50 +0000'
 date_gmt: '2010-07-07 21:28:50 +0000'
 tags:
 - identifiers
-- linkeddata
+- linked-data
 - urls
-- httpRange-14
+- httprange14
 comments:
 - id: 82719
   author: Ian Davis
@@ -206,6 +206,7 @@ comments:
   content: |
     [&#8230;] Ed Summers, 2010. Linking Things and Common Sense, blog post of July 7, 2010. See  http://inkdroid.org/journal/2010/07/07/linking-things-and-common-sense/.[13] Xiaoshu Wang, 2007.  URI Identity and Web Architecture Revisited, Word document posted on [&#8230;]
 ---
+
 <p><a href="http://en.wikipedia.org/wiki/William_Shakespeare"><img src="http://inkdroid.org/images/qrcode.png" style="border: none; float: right; margin-left: 10px; width: 200px;" /></a></p>
 <p><a href="http://derivadow.com">Tom Scott's</a> recent <a href="http://derivadow.com/2010/07/01/linked-things/">Linking Things</a> post got me jotting down what I've been thinking lately about URIs, Linked Data and the Web. First go read Tom's <a href="http://derivadow.com/2010/07/01/linked-things/">post</a> if you haven't already. He does a really nice job of setting the stage for why people care about using distinct URIs (web identifiers) for identifying web documents (aka information resources) and real world things (aka non-information resources). Tom's opinions are grounded in the experience of really putting these ideas into practice at the <a href="http://bbc.co.uk">BBC</a>. His key point, which he attributes to <a href="http://twitter.com/fantasticlife/">Michael Smethurst</a>, is that:</p>
 <blockquote><p>

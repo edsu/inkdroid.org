@@ -19,8 +19,8 @@ tags:
 - web
 - preservation
 - history
-- internet archive
-- howard zinn
+- internet-archive
+- howard-zinn
 comments:
 - id: 86521
   author: kcoyle
@@ -41,6 +41,7 @@ comments:
     We would all have a better perspective on the contemporary wars if such an archive
     existed.'
 ---
+
 <p>In his talk <a href="http://minds.wisconsin.edu/handle/1793/44118">Secrecy, Archives and the Public Interest</a> in 1970 <a href="https://en.wikipedia.org/wiki/Howard_Zinn">Howard Zinn</a> famously challenged professional archivists to realize the role of politics in their work. His talk included 7 points of criticism, which are still so relevant today, but the last two really moved me to transcribe and briefly comment on them here:</p>
 <blockquote><p>
 6. That the emphasis is on the <strong>past over the present</strong>, on the antiquarian over the contemporary; on the non-controversial over the controversial; the cold over the hot. What about the transcripts of trials? Shouldn't these be made easily available to the public? Not just important trials like the <a href="https://en.wikipedia.org/wiki/Chicago_Seven">Chicago Conspiracy Trial</a> I referred to, but the ordinary trials of ordinary persons, an important part of the record of our society. Even the extraordinary trials of extraordinary persons are not available, but perhaps they do not show our society at its best. The trial of the <a href="https://en.wikipedia.org/wiki/Catonsville_Nine">Catonsville 9</a> would be lost to us if <a href="https://en.wikipedia.org/wiki/Daniel_Berrigan">Father Daniel Berrigan</a> had not gone through the transcript and written a play based on it.</p>

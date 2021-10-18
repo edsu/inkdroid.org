@@ -19,10 +19,11 @@ tags:
 - 4store
 - ec2
 - lcnaf
-- authority control
-- library of congress
+- authority-control
+- library-of-congress
 comments: []
 ---
+
 <p>As a follow up to my <a href="http://inkdroid.org/journal/2012/10/04/lcnaf-unix-hack/">last post</a> about visualizing Library of Congress Name Authority File (LCNAF) records created by year, I decided to dig a little bit deeper to see how easy it would be to visualize how participating <a href="http://www.loc.gov/aba/pcc/naco/">Name Authority Cooperative</a> institutions have contributed to the LCNAF over time. This idea was mostly born out of spending the latter part of last week participating in a conversation about the need for a <a href="http://socialarchive.iath.virginia.edu/NAAC_index.html">National Archival Authority Cooperative</a> hosted at NARA. This blog post is one part nerdy technical notes on how I worked with the LCNAF Linked Data, and one part line charts showing who creates and modifies LCNAF records. It might've made more sense to start with the pretty charts, and then show you how I did it...but if the tech details don't interest you can jump to the <a href="#result">second half</a>.</p>
 <h2>The Work</h2>
 <p>After a very helpful Twitter <a href="https://twitter.com/3windmills/status/254949232052686848">conversation</a> with Kevin Ford I discovered that the Linked Data <a href="http://www.loc.gov/standards/mads/rdf/">MADSRDF</a> representation of the LCNAF includes assertions about the institution responsible for creating or revising the a record. Here's a snippet of Turtle for RDF that describes who created and modified the LCNAF record for <a href="http://id.loc.gov/authorities/names/n97108433">J. K. Rowling</a> (if your eyes glaze over when you see RDF, don't worry keep reading, it's not essential you understand this):</p>

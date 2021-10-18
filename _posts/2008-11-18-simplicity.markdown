@@ -19,6 +19,7 @@ tags:
 - life
 comments: []
 ---
+
 <p>So we have a few bookshelves in our house--one of which is in our kitchen. Only one or two of the shelves in this bookshelf actually house books, most of which are food-stained cookbooks. The rest of the 4 or 5 shelves are given over to photographs, albums, pamphlets from schools, framed pictures, compact discs, pencils, letters, screwdrivers, coins, candles, bills, artwork, crayons--basically the knickknacks and detritus of daily living. We spend a lot of time in the kitchen, so it's convenient and handy to just stash stuff there.</p>
 <p>The only problem is IT DRIVES ME INSANE!</p>
 <p>The randomness, and perceived messiness of the bookshelf drives me crazy.  I look at it and I see chaos, complexity and disorder. I know I have a <a href="http://en.wikipedia.org/wiki/Obsessive-compulsive_disorder">problem</a>, but that knowledge doesn't seem to help. I am constantly shuffling things around, grouping things, moving things, throwing things out while more and and more things are quietly added. I'd almost prefer the bookshelf to be somewhere out of sight, but then we'd probably use something else in the kitchen. </p>

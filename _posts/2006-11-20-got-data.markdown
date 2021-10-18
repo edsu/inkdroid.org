@@ -18,6 +18,7 @@ date_gmt: '2006-11-20 19:17:15 +0000'
 tags: []
 comments: []
 ---
+
 <p>Just saw this float by on <a href="http://web.archive.org/web/20100108122311/http://simile.mit.edu:80/mailman/listinfo/general">simile-general</a></p>
 <blockquote><p>... thanks to Ben, we now have permission to publish the barton RDF dump (consisting of 50 million juicy RDF statements from the MIT library catalogue). They are now available at</p>
 <p>http://simile.mit.edu/rdf-test-data/</p></blockquote>

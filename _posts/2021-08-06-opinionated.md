@@ -6,6 +6,7 @@ tags:
 layout: post
 ---
 
+
 I've never really been a huge fan of the [Basecamp Philosophy] of software
 development--especially since the [no-politics] fiasco. Calling it
 a *philosophy* is probably giving it a lot more credit than it deserves, since

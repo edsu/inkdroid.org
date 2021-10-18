@@ -3,9 +3,10 @@ layout: post
 title: Python for Somebody
 date: 2021-05-11T14:12:21
 tags:
-- Programming
-- Teaching
+- programming
+- teaching
 ---
+
 
 I'm just finishing teaching a class for the UMD iSchool focused on Object
 Oriented Programming. This is the third time I've taught the class so I'm

@@ -36,6 +36,7 @@ comments:
     also to Sydney Wikipedian Whiteghost.ink and NMA in-house Wikipedian Shamto for
     assisting [...]"
 ---
+
 <p>Last week <a href="https://twitter.com/wittylama">Liam Wyatt</a> emailed me asking if I could add <a href="http://www.nma.gov.au/">The National Museum of Australia</a> to <a href="http://linkypedia.info">Linkypedia</a>, which tracks external links from Wikipedia articles to specific websites. Specifically Liam was interested in seeing the list of articles that reference the National Museum, sorted by how much they are viewed at Wikipedia. This presented me with two problems:</p>
 <ol>
 <li>I turned Linkypedia off a few months ago, since the site hadn't been seeing much traffic, and I have not yet figured out how to keep the site going on the paltry Linode VPS I'm using for other things like this blog.</li>

@@ -21,6 +21,7 @@ tags:
 - philosophy
 comments: []
 ---
+
 <p><img src="http://inkdroid.org/images/wikipedia.png" style="float: left;
 margin-right: 10px; width: 10%;" />You know that tingly feeling you get when you read something, look at a picture, or hear a song that subtly and effortlessly changes the way you think?</p>
 <p>I don't know about you, but for me thoughts, ideas and emotions can often feel like puzzles that stubbornly demand a solution, until something or someone helps make the problem evaporate or dissolve. Suddenly I can zoom in, out or around the problem, and it is utterly transformed. As that philosophical trickster Ludwig Wittgenstein <a href="http://www.plzi.com/tekstia/others/tract_4.htm">wrote</a>:</p>

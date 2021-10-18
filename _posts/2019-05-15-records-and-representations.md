@@ -4,6 +4,7 @@ tags: archives
 layout: post
 ---
 
+
 One of the interesting topics that came up for me at the recent [Congrés
 d'Arxivística de Catalunya] was the distinction between records and
 representations in archival work. It was most clearly expressed by [Greg Rolan]

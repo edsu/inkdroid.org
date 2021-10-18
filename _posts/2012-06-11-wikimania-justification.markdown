@@ -22,6 +22,7 @@ tags:
 - travel
 comments: []
 ---
+
 <p>Due to fiscal constraints we (understandably) have to write justifications for travel requests at $work, to make it clear how the conference/meeting fits in with the goals of the institution. I am planning on going to Wikimania for this first time this year, which is happening a short metro ride away at George Washington University. The cost for the full event is $50, which is an amazing value, and makes it a bit of a no-brainer on the cost-benefit scale. But I still need to justify it, mainly because of the time away from work. If you work in a cultural heritage organization and ever find yourself wanting to go to Wikimania maybe the justification I wrote will be of interest. I imagine you could easily substitute in your own organization's Web publishing projects appropriately ...</p>
 <blockquote><p>
 The <a href="http://wikimania2012.wikimedia.org/wiki/Main_Page">Wikimania</a> conference is the annual conference supporting the Wikipedia community. It is attended by thousands of people from around the world, and is the premier event for discussions and research about the continued development of Wikipedia--and it is being held in Washington, DC this year. Wikipedia comprises 22 million articles, in 285 languages, and it has become the largest and most popular general reference work on the Internet, ranking sixth globally among all websites. </p>

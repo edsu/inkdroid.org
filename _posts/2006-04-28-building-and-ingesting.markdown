@@ -40,6 +40,7 @@ comments:
     Also, a bunch of people hacking ruby and things like fedora hang out in irc://chat.freenode.net/#code4lib
     so please stop by and we can figure this stuff out interactively :-)"
 ---
+
 <p>I prefer using an XML generating mini-language (<a href="http://effbot.org/zone/element-index.htm">elementtree</a>, <a href="http://search.cpan.org/dist/XML::Writer/">XML::Writer</a>, <a href="http://www.germane-software.com/software/rexml/">REXML</a>, <a href="http://web.archive.org/web/20101208214148/http://www.kieranholland.com:80/code/documentation/nevow-stan/">Stan</a>, etc) to actually writing raw XML. It's just too easy for me to forget or misstype an end tag, or forget to encode strings properly--and I find all those inline strings or even here-docs make a mess of an otherwise pretty program.</p>
 <p>Recently I wanted some code to write FOXML for ingesting digital objects into my <a href="http://fedora.info">Fedora</a> test instance. I'm working in Ruby so REXML seemed like the best place to start...but after I finished I ran across <a href="http://www.xml.com/pub/a/2006/01/04/creating-xml-with-ruby-and-builder.html">Builder</a>. The Builder code turned out to be somewhat shorter, much more expressive and consequently a bit easier to read (for my eyes). Here's a quick example of how Builder's API improves on REXML when writing this little chunk of XML:</p>
 <pre>&lt;dc xmlns='http://purl.org/dc/elements/1.1/'&gt;

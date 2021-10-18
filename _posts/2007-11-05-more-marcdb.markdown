@@ -16,9 +16,13 @@ wordpress_url: http://www.inkdroid.org/journal/2007/11/05/more-marcdb/
 date: '2007-11-05 10:13:44 +0000'
 date_gmt: '2007-11-05 17:13:44 +0000'
 tags:
-- marc metadata postgres lcsh
+- marc
+- metadata
+- postgres
+- lcsh
 comments: []
 ---
+
 <p>This morning Clay and I were chatting about <a href="http://en.wikipedia.org/wiki/Library_of_Congress_Subject_Headings">Library of Congress Subject Heading</a>s and <a href="http://www.w3.org/2004/02/skos/">SKOS</a> a bit. At one point we found ourselves musing about how much reuse there is of topical subdivisions in topical headings in the LC  authority file. You know how it is. Anyhow, I remembered that I'd used <a href="http://www.inkdroid.org/journal/2007/10/01/marcdb/">marcdb</a> to import all of Simon Spiro's <a href="http://www.ibiblio.org/fred2.0/authorities/">authority data</a>--so I fired up <a href="http://www.postgresql.org/docs/8.1/static/app-psql.html">psql</a> and wrote a query:</p>
 <pre>
 SELECT subfields.value AS subdivision, count(*) AS total

@@ -2,9 +2,10 @@
 layout: post
 title: Organizations on Twitter
 tags:
-- social media
-- Wikipedia
+- social-media
+- wikipedia
 ---
+
 
 A question came up on the [air-l] discussion list about how someone could take a
 list of organization names and find their official Twitter handles. As you can

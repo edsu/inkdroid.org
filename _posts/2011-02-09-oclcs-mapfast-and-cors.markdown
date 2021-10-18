@@ -21,7 +21,7 @@ tags:
 - web
 - html5
 - cors
-- web services
+- web-services
 - geo
 comments:
 - id: 84276
@@ -60,6 +60,7 @@ comments:
   content: Thanks for the great comments Chris and Sean. JSONP and GeoJSON/OpenSearchGeo
     are definitely important things to mention in this context.
 ---
+
 <p>Yesterday at <a href="http://code4lib.org/conference/2011">Code4lib 2011</a> <a href="http://www.librarywebchic.net/">Karen Coombs</a> gave a <a href="http://code4lib.org/conference/2011/coombs">talk</a> where (among other things) she demonstrated <a href="http://www.oclc.org/research/activities/mapfast/">mapFAST</a> that lets you find <a href="http://experimental.worldcat.org/mapfast/">relevant subject headings</a> for a given location, and then click on a subject heading and find relevant books on the topic. Go check out the <a href="http://www.indiana.edu/~video/stream/launchflash.html">archived video</a> of her talk (note you'll have to jump 39 minutes or so into the stream). Karen mentioned that the demo UI uses the <a href="http://www.oclc.org/developer/services/mapFAST">mapFAST REST/JSON API</a>. The service lets you construct a URL like this to get back subjects for any location you can identify with lat/lon coordinates:</p>
 <pre>
 http://experimental.worldcat.org/mapfast/services?geo={lat},{lon}";crs=wgs84&radius={radius-in-meters}&mq=&sortby=distance&max-results={num-results}"

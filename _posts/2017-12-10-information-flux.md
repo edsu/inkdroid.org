@@ -7,6 +7,7 @@ tags:
 - docnow
 ---
 
+
 @Bossewitch:2012 contains a useful description of *information flux* which is a
 conceptual framework for thinking about the flow of information between an
 individual and a network with respect to knowledge and power. The authors build

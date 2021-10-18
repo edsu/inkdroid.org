@@ -7,6 +7,7 @@ tags:
 - python
 ---
 
+
 Today I learned that Python has a [mimetypes] module, and has ever since Guido von Rossum [added it] in 1997. Honestly I'm just a bit sheepish to admit this discovery, as someone who has been using Python for digital preservation work for about 15 years. But maybe there's a good reason for that.
 
 Since the entire version history for Python is available on GitHub (which is a beautiful thing in itself) you can see that the mimetypes module [started] as a `guess_type()` function built around a pretty simple hard coded mapping of file extensions to mimetypes.

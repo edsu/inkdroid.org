@@ -3,9 +3,10 @@ title: The Ferguson Principles
 layout: post
 tags:
 - archives
-- social media
+- social-media
 - docnow
 ---
+
 
 <iframe width="800" height="400" src="https://www.youtube.com/embed/QgWkLnbN-8M"
 frameborder="0" allow="accelerometer; encrypted-media; gyroscope;

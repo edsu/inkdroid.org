@@ -17,9 +17,10 @@ date: '2015-02-16 07:00:57 +0000'
 date_gmt: '2015-02-16 14:00:57 +0000'
 tags:
 - pragmatism
-- William James
+- william-james
 comments: []
 ---
+
 <blockquote>
 <p>Human motives sharpen all our questions, human satisfactions lurk in all our answers, all our formulas have a human twist.</p>
 </blockquote>

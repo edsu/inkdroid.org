@@ -266,6 +266,7 @@ comments:
   date_gmt: '2008-09-17 19:25:57 +0000'
   content: Cool I look forward to seeing it. Thanks for the conversation!
 ---
+
 <p>I just saw Diane Vizine-Goetz demo <a href="http://tspilot.oclc.org/resources">OCLC's Terminology Services</a> at the CENDI/SKOS meeting and was excited to see various things out on the public web. For example, the LCSH concept "World Wide Web" is over here:</p>
 <blockquote><p>
   <a href="http://tspilot.oclc.org/lcsh/sh2008114004">http://tspilot.oclc.org/lcsh/sh2008114004</a>

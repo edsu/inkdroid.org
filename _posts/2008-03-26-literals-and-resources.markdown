@@ -18,7 +18,7 @@ date_gmt: '2008-03-26 13:51:32 +0000'
 tags:
 - metadata
 - rdf
-- semanticweb
+- semweb
 - marc
 - libraries
 - rda
@@ -40,6 +40,7 @@ comments:
   date_gmt: '2008-03-26 15:39:32 +0000'
   content: Hear, hear Ed.
 ---
+
 <p><img src="http://inkdroid.org/images/rda.jpg" style="margin-left: 10px; float: left;"/>There's a fascinating modeling discussion going on over on the <a href="http://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0803&L=dc-rda&T=0&F=&S=&P=2694">DC-RDA</a> list about whether <a href="http://docs.google.com/View?docid=dhpg2gtj_54fgnz8rfs">RDA properties</a> should reference literals or resources in descriptions. For example when describing an author you could use a literal:</p>
 <pre>
 Twain, Mark, 1835-1910

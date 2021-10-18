@@ -18,6 +18,7 @@ date_gmt: '2005-11-11 19:29:56 +0000'
 tags: []
 comments: []
 ---
+
 <p>While playing around with the Java <a href="http://www.jdom.org/">JDOM</a> library, I found myself resorting to jython to experiment with the API. It's just so much easier this way for me:</p>
 <pre lang="python">
 #!/usr/bin/env jython

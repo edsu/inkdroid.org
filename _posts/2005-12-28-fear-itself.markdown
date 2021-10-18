@@ -18,6 +18,7 @@ date_gmt: '2005-12-28 17:26:33 +0000'
 tags: []
 comments: []
 ---
+
 <p>I'm glad I'm not the only one who was immediately reminded of <a href="http://www.commondreams.org/views05/1227-26.htm">this</a> when the NSA spying <a href="http://www.nytimes.com/2005/12/21/politics/21nsa.html">story</a> broke.  </p>
 <p>If you are interested in the perspective of a computer security specialist definitely take a look at what Bruce Scheneier has been <a href="http://www.schneier.com/blog/archives/2005/12/nsa_and_bushs_i.html">writing</a>. Schneier's theory on why Bush needed to bypass the Foreign Intelligence Security Court is pretty harrowing.  </p>
 <blockquote><p>

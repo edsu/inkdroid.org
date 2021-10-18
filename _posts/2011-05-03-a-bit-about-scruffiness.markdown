@@ -17,7 +17,7 @@ date: '2011-05-03 00:06:06 +0000'
 date_gmt: '2011-05-03 07:06:06 +0000'
 tags:
 - semweb
-- linkeddata
+- linked-data
 - agile
 - ai
 - pragmatism
@@ -56,6 +56,7 @@ comments:
   content: "@alistair I like that re: OWL ... but it makes me wonder what Hello World
     would look like :-)"
 ---
+
 <p><span style="float: left; font-size: smaller; text-align: center; background-color: #eeeeee; margin-right: 10px;"><a href="http://en.wikipedia.org/wiki/Terry_Winograd"><img src="http://inkdroid.org/images/winograd.jpg" style="width: 300px;"/></a><br />
 <a href="http://en.wikipedia.org/wiki/Terry_Winograd">Terry Winograd</a> at CHI 2006 (by <a href="http://en.wikipedia.org/wiki/File:WinogradSkeleton.jpg">boltron</a>)<br />
 </span></p>

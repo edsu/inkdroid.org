@@ -20,7 +20,7 @@ tags:
 - http
 - rest
 - webarch
-- linked data
+- linked-data
 - urls
 comments:
 - id: 83816
@@ -124,6 +124,7 @@ comments:
     to crawl their site by explicitly asserting it; not by some funky use of HTTP
     status codes or hash URIs."
 ---
+
 <p><a href="http://www.flickr.com/photos/psd/sets/72157625161668113/with/5159730124/"><img src="http://inkdroid.org/images/resource-identifiers.jpg" style="float: left;" /></a></p>
 <p>Thanks for all the positive feedback to my <a href="http://inkdroid.org/journal/2010/11/08/routers-webcams-and-thermometers/">last post</a> about using URLs to identify resources. <a href="http://tomheath.com/home/html">Tom Heath</a> (one of the founding fathers of the <a href="http://www4.wiwiss.fu-berlin.de/bizer/pub/LinkedDataTutorial/">Linked Data meme/pattern</a>) suggested that discussions about this topic are <a href="http://tomheath.com/blog/2010/11/arguments-about-http-303-considered-harmful/">harmful</a>, so of course I have to continue the conversation ... even if I don't have much new to say. Hell, I just wanted an excuse to re-publish another one of Paul Downey's lovely <a href="http://www.flickr.com/photos/psd/sets/72157625161668113/with/5159730124/">REST Tarot Cards</a> that he is doing for <a href="http://www.flickr.com/groups/1219303@N25/">NaNoDrawMo 2010</a>, and get some more hits on my backwater blog :-)</p>
 <p>Anyhow, so Tom <a href="http://tomheath.com/blog/2010/11/arguments-about-http-303-considered-harmful/">said</a>:</p>

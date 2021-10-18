@@ -16,8 +16,8 @@ wordpress_url: http://inkdroid.org/journal/?p=7085
 date: '2014-02-02 20:29:06 +0000'
 date_gmt: '2014-02-03 03:29:06 +0000'
 tags:
-- linked data
-- paris review
+- linked-data
+- paris-review
 - literature
 comments:
 - id: 86852
@@ -29,6 +29,7 @@ comments:
   content: |
     [&#8230;] are using data analysis to show interesting relationships. Ed Summer&#8217;s data visualization shows how many times each Paris Review interview appears on [&#8230;]
 ---
+
 <p><a href="http://parisreview.org"><img class="img-responsive" src="http://inkdroid.org/images/parisreview-35.jpg" style="margin-right: 20px; float: left;" /></a> I was recently reading an amusing piece by <a href="https://twitter.com/David_Dobbs">David Dobbs</a> about <a href="http://daviddobbs.net/smoothpebbles/william-faulkner-is-one-tough-interview/">William Faulkner being a tough interview</a>. Dobbs has been working through the <a href="http://www.theparisreview.org/interviews">Paris Review archive of interviews</a> which are available on the Web. The list of authors is really astonishing, and the interviews are great examples of longform writing on the Web.</p>
 <p>The 1965 interview with <a href="http://www.theparisreview.org/interviews/4424/the-art-of-fiction-no-36-william-s-burroughs">William S. Burroughs</a> really blew me away. So much so that I got to wondering how many Wikipedia articles reference these interviews.</p>
 <p>A few years ago, I experimented with a site called <a href="http://linkypedia.info">Linkypedia</a> for visualizing how a particular website is referenced on Wikipedia. It's actually pretty easy to write a script to see what Wikipedia articles point at a Website, and I've done it enough times that it was convenient to wrap it up in a little <a href="https://github.com/edsu/wplinks">Python module</a>.</p>

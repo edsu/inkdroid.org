@@ -16,8 +16,8 @@ wordpress_url: http://inkdroid.org/journal/?p=4904
 date: '2012-09-02 20:29:48 +0000'
 date_gmt: '2012-09-03 03:29:48 +0000'
 tags:
-- digital preservation
-- file formats
+- digital-preservation
+- file-formats
 - openplanets
 - pronom
 - drupal
@@ -75,6 +75,7 @@ comments:
     more focused around DROID's capabilities, although there are some other parts
     of the code I will go on to improve.\r\n\r\nRoss"
 ---
+
 <p>I work in a digital preservation group at the Library of Congress where we do a significant amount of work in Python. Lately, I've been spending some time with <a href="https://github.com/openplanets/fido">OpenPlanet's FIDO</a> utility, mainly to see if I could refactor it so that it's a bit easier to use as a Python module, for use in other Python applications. At the moment FIDO is designed to be used from the command line. This work involved more than a little bit of refactoring, and the more I looked at the code, the more it became clear that a test suite would be useful to have as a safety net.</p>
 <p>Conveniently, I also happened to have been reading a recent report from the National Library of Australia on <a href="http://www.openplanetsfoundation.org/blogs/2012-08-12-file-characterisation-tools-report-testing-project-conducted-national-library">File Characterization Tools</a>, which in addition to talking about FIDO, pointed me at the <a href="http://digitalcorpora.org/corpora/files">govdocs1</a> dataset. Govdocs1 is a dataset of 1 million files harvested from the .gov domain by the NSF funded <a href="http://digitalcorpora.org">Digital Corpora</a> project. The data was collected to serve as a public domain corpus for forensics tools to use as a test bed. I thought it might be useful to survey the filenames in the dataset, and cherry pick out formats of particular types for use in my FIDO test suite.</p>
 <p>So I wrote a little <a href="https://github.com/edsu/fido/blob/master/test-data/download.py">script</a> that crawled all the filenames, and kept track of file extensions used. Here are the results:</p>

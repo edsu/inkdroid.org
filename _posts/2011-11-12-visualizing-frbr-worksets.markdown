@@ -47,6 +47,7 @@ comments:
   content: |
     [&#8230;] he appears to have some sort of working relationship with Library of Congress librarian/programmer Ed Summers as [&#8230;]
 ---
+
 <p><img title="More on this Venn diagram down below" src="https://chart.googleapis.com/chart?chs=125x75&cht=v&chd=t:70.0,87.5,22.5,23,8,9,8&chco=77FF77,7777FF,FF7777" style="float: left;"/><br />
 The model behind the <a href="http://en.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records">Functional Requirements for Bibliographic Records</a> (FRBR) was <a href="http://www.ifla.org/en/publications/functional-requirements-for-bibliographic-records">published</a> over 10 years ago, and has been simmering in library land ever since. Bit by bit, FRBR has been finding its way into library systems and software, sometimes in a slightly modified form. But it has been slow going because FRBR offers a more nuanced view of bibliographic data than what is available in our legacy MARC data. So the FRBR relationships <em>we want</em> largely have to be teased out of the data <em>we have</em>.</p>
 <div style="float: right; margin-left: 10px;">

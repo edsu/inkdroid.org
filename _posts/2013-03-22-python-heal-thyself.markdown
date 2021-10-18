@@ -37,6 +37,7 @@ comments:
     what it can do with a corpus of tweets. But it's $100 for the full version and
     $30 for the lite version."
 ---
+
 <p>https://twitter.com/ginatrapani/status/314552254592069632</p>
 <p>After seeing Gina's tweet, I was curious to see if there was any difference by gender in the tweets directed at <a href="http://twitter.com/adriarichards">@adriarichards</a> over the recent <a href="https://news.ycombinator.com/item?id=5391667">controversy</a> at PyCon. I wasn't confident I would find anything. It was more a feeble attempt to try to make Python make sense of something senseless that happened at PyCon; or to paraphrase Physician, heal thyself...for Python to heal itself.</p>
 <p>I used <a href="http://github.com/edsu/twarc">twarc</a> to collect 13,472 tweets that mentioned @adriarichards from the search API. I then added a <a href="https://github.com/edsu/twarc/blob/master/utils/gender.py">utility filter</a> that uses <a href="https://github.com/bmuller/genderator">genderator</a> to filter the line oriented JSON based on a guess at the gender (Twitter doesn't track it). genderator identified 2,433 (18%) tweets from women, 5,268 (39%) from men, and 5,771 (42%) that were of unknown gender. I then added another <a href="https://github.com/edsu/twarc/blob/master/utils/wordcloud.py">utility</a> that reads a stream of Tweets and generates a tag cloud as a standalone HTML file using <a href="https://github.com/jasondavies/d3-cloud">d3-cloud</a>.</p>

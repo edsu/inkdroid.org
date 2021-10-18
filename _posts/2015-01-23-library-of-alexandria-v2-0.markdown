@@ -16,7 +16,7 @@ wordpress_url: http://inkdroid.org/journal/?p=8367
 date: '2015-01-23 12:16:49 +0000'
 date_gmt: '2015-01-23 19:16:49 +0000'
 tags:
-- internet archive
+- internet-archive
 comments:
 - id: 87248
   author: 'Editors&#8217; Choice: Library of Alexandria v2.0 | Digital Humanities
@@ -37,6 +37,7 @@ comments:
   content: |
     [&#8230;] Digital Library&#8217;s recent decision to discontinue its Web Archiving Services (WAS), some have questioned the wisdom of consolidating all that expertise and infrastructure under one organization. The Library of Alexandria analogy is perhaps imprecise, but not by much [&#8230;]
 ---
+
 <p>In case you missed <a href="https://en.wikipedia.org/wiki/Jill_Lepore">Jill Lepore</a> has written a superb <a href="http://www.newyorker.com/magazine/2015/01/26/cobweb">article</a> for the New Yorker about the <a href="https://en.wikipedia.org/wiki/Internet_Archive">Internet Archive </a>and archiving the Web in general. The story of the Internet Archive is largely the story of its creator <a href="https://en.wikipedia.org/wiki/Brewster_Kahle">Brewster Kahle</a>. If you've heard Kahle speak you've probably heard the <a href="https://en.wikipedia.org/wiki/Destruction_of_the_Library_of_Alexandria">Library of Alexandria</a> v2.0 metaphor before. As a historian Lepore is particularly tuned to this dimension to the story of the Internet Archive:</p>
 <blockquote>
 <p>When Kahle started the Internet Archive, in 1996, in his attic, he gave everyone working with him a book called “The Vanished Library,” about the burning of the Library of Alexandria. "The idea is to build the Library of Alexandria Two,” he told me. (The Hellenism goes further: there’s a partial backup of the Internet Archive in Alexandria, Egypt.)</p>

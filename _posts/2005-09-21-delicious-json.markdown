@@ -18,6 +18,7 @@ date_gmt: '2005-09-21 12:35:42 +0000'
 tags: []
 comments: []
 ---
+
 <p>I just noticed over on the <a>del.icio.us blog</a> that my data is available as <a href="http://del.icio.us/doc/feeds/json/">JavaScript Object Notation (JSON)</a> by following a simple URL like: http://del.icio.us/feeds/json/inkdroid.</p>
 <p>Essentially you just load  the URL as javascript source in your HTML:</p>
 <p><code><br />

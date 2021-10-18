@@ -25,6 +25,7 @@ comments:
   date_gmt: '2005-12-05 19:07:48 +0000'
   content: "[...] inkdroid &#8212; code4lib 2006 [...]"
 ---
+
 <p>Some #code4lib regulars (who also help put on <a href="http://web.archive.org/web/20110610010758/http://access2005.library.ualberta.ca:80/">Access</a> up north) have managed to get some space at the <a href="http://www.oregonstate.edu">Oregon State University</a> in February for <a href="http://www.code4lib.org/2006">code4lib 2006</a>:</p>
 <blockquote><p>
 code4lib 2006 is a loosely structured conference for library technologists to commune, gather/create/share ideas and software, be inspired, and forge collaborations. It is also an outgrowth of the Access HackFest, wrapped into a conference-ish format. It is *the* event for technologists building digital libraries and digital information systems, tools, and software.

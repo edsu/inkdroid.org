@@ -17,7 +17,7 @@ date: '2008-08-01 06:00:02 +0000'
 date_gmt: '2008-08-01 13:00:02 +0000'
 tags:
 - http
-- oai-ore
+- oaiore
 - harvesting
 - atom
 - google
@@ -53,5 +53,6 @@ comments:
     this might\r\nnot be a problem, but it would prevent things like arXiv.org aggregating
     resources\r\nin citebase.org.\r\n\r\n(see http://www.sitemaps.org/protocol.php#location)."
 ---
+
 <p><a href="http://www.openarchives.org/ore/"><img src="http://inkdroid.org/images/ore.png" style="margin-right: 10px; border: none; float: left;" /></a><a href="http://efoundations.typepad.com/efoundations/2008/08/seo-and-digital.html">Andy</a> reminds me that a relatively simple idea (I think it was <a href="http://dfflanders.wordpress.com/">David's</a> at <a href="http://barcamp.org/RepoCamp">RepoCamp</a>) for the <a href="http://groups.google.com/group/oai-ore/browse_thread/thread/3c743774cef00e23">OAI-ORE Challenge</a> would be to create a tool that transformed OAI-ORE resource maps expressed as <a href="http://www.openarchives.org/ore/0.9/atom-implementation.html">Atom</a> into <a href="https://www.google.com/webmasters/tools/docs/en/protocol.html">Google Site Maps</a>. This would allow "repositories" that exposed their "objects" as resource maps, to easily be crawled by Google and others. </p>
 <p>It would also be useful to demonstrate what value-add OAI-ORE resource maps give you: to answer the question of why not just generate the site map and be done with it. I think there definitely are advantages, such as being able to identify compound objects or aggregations of web resources, and then make assertions about them (a.k.a. attach metadata to them).</p>

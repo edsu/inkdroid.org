@@ -19,7 +19,7 @@ tags:
 - rdf
 - web
 - identifiers
-- linkeddata
+- linked-data
 - wikipedia
 - doi
 - scholarship
@@ -237,6 +237,7 @@ comments:
     as #LinkedData @CrossRefNews http://t.co/HcGLSsdV 2012-06-14RT @altmetrics12:
     Check out the program of our workshop at @websci12: 2 keynotes, 5 [...]"
 ---
+
 <p>Last week <a href="http://dilettantes.code4lib.org/blog/">Ross Singer</a> alerted me to some pretty<a href="http://www.crossref.org/CrossTech/2011/04/content_negotiation_for_crossr.html"> big news</a> for folks interested in Library Linked Data: <a href="http://crossref.org">CrossRef</a> has made the metadata for 46 million <a href="http://en.wikipedia.org/wiki/Digital_object_identifier">Digital Object Identifiers</a> (DOI) available as Linked Data. DOIs are heavily used in the publishing space to uniquely identify electronic documents (largely scholarly journal articles). CrossRef is a consortium of roughly 3,000 publishers, and is a big player in the academic publishing marketplace.</p>
 <p>So practically what this means is that all the places in the scholarly publishing ecosystem where DOIs are present (caveat below), it's now possible to use the Web to retrieve metadata associated with that electronic document. Say you've got a DOI in the database backing your institutional repository:</p>
 <blockquote><p>

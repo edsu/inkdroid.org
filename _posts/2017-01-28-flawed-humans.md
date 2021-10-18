@@ -6,6 +6,7 @@ tags:
 - lbsc785
 ---
 
+
 From the readings this week in [Documentation and Appraisal](/tag/lbsc785), here
 is the concluding paragraph to Richard Cox's entry for Archivists and Collecting
 in the Encyclopedia of Library and Information Science [@Cox:2010]:

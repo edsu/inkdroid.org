@@ -28,6 +28,7 @@ comments:
     cogprints\n\nthe error says : could not not find the transformer for schema http://standars.iso.org/ittf/publiclyAvailableStandards-21_schema_files/did/didl.xsd\n\nPlease
     help me on this !\n"
 ---
+
 <p><img src="http://simile.mit.edu/images/logo.png" align="left" style="margin-right: 10px;" /></p>
 <p>Amidst the flurry of commit messages and the like on the <a href="http://simile.mit.edu/mail/BrowseList?listName=Dev">simile development discussion list</a> I happened to see the <a href="http://simile.mit.edu/">Simile Project</a> includes a <a href="http://simile.mit.edu/repository/RDFizers">RDFizer</a> project which has a component called oai2rdf.</p>
 <p>oai2rdf is a command line program that happens to use Jeff Young's <a href="http://web.archive.org/web/20090920021516/http://www.oclc.org/research/software/oai/harvester2.htm">OAIHarvester2</a> and some XSLT magic to harvest an entire <a href="http://www.openarchives.org">oai-pmh</a> archive and covert it to <a href="http://www.w3.org/RDF/">rdf</a>.</p>

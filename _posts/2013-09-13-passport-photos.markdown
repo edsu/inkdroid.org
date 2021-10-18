@@ -18,9 +18,10 @@ date_gmt: '2013-09-14 02:08:46 +0000'
 tags:
 - photographs
 - passports
-- talking heads
+- talking-heads
 comments: []
 ---
+
 <p><img src="http://inkdroid.org/images/passport-photos.png" alt="Passport Photos" /></p>
 <p>He would see faces in movies, on TV, in magazines, and in books. He thought that some of these faces might be right for him. And through the years, by keeping an ideal facial structure fixed in his mind, or somewhere in the back of his mind, that he might, by force of will, cause his face to approach those of his ideal.</p>
 <p>The change would be very subtle. It might take ten years or so. Gradually his face would change its shape. A more hooked nose. Wider, thinner lips. Beady eyes. A larger forehead. He imagined that this was an ability he shared with most other people. They had also molded their faces according to some ideal. Maybe they imagined that their new face would better suit their personality. Or maybe they imagined that their personality would be forced to change to fit the new appearance. This is why first impressions are often correct.</p>

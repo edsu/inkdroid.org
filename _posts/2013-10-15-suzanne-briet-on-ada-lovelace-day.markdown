@@ -16,12 +16,13 @@ wordpress_url: http://inkdroid.org/journal/?p=6314
 date: '2013-10-15 07:47:16 +0000'
 date_gmt: '2013-10-15 14:47:16 +0000'
 tags:
-- ada lovelace
-- suzanne briet
-- information science
-- document
+- ada-lovelace
+- suzanne-briet
+- information-science
+- documents
 comments: []
 ---
+
 <p><a href="https://commons.wikimedia.org/wiki/File:Antelope_1_(PSF).png"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Antelope_1_%28PSF%29.png/469px-Antelope_1_%28PSF%29.png" style="float: left; margin-right: 10px; width: 175px;" /></a> Today is <a href="http://findingada.com/">Ada Lovelace Day</a> and I wanted to join <a href="https://twitter.com/LibTechWomen">libtechwomen</a> in celebrating the contribution of <a href="https://en.wikipedia.org/wiki/Suzanne_Briet">Suzanne Briet</a>. Briet's thinking helped found the field of <a href="https://en.wikipedia.org/wiki/Information_science">Information Science</a> or <a href="https://en.wikipedia.org/wiki/Documentation_science">Documentation Science</a> as it was known then. Documentation was a field of study started by <a href="https://en.wikipedia.org/wiki/Paul_Otlet">Paul Otlet</a> and <a href="https://en.wikipedia.org/wiki/Henri_La_Fontaine">Henri La Fontaine</a> which focused on fixed forms of documents (e.g.) books, newspapers, etc. Briet's contribution expanded the purview of the study of documents to include the social context in which documents are situated. Or as Ronald Day <a href="http://www.asis.org/Bulletin/Dec-06/day.html">says</a></p>
 <blockquote>
 <p>Briet’s writings stressed the importance of cultural forms and social situations and networks in creating and responding to information needs, rather than seeing information needs as inner psychological events. She challenges our common assumptions about the role and activities of information professionals and about the form and nature of documents. She speaks to our age of digital libraries, with their multi-documentary forms, but she also challenges the very conceptual assumptions about the form and the organization of knowledge in such digital libraries. Readers of What Is Documentation? will find themselves returning to Briet’s book, again and again, coming upon ever new insights into current problems and ever new challenges to still current assumptions about documents and libraries and about the origins, designs and uses of information management and its systems.</p>

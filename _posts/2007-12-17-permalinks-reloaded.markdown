@@ -49,6 +49,7 @@ comments:
   content: |
     <p>[...] permalinks reloaded [...]</p>
 ---
+
 <p>The recently <a href="http://www.dancohen.org/2007/12/12/zotero-and-the-internet-archive-join-forces/">announced</a> <a href="http://zotero.org">Zotero</a> / <a href="http://archive.org">InternetArchive</a> partnership is exciting on a bunch of levels. The one that immediately struck me was the use of the Internet Archive URI. As you may have noticed before all the content in Internet Archive <a href="http://web.archive.org">Wayback Machine</a> can be referenced with a URL that looks something like:</p>
 <ul>
 <li>http://web.archive.org/web/{yyyymmddhhmmss}/{url}</li>

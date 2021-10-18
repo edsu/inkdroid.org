@@ -35,6 +35,7 @@ comments:
     URL for the sprint has changed to http://chipy.org/Sprint\r\n\r\nBice piece of
     code.  Intresting, useful and fast.  Congratulations!"
 ---
+
 <p>It's great to see that our <a href="http://web.archive.org/web/20050404011108/http://chipy.org:80/sprint.html">ChiPy sprint</a> bore some fruit for the PyPI service. There's now decent <a href="http://wiki.python.org/moin/PyPiXmlRpc">XMLRPC support</a> in PyPI for querying the packages. This will hopefully open up the door for lots of PyPI utilities that abound in the Perl/CPAN world...like this very simple client for listing packages:</p>
 <pre lang="python">
 #!/usr/bin/env python

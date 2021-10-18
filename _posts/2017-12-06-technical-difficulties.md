@@ -1,9 +1,10 @@
 ---
 layout: post
 title: On Technical Difficulties
-tags: 
-- Twitter
+tags:
+- twitter
 ---
+
 
 *I originally posted this on [Medium] but I'm adding it here too just for posterity. And by posterity I mean if this little blog outlasts a big web publisher like Medium. Hey, it could happen...*
 

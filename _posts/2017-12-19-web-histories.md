@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Web Histories 
-tags: 
-- web archives
+title: Web Histories
+tags:
+- web-archives
 ---
+
 
 @Rogers:2017 provides a useful introduction of how to use screencasts of
 archived web content as a method when doing web history. He credits [Jon Udell]

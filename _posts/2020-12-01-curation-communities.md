@@ -8,6 +8,7 @@ tags:
 - web
 ---
 
+
 As I indicated in the [last post] I've been teaching digital curation this
 semester at UMD. I ended up structuring the class around the idea of
 *abstraction* where we started at a fairly low level looking at file systems

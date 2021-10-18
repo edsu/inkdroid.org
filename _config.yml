@@ -20,6 +20,7 @@ exclude:
   - sync.sh
   - inkdroid.wordpress.2015-08-31.xml
   - .git
+  - utils
 
 keep_files:
   - .dat

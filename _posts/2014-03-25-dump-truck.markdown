@@ -34,6 +34,7 @@ comments:
   content: |
     <p>In the cab, on the passenger side :-)</p>
 ---
+
 <p>I had a strange dream last night.</p>
 <p>I was working on a consulting project with an archivist friend, and a group of others I didn't know as well. I knew that the work was politically sensitive, and that it was important for some reason that escapes me now.</p>
 <p>Before the work could start I was required to sign a document. I trusted my friend implicitly, and didn't really read it closely. Afterwards my friend let me know that I had signed a document stating that said I had committed suicide, and that I no longer legally existed. Apparently, this would provide a framework for the work to happen more easily.</p>

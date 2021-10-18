@@ -22,6 +22,7 @@ tags:
 - conservation
 comments: []
 ---
+
 <p>You know how sometimes you can get ideas for a subject you are interested in by studying a different but related subject? So, strangely enough, I've found myself reading about paper conservation. Specifically, at the moment, a book called <a href="http://lccn.loc.gov/81186656"><em>Books and Documents: dating, permanence and preservation</em></a> by Julius Grant. It was printed in 1937, so I guess a lot of the material is <em>dated</em> now (haha)...but somehow it's only making it that much more interesting to read.</p>
 <p>There are long sections detailing experiments on paper and ink to determine their composition, in order to roughly estimate when a document was likely to have been created. On pages 41-44 he provides a list of supplementary evidence that can be used.</p>
 <blockquote>

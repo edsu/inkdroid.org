@@ -44,6 +44,7 @@ date_gmt: '2006-03-14 18:43:41 +0000'
 tags: []
 comments: []
 ---
+
 <div class='vevent x-wpsb-simple-event'>
 <h3 class='summary'>Programming For Newbies With Python</h3>
 <p><b>Begins</b>: <abbr class='dtstart' title='2006-03-25T13:00:00'>Sat, 25 Mar 2006 at  1:00 PM</abbr></p>

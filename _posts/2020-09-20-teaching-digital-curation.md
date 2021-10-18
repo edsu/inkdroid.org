@@ -2,9 +2,10 @@
 title: Teaching Digital Curation
 layout: post
 tags:
-- digital curation
+- digital-curation
 - teaching
 ---
+
 
 <img class="img-responsive" src="/images/formats.png">
 

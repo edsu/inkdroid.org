@@ -18,6 +18,7 @@ date_gmt: '2005-11-26 13:21:02 +0000'
 tags: []
 comments: []
 ---
+
 <p>I did end up hearing back from <a href="http://www.hackdiary.com/">Matt Biddulph</a> about the search technology that he's using with <a href="http://www.rubyonrails.org">RubyOnRails</a> to build the BBC Programme Catalogue.</p>
 <blockquote><p>
 The core of the search is nothing more than mysql 4.1's fulltext indexer. I used to think very poorly of it until I discovered how to turn off its automatic stoplist and minimum indexable word length, and started using its boolean mode. Having the database manage the indexing without having to keep a separate index in sync is very valuable, and of course it's portable to any client language.</p>

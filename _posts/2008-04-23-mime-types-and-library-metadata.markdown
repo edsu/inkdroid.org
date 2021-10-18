@@ -33,6 +33,7 @@ comments:
   date_gmt: '2008-04-23 14:54:12 +0000'
   content: This is a great idea, I think.
 ---
+
 <p>While thinking about library metadata and <a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">RESTful web services</a> I got to wondering how many application/<em>+xml <a href="http://www.iana.org/assignments/media-types/application/">MIME types</a> have actually been registered. It <a href="http://web.archive.org/web/20101216203407/http://inkdroid.org/bzr/bin/xml_mimes">turns out</a> that 120 out of the 633 other application/</em> MIME types.</p>
 <p>Does it seem like a generally useful thing to be able to identify metadata representations with MIME types? Rebecca Guenther registered <a href="http://www.rfc-editor.org/rfc/rfc2220.txt">application/marc</a> back in 1997. Maybe we could have application/marc+xml, application/mods+xml, application/dc+xml?</p>
 <p>MIME types for established library metadata formats would be useful to use in applications like <a href="http://www.ietf.org/rfc/rfc5023.txt">AtomPub</a> implementations, or say <a href="http://www.openarchives.org/ore/">OAI-ORE</a> resource maps that want to identify the format of a particular resource. In general it would be useful to have in RESTful environments where content-negotiation for resources is encouraged.</p>

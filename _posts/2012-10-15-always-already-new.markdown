@@ -24,6 +24,7 @@ tags:
 - internet
 comments: []
 ---
+
 <p><a href="http://www.goodreads.com/book/show/1158322.Always_Already_New" style="float: left; padding-right: 20px"><img alt="Always Already New: Media, History, And The Data Of Culture" border="0" src="http://photo.goodreads.com/books/1347774737m/1158322.jpg" /></a><a href="http://www.goodreads.com/book/show/1158322.Always_Already_New">Always Already New: Media, History, And The Data Of Culture</a> by <a href="http://www.goodreads.com/author/show/398692.Lisa_Gitelman">Lisa Gitelman</a><br />
 My rating: <a href="http://www.goodreads.com/review/show/393386341">3 of 5 stars</a></p>
 <p>I enjoyed this book, mainly for the author's technique of exploring what media means in our culture by using two examples, separated in time: the phonograph and the Internet. She admits that in some ways this amounts to comparing apples to oranges, and there is definitely a creative tension in the book. Gitelman's emphasis is not that media technologies change society and culture, but that a technology is introduced and is in turn shaped by its particular social and historical context, which then reshapes society and culture.</p>

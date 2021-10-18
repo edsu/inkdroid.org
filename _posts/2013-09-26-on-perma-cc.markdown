@@ -16,9 +16,9 @@ wordpress_url: http://inkdroid.org/journal/?p=6145
 date: '2013-09-26 13:23:20 +0000'
 date_gmt: '2013-09-26 20:23:20 +0000'
 tags:
-- web archiving
+- web-archives
 - law
-- supreme court
+- supreme-court
 comments:
 - id: 86587
   author: 'Neulich im Feedreader&#8230; (Teil III): Permanente Links halten auch einem
@@ -30,6 +30,7 @@ comments:
   content: |
     [&#8230;] On perma.cc Auch Links, die in Gerichtsentscheidungen genannt werden, veralten und sind irgendwann einmal nicht mehr zugänglich. [&#8230;]
 ---
+
 <p>In case you missed it, an interesting <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2329161">study</a> by Jonathan Zittrain and Kendra Albert was written up in the New York Times with the provocative title <a href="http://www.nytimes.com/2013/09/24/us/politics/in-supreme-court-opinions-clicks-that-lead-nowhere.html">In Supreme Court Opinions, Web Links to Nowhere</a>. In addition to the article, the study itself is worth reading for its compact review of the study of <a href="https://en.wikipedia.org/wiki/Link_rot">link rot</a> on the Web, and its stunning finding that 49% of the links in US Supreme Court Opinions are broken.</p>
 <p>This 49% is in contrast with a similar, recent <a href="http://digitalcommons.law.yale.edu/yjolt/vol15/iss2/2/">study</a> by Raizel Liebler and June Liebert of the same links, which found a much lower rate of 29%. The primary reason for this discrepancy was that Zittrain and Albert looked at <em>reference rot</em> in addition to <em>link rot</em>.</p>
 <p>The term <em>reference rot</em> was coined by Rob Sanderson, Mark Phillips and Herbert Van de Sompel in their paper <a href="http://arxiv.org/abs/1105.3459">Analyzing the Persistence of Referenced Web Resources with Memento</a>. The distinction is subtle but important. Link rot typically refers to when a URL returns an HTTP error of some kind that prevents a browser from rendering the referenced content. This error can be the result of the page disappearing, or the webserver being offline. Reference rot refers to when the URL itself seems to work (returning either a 200 OK or redirect of some kind), but the content that comes back is no longer the content that was being referenced.</p>

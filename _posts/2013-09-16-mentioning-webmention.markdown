@@ -22,4 +22,5 @@ tags:
 - blogs
 comments: []
 ---
+
 <p>Inspired enough by <a href="https://twitter.com/adactio">Jeremy Keith's</a> <a href="http://adactio.com/journal/6495/">post</a> about <a href="http://indiewebcamp.com/webmention">webmention</a>, and the buzz about the <a href="http://indiewebcamp.com/why">indieweb</a> to give <a href="https://github.com/pfefferle/wordpress-webmention">wordpress-webmention</a> by <a href="https://twitter.com/pfefferle">Matthias Pfefferle</a> a quick try.</p>

@@ -24,6 +24,7 @@ tags:
 - mets
 comments: []
 ---
+
 <p>I'm used to refactoring code smells, but sometimes you can catch a bad whiff in XML too. </p>
 <p>Before:</p>
 <pre lang="xml">

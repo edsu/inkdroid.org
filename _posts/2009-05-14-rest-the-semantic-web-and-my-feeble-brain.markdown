@@ -16,7 +16,7 @@ wordpress_url: http://inkdroid.org/journal/?p=974
 date: '2009-05-14 20:29:40 +0000'
 date_gmt: '2009-05-15 03:29:40 +0000'
 tags:
-- semanticweb
+- semweb
 - newspapers
 - web
 - rest
@@ -226,6 +226,7 @@ comments:
     Linked Data pattern) about some trouble I&#8217;ve had understanding what Information
     Resources and Documents are in the context of [...]"
 ---
+
 <p>Imagine you were minting close to a million URIs for historic newspaper pages such as:</p>
 <blockquote><p>
 <a href="http://chroniclingamerica.loc.gov/lccn/sn85066387/1898-01-01/ed-1/seq-1/">http://chroniclingamerica.loc.gov/lccn/sn85066387/1898-01-01/ed-1/seq-1/</a>

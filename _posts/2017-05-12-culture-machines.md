@@ -5,6 +5,7 @@ tags:
 - algorithms
 ---
 
+
 > We believe in the power of code as a set of magical symbols linking the
 > invisible and visible, echoing our long cultural tradition of logos, or
 > language as an underlying system of order and reason, and its power as a 

@@ -17,10 +17,11 @@ date: '2014-05-23 03:25:52 +0000'
 date_gmt: '2014-05-23 10:25:52 +0000'
 tags:
 - preservation
-- format migration
+- format-migration
 - wfmu
 comments: []
 ---
+
 <p>A few months ago I happened to read a <a href="http://pitchfork.com/features/paper-trail/9370-records-ruin-the-landscape/">Pitchfork interview</a> with <a href="https://en.wikipedia.org/wiki/David_Grubbs">David Grubbs</a> about his book <a href="http://www.dukeupress.edu/Records-Ruin-the-Landscape/">Records Ruin the Landscape</a>. In the interview Grubbs mentioned how his book was influenced by a 2004 <a href="https://en.wikipedia.org/wiki/Kenneth_Goldsmith">Kenny Goldsmith</a> <a href="https://wfmu.org/playlists/shows/10521">interview</a> with <a href="https://en.wikipedia.org/wiki/Henry_Flynt">Henry Flynt</a>...and Pitchfork usefully linked to the <a href="https://wfmu.org/playlists/shows/10521">interview</a> in the <a href="https://wfmu.org/playlists">WFMU archive</a>.</p>
 <p>You know, books linking to interviews linking to interviews linking to archives, the wondrous beauty and utility of hypertext.</p>
 <p>I started listening to the interview on my Mac with Chrome and the latest RealAudio plugin but after a few minutes it went into a feedback loop of some kind, and became full of echoes and loops, and was completely unlistenable. This is WFMU so I thought maybe this was part of the show, but it went on for a while, which seemed a little bit odd. I tried reloading thinking it might be some artifact of the stream, but the exact thing happened again. I noticed a prominent <a href="https://wfmu.org/audiostream.shtml">Get Help</a> link right next to the link for listening to the content. I clicked on it and filled out a brief form, not really expecting to hear back.</p>

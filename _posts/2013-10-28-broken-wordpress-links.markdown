@@ -25,13 +25,11 @@ comments:
   date_gmt: '2013-10-28 21:54:09 +0000'
   content: |
     Using the post date would be a great way to start windowing that search for then-current page but I think it would run into issues getting metadata – i.e. you're using WordPress and it appears that  it doesn't set the Last-Modified header, which has been standard since the mid-90s:
-
     http://redbot.org/?uri=http%3A%2F%2Finkdroid.org%2Fjournal%2F2005%2F12%2F04%2Fsnakes-and-rubies%2F
-
     Maybe this is a good time to see if the IA folks are interested in adding support for the OpenGraph article:published_time or dcterms.created meta values which are present in the template? The Schema.org BlogPost date created / published would also be great candidates for inclusion.
-
     https://archive.org/web/wb404.js doesn't appear to do any parsing; it's not clear whether the code for the available.php endpoint is open-source or not.
 ---
+
 <p>Internet Archive <a href="http://blog.archive.org/2013/10/25/fixing-broken-links/">recently announced</a> their new <a href="http://archive.org/help/wayback_api.php">Availability API</a> for checking if a representation for a given URL is in their archive with a simple HTTP call. In addition to the API they highlighted a few IA related projects, including a Wordpress plugin called <a href="http://wordpress.org/plugins/broken-link-checker/">Broken Link Checker</a> which will check the links in your Wordpress site, and offer to fix any broken ones using an Internet Archive URL, if it is available based on a call to the Availability API.</p>
 <p>I installed the plugin here and let it run for a bit. It detected 3898 unique URLs in 4910 links of which 482 are broken. This amounts to 12% link rot ... but there were also 1038 redirects that resulted in a 200 OK ; so there may be a fair bit of reference rot lurking there. The plugin itself doesn't provide a summary of HTTP status codes for the "broken URLS" but they are listed one by one in the broken link report. Since I could see the HTTP status codes in the table, I figured out you can easily log into your Wordpress database and run a query like this to get a summary:</p>
 <pre style="font-family: monospace;">mysql> select http_code, count(*) from wp_blc_links where broken is true group by http_code;

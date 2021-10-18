@@ -7,6 +7,7 @@ tags:
 - recycling
 ---
 
+
 *For my qualitative research methods class I was asked to visit a particular
 place twice to experiment with a (very brief) ethnographic field study. All the
 names included here are fictitious, and were only included to try to help

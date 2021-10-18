@@ -5,6 +5,7 @@ tag:
 - archives
 ---
 
+
 I love how @Kelleher:2017 positions the radical? idea of funding the development
 of archival infrastructure where it is actually needed using such a logical
 appeal to the status quo:

@@ -19,10 +19,11 @@ tags:
 - google
 - books
 - epub
-- internet archive
-- google books
+- internet-archive
+- google-books
 comments: []
 ---
+
 <p>Over the weekend you probably saw the <a href="http://booksearch.blogspot.com/2009/08/download-over-million-public-domain.html">announcements</a> <a href="http://www.readwriteweb.com/archives/google_opens_up_its_epub_archive_download_1_million_books_for_free.php">going</a> <a href="http://www.engadget.com/2009/08/26/google-makes-over-a-million-public-domain-books-available-in-epu/">around</a> about Google Books releasing +1 million public domain ebooks on the web as <a href="http://en.wikipedia.org/wiki/EPUB">epubs</a>. This is great news: epub is a web friendly, open format -- and having all this content available as epub is important.</p>
 <p>Now I might be greedy, but when I saw that 1 million epubs are available my mind immediately jumps to thinking of getting them, indexing them and whatnot. Then I guiltily justified my greedy thoughts by pondering the conventional digital preservation wisdom that <a href="http://en.wikipedia.org/wiki/LOCKSS">Lots of Copies Keeps Stuff Safe</a> (LOCKSS). The books are in the public domain, so .... why not?</p>
 <p>Google Books has a really nice <a href="http://web.archive.org/web/20120415030517/http://code.google.com:80/apis/books/docs/gdata/developers_guide_protocol.html">API</a>, which lets you get back search results as Atom, with lots of links to things like thumbnails, annotations, item views, etc. You also get a nice amount of <a href="http://dublincore.org/">Dublin Core</a> metadata. And you can limit your search to books published before 1923. For example here's a search for pre-1923 books that mention "Stevenson" (disclaimer: I don't think the 1923 limit is actually working):</p>

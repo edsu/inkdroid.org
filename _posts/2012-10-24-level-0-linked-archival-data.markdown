@@ -25,6 +25,7 @@ tags:
 - archivegrid
 comments: []
 ---
+
 <div style="float: left; font-size: 8pt; text-align: center; margin-right: 10px;"><a href="https://en.wikipedia.org/wiki/File:Fondos_archivo.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Fondos_archivo.jpg/220px-Fondos_archivo.jpg"/><br />Depósito del Archivo de la Fundación<br />Sierra-Pambley</a></div>
 <p><strong><em>TLDR; lets see if we can share structured archival data better by adding HTML &lt;link&gt; elements that point at our EAD XML files.</em></strong></p>
 <p>A few weeks ago I attended a small meeting of DC museums, archives and libraries that were discussing what Linked Data means for Archives. Hillel Arnold and I took collaborative notes in <a href="http://piratepad.net/IB2zcWvFDz">Pirate Pad</a>. For a good part of the time we went around the room talking about how we describe archival collections with various workflows using Encoded Archival Description (EAD), and how this was mostly working (or not).</p>

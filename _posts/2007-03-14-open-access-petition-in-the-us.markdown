@@ -35,6 +35,7 @@ comments:
     this problem by removing access barriers and enabling new, expanded, and accelerated
     uses of research findings. [...]"
 ---
+
 <p>As <a href="http://www.jiscmail.ac.uk/archives/jisc-repositories.html">announced</a> on the jisc-repositories list there is now a <a href="http://www.publicaccesstoresearch.org/">US counterpart</a> to the <a href="http://www.ec-petition.eu/">EU Petition calling for Open Access</a>. </p>
 <blockquote><p>
 We, the undersigned, believe that broad dissemination of research results is fundamental to the advancement of knowledge. For America&rsquo;s taxpayers to obtain an optimal return on their investment in science, publicly funded research must be shared as broadly as possible. Yet too often, research results are not available to researchers, scientists, or the members of the public. Today, the Internet and digital technologies give us a powerful means of addressing this problem by removing access barriers and enabling new, expanded, and accelerated uses of research findings.

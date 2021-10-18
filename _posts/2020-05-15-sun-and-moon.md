@@ -6,6 +6,7 @@ tags:
 - virus
 ---
 
+
 Since the Coronavirus [stay-at-home order] went into effect we've allowed Maeve
 to play outside in our yard with *one* friend, a neighbor named Gracyn. We've been
 careful not to allow Gracyn into our house, and sometimes Maeve will go over to

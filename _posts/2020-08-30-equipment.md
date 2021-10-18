@@ -3,6 +3,7 @@ title: Equipment
 layout: post
 ---
 
+
 Over the past 4 or 5 months I've noticed my eyesight degrading somewhat rapidly.
 Reading out of one eye became impossible, and my vision generally became cloudy.
 I went to an optometrist a month ago (MyEyeDr) where they usually run a battery

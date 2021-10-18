@@ -3,10 +3,11 @@ date: 2021-05-18T01:20:00
 layout: post
 title: Notes from the APIcalypse
 tags:
-- Twitter
-- Research
-- Presentation
+- twitter
+- research
+- presentation
 ---
+
 
 I'm giving a short presentation as part of a panel tomorrow at the [UMD Social
 Data Science Center](https://socialdatascience.umd.edu/) with the title "Notes

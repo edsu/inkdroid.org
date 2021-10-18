@@ -27,6 +27,7 @@ tags:
 - markets
 comments: []
 ---
+
 <p>The University of Southern California recently <a href="http://repository.usc.edu/">announced</a> its Digital Repository (USCDR) which is a joint venture between the <a href="http://dornsife.usc.edu/vhi/">Shoah Foundation Institute</a> and the <a href="http://www.usc.edu/">University of Southern California</a>. The site is quite an impressive brochure that describes the various services that their digital preservation system provides. But a few things struck me as odd. I was definitely pleased to see a prominent description of <a href="http://repository.usc.edu/web-access/">access services</a> centered on the Web:</p>
 <blockquote><p>
 The USCDR can provide global access to digital collections through an expertly managed, cloud-computing environment. With its own content distribution network (CDN), the repository can make a digital collection available around the world, securely, rapidly, and reliably. <strong>The USCDR’s CDN is an efficient, high-performance alternative to leading commercial content distribution networks.</strong> The USCDR’s network consists of a system of disk arrays that are strategically located around the world. Each site allows customers to upload materials and provides users with high-speed access to the collection. The network supports efficient content downloads and real-time, on-demand streaming. The repository can also arrange content delivery through commercial CDNs that specialize in video and rich media.

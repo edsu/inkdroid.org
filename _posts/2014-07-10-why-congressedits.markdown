@@ -290,6 +290,7 @@ comments:
   content: |
     [&#8230;] http://inkdroid.org/journal/2014/07/10/why-congressedits/ [&#8230;]
 ---
+
 <p><em>Note: as with all the content on this blog, this post reflects my own thoughts about a personal project, and not the opinions or activities of my employer.</em></p>
 <p>Two days ago a retweet from my friend <a href="http://twitter.com/iand">Ian Davis</a> scrolled past in my Twitter stream:</p>
 <blockquote class="twitter-tweet" lang="en">

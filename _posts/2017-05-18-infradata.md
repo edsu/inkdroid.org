@@ -8,6 +8,7 @@ tags:
 ---
 
 
+
 <img class="img-responsive" src="/images/arpanet.png"><br>
 <div style="font-size: smaller; text-align: center;">
 <em><a href="https://www.google.com/search?q=arpanet+map&amp;tbm=isch">Screenshot of images of Arpanet Maps from Google Images</a>

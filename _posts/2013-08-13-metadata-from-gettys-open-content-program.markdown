@@ -15,9 +15,12 @@ wordpress_id: 5906
 wordpress_url: http://inkdroid.org/journal/?p=5906
 date: '2013-08-13 06:52:56 +0000'
 date_gmt: '2013-08-13 13:52:56 +0000'
-tags: []
+tags:
+- getty
+- metadata
 comments: []
 ---
+
 <p><a href="http://www.getty.edu/art/gettyguide/artObjectDetails?artobj=335657"><img style="float: left; margin-right: 10px;" width="100" src="http://www.getty.edu/art/collections/images/l/33565701.jpg"></a><br />
 <a href="http://loribyrdphillips.com/">Lori Phillips</a> recently <a href="http://lists.okfn.org/pipermail/open-glam/2013-August/000693.html">mentioned</a> on the open-glam discussion list that Getty are <a href="http://blogs.getty.edu/iris/open-content-an-idea-whose-time-has-come/">starting</a> to make high-resolution images of some of their public domain material available as part of their <a href="http://www.getty.edu/about/opencontent.html">Open Content Program</a>. The announcement mentions that metadata is included in each file, so I thought I'd take a look. It's <a href="https://www.adobe.com/products/xmp/">Adobe Extensible Media Platform (XMP)</a> aka RDF. Here's an example I pulled from <a href="http://www.getty.edu/art/gettyguide/artObjectDetails?artobj=335657">The Portrait of Madame Brunet</a> (I apologize if reading RDF as <a href="http://www.w3.org/TeamSubmission/turtle/">Turtle</a> burns your eyes, but I find it much easier to read than the equivalent RDF/XML).</p>
 <pre lang="n3">

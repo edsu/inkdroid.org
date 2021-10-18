@@ -27,6 +27,7 @@ comments:
     4.0 has been free-as-in-beer-ly available online for some time now, and Unicode
     5.0 will be as soon as the book is published.
 ---
+
 <p>Folks who are interested in libraries and technology are often drawn to the issue of open standards. Using open standards is very important to libraries for a variety of reasons that <a href="http://ecorrado.us">Ed Corrado</a> <a href="http://www.istl.org/05-spring/article2.html">summarizes</a> nicely.</p>
 <p>This week my podcast reader picked up an excellent <a href="http://web.archive.org/web/20070712091701/http://osc.gigavox.com/shows/detail1222.html">interview</a> with <a href="http://danesecooper.blogs.com/">Danese Cooper</a> of the <a href="http://www.opensource.org/osr/">Open Source Initiative</a> where she talks about the <a href="http://www.opensource.org/osr/">Open Standard Requirement</a> which was introduced a few months ago. It provides a new perspective on the same issue from outside of the library community.</p>
 <p>Essentially the OSR amounts to 5 guidelines for identifying a truly open standard. These guidelines are different though because they focus on what makes a standard open for an <em>implementor</em>. Whether the standard was created by an open process or not is really outside of scope. The important thing is how easy it is for a software developer to write software that uses the standard. A nice feature of the OSR is that the guidelines would fit on an index card. Here's my regurgitation of them:</p>

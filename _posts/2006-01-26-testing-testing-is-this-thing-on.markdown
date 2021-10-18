@@ -38,6 +38,7 @@ comments:
   date_gmt: '2006-02-05 20:01:04 +0000'
   content: BEBE!!!
 ---
+
 <div class='vevent x-wpsb-simple-event'>
 <h3 class='summary'>Marcel Molina on testing in Rails</h3>
 <p><b>Begins</b>: <abbr class='dtstart' title='2006-02-06T18:30:00'>Mon, 06 Feb 2006 at  6:30 PM</abbr></p>

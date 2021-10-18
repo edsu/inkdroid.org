@@ -17,12 +17,13 @@ date: '2010-12-02 08:30:01 +0000'
 date_gmt: '2010-12-02 15:30:01 +0000'
 tags:
 - rest
-- linked data
-- digital preservation
+- linked-data
+- digital-preservation
 - data.gov.uk
-- digital-curation
+- curation
 comments: []
 ---
+
 <p>The other day I happened to notice that the folks at <a href="http://data.gov.uk">data.gov.uk</a> have started using the <a href="http://vocab.deri.ie/dcat">Data Catalog Vocabulary</a> in the <a href="http://www.w3.org/TR/xhtml-rdfa-primer/">RDFa</a> they have embedded in their dataset webpages. As an example <a href="https://gist.github.com/716228">here</a> is the RDF you can pull out of the HTML for the <a href="http://data.gov.uk/dataset/anonymised_mot_test">Anonymised MOT tests and results</a> dataset. Of particular <a href="http://inkdroid.org/journal/2010/01/26/data-gov-uk-and-rdfa/">interest</a> to me is that the dataset description now includes an explicit link to the actual data being described using the <code><a href="http://vocab.deri.ie/dcat#distribution">dcat:distribution</a></code> property.</p>
 <pre>
      &lt;http://data.gov.uk/id/dataset/anonymised_mot_test&gt; dcat:distribution

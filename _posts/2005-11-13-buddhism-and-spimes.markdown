@@ -18,6 +18,7 @@ date_gmt: '2005-11-13 14:19:49 +0000'
 tags: []
 comments: []
 ---
+
 <p>The Dalai Lama has an <a href="http://www.nytimes.com/2005/11/12/opinion/12dalai.html">op-ed</a> on science and faith in yesterdays New York Times. There are some delightful descriptions of his encounters with science as a child, which I imagine are excerpts from his recent <a href="http://www.amazon.com/exec/obidos/tg/detail/-/076792066X">book</a>. I also like how he <a href="http://www.mozilla.org/blue-sky/misc/199805/">intertwingles</a> religion and science--not making one higher up in a hierarchy.</p>
 <blockquote><p>If science proves some belief of Buddhism wrong, then Buddhism will have to change. In my view, science and Buddhism share a search for the truth and for understanding reality. By learning from science about aspects of reality where its understanding may be more advanced, I believe that Buddhism enriches its own worldview.</p></blockquote>
 <p>And the converse:</p>

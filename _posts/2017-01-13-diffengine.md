@@ -7,6 +7,7 @@ tags:
 - rss
 ---
 
+
 Our most respected newspapers want their stories to be accurate, because once
 the words are on paper, and the paper is in someone's hands, there's no changing
 them. The words are literally fixed in ink to the page, and mass produced into

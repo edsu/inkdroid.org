@@ -18,4 +18,5 @@ date_gmt: '2006-06-27 10:06:43 +0000'
 tags: []
 comments: []
 ---
+
 <p>It's nice to see that Dr. King's papers <a href="http://www.nytimes.com/2006/06/27/us/27king.html">found a home</a> at his alma mater--and won't be locked away in somebody's safe.</p>

@@ -16,9 +16,10 @@ wordpress_url: http://inkdroid.org/journal/?p=7809
 date: '2014-08-07 19:05:32 +0000'
 date_gmt: '2014-08-08 02:05:32 +0000'
 tags:
-- bruno latour
+- bruno-latour
 comments: []
 ---
+
 <blockquote>
 <p>The connective quality of written traces is still more visible in the most despised of all ethnographic objects: the file or the record. The "rationalization" granted to bureaucracy since Hegel and Weber has been attributed by mistake to the "mind" of (Prussian) bureaucrats. It is all in the files themselves.</p>
 <p>A bureau is, in many ways, and more and more every year, a small laboratory in which many elements can be connected together just because their scale and nature has been averaged out: legal texts, specifications, standards, payrolls, maps, surveys (ever since the Norman conquest, as shown by Clanchy, 1979). Economics, politics, sociology, hard sciences, do not come into contact through the grandiose entrance of "interdisciplinarity" but through the back door of the file.</p>

@@ -2,8 +2,9 @@
 title: Fuzzy Matching
 layout: post
 tags:
-- web archives
+- web-archives
 ---
+
 
 This is just a quick post to bookmark an [interesting discussion] about why it's
 difficult to archive Facebook, at least with current web archiving tech. Ilya

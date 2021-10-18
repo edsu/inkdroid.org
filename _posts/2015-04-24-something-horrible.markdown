@@ -17,10 +17,11 @@ date: '2015-04-24 13:18:58 +0000'
 date_gmt: '2015-04-24 20:18:58 +0000'
 tags:
 - pragmatism
-- John Dewey
+- john-dewey
 - quotes
 comments: []
 ---
+
 <blockquote>
 <p>There is something horrible, something that makes one fear for civilization, in denunciations of class-differences and class struggles which proceed from a class in power, one that is seizing every means, even to a monopoly of moral ideals, to carry on its struggle for class-power.</p>
 <p>

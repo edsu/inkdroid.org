@@ -6,6 +6,7 @@ tags:
 - twitter
 ---
 
+
 This semester I had the opportunity to help out in a few sessions of
 [Matt Kirschenbaum]'s Digital Studies graduate seminar. Matt wanted 
 to include some hands on exercises collecting data from the Twitter API, 

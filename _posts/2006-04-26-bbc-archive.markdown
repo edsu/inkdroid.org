@@ -18,6 +18,7 @@ date_gmt: '2006-04-26 14:37:55 +0000'
 tags: []
 comments: []
 ---
+
 <p>It's nice to see that <a href="http://web.archive.org/web/20061208071320/http://open.bbc.co.uk:80/catalogue/infax/">BBC Programme Catalogue</a> (built with <a href="http://rubyonrails.org">RubyOnRails</a> and <a href="http://mysql.com">MySQL</a>) has gone live. Here is some historical background from the <a href="http://web.archive.org/web/20061206204544/http://open.bbc.co.uk:80/cataloguemeta/2005/11/about_this_prototype.html">about</a> page:</p>
 <blockquote><p>
 The BBC has been cataloguing and indexing its programmes since the 1920s. The development of the programme catalogue has reflected the changes in the BBC and in broadcasting over the last seventy five years. For example, in the early days of broadcasting, for both Radio and TV, the majority of programmes were broadcast live and were never recorded. There was therefore little point at the time to do extensive cataloguing and indexing of material that did not exist. As you will see, the number of catalogue entries for a day in the 1990s, far exceeds the entries for a day from the 1950s.</p>

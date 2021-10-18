@@ -21,6 +21,7 @@ tags:
 - twitter
 comments: []
 ---
+
 <p><a href="http://code4lib.org/conference/2015/">code4lib 2015</a> is about to kick off in Portland this morning. Unfortunately I couldn't make it this year, but I'm looking forward to watching the <a href="https://www.youtube.com/user/code4lib">livestream</a> over the next few days. Thanks so much to the conference organizers for setting up the livestream. The <a href="http://code4lib.org/conference/2015/schedule">schedule</a> has the details about who is speaking when.</p>
 <p>As a little gift to real and virtual conference goers (mostly myself) I quickly created <a href="http://inkdroid.org/c4l15-urls/">a little web app</a> that will watch the Twitter stream for #c4l15 tweets, and keep track of which URLs people are talking about. You can see it running, at least while the conference is going <a href="http://inkdroid.org/c4l15-urls/">here</a>.</p>
 <p>I've done this sort of thing in an ad hoc way with <a href="http://github.com/edsu/twarc">twarc</a> and some scripts--mostly after (rather than during) an event. For example here's <a href="https://gist.github.com/edsu/c8027057f20dc8c29eb6">a report</a> of URLs mentioned during <a href="https://twitter.com/search?q=%23dlfforum">#dlfforum</a>. But I wanted something a bit more dynamic. As usual the somewhat unkempt code is up on Github as a project named <a href="http://github.com/edsu/earls">earls</a>, in case you have ideas you'd like to try out.</p>

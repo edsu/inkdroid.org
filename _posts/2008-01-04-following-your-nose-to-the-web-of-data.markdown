@@ -18,7 +18,7 @@ date_gmt: '2008-01-04 15:57:33 +0000'
 tags:
 - html
 - rdf
-- semanticweb
+- semweb
 - uri
 - url
 - http
@@ -31,7 +31,6 @@ comments:
   date_gmt: '2008-06-12 17:53:09 +0000'
   content: |-
     <strong>Interesting overview about how it works&#8230;...</strong>
-
     Semantic Web, Linked data, RDF, Web 3.0 and the like are now buzz. A lot is being written about them but sometimes it&#8217;s hard for the newbie to fully understand how this data is to be related and how any software could navigate through it.
     At inkd...
 - id: 76263
@@ -82,6 +81,7 @@ comments:
   content: |
     [&#8230;] references of interest. FYN is a specific  pattern of linked data. Ed Summers provided one of the  better overviews of the use of FYN in the context of linked data and the Web of Data. [2] See the  MusicBrainz blog [&#8230;]
 ---
+
 <p><em>This is a draft of a column that's slated to be published some time in <a href="http://www.niso.org/standards/std_resources.html">Information Standards Quarterly</a>. <a href="http://www.bookism.org/open/">Jay</a> was kind enough to let me post it here in this form before it goes to press. It seems <a href="http://onebiglibrary.net/story/will-i-need-to-understand-the-semantic-web-in-2008">timely</a> to put it out there. Please feel free to leave comments to point out inaccuracies, errors, tips, suggestions, etc.</em></p>
 <hr />
 <p><a href="http://en.wikipedia.org/wiki/Image:WWWlogo.png"><img src="https://upload.wikimedia.org/wikipedia/commons/2/25/WWWlogo.png" style="float: left; border: none; margin-right: 10px;"/></a></p>

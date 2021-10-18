@@ -18,12 +18,13 @@ date_gmt: '2011-03-09 23:33:25 +0000'
 tags:
 - html
 - xhtml
-- internet archive
+- internet-archive
 - heretrix
 - wayback
 - browsers
 comments: []
 ---
+
 <p>The <a href="http://archive.org">Internet Archive</a> gave the <a href="">Wayback Machine</a> a <a href="http://iawebarchiving.wordpress.com/2011/01/24/updated-wayback-machine-in-beta-testing/">facelift</a> back in January. It actually looks really nice, but I noticed something kinda odd. I was looking for old archived versions of the lcsh.info site. Things <a href="http://replay.waybackmachine.org/20090308030621/http://lcsh.info//">work fine</a> for the latest archived copies:</p>
 <p><img src="http://inkdroid.org/images/wayback-lcsh-info.png"/></p>
 <p>But during part of lcsh.info's brief lifetime the site was serving up XHTML with the <em>application/xhtml+xml</em> media type. Now Wayback rightly (I think) remembers the media type, and serves it up that way:</p>

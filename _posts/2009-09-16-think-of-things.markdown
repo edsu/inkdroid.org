@@ -21,6 +21,7 @@ tags:
 - pooh
 comments: []
 ---
+
 <div xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/">
 <a about="http://covers.openlibrary.org/b/olid/OL619435M-M.jpg" rel="foaf:depicts" href="http://openlibrary.org/b/OL619435M"><img src="http://covers.openlibrary.org/b/olid/OL619435M-M.jpg" style="float: left; margin-right: 15px;"/></a></p>
 <blockquote about="#thingQuote" typeof="bibo:Quote">

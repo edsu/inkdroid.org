@@ -3,6 +3,7 @@ layout: post
 title: whitehouse.gov Redesign
 ---
 
+
 *TLDR; By "redesign" I actually mean clusterfuck. As of last Thursday 47% of the 315 whitehouse.gov URLs I've collected during 2017 are now 404 Not Found*
 
 ---

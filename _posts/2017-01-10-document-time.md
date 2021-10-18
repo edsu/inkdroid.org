@@ -6,6 +6,7 @@ tags:
 - documents
 ---
 
+
 A segment from @Berg:1997a about the ways in which documents and records 
 fix narratives. I think I picked up Berg's work from @Mol:2002. I particularly
 like this notion of *document time* where experience is flattened, and then 

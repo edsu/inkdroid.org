@@ -34,9 +34,7 @@ comments:
   date_gmt: '2006-01-22 05:04:32 +0000'
   content: |
     <p>Do not get me started with the vCard, vCalendar, ...</p>
-
     <p>I am so annoyed in the differences, it makes me ill.</p>
-
     <p>Because mac's iCal is a great GUI and because Firefoxs Calandar allows edits on DAV server, I stick with this format. M$ is just wrong.</p>
 - id: 63
   author: Mark Mansour
@@ -46,7 +44,6 @@ comments:
   date_gmt: '2006-02-09 15:16:40 +0000'
   content: |
     <p>You may want to check out the UPDATED lifelint parser.  I've added support for Outlook.</p>
-
     <p>http://web.archive.org/web/20060820190512/http://lifelint.net/</p>
 - id: 5198
   author: Anton
@@ -91,6 +88,7 @@ comments:
     I'd add my two bits here.\r\n\r\nAll I had to do to get Outlook to import the
     calendar was add the line \"METHOD:PUBLISH\" under BEGIN:VCALENDAR."
 ---
+
 <p>I got to talking to <a href="http://suda.co.uk/">Brian Suda</a> about why his <a href="http://microformats.org/wiki/hcalendar">hCalendar</a> extracting application <a href="http://suda.co.uk/projects/X2V/">x2v</a> works like a dream with iCal but doesn't seem to work with Microsoft Outlook 2002.</p>
 <blockquote><p>
 vCalendar/iCalendar Import failed. The input file may be corrupt.

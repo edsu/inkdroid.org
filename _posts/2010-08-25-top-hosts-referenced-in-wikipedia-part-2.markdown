@@ -102,6 +102,7 @@ comments:
   content: |
     <p>[...] &#8220;Anime News Network&#8221; has the dubious distinction of being one of the most-linked domains from Wikipedia pages. This is because anime is vastly more important than things like history, [...]</p>
 ---
+
 <p><a href="http://jodischneider.com/">Jodi Schneider</a> pointed out to me in an email that my <a href="http://inkdroid.org/journal/2010/08/21/top-hosts-referenced-in-english-wikipedia/">previous post</a> about the top 100 hosts referenced in wikipedia may have been slightly off balance since it counted *all* pages on wikipedia (talk pages, files, etc), and was not limited to only links in articles. The indicator for her was the high ranking of <em>www.google.com</em>, which seemed odd to her in the article space.</p>
 <p>So I downloaded the <a href="http://dumps.wikimedia.org/enwiki/latest/enwiki-latest-page.sql.gz">enwiki-latest-page.sql.gz</a>, loaded it in, and then joined on it in my query to come up with a <a href="http://inkdroid.org/data/enwiki-externallinks-hostnames-articles-only.txt.gz">new list</a>. Jodi was right, it's a lot more interesting:</p>
 <p><a href="http://inkdroid.org/images/en-wikipedia-externallinks-articles-only-chart.png"><img class="img-responsive" src="http://inkdroid.org/images/en-wikipedia-externallinks-articles-only-chart.png" style="border: none;"/></a></p>

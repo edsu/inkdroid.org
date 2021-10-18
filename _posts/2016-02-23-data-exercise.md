@@ -6,6 +6,7 @@ tags:
 - inst808
 ---
 
+
 This week in my qualitative methods class we all looked for qualitative
 datasets on the Web in various data repositories and considered how easily
 they could be reused (secondary analysis). Because of their confidential 

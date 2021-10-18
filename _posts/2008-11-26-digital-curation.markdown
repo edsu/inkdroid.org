@@ -25,6 +25,7 @@ tags:
 - ndiipp
 comments: []
 ---
+
 <p><a href="http://groups.google.com/group/digital-curation"><img src="http://inkdroid.org/images/digital-curation.png" style="margin-right: 10px; float: left; border: thick groove gray;" /></a></p>
 <p>Some folks at <a href="http://loc.gov">LC</a> and <a href="http://cdlib.org">CDL</a> are trying to kick-start a new <a href="http://groups.google.com/group/digital-curation">public discussion list</a> for talking about digital curation in its many guises: repositories, tools, standards, techniques, practices, etc. The intuition being that there is a social component to the problems of digital preservation and repository interoperability. </p>
 <p>Of course <a href="http://digitalpreservation.gov">NDIIPP</a> (the arena for the CDL/LC collaboration) has always been about <a href="http://www.digitalpreservation.gov/library/program_back.html">building and strengthening a network of partners</a>. But as Priscilla Caplan points out in her survey of the digital preservation landscape <a href="http://dx.doi.org/10.1108/07378830710840419">Ten Years After</a>, organizations in Europe like the <a href="http://www.jisc.ac.uk/">JISC</a> and <a href="http://www.langzeitarchivierung.de/">NESTOR</a> seem to have understood that there is an educational component to digital preservation as well. Yet even the JISC and NESTOR have tended to focus more on the preservation of scholarly output, whereas digital preservation really extends beyond that realm of materials.</p>

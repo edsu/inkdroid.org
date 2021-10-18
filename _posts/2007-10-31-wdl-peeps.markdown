@@ -25,5 +25,6 @@ comments:
   date_gmt: '2007-10-31 21:33:44 +0000'
   content: erk... talk about yer Mötley Crües...
 ---
+
 <p><a href="http://flickr.com/photos/inkdroid/1808726129/"><img src="/images/wdl_team.jpg" style="margin-bottom: 10px; border: none; width:450px;" /></a>Speaking of <a href="http://www.inkdroid.org/journal/2007/10/18/tools-2/">smarties</a> here's a picture of some of the folks I was fortunate to work with on the recent WDL effort. From left to right: Dan Chudnov, Andy Boyko, Babak Hamidzadeh, Dave Hafken, myself, and Chris Thatcher. I feel really fortunate to be working with all of them. The best part is that these are just the folks that were involved with the WDL project--and there are a bunch more equally fun/talented people in our group that are working on other things. I can safely say that I haven't worked with a group before that is as simultaneously top-notch and fun to work with.</p>
 <p><i>...thanks to Michael Neubert for the snapshot taken outside the Adams building at the Library of Congress</i></p>

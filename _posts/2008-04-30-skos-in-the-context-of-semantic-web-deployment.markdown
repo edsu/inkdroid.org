@@ -34,7 +34,6 @@ comments:
   date_gmt: '2008-05-12 20:27:15 +0000'
   content: |-
     <strong>The Simple Knowledge Organization System (SKOS), in the Context of Semantic Web Deployment...</strong>
-
     This past Thursday, May 8th I had the privilege to attend a presentation at the Library of Congress by Alistair Miles, key developer of SKOS, and semantic web practitioner at the University of Oxford.  The presentation was held at the Library of Congre...
 - id: 62071
   author: 'Presentation at the Library of Congress: Simple Knowledge Organization
@@ -47,6 +46,7 @@ comments:
     Library of Congress. Here&#8217;s the blurb.. Links are valuable. Links between
     documents, between people, between ideas, between data. Data is [...]"
 ---
+
 <p>If you happen to be in the DC area on May 8th and are interested in <a href="http://www.w3.org/DesignIssues/LinkedData.html">linked data</a> and the practical application of <a href="http://en.wikipedia.org/wiki/Semantic_Web">semantic web</a> technologies like <a href="http://en.wikipedia.org/wiki/Resource_Description_Framework">RDF</a> and <a href="http://en.wikipedia.org/wiki/Web_Ontology_Language">OWL</a> please join us at the <a href="http://loc.gov">Library of Congress</a> for a presentation by <a href="http://purl.org/net/aliman">Alistair Miles</a>, key developer of <a href="http://www.w3.org/2004/02/skos/">SKOS</a>, and semantic web practitioner at the <a href="http://www.ox.ac.uk/">University of Oxford</a>. </p>
 <p>Below is the announcement, I hope you can make it. Oh, and if you are really interested in this stuff we're having some brown bag sessions later in the afternoon that you are welcome to attend, just email me at <em>ehs [at] pobox [dot] com</em>. </p>
 <div style="border: thin gray inset; padding: 10px; background-color: #ffffdd;" id="skos-lc" class="vevent"><span class="summary"><b>The Simple Knowledge Organization System (SKOS), in the Context of Semantic Web Deployment</b></span>, Alistair Miles, University of Oxford <abbr title="20080508T1000-0400" class="dtstart">May 8th  10am</abbr> – <abbr title="20080507T1130-0400" class="dtend">6th 11:30am, 2008</abbr>, <span class="location">Montepelier Room, Madison Building, Library of Congress (<a href="http://maps.google.com/maps?f=q&hl=en&q=101+Independence+Ave+SE,+Washington,+District+of+Columbia,+District+of+Columbia+20003,+United+States&sll=37.0625,-95.677068&sspn=41.003738,62.841797&ie=UTF8&cd=2&geocode=0,38.887371,-77.004703&ll=38.887793,-77.004697&spn=0.009871,0.015342&z=16&iwloc=addr">map</a>) </span>. <a href="http://suda.co.uk/projects/microformats/hcalendar/get-cal.php?uri=http://inkdroid.org/journal/2008/04/30/skos-in-the-context-of-semantic-web-deployment/"><img src="http://inkdroid.org/images/hcalendar.png" style="border: none; vertical-align: bottom;" /></a></p>

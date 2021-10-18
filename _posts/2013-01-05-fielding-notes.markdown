@@ -20,11 +20,12 @@ tags:
 - http
 - interviews
 - rest
-- roy fielding
-- jon udell
+- roy-fielding
+- jon-udell
 - architecture
 comments: []
 ---
+
 <div style="float: left; font-size: 8pt; text-align: center; margin-right: 10px;"><a href="http://www.flickr.com/photos/psd/8271699529/"><img src="http://inkdroid.org/images/timbl_roy.jpg"/><br />a tongue-in-cheek change request from @timberners_lee<br />Paul Downey</a></div>
 <p>I've been doing a bit of research into the design of the Web for a paper I'm trying to write. In my travels I ran across Jon Udell's <a href="http://jonudell.net/udell/2006-08-25-a-conversation-with-roy-fielding-about-http-rest-webdav-jsr-170-and-waka.html">2006 interview</a> with Roy Fielding. The interview is particularly interesting because of Roy's telling of how (as a graduate student) he found himself working on <a href="http://en.wikipedia.org/wiki/Library_for_WWW_in_Perl">libwww-perl</a> which helped him discover the architecture of the Web that was largely documented by Tim Berners-Lee's <a href="http://en.wikipedia.org/wiki/Libwww">libwww</a> HTTP library for Objective-C. </p>
 <p>For the purposes of note taking, and giving some web spiders some text to index, here are a few moments that stood out:</p>

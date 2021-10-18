@@ -17,12 +17,13 @@ date: '2008-05-29 05:58:07 +0000'
 date_gmt: '2008-05-29 12:58:07 +0000'
 tags:
 - lc
-- semanticweb
+- semweb
 - web
 - conferences
 - nyc
 comments: []
 ---
+
 <p>Thanks to a tip from <a href="http://iandavis.com/">Ian</a>, I'm looking forward to (hopefully) attending the <a href="http://www.linkeddataplanet.com/">Linked Data Planet</a> conference in New York City as a volunteer. The idea is that I just have to pay for my hotel, and the cost of admission is waived. It seems my travel money is a bit limited at the moment (sometimes it's there, sometimes it isn't), so I figured minimizing costs would be appreciated. But today I got a request to "justify" my attendance at the conference. It was actually kind of a good exercise to sit down and write why I think the conference and <a href="http://linkeddata.org/">Linked Data</a> in general is important to the <a href="http://loc.gov">Library of Congress</a>.</p>
 <blockquote><p>One of the challenges of Digital Repository work is modeling the context for digital objects. The context for a digital object includes the set of relationships a particular digital object has with other objects in the repository. 30 years of relational database research and development have allowed us to do this modeling pretty effectively within the scope of a particular application.</p>
 <p>Very often, particularly in institutions the size of the Library of Congress, the context for a digital object includes digital objects found elsewhere in the enterprise--in other applications, with their own databases. In addition some institutions (like LC) also need to make their digital resources available publicly for other organizations to reference. The challenge here is in making the objects found in silos or islands of application data (typically housed in databases) reference-able and resolvable, so that other applications inside and outside the enterprise can use them.</p>

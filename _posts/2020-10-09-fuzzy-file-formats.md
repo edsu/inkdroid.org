@@ -3,8 +3,9 @@ title: Fuzzy File Formats
 layout: post
 tags:
 - teaching
-- digital curation
+- digital-curation
 ---
+
 
 We just finished the third module in the [Intro to Digital Curation] class that
 I'm teaching this semester. The first module was mostly us getting our

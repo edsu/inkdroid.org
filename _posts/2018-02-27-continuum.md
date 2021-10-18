@@ -5,6 +5,7 @@ tags:
 - archives
 ---
 
+
 I wish I had a dime for every time I've been told the web wasn't an archive. I
 wouldn't be rich, but I could buy us a couple slices of pizza.
 

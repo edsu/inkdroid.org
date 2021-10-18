@@ -47,6 +47,7 @@ comments:
   date_gmt: '2009-01-21 20:12:36 +0000'
   content: "@florentjoc good point, that does make more sense ..."
 ---
+
 <p>The news about <a href="http://blog.freebase.com/2009/01/05/100000-books/">100,000</a> books on Freebase got me poking around with curl. I was pleased to see that Freebase actually distinguishes between a book as a work, and a particular edition of that book. To <a href="http://en.wikipedia.org/wiki/FRBR">FRBR</a> aficionados this will be familiar as the difference between a Work and a Manifestation:</p>
 <p>For example here is a URI for James Joyce's Dubliners as a work:</p>
 <blockquote><p>

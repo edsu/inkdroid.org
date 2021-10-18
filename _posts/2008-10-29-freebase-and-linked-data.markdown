@@ -17,8 +17,8 @@ date: '2008-10-29 07:32:08 +0000'
 date_gmt: '2008-10-29 14:32:08 +0000'
 tags:
 - rdf
-- semanticweb
-- linkeddata
+- semweb
+- linked-data
 - freebase
 - turtle
 comments:
@@ -33,6 +33,7 @@ comments:
     a URI with Freebase. Conclusion: So why is this important? Because following your
     nose in HTML is what [...]"
 ---
+
 <p>Ok, this is pretty big <a href="http://lists.w3.org/Archives/Public/public-lod/2008Oct/0047.html">news</a> for linked data folks, and for semweb-heads in general. <a href="http://freebase.com">Freebase</a> is <a href="http://blog.freebase.com/2008/10/30/introducing_the_rdf_service/">now</a> a <a href="http://rdf.freebase.com">linked-data target</a>. This is important news because Freebase is an active community of content creators, creating rich data-centric descriptions with a wiki style interface, fancy data loaders, and useful machine APIs. </p>
 <p>The web2.0-meets-semweb space is also being explored by folks like <a href="http://www.talis.com/platform/">Talis</a>. It'll be interesting to see how this plays out--particularly in light of SPARQL adoption, which I remain kind of neutral about for some undefined, wary, spooky reason. I get the idea of web resources having data views. It seems like a logical, "one small step for an web agent, one giant leap for the web". But queryability with SPARQL sounds like something to push off, particularly if you've already got a <a href="http://freebase.com/opensearch.xml">search api</a> that could be hooked up to the data views.</p>
 <p>At any rate, what this announcement means is that you can get machine readable data back from freebase using a URI. The descriptions then use more URIs, which you can then follow-your-nose to, and get more machine readable data. So if you are on a page like:</p>

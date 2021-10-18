@@ -17,7 +17,7 @@ date: '2010-03-22 01:41:57 +0000'
 date_gmt: '2010-03-22 08:41:57 +0000'
 tags:
 - libraries
-- oai-ore
+- oaiore
 - archives
 - history
 - genealogy
@@ -51,6 +51,7 @@ comments:
   date_gmt: '2010-04-02 18:33:17 +0000'
   content: Sorry, that should read "is intended to be more appropriate".
 ---
+
 <div xmlns:cc="http://creativecommons.org/ns#" about="http://www.flickr.com/photos/spine/2076729686/" style="float: left; margin-right: 10px; text-align: center;"><a href="http://www.flickr.com/photos/spine/2076729686"><img src="http://inkdroid.org/images/familytree.jpg" style="height: 250px" /></a><br /><a href="http://www.flickr.com/photos/spine/">spine</a> <a rel="license" href="http://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>
 </div>
 <p>Last week's <a href="http://semweb.meetup.com/31/">Washington DC Semantic Web Meetup</a> focused on <a href="http://semweb.meetup.com/31/calendar/12368900/">History and Genealogy Semantics</a>. It was a pretty small, friendly crowd (about 15-20) that met for the first time at the Library of Congress. The group included folks from <a href="http://pbs.org">PBS</a>, the <a href="http://archives.gov">National Archives</a>, the <a href="http://loc.gov">Library of Congress</a>, and the <a href="http://chnm.gmu.edu/">Center for History and New Media</a>--as well as some regulars from the <a href="http://www.eccnet.com/xmlug/">Washington DC SGML/XML Users Group</a>.</p>

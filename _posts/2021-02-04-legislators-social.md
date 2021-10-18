@@ -4,8 +4,9 @@ title: Outgoing
 created: 2021-02-05 00:38:00
 tags:
 - politics
-- version control
+- version-control
 ---
+
 
 <figure style="display: inline; float: left; width: 300px; margin-right: 20px; margin-top: 0px;">
   <a href="https://www.flickr.com/photos/tracy_olson/405540276/">

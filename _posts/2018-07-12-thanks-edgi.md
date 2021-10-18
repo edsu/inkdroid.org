@@ -2,9 +2,10 @@
 layout: post
 title: Thanks EDGI!
 tags:
-- web archives
+- web-archives
 - python
 ---
+
 
 *TLDR; I created a small command line utility [waybackprov] to help try to
 understand who is doing all the work of deciding what needs to get archived from

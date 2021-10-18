@@ -21,9 +21,10 @@ tags:
 - networks
 - graphs
 - research
-- bruno latour
+- bruno-latour
 comments: []
 ---
+
 <p>If the ecosystem of the Web and graph visualizations are your thing, <a href="https://twitter.com/YochaiBenkler">Yochai Benkler</a> & co's recent <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2295953">Social Mobilization and the Networked Public Sphere: Mapping the SOPA-PIPA Debate</a> has lots of eye candy for you. I was going to include some here to entice you over there, but it doesn't seem to be available under <a href="https://www.ssrn.com/terms_of_use.html">terms</a> that would allow for that (sigh).</p>
 <p>You probably remember how Wikipedia went dark to protest the <a href="https://en.wikipedia.org/wiki/Stop_Online_Piracy_Act">Stop Online Piracy Act</a>, and how phone bridges in legislative offices melted down. You may also have watched Aaron Swartz's <a href="http://www.democracynow.org/2013/1/14/freedom_to_connect_aaron_swartz_1986">moving talk</a> about the role that Demand Progress played in raising awareness about the legislation, and mobilizing people to act. If you haven't go watch it now. </p>
 <p>Benkler's article really digs in to take a close look at how the "attention backbone" provided by non-traditional media outlets allowed much smaller players to coordinate and cooperate across the usual political boundaries to disrupt and ultimately defeat some of the most powerful lobby groups and politicians in the United States. I'll risk a quote from the conclusion:</p>

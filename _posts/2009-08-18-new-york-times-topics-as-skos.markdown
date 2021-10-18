@@ -59,9 +59,7 @@ comments:
   date_gmt: '2009-11-28 20:35:46 +0000'
   content: |
     <p>Came across this and decided to spend 10 minutes porting it to Amara 2.x http://web.archive.org/web/20100620115354/http://wiki.xml3k.org:80/Amara2 - nice cut in LOC), and updating to changed site structure.  Purely a demo.  I know NYT have provided a better way now :)</p>
-
     <p>http://bitbucket.org/uche/scatter-share/src/tip/demos/akara/amara/nyt2skos.py</p>
-
     <p>http://web.archive.org/web/20100609160203/http://wiki.xml3k.org:80/Amara2/Recipes</p>
 - id: 83264
   author: Internet Alchemy &raquo; links for 2009-09-14
@@ -80,6 +78,7 @@ comments:
   content: "[...] inkdroid &raquo; Blog Archive &raquo; New York Times Topics as SKOS
     (tags: skos rdf linkeddata python web howto semantic semweb) [...]"
 ---
+
 <p><em>Serves 23,376 SKOS Concepts</em></p>
 <p><strong>INGREDIENTS</strong></p>
 <ul>

@@ -18,6 +18,7 @@ date_gmt: '2007-01-06 12:51:49 +0000'
 tags: []
 comments: []
 ---
+
 <p><a href="http://en.wikipedia.org/wiki/Authority_file">Authority files</a> are rather important for unambiguously talking about a person, place or thing. In database lingo they essentially amount to a <a href="http://en.wikipedia.org/wiki/Primary_key">primary key</a> for a table. Given the <a href="http://www.loc.gov/catdir/pcc/naco/">time and effort</a> libraries spend in maintaining authority records and assigning control numbers to individuals it makes sense that a <a href="http://www.inkdroid.org/journal/2006/07/11/more-on-web-identifiers/">URI</a> could be assigned to an individual in such authority files. I realize this idea is nothing new, but until recently I hadn't seen it put into practice particularly well.</p>
 <p>I imagine this has been there all along but I just noticed that <a href="http://alcme.oclc.org/laf/index.html">OCLC's Linked Authority File</a> includes <a href="http://en.wikipedia.org/wiki/PURL">PURLs</a> for authors now. For example the following URL contains a <a href="http://en.wikipedia.org/wiki/Library_of_Congress_Control_Number">LCCN</a>:</p>
 <blockquote><p>

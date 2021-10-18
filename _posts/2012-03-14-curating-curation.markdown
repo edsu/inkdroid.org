@@ -56,6 +56,7 @@ comments:
     I'm also in complete agreement about how important pragmatics are to the activities
     of editing and curation! Thanks again for taking the time to comment here."
 ---
+
 <p><em>This post was composed over at <a href="http://storify.com/edsu/meta-curation/">Storify</a> and exported here.</em></p>
 <p><script src="http://storify.com/edsu/meta-curation.js?border=false&amp;header=false&amp;sharing=false&amp;more=false"></script></p>
 <div style="display: none;" class="sfy-html">

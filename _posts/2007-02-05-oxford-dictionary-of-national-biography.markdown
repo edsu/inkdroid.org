@@ -18,6 +18,7 @@ date_gmt: '2007-02-05 19:44:52 +0000'
 tags: []
 comments: []
 ---
+
 <p>It's interesting to see that the <a href="http://www.oup.com/oxforddnb">Oxford Dictionary of National Biography</a> has created <a href="http://www.w3.org/Provider/Style/URI">Cool URIs</a> for their index of notable people. So for example if you want an identifier for JRR Tolkien you can use:</p>
 <blockquote><p>
 <a href="http://www.oxforddnb.com/index/101031766">http://www.oxforddnb.com/index/101031766</a>

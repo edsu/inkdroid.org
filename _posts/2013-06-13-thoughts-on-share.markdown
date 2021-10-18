@@ -17,10 +17,11 @@ date: '2013-06-13 06:46:35 +0000'
 date_gmt: '2013-06-13 13:46:35 +0000'
 tags:
 - egov
-- linked data
-- data curation
+- linked-data
+- curation
 comments: []
 ---
+
 <p>My response to Library Journal's <a href="http://lj.libraryjournal.com/2013/06/oa/arl-launches-library-led-solution-to-federal-open-access-requirements/">ARL Launches Library-Led Solution to Federal Open Access Requirements</a> that I'm posting here as well, because I spent a bit of time on it. Thanks for the heads up Dorothea,</p>
 <p>https://twitter.com/LibSkrat/status/345148738488115201</p>
 <hr />

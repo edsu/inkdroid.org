@@ -42,6 +42,7 @@ comments:
   date_gmt: '2008-07-28 13:29:44 +0000'
   content: "[...] inkdroid beep beep      &laquo; premis v2.0 and schema munging [...]"
 ---
+
 <p>In an effort to get a better understanding of <a href="http://www.loc.gov/standards/premis/">PREMIS</a> after reading about the <a href="http://listserv.loc.gov/cgi-bin/wa?A2=ind0807&L=pig&T=0&P=152">v2.0 release</a>, I dug around for 5 minutes looking for a way to convert an XML Schema to RelaxNG. The theory being that the compact syntax of RelaxNG would be easier to read than the XSD.</p>
 <p>I ended up with a little hack suggested <a href="http://web.archive.org/web/20120509194237/http://postneo.com/2007/01/16/all-i-want-to-do-is-convert-my-schema">here</a> to chain together the rngconv from the <a href="http://web.archive.org/web/20070630182011/https://msv.dev.java.net/">Multi-Schema Validator</a> and James Clarke's <a href="http://www.thaiopensource.com/relaxng/trang.html">Trang</a>, which oddly can't read an XSD as input.</p>
 <pre lang="bash">

@@ -16,7 +16,7 @@ wordpress_url: http://inkdroid.org/journal/?p=205
 date: '2008-06-23 12:10:15 +0000'
 date_gmt: '2008-06-23 19:10:15 +0000'
 tags:
-- http rest amazon storage checsums md5
+- http-rest-amazon-storage-checsums-md5
 comments:
 - id: 65401
   author: Peter Murray
@@ -52,6 +52,7 @@ comments:
     TCP? The header does seem redundant somehow--it would be interesting to know the
     history of why it was added.
 ---
+
 <p>Kind of an interesting <a href="http://developer.amazonwebservices.com/connect/thread.jspa?threadID=22709">thread</a> going on the Amazon Web Services Forum, about data corruption on S3. It highlights how important it is for clients to send something like the <em>Content-MD5</em> HTTP header to checksum the HTTP payload, and for the server to check it before saying 200 OK back...at least for data storage REST applications:</p>
 <blockquote><p>
 When Amazon S3 receives a PUT request with the Content-MD5 header, Amazon S3 computes the MD5 of the object received and returns a 400 error if it doesn't match the MD5 sent in the header. Looking at our service logs from the period between 6/20 11:54pm PDT and 6/22 5:12am PDT, we do see a modest increase in the number of 400 errors.  This may indicate that there were elevated network transmission errors somewhere between the customer and Amazon S3.

@@ -16,9 +16,10 @@ wordpress_url: http://inkdroid.org/journal/?p=6016
 date: '2013-09-09 08:52:34 +0000'
 date_gmt: '2013-09-09 15:52:34 +0000'
 tags:
-- stephen wolfram; wolfram alpha; repositories; data; web
+- stephen-wolfram;-wolfram-alpha;-repositories;-data;-web
 comments: []
 ---
+
 <div style="margin-right: 20px; width: 200px; float: left; text-align: center; font-size: 10pt; border: thin solid #cccccc;">
   <a href="https://commons.wikimedia.org/wiki/File:The_side_of_the_Pompidou_Center_(8423437535).jpg"><img src="http://inkdroid.org/images/pompidou.jpg" /></a><br /><a href="https://commons.wikimedia.org/wiki/File:The_side_of_the_Pompidou_Center_(8423437535).jpg">The Side of Pompidou Center</a><br />by Frank Kovalchek
 </div>

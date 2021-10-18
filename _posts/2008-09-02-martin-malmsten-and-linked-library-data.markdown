@@ -20,7 +20,7 @@ tags:
 - libraries
 - podcasts
 - semweb
-- linkeddata
+- linked-data
 comments:
 - id: 72844
   author: Roy Tennant
@@ -77,6 +77,7 @@ comments:
   date_gmt: '2012-05-08 19:12:50 +0000'
   content: "[...] Martin Malmsten and linked library data &#8211; [...]"
 ---
+
 <p>I'm currently listening to Richard Wallis' <a href="http://blogs.talis.com/panlibus/archives/2008/08/semantic-future-for-libraries-martin-marlmsten-talks-with-talis.php">interview</a> w/ Martin Malmsten of the Royal Library of Sweden. It's a really fascinating view inside a library, and the mind of a developer that are <a href="http://article.gmane.org/gmane.culture.libraries.ngc4lib/4617">publishing bibliographic resources as linked data</a>.</p>
 <p>Partly as a dare from Roy Tennant to do something useful with linked-data, I spent 30 minutes w/ <a href="http://rdflib.net">rdflib</a> creating a very simplistic (42 lines of code) <a href="http://web.archive.org/web/20101216213250/http://inkdroid.org/bzr/linked-data-crawler/crawl.py">crawler</a> that can walk the links in the Royal Library's linked data, and store the bibliographic resources encountered. I ran it over the weekend (it had a 3 second sleep between requests, so as not to arouse the ire of the Royal Library of Sweden), and it ended up pulling down <a href="http://web.archive.org/web/20090106021214/http://inkdroid.org/bzr/linked-data-crawler/libris.kb.se.n3">919,190 triples</a> describing a variety of resources (kind of a fun unix hack here to get the types of resources in a ntriples rdf dump):</p>
 <pre>

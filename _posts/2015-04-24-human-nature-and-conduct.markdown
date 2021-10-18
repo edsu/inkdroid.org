@@ -17,11 +17,12 @@ date: '2015-04-24 13:28:32 +0000'
 date_gmt: '2015-04-24 20:28:32 +0000'
 tags:
 - pragmatism
-- John Dewey
+- john-dewey
 - quotes
 - repair
 comments: []
 ---
+
 <p><a href="https://www.goodreads.com/book/show/2080244.Human_Nature_and_Conduct" style="float: left; padding-right: 20px"><img alt="Human Nature and Conduct" border="0" src="https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png" /></a><a href="https://www.goodreads.com/book/show/2080244.Human_Nature_and_Conduct">Human Nature and Conduct</a> by <a href="https://www.goodreads.com/author/show/42738.John_Dewey">John Dewey</a><br />
 My rating: <a href="https://www.goodreads.com/review/show/1216511030">5 of 5 stars</a></p>
 <p>This book came recommended by <a href="http://sjackson.infosci.cornell.edu/" rel="nofollow">Steven Jackson</a> when he <a href="http://casci.umd.edu/2014/11/25/casci-talk-how-to-fix-the-world-repair-as-practice-and-worldview/" rel="nofollow">visited</a> UMD last year. I'm a fan of Jackson's work on <a href="http://sjackson.infosci.cornell.edu/RethinkingRepairPROOFS%28reduced%29Aug2013.pdf" rel="nofollow">repair</a>, and was curious about how his ideas connected back to Dewey's Human Nature and Conduct.</p>

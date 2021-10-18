@@ -18,6 +18,7 @@ date_gmt: '2005-09-01 15:26:21 +0000'
 tags: []
 comments: []
 ---
+
 <p><a href="http://www.theonion.com/content/node/40076">Google Announces Plan To Destroy All Information It Can't Index</a>. </p>
 <blockquote><p>
 Although Google executives are keeping many details about Google Purge under wraps, some analysts speculate that the categories of information Google will eventually index or destroy include handwritten correspondence, buried fossils, and private thoughts and feelings.

@@ -18,6 +18,7 @@ date_gmt: '2005-09-10 19:22:44 +0000'
 tags: []
 comments: []
 ---
+
 <p>After 7 years of consultation Lockheed-Martin has been <a href="http://web.archive.org/web/20100601162705/http://archives.gov/era/acquisition/option-award.html">selected</a> to build the Electronic Records Archives for the National Archives and Records Administration for 38 million dollars.</p>
 <blockquote><p>
 ERA will provide NARA with the capability to authentically preserve and provide access to any kind of electronic record free from dependence on any specific hardware or software.

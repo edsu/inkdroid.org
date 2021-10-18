@@ -25,6 +25,7 @@ tags:
 - handle
 comments: []
 ---
+
 <div style="float: right; margin-left: 15px; text-align: center;"><a href="http://commons.wikimedia.org/wiki/File:Trojan_Horse_in_Stuttgart_2001.jpg"><img src="http://inkdroid.org/images/trojan-horse-stuttgart.jpg" width="250" /></a><br /><a href="http://commons.wikimedia.org/wiki/File:Trojan_Horse_in_Stuttgart_2001.jpg">Trojan Horse in Stuttgart</a> by <a href="http://www.webkuehn.de/">Stefan Kühn</a></div>
 <p>I recently received some correspondence about the <a href="http://n2t.net/ezid">EZID</a> identifier service from the <a href="http://www.cdlib.org/">California Digital Library</a>. EZID is a relatively new service that aims to help cultural heritage institutions manage their identifiers. Or as the EZID website says:</p>
 <blockquote><p>

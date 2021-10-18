@@ -25,6 +25,7 @@ date_gmt: '2007-01-19 21:01:04 +0000'
 tags: []
 comments: []
 ---
+
 <pre><code>&lt;div class='vevent x-wpsb-simple-event'&gt;        &lt;p&gt;&lt;/p&gt;     &lt;h3 class='summary'&gt;MARCH ON WASHINGTON TO END THE WAR&lt;/h3&gt;     &lt;p&gt;&lt;b&gt;Begins&lt;/b&gt;: &lt;abbr class='dtstart' title='2007-01-27T11:00:00'&gt;Sat, 27 Jan 2007 at 11:00 AM&lt;/abbr&gt;&lt;/p&gt;     &lt;p&gt;&lt;b&gt;Ends&lt;/b&gt;: &lt;abbr class='dtend' title='2007-01-27T11:00:00'&gt;Sat, 27 Jan 2007 at  2:00 PM&lt;/abbr&gt;&lt;/p&gt;             &lt;p&gt;         &lt;b&gt;Location&lt;/b&gt;:            &lt;span class='location'&gt;&lt;p&gt;Mall between 3rd and 7th Streets&lt;/p&gt;                      &lt;p&gt;Washington,          DC          20002&lt;/p&gt;           &lt;p&gt;USA&lt;/p&gt;      &lt;/span&gt;&lt;/p&gt;                 &lt;p&gt;&lt;b&gt;Link&lt;/b&gt;: &lt;a href="http://web.archive.org/web/20100708231233/http://www.unitedforpeace.org/article.php?id=3468"&gt;more info&lt;/a&gt;&lt;/p&gt;             &lt;div&gt;Mark your calendars, and let me know if you need a place to stay...&lt;/div&gt;          &lt;/div&gt;
 </code></pre>
 <p><script type="application/x-subnode; charset=utf-8"><br />

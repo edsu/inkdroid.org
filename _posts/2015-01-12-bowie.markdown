@@ -18,6 +18,7 @@ date_gmt: '2015-01-12 17:19:31 +0000'
 tags: []
 comments: []
 ---
+
 <p><a href="https://www.goodreads.com/book/show/21839107-bowie" style="float: left; padding-right: 20px"><img alt="Bowie" border="0" src="https://d.gr-assets.com/books/1404315685m/21839107.jpg" /></a><a href="https://www.goodreads.com/book/show/21839107-bowie">Bowie</a> by <a href="https://www.goodreads.com/author/show/57674.Simon_Critchley">Simon Critchley</a><br />
 My rating: <a href="https://www.goodreads.com/review/show/1165872948">5 of 5 stars</a></p>
 <p>If you are a Bowie fan, you will definitely enjoy this. If you are curious why other people are so into Bowie you will enjoy this. If you've never read any <a href="https://en.wikipedia.org/wiki/Simon_Critchley">Critchley</a> and are interested in something quick and accessible by him you will enjoy this. I fell into the first and third categories so I guess I'm guessing about the second. But I suspect it's true.</p>

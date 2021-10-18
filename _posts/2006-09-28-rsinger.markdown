@@ -39,6 +39,7 @@ comments:
     cd openurl_registry\r\n% rake test\r\n% rake package\r\n% gem install pkg/resolver_resgistry-0.0.1.gem</pre>\r\noughta
     do it..."
 ---
+
 <p>So <a href="http://dilettantes.code4lib.org/">Ross</a> beat out 11 other projects to <a href="http://www.oclc.org/research/announcements/2006-09-28.htm">win</a> the OCLC Research Software Contest for his next generation OpenURL resolver <a href="http://web.archive.org/web/20070319172523/http://umlaut.library.gatech.edu:80/umlaut">umlaut</a>. Second place went to to Jesse Andrews' <a href="http://bookburro.org/">BookBurro</a>--so the competition was fierce this year. Much more so than last year when there were 4 contestants.</p>
 <p>Those of us who hang out in <a href="irc://irc.freenode.net/code4lib">#code4lib</a> got to hear about this project when it was just a glimmer in his eye...and had front row seats for hearing about the development as it progressed. Essentially umlaut is an openurl router that's able to consult online catalogs (via SRU), other OpenURL resolvers (SFX), Amazon, Google, Yahoo, Connotea, CiteULike and OAI-PMH. It's all written in <a href="http://ruby-lang.org">Ruby</a> and <a href="http://rubyonrails.org">RubyOnRails</a>.</p>
 <p>I feel particularly proud because Ross is enough of a mad genius to have found a use for some ruby gems I wrote for doing <a href="http://www.textualize.com/sruby">sru</a>, <a href="http://www.textualize.com/ruby-oai">oai-pmh</a> and querying OCLC's <a href="http://www.textualize.com/xisbn">xisbn</a> service.</p>

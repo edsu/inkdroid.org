@@ -7,6 +7,7 @@ tags:
 - history
 ---
 
+
 This post contains some rough notes for [Andrew Russell]'s [Open Standards in
 the Digital Age] which I just finished reading. If you are interested in the
 broad historical arc of standards development, particularly as they relate to

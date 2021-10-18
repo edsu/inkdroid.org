@@ -3,10 +3,11 @@ layout: post
 date: 2020-12-31 13:02:00
 title: noarchive
 tags:
-- web archives
+- web-archives
 - html
 - metadata
 ---
+
 
 I [wrote] a few weeks ago about the timeworn practice of using [robots.txt] to
 control whether web content is playable in web archives. This practice started

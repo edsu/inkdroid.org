@@ -6,6 +6,7 @@ tags:
 - practice
 ---
 
+
 Suchman, L. (1993). *Do categories have politics?* The language/action
 perspective reconsidered. In Proceedings of the Third European Conference on
 Computer-Supported Cooperative Work 13–17 September 1993, Milan, Italy ECSCW93,

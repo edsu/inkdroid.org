@@ -18,7 +18,7 @@ date_gmt: '2013-08-26 09:39:00 +0000'
 tags:
 - python
 - gender
-- society of american archivists
+- society-of-american-archivists
 comments:
 - id: 86681
   author: My Blog on Professional Blogs | jrynicki
@@ -29,6 +29,7 @@ comments:
   content: |
     [&#8230;] Summers, Ed (Aug. 26th 2013). Inkdroid: “Gendered Archivist” [Blog]. Retrieved from http://inkdroid.org/journal/2013/08/26/gendered-archivist/ [&#8230;]
 ---
+
 <p>Over the past few years I've been trying to deepen my understanding of the literature of and about archives. My own MLIS education was heavy on libraries and light on archives; so I was really quite unaware of how rich the thinking about archives is...and how much more relevant it is for the work of digital preservation. </p>
 <p>After not being a member of any professional organization for over ten years I joined the <a href="http://www.archivists.org/">Society of American Archivists </a>two years ago. I really enjoyed when the SAA's quarterly <a href="http://archivists.metapress.com/home/main.mpx">American Archivist</a> started showing up in my mailbox. Incidentally they have put all their content online for the public, but keep the last 3 years embargoed for SAA members only. </p>
 <p>Since I have so much catching up to do I thought it would be interesting to try to harvest some of the article metadata that could be gleaned from the website, to see if I could get my computer to teach me something about the 76 years of content. If you are interested you can find some code I wrote to do this, and the resulting metadata about the 42,432 articles on <a href="http://github.com/edsu/americanarchivist">Github</a>.</p>

@@ -7,6 +7,7 @@ tags:
 - web
 ---
 
+
 <img style="width: 200px; margin-right: 10px; float: left;" src="/images/thumbdrive.png">
 
 This post contains some brief notes about building offline, static web sites using [React], in order to further the objectives of [minimal computing]. But before I go there, first let me give you a little background...

@@ -18,7 +18,7 @@ date_gmt: '2009-12-22 18:17:03 +0000'
 tags:
 - rdfa
 - identifiers
-- linkeddata
+- linked-data
 - oreilly
 - graphs
 comments:
@@ -45,6 +45,7 @@ comments:
   content: An alternative way to get a lot of RDF data about these books is http://labs.oreilly.com/opmi.html  (maybe
     old data)
 ---
+
 <p>I recently learned from <a href="http://ivan-herman.name/2009/12/12/rdfa-usage-spreading…/">Ivan Herman</a>'s blog that O'Reilly has begun publishing RDFa in their online catalog of books. So if you go and install the <a href="http://www.w3.org/2001/sw/BestPractices/HTML/rdfa-bookmarklet/">RDFa Highlight</a> bookmarklet and then visit a page like <a href="http://oreilly.com/catalog/9780596516499/">this</a> and click on the bookmarklet you'll see something like:</p>
 <p><a href="http://oreilly.com/catalog/9780596516499/"><br />
 <img src="http://inkdroid.org/images/oreilly-rdfa.png" style="width: 600px;"/><br />

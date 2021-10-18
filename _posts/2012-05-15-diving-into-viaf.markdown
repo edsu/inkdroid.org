@@ -19,9 +19,9 @@ tags:
 - oclc
 - rdf
 - python
-- linked data
+- linked-data
 - unix
-- authority records
+- authority-control
 - viaf
 comments:
 - id: 85394
@@ -126,6 +126,7 @@ comments:
   date_gmt: '2012-05-17 16:39:04 +0000'
   content: Nice, thanks for the clarification Thom.
 ---
+
 <p>Last week saw a big (well big for library data nerds) <a href="http://www.infodocket.com/2012/05/04/oclc-research-makes-virtual-international-authority-file-viaf-dataset-publicly-available/">announcement</a> from OCLC that they are making the <a href="http://viaf.org/viaf/data/ ">data</a> for the <a href="http://viaf.org">Virtual International Authority File (VIAF)</a> available for download under the terms of the <a href="http://opendatacommons.org/licenses/by/">Open Data Commons Attribution (ODC-BY)</a> license. If you're not already familiar with VIAF here's a brief description from <a href="http://www.oclc.org/research/activities/viaf/">OCLC Research</a>:</p>
 <blockquote><p>
 Most large libraries maintain lists of names for people, corporations, conferences, and geographic places, as well as lists to control works and other entities. These lists, or authority files, have been developed and maintained in distinctive ways by individual library communities around the world. The differences in how to approach this work become evident as library data from many communities is combined in shared catalogs such as OCLC's WorldCat.</p>

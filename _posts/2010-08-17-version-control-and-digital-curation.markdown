@@ -18,12 +18,13 @@ date_gmt: '2010-08-17 17:32:07 +0000'
 tags:
 - python
 - cdl
-- version control
+- version-control
 - git
 - mercurial
 - redd
 comments: []
 ---
+
 <p>For some time now I have been meaning to write about some of the issues related to version control in repositories as they relate to some projects going on at $work. Most repository systems have a requirement to maintain original data as submitted. But as we all know this content often changes over time--sometimes immediately. Change is in the very nature of digital preservation; as archaic formats are migrated to fresher, more usable ones, and the wheels of <a href="http://www.kk.org/thetechnium/archives/2008/12/movage.php">movage</a> keep turning. At the same time it's essential that when content is used and cited that the specific version in time is cited, or as Cliff Lynch is quoted as saying in the <a href="http://www.oclc.org/research/activities/past/rlg/trustedrep/default.htm">Attributes of a Trusted Repository</a>:</p>
 <blockquote><p>
 It is very easy to replace an electronic dataset with an updated copy, and ... the replacement can have wide-reaching effects. The processes of authorship ... produce different versions which in an electronic environment can easily go into broad circulation; if each draft is not carefully labeled and dated it is difficult to tell which draft one is looking at or whether one has the “final” version of a work.

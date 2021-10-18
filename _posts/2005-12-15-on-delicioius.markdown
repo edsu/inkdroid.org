@@ -53,6 +53,7 @@ comments:
     incorrect ways, but let's face it, catalogers aren't perfect either. I think your
     dismissal of these technologies is premature."
 ---
+
 <p><img src="/images/delicious.jpg" align="left" style="border: thin dashed; margin: 10px;"/></p>
 <p>Ari Paparo has some interesting <a href="http://www.aripaparo.com/archive/001456.html">notes</a> on what made delicious succeed where his company (doing essentially the same thing in 1999 with 13 million dollars) failed. Two things that really resonated with me were: <i>defaults matter</i> and <i>folders suck</i>. </p>
 <p>Ari's site blink.com made bookmarks private by default but allowed users to share them--whereas delicious makes them public. This encouraged looking at the bookmarks globally as the purpose of the service, whereas with blink it was an afterthought.</p>

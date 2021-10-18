@@ -18,6 +18,7 @@ date_gmt: '2007-02-05 21:36:33 +0000'
 tags: []
 comments: []
 ---
+
 <p>I've been playing with <a href="http://bitworking.org/news/URI_Templates">uri-templates</a> a little bit at $work to help formulate clean urls for a newspaper application. The goal is to provide urls such as:</p>
 <ul>
 <li>http://example.gov/issn/0362-4331</li>

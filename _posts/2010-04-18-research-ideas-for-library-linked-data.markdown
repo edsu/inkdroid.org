@@ -19,7 +19,7 @@ tags:
 - oclc
 - metadata
 - libraries
-- linkeddata
+- linked-data
 - research
 - hungary
 - germany
@@ -43,6 +43,7 @@ comments:
   date_gmt: '2012-02-06 17:13:51 +0000'
   content: "[...] Sommers on research ideas for library linked data [...]"
 ---
+
 <p><a href="http://commons.wikimedia.org/wiki/File:PoeCorbeau.png"><img src="http://inkdroid.org/images/crow.png" width="150" style="margin-right: 10px; float: left;" /></a></p>
 <p>The past few weeks have seen some pretty big news for Library <a href="http://linkeddata.org">Linked Data</a>. On April 7th the <a href="http://www.oszk.hu/">Hungarian National Library</a> <a href="http://lists.w3.org/Archives/Public/public-lod/2010Apr/0155.html">announced</a> that its entire library catalog, digital library holdings, and name/subject authority data are now available as Linked Data. Then just a bit more than a week later, on April 16th the <a href="http://www.d-nb.de">German National Library</a> <a href="https://listserv.nd.edu/cgi-bin/wa?A2=ind1004&L=NGC4LIB&T=0&F=&S=&P=31709">announced</a> that it was making its name and subject authority files available as Linked Data.</p>
 <p>This adds to the pioneering work that the <a href="http://www.kb.se/">Royal Library of Sweden</a> has already done in making all of its catalog and authority data available, which they <a href="http://article.gmane.org/gmane.culture.libraries.ngc4lib/4617">announced</a> almost two years ago now. Add to this that <a href="http://oclc.org">OCLC</a> is also <a href="http://outgoing.typepad.com/outgoing/2009/09/viaf-as-linked-data.html">publishing</a> the <a href="http://viaf.org">Virtual International Authority File</a> as Linked Data, and that the <a href="http://loc.gov">Library of Congress</a> also makes its subject authority data <a href="http://web.archive.org/web/20110720034058/http://id.loc.gov:80/authorities">available</a> as Linked Data and things are starting to get interesting.</p>

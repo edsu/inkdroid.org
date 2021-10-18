@@ -34,4 +34,5 @@ comments:
   content: Sounds like a perfect use case. Definitely check out dbpedia for this.
     Hopefully before too long id.loc.gov will be coming online.
 ---
+
 <p>If you are curious how lcsh.info is being used I've made the <a href="http://logs.lcsh.info">apache server logs</a> available, including the ones for the sparql service. I've been meaning to do some analysis of the logs but haven't got the time yet. You'll notice that among the data that's collected is the Accept header sent by agents, since it's so important to what representation is served up. Thanks to <a href="http://danbri.org">danbri</a> for the idea to simply make them available.</p>

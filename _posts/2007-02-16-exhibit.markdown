@@ -18,6 +18,7 @@ date_gmt: '2007-02-16 16:57:41 +0000'
 tags: []
 comments: []
 ---
+
 <p><a href="http://simile.mit.edu/exhibit"><img src="/images/exhibit.png" style="margin-right: 10px; border: 0; float: left;"/></a> If you haven't tried <a href="http://simile.mit.edu/exhibit/">Exhibit</a> out yet the simile folks have created a truly wonderful data publishing framework which runs entirely in your browser with a bit of javascript, html and css.</p>
 <p>The remarkable part is that it requires no backend database, but simply operates on a stream of <a href="http://en.wikipedia.org/wiki/JSON">json</a>. If you have a couple minutes take a look at their <a href="http://simile.mit.edu/wiki/Exhibit/Getting_Started_Tutorial">Getting Started Tutorial</a> which shows you how to create a exhibit of MIT related nobel laureates with a tiny bit of HTML, CSS and JavaScript.</p>
 <p>Just as an experiment I tried pointing it at my <a href="http://del.icio.us/feeds/json/inkdroid/metadata?raw=1&count=100">delicious json feed</a> for metadata. It turns out that exhibit wants json data to be a hash with a key 'items' that points to a list of items. In addition it also wants each item to have a 'label' key. I quickly <a href="/exhibit/delicious/delicious.json">reformatted</a> the delicious json with <a href="http://cheeseshop.python.org/pypi/simplejson">simplejson</a>, and got <a href="/exhibits/delicious">this</a>.</p>

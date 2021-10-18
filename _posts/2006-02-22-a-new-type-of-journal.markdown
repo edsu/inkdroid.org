@@ -18,6 +18,7 @@ date_gmt: '2006-02-22 21:53:19 +0000'
 tags: []
 comments: []
 ---
+
 <p>In the unlikely event that you haven't seen it there is an interesting <a href="http://dewey.library.nd.edu/mailing-lists/code4lib/archive/2005/0347.html">thread</a> over on the code4lib discussion list about establishing a code4lib journal. I think Mark Jordan has the right <a href="http://dewey.library.nd.edu/mailing-lists/code4lib/archive/2005/0356.html">idea</a>:</p>
 <blockquote><p>
 ...would creating a section at http://code4lib.org/ that was reserved for formal, maybe even peer-reviewed articles do what you're describing? The articles would be the starting point, but the Web 1.9-compliant features that are already appearing on the site (comments, attachments, microformat links, etc.) may satisfy what you're describing. Heck, maybe we could write a module for http://code4lib.org/ that would pull some of these things together (drupal already has a publishing module). In other words, http://code4lib.org/ could _be_ the journal but it could be a new type of journal.

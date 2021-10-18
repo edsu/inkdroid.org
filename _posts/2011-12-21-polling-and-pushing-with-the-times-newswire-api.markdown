@@ -17,11 +17,12 @@ date: '2011-12-21 08:53:23 +0000'
 date_gmt: '2011-12-21 15:53:23 +0000'
 tags:
 - http
-- webservices
+- web-services
 - nytimes
 - nodejs
 comments: []
 ---
+
 <p>I've been continuing to play around with <a href="http://nodejs.org">Node.js</a> some. Not because it's the <a href="http://mrjoes.github.com/2011/12/15/sockjs-bench.html">only game in town</a>, but mainly because of the  <a href="http://dannorth.net/2011/12/19/the-rise-and-rise-of-javascript/"> renaissance</a> that's going in the JavaScript community, which is kind of fun and slightly addictive. Ok, I guess that makes me a fan-boy, whatever...</p>
 <p>So the latest in my experiments is <a href="http://nytimestream.herokuapp.com">nytimestream</a>, which is a visualization (ok, it's just a list) of <a href="http://nytimes.com">New York Times</a> headlines using the <a href="http://developer.nytimes.com/docs/times_newswire_api">Times Newswire API</a>. When I saw <a href="http://blog.thescoop.org/">Derek Willis</a> recently put some work into a <a href="https://github.com/NYTimes/times_wire">Ruby library</a> for the API I got to thinking what it might be like to use <a href="http://nodejs.org">Node.js</a> and <a href="http://socket.io">Socket.IO</a> to provide a push stream of updates. It didn't take too long. I actually highly doubt anyone is going to use nytimestream much. So you might be wondering why I bothered to create it at all. I guess it was kind more of an academic exercise than anything to reinforce some things that Node.js has been teaching me.</p>
 <p>Normally if you wanted a web page to dynamically update based on events elsewhere you'd have some code running in the browser routinely poll a webservice for updates. In this scenario our clients (c1, c2 and c3) poll the Times Newswire directly:</p>

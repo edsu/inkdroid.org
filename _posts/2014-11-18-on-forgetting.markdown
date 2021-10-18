@@ -18,7 +18,7 @@ date_gmt: '2014-11-18 21:17:45 +0000'
 tags:
 - twitter
 - ferguson
-- right to be forgotten
+- right-to-be-forgotten
 comments:
 - id: 87318
   author: Tweets and Deletes | inkdroid
@@ -29,6 +29,7 @@ comments:
   content: |
     This Article was mentioned on <a href="http://inkdroid.org/journal/2015/04/14/tweets-and-deletes/" rel="nofollow">inkdroid.org</a>
 ---
+
 <p>After writing about the <a href="http://inkdroid.org/journal/2014/08/30/a-ferguson-twitter-archive/">Ferguson Twitter</a> archive a few months ago three people have emailed me out of the blue asking for access to the data. One was a principal at a small, scaryish defense contracting company, and the other two were from a prestigious university. I've also had a handful of people interested where I work at the University of Maryland.</p>
 <p>I ignored the defense contractor. Maybe that was mean, but I don't want to be part of that. I'm sure they can go buy the data if they really need it. My response to the external academic researchers wasn't much more helpful since I mostly pointed them to  <a href="https://dev.twitter.com/overview/terms/policy#6._Be_a_Good_Partner_to_Twitter">Twitter's Terms of Service</a> which says:</p>
 <blockquote><p>

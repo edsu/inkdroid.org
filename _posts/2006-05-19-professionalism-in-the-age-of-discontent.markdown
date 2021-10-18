@@ -18,6 +18,7 @@ date_gmt: '2006-05-19 18:56:13 +0000'
 tags: []
 comments: []
 ---
+
 <p>After seeing him speak and meeting him a couple times I'm a big fan of <a href="http://www.holovaty.com/blog">Adrian's</a> work. He was one of the first people to "mash up" google maps at <a href="http://chicagocrime.org">chicagocrime.org</a>; has set the bar for local online media content at <a href="http://lawrence.com">lawrence.com</a>; created the <a href="http://projects.washingtonpost.com/congress/">Congressional Votes Database</a> at the washingtonpost which allows you to (among other things) get an RSS feed for your representatives votes; and has created probably the most popular <a href="http://djangoproject.com">web framework</a> for python.</p>
 <p>But the thing that really impresses me the most about him is how he mixes the role of technologist and journalist. If you are curious take a look at the <a href="http://www.holovaty.com/blog/archive/2006/05/15/0110">commencement speech</a> he just gave at his alma matter, University of Missouri's School of Journalism. Now if you work in/for a libraries/archives (which is likely given this blogs focus) just substitute 'journalism' for 'libraries' as you read the piece. You may be surprised to learn that the field of Journalism finds itself in much the same dire straits that Librarianship is in:</p>
 <blockquote><p>

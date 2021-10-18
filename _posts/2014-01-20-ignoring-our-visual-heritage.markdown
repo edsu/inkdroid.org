@@ -17,9 +17,9 @@ date: '2014-01-20 10:55:49 +0000'
 date_gmt: '2014-01-20 17:55:49 +0000'
 tags:
 - bagit
-- digital preservation
+- digital-preservation
 - photographs
-- format migration
+- format-migration
 - software
 comments:
 - id: 86848
@@ -64,6 +64,7 @@ comments:
   content: |
     [&#8230;] blog post in Inkdroid entitled &#8220;Ignoring Our Visual Heritage&#8221; really struck a chord with me. As anxious as I may feel at times about learning new technologies [&#8230;]
 ---
+
 <p>I recently ran across <a href="http://www.nst.com.my/opinion/letters-to-the-editor/digital-storage-losing-our-visual-heritage-1.465485">Digital Storage: Losing Our Virtual Heritage</a> over on the (surprisingly interesting) <a href="http://www2.archivists.org/listservs/archives">SAA Archives &amp; Archivists</a> discussion list. Strangely, the editorial struck me as both emblematic of a problem in the archival community, and a guidepost for how archives need to move forward.</p>
 <p>The key point Bromberg makes is that archives will no longer be able to function if our collections (specifically photographic collections) become digital:</p>
 <blockquote>

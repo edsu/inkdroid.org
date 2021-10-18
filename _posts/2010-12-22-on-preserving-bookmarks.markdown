@@ -19,10 +19,10 @@ tags:
 - yahoo
 - curation
 - urls
-- digital preservation
+- digital-preservation
 - delicious
 - linkrot
-- web archiving
+- web-archives
 - unalog
 comments:
 - id: 84006
@@ -35,6 +35,7 @@ comments:
     Ed Summers advocates for releasing the Delicious data to the Web somehow. As he
     writes, this could [...]"
 ---
+
 <p>While it's not exactly clear what the future of <a href="http://delicious.com">Delicious</a> is, the <a href="http://www.readwriteweb.com/archives/deliciouss_data_policy_is_like_setting_a_museum_on.php">recent news</a> about <a href="http:/http://www.spinellis.gr/pubs/jrnl/2003-CACM-URLcite/html/urlcite.html">Yahoo</a> closing the doors or <a href="http://blog.delicious.com/">selling the building</a> prompted me to look around at other social bookmarking tools, and to revisit some old stomping grounds.</p>
 <p><a href="http://onebiglibrary.net">Dan Chudnov</a> has been running <a href="http://unalog.com">Unalog</a> since 2003 (roughly when Delicious started). In fact I can remember Dan and <a href="http://en.wikipedia.org/wiki/Joshua_Schachter">Joshua Schacter</a> having some conversations about the idea of social bookmarking as both of the services co-evolved. So my first experience with social bookmarking was on Unalog, but a year or so later I ended up switching to Delicious in 2004 for reasons I can't quite remember. I think I liked some of the tools that had sprouted up around Delicious, and felt a bit guilty for abandoning Unalog.</p>
 <p>Anyhow, I wanted to take the exported Delicious bookmarks and see if I could get them into Unalog. So I set up a dev Unalog environment, created a <a href="https://bitbucket.org/edsu/unalog2">friendly fork</a> of Dan's code, and added the ability to POST a chunk of JSON:</p>

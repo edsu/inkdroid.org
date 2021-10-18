@@ -18,6 +18,7 @@ date_gmt: '2006-05-27 13:04:38 +0000'
 tags: []
 comments: []
 ---
+
 <p>As part of my day job I've been rifling through large foreign XML files--learning the rhyme and reason of tags used, looking at content, etc... I opened files in Firefox and vim and that was OK--but I like working from the command line. After minimal searching I wasn't able to find a suitable tool that would simply outline the structure of an xml document in the way I wanted--although <a href="http://librarycog.uwindsor.ca:8087/artblog/librarycog/">artunit</a> pointed out <a href='http://simile.mit.edu/gadget/'>Gadget</a> from MIT which looks like a really wonderful GUI tool to try out.  So (predictably) I wrote <a href='http://textualize.com/svn/tilde_bin/xmltree'>my own</a>:</p>
 <pre>
 biblio:~ ed$ xmltree

@@ -37,4 +37,5 @@ comments:
   content: "Not a podcast, but check out the stream at kxlu.org.\r\n\r\n\r\nThe kids,
     they're coming up from behind."
 ---
+
 <p>The <a href="http://75minutes.com/podcast/75-minutes-epilogue/">worst news</a> so far in 2007 after <a href="http://en.wikipedia.org/wiki/Iraq_War_troop_surge_of_2007">the surge</a>. Can anyone else recommend a good podcast for independent music? I'm going to suffer...</p>

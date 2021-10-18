@@ -7,6 +7,7 @@ tags:
 - reading
 ---
 
+
 [Nick Seaver]'s recent article [Algorithms as Culture] has some really good
 guidance for folks wanting to study algorithmic systems using ethnographic
 methods [@Seaver:2017]. The paper discusses a set of practical techniques, and

@@ -37,6 +37,7 @@ comments:
     gem now...\r\n\r\nJust a note, the browsing of the source code on rubyforge appears
     broken.\r\n\r\nCheers,\r\nWalter"
 ---
+
 <p><a href="http://rubyforge.org/projects/oai/">v0.0.3</a> of <a href="http://textualize.com/ruby-oai">ruby-oai</a> was just released to <a href="http://rubyforge.org">RubyForge</a>. The big news is that this release allows you to use <a href="http://libxml.rubyforge.org/">libxml</a> for parsing thanks to the efforts of <a href="http://web.archive.org/web/20090611182302/http://oregonstate.edu:80/~reeset/">Terry Reese</a>. Terry is building a RubyOnRails metasearch application at <a href="http://osulibrary.oregonstate.edu">OSU</a> and, well, felt the need for speed.</p>
 <p>After committing the branch he was working on I ran some performance tests of my own. I ran a vanilla ListRecords request against <a href="http://ir.library.oregonstate.edu/dspace-oai/request">dspace</a>, <a href="http://libeprints.open.ac.uk/perl/oai2">eprints</a> and <a href="http://memory.loc.gov/cgi-bin/oai2_0">american memory</a> oai-pmh servers using both the rexml (default) and libxml backend parsers. Here are the results</p>
 <table id="bench">

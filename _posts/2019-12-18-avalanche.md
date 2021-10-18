@@ -6,6 +6,7 @@ tags:
 - philosophy
 ---
 
+
 If you've tuned into my blog over the past couple of years you've probably
 seen me occasionally drop the idea of *governmentality*, especially in connection with my [dissertation research].
 I guess having worked close to a decade in government before starting this

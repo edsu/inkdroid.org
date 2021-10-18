@@ -21,6 +21,7 @@ tags:
 - dns
 comments: []
 ---
+
 <p>Some folks over at <a href="http://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost">Wikipedia Signpost</a> asked if they could use some of the barcharts I've been posting here recently. They needed the graphs to be released with a free license, which was a good excuse to slap a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 license</a> on all the content here at inkdroid. I'm kinda ashamed I didn't think of doing this before...</p>
 <p>I was also asked how easy it would be to generate the .gov and .edu graphs, as well as top level domains. I already had the hostnames exported, so it was just a few greps, sorts and uniqs away. I've included the graphs and the full data files below. My friend <a href="http://onebiglibrary.net">Dan Chudnov</a> suggested that plotting this data on a logarithmic scale would probably look better. I think he's probably right, but I just haven't gotten around to doing that yet. It's definitely something I will keep in mind for an app that allowed this slicing and dicing of the Wikipedia external links data.</p>
 <h3>top 100 .edu hosts in en.wikipedia external links</h3>

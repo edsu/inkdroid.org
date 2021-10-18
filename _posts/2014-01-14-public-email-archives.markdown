@@ -18,7 +18,7 @@ date_gmt: '2014-01-14 18:22:03 +0000'
 tags:
 - politics
 - email
-- library of virginia
+- library-of-virginia
 - pdf
 - virginia
 comments:
@@ -30,19 +30,14 @@ comments:
   date_gmt: '2014-01-28 20:17:36 +0000'
   content: |
     Hi Ed,
-
     Thanks for the feedback.  We are adding this paragraph to the Login page:
-
     The Virginia Freedom of Information Act (Code of Virginia, §2.2-3705.5) and the Virginia Public Records Act (Code of Virginia, §42.1- 78) establish guidelines for restricting access to privacy-protected information. Privacy-protected records include, but are not limited to, certain educational, medical, financial, criminal, attorney-client, and personnel records. Privacy-protected information is considered confidential and is restricted from public access for 75 years following the date of record creation. In accordance with this legislation, the Library of Virginia can and will restrict, in whole or in part, access to records containing privacy-protected information.
-
     This mirrors the language on the archives research room agreement that in-person users sign.
-
     As to the numbers, we could have done a better job explaining them.  The 1.3 million is the approximate total number of emails transferred to the Library - however not all of them are permanent archival records.  For this initial release, I reviewed 138,532 Executive Office emails.  Here is the breakdown:  66,422 open records, 13,594 restricted records, 10,808 Virginia Tech records (subject to further review) and 47,708 non-records/non-permanent records.  This constitutes approximately 10% of the collection.  We are going to add this to information to the "Under the Hood" section of the web site ("Kaine Email Project @ LVA - By the Numbers") and update it with each release.   My colleague Ben Bromley and I have reviewed an additional 348,225 emails from four offices.  We hope to release these records soon.
-
     Best,
-
     Roger Christman
 ---
+
 <p><a href="http://www.flickr.com/photos/epublicist/3509141851/"><img src="http://inkdroid.org/images/email.jpg" style="float: left; margin-right: 10px; width: 175px;" /></a></p>
 <p>I noticed on the <a href="http://www.archivists.org/listservs/arch_listserv_terms.asp">Archives and Archivists</a> discussion list today that the Library of Virginia <a href="http://www.virginiamemory.com/blogs/out_of_the_box/2014/01/13/adam-raised-a-kaine-archiving-the-records-of-a-governor/">has made</a> 66,422 of the approximately 1.3 million emails (167 GB) of <a href="https://en.wikipedia.org/wiki/Tim_Kaine">Governor Tim Kaine</a>'s 2006-2010 administration available on the Web. Even though this is only 5% of the entire collection, it still represents a significant step forwards for open access to government information.</p>
 <p>Thankfully, the Library of Virginia took the extra step of <a href="http://www.exlibrisgroup.com/category/DigiToolOverview">describing</a> how they went about processing the email collection. Along the way they tried a series of proprietary tools, some of which crashed regularly to convert pst to pdf and csv, which they then ingested into their digital asset management system, <a href="http://www.exlibrisgroup.com/category/DigiToolOverview">DigiTool</a> from ExLibris (which apparently couldn't load more than 3,000 emails without keeling over).</p>

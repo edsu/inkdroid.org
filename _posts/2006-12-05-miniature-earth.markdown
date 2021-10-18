@@ -18,5 +18,6 @@ date_gmt: '2006-12-05 16:41:32 +0000'
 tags: []
 comments: []
 ---
+
 <p>If there world's population were reduced to 100, it would look something like <a href="http://www.miniature-earth.com/">this</a>.</p>
 <p>(thanks Jeroen)</p>

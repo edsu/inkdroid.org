@@ -18,6 +18,7 @@ date_gmt: '2006-06-19 22:22:38 +0000'
 tags: []
 comments: []
 ---
+
 <p>Folks at Cornell are doing some fun stuff with Internet Archive data. William Arms presented <a href="http://www.cs.cornell.edu/wya/papers/JCDL-2006.doc">Building a Research Library for the History of the Web</a> at JCDL last week which summarized some of the architectural decisions they had to make in designing a system for mirroring and providing access to 240 terabytes of web content. Their goal is to function as both a full mirror of IA, and to build tools that allow social science and computer science researchers to use this data. </p>
 <p>A few interesting tidbits include:</p>
 <ul>

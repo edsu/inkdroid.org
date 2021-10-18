@@ -4,6 +4,7 @@ title: Appraisal Talk
 date: "2017-10-22 08:07"
 ---
 
+
 *This is a draft of a talk I'm giving at [SIGCIS](http://meetings.sigcis.org/conference-schedule.html) on October 29, 2017. It's part of a larger article that I will hopefully publish shortly or drop in a pre-print repository.*
 
 ---

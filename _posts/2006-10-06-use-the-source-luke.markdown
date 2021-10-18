@@ -27,5 +27,6 @@ comments:
     those pages where you have to wonder if even the guys who created it know what's
     going on.
 ---
+
 <p>Can you imagine (back in the day) going to a page like the one at <a href="http://safari.oreilly.com/">O'Reilly's Safari</a> doing a view-source in <a href="http://en.wikipedia.org/wiki/Mosaic_%28web_browser%29">Mosaic</a> and trying to learn HTML and how the web works?</p>
 <p>sigh...</p>

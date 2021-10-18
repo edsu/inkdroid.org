@@ -2,9 +2,10 @@
 layout: post
 title: Studying the COVID-19 Web
 tags:
-- web archives
+- web-archives
 - virus
 ---
+
 
 Off a tip from [Joan Donovan] and her team at the [Shorenstein Center] I've been
 experimenting a bit lately to examine new domains related to the COVID-19

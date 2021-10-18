@@ -23,6 +23,7 @@ tags:
 - wikidata
 comments: []
 ---
+
 <p>For <a href="https://twitter.com/dayofdh">#DayOfDH</a> yesterday I created a <a href="https://vimeo.com/128305641">quick video</a> about some data normalization work I have been doing using Wikidata entities. I may write more about this work later, but the short version is that I have a bunch of spreadsheets with names in them (authors) in a variety of formats and transliterations, which I need to collapse into a unique identifier so that I can provide a unified display of the data per unique author. So for example, my spreadsheets have information for Fyodor Dostoyevsky using the following variants:</p>
 <ul>
 <li>Dostoeieffsky, Feodor</li>

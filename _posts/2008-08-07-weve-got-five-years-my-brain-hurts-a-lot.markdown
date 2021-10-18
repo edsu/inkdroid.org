@@ -57,6 +57,7 @@ comments:
   content: Point taken. Sometimes it's difficult to take one thing that someone says
     out of the context of things that they have said in the past :-)
 ---
+
 <p>Recently there's been a few discussions about persistent identifiers on the web: in particular one about the <a href="http://lists.w3.org/Archives/Public/www-tag/2008Aug/0005.html">persistence of XRIs</a>, and another about the <a href="http://www.crossref.org/CrossTech/2008/07/five_years.html">use of</a> HTTP URIs in semantic web applications like <a href="http://dbpedia.org">dbpedia</a>. </p>
 <p>As you probably know already, the w3c <a href="http://lists.w3.org/Archives/Public/www-tag/2008May/0078">publicly recommended</a> against the use of Extensible Resource Identifiers (<a href="http://www.oasis-open.org/committees/xri/faq.php">XRI</a>). The net effect of this was to <a href="http://www.equalsdrummond.name/?p=130">derail</a> the standardization of XRIs within <a href="http://www.oasis-open.org">OAISIS</a> itself. Part of the process that Ray Denenberg (my colleague at the Library of Congress) helped kick off was a further discussion between XRI people and the w3c-tag about what XRI specifically provides that HTTP URIs do not. Recently that discussion hit a key point by Stuart Williams:</p>
 <blockquote><p>

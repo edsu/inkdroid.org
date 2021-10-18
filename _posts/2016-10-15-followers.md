@@ -7,6 +7,7 @@ tags:
 - politics
 ---
 
+
 TLDR;
 
 Q: Why was there such a large bump in the number of Hillary and Trump followers

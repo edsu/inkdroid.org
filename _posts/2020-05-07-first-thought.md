@@ -3,8 +3,9 @@ title: First Thought
 layout: post
 tags:
 - writing
-- social media
+- social-media
 ---
+
 
 When thinking about the lack of an edit or a delete button in
 [Scuttlebutt](https://en.wikipedia.org/wiki/Secure_Scuttlebutt) I was reminded

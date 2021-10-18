@@ -19,8 +19,9 @@ tags:
 - wikipedia
 - donations
 - wikimedia
-- non-profits
+- nonprofits
 comments: []
 ---
+
 <p><a href="http://wikimediafoundation.org/wiki/Support_Wikipedia/en"><img border="0" alt="Support Wikipedia" src="//upload.wikimedia.org/wikipedia/commons/4/4b/Fundraising_2009-square-treasure-en.png" style="float: left; margin-right: 10px; border: none;"/></a><br />
 The field of software development, the Web and libraries is changing so fast that there is no way to know everything I need to know to do my job well. Wikipedia continues to be an essential resource for learning about technologies, algorithms, people, and history related to my work. It's hard to imagine what the world would be like without it. <a href="http://wikimediafoundation.org/wiki/Support_Wikipedia/en">Thanks</a> for another year of awesome Wikipedia! The check is in the mail; well OK it's actually coming from PayPal ... you know the drill.</p>

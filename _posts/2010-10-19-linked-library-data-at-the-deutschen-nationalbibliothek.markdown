@@ -17,12 +17,13 @@ date: '2010-10-19 17:17:23 +0000'
 date_gmt: '2010-10-20 00:17:23 +0000'
 tags:
 - rdf
-- linkeddata
+- linked-data
 - germany
 - people
-- authority records
+- authority-control
 comments: []
 ---
+
 <p>Just last week Lars Svensson from the Deutschen Nationalbibliothek (German National Library aka DNB) made a big <a href="http://lists.w3.org/Archives/Public/public-lod/2010Oct/0016.html">announcement</a> that they have released their <a href="http://en.wikipedia.org/wiki/Authority_control">authority data</a> as <a href="http://en.wikipedia.org/wiki/Linked_Data">Linked Data</a> for the world to use. What this means is that there are now unique URLs (and machine readable data at the other end of them) for:</p>
 <ul>
 <li>1.8 million authors  from the <a href="http://web.archive.org/web/20120120051347/http://www.d-nb.de/standardisierung/normdateien/pnd.htm">Personennamendatei (PND)</a></li>

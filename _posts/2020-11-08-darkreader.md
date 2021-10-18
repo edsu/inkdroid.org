@@ -1,9 +1,10 @@
 ---
 title: Dark Reading
 tags:
-- open source
+- open-source
 layout: post
 ---
+
 
 I just made a donation to the [Dark Reader] project over on [Open Collective].
 If you haven't seen it before Dark Reader is a browser plugin (Firefox, Chrome,

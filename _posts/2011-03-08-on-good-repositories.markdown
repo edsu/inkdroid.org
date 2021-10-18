@@ -17,11 +17,12 @@ date: '2011-03-08 11:44:42 +0000'
 date_gmt: '2011-03-08 18:44:42 +0000'
 tags:
 - web
-- digital preservation
-- digital-curation
+- digital-preservation
+- curation
 - ranganathan
 comments: []
 ---
+
 <p><a href="http://twitter.com/#!/cardcc">Chris Rusbridge</a> kicked off an interesting <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind1103&L=JISC-REPOSITORIES&F=&S=&P=9578">thread</a> on JISC-REPOSITORIES with the tag line <em>What makes a good repository?</em> Implicit in this question, and perhaps the discussion list, is that he is asking about "digital" repositories, and not the brick n' mortar libraries, archives, etc that are arguably also repositories. </p>
 <p>The question of what a repository is, is pretty much verboten in the group I work in. This is kind of amusing since I work in a group whose latest name (in a string of names, and no-names) is the Repository Development Center. Well, maybe saying it's "verboten" is putting it a bit too strongly. It's not as if the "repository" is equivalent to <a href="http://en.wikipedia.org/wiki/Lord_Voldemort">He Who Shall Not Be Named</a> or anything. It's just that the word means so many things, to so many different people, and encompasses so much of what we do, that it's hardly worth talking about. At our best (IMHO) we focus on what staff and researchers want to do with digital materials, and building out services that help them do that. Getting wrapped around the axle about what set of technologies we are using, and whether they model data in a particular way, is putting the cart before the horse.</p>
 <p>As <a href="http://onebiglibrary.net">Dan</a> <a href="http://twitter.com/#!/dchud/status/11447075990">penned</a> one April 1st: "if you seek a pleasant repository, look about you". I guess this largely depends on where you are sitting. But seriously, if there's one thing that the <a href="http://www.crl.edu/sites/default/files/attachments/pages/trac_0.pdf"> Trustworthy Repositories Audit & Certification: Criteria and Checklist</a>, the <a href="http://www.crl.edu/archiving-preservation/digital-archives/metrics-assessing-and-certifying/core-re">Ten Principles for Digital Preservation Repositories</a>, and the <a href="http://brtf.sdsc.edu/">Blue Ribbon Task Force on Sustainable Digital Preservation and Access</a> make abundantly clear (after you've clawed out your eyes) it's that the fiscal and social dimension of repositories are a whole lot more important in the long run than the technical bits of how a repository is assembled in the now. I'm a software developer, and by nature I reach for technical solutions to problems, but in my heart of hearts I know it's true.</p>

@@ -7,6 +7,7 @@ tags:
 - sts
 ---
 
+
 Here are some scattered notes from reading [Governing the Soul] by [Nikolas
 Rose] with eye towards my field study [@Rose:1999]. It's quite a remarkable book
 given that it was originally written some 30 years ago, and the topic of how the

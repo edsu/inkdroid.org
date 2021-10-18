@@ -22,7 +22,7 @@ tags:
 - nodejs
 - smithsonian
 - cc0
-- creative commons
+- creative-commons
 comments:
 - id: 85353
   author: 'Do you git it?: Open educational resources/practices meets software version
@@ -53,6 +53,7 @@ comments:
     mechanism for contributing edits, although I definitely would question its scalability
     (I probably wouldn't, for example, publish the OpenLibrary's data this way)."
 ---
+
 <p>In case you missed it the <a href="http://cooperhewitt.org">Cooper-Hewitt National Design Museum</a> at the <a href="http://www.si.edu">Smithsonian Institution</a> made a pretty important <a href="http://labs.cooperhewitt.org/2012/releasing-collection-github/">announcement</a> almost a month ago that they have released their <a href="http://www.cooperhewitt.org/collections/data">collection metadata</a> on <a href="https://github.com/cooperhewitt/collection">GitHub</a> using the <a href="http://creativecommons.org/about/cc0">CC0</a> Creative Commons license. The choice to use GitHub is interesting (more about that below) but the big news is the choice to license the data with CC0. John Wilbanks wrote a nice <a href="http://del-fi.org/post/19787775081/us-government-and-cc0<br />
 ">piece</a> about why the use of CC0 is important. Rather than paraphrase I'll just quote his main point:</p>
 <blockquote><p>

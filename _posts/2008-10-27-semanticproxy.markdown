@@ -70,6 +70,7 @@ comments:
     for his post on SemanticProxy. Semantic proxy offers a dead simple API for feeding
     URL&#8217;s to the OpenCalais entity [...]"
 ---
+
 <p>I spent a 1/2 an hour goofing around with with the new (to me) <a href="http://semanticproxy.opencalais.com/">SemanticProxy</a> service from Calais. You  give the service a URL along with your API key, and it'll go pull down the content and then give you back some HTML or RDF/XML. The call is pretty simple, it's just a GET:</p>
 <pre>
 GET http://service.semanticproxy.com/processurl/{key}/rdf/{url}

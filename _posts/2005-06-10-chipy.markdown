@@ -18,6 +18,7 @@ date_gmt: '2005-06-10 15:05:07 +0000'
 tags: []
 comments: []
 ---
+
 <p>Chris has a nice <a href="http://weblog.lonelylion.com/?p=512">writeup</a> about last nights ChiPy lightning talks. There were tons of interesting people there with very interesting projects. Apart from the announcement that we might be hosting <a href="http://www.python.org/pycon/">PyCon</a> next year in Chicago, the highlight of the evening for me was hearing about the <a href="http://web.archive.org/web/20050707011548/http://www.cnn.com:80/2005/TECH/internet/06/09/google.map.hacks.ap/">amazing</a> data hack that is <a href="http://www.chicagocrime.org/">ChicagoCrime</a>.  <a href="http://www.holovaty.com/">Adrian</a> is a journalist/programmer who managed to glue together GoogleMaps with publicly available data from the Chicago Police Department. The main (perhaps unintended) things I took from his enthusiastic and humorous talk were:</p>
 <ul>
 <li>screen scraping is fragile but it's an important lever for fostering more elegant/robust information sharing.</li>

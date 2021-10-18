@@ -3,8 +3,9 @@ layout: post
 title: Personal Stories
 tags:
 - journalism
-- social-media
+- socialmedia
 ---
+
 
 There's an interesting segment in the ProPublica's recent
 [interview](https://www.propublica.org/podcast/item/the-breakthrough-what-american-journalists-can-learn-reporting-under-putin)

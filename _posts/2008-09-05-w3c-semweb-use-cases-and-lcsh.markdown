@@ -25,6 +25,7 @@ tags:
 - bibo
 comments: []
 ---
+
 <p>Via <a href="http://www.w3.org/People/Ivan/">Ivan Herman</a> I learned that the <a href="http://www.w3.org/2001/sw/sweo/public/UseCases/">Semantic Web Use Cases</a> use concepts from <a href="http://web.archive.org/web/20130812145007/http://lcsh.info/">lcsh.info</a>. For example look at the RDFa in <a href="http://www.w3.org/2001/sw/sweo/public/UseCases/NRK/">this</a> case study for the Digital Music Archive for the Norwegian National Broadcaster. You can also look at the Document metadata in a linked data browser like <a href="http://demo.openlinksw.com/rdfbrowser/?uri=http%3A//www.w3.org/2001/sw/sweo/public/UseCases/NRK/">OpenLink</a>. Click on the "Document" and then on the various subject "concepts" and you'll see the linked data browser go out and fetch the triples from lcsh.info for "Semantic Web" and "Broadcasting".</p>
 <p>One of the downsides to linked-data browsers (for me) is that they hide a bit of what's going on. Of course this is by-design. For a more rdf centric view on the data take a look at this output of <a href="http://librdf.org/raptor/rapper.html">rapper</a>.</p>
 <pre>

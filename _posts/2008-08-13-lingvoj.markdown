@@ -21,7 +21,7 @@ tags:
 - dublincore
 - semweb
 - languages
-- linkeddata
+- linked-data
 - uris
 comments:
 - id: 70581
@@ -55,6 +55,7 @@ comments:
     saved by Mattychan 39 days ago1 voteslingvoj&gt;&gt; saved by maphon 40 days ago6
     votesBack from ESWC 2008&gt;&gt; saved by SasukeXluversXunite 41 days ago5 [...]"
 ---
+
 <p><a href="http://esw.w3.org/topic/SweoIG/TaskForces/CommunityProjects/LinkingOpenData"><img src="http://inkdroid.org/images/lod.jpg" style="margin-right: 20px; margin-bottom: 20px; float: left;"/></a></p>
 <p>I'm just now running across <a href="http://www.lingvoj.org/">lingvoj.org</a>, a linked-data application for languages created by <a href="http://universimmedia.blogspot.com/">Bernard Vatant</a>. lingvoj basically mints URIs for languages (using the ISO-639-1 code) and when resolved (yay HTTP) nice human and machine readable descriptions about the language are returned. So for example the URI for Chinese is:</p>
 <blockquote><p>

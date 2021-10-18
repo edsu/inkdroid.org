@@ -6,6 +6,7 @@ tags:
 layout: post
 ---
 
+
 I happened to listen to an interview with anthropologist [Brian Larkin] on the [Cultures of Energy Podcast] who has been studying infrastructure for some time now. The podcast focuses on Larkin's interest in studying media and energy infrastructures, particularly as it relates to his field work in Nigeria--but it is also pretty free ranging. Larkin's [The Politics and Poetics of Infrastructure] is mentioned a few times by the hosts as a significant piece of work, so I thought I would follow up on it, since, despite its huge impact factor in Google Scholar, I had failed to register Larkin's work before. Below are some rough notes on reading through it.
 
 One point by Larkin that I think is quite important that I haven't seen talked about too much before is that it's important not to take infrastructure as some fixed unitary thing. The very act of naming an infrastructure, and drawing boundaries around it is itself an interpretive act.

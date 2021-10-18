@@ -6,6 +6,7 @@ tags:
 - memory
 ---
 
+
 I recently got around to reading [Pierre Nora]'s classic paper about history and
 memory, which archivists like to cite because of his claim that *modern memory
 is archival* [@Nora:1989]. The paper is actually an English translation of the

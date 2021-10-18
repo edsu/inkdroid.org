@@ -17,11 +17,10 @@ date: '2013-11-26 17:59:46 +0000'
 date_gmt: '2013-11-27 00:59:46 +0000'
 tags:
 - google
-- web archiving
+- web-archives
 - facebook
 - twitter
-- archiveteam
-- internetarchive
+- internet-archive
 comments:
 - id: 86676
   author: google.com/accounts/o8&hellip;
@@ -31,14 +30,9 @@ comments:
   date_gmt: '2013-11-27 21:28:08 +0000'
   content: |
     A little more information about the Memento work (<a href="http://www.mementoweb.org/" rel="nofollow">http://www.mementoweb.org/</a> as Ed didn't link to it) ...
-
-
     The issue referred to is a classic distributed search problem to which there are many possible solutions, from parallel searching to centralized federation and all of the hybrids in between.  There's also very strong caching possibilities, as it's very rare that archived copies go away once published.
     The prototype referred to was intended exclusively for members of the IIPC.  The live Memento Aggregators use various techniques, but they do <i>not</i> use the data provided by IIPC partner institutions.   Mostly these are aggressive caching and pre-fetching based on common requests, and quickest-response on-demand with the other archives being filled in and cached for future requests.
-
-
     Hope that clarifies a bit,
-
     -- Rob Sanderson
 - id: 86677
   author: The Dramatic Creation Story of HTML5
@@ -68,7 +62,7 @@ comments:
 - id: 86685
   author: 'Happenings in the Web Archiving World | The Signal: Digital Preservation'
   author_email: ''
-  author_url: http://blogs.loc.gov/digitalpreservation/2013/12/happenings-in-the-web-archiving-world/
+  author_url: http://blogs.loc.gov/digitalpreservation/2013/12/happenings-in-the-web-archives-world/
   date: '2013-12-04 11:11:45 +0000'
   date_gmt: '2013-12-04 18:11:45 +0000'
   content: |
@@ -101,7 +95,7 @@ comments:
 - id: 86749
   author: 'Weekly web archiving roundup: January 8, 2014 | Web Archiving Roundtable'
   author_email: ''
-  author_url: http://webarchivingrt.wordpress.com/2014/01/08/weekly-web-archiving-roundup-january-8-2014/
+  author_url: http://webarchivingrt.wordpress.com/2014/01/08/weekly-web-archives-roundup-january-8-2014/
   date: '2014-01-08 14:10:00 +0000'
   date_gmt: '2014-01-08 21:10:00 +0000'
   content: |
@@ -141,6 +135,7 @@ comments:
   content: "[&#8230;] long since gone? If those URLs are still working, is the content
     the same as it was? How has our archival sliver of the web [&#8230;]"
 ---
+
 <p><em>This is the text of a talk I gave at the (wonderful) <a href="http://www.ndf.org.nz/">National Digital Forum</a> in Wellington, New Zealand on November 27th, 2013. You can also find my slides <a href="http://edsu.github.io/webpresmed/">here</a>, and the video <a href="https://www.youtube.com/watch?v=HpJgX8a9d3I">here</a>. If you do happen to watch the video, you'll probably notice I spent more time thinking about the text than I did practicing my talk.</em></p>
 <hr />
 <div style="float: left; margin-right: 10px;">

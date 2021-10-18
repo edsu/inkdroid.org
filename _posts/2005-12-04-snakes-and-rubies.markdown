@@ -73,6 +73,7 @@ comments:
   content: Not sure about the Feynman, but Fuller suggested that 'if the solution
     is not beautiful, I know it is wrong.'
 ---
+
 <p><img src="https://web.archive.org/web/20060213060312/http://snakesandrubies.com/images/snakeandruby.gif" align="left" /> I managed to attend <a href="https://web.archive.org/web/20060212172955/http://snakesandrubies.com/event">Snakes and Rubies</a> yesterday where Adrian Holovaty and David Heinemeier Hansson talked about their respective web frameworks: <a href="http://www.djangoproject.com/">Django</a> and <a href="http://www.rubyonrails.org/">Rails</a>.</p>
 <p>The event started at 2PM and went to 6:30PM or so, and was attended by over 100 people! I watched this little event take shape out of the mists of the local python and ruby mailing lists and was just amazed to see how vibrant the Chicago software development scene is, or has become in the 3 years I've lived in the area.</p>
 <p>What's more Adrian and David did a great job promoting both of their projects, while remaining amiable and respectful of the other camp. It's hard to imagine a similar event between two commercial frameworks. Both were given about 45 minutes or so to talk about their software in any way they wanted. They both had extremely different yet effective presentation styles, and their projects had one important thing in common: disillusionment with PHP.</p>

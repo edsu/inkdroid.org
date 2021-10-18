@@ -26,6 +26,7 @@ comments:
   content: I'm amazed that they wrote back so apologetically instead of ignoring you.
     They must get hate mail all the time. What a sad job.
 ---
+
 <p>gabe discovered that the <a href="http://code4lib.org">code4lib.org</a> drupal instance was littered with comment spam. Someone had actually registered for an account and proceeded to add comments to virtually every story. </p>
 <p>Since there was an email address associated with the account I figured I'd send an email letting them know their account was going to be zapped.</p>
 <pre>

@@ -36,6 +36,7 @@ comments:
     calls, arbitrary ID's, etc to make scraping a page harder.  \r\n\r\nObviously
     you are happy to have the site be crawled, so it's a bit different."
 ---
+
 <p>Thanks for taking an interest in the historic content on a <a href="http://chroniclingamerica.loc.gov">website</a> I help run. We want to see the <a href="http://www.loc.gov/ndnp/">NDNP</a> newspaper content get crawled, indexed and re-purposed in as many places as possible. So we appreciate the time and effort you are spending on getting the OCR XML and JPEG2000 files  into <a href="http://footnote.com">Footnote</a>. I am a big fan of <a href="http://footnote.com">Footnote</a> and what you are <a href="http://go.footnote.com/nara/">doing</a> to help historical/genealogical researchers who subscribe to your product.</p>
 <p>But since I have your ear, it would be nice if you identified yourself as a bot. Right now you are pretending to be Internet Explorer:</p>
 <pre style="width: 95%;">

@@ -19,10 +19,10 @@ tags:
 - metadata
 - html
 - rdf
-- semanticweb
+- semweb
 - libraries
-- oai-pmh
-- oai-ore
+- oaipmh
+- oaiore
 - erdf
 - rdfa
 - xhtml
@@ -35,15 +35,10 @@ comments:
   date_gmt: '2008-02-22 23:57:11 +0000'
   content: |
     <p>Hi,</p>
-
     <p>I agree with you that things could be loosened. The Discovery document position tends to arise when it is assumed that it must be possible to tell the difference between a resource and an information resource, perhaps by performing an HTTP request. (This is something I know that Ian has argued in the past.)</p>
-
     <p>In my view this is an over-literal reading of the situation, something various people have tried to tackle. My own comments are in <a href="http://internet-apps.blogspot.com/2007/11/once-more-on-information-resources-and.html" rel="nofollow">Once more on information resources and RDFa</a>. I also have an older post from a couple of years ago, which was originally intended to be a critical look at the whole discussion from the same standpoint as the Discovery document that you quote, but in the course of working it through I discovered that my own view was wrong. It may be of interest to others who are as confused as I was, and it's called <a href="http://internet-apps.blogspot.com/2006/05/information-resource-debate-and-rdfa.html" rel="nofollow">The Information Resource Debate, and RDFa</a>.</p>
-
     <p>Interesting work, though. And a great use of RDFa.</p>
-
     <p>All the best,</p>
-
     <p>Mark Birbeck
     http://web.archive.org/web/20111121115551/http://webbackplane.com/mark-birbeck/</p>
 - id: 55456
@@ -88,9 +83,9 @@ comments:
   date_gmt: '2008-04-17 20:50:53 +0000'
   content: |-
     <strong>Blog Hopper...</strong>
-
     Hi There. I'm blog hopping....
 ---
+
 <p>The OAI-ORE <a href="http://www.openarchives.org/ore/documents/ore-hopkins-press-release.pdf">meeting</a> is coming up, and in general I've been really impressed with the alpha <a href="http://www.openarchives.org/ore/0.1/toc">specs</a> that have come out. It's not clear that there's an established vocabulary for talking about aggregated resources on the web, so the <a href="http://www.openarchives.org/ore/0.1/datamodel">Data Model</a> and <a href="http://www.openarchives.org/ore/0.1/vocabulary">Vocabulary</a> documents were of particular interest to me.</p>
 <p>One thing I didn't quite understand, and which I think may have some significance for implementors, is some language in the <a href="http://www.openarchives.org/ore/0.1/discovery#URIConflation">Discovery</a> document on the subject of URI conflation:</p>
 <blockquote><p>The Data Model document [ORE Model] explicitly prohibits a URI of a ReM (URI-R) ever returning anything other than a ReM. This allows multiple representations to be associated with URI-R, such as using content negotiation to return ReMs in different languages, character sets, or compression encodings. But it does not allow URI-R to return a human readable "splash page", either by HTTP content negotiation or redirection. For example, clients MUST NOT merge with content negotiation the following URI pair that would correspond to a ReM and a "splash page" for an object:</p></blockquote>

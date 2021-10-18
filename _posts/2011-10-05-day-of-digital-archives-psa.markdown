@@ -57,6 +57,7 @@ comments:
     Also, having a record of the files that are in the bag is still minimally useful
     I suppose--even if their fixity is incorrect. '
 ---
+
 <p>Today is <a href="http://dayofdigitalarchives.blogspot.com/">Day of Digital Archives</a> day and I had this semi-thoughtful post written up about <a href="http://en.wikipedia.org/wiki/BagIt">BagIt</a> and how it's a brain dead simple format to use to package up your files so that you'll know if you still have them 5 minutes, 5 hours, 5 days, 5 years, maybe even 5 decades from now--if the notion of directories and files persists that long. </p>
 <p>But I deleted that...you're welcome...</p>
 <p>I was also going to write about how in a fit of web <a href="http://en.wikipedia.org/wiki/Performance_art">performance art</a> <a href="http://en.wikipedia.org/wiki/Mark_Pilgrim_(software_developer)">Mark Pilgrim</a> recently deleted his online presence, including various extremely useful opensource tools, and several popular online books, only to see them re-materialize on the Web at new locations.</p>

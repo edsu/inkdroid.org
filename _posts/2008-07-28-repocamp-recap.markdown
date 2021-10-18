@@ -16,7 +16,7 @@ wordpress_url: http://inkdroid.org/journal/?p=210
 date: '2008-07-28 06:29:19 +0000'
 date_gmt: '2008-07-28 13:29:19 +0000'
 tags:
-- oai-ore
+- oaiore
 - web
 - atom
 - semweb
@@ -28,6 +28,7 @@ tags:
 - loc
 comments: []
 ---
+
 <p>So <a href="http://barcamp.org/RepoCamp">RepoCamp</a> was a lot of fun. The goal was to discuss repository interoperability--and at the very least repository <em>practitioners</em> got to interoperate, and have a few beers afterwards. Hats off to <a href="http://dfflanders.wordpress.com/">David Flanders</a> who clearly has got running these events down to a fine art.</p>
 <p>I finally got to meet <a href="http://oxfordrepo.blogspot.com/">Ben O'Steen</a> after bantering with him on <a href="irc://freenode.net/code4lib">#code4lib</a> and <a href="irc://freenode.net/talis">#talis</a> ... and also got to chat with <a href="/http://wwmm.ch.cam.ac.uk/blogs/downing/">Jim Downing</a> (Cambridge Univ) about <a href="http://www.ukoln.ac.uk/repositories/digirep/index/SWORD">SWORD</a> stuff, and Stephan Drescher (Los Alamos National Lab) about <a href="http://web.archive.org/web/20100408161955/http://african.lanl.gov/ovalnet/validate.jsp">validating OAI-ORE</a>.</p>
 <p>Stephan and I had a varied and wide ranging discussion about the web in general, which was a lot of fun. I really dug his metaphor of the web as an aquatic ecosystem, with interdependent organisms and shared environments. It reminded me a bit of how shocked I was to <a href="http://twitter.pbwiki.com/Communities">discover</a> how rich and varied the ecosystem is around a "simple" service like <a href="http://twitter.com">twitter</a>. If I ever return to school it will be to study something along the lines of <a href="http://webscience.org/">web science</a>.</p>

@@ -8,6 +8,7 @@ tags:
 - archive
 ---
 
+
 The second Trump impeachment is underway. As expected the
 tweets-seen-by-millions-that-are-no-longer-available are being used as
 exhibits. For example here is one I saw in [this NYTimes

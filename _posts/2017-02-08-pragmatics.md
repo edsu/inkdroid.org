@@ -7,6 +7,7 @@ tags:
 - discourse
 ---
 
+
 *In keeping with past semesters I'm going to try posting my written notes for
 class here. This is mostly peer pressure on myself to think about how I'm
 writing a bit more publicly. Although the reality is it's mostly going to be

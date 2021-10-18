@@ -18,6 +18,7 @@ date_gmt: '2006-03-17 16:07:57 +0000'
 tags: []
 comments: []
 ---
+
 <p>Since the code4lib <a href="http://www.code4lib.org/2006">conference</a> the <a href="irc://irc.freenode.net/code4lib">#code4lib</a> irc channel has gained a lot of new voices with new ideas. In fact <a href="http://web.archive.org/web/20081012074740/http://cavlec.yarinareth.net/archives/2006/03/12/fifty-ways-to-lose-your-techies/">dsalo</a> and <a href="http://www.kevinclarke.info/weblog/archives/56">ksclarke</a> have already said all I can think of saying on the topic of the changing culture of the #code4lib channel.</p>
 <p>Some people have suggested that some of the ideas, such as a journal, doing outreach/consulting work, etc will require the irc channel to clean up its act. I know that I've had moments in irc where I've lost my cool, or said something that I regret later...yesterday in fact.</p>
 <p>So, for my own selfish purposes I would like to see a public log of the channel. It's been kind of a defacto rule that there are no public logs for the two years #code4lib has been going...but I think it might be time to add them. My reasoning is:</p>

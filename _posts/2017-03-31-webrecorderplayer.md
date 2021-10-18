@@ -7,6 +7,7 @@ tags:
 - preservation
 ---
 
+
 Yesterday the [Webrecorder] project from [Rhizome] announced the v1.0.0 release
 of their project [WebrecorderPlayer] application:
 

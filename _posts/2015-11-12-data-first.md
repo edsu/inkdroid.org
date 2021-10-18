@@ -2,11 +2,11 @@
 layout: post
 title: Data First Interventions
 tags:
-- web archiving
-- small data
+- web-archives
+- small-data
 - repair
-
 ---
+
 
 *These are some remarks I made at the [Web Archives] conference at the
 University of Michigan, on November 12th, 2015. I didn't have any slides other

@@ -2,10 +2,11 @@
 layout: post
 title: Assemblages of Appraisal
 tags:
-- web archives
+- web-archives
 - ethnography
 - appraisal
 ---
+
 
 *I had the opportunity to put together a [poster](/talks/aeri2017.pdf) for
 [AERI](http://aeri2017.org) this year. The poster presents a paper that I

@@ -55,6 +55,7 @@ comments:
     rel="nofollow">Arc</a> and this bug went away. Thanks for letting me know about
     it!
 ---
+
 <p><em>disclaimer: <a href="http://web.archive.org/web/20130812145007/http://lcsh.info/">lcsh.info</a> was a prototype, and is no longer available, see <a href="http://id.loc.gov">id.loc.gov</a> for the service from the <a href="http://id.loc.gov">Library of Congress</a></em></p>
 <p><a href="http://arc.semsol.org/"><img src="http://inkdroid.org/images/arc.gif" style="float: left; margin-right: 10px; border: 0;" /></a> I've set up a <a href="http://en.wikipedia.org/wiki/SPARQL">SPARQL endpoint</a> for <a href="http://web.archive.org/web/20130812145007/http://lcsh.info/">lcsh.info</a> at <a href="http://web.archive.org/web/20090316095546/http://sparql.lcsh.info:80/?">sparql.lcsh.info</a>. If you are new to SPARQL endpoints, they are essentially REST web services that allow you to query a pool of RDF data using a query language that combines features of pattern matching, set logic and the web, and then get back results in a variety of formats. If you are a regular expression and/or SQL junkie, and like data, then SPARQL is definitely worth taking a look at.</p>
 <p>If you are new to SPARQL and/or LCSH as SKOS you can try the default query and you'll <a href="http://sparql.lcsh.info/?query=SELECT+%3Fs+%3Fp+%3Fo+WHERE+0D%0A++%3Fs+%3Fp+%3Fo+.%0D%0A}%0D%0ALIMIT+10%0D%0A++++++++++++&output=htmltab&jsonp=&key=">get back</a> the first 10 triples in the triple store:</p>

@@ -18,6 +18,7 @@ date_gmt: '2006-06-21 19:59:15 +0000'
 tags: []
 comments: []
 ---
+
 <p>So the big news for me at JCDL was Carl Lagoze's presentation on the state of the NSDL in his paper <a href="http://arxiv.org/abs/cs.DL/0601125">Metadata Aggregation and "Automated Digital Libraries": A Retrospective on the NSDL Experience</a>. It ended up winning the <a href="http://web.archive.org/web/20120304165945/http://www.jcdl.org/awards.shtml">Vannevar Bush Best Paper Award</a> so I guess it was of interest to some other folks. I highly recommend printing out the paper for a train ride home if you are at all interested in digital libraries and metadata.</p>
 <p>The paper is essentially a review of a three year effort to build a distributed digital library using the OAI-PMH protocol. Lagoze's pain in relating some of the findings was audible and understandable given his involvement in OAI-PMH...and the folks seated before him.</p>
 <p>The findings boil down to a few key points:</p>

@@ -18,6 +18,7 @@ date_gmt: '2007-01-03 01:36:30 +0000'
 tags: []
 comments: []
 ---
+
 <p><object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/v7p7FS88Z18"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/v7p7FS88Z18" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object></p>
 <blockquote><p>
 Yes it's almost as though consumers have moved on because mainstream media has abdicated its responsibility...

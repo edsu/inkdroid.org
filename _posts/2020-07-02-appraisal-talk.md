@@ -3,9 +3,10 @@ layout: post
 title: Appraisal Talk in Web Archives
 tags:
 - archives
-- web archives
+- web-archives
 - research
 ---
+
 
 I'm deep in writing the final chapters of my dissertation (wish me luck!), but
 happened to notice that a recent article that I published in Archivaria is no

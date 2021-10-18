@@ -28,6 +28,7 @@ comments:
     to me.  Oh wait, they are!  Ed Summers et. al. at the Library of Congress are
     at the forefront of this whole approach I am talking about. [...]"
 ---
+
 <p>Adam Bosworth has some good advice for would-be standards developers in the form of a <a href="http://adambosworth.net/2009/10/29/talking-to-dc/">7 item list</a>. It is strangely reassuring to know that someone in the US Federal Government called someone like Adam for advice about standards...even if it was at some inhuman hour. Number 5 really resonated with me:</p>
 <blockquote><p>
 Always have real implementations that are actually being used as part of [the] design of any standard ... And the real implementations should be supportable by a single engineer in a few weeks.

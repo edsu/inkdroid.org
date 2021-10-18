@@ -23,6 +23,7 @@ tags:
 - meetings
 comments: []
 ---
+
 <p><a href="http://ten.wikipedia.org/"><img src="http://inkdroid.org/images/10.png" style="float: left; margin-right: 10px;" /></a></p>
 <p></p>
 <p>Wikipedia is turning ten years old on January 15th, and celebratory gatherings are going around the globe, including one in my area (<a href="http://ten.wikipedia.org/wiki/Washington,_D.C.">Washington DC</a>) on January 22 at the <a href="http://archives.gov">National Archives</a>.</p>

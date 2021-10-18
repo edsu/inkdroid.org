@@ -32,6 +32,7 @@ comments:
   content: |
     <p>[...] Gazette (published since 1665), which we have already reported on, the next UK Government site reported to use RDFa is the UK National [...]</p>
 ---
+
 <p><img src="http://inkdroid.org/images/natarch.gif" style="float: left; border: thin inset gray; margin-right: 15px;" />I got a chance to meet Jennifer Rigby of the <a href="http://www.nationalarchives.gov.uk/">National Archives UK</a> at the <a href="http://linkeddataplanet.com">LinkedDataPlanet</a> Conference in New York City (thanks <a href="http://iandavis.com">Ian</a>).  Jennifer is the Head of IT Strategy, and told me lots of interesting stuff related to a profound shift they've had in their online strategies to:</p>
 <blockquote><p>
 <a href="http://www.nationalarchives.gov.uk/documents/provide-enable-summary.pdf">Provide and Enable</a>

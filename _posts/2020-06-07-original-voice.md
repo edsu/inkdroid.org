@@ -5,6 +5,7 @@ tags:
 layout: post
 ---
 
+
 This is a little segment of [Sarah Manguso]'s Perfection [@Manguso:2020] that
 spoke to me.  It made me laugh a little as I often struggle to recognize the
 heart of a project--it's particular, sometimes obvious, always contingent,

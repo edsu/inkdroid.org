@@ -21,6 +21,7 @@ tags:
 - latour
 comments: []
 ---
+
 <p><a href="http://www.goodreads.com/book/show/13222626-alien-phenomenology-or-what-it-s-like-to-be-a-thing" style="float: left; padding-right: 20px"><img alt="Alien Phenomenology, or What It's Like to Be a Thing" border="0" src="http://inkdroid.org/images/bogost.jpg" /></a><a href="http://www.goodreads.com/book/show/13222626-alien-phenomenology-or-what-it-s-like-to-be-a-thing">Alien Phenomenology, or What It's Like to Be a Thing</a> by <a href="http://www.goodreads.com/author/show/38615.Ian_Bogost">Ian Bogost</a><br />
 My rating: <a href="http://www.goodreads.com/review/show/605946721">3 of 5 stars</a></p>
 <p>I found this book to be quite accessible and totally incomprehensible at the same time. It was kind of a surreal joy to read. I liked how it flipped the artificial intelligence research agenda of getting machines to think (like people), to getting humans to imagine what it was like to be a thing. I also came to appreciate Bogost's variation on Latour's litanies, so called tiny ontology. And I really appreciated his emphasis on making things to guide thinking or philosophical carpentry ... and the importance of cultivating a sense of wonder. His use of real examples and case studies to demonstrate his thinking was also very helpful--and sometimes quite humorous. I'm wandering back to Latour to read <a href="http://www.goodreads.com/book/show/134569.We_Have_Never_Been_Modern">We Have Never Been Modern</a> based on some discussion of it in this book.</p>

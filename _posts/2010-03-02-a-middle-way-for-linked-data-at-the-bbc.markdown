@@ -19,8 +19,8 @@ tags:
 - rdf
 - web
 - bbc
-- linked data
-- semantic web
+- linked-data
+- semweb
 - radio
 - television
 - dbpedia
@@ -45,6 +45,7 @@ comments:
   content: |
     [&#8230;] Summers, E. (04/02/10). a middle way for linked data at the bbc. Inkdroid. Retrieved December 1, 2013, from http://inkdroid.org/journal/2010/03/02/a-middle-way-for-linked-data-at-the-bbc/ [&#8230;]
 ---
+
 <p>I got the chance to attend the <a href="http://www.meetup.com/Web-Of-Data/calendar/12317420/">2nd London Linked Data Meetup</a> that was co-located with  <a href="http://dev8d.org">dev8d</a> last week, which turned out to be a whole lot of fun. I figured if I waited long enough other people would save me from having to write a good summary/discussion of the event...and they have: thanks <a href="http://efoundations.typepad.com/efoundations/2010/02/the-2nd-linked-data-london-meetup-trying-to-bridge-a-gap.html">Pete Johnston</a>, <a href="http://bens.me.uk/2010/london-linked-data-meetup">Ben Summers</a>, <a href="http://blogs.cetis.ac.uk/sheilamacneill/2010/02/26/2nd-linked-data-meetup-london/">Sheila Macneill</a>, <a href="http://www.currybet.net/cbet_blog/2010/03/linked_data_human_readable_uris.php">Martin Belam</a> and <a href="http://www.frankieroberto.com/weblog/1621">Frankie Roberto</a>.</p>
 <p><img src="http://inkdroid.org/images/bbc.png" style="margin-right: 10px; margin-bottom: 5px; float: left;"/> The main thing that I took away is how much good work the <a href="http://bbc.com">BBC</a> is doing in this space. Given the recent news of <a href="http://www.nytimes.com/2010/03/03/business/media/03bbc.html">cuts</a> at the BBC, it seems like a good time to say publicly how important some of the work they are doing is to the web technology sector. As part of the Meetup <a href="http://derivadow.com/">Tom Scott</a> gave a  <a href="http://www.slideshare.net/derivadow/apis-and-apis-a-wildlife-ontology">presentation</a> on how the BBC are using Linked Data to integrate distinct web properties in the BBC enterprise, like their <a href="http://www.bbc.co.uk/programmes">Programmes</a> and the <a href="http://www.bbc.co.uk/wildlifefinder/">Wildlife Finder</a> web sites.</p>
 <p>The basic idea is that they categorize (dare I say catalog?) <a href="http://www.bbc.co.uk/programmes">television and radio content</a> using wikipedia/dbpedia as a <a href="http://en.wikipedia.org/wiki/Controlled_vocabulary">controlled vocabulary</a>. Just doing this relatively simple thing means that they can create another site like the <a href="http://www.bbc.co.uk/wildlifefinder/">Wildlife Finder</a> that provides a topical guide to the natural world (and also happens to use wikipedia/dbpedia as a controlled vocabulary), that then links to their audio and video content. Since the two sites share a common topic vocabulary, they are able to automatically create links from the topic guides to all the radio and television content that are on a particular topic.</p>

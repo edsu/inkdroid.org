@@ -25,6 +25,7 @@ tags:
 - heroku
 comments: []
 ---
+
 <p>You probably already saw the <a href="http://www.wired.com/wiredscience/2013/10/phone-map-game-new-york-city/">news</a> about NYPL's <a href="http://buildinginspector.nypl.org">Building Inspector</a> that was released yesterday. If you haven't, definitely check it out...it's a beautiful app. I hope Building Inspector represents the shape of things to come for engagement with the Web by cultural heritage institutions.</p>
 <p>I think you'll find that it is strangely addictive. This is partly because you get to zoom in on random closeups of historic NYC maps: which is like candy if you are a map junkie, or have spent any time in the city. More importantly you get the feeling that you are helping NYPL build and enrich a dataset for further use. I guess you could say it's <a href="https://en.wikipedia.org/wiki/Gamification">gamification</a>, but it feels more substantial than that.</p>
 <p>Building Inspector hits a sweet spot for a few reasons:</p>

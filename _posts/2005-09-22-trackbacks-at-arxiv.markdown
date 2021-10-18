@@ -18,6 +18,7 @@ date_gmt: '2005-09-22 15:01:15 +0000'
 tags: []
 comments: []
 ---
+
 <p>I just <a href="http://web.archive.org/web/20080724005305/http://endlesshybrids.com/2005/09/21/research-tools-enter-the-blogosphere/">read</a>  (thanks jeff) about how arXiv.org has <a href="http://arxiv.org/help/trackback/">implemented</a> experimental <a href="http://www.sixapart.com/pronet/docs/trackback_spec">trackback</a> support. Essentially this allows researchers who maintain online journals to simply reference an abstract like <a href="http://arxiv.org/abs/cs.DL/0503016">File-based storage of Digital Objects and constituent datastreams: XMLtapes and Internet Archive ARC files</a> (a great article by the way) and arXiv will receive a trackback ping at http://arxiv.org/trackback/0503016 that lets them know someone referenced the abstract. If you've followed this so far you might be wondering how the blogging software (wordpress, moveabletype, blosxom, etc) figure out where to ping arxiv.org. Take a look in the source code for the arXiv abstract and you'll see a chunk of RDF:</p>
 <pre>
 

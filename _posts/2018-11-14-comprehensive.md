@@ -5,6 +5,7 @@ tags:
 - archives
 ---
 
+
 I had some interesting conversations after [my talk] yesterday. In particular
 [Nicholas Taylor] asked me a provocative question, playing Devil's advocate a
 bit, because I don't think his work as an archivist demonstrates this

@@ -19,9 +19,9 @@ tags:
 - google
 - freebase
 - wikipedia
-- knowledge graph
+- knowledge-graph
 - apples
-- my little pony
+- my-little-pony
 comments:
 - id: 85886
   author: google.com/accounts/o8&hellip;
@@ -36,6 +36,7 @@ comments:
     the card, it'll offer to let you mark various facts (including the image) as being
     wrong.  You can see it in your screen caps.\r\n\r\n@tfmorris"
 ---
+
 <p>It has been observed that when systems break down we get to actually see how they operate. I wonder what this breakage below says about the <a href="http://www.guardian.co.uk/technology/2013/jan/19/google-search-knowledge-graph-singhal-interview">use</a> of Freebase and Wikipedia data in Google's <a href="http://www.google.com/insidesearch/features/search/knowledge.html">Knowlege Graph</a>.</p>
 <p><a href="https://www.google.com/#q=braeburn&fp=82bae2c3ce10781c"><img class="img-responsive" src="http://inkdroid.org/images/braeburn-kg.png"/></a></p>
 <p>Yes, that's an image of <a href="http://mlp.wikia.com/wiki/Braeburn">Braeburn</a> from My Little Pony to the right, and text about the apple to the left. Interestingly it's fine at Wikipedia:</p>

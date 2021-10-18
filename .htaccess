@@ -101,3 +101,7 @@ RewriteRule ^2015/03/12/javascript-and-archives/ http://inkdroid.org/2015/03/11/
 RewriteRule ^rss/whitehouse.xml https://www.whitehouse.gov/feed/ [L,R=301,NC]
 RewriteRule ^rss/1600daily.xml https://www.whitehouse.gov/feed/ [L,R=301,NC]
 
+RewriteRule ^cv-short.pdf /ehs/ehs.pdf
+RewriteRule ^cv-short.docx /ehs/ehs.docx
+RewriteRule ^cv-short.html /ehs/
+

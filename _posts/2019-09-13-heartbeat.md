@@ -6,6 +6,7 @@ tags:
 - api
 ---
 
+
 I was doing some Twitter data collection for the Democratic Presidential
 Debates last night for some folks at work. Apart from the analysis that they
 want to run I was curious to look a little bit closer at how much I was rate limited during the

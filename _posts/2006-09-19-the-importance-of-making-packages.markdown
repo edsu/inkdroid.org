@@ -46,6 +46,7 @@ comments:
     team (me) because of the code reuse.\r\n\r\nSo yes, nice little reusable packages
     are good."
 ---
+
 <p><a href="http://visual.verbaljazz.com/index.php?showimage=66"><img src="/images/mud.jpg" border="0" width="300" align="left" style="margin: 10px;" /></a>If you are interested in such things Ian Bicking has a nice <a href="http://blog.ianbicking.org/why-small-packages-matter.html">posting</a> about why breaking up a project into smaller packages of functionality is important. His key point is that the boundaries between packages actually help in establishing and maintaining decoupled modules within your application.</p>
 <blockquote><p>
 ...when someone claims their framework is all spiffy and decoupled, but they just don't care to package it as separate pieces... I become quite suspicious. Packaging doesn't fix everything. And it can introduce real problems if you split your packages the wrong way. But doing it right is a real sign of a framework that wants to become a library, and that's a sign of Something I'd Like To Use.

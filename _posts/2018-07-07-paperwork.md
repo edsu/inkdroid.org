@@ -6,6 +6,7 @@ tags:
 - politics
 ---
 
+
 > Peasantries with long experience of on-the-ground statecraft have always
 > understood that the state is a recording, registering, and measuring machine.
 > So when a government surveyor arrives with a plane table, or census takers

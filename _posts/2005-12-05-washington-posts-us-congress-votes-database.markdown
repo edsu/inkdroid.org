@@ -18,6 +18,7 @@ date_gmt: '2005-12-05 22:18:22 +0000'
 tags: []
 comments: []
 ---
+
 <p>Umm, wow! Adrian Holovaty <a href="http://www.holovaty.com/blog/archive/2005/12/05/1513">announced</a> the Washington Post <a href="http://projects.washingtonpost.com/congress/">Congressional Votes Database</a>.  This site is of important for at least two reasons:</p>
 <ul>
 <li>it offers <a href="http://projects.washingtonpost.com/congress/rss/">RSS feeds</a> for  tracking the voting of your house/senate representative</li>

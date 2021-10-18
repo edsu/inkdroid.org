@@ -3,10 +3,11 @@ layout: post
 title: API Studies
 tags:
 - api
-- platform studies
+- platform-studies
 - twitter
 - docnow
 ---
+
 
 Because of my work in the iSchool and at MITH, and the influence of various
 people in both, I'm getting increasingly interested in looking at social media 

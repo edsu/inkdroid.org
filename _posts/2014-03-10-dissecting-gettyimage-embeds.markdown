@@ -26,6 +26,7 @@ comments:
   content: |
     [&#8230;] Editors&#8217; Note: You also may be interested in Ed Summer&#8217;s overview of what happens when you embed a Getty Image. [&#8230;]
 ---
+
 <p>Yes, GettyImages have decided to <a href="http://en.blog.wordpress.com/2014/03/06/embed-support-getty-images/">encourage</a> people to embed their images. Despite <a href="http://www.poststat.us/getty-images-now-free-embed/">opinions to the contrary</a> I think this is A Good Thing. So what happens when you embed a Getty image into your HTML? To get something like this in your page:</p>
 <p><iframe src="//embed.gettyimages.com/embed/81901686?et=4td6Xm2f0k6pMgQVX7pNFA&sig=fhRom4eoepnZbyWjZ0_2N3SdVG1dxQTC2GUAK4XrPjg=" width="462" height="440" frameborder="0" scrolling="no"></iframe></p>
 <p>you need to include a little snippet of HTML in your pages:</p>

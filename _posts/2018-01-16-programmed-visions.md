@@ -8,6 +8,7 @@ tags:
 - software
 ---
 
+
 I've been meaning to read [Wendy Hui Kyong Chun] for some time now. [Updating to
 Remain the Same] is on my [to-read list], but I recently ran across a reference
 to [Programmed Visions: Software and Memory] in @Rogers:2017, which I wrote

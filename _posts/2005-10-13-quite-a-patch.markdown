@@ -18,6 +18,7 @@ date_gmt: '2005-10-13 19:10:42 +0000'
 tags: []
 comments: []
 ---
+
 <p>Since starting to use <a href="http://lucene.apache.org">lucene</a> heavily at work about a year ago I've been watching the lucene list out of the corner of my eye for tips and tricks. Today I saw an email go by that referenced a <a href="http://issues.apache.org/jira/browse/LUCENE-454">recent patch</a> that lazily creates SegmentMergeInfo.docMap objects. I guess the point isn't so much what the object is, but the mere change in lazily creating the object yielded some pretty impressive performance gains:</p>
 <pre>
 <blockquote>

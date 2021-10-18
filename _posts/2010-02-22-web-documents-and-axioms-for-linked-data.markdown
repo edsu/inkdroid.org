@@ -16,9 +16,9 @@ wordpress_url: http://inkdroid.org/journal/?p=1676
 date: '2010-02-22 19:06:38 +0000'
 date_gmt: '2010-02-23 02:06:38 +0000'
 tags:
-- semanticweb
+- semweb
 - rest
-- linkeddata
+- linked-data
 - webarch
 comments:
 - id: 81894
@@ -88,6 +88,7 @@ comments:
     rid of this fuzzy nasty human common sense that has less problems to handle with
     uncertain and contradicting information :-)
 ---
+
 <p>A few months ago I took part in a <a href="http://groups.google.com/group/pedantic-web/browse_thread/thread/eb65cce9df40abd4">discussion</a> on the <a href="http://pedantic-web.org/">pedantic-web</a> list, which started out as a relatively simple question about FOAF usage, and quickly evolved into a conversation about terms people use when talking about Linked Data, and more generally the Web. </p>
 <p>I ended up having a very helpful off-list email exchange with <a href="http://richard.cyganiak.de/">Richard Cyganiak</a> (one of the architects of the <a href="http://www4.wiwiss.fu-berlin.de/bizer/pub/LinkedDataTutorial/">Linked Data</a> pattern) about <a href="http://inkdroid.org/journal/2009/05/14/rest-the-semantic-web-and-my-feeble-brain/">some</a> <a href="http://inkdroid.org/journal/2009/09/10/documents/">trouble</a> I've had understanding what <em>Information Resources</em> and <em>Documents</em> are in the context of <a href="http://www.w3.org/TR/webarch/#id-resources">Web Architecture</a>. The trouble I had was in determining whether or not a collection of physical newspaper pages I was helping <a href="http://chroniclingamerica.loc.gov">put on the web</a> were <em>Information Resources</em> or not. I needed to know because I wanted to identify the newspaper pages with URIs, and describe them as Linked Data...and the resolvability of these URIs was largely <a href="http://www.w3.org/TR/cooluris/#semweb">dependent</a> on how I chose to answer the question.</p>
 <p>Richard ended up offering up some advice that I've since found very useful, and I thought I would transcribe some of it down here just in case you might find it useful as well. My apologies to you (and Richard) if some of this seems out of context. It may really only be useful for people who are in the digital library domain, but perhaps it's useful elsewhere.</p>

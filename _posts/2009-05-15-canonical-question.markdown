@@ -20,7 +20,7 @@ tags:
 - web
 - search
 - google
-- crawlers
+- crawling
 comments:
 - id: 81526
   author: jenitennison.com/
@@ -63,6 +63,7 @@ comments:
   content: erik, funny you should mention that -- it's high on the list of features
     the stakeholders would like added, so it's likely to go in soon.
 ---
+
 <p>As the last post indicated I'm part of a team at loc.gov working on an <a href="http://chroniclingamerica.loc.gov">application</a> that serves up page views like <a href="http://chroniclingamerica.loc.gov/lccn/sn83030214/1901-08-25/ed-1/seq-15/">this</a> for historic newspapers--almost a million of them in fact. For each page view there is another URL for a view of the OCR text gleaned from that image, such as <a href="http://chroniclingamerica.loc.gov/lccn/sn83030214/1901-08-25/ed-1/seq-15/ocr/">this</a>. Yeah, kind of yuckster at the moment, but we're working on that.</p>
 <p>Perhaps it's obvious, but the goal of making the OCR html view available is so that search engine crawlers can come and index it. Then when someone is searching for someone's name, say <a href="http://www.google.com/search?q=Dr.+Herbert+D.+Burnham">Dr. Herbert D. Burnham</a> in Google they'll come to <a href="http://chroniclingamerica.loc.gov/lccn/sn83030214/1901-08-25/ed-1/seq-15/">page 3</a> in the <a href="http://chroniclingamerica.loc.gov/lccn/sn83030214/1901-08-25/ed-1/">08/25/1901 issue</a> of the <a href="http://chroniclingamerica.loc.gov/lccn/sn83030214/">New York Tribune</a>. And this can happen without the searcher needing to know anything about the Chronicling America project beforehand. Classic <a href="http://en.wikipedia.org/wiki/Search_engine_optimization">SEO</a>...</p>
 <p>The current OCR view at the moment is quite confusing, so we wanted to tell Google that when they link to the page in their search results they use the page zoom view instead. We reached for Google's (and now other major search engine's) <a href="http://googlewebmastercentral.blogspot.com/2009/02/specify-your-canonical.html">rel="canonical"</a>, since it seemed like a perfect fit. </p>

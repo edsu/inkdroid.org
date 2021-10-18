@@ -19,7 +19,7 @@ tags:
 - data
 - cdl
 - unix
-- digital preservation
+- digital-preservation
 - microservices
 - design
 comments:
@@ -38,6 +38,7 @@ comments:
   date_gmt: '2010-08-27 20:06:41 +0000'
   content: That about sums it up eh? :-)
 ---
+
 <p>Over on the <a href="http://groups.google.com/group/digital-curation">Digital Curation</a> discussion list <a href="http://www.cdlib.org/contact/staff_directory/ehetzner.html">Erik Hetzner</a> of the <a href="http://www.cdlib.org/">California Digital Library</a> <a href="http://groups.google.com/group/digital-curation/browse_thread/thread/ac208143d71f0ab7">raised</a> the topic of <em>simplicity</em> as it relates to <a href="http://en.wikipedia.org/wiki/Digital_preservation">digital preservation</a>, and specifically to CDL's notion of <a href="http://www.cdlib.org/services/uc3/curation/">Curation Microservices</a>. He referenced a recent bit of writing by <a href="http://lamp.epfl.ch/~odersky/">Martin Odersky</a> (the creator of <a href="http://www.scala-lang.org/">Scala</a>) with the title <a href="http://lamp.epfl.ch/~odersky/blogs/isscalacomplex.html">Simple or Complicated</a>. In one of the responses <a href="http://tingletech.tumblr.com/">Brian Tingle</a> (also of CDL) suggested that simplicity for an end user and simplicity for the programmer are often inversely related. My friend <a href="http://weblog.kevinclarke.info/">Kevin Clarke</a> prodded me in <a href="irc://irc.freenode.net/code4lib">#code4lib</a> into making my <a href="http://groups.google.com/group/digital-curation/browse_thread/thread/34a271426124f65c">response</a> to the discussion list into a blog post so, here it is (slightly edited).</p>
 <p>For me, the <a href="http://lamp.epfl.ch/~odersky/blogs/isscalacomplex.html">Odersky piece</a> is a really nice essay on why <em>simplicity is often in the eye of the beholder</em>. Often the key to simplicity is working with people who see things in roughly the same way. People who have similar needs, that are met by using particular approaches and tools. Basically a shared and healthy culture to make emergent complexity palatable.</p>
 <p>Brian made the <a href="http://groups.google.com/group/digital-curation/msg/b509d48ae3c97eb1">point</a> about simplicity for programmers having an inversely proportional relationship to simplicity for end users, or in his own words:</p>

@@ -17,12 +17,12 @@ date: '2008-02-13 13:30:16 +0000'
 date_gmt: '2008-02-13 20:30:16 +0000'
 tags:
 - rdf
-- semanticweb
+- semweb
 - datamining
 - sparql
 - newspapers
 - ocr
-- webservices
+- web-services
 comments:
 - id: 54590
   author: Dave
@@ -96,6 +96,7 @@ comments:
     weblog posting to historic newspapers newly scanned into text via Optical Character
     Recognition (OCR). Since human-created metadata and [...]"
 ---
+
 <p><a href="http://opencalais.com/"><img src="/images/calais.gif" style="margin-right: 10px; float: left;"/></a> Like you I've been <a href="http://web.archive.org/web/20080211070303/http://radar.oreilly.com:80/archives/2008/02/reuters_semantic_web_moneytech.html">reading</a> <a href="http://ebiquity.umbc.edu/blogger/2008/02/02/reuters-calais-offers-free-text-extraction-services-producing-rdf/">about</a> the new <a href="http://opencalais.com/">Reuters Calais Web Service</a>. The basic gist is you can send the service text and get back machine readable data about recognized entities (personal names, state/province names, city names, etc). The response format is kind of interesting because it's RDF that uses a bunch of homespun vocabularies.</p>
 <p>At work <a href="http://eikeon.com">Dan</a>, <a href="http://ardvaark.net">Brian</a> and I have been working on ways to map document centric XML formats to intellectual models represented as OWL. At our last meeting one of our colleagues passed out the Calais documentation, and suggested we might want to take a look at it in the context of this work. It's a very different approach in that Calais is doing <a href="http://en.wikipedia.org/wiki/Natural_language_processing">natural language processing</a> and we instead are looking for patterns in the structure of XML. But the end result is the same--an RDF graph. We essentially have large amounts of XML metadata for newspapers, but we also have <a href="http://loc.gov/chroniclingamerica">large amounts</a> of OCR for the newspaper pages themselves. Perfect fodder for nlp and calais...</p>
 <p>To aid in the process I wrote a helper utility (<a href="http://web.archive.org/web/20101216230820/http://inkdroid.org/bzr/calais/calais.py">calais.py</a>) that bundles up the Calais web service into a function call that returns a rdf graph, courtesy of Dan's <a href="http://rdflib.net">rdflib</a>:</p>

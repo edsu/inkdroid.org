@@ -16,7 +16,10 @@ wordpress_url: http://www.inkdroid.org/journal/2007/11/06/and-now/
 date: '2007-11-06 22:19:08 +0000'
 date_gmt: '2007-11-07 05:19:08 +0000'
 tags:
-- music video life art
+- music
+- video
+- life
+- art
 comments:
 - id: 44839
   author: Claudia
@@ -27,5 +30,6 @@ comments:
   content: |
     <p>Delightful. Depressing as hell, but delightful. Which, I suppose, is the point.</p>
 ---
+
 <p>for something completely different ....</p>
 <p><object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/QW2F-_1lYvM"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/QW2F-_1lYvM" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object></p>

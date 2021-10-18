@@ -17,12 +17,13 @@ date: '2013-01-02 04:06:41 +0000'
 date_gmt: '2013-01-02 11:06:41 +0000'
 tags:
 - librarybox
-- ralph nader
-- darth vader
+- ralph-nader
+- darth-vader
 - occupy
 - coffee
 comments: []
 ---
+
 <p><em>This may be a bad/shortlived idea, but as part of a New Year's resolution to write more varied material I'm going to try to use my blog (partly) as a dream journal. This will probably drive the few readers I have away, but I'm hoping it might provide some amusement. I barely remember my dreams these days, and would like to remember more of them, so here goes. Feel free to file under TMI.</em></p>
 <p>Walking into a cafe/restaurant in the morning, in what feels like New York, but I'm not sure...it could be any city. It's a cosy, narrow setup, with all the seats taken by people quietly chatting. I manage to get a cup of coffee to go, and stand waiting for a table to open up. I discover a staircase and vaguely remember that there is seating upstairs. I go up the stairs carefully balancing my wide bowl-like cup of coffee.</p>
 <p>The upstairs area is quite large and sprawling, dimly lit, with comfortable chairs, wider tables, and in the middle is a life sized sculpture of a woman in motion, looking behind, while walking--who apparently is the owner of the establishment. A hostess shows me to a table nearby, and says she can't remember the name of the server, but that someone would be with me shortly. I sit down with my coffee. </p>

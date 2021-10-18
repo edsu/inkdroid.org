@@ -92,6 +92,7 @@ comments:
     and we should just bite the bullet now. But what does that do for @martin''s problem?
     /me shrugs'
 ---
+
 <p>It's comforting to know that <a href="http://www.cdlib.org/">California Digital Library</a> are selectively serving up fulltext content in HTML from their <a href="http://escholarship.org">institutional repository</a> for search engines to chew on. For example, compare the output of:</p>
 <pre>
 curl http://escholarship.org/uc/item/2896686x

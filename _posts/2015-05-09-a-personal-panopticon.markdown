@@ -18,6 +18,7 @@ date_gmt: '2015-05-09 12:16:34 +0000'
 tags: []
 comments: []
 ---
+
 <p>Here is how you can use your <a href="https://google.com/history">Google Search History</a> and <a href="http://stedolan.github.io/jq/">jq</a> to create a top 10 list of the things you've googled for the most.</p>
 <p>First download your data from your <a href="https://google.com/history">Google Search History</a>. Yeah, <em>creepy</em>. Then install <a href="http://stedolan.github.io/jq/">jq</a>. Wait for the email from Google that your archive is ready and download then unzip it. Open a terminal window in the Searches directory, and run this:</p>
 <pre><code>jq --raw-output '.event[].query.query_text' *.json \

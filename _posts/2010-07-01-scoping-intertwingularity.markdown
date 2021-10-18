@@ -17,12 +17,13 @@ date: '2010-07-01 07:16:25 +0000'
 date_gmt: '2010-07-01 14:16:25 +0000'
 tags:
 - rdf
-- linkeddata
+- linked-data
 - intertwingularity
 - yaks
 - email
 comments: []
 ---
+
 <p><a href="http://www.flickr.com/photos/danbri/4030764915/"><img src="http://inkdroid.org/images/share-what-we-know.jpg" style="float: right; border: none; margin-left: 10px; width: 200px;" /></a></p>
 <p><a href="http://danbri.org/words/">Dan Brickley's</a> <a href="http://lists.w3.org/Archives/Public/public-lod/2010Jul/0020.html">recent post</a> to the public-lod discussion list about the <a href="http://www.w3.org/2010/06/rdf-work-items/table">future of RDF</a> is one of the best articulations of why I appreciate the practice of linking data:</p>
 <blockquote><p>

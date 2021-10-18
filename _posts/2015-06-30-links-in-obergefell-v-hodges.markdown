@@ -18,6 +18,7 @@ date_gmt: '2015-06-30 16:52:46 +0000'
 tags: []
 comments: []
 ---
+
 <p>Last week's landmark ruling from the Supreme Court on same sex marriage was routinely <a href="http://www.supremecourt.gov/opinions/14pdf/14-556_3204.pdf">published</a> on the Web as a PDF. Given the <a href="http://www.nytimes.com/2013/09/24/us/politics/in-supreme-court-opinions-clicks-that-lead-nowhere.html?_r=0">past history</a> of URL use in Supreme Court opinions I thought I would take a quick look to see what URLs were present. There are two, both are in Justice Alito's dissenting opinion, and one is broken ... just four days after the PDF was published. You can see it yourself at the bottom of page 100 in the <a href="http://www.supremecourt.gov/opinions/14pdf/14-556_3204.pdf">PDF</a>.</p>
 <p><a href="http://www.supremecourt.gov/opinions/14pdf/14-556_3204.pdf"><img src="http://inkdroid.org/images/scotus-1.png" alt="" /></a></p>
 <p>If you point your browser at</p>

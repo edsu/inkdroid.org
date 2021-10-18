@@ -1,12 +1,13 @@
 ---
 title: Multiverse.js
 tags:
-- JavaScript
-- HTML
-- Writing
-- Physics
+- javascript
+- html
+- writing
+- physics
 layout: post
 ---
+
 
 I've been enjoying reading [J.R. Carpenter]'s [An Ocean of Static], which uses a
 particular syntax borrowed from the [list] notation found in popular programming

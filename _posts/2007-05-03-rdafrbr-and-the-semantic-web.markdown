@@ -27,6 +27,7 @@ comments:
     of this work. Hopefully, we'll get an RDA vocabulary with well-shaped formal relationships
     with existing, relevant, RDF vocabularies.\r\n\r\n/Mikael"
 ---
+
 <p>I was interested to learn from <a href="http://isegserv.itd.rl.ac.uk/blogs/alistair/archives/53">Alistair Miles</a> that folks in the library community are starting to look at expressing models such as <a href="http://www.collectionscanada.ca/jsc/rda.html">RDA</a> and <a href="http://web.archive.org/web/20100805202110/http://www.loc.gov/cds/FRBR.html">FRBR</a> using the semantic web technology stack--including things like <a href="http://dublincore.org/documents/2007/04/02/abstract-model/">Dublin Core Abstract Model</a>. </p>
 <p>It's exciting and timely to see the luminaries in the field get together to talk about this sort of convergence. I must admit I'm still a little bit hazy about why we need DCAM when we already have RDF, RDFS and OWL ... but I think only good things can come from this interaction. </p>
 <p>It's particularly heartening that the library community is exploring what RDA and FRBR look like when the rubber meets the road of data representation. Although Ian Davis, Richard Newman and Bruce D'Arcus have arguably <a href="http://vocab.org/frbr/core">already done this</a> for FRBR.</p>

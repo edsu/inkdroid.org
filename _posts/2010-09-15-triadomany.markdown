@@ -19,7 +19,7 @@ tags:
 - python
 - humor
 - perl
-- linkeddata
+- linked-data
 - graphs
 - unix
 - visualizations
@@ -27,6 +27,7 @@ tags:
 - philosophy
 comments: []
 ---
+
 <blockquote>
 I fully admit that there is not uncommon craze for trichotomies. I do not know but the psychiatrists have provided a name for it. If not, they should ... it might be called <b>triadomany</b>. I am not so afflicted; but I find myself obliged, for truth's sake, to make such a large number of trichotomies that I could not [but] wonder if my readers, especially those of them who are in the way of knowing how common the malady is, should suspect, or even opine, that I am a victim of it ... I have no marked predilection for trichotomies in general. </p>
 <p><em><a href="http://en.wikipedia.org/wiki/Charles_Sanders_Peirce">Charles S. Peirce</a> quoted in <a href="http://www.amazon.com/Sign-Three-Holmes-Advances-Semiotics/dp/0253204879">The Sign of Three</a>, edited by <a href="http://en.wikipedia.org/wiki/Umberto_Eco">Umberto Eco</a> and <a href="http://en.wikipedia.org/wiki/Thomas_Sebeok">Thomas A. Sebeok</a>.</em>

@@ -18,7 +18,7 @@ date_gmt: '2014-04-08 19:41:20 +0000'
 tags:
 - flickr
 - redis
-- Brooklyn Museum
+- brooklyn-museum
 comments:
 - id: 86926
   author: bernsteins
@@ -28,17 +28,11 @@ comments:
   date_gmt: '2014-04-09 13:36:02 +0000'
   content: |
     Thanks for this...
-
     Keep in mind, we had a "blended" account and were the only Commons member to have that.  So, uploads included museum goings on (artist load-ins) as well as Commons material.  If you are pulling stats, make sure you are pulling only Commons material so you can do an apples to apples comparison - there's a flag for Commons in the metadata.
-
     Tags...
-
     48 tags - that's not correct.  I think you were just looking at the posse home page for that Flickr user, which only displays the latest tags.  All tags were pulled over via a nightly running script.  Interestingly, however, our script pulled 15,098 tags over the years.  I'm not sure where the discrepancy lies in the numbers you have vs. our own.  We did have trouble with the script every so often and could have dupes, but 48 is not right :)
-
     The machine tags "bm=" helped us match up tags to objects in the scripting, so we could pull things back over.  My understanding, though, is that all of the commons images had those, so 849 does not seem right.  The geotags were coming in b/c we had placed suggestify links in the descriptions of every image asking users to geotag...you can see few did -- it was difficult to get participation at this level.
-
     Comments were moved over when they corrected records and became part of our internal records.  Ditto for notes, which we only took screenshots of b/c the note without the image doesn't tell the whole story.  Unfortunately, we can't surface that material in our own collection online, so this info will remain internal (at least for now).
-
     Flickr peaked in 2008, for sure, but that's because that is when we joined.  We were the third institution to sign up and there was a lot of press at that time.  I wouldn't necessarily say that's a good basis for a peak, but it has been on steady decline since then.
 - id: 86927
   author: ed
@@ -56,9 +50,7 @@ comments:
   date_gmt: '2014-04-09 15:09:53 +0000'
   content: |
     Right, that page only displays the recent and does not show the aggregated total, unfortunately, so it was an easy misread.  I'm happy to clarify things in advance of publication, always (for what it's worth in the future - you can always email me if you want to).
-
     It is what it is.  We pulled the plug because our focus changed.  The metrics helped us make that decision, but the goals are what is most important.
-
     Generally, however, we think this may be a much bigger issue down the line as platforms continue to change.  We think it's better to talk about this now and set examples (for bringing data back, correcting records, etc) than when the sun sets :/
 - id: 86929
   author: Flickr Commons LAMs | inkdroid
@@ -69,6 +61,7 @@ comments:
   content: |
     This Article was mentioned on <a href="http://inkdroid.org/journal/2014/04/11/flickr-commons-lams/" rel="nofollow">inkdroid.org</a>
 ---
+
 <p>As a follow up to my <a href="http://inkdroid.org/journal/2014/04/07/glass-houses/">last post</a> I added a <a href="https://github.com/edsu/py-flarchive/blob/master/flarchive/activity.py">script</a> to my fork of Aaron's <a href="https://github.com/straup/py-flarchive">py-flarchive</a> that will load up a <a href="http://redis.io/">Redis</a> instance with comments, notes, tags and sets for Flickr images that were uploaded by Brooklyn Museum. The script assumes you've got a snapshot of the archived metadata, which I <a href="https://github.com/straup/flickr-commons-metadata/releases">downloaded</a> as a tarball. It took several hours to unpack the tarball on a medium ec2 instance; so if you want to play around and just want the redis database <a href="mailto:ehs@pobox.com">let me know</a> and I'll get it to you.</p>
 <p>Once I loaded up Redis I was able to generate some high level stats:</p>
 <ul>

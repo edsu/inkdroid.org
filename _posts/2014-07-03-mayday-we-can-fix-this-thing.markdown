@@ -18,6 +18,7 @@ date_gmt: '2014-07-03 19:51:07 +0000'
 tags: []
 comments: []
 ---
+
 <blockquote>
 <p>We won't get our democracy back until we <a href="https://mayday.us/">change</a> the way campaigns are funded.</p>
 </blockquote>

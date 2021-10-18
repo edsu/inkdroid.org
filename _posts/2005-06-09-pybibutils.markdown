@@ -18,6 +18,7 @@ date_gmt: '2005-06-09 10:39:36 +0000'
 tags: []
 comments: []
 ---
+
 <p>The #code4lib sprint is coming up soon and (alas) we still don't really have a firm grasp on what we will be sprinting on. After pycon dchud had some ideas for a metadata wrangling framework for python. Around the same time I was working on <a href="http://www.swig.org/">SWIG</a> wrapper for the <a href="http://www.scripps.edu/~cdputnam/software/bibutils/bibutils.html">bibutils</a> library.  So one idea we had was to create this python utility that would enable converting between many of the popular metadata/citation formats:</p>
 <ul>
 <li><a href="http://www.loc.gov/standards/mods/">MARC</a></li>

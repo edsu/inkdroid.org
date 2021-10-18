@@ -8,6 +8,7 @@ tags:
 layout: post
 ---
 
+
 I've taken the ill-advised approach of using the Coronavirus as a topic to frame
 the exercises in my computer programming class this semester. I say "ill-advised" because given the impact that COVID has been having on students I've
 been thinking they probably need a way to *escape* news of the virus by way of

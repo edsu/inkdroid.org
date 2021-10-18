@@ -22,6 +22,7 @@ tags:
 - algorithms
 comments: []
 ---
+
 <p>Can a poem provide insight into the inner workings of a complex algorithm? If Google Search had a subconscious, what would it look like? If Google mumbled in its sleep, what would it say?</p>
 <p>A few days ago, I ran across these two quotes within hours of each other:</p>
 <blockquote>

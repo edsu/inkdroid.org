@@ -40,6 +40,7 @@ comments:
   date_gmt: '2008-10-03 14:45:50 +0000'
   content: thanks danbri! HTTP 301 considered helpful eh?
 ---
+
 <p>This little hack came up in <a href="irc://chat.freenode.net/code4lib">channel</a> after Bruce <a href="http://groups.google.com/group/bibliographic-ontology-specification-group/browse_frm/thread/80937796903dd62b">posted</a> some <a href="http://inkdroid.org/data/identity-foaf.xsl ">XSLT</a> to transform OCLC Identities XML into FOAF.</p>
 <pre>
 xsltproc \

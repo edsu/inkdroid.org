@@ -84,6 +84,7 @@ comments:
     perspective, see Ed Summers on Wikimania Revisited and the Biodiversity Heritage
     Library&#8217;s report, Wikimania 2012 &amp; BHL Related posts:A [...]"
 ---
+
 <p><a href="http://wikimania2012.wikimedia.org/wiki/File:Wikimania_2012_Group-0001.jpg"><img src="http://inkdroid.org/images/wikimaniacs2012.jpg" /></a> </p>
 <p>I recently attended the <a href="http://wikimania2012.wikimedia.org/wiki/Main_Page">Wikimania</a> conference here in Washington, DC. I really can't express how amazing it was to be a Metro ride away from more than 1,400 people from 87 countries who were <a href="http://en.wikipedia.org/wiki/Wikipedia:Ten_things_you_may_not_know_about_Wikipedia#We.27re_in_it_for_the_long_haul">passionate</a> about creating a world in which every single human being can freely share in the sum of all knowledge. It was my first Wikimania, and I had pretty high expectations, but I was blown away by the level of enthusiasm and creativity of the attendees. Since my employer supported me by allowing me to spend the week there, I thought I would jot down some notes about the things that I took from the conference, from the perspective of someone working in the cultural heritage sector.</p>
 <h2>Archivy</h2>

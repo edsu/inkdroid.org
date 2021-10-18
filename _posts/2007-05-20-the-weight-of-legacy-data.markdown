@@ -18,6 +18,7 @@ date_gmt: '2007-05-20 19:30:19 +0000'
 tags: []
 comments: []
 ---
+
 <p>v0.97 of <a href="http://search.cpan.org/dist/marc-charset/">MARC::Charset</a> was just released with an important <a href="http://www.mail-archive.com/perl4lib%40perl.org/msg01143.html">bugfix</a>. If you've had the misfortune of needing to convert from <a href="http://www.loc.gov/marc/specifications/speccharmarc8.html">MARC-8</a> to UTF-8 and have used MARC::Charset &gt;= v0.8 to do it you may very well have null characters (0x00) in your UTF-8 data. Well, only if your MARC-8 data contained either of the following characters:</p>
 <ul>
 <li>DOUBLE TILDE, SECOND HALF / COMBINING DOUBLE TILDE RIGHT HALF</li>

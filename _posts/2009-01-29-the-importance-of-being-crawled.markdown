@@ -24,6 +24,7 @@ tags:
 - yahoo
 comments: []
 ---
+
 <p>While lcsh.info was up and running harvesters actively crawled it. At its core all lcsh.info did was mint a URI for every Library of Congress Subject Heading. This is similar in spirit to <a href="http://en.wikipedia.org/wiki/Brewster_Kahle">Brewster Kahle's</a> more ambitious <a href="http://openlibrary.org">OpenLibrary</a> project to mint a URI for every book, or in his words:</p>
 <blockquote><p>
 One web page for every book

@@ -27,6 +27,7 @@ comments:
     ranganathannumber... gatesnumber... ok.... but weibelnumber???\r\n\r\njesus, let
     me buy you a beer sometime!"
 ---
+
 <p>So I have succumbed to infection (thanks <a href="http://dilettantes.code4lib.org/2006/02/11/tagged-in/">Ross</a>), but I'm not entirely sure how this is supposed to work...and Kesa said "Don't Do It!". After reading Morbus <a href="http://lists.swhack.com/swhack/2006-February/000039.html">rail</a> about it I'm almost afraid that I won't be able to lurk on #swhack anymore if I do spread this any further. But it's already gutted the interwebs pretty well by now, so here it goes anyhow. I'm just pleased to have a WeibelNumber of 3.</p>
 <p>Jobs I've had:<br />
 - pizza delivery man<br />

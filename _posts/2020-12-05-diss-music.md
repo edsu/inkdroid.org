@@ -8,6 +8,7 @@ tags:
 - research
 ---
 
+
 I recently defended my dissertation, and am planning to write a short post here with a synopsis of what I studied. But before that I wanted to do a bit of navel gazing and examine the *music* of my dissertation.
 
 To be clear, my dissertation has no music. It's one part discourse analysis, two parts ethnographic field study, and is comprised entirely of text and images bundled into a PDF.

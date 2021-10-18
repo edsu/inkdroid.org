@@ -18,6 +18,7 @@ date_gmt: '2007-07-13 18:38:44 +0000'
 tags: []
 comments: []
 ---
+
 <p>I don't know ... but it sure is nice to <a href="https://arl.org/lists/sparc-oaforum/Message/3858.html">see</a> that 26 Nobel Laureates at least understand the direction libraries ought to be headed:</p>
 <blockquote><p>As scientists and Nobel laureates, we are writing to express our strong support for the House and Senate Appropriations Committees’ recent directives to the NIH to enact a mandatory policy that allows public access to published reports of work supported by the agency. We believe that the time is now for Congress to enact this enlightened policy to ensure that the results of research conducted by NIH can be more readily accessed, shared and built upon ­ to maximize the return on our collective investment in science and to further the public good.<br />
 ...<br />

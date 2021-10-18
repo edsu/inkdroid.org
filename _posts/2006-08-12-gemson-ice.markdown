@@ -18,6 +18,7 @@ date_gmt: '2006-08-13 00:14:31 +0000'
 tags: []
 comments: []
 ---
+
 <p><a href="http://www.rubygems.org"><img src="http://web.archive.org/web/20070628193008/http://rubygems.org/images/rubygems-125x125t.png" align="left" border="0" /></a><br />
 When developing and deploying <a href="http://rubyonrails.org">RubyOnRails</a> applications you've often got to think about the <a href="http://www.rubygems.org/">gem</a> dependencies your project might have. It's particularly useful to freeze a version of rails in your <i>vendor</i> directory so that your app uses that version of rails rather than a globally installed (or not installed) one. It's easy to do this by simply invoking:</p>
 <pre>

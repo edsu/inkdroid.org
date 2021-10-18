@@ -66,6 +66,7 @@ comments:
     at some issues &#8211; although things have moved on since 2009, and now the sitemap
     files [...]"
 ---
+
 <p>Today's Guardian article <a href="http://www.guardian.co.uk/technology/2009/jan/22/library-search-engines-books">Why you can't find a library book in your search engine</a> prompted me to look at <a href="http://www.worldcat.org/robots.txt">Worldcat's robots.txt file</a> for the first time. Part of the beauty of the web is that it's an open information space where anyone (people and robots) can start with a single URL and <a href="http://efoundations.typepad.com/efoundations/2008/01/following-your.html">follow their nose</a> to other URLs. This seemingly simple principle is what has allowed a advertising^w search company like Google (that we all use every day) to grow and prosper. </p>
 <p>The <a href="http://www.robotstxt.org/">robots.txt</a> file is a simple mechanism that allows web publishers to tell web crawlers what they are allowed to look at on a website. Predictably, the files are always found at the root of a website in a file named <em>robots.txt</em>. You don't have to have one, but many publishers like to control what gets indexed on their website, sometimes to hide content, and other times to shield what may be costly server side operations. Anyway, here's what you see today for worldcat.org:</p>
 <pre>

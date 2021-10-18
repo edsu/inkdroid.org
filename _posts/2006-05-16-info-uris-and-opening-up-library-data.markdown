@@ -62,6 +62,7 @@ comments:
   content: Total agreement Pete :-) One of the benefits of writing down ones thoughts
     is to see how much they change over time.
 ---
+
 <p>I had a few moments to read the info-uri spec during a short flight from DC to Chicago this past weekend. info-uri aka <a href="ftp://ftp.rfc-editor.org/in-notes/rfc4452.txt">RFC 4452</a> is a spec that allows you to create URIs for identifiers in public namespaces.</p>
 <p>So what does this mean in practice and why would you want to use one?</p>
 <p>If you have a database of stuff you make available on the web, and you have ids for the stuff (say a primary_key on a Stuff table) you essentially have an identifier in a public namespace. Go <a href="http://info-uri.info/registry/register.html">register</a> the namespace!</p>

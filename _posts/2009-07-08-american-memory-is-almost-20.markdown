@@ -18,11 +18,12 @@ date_gmt: '2009-07-08 14:00:19 +0000'
 tags:
 - web
 - loc
-- american memory
+- american-memory
 - history
 - congress
 comments: []
 ---
+
 <p><a href="http://memory.loc.gov"><img src="http://inkdroid.org/images/ammem.png" style="margin-right: 10px; float: left;" /></a>Through an internal discussion list at the Library of Congress I learned that this year will mark the 20th Anniversary of <a href="http://memory.loc.gov">American Memory</a>. The exact date of the anniversary depends on how you want to mark it: either the beginning of FY90 on October 1st, <strike>1999</strike> 1989 (thanks <a href="http://davidbrunton.com">David</a>) when work officially began, or earlier in the year when the President signed the bill that included the Legislative Branch appropriations for that year (exact date yet to be determined).</p>
 <p>Via the discussion list I was able to learn that Shirley Liang (with the help of Nancy Eichacker) was able to locate a <a href="http://inkdroid.org/data/american_memory_hearings.pdf">transcript of the hearings</a>, which includes the details of Carl Fleischhauer's demo of a <a href="http://en.wikipedia.org/wiki/HyperCard">Hypercard</a> / <a href="http://en.wikipedia.org/wiki/Laser_disk">Laser Video Disc</a> based system before the House and later the Senate. Yes, <em>HyperCard</em>. LoC was making a pitch for American Memory before Congress just a few months after Tim Berners-Lee made his <a href="http://www.w3.org/History/1989/proposal.html">proposal</a> to build a "web of notes with links" at <a href="http://public.web.cern.ch/public/">CERN</a>. Incidentally, I learned recently in <a href="http://twitter.com/fuzheado">Andrew Lih</a>'s <a href="http://www.librarything.com/work.php?book=46197761">Wikipedia Revolution</a>, that <a href="http://en.wikipedia.org/wiki/Ward_Cunningham">Ward Cunningham</a>'s first implementation of <a href="http://en.wikipedia.org/wiki/Wiki">Wiki</a> was written using Hypercard.</p>
 <p>I digress...and I want to digress more.</p>

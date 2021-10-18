@@ -6,6 +6,7 @@ tags:
 layout: post
 ---
 
+
 I'm teaching an undergraduate course in digital curation this fall at the
 University of Maryland in the College for Information Studies. It's the first
 time I've taught digital curation. But I have the good fortune to be following

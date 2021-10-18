@@ -6,6 +6,7 @@ tags:
 - appraisal
 ---
 
+
 I recently re-read a gem of a paper by Leonard Rapport about the process of
 reappraisal, or reviewing an archives' holdings and reevaluating whether they
 still need to be retained [@Rapport:1981]. It was written just as the deluge of

@@ -16,7 +16,12 @@ wordpress_url: http://inkdroid.org/journal/2008/03/17/tabulator-and-google-reade
 date: '2008-03-17 06:19:41 +0000'
 date_gmt: '2008-03-17 13:19:41 +0000'
 tags:
-- firefox tabulator semweb rdf google plugins
+- firefox
+- tabulator
+- semweb
+- rdf
+- google
+- plugins
 comments:
 - id: 57183
   author: Peter Murray
@@ -37,6 +42,7 @@ comments:
   content: |
     <p>[...] tabulator and google reader notifier oddness [...]</p>
 ---
+
 <p>If you've ever tried installing the <a href="http://www.w3.org/2005/ajar/tab">Tabulator</a> (Tim Berners-Lee's experimental <a href="http://www.w3.org/DesignIssues/LinkedData.html">linked-data</a> browser) and not seen it work you may have run into the same problem as me. </p>
 <p>On a hunch I guessed that there might be some weird interaction with another Firefox plugin -- so I went through all 15 of them, disabling each one and restarting Firefox to see if Tabulator would start working. Sure enough, after I disabled <a href="http://www.markdbd.com/proyectos/google_reader_notifier/">Google Reader Notifier</a> the Tabulator worked fine. </p>
 <p>I dropped a message to <a href="http://lists.w3.org/Archives/Public/public-semweb-ui/2008Mar/0000.html">public-semweb-ui</a>, but figured it couldn't hurt to add this here for other linked-data nerds casting about in google with the same problem.</p>

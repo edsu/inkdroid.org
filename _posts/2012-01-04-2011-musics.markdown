@@ -26,6 +26,7 @@ comments:
   content: "[...] by Ed Sommers post on 2011 Musics, here is my summary of new (to
     me) music in [...]"
 ---
+
 <p>2011 was the year of streaming music for me--specifically using <a href="http://www.rdio.com/#/people/esummers/">Rdio</a>. Being able to follow what friends and folks I admire are listening to, easily listen along, and then build my own online collection in the cloud was a revelation. Being able to easily do it from my desktop at home, or at work, or on my mobile device for $5/month was just astounding. The world ain't perfect, but this is damn near close. </p>
 <p>Anyhow, here's some of my favorite music from 2011, in no particular order ... a lot of which I probably wouldn't have listened to if it wasn't streamable on the Web. <em>You might have to wait a few seconds while the YouTube clips load.</em></p>
 <p><iframe width="560" height="315" src="http://www.youtube.com/embed/ggeLJeWnLaI" frameborder="0" allowfullscreen></iframe></p>

@@ -16,7 +16,7 @@ wordpress_url: http://inkdroid.org/journal/?p=5460
 date: '2013-01-19 15:07:30 +0000'
 date_gmt: '2013-01-19 22:07:30 +0000'
 tags:
-- internet archive
+- internet-archive
 - twitter
 - aaronsw
 comments:
@@ -29,6 +29,7 @@ comments:
   content: "[...] Summers, Ed. 2013. “Aaronsw | Inkdroid.” Accessed February 21. http://inkdroid.org/journal/2013/01/19/aaronsw/.
     [...]"
 ---
+
 <p>Aaron Swartz left us all a week ago. It's strange, I only met Aaron once at the Internet Archive, and had a handful of conversations with him via email/irc ... but not a day has passed since last Saturday that I haven't thought about him, and his principled life.</p>
 <p>I've been asked a few times why Aaron has been on my mind so much, and I've struggled to put it into words. Meanwhile, so many thoughtful things have been written about him. The arc of his life, his ideals, and abilities, charisma, and chutzpah, seem larger than life. And yet, he was just a person, a son, a friend, with people who loved him. It's just heartbreaking.</p>
 <hr />

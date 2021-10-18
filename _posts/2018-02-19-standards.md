@@ -6,6 +6,7 @@ tags:
 - reading
 ---
 
+
 <a href="http://www.cornellpress.cornell.edu/book/?GCOI=80140100437450"><img style="float: left; margin-right: 10px;" class="img-responsive" src="/images/standards.jpg"></a>
 
 Following on from my reading of Russell's [Open Standards] I decided to read

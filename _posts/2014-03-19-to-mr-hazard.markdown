@@ -16,10 +16,11 @@ wordpress_url: http://inkdroid.org/journal/?p=7313
 date: '2014-03-19 08:10:38 +0000'
 date_gmt: '2014-03-19 15:10:38 +0000'
 tags:
-- Thomas Jefferson
+- thomas-jefferson
 - lockss
 comments: []
 ---
+
 <p><a href="http://www.lockss.org/about/">Lots of Copies Keeps Stuff Safe, 1791-Style</a>.</p>
 <blockquote>
 <p>Time and accident are committing daily havoc on the originals deposited in our public offices. The late war has done the work of centuries in this business. The last cannot be recovered, but let us save what remains; not by vaults and locks, which fence them from the public eye and use in consigning them to the waste of time, but by such a multiplication of copies as shall place them beyond the reach of accident.</p>

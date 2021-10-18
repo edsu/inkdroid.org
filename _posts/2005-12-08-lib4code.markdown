@@ -34,6 +34,7 @@ comments:
     do believe as stated in that post that you need a strong requirements process
     and architecture in order to be able to do rapid development successfully."
 ---
+
 <p>Thanks to <a href="http://www.librarian.net/stax/1572">Jessamyn</a> I found <a href="http://scilib.typepad.com/science_library_pad/2005/12/librarians_20_d.html">Librarians 2.0 don't need to be coders 2.0</a> where Richard Ackerman has an interesting take on just how important programming skills are for a library technologist. Richard cites a <a href="http://www-128.ibm.com/developerworks/webservices/library/ws-soad1/">paper</a> from IBM on Service Oriented Architectures to make a compelling point that there are many roles to play when building technology solutions, particularly the web services that comprise such a big part of "library 2.0" efforts...and that coding skills really aren't that important when you can just get a student, consultant, or vendor (heh) to do it.</p>
 <p>It's unfortunate I think that the <a href="http://www.code4lib.org">code4lib 2006</a> conference <i>name</i> seems to emphasize "coding" so much over the ideas.  I totally agree that the most important aspect of our work as library technologists are the service ideas, and that the code is simply a machine readable description of these ideas.  Some high level languages are actually really, really nice for expressing ideas, and I would argue that often times learning a good computer language can help you express your technology ideas better. As Martin Fowler says:</p>
 <blockquote><p>

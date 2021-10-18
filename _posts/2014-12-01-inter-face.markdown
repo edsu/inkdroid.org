@@ -18,6 +18,7 @@ date_gmt: '2014-12-02 01:49:30 +0000'
 tags: []
 comments: []
 ---
+
 <p><a href="https://www.flickr.com/photos/internetarchivebookimages/14779113111/"><img src="http://inkdroid.org/images/radiant.jpg"></a><br />
 <cite><a href="https://www.flickr.com/photos/internetarchivebookimages/14779113111/">Image from page 315</a> of "The elements of astronomy; a textbook" (1919)</cite></p>
 <blockquote><p>

@@ -20,9 +20,10 @@ tags:
 - books
 - storage
 - internet
-- Wolfgang Ernst
+- wolfgang-ernst
 comments: []
 ---
+
 <blockquote>
 Although the traditional archive used to be a rather static memory, the notion of the archive in Internet communication tends to move the archive toward an economy of circulation: permanent tranformations and updating. The so-called cyberspace is not primarily about memory as cultural record but rather about a performantive form of memory as communication. Within this economy of permanent recycling of information, there is less need for emphatic but short-term, updatable memory, which comes close to the operative storage management in the von Neumann architecture of computing. <strong>Repositories are no longer final destinations but turn into frequently accessed sites.</strong> Archives become cybernetic systems. The aesthetics of fixed order is being replaced by permanent reconfigurability.</p>
 <p><a href="http://de.wikipedia.org/wiki/Wolfgang_Ernst_(Medienwissenschaftler)">Wolfgang Ernst</a>. "Archives in Transition." <a href="http://www.upress.umn.edu/book-division/books/digital-memory-and-the-archive">Digital Memory and the Archive</a>.

@@ -32,6 +32,7 @@ comments:
     affiliate site. \r\n\r\nLet me know if you have any questions.\r\n\r\nBest regards,\r\nChuck
     Costakos, OCLC"
 ---
+
 <p><a href="http://worldcat.org/registry/Institutions"><img src="http://worldcat.org/registry/images/masthead_registry_en.png" style="border: none; margin-right: 10px; float: left" /></a></p>
 <p>So <a href="http://worldcat.org/registry/Institutions">OCLC's WorldCat Registry</a> is a nice new addition to OCLCs growing list of web services. Do a search for your library and take a look at the URL: aye that's right it's <a href="http://www.loc.gov/standards/sru/">SRU</a>. In fact do a view source on the results page and you'll see an SRU response in XML--the HTML is being rendered with client side XSLT.</p>
 <p>If you drill into a particular institution you'll see a pleasantly <a href="http://www.w3.org/Provider/Style/URI">cool</a> uri:</p>

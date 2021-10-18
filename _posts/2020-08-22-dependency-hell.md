@@ -7,6 +7,7 @@ tags:
 layout: post
 ---
 
+
 [XKCD 2347](https://xkcd.com/2347/) was published this week, which got some
 [attention](https://lists.stevens.edu/pipermail/themaintainers/2020-August/000724.html)
 on the maintainers discussion list. One thing I learned there is that GitHub has

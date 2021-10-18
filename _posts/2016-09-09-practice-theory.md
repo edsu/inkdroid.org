@@ -6,6 +6,7 @@ tags:
 - umd
 ---
 
+
 This semester I'm going to be doing an independent study with Professor [Andrea
 Wiggins] to research and apply [Practice Theory] in my own work. I've included
 part of my research proposal (which is still a bit in flux at the moment) below.

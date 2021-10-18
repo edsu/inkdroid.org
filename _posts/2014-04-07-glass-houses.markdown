@@ -18,8 +18,8 @@ date_gmt: '2014-04-07 16:29:16 +0000'
 tags:
 - flickr
 - wikipedia
-- internet archive
-- Brooklyn Museum
+- internet-archive
+- brooklyn-museum
 comments:
 - id: 86924
   author: bernsteins
@@ -29,25 +29,15 @@ comments:
   date_gmt: '2014-04-07 19:24:29 +0000'
   content: |
     Hi Ed,
-
     Thanks for your thoughts here and allowing comments on your blog, where I can respond.  I've also been following the discussion on twitter @shell7.
-
     So, a few things to clarify.
-
     The bots you are referencing from three years ago did upload the bulk of our collection objects to Wikimedia Commons and the Internet Archive, but there's an important distinction in the content.  The Flickr Commons images were part of our archives not images of accessioned objects in our the collection so they were not part of the bot migration three years ago.  That's one reason why you are seeing a discrepancy.
-
     Why are you not seeing more uploads via the bot?  A couple of issues there - first Wikimedia really dislikes bots.  We coded the bot, but in the end we had to constantly watch over the upload process and it was never fully automated to the degree where we felt we could "set it and forget it" and just allow it to run in the background.  (By comparison, the transfer to IA was much easier.)  In the end, we did one full dump of the appropriately licensed collection objects and then stopped using the bot.
-
     What's our Wiki upload strategy now?  Ever since the bot debacle, we have worked on a series of projects to contribute content to Wikipedia and Wikimedia, but more in a manner which works better for the wiki community.  Assets are more carefully looked at, uploaded to wikimedia, and then seeded into articles.  It's a process which we do by hand and with a lot of thinking behind it.  We've been lucky to have funding to do so and <a href="http://www.brooklynmuseum.org/community/blogosphere/tag/kress/" rel="nofollow">these posts</a> by our former Kress fellow might be of interest.
-
     In terms of this migration (Flickr Commons to Wikimedia), we had a number of volunteers each take a set of the Flickr images, migrate them to wikicommons and now we are in the process of seeding them into appropriate articles.
-
     However, just moving assets to Wikimedia Commons is not everything.  As stated, what happens to the community driven content?  <a href="http://www.brooklynmuseum.org/community/posse/profiles/FlickrCommons" rel="nofollow">Tags</a> were being fairly consistently brought over into our collection online, so those contributions have been retained.  Throughout the years, our archivist has also corrected official records through community input and that remains vitally important and has made being a part of The Commons a worthwhile endeavor from the start.
-
     That said, did we get every single thing migrated, archived, updated, etc?   No, for sure that's not the case.  But, we felt like we did a lot of due diligence and much of the really valuable information has been migrated even if some of it is only internal at this point.
-
     I hope that answers some of the questions and I'm happy to field more.
-
     Shelley
 - id: 86925
   author: Where Brooklyn At? | inkdroid
@@ -58,6 +48,7 @@ comments:
   content: |
     This Article was mentioned on <a href="http://inkdroid.org/journal/2014/04/08/where-brooklyn-at/" rel="nofollow">inkdroid.org</a>
 ---
+
 <p><img src="http://inkdroid.org/images/flickr-brooklyn.png" alt="" />You may have noticed Brooklyn Museum's recent <a href="http://www.brooklynmuseum.org/community/blogosphere/2014/04/04/social-change/">announcement</a> that they have pulled out of <a href="https://secure.flickr.com/commons">Flickr Commons</a>. Apparently they've seen a "steady decline in engagement level" on Flickr, and decided to remove their content from that platform, so they can focus on their own website as well as Wikimedia Commons.</p>
 <p>Brooklyn Museum <a href="http://www.brooklynmuseum.org/community/blogosphere/2010/04/12/cross-posting-the-collection-to-wikimedia-commons-and-the-internet-archive/">announced</a> three years ago that they would be cross-posting their content to Internet Archive and Wikimedia Commons. Perhaps I'm not seeing their current bot, but they <a href="https://commons.wikimedia.org/wiki/Brooklyn_Museum">appear</a> to have two, neither of which have done an upload since March of 2011, based on their <a href="https://commons.wikimedia.org/wiki/Special:Contributions/BrooklynMuseum">user</a> <a href="https://commons.wikimedia.org/wiki/Special:Contributions/BrooklynMuseumBot">activity</a>. It's kind of ironic that content like <a href="https://commons.wikimedia.org/wiki/File:Paris_Exposition_Champ_de_Mars_and_Eiffel_Tower,_Paris,_France,_1900_n1.jpg">this</a> was uploaded to Wikimedia Commons by <a href="https://commons.wikimedia.org/wiki/User:Flickr_upload_bot">Flickr Uploader Bot</a> and not by one of their own bots.</p>
 <p>The announcement stirred up a fair bit of <a href="https://twitter.com/benfinoradin/status/452422242467864577">discussion</a> about how an institution devoted to the preservation and curation of cultural heritage material could delete all the curation that has happened at Flickr. The theory being that all the comments, tagging and annotation that has happened on Flickr has not been migrated to Wikimedia Commons. I'm not even sure if there's a place where this structured data could live at Wikimedia Commons. Perhaps some sort of template could be created, or it could live in <a href="http://wikidata.org">Wikidata</a>?</p>

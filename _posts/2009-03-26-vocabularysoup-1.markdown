@@ -25,6 +25,7 @@ tags:
 - semweb
 comments: []
 ---
+
 <p>It's been great to see <a href="http://www.w3.org/TR/xhtml-rdfa-primer/">RDFa</a> being picked up by web2.0 publishers like Digg and MySpace.  You can use the <a href="http://www.w3.org/2007/08/pyRdfa/">RDFa Distiller</a> to extract the RDFa from a given web page <em>u</em> by constructing a URI like:</p>
 <pre>
 http://www.w3.org/2007/08/pyRdfa/extract?format=turtle&uri=<em>u</em>

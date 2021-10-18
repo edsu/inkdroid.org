@@ -17,7 +17,7 @@ date: '2014-10-02 08:56:06 +0000'
 date_gmt: '2014-10-02 15:56:06 +0000'
 tags:
 - twitter
-- data curation
+- curation
 - mit
 comments:
 - id: 87200
@@ -34,6 +34,7 @@ comments:
     of interactions these automated social media agents can participate in, formulating
     their objectives, and for measuring their effects.&#8221; [&#8230;]"
 ---
+
 <p>Yesterday MIT announced that Twitter made a 5 million dollar investment to help them create a <a href="http://socialmachines.media.mit.edu/">Laboratory for Social Machines (LSM)</a> as part of the <a href="http://www.media.mit.edu/">MIT Media Lab</a> proper:</p>
 <blockquote class="twitter-tweet" lang="en"><p>MIT launches Laboratory for Social Machines with major Twitter investment <a href="http://t.co/HPupRkTWAm">http://t.co/HPupRkTWAm</a> <a href="https://twitter.com/mitlsm">@MITLSM</a> <a href="https://twitter.com/dkroy">@dkroy</a></p>
 <p>&mdash; MIT Media Lab (@medialab) <a href="https://twitter.com/medialab/status/517361268580429824">October 1, 2014</a></p></blockquote>

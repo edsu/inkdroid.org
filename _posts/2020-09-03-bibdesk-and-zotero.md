@@ -1,9 +1,10 @@
 ---
 layout: post
-title: BibDesk, Zotero and JabRef 
+title: BibDesk, Zotero and JabRef
 tags:
 - metadata
 ---
+
 
 I've recently moved off of OS X and on to Ubuntu. My decision was partly
 motivated by recent hardware failure,  partly it was just time for a change, but

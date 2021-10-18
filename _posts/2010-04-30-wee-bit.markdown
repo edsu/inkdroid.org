@@ -55,6 +55,7 @@ comments:
   content: "<pre>\r\n15:34 < edsu> @band add Fantasy Information Theory League\r\n15:34
     < zoia> edsu: Band 'Fantasy Information Theory League' added to list\r\n</pre>"
 ---
+
 <p>As is my custom, this morning I asked Zoia (the bot in <a href="irc://freenode.net/code4lib">#code4lib</a>) for <a href="http://www.computerhistory.org/tdih/">this day in history</a> from the <a href="http://www.computerhistory.org">Computer History Musuem</a>. Lately I've been filtering it through the Pirate plugin, which transforms arbitrary text into something a pirate might say. Anyhow, today's was pretty humorous. </p>
 <pre>
 11:32 < edsu> @pirate [tdih]

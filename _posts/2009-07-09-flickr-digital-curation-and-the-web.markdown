@@ -42,6 +42,7 @@ comments:
     America project. Where the Library of Congress is putting images out on Flickr
     and the public is annotating [...]"
 ---
+
 <p>The Library of Congress has started to put selected content from <a href="http://chroniclingamerica.loc.gov">Chronicling America</a> into <a href="http://flickr.com">Flickr</a> as part of the <a href="http://www.flickr.com/photos/library_of_congress/sets/72157619452486566/">Illustrated Newspaper Supplements</a> set. More details on the rationale and process involved can be found in a <a href="http://www.loc.gov/rr/news/flickr/flickrFAQ.html">FAQ</a> on the LC Newspapers and Current Periodical Reading Room website. </p>
 <p>So for example this newspaper page on Chronicling America:</p>
 <p><a href="http://chroniclingamerica.loc.gov/lccn/sn83030214/1909-12-26/ed-1/seq-13/"><img src="http://inkdroid.org/images/chronam_flickr_2.png" style="width: 500px; border: none;" /></a></p>

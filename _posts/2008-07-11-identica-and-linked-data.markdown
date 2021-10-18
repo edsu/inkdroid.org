@@ -34,6 +34,7 @@ comments:
     \ identi.ca and linked data  http://inkdroid.org/journal/2008/07/11/identica-and-linked-data/
     - bookmarked by 6 members [...]"
 ---
+
 <p>If you've already caught the <a href="http://en.wikipedia.org/wiki/Micro-blogging">micro-blogging</a> bug <a href="http://identi.ca">identi.ca</a> is an interesting twitter clone for a <a href="http://times.usefulinc.com/2008/07/03-identica">variety</a> of <a href="http://danbri.org/words/2008/07/10/367">reasons</a>...not the least of which is that it's an <a href="http://web.archive.org/web/20080602015854/http://laconi.ca:80/">open source project</a>, and has been designed to run in a decentralized way. The thing I was pleasantly surprised to see was FOAF exports like <a href="http://web.archive.org/web/20130308050525/http://identi.ca/edsu/foaf">this</a> for user networks, and HTTP URIs for foaf:Person resources:</p>
 <pre>
 ed@hammer:~$ curl -I http://identi.ca/user/6104

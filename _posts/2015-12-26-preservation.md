@@ -3,6 +3,7 @@ layout: post
 title: Preservation
 ---
 
+
 Some (lighter) winter break reading from @Hagen:1977:
 
 > Vitality consists of this birth and death. This impermanence,

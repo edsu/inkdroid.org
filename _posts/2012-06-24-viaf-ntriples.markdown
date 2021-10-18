@@ -19,7 +19,7 @@ tags:
 - python
 - amazon
 - viaf
-- elastic mapreduce
+- elastic-mapreduce
 - lzo
 comments:
 - id: 85419
@@ -42,6 +42,7 @@ comments:
     properly. I'm a Hadoop newbie, so definitely don't take any of this as gospel--not
     that you would :-)
 ---
+
 <p>I had a few requests for the Virtual International Authority File ntriples file I <a href="http://inkdroid.org/journal/2012/05/15/diving-into-viaf/">wrote about</a> earlier. Having the various flavors of <a href="http://viaf.org/viaf/data/">VIAF data</a> available is great, but if an RDF dump is going to be made available I think <a href="http://en.wikipedia.org/wiki/N-Triples">ntriples</a> kinda makes more sense than line oriented rdf/xml. I say this only because most RDF libraries and tools have support for bulk loading ntriples, and none (to my knowledge) support loading line oriented rdf/xml files.</p>
 <p>I've made the 1.9G bzipped ntriples file available on Amazon S3 if you are interested in having at it:</p>
 <blockquote>

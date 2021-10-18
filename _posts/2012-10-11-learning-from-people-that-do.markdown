@@ -18,6 +18,7 @@ date_gmt: '2012-10-11 17:15:12 +0000'
 tags: []
 comments: []
 ---
+
 <p>Anil Dash recently <a href="http://dashes.com/anil/2012/10/the-blue-collar-coder.html">wrote</a> a nice piece about the need for what he calls a Hi-Tech Vo-tech in the technology sector. If you are not familiar with it already, Vo-Tech is shorthand in the US for <a href="http://en.wikipedia.org/wiki/Vocational-technical_school">Vocational-technical school</a>, which provide focused training in specific areas, often on a part time basis. The Vo-Tech experience is markedly different from the typical 4 year university experience, which tends to be focused more on theory than practice.</p>
 <p>I <em>totally</em> agree. </p>
 <p>But if you are looking to work as a software developer, and to help build this amazing information space we call the World Wide Web, you don't need to wait for this dream of a better high school curriculum for computer programming, or Hi-Tech Vo-Techs to come to your town. I don't want to minimize the effort involved in finding your way into the workplace...it's hard, especially when there is competition from "qualified" candidates, and the skill sets seem to be constantly shifting. But here are some relatively simple steps you can take to get started.</p>

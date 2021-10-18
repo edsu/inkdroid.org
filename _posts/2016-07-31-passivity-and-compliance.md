@@ -5,8 +5,8 @@ tags:
 - computing
 - politics
 - society
-
 ---
+
 
 Here's [Langdon Winner] talking about the effects of computing and telecommunications in 1984 [@Winner:1984]. It's kind of astonishing that this much was visible to him thirty years ago.
 

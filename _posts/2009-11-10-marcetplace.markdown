@@ -37,6 +37,7 @@ comments:
   content: "@johncowan yeah, but the record companies are legitimately trying to turn
     a profit :-)"
 ---
+
 <p>Last Saturday I passed the time while waiting in line at the <a href="http://www.mva.maryland.gov/">DMV</a> by reading the recently <a href="http://www.loc.gov/today/pr/2009/09-219.html">released</a> <a href="http://www.loc.gov/bibliographic-future/news/MARC_Record_Marketplace_2009-10.pdf">Study of the North American MARC Records Marketplace</a>. The analysis of the survey results seem to focus on the role of the Library of Congress in the marketplace, which is understandable given that LC funded the report. But there seems to be a real effort to look at LC's role in the broader MARCetplace (sorry I couldn't resist).</p>
 <p>Anyhow, I jotted down some random notes and questions in the margins, and<br />
 figured I'd add them here before my notes got tossed in the circular file.</p>

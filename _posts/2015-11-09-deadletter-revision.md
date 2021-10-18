@@ -5,8 +5,9 @@ tags:
 - inst800
 - study
 - writing
-- web archiving
+- web-archives
 ---
+
 
 You may remember [last week] I provided a short example of using metaphor to give depth and life to some of my otherwise shallow and boring text. I'm not sure I acheived this, but it was a fun exercise for someone like me who likes playing with words. The crucial last step in Sword's process is to share the reworked sentence with a friend to see if the reworked sentenece works, and to get feedback on how to make it better.
 

@@ -22,7 +22,7 @@ tags:
 - loc
 - politics
 - publicdomain
-- apis
+- api
 comments:
 - id: 81219
   author: dilettantes.blogspot.com/
@@ -61,6 +61,7 @@ comments:
     the shiny API later--after it's easier to see how people are using the data. \r\n\r\nI
     guess the title of my blog post sucks, much more than APIs :-)"
 ---
+
 <p><a href="http://yeswescan.org"><img src="http://inkdroid.org/images/yeswescan.png" style="float: left; border: 0; margin-right: 10px;" /></a></p>
 <p>With <a href="http://www.transparencycamp.org/">TransparencyCamp</a> last weekend, <a href="http://groups.google.com/group/sunlightlabs/browse_thread/thread/dfd9fd76be9b6f1b">news</a> of the mandated use of feed syndication by Federal Agencies receiving funds from the Recovery Act, recent blog posts by <a href="http://radar.oreilly.com/2009/03/bulk-data-downloads-government-transparency-breakthrough.html">Tim O'Reilly</a> and the <a href="http://web.archive.org/web/20090415164126/http://sla-divisions.typepad.com:80/government_information/2009/03/newsweek-reports-on-the-peoples-data-oogl.html">Special Libraries Association</a>, an article in <a href="http://web.archive.org/web/20090416053255/http://www.newsweek.com:80/id/186991">Newsweek</a>, news of Carl Malamud's <a href="http://yeswescan.org/">bid</a> to become the Public Printer of the United States (aka head of the GPO), and the W3C eGov <a href="http://www.w3.org/2007/eGov/IG/wiki/F2F2">meeting</a> coming up next week it looks like issues related public access to government data (specifically Library of Congress bibliographic and legislative data) are hitting the mainstream media, and getting political mind-share. Exciting times.</p>
 <p>One thing that bubbled up at <a href="http://code4lib.org/2009">code4lib2009</a> last week was the notion that <em>APIs Suck</em>.  Not that web2.0 APIs are wrong or bad...they're actually great, especially when compared to a world where no machine access to the data existed before.  The point is that sometimes just having access to the raw data in the 'lowest level format' is the ideal. Rather than service providers trying to guess what you are trying to do with their data, and absorbing the computational responsibility of delivering it, why not make the data readily available using a protocol like HTTP? Put the data in a directory, turn on Indexes, do some sensible caching, and maybe gzip compression and let people grab it, and robots crawl it. Or maybe use something like <a href="http://aws.amazon.com/publicdatasets/">Amazon Public Datasets</a>. It seems like a relatively easy first step, that involves very little custom software development, and one with the ability make a huge impact.</p>

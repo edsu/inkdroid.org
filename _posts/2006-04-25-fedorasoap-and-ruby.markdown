@@ -33,6 +33,7 @@ comments:
     = factory.create_rpc_driver\r\nresponse = driver.getObjectProfile(:pid =&gt; 'changeme:1',
     :asOfDateTime =&gt; '')\r\n====================================\r\n\r\nAny ideas?"
 ---
+
 <p><a href="http://fedora.info"><img src="http://web.archive.org/web/20060811065005/http://www.fedora.info:80/images/index/logo.gif" border="none" style="margin-right: 15px" align="left" /></a></p>
 <p>I've been playing around getting <a href="http://ruby-lang.org">ruby</a> to talk to the <a href="http://fedora.info">fedora</a> framework for building digital repositories. Fedora makes its api available by different sets of SOAP services, defined in WSDL files. What follows is a brief howto on getting Ruby to talk to the <a href="http://www.fedora.info/definitions/1/0/api/Fedora-API-A.html">API-A</a> and <a href="http://www.fedora.info/definitions/1/0/api/Fedora-API-M.html">API-M</a></p>
 <p>To get basic API-A and API-M clients working you'll need the following:</p>

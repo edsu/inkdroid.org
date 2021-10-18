@@ -16,11 +16,11 @@ wordpress_url: http://inkdroid.org/journal/?p=1103
 date: '2009-08-13 08:54:41 +0000'
 date_gmt: '2009-08-13 15:54:41 +0000'
 tags:
-- semanticweb
+- semweb
 - web
 - atom
 - rest
-- linkeddata
+- linked-data
 - books
 - hathitrust
 - opensearch
@@ -98,6 +98,7 @@ comments:
   content: "[...] inkdroid &raquo; Blog Archive &raquo; open to view (tags: linkeddata
     apis hathitrust) [...]"
 ---
+
 <p>I spent an hour checking out the <a href="http://www.hathitrust.org/data_api">HathiTrust API docs</a> this morning; mainly to see what the similarities and differences are with the as-of-yet undocumented API for <a href="http://chroniclingamerica.loc.gov">Chronicling America</a>. There are quite a few similarities in the general RESTful approach, and the use of Atom, METS and PREMIS in the metadata that is made available. </p>
 <p>Everyone's a critic right? Nevertheless, I'm just going to jot down a few thoughts about the API, mainly for my friend over in <a href="irc://chat.freenode.net/code4lib">#code4lib</a> <a href="http://billdueber.com/">Bill Dueber</a> who works on the project. Let me just say at the outset that I think it's awesome that HathiTrust are providing this API, especially given some of the licensing constraints around some of the content. The API is a good example of putting library data on the web using both general and special purpose standards. But there are a few minor things that could be tweaked I think, to make the API fit into the web and the repository space a bit better.</p>
 <p>it would be nice if the <a href="http://opensearch.org">OpenSearch</a> description document referenced in the <a href="http://catalog.hathitrust.org">HTML</a> at </p>

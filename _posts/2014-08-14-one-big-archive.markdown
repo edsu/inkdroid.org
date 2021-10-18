@@ -19,7 +19,7 @@ tags:
 - nsa
 - google
 - facebook
-- creative commons
+- creative-commons
 - provenance
 comments:
 - id: 87128
@@ -48,6 +48,7 @@ comments:
   date_gmt: '2014-11-13 20:45:57 +0000'
   content: "[&#8230;] -Ed Summers [&#8230;]"
 ---
+
 <p>Several months ago <a href="http://hillelarnold.com/">Hillel Arnold</a> asked me to participate in a panel at the Society of American Archivists, <a href="http://archives2014.sched.org/event/57ce8b8ded5c6f74d721b5902f259d14#.U-ShqoBdXfs">A Trickle Becomes a Flood: Agency, Ethics and Information</a>. The description is probably worth repeating here:</p>
 <blockquote>
 <p>From the Internet activism of Aaron Swartz to Wikileaks’ release of confidential U.S. diplomatic cables, numerous events in recent years have challenged the scope and implications of privacy, confidentiality, and access for archives and archivists. With them comes the opportunity, and perhaps the imperative, to interrogate the role of power, ethics, and regulation in information systems. How are we to engage with these questions as archivists and citizens, and what are their implications for user access?</p>

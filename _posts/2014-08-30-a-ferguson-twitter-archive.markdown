@@ -69,6 +69,7 @@ comments:
   content: |
     [&#8230;] events in Ferguson, MO as they unfolded over the course of 17 days. He blogged about the process here. Twarc brought an archivist’s collecting impulse to events that were happening very quickly, [&#8230;]
 ---
+
 <p><em>If you are interested in an update about where/how to get the data after reading this see <a href="http://inkdroid.org/journal/2014/11/18/on-forgetting/">here</a>.</em></p>
 <p>Much has been <a href="http://pinboard.in/u:user/t:twitter+ferguson">written</a> about the significance of Twitter as the <a href="https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown">recent events</a> in Ferguson echoed round the Web, the country, and the world. I happened to be at the Society of American Archivists meeting 5 days after Michael Brown was killed. During our <a href="http://inkdroid.org/journal/2014/08/14/one-big-archive/">panel discussion</a> someone asked about the role that archivists should play in documenting the event.</p>
 <p>There was wide agreement that Ferguson was a painful reminder of the type of event that archivists working to "interrogate the role of power, ethics, and regulation in information systems" should be documenting. But what to do? Unfortunately we didn't have time to really discuss exactly how this agreement translated into action.</p>

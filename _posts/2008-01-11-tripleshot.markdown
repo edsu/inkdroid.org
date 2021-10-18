@@ -39,6 +39,7 @@ comments:
   date_gmt: '2008-01-23 18:24:19 +0000'
   content: "hahaha, hey terry!\r\n\r\nSuzy Creempuff ; nyah, nyah!"
 ---
+
 <p><a href="http://en.wikipedia.org/wiki/Image:Linea_doubleespresso.jpg"><img src="/images/espresso.jpg" style="width: 150px; margin-left: 10px; float: right; border: none;" /></a></p>
 <p>Recently there was a bit of interesting <a href="http://listserv.loc.gov/cgi-bin/wa?A2=ind0801&L=marc&T=0&P=1470">news</a> around a MARBI Discussion Paper 2008-DP04 regarding semweb technologies at <a href="http://loc.gov">LC</a>. </p>
 <blockquote><p>

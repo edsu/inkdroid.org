@@ -7,6 +7,7 @@ tags:
 - anth606
 ---
 
+
 <a href="https://www.goodreads.com/book/show/13588707-improvising-medicine"
 style="float: left; padding-right: 20px"><img border="0" alt="Improvising
 Medicine: An African Oncology Ward in an Emerging Cancer Epidemic"

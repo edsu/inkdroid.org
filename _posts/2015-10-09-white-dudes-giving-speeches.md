@@ -3,6 +3,7 @@ layout: post
 title: White Dudes Giving Speeches
 ---
 
+
 Thank you for inviting me here today to be with you all at MARAC. I'll admit that I'm more than a bit nervous to be up here. I normally apologize for being a software developer right about now. But I'm not going to do that today...although I guess I just did. I'm not paying software developers any compliments by using them as a scapegoat for my public presentation skills. And the truth is that I've seen plenty of software developers give moving and inspiring talks.
 
 So the reason why I'm a bit more nervous today than usual is because you are

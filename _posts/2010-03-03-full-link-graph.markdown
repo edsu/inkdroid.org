@@ -17,7 +17,7 @@ date: '2010-03-03 05:42:36 +0000'
 date_gmt: '2010-03-03 12:42:36 +0000'
 tags:
 - google
-- linked data
+- linked-data
 comments:
 - id: 82016
   author: Michael Hausenblas
@@ -41,6 +41,7 @@ comments:
     over a graph of nodes identified w/ URLs and linked together with different predicates
     that still wouldn't be RDF, SPARQL and consequently Linked Data... hohum
 ---
+
 <p><a href="http://norvig.com/">Peter Norvig</a> of Google <a href="http://www.youtube.com/watch?v=hE7k0_9k0VA#t=25m38s">mentioned</a> Linked Data in his interview with <a href="http://www.youtube.com/watch?v=hE7k0_9k0VA">Reddit Ask Me Anything</a> (thanks <a href="http://twitter.com/gromgull/status/9918829831">Gunnar</a>)</p>
 <blockquote><p>
 So right from the start researchers are writing code that use our main APIs that<br />

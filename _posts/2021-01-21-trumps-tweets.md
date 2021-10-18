@@ -3,9 +3,10 @@ layout: post
 title: Trump's Tweets
 date: 2021-01-21 20:29:05
 tags:
-- Twitter
-- Archive
+- twitter
+- archive
 ---
+
 
 *TLDR: Trump's tweets are gone from twitter.com but still exist spectrally in various states all over the web. After profiting off of their distribution Twitter now have a responsibility to provide meaningful access to the Trump tweets as a read only archive.*
 

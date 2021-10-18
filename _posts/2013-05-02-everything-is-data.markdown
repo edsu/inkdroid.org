@@ -20,9 +20,10 @@ tags:
 - sociology
 - latour
 - science
-- social science
+- social-science
 comments: []
 ---
+
 <p><a href="http://www.goodreads.com/book/show/134567.Reassembling_the_Social" style="float: left; padding-right: 20px"><img alt="Reassembling the Social: An Introduction to Actor-Network-Theory" border="0" src="http://d.gr-assets.com/books/1172047445m/134567.jpg" /></a><a href="http://www.goodreads.com/book/show/134567.Reassembling_the_Social">Reassembling the Social: An Introduction to Actor-Network-Theory</a> by <a href="http://www.goodreads.com/author/show/77743.Bruno_Latour">Bruno Latour</a><br />
 My rating: <a href="http://www.goodreads.com/review/show/516628434">4 of 5 stars</a></p>
 <p>I picked this up because folks over on the <a href="https://groups.google.com/forum/#!searchin/philosophy-in-a-time-of-software/reassembling/philosophy-in-a-time-of-software/T5PrHVZ0upI/tgiEC4dEgLoJ" rel="nofollow">Philosophy in a Time of Software</a> kicked things off by discussing this book by Latour. So, I'm really not terribly knowledgeable about sociology, but I did a fair bit of reading in the social sciences while <strike>getting my library union card</strike> studying library/information science. So I wasn't completely underwater, but I definitely felt like I was swimming in the deep end. I didn't get the connection to computer programming until quite late in the book, but it was definitely a bit of a lightbulb moment when I did. Latour's style (at least that of the unmentioned translator) is refreshingly direct, personal, and unabashedly opinionated. He spends much of the book describing just how complicated social science is, and how far it has gone off the tracks...which is quite entertaining at times.</p>

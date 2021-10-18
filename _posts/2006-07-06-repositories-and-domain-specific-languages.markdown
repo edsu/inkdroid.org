@@ -18,6 +18,7 @@ date_gmt: '2006-07-06 10:28:53 +0000'
 tags: []
 comments: []
 ---
+
 <p>At work I've been doing some experiments with the <a href="http://fedora.info">Fedora</a> repository software. One of the strengths of Fedora is that it is fundamentally designed as a set of extensible web services. At first I set about becoming familiar with the set of web services and decided that Ruby would be a useful and lightweight language to do this from. Sure enough, Ruby was <a href="http://www.inkdroid.org/journal/2006/04/25/fedorasoap-and-ruby/">plenty capable</a> of putting stuff into Fedora and getting stuff back out again.</p>
 <p>As time went on it became clear that what was really needed was a layer of abstraction around this Fedora web services API that would allow it (or another repository framework) to be used in a programatic way without having to make SOAP calls and building FOXML all over the place. Typically in software pattern lingo this is referred to as a <a href="http://en.wikipedia.org/wiki/Facade_pattern">facade</a>. </p>
 <p>So I worked on creating a facade, and ended up with something I half-jokingly called 'bitbucket' which looks something like this:</p>

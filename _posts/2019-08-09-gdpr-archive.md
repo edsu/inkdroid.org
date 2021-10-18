@@ -2,9 +2,10 @@
 layout: post
 title: GDPR Archive
 tags:
-- social media
+- social-media
 - archive
 ---
+
 
 This is just a short post to write down an idea (that I'm assuming others have
 had) that for me was born of frustration on the [Documenting the Now] project

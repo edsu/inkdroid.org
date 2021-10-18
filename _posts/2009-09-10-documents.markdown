@@ -150,6 +150,7 @@ comments:
   content: "[...] inkdroid &raquo; Blog Archive &raquo; Documents (tags: documents)
     [...]"
 ---
+
 <div xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:bibo="http://purl.org/ontology/bibo/">
 <a about="/images/otlet.jpg" rel="foaf:depicts" href="http://chroniclingamerica.loc.gov/lccn/sn84026749/1908-04-09/ed-1/seq-11#page"><br />
 <img src="/images/otlet.jpg" style="float: right; margin-left: 15px; width: 200px;" /><br />

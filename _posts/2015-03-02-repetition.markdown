@@ -16,11 +16,12 @@ wordpress_url: http://inkdroid.org/journal/?p=8468
 date: '2015-03-02 07:00:18 +0000'
 date_gmt: '2015-03-02 14:00:18 +0000'
 tags:
-- John Dewey
-- pragmantism
+- john-dewey
+- pragmatism
 - quotes
 comments: []
 ---
+
 <blockquote>
 <p>To be satisfied with repeating, with traversing the ruts which in other conditions led to good, is the surest way of creating carelessness about present and actual good.</p>
 <p>

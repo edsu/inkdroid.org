@@ -24,6 +24,7 @@ tags:
 - sculture
 comments: []
 ---
+
 <p>A few weeks ago I wrote <a href="http://inkdroid.org/journal/2013/08/13/metadata-from-gettys-open-content-program/">a brief post</a> about the embedded metadata found in images from the (awesome) <a href="http://www.getty.edu/about/opencontent.html">Getty Open Content Program</a>. This led to a useful exchange with <a href="https://twitter.com/bpod">Brenda Podemski</a> on Twitter, which she gathered together with <a href="http://storify.com/bpod/getty-open-content-and-embedded-metadata">Storify</a>. I promised her I would write another blog post that showed how the metadata could be expressed a little bit better.</p>
 <p>It's hard to read RDF as XML and Turtle isn't for everyone, so here's a picture of part of the XMP RDF metadata that is included in the highres download for a <a href="http://search.getty.edu/museum/records/musobject?objectid=70019">photo</a> by <a href="https://en.wikipedia.org/wiki/Eug%C3%A8ne_Atget">Eugène Atget</a> of a sculpture <a href="https://fr.wikipedia.org/wiki/Bosquet_de_l'Arc-de-Triomphe">Bosquet de l'Arc de Triomphe</a> by <a href="https://en.wikipedia.org/wiki/Jean-Baptiste_Tuby">Jean-Baptiste Tuby</a>. I haven't portrayed everything in the file since it would clutter up the point I'm trying to make.</p>
 <p><img src="http://inkdroid.org/images/getty1.png" alt="Original Description" /></p>

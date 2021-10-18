@@ -1,8 +1,8 @@
 ---
-
 title: Curating Corpora
 layout: post
 ---
+
 
 Here's a really nice talk by [Everest Pipkin] about the need to curate datasets
 for generative text algorithms, especially when they are being used in creative

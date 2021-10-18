@@ -20,6 +20,7 @@ tags:
 - wikileaks
 comments: []
 ---
+
 <p>Yesterday Wikileaks announced the availability of a new collection, the <a href="https://wikileaks.org/WikiLeaks-releases-the-Carter.html">Carter Cables</a>, which are a new addition to the <a href="https://search.wikileaks.org/plusd/">Public Library of US Diplomacy (PlusD)</a>. One thing in particular in the announcement caught my attention:</p>
 <blockquote>
 <p>The Carter Cables were obtained by WikiLeaks through the process described <a href="https://wikileaks.org/plusd/pressrelease">here</a> after formal declassification by the US National Archives and Records Administration earlier this year.</p>

@@ -17,7 +17,7 @@ date: '2010-06-08 10:02:11 +0000'
 date_gmt: '2010-06-08 17:02:11 +0000'
 tags:
 - foaf
-- linkeddata
+- linked-data
 - urls
 comments:
 - id: 82696
@@ -266,6 +266,7 @@ comments:
   content: Agreed. It's easy to forget with all this talk about Linked Data for "real
     world things" that RDF really excels at describing documents on the web.
 ---
+
 <p><a href="http://openlibrary.org"><img src="http://inkdroid.org/images/openlibrary.png" style="float:left; margin-right: 10px; margin-bottom: 10px;" /></a>There are a couple <a href="http://www.mail-archive.com/ol-tech@archive.org/msg00048.html">interesting</a> <a href="http://www.mail-archive.com/ol-tech@archive.org/msg00075.html">threads</a> (disclaimer I inadvertently started one) going on over on the <a href="http://www.mail-archive.com/ol-tech@archive.org/info.html">Open Library technical discussion list</a> about making Linked Data views available for authors. Since the topic was largely how to model people, part of the discussion <a href="http://lists.foaf-project.org/pipermail/foaf-dev/2010-June/010253.html">spilled over</a> to <a href="http://lists.foaf-project.org/mailman/listinfo/foaf-dev">foaf-dev</a> (also my fault). </p>
 <p>When making library Linked Data available my preference has been to follow the lead of <a href="http://twitter.com/geckomarma">Martin Malmsten</a>, <a href="http://twitter.com/brocadedarkness">Anders Söderbäck</a> and the <a href="http://libris.kb.se/">Royal Library of Sweden</a> by modeling authors as People using the <a href="http://xmlns.com/foaf/spec/">FOAF vocabulary</a>:</p>
 <pre>

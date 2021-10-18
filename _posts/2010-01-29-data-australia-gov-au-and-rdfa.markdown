@@ -22,6 +22,7 @@ tags:
 - australia
 comments: []
 ---
+
 <p>In my <a href="http://inkdroid.org/journal/2010/01/26/data-gov-uk-and-rdfa/">previous blog post</a> I was trying to demonstrate the virtues of data.gov.uk making the descriptions of their datasets available as <a href="http://www.w3.org/TR/xhtml-rdfa-primer/">RDFa</a>. Just this morning I <a href="http://groups.google.com/group/uk-government-data-developers/msg/16599323836791e5">learned</a> from <a href="http://web.archive.org/web/20111121115551/http://webbackplane.com/mark-birbeck/">Mark Birbeck</a> that the folks down under at <a href="http://data.australia.gov.au">data.australia.gov.au</a> did this last October!</p>
 <p>For example <a href="http://web.archive.org/web/20110301044400/http://data.australia.gov.au/414">this</a> page describing a dataset for public Internet locations has this RDF metadata inside it:</p>
 <pre>

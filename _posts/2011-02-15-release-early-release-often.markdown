@@ -26,6 +26,7 @@ comments:
   content: I browsed a few of the newspapers, and it feels fantastic! Congratulations
     on an excellent job!
 ---
+
 <p><iframe src="http://player.vimeo.com/video/19990116" width="400" height="300" frameborder="0" style="float: left; margin-right: 10px;"></iframe></p>
 <p>The <a href="http://www.loc.gov/ndnp/">National Digital Newspaper Program</a> (NDNP) went live with a new JavaScript viewer today (as well as a lot of other stylistic improvements) in the <a href="http://chroniclingamerica.loc.gov/beta/">Beta</a> area portion of <a href="http://chroniclingamerica.loc.gov/">Chronicling America</a>. </p>
 <p>Being able to smoothly zoom in on images, and go into fullscreen mode is really reminiscent (for me) of the visceral experience of using a microfilm reader. We joked about adding whirring sound effects when moving between pages. But you'll be glad to know we showed restraint :-) It's all kind of deeply ironic given the Web's roots in the <a href="http://en.wikipedia.org/wiki/Memex">Memex</a>.</p>

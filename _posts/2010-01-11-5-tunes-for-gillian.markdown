@@ -28,6 +28,7 @@ comments:
     of them before, making me perhaps the most musically sheltered person any of us
     know...  thanks for the links.
 ---
+
 <p>Kesa's good friend Gillian from college days in NOLA sent around an email asking for people's favorite five <em>songs</em> of last year. </p>
 <p>For some reason picking individual songs is hard for me. I guess because I rarely put on a song, and almost always put on an album--as antiquated as that sounds. I do occasionally listen to suggestions on last.fm or random songs in my player-du-jour -- but then I don't really remember the song names. </p>
 <p>Anyhow here's the list I cobbled together, with links out to youtube (that'll probably break in 28 hrs):</p>

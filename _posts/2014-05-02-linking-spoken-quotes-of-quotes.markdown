@@ -18,6 +18,7 @@ date_gmt: '2014-05-02 09:36:53 +0000'
 tags: []
 comments: []
 ---
+
 <blockquote>
 <p>An ancient <a href="https://en.wikipedia.org/wiki/Gautama_Buddha">buddha</a> said, "If you do not wish to incur the cause for Unceasing <a href="https://en.wikipedia.org/wiki/Hell">Hell</a>, do not slander the true <a href="https://en.wikipedia.org/wiki/Dharmacakra">dharma wheel</a> of the <a href="https://en.wikipedia.org/wiki/Tathagata">Tathagata</a>. You should <a href="https://en.wikipedia.org/wiki/Carve">carve</a> these <a href="https://en.wikipedia.org/wiki/Word">words</a> on your <a href="https://en.wikipedia.org/wiki/Skin">skin</a>, flesh, <a href="https://en.wikipedia.org/wiki/Bones">bones</a> and marrow; on your <a href="https://en.wikipedia.org/wiki/Body_(metaphysics)">body</a>, <a href="https://en.wikipedia.org/wiki/Mind">mind</a> and <a href="https://en.wikipedia.org/wiki/Ecology">environment</a>; on <a href="https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81">emptiness</a> and on form. They are already carved on <a href="https://en.wikipedia.org/wiki/Tree">trees</a> and <a href="https://en.wikipedia.org/wiki/Rocks">rocks</a>, on <a href="https://en.wikipedia.org/wiki/Field_(agriculture)">fields</a> and <a href="https://en.wikipedia.org/wiki/Villages">villages</a>."</p>
 </blockquote>

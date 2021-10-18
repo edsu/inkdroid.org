@@ -7,6 +7,7 @@ tags:
 - data
 ---
 
+
 *Slightly more than 140 characters about design, written to temporarily distract
 myself from thinking about a term paper.*
 

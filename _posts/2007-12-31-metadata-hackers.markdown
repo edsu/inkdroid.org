@@ -32,6 +32,7 @@ comments:
     "this changes everything" came into the minds of librarians in the 1960s... keeps
     you humble, eh.
 ---
+
 <p>I opened the paper this morning to read a <a href="http://www.washingtonpost.com/wp-dyn/content/article/2007/12/30/AR2007123002435.html">story </a> of another person involved in the creation of MARC who has just died. I hadn't realized before reading <a href="http://www.washingtonpost.com/wp-dyn/content/article/2006/04/27/AR2006042702105.html">Henrietta Avram</a> and <a href="http://www.washingtonpost.com/wp-dyn/content/article/2007/12/30/AR2007123002435.html">Samuel Snyder's</a> obituaries that there was a bit of an <a href="http://nsa.gov">NSA</a> <a href="http://loc.gov">LC</a> connection when MARC was being created.</p>
 <blockquote><p>
 From 1964 to 1966, [Samuel Snyder] was coordinator of the Library of Congress's information systems office. He was among the creators of the library's Machine Readable Cataloging system that replaced the handwritten card with an electronic searchable database system that became the standard worldwide.

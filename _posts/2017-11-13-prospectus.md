@@ -3,6 +3,7 @@ layout: post
 title: Prospectus
 ---
 
+
 *I've been trying to keep this blog updated as I move through the PhD program at
 the UMD iSchool. Sometimes it's difficult to share things here because of fear
 that the content or ideas are just too rough around the edges. The big

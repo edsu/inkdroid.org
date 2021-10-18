@@ -8,6 +8,7 @@ tags:
 - visualization
 ---
 
+
 One of the nice things that we did with [twarc2] is to design it so you can add
 [plugins] relatively easily. These plugins extend twarc's basic functionality
 to do different things with collected Twitter data. This is just a quick post
