@@ -201,6 +201,8 @@ the technical development.
 
 ## Selected Publications
 
+* [Legibility Machines: Archival Appraisal and the Genealogies of Use]. PhD
+  Dissertation. University of Maryland. December, 2020.
 * [Appraisal Talk in Web Archives]. Archivaria. May, 2020.
 * [Archival Circulation on the Web: The Vine-Tweets Dataset]. Cultural
 Analytics. June, 2019.
@@ -294,5 +296,5 @@ Analytics. June, 2019.
 [Linked Data Service]: https://id.loc.gov
 [Hypothesis]: https://web.hypothes.is/
 [jobs.code4lib.org]: https://jobs.code4lib.org
-
 [W3C]: https://www.w3.org/2006/07/SWD/
+[Legibility Machines: Archival Appraisal and the Genealogies of Use]: https://drum.lib.umd.edu/handle/1903/26731

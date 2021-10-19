@@ -8,7 +8,7 @@ indexes:
 serve: indexes
 	bundle exec jekyll serve --incremental
 
-quick: build rsync
+quick: cv build rsync
 
 build_full: indexes
 	JEKYLL_ENV=production bundle exec jekyll build
