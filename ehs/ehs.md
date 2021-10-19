@@ -47,7 +47,7 @@ Library of Congress, Washington, DC
 * Digital preservation and repository software design and development (Python, Java, MySQL)
 * Lead software developer on the [National Digital Newspaper Project] (Django, MySQL)
 * Created a web based quality assurance tool for handling high volume image digitization projects
-* social media archiving (Twitter)
+* Social media archiving (Twitter)
 * Designed and implemented the [Library of Congress Linked Data Service]
 * Specification writing and testing [W3C Semantic Web Deployment Group]
 
