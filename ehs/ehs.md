@@ -49,7 +49,7 @@ Library of Congress, Washington, DC
 * Created a web based quality assurance tool for handling high volume image digitization projects
 * Social media archiving (Twitter)
 * Designed and implemented the [Library of Congress Linked Data Service]
-* Specification writing and testing [W3C Semantic Web Deployment Group]
+* Specification writing and testing [W3C]
 
 Consultant  
 George Washington University, Washington, DC  
@@ -295,4 +295,4 @@ Analytics. June, 2019.
 [Hypothesis]: https://web.hypothes.is/
 [jobs.code4lib.org]: https://jobs.code4lib.org
 
-[W3C Semantic Web Deployment Working Group]: https://www.w3.org/2006/07/SWD/
+[W3C]: https://www.w3.org/2006/07/SWD/
