@@ -4,14 +4,11 @@ ehs@pobox.com / 240-478-7086\\
 304 Brewster Court, Silver Spring, MD 20901\\
 \end{center}
 
-I am a software developer and design researcher with two decades of
-experience bridging the worlds of libraries and archives with the World
-Wide Web. I have worked in academia, startups, corporations and
-government. I work best as a member of agile, highly collaborative teams
-that focus on furthering social justice work through community building,
-knowledge sharing and a commitment to sustainability. My research and
-writing is focused on sociotechnical approaches to understanding digital
-preservation and memory work.
+I am a software developer and data scientist with two decades of
+experience bridging the worlds of data management and the Web. I have
+worked in academia, startups, corporations and government. I work best
+as a member of agile, highly collaborative teams that focus on knowledge
+sharing and a commitment to sustainability.
 
 \hypertarget{skills}{%
 \subsection{Skills}\label{skills}}
@@ -65,6 +62,23 @@ University of Maryland\\
 \item
   Instructor \& Mentor: software development (Python, JavaScript), data
   science (Python, Pandas, Spark)
+\end{itemize}
+
+Visiting Researcher\\
+National Institute of Standards and Technology\\
+Gaithersburg, Maryland\\
+August 2018 - August 2021
+
+\begin{itemize}
+\tightlist
+\item
+  Conducted a multi-year field study to analyze data acquisition methods
+  used in building the world's largest public archive of computer
+  software (NSRL).
+\item
+  Software development and research design for data data preservation
+  packaging formats (Python, Git, Jupyter, PostgreSQL, BagIt, DFXML,
+  OCFL)
 \end{itemize}
 
 Information Technology Specialist\\
