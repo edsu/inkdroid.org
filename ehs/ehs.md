@@ -4,22 +4,21 @@ ehs@pobox.com / 240-478-7086\\
 304 Brewster Court, Silver Spring, MD 20901\\
 \end{center}
 
-I am a software developer and data scientist with two decades of experience
+I am a software developer and researcher with two decades of experience
 bridging the worlds of data management and the Web. I have worked in academia,
-startups, corporations and government. I work best as a member of agile, highly
+startups, corporations and government. I accelerate the work of agile, highly
 collaborative teams that focus on knowledge sharing and a commitment to
 sustainability.
 
 ## Skills
 
-* web technology, APIs, REST, linked data, web archiving
-* digital preservation, data management, knowledge graphs, search
-* open source, standards development, community building
-* automated testing, agile software development, rapid prototyping
-* Python, JavaScript, Go, Ruby, Perl, PHP, Java, C, Scheme
-* data analysis, Pandas, SciPy, Spark
-* data visualization: D3, Plotly, vis.js, Gephi
-* Ubuntu, Red Hat, Amazon Web Services
+* web technology: APIs, REST, linked data, web archiving
+* languages: Python, JavaScript, Ruby, PHP, Perl, Go, Java, C, Scheme
+* data analysis: Pandas, SciPy, Spark, Presto
+* infrastructure: Linux, AWS, Ansible, Terraform
+* databases: PostgreSQL, MariaDB, Redis, ElasticSearch, Solr, MongoDB
+* visualization: D3, Plotly, vis.js, Gephi
+* practice: agile, automated testing, continuous integration, standards
 
 ## Work History
 
@@ -37,6 +36,15 @@ University of Maryland
 * Agile requirements gathering & project management
 * Instructor & Mentor: software development (Python, JavaScript), data science (Python, Pandas, Spark)
 
+Consultant  
+The Brookings Institution  
+Washington, DC  
+June 2021 - September 2021
+
+* Social media data collection and ETL (Twitter, Reddit, Python)
+* Network analysis and visualization (Python, React, vis.js)
+* Report writing and research data publishing
+
 Visiting Researcher  
 National Institute of Standards and Technology  
 Gaithersburg, Maryland  
@@ -46,8 +54,8 @@ August 2018 - August 2021
 * Software development and research design for data data preservation packaging formats (Python, Git, Jupyter, PostgreSQL, BagIt, DFXML, OCFL)
 
 Information Technology Specialist  
-Repository Development Center  
-Library of Congress, Washington, DC  
+Library of Congress  
+Washington, DC  
 03/2006 - 08/2014
 
 * Digital preservation and repository software design and development (Python, Java, MySQL)
@@ -58,8 +66,9 @@ Library of Congress, Washington, DC
 * Specification writing and testing [W3C]
 
 Consultant  
-George Washington University, Washington, DC  
-10/2013 - 12/2014  
+George Washington University  
+Washington, DC  
+10/2013 - 12/2014
 
 * Django Web Development
 * Voyager ILS integration (Oracle)
@@ -67,35 +76,36 @@ George Washington University, Washington, DC
 
 Consultant  
 Nelson Institute for Environmental Studies  
-University of Wisconsin, Madison, WI  
+Madison, WI  
 09/2013 - 06/2014
 
-* Web harvesting (Python)
-* Data managment (Git, AWS)
+* Web data harvesting (Python)
+* Data packaging and publishing (Git, AWS)
 
 Consultant  
 Hypothes.is  
-San Fransisco, CA  
+San Francisco, CA  
 01/2013 - 10/2013
 
 * JavaScript and Python development
 * Development of the open source [Annotator] and [Annotator Store] projects
 * Design and implementation of [cross format annotation] annotation support
-* Functional/unit testing (Selenium, PyTest, Travis-CI, SauceLabs)
+* Functional/unit testing (Selenium, Pytest, Travis-CI, SauceLabs)
 
 Consultant  
 GlueJar  
+Montclair, NJ
 11/2011 - 04/2012
 
-* Django software development [UnglueIt] [unglueit]
-* Amazon AWS Deployment (EC2, RDS, Route 53) for dev, test and production
-* Google Books metadata harvesting
+* Django software development
+* AWS (EC2, RDS, Route 53)
+* Google Books API harvesting
 * Google, Facebook, Twitter social media integration
 * Automated testing and continuous integration (Jenkins)
 
 Consultant  
-Canary Project  
-Yale School of Medicine, New Haven, CT  
+Yale School of Medicine  
+New Haven, CT  
 07/2005 - 12/2005
 
 * Python object oriented design
@@ -104,20 +114,20 @@ Yale School of Medicine, New Haven, CT
 * Quixote, Pylucene, MySQL, Red Hat administration
 
 Senior Software Engineer  
-Follett Corporation, McHenry IL  
-05/2005 - 03/2006
+Follett Corporation  
+McHenry IL  
+07/2002 - 03/2006
 
-* Building and supporting a distributed knowledge management application
-* Requirements gathering and project planning
 * Web service design and implementation
-* ONIX metadata harvesting and ingest
-* Java performance tuning
-* Automated testing
+* Java, PHP and Perl software development
+* Automated testing and performance tuning
 * Database administration (Oracle, SQL Server)
-* Linux/Windows systems administration
+* XML metadata harvesting and ingest
+* Requirements gathering and project planning
 
 Consultant  
-Performix, Chicago IL  
+Performix
+Chicago IL  
 02/2004 - 04/2005
 
 * Object oriented design
@@ -125,7 +135,8 @@ Performix, Chicago IL
 * Perl, Apache, mod_perl, DB2
 
 Consultant  
-Queens Borough Public Library, New York NY  
+Queens Borough Public Library  
+New York, NY  
 06/2004 - 05/2005
 
 * Character encoding conversion
@@ -133,29 +144,18 @@ Queens Borough Public Library, New York NY
 * Perl data processing training
 
 Consultant  
-Notre Dame University, South Bend IN
+Notre Dame University  
+South Bend IN  
 06/2004 - 12/2004
 
 * Training in object oriented programming and unit testing
 * High volume metadata harvesting
 * Guidance and implementation search technologies
-* Ported Java Commonn Query Language parser to Perl
-
-Applications Developer  
-Follett Library Resources, McHenry IL  
-07/2002 - 05/2004
-
-* PHP/Perl development in a Unix/Oracle environment
-* Determined project requirements, created task lists and
-  schedules
-* Designed and developed library collection analysis application
-* Unit and application level automated testing
-* Oracle/Apache stress testing and performance tuning
-* XML processing
-* Distributed application design using web services
+* Ported Java Common Query Language parser to Perl
 
 Senior Software Engineer  
-CheetahMail, New York NY  
+CheetahMail  
+New York NY  
 02/2000 - 07/2002  
 
 * Team lead in a group of 8 programmers
@@ -167,8 +167,9 @@ CheetahMail, New York NY
 * Technical representative for partners and sales
 * Networking and systems administration as required
 
-Electronic Resources Librarian  
-Old Dominion University, Norfolk, VA  
+Metadata Specialist  
+Old Dominion University  
+Norfolk, VA  
 04/1998 - 02/2000
 
 * SGML and XML data processing for the VIVA Consortium
@@ -177,7 +178,8 @@ Old Dominion University, Norfolk, VA
 * ILS and OCLC metadata workflow management
 
 Visiting Assistant Professor
-University of Illinois, Champaign-Urbana, IL  
+University of Illinois  
+Champaign-Urbana, IL  
 08/1996 - 03/1998
 
 * Web development (ASP, SQL Server)
@@ -231,19 +233,19 @@ Analytics. June, 2019.
   Quarterly, 2008
 * [Building OAI-PMH Harvesters With Net::OAI::Harvester] Ariadne,
   no. 38, Jan 2004.
-* Cyril: Expanding the Horizons of MARC21, Library Hi Tech, v.
+* [Cyril: Expanding the Horizons of MARC21], Library Hi Tech, v.
   22, no. 1, 2004.
-* A Consortial Approach to Cooperative Cataloging and Authority
-  Control: The Virtual Library of Virginia Experience, Resource
+* [A Consortial Approach to Cooperative Cataloging and Authority
+  Control: The Virtual Library of Virginia Experience], Resource
   Sharing and Information Networks, v. 16, no. 1, 2003, p. 33-53.
 * [Paying Homage to Perl (PHP)], The Perl Review, January, 2003.
 * MARC it your way: MARC.pm, Information Technology and
   Libraries, March, 2002.
-* Comprehensive Access to Periodicals: A Database Solution,
+* [Comprehensive Access to Periodicals: A Database Solution],
   Library Collections Acquisitions and Technical Services, v.
   24, no. 2, 2000, p. 33-44.
-* Show Me the Metadata, Against the Grain, v.11, no.1, 1998.
-* Gateways to Social Work/Welfare on the Net, C&RL News, v.59,
+* [Chaos--Show Me the Metadata], Against the Grain, v.11, no.1, 1998.
+* [Gateways to Social Work/Welfare on the Net], C&RL News, v.59,
   no. 3, 1998, p.163-167.
 
 ## Education
@@ -270,7 +272,7 @@ Analytics. June, 2019.
 [LCSH, SKOS and Linked Data]: http://dcpapers.dublincore.org/pubs/article/view/916
 [Following Your Nose to the Web of Data]: http://inkdroid.org/journal/2008/01/04/following-your-nose-to-the-web-of-data/
 [Building OAI-PMH Harvesters With Net::OAI::Harvester]: http://www.ariadne.ac.uk/issue38/summers
-[Paying Homage to Perl (PHP)]: http://www.theperlreview.com/articles/php.html
+[Paying Homage to Perl (PHP)]: https://web.archive.org/web/20130625070202/https://www.theperlreview.com/articles/php.html
 [unglueit]: http://unglueit.com
 [MJ no more: Using Concurrent Wikipedia Edit Spikes with Social Network Plausibility Checks for Breaking News Detection]: http://arxiv.org/abs/1303.4702
 [Linking Things on the Web: A Pragmatic Examination of Linked Data]: http://arxiv.org/abs/1302.4591
@@ -279,8 +281,7 @@ Analytics. June, 2019.
 [Bots, Seeds and People: Web Archives as Infrastructure]: /papers/bots-seeds-people.pdf
 [#sayhername: a case study of intersectional social media activism]: http://dx.doi.org/10.1080/01419870.2017.1334934
 [Ferguson and the death of Michael Brown on Twitter: #BlackLivesMatter, #TCOT, and the evolution of collective identities]: http://dx.doi.org/10.1080/01419870.2017.1335422
-
-[National Digital Newspaper Project]: http://chroniclingamerica.loc.gov/ "Chronicling America"
+[National Digital Newspaper Project]: http://chroniclingamerica.loc.gov/
 [Library of Congress Linked Data Service]: http://id.loc.gov/
 [Annotator]: http://github.com/okfn/anotator
 [Annotator Store]: http://github.com/okfn/anotator-store
@@ -304,3 +305,8 @@ Analytics. June, 2019.
 [jobs.code4lib.org]: https://jobs.code4lib.org
 [W3C]: https://www.w3.org/2006/07/SWD/
 [Legibility Machines: Archival Appraisal and the Genealogies of Use]: https://drum.lib.umd.edu/handle/1903/26731
+[Cyril: Expanding the Horizons of MARC21]: https://dx.doi.org/10.1108/07378830410524459
+[A Consortial Approach to Cooperative Cataloging and Authority Control: The Virtual Library of Virginia Experience]: https://dx.doi.org/10.1300/J121v16n01_04
+[Comprehensive Access to Periodicals: A Database Solution]: https://doi.org/10.1016/S1464-9055(99)00096-2
+[Gateways to Social Work/Welfare on the Net]: https://crln.acrl.org/index.php/crlnews/article/view/18375/20725
+[Chaos--Show Me the Metadata]: https://doi.org/10.7771/2380-176X.3746
