@@ -209,6 +209,8 @@ the technical development.
 
 ## Selected Publications
 
+* [Bystander intervention on social media: Examining cyberbullying and
+  reactions to systemic racism]. The Brookings Institution. October, 2021.
 * [Legibility Machines: Archival Appraisal and the Genealogies of Use]. PhD
   Dissertation. University of Maryland. December, 2020.
 * [Appraisal Talk in Web Archives]. Archivaria. May, 2020.
@@ -310,3 +312,5 @@ Analytics. June, 2019.
 [Comprehensive Access to Periodicals: A Database Solution]: https://doi.org/10.1016/S1464-9055(99)00096-2
 [Gateways to Social Work/Welfare on the Net]: https://crln.acrl.org/index.php/crlnews/article/view/18375/20725
 [Chaos--Show Me the Metadata]: https://doi.org/10.7771/2380-176X.3746
+[Bystander intervention on social media: Examining cyberbullying and reactions
+to systemic racism]: https://www.brookings.edu/research/bystander-intervention-on-social-media-examining-cyberbullying-and-reactions-to-systemic-racism/
