@@ -4,7 +4,7 @@ ehs@pobox.com / 240-478-7086\\
 304 Brewster Court, Silver Spring, MD 20901\\
 \end{center}
 
-I am a software developer and researcher with two decades of experience
+I am a software developer and social scientist with two decades of experience
 bridging the worlds of data management and the Web. I have worked in academia,
 startups, corporations and government. I accelerate the work of agile, highly
 collaborative teams that focus on knowledge sharing and a commitment to
