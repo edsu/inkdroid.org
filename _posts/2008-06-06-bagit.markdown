@@ -21,11 +21,11 @@ tags:
 - libraries
 - preservation
 - ietf
-- checksums
 - atompub
 - sword
 - cdl
 - bagit
+- fixity
 comments:
 - id: 64642
   author: Gabriel Sean Farrell

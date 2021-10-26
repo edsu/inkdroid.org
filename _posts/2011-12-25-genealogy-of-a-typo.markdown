@@ -22,7 +22,7 @@ tags:
 - books
 - librarything
 - goodreads
-- googlebooks
+- google-books
 - bowker
 comments:
 - id: 85333

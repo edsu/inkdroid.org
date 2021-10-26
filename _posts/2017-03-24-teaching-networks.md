@@ -5,7 +5,7 @@ tags:
 - visualization
 - dh
 - teaching
-- graph
+- graphs
 ---
 
 

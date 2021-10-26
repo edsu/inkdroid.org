@@ -16,7 +16,10 @@ wordpress_url: http://inkdroid.org/journal/?p=205
 date: '2008-06-23 12:10:15 +0000'
 date_gmt: '2008-06-23 19:10:15 +0000'
 tags:
-- http-rest-amazon-storage-checsums-md5
+- http
+- amazon
+- storage
+- fixity
 comments:
 - id: 65401
   author: Peter Murray
