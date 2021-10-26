@@ -2,7 +2,7 @@
 layout: post
 title: Archival Shapes
 tags:
-- archive
+- archives
 - web
 ---
 

@@ -4,7 +4,7 @@ title: Structure
 tags:
 - reading
 - philosophy
-- archive
+- archives
 ---
 
 
