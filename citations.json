@@ -2594,7 +2594,7 @@
 		"container-title": "Journal of Documentation",
 		"note": "tex.date-added: 2020-06-11 17:05:15 -0400\ntex.date-modified: 2020-06-11 17:13:43 -0400\ntex.timestamp: 2020-06-11",
 		"page": "95-143",
-		"title": "A framework for contextualinformation in digital collections",
+		"title": "A framework for contextual information in digital collections",
 		"author": [
 			{
 				"family": "Lee",
@@ -7634,26 +7634,6 @@
 			"date-parts": [
 				[
 					"2010"
-				]
-			]
-		}
-	},
-	{
-		"id": "Moretti:2013a",
-		"type": "book",
-		"note": "tex.date-added: 2019-06-24 17:38:07 -0400\ntex.date-modified: 2019-06-24 17:39:07 -0400\ntex.timestamp: 2019-06-24",
-		"publisher": "Verso Books",
-		"title": "Distant reading",
-		"author": [
-			{
-				"family": "Moretti",
-				"given": "Franco"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2013"
 				]
 			]
 		}
@@ -13606,6 +13586,7 @@
 		"note": "tex.date-added: 2018-11-17 08:01:34 -0800\ntex.date-modified: 2018-11-17 08:02:58 -0800\ntex.timestamp: 2018-11-17",
 		"publisher": "Data  & Society",
 		"title": "Data craft: The manipulation of social media metadata",
+		"URL": "https://datasociety.net/library/data-craft/",
 		"author": [
 			{
 				"family": "Acker",
@@ -16688,7 +16669,8 @@
 		"issue": "Winter",
 		"note": "tex.date-added: 2018-08-18 07:10:35 -0400\ntex.date-modified: 2018-08-18 07:11:28 -0400\ntex.timestamp: 2018-08-18",
 		"page": "3-7",
-		"title": "Postscirpt on the societies of control",
+		"title": "Postscript on the societies of control",
+		"URL": "https://www.jstor.org/stable/778828",
 		"volume": "59",
 		"author": [
 			{
@@ -19368,45 +19350,6 @@
 		}
 	},
 	{
-		"id": "Edwards:2011b",
-		"type": "article-journal",
-		"container-title": "Social Studies of Science",
-		"issue": "5",
-		"note": "publisher: Sage Publications Sage UK: London, England\ntex.date-added: 2018-06-09 22:38:55 +0000\ntex.date-modified: 2018-06-09 22:46:29 +0000\ntex.timestamp: 2018-06-09",
-		"page": "667-690",
-		"title": "Science friction: Data, metadata, and collaboration",
-		"volume": "41",
-		"author": [
-			{
-				"family": "Edwards",
-				"given": "Paul N"
-			},
-			{
-				"family": "Mayernik",
-				"given": "Matthew S"
-			},
-			{
-				"family": "Batcheller",
-				"given": "Archer L"
-			},
-			{
-				"family": "Bowker",
-				"given": "Geoffrey C"
-			},
-			{
-				"family": "Borgman",
-				"given": "Christine L"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2011"
-				]
-			]
-		}
-	},
-	{
 		"id": "Ribes:2017",
 		"type": "paper-conference",
 		"container-title": "Proceedings of the CSCW computer supported cooperative work",
@@ -19679,7 +19622,7 @@
 		"issue": "2",
 		"note": "tex.date-added: 2018-05-26 21:24:41 +0000\ntex.date-modified: 2018-05-26 21:25:33 +0000\ntex.timestamp: 2018-05-26",
 		"page": "277-279",
-		"title": "Goffman, garfinkel, and games",
+		"title": "Goffman, Garfinkel, and games",
 		"volume": "9",
 		"author": [
 			{
@@ -20045,28 +19988,6 @@
 			"date-parts": [
 				[
 					"2013"
-				]
-			]
-		}
-	},
-	{
-		"id": "Deleuze:1995",
-		"type": "article-journal",
-		"container-title": "October",
-		"note": "tex.date-added: 2018-05-11 17:00:48 +0000\ntex.date-modified: 2018-05-11 17:04:52 +0000\ntex.timestamp: 2018-05-11",
-		"page": "3-7",
-		"title": "Postscript on control societies",
-		"volume": "59",
-		"author": [
-			{
-				"family": "Deleuze",
-				"given": "Gilles"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"1992"
 				]
 			]
 		}
@@ -23610,7 +23531,7 @@
 		"issue": "2",
 		"note": "publisher: Springer\ntex.date-added: 2018-01-24 09:28:36 +0000\ntex.date-modified: 2018-01-24 09:29:25 +0000\ntex.timestamp: 2018-01-24",
 		"page": "113-124",
-		"title": "The concept of archival sedimentation: its meaning and use in the Italian context",
+		"title": "The concept of archival \"sedimentation\": its meaning and use in the Italian context",
 		"volume": "17",
 		"author": [
 			{
@@ -23683,9 +23604,11 @@
 		"id": "Seaver:2017",
 		"type": "article-journal",
 		"container-title": "Big Data  & Society",
+		"DOI": "10.1177/2053951717738104",
 		"issue": "2",
 		"note": "publisher: SAGE Publications Sage UK: London, England\ntex.date-added: 2018-01-23 21:39:30 +0000\ntex.date-modified: 2018-01-23 21:40:23 +0000\ntex.timestamp: 2018-01-23",
 		"title": "Algorithms as culture: Some tactics for the ethnography of algorithmic systems",
+		"URL": "https://journals.sagepub.com/doi/full/10.1177/2053951717738104",
 		"volume": "4",
 		"author": [
 			{
@@ -46922,7 +46845,7 @@
 		"container-title": "Proceedings of the 19th ACM conference on computer supported cooperative work  & social computing",
 		"note": "tex.date-added: 2016-03-02 09:23:37 +0000\ntex.date-modified: 2016-03-02 09:33:13 +0000\ntex.organization: Association for Computing Machinery\ntex.timestamp: 2016-03-02",
 		"page": "941-953",
-		"title": "Beyond the belmont principles: Ethical challenges, practices, and beliefs in the online data research community",
+		"title": "Beyond the Belmont Principles: Ethical challenges, practices, and beliefs in the online data research community",
 		"author": [
 			{
 				"family": "Vitak",
@@ -51881,7 +51804,7 @@
 		}
 	},
 	{
-		"id": "Edwards:2011a",
+		"id": "Edwards:2011",
 		"type": "article-journal",
 		"container-title": "Social Studies of Science",
 		"note": "publisher: Sage Publications\ntex.date-added: 2015-09-28 08:23:49 +0000\ntex.date-modified: 2017-08-05 14:17:34 +0000\ntex.timestamp: 2015-09-28",
@@ -58954,7 +58877,7 @@
 		}
 	},
 	{
-		"id": "Stanton:2021",
+		"id": "Zittrain:2021",
 		"type": "report",
 		"abstract": "Hyperlinks are a powerful tool for journalists and their readers. Diving deep into the context of an article is just a click away. But hyperlinks are a double-edged sword; for all of the internet’s boundlessness, what’s found on the web can also be modified, moved, or entirely disappeared. This often-irreversible decay of web content is commonly known as linkrot. It comes with a similar problem of content drift, or the often-unannounced changes––retractions, additions, replacement––to the content at a particular URL.  Our team of researchers at Harvard Law School has undertaken a project to gain insight into the extent and characteristics of journalistic linkrot and content drift. We examined hyperlinks in New York Times articles starting with the launch of the Times website in 1996 up through mid-2019, developed on the basis of a dataset provided to us by the Times. We focus on the Times not because it is an influential publication whose archives are often used to help form a historical record. Rather, the substantial linkrot and content drift we find here across the New York Times corpus accurately reflects the inherent difficulties of long-term linking to pieces of a volatile web.  Results show a near linear increase of linkrot over time, with interesting patterns emerging within certain sections of the paper or across top level domains. Over half of articles containing at least one URL also contained a dead link. Additionally, of the ostensibly “healthy” links existing in articles, a hand review revealed additional erosion to citations via content drift.",
 		"event-place": "Rochester, NY",
@@ -60064,7 +59987,7 @@
 		}
 	},
 	{
-		"id": "JeremyBlackburn:",
+		"id": "Baumgartner:2020",
 		"type": "paper-conference",
 		"abstract": "Proceedings of the Fourteenth International AAAI Conference on Web and Social Media (ICWSM 2020)The Pushshift Reddit DatasetJason Baumgartner,1,*Savvas Zannettou,2, Brian Keegan,3Megan Squire,4Jeremy Blackburn5, 1Pushshift.io,2Max-Planck-Institut f ̈ur Informatik,3University of Colorado Boulder,4Elon University,5Binghamton University*Network Contagion Research Institute, iDRAMA Labjason@pushshift.io, szannett@mpi-inf.mpg.de, brian.keegan@colorado.edu, msquire@elon.edu,blackburn@cs.binghamton.eduAbstractSocial media data has become crucial to the advancement ofscientific understanding. However, even though it has becomeubiquitous,  just  collecting  large-scale  social  media  data  in-volves a high degree of engineering skill set and computa-tional resources. In fact, research is often times gated by dataengineering problems that must be overcome before analy-sis can proceed. This has resulted recognition of datasets asmeaningful research contributions in and of themselves.Reddit, the so called “front page of the Internet,” in particularhas been the subject of numerous scientific studies. AlthoughReddit is relatively open to data acquisition compared to so-cial media platforms like Facebook and Twitter, the technicalbarriers  to  acquisition  still  remain.  Thus,  Reddit’s  millionsof subreddits, hundreds of millions of users, and billions ofcomments are at the same time relatively accessible, but timeconsuming to collect and analyze systematically.In  this  paper,  we  present  the  Pushshift  Reddit  dataset.Pushshift  is  a  social  media  data  collection,  analysis,  andarchiving  platform  that  since  2015  has  collected  Redditdata and made it available to researchers. Pushshift’s Redditdataset is updated in real-time, and includes historical databack  to  Reddit’s  inception.  In  addition  to  monthly  dumps,Pushshift  provides  computational  tools  to  aid  in  searching,aggregating, and performing exploratory analysis on the en-tirety of the dataset. The Pushshift Reddit dataset makes itpossible  for  social  media  researchers  to  reduce  time  spentin the data collection, cleaning, and storage phases of their projects.",
 		"container-title": "Proceedings of the Fourteenth International AAAI Conference on Web and Social Media",
@@ -60074,21 +59997,33 @@
 		"title": "The PushShift Reddit Dataset",
 		"author": [
 			{
-				"literal": "Jason Baumgartner"
+				"family": "Baumgartner",
+				"given": "Jason"
 			},
 			{
-				"literal": "Savvas Zannettou"
+				"family": "Zannettou",
+				"given": "Savvas"
 			},
 			{
-				"literal": "Brian Keegan"
+				"family": "Keegan",
+				"given": "Brian"
 			},
 			{
-				"literal": "Megan Squire"
+				"family": "Squire",
+				"given": "Megan"
 			},
 			{
-				"literal": "Jeremy Blackburn"
+				"family": "Blackburn",
+				"given": "Jeremy"
 			}
-		]
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
 	},
 	{
 		"id": "DigitalPreservationCoalition:2018",
@@ -60551,49 +60486,6 @@
 		}
 	},
 	{
-		"id": "Stanton:2021a",
-		"type": "article-journal",
-		"container-title": "SSRN Electronic Journal",
-		"DOI": "10.2139/ssrn.3833133",
-		"ISSN": "1556-5068",
-		"journalAbbreviation": "SSRN Journal",
-		"language": "en",
-		"source": "DOI.org (Crossref)",
-		"title": "The Paper of Record Meets an Ephemeral Web: An Examination of Linkrot and Content Drift within The New York Times",
-		"title-short": "The Paper of Record Meets an Ephemeral Web",
-		"URL": "https://www.ssrn.com/abstract=3833133",
-		"author": [
-			{
-				"family": "Zittrain",
-				"given": "Jonathan"
-			},
-			{
-				"family": "Bowers",
-				"given": "John"
-			},
-			{
-				"family": "Stanton",
-				"given": "Clare"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2021",
-					8,
-					21
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2021"
-				]
-			]
-		}
-	},
-	{
 		"id": "Appadurai:2016",
 		"type": "chapter",
 		"container-title": "Colonial knowledges",
@@ -60735,6 +60627,3296 @@
 			"date-parts": [
 				[
 					"2009"
+				]
+			]
+		}
+	},
+	{
+		"id": "Vanderkam:2019",
+		"type": "book",
+		"call-number": "QA76.73.T97 V36 2019",
+		"edition": "First edition",
+		"event-place": "Beijing [China] ; Sebastopol, CA",
+		"ISBN": "978-1-4920-5374-3",
+		"number-of-pages": "243",
+		"publisher": "O'Reilly Media",
+		"publisher-place": "Beijing [China] ; Sebastopol, CA",
+		"source": "Library of Congress ISBN",
+		"title": "Effective TypeScript: 62 specific ways to improve your TypeScript",
+		"title-short": "Effective TypeScript",
+		"author": [
+			{
+				"family": "Vanderkam",
+				"given": "Dan"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "Jackson:2021",
+		"type": "chapter",
+		"container-title": "Media: A Transdisciplinary Inquiry",
+		"page": "244-264",
+		"publisher": "Intellect Books",
+		"title": "The poetics and political economy of repair",
+		"author": [
+			{
+				"family": "Jackson",
+				"given": "Steven"
+			},
+			{
+				"family": "Houston",
+				"given": "Lara"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Day:2001",
+		"type": "book",
+		"call-number": "HM851 .D38 2001",
+		"event-place": "Carbondale",
+		"ISBN": "978-0-8093-2390-6",
+		"number-of-pages": "139",
+		"publisher": "Southern Illinois University Press",
+		"publisher-place": "Carbondale",
+		"source": "Library of Congress ISBN",
+		"title": "The modern invention of information: discourse, history, and power",
+		"title-short": "The modern invention of information",
+		"author": [
+			{
+				"family": "Day",
+				"given": "Ronald E."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		}
+	},
+	{
+		"id": "Duarte:2017",
+		"type": "book",
+		"abstract": "\"The histories of information and communication technologies (ICTs) are intertwined with U.S. histories of colonization, and the sovereignty and self-determination of Native peoples. This book examines case studies of tribal governments building out broadband infrastructures--the infrastructures that undergird uses of ICTs such as mobile phones, computers, databases, and streaming radio--to reveal how the processes of network design and deployment embed these information and communication infrastructures within the ongoing exercise of tribal sovereignty in the U.S.\"--Provided by publisher",
+		"call-number": "E98.C73 D83 2017",
+		"collection-title": "Indigenous confluences",
+		"event-place": "Seattle",
+		"ISBN": "978-0-295-74181-9",
+		"number-of-pages": "191",
+		"publisher": "University of Washington Press",
+		"publisher-place": "Seattle",
+		"source": "Library of Congress ISBN",
+		"title": "Network Sovereignty: Building the Internet across Indian Country",
+		"title-short": "Network Sovereignty",
+		"author": [
+			{
+				"family": "Duarte",
+				"given": "Marisa Elena"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "Hacking:2006",
+		"type": "book",
+		"call-number": "QA273 .H22 2006",
+		"edition": "2nd ed",
+		"event-place": "Cambridge ; New York",
+		"ISBN": "978-0-521-86655-2",
+		"note": "OCLC: ocm68965747",
+		"number-of-pages": "209",
+		"publisher": "Cambridge University Press",
+		"publisher-place": "Cambridge ; New York",
+		"source": "Library of Congress ISBN",
+		"title": "The emergence of probability: a philosophical study of early ideas about probability, induction and statistical inference",
+		"title-short": "The emergence of probability",
+		"author": [
+			{
+				"family": "Hacking",
+				"given": "Ian"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2006"
+				]
+			]
+		}
+	},
+	{
+		"id": "Boles:1998",
+		"type": "article-journal",
+		"container-title": "Aphasiology",
+		"DOI": "10.1080/02687039808249557",
+		"ISSN": "0268-7038, 1464-5041",
+		"issue": "7-8",
+		"journalAbbreviation": "Aphasiology",
+		"language": "en",
+		"page": "547-560",
+		"source": "DOI.org (Crossref)",
+		"title": "Conversational discourse analysis: Appropriate and useful sample sizes",
+		"title-short": "Conversational discourse analysis",
+		"URL": "http://www.tandfonline.com/doi/abs/10.1080/02687039808249557",
+		"volume": "12",
+		"author": [
+			{
+				"family": "Boles",
+				"given": "Larry"
+			},
+			{
+				"family": "Bombard",
+				"given": "Todd"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1998",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "Vasileiou:2018",
+		"type": "article-journal",
+		"container-title": "BMC Medical Research Methodology",
+		"DOI": "10.1186/s12874-018-0594-7",
+		"ISSN": "1471-2288",
+		"issue": "1",
+		"journalAbbreviation": "BMC Med Res Methodol",
+		"language": "en",
+		"page": "148",
+		"source": "DOI.org (Crossref)",
+		"title": "Characterising and justifying sample size sufficiency in interview-based studies: systematic analysis of qualitative health research over a 15-year period",
+		"title-short": "Characterising and justifying sample size sufficiency in interview-based studies",
+		"URL": "https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-018-0594-7",
+		"volume": "18",
+		"author": [
+			{
+				"family": "Vasileiou",
+				"given": "Konstantina"
+			},
+			{
+				"family": "Barnett",
+				"given": "Julie"
+			},
+			{
+				"family": "Thorpe",
+				"given": "Susan"
+			},
+			{
+				"family": "Young",
+				"given": "Terry"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "Zucker:2021",
+		"type": "book",
+		"call-number": "900",
+		"ISBN": "978-3-030-39394-6",
+		"language": "eng",
+		"publisher": "Palgrave Mcmillan",
+		"source": "BnF ISBN",
+		"title": "Mass Violence and Memory in the Digital Age: Memorialization Unmoored",
+		"title-short": "Mass Violence and Memory in the Digital Age",
+		"author": [
+			{
+				"family": "Zucker",
+				"given": "Eve"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Freire:2021",
+		"type": "report",
+		"title": "Linked Archives 2021: Linked Archives International Workshop Working Notes",
+		"URL": "https://linkedarchives.inesctec.pt/",
+		"collection-editor": [
+			{
+				"family": "Lopes",
+				"given": "Carla Teixeira"
+			},
+			{
+				"family": "Ribeiro",
+				"given": "Cristina"
+			},
+			{
+				"family": "Niccolucci",
+				"given": "Franco"
+			},
+			{
+				"family": "Rodrigues",
+				"given": "Irene"
+			},
+			{
+				"family": "Freire",
+				"given": "Nuno"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					13
+				]
+			]
+		}
+	},
+	{
+		"id": "Keightley:2015",
+		"type": "book",
+		"abstract": "The two most salient technologies of remembering in everyday life are photography and recorded music. Photography, Music and Memory is a refreshing ethnographic study in which Michael Pickering and Emily Keightley explore how they act as vehicles or catalysts of memory. The book applies the concept of the mnemonic imagination, developed in their previous book, to the uses of these complementary technologies, showing how they contribute to three distinct yet interrelated stages in the distillation of experience. In-depth comparative studies of visual and sonic media are rare. Pickering and Keightley make amends for this in a rich, detailed study of how these particular media inform and support our individual and collective understandings of the past. They draw on the extensive fieldwork they have conducted, and discuss the various ways in which the mnemonic resources associated with photography and recorded music are integral to vernacular memory, enhancing the multiple narratives we construct in our everyday social worlds.",
+		"event-place": "Houndmills; New York",
+		"ISBN": "978-1-137-44120-1",
+		"language": "English",
+		"note": "OCLC: 1028607004",
+		"publisher": "Palgrave Macmillan",
+		"publisher-place": "Houndmills; New York",
+		"source": "Open WorldCat",
+		"title": "Photography, music, and memory: pieces of the past in everyday life",
+		"title-short": "Photography, music, and memory",
+		"author": [
+			{
+				"family": "Pickering",
+				"given": "Michael"
+			},
+			{
+				"family": "Keightley",
+				"given": "Emily"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "Gutman:2010",
+		"type": "book",
+		"call-number": "D862 .M46 2010",
+		"collection-title": "Palgrave Macmillan memory studies",
+		"event-place": "Houndmills, Basingstoke, Hampshire ; New York",
+		"ISBN": "978-0-230-24740-6",
+		"note": "OCLC: ocn635463532",
+		"number-of-pages": "217",
+		"publisher": "Palgrave Macmillan",
+		"publisher-place": "Houndmills, Basingstoke, Hampshire ; New York",
+		"source": "Library of Congress ISBN",
+		"title": "Memory and the future: transnational politics, ethics and society",
+		"title-short": "Memory and the future",
+		"editor": [
+			{
+				"family": "Gutman",
+				"given": "Yifat"
+			},
+			{
+				"family": "Brown",
+				"given": "Adam D."
+			},
+			{
+				"family": "Sodaro",
+				"given": "Amy"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010"
+				]
+			]
+		}
+	},
+	{
+		"id": "Clarke:2021",
+		"type": "article-journal",
+		"container-title": "Qualitative Research in Sport, Exercise and Health",
+		"DOI": "10.1080/2159676X.2019.1704846",
+		"ISSN": "2159-676X, 2159-6778",
+		"issue": "2",
+		"journalAbbreviation": "Qualitative Research in Sport, Exercise and Health",
+		"language": "en",
+		"page": "201-216",
+		"source": "DOI.org (Crossref)",
+		"title": "To saturate or not to saturate? Questioning data saturation as a useful concept for thematic analysis and sample-size rationales",
+		"title-short": "To saturate or not to saturate?",
+		"URL": "https://www.tandfonline.com/doi/full/10.1080/2159676X.2019.1704846",
+		"volume": "13",
+		"author": [
+			{
+				"family": "Braun",
+				"given": "Virginia"
+			},
+			{
+				"family": "Clarke",
+				"given": "Victoria"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					9
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					3,
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "Austin:2019",
+		"type": "chapter",
+		"abstract": "We present The Book of Endless History, an infinite Wikipedia of fantasy stories written in the style of Borges and Calvino, exploring the use of structural conditioning on GPT2 to generate text with explicit subjects and embedded web-links. Users are presented with a Wikipedia-like interface, containing a short fantasy description of the topic and containing embedded web-links to other related subjects. Users may click on links to learn more about different topics, following an endless trail of generated pages. The GPT2 architecture is a text completion model – it has no explicit understanding of structure and it can be a challenge to integrate it with authorial intent. Nevertheless, through this work we show that it can be conditioned to learn to write about a subject and additionally to generate the topology for an encyclopedia. We refer to this technique as subject conditioning, or more generally, structural conditioning.",
+		"container-title": "Interactive Storytelling",
+		"event-place": "Cottonwood Canyon, Utah",
+		"publisher": "Springer",
+		"publisher-place": "Cottonwood Canyon, Utah",
+		"title": "The Book of Endless History: Authorial Use of GPT-2 for Interactive Storytelling",
+		"author": [
+			{
+				"family": "Austin",
+				"given": "John"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "Tang:2021",
+		"type": "article-journal",
+		"abstract": "Abstract\n            Supervised machine learning, in which models are automatically derived from labeled training data, is only as good as the quality of that data. This study builds on prior work that investigated to what extent “best practices” around labeling training data were followed in applied ML publications within a single domain (social media platforms). In this paper, we expand by studying publications that apply supervised ML in a far broader spectrum of disciplines, focusing on human-labeled data. We report to what extent a random sample of ML application papers across disciplines give specific details about whether best practices were followed, while acknowledging that a greater range of application fields necessarily produces greater diversity of labeling and annotation methods. Because much of machine learning research and education only focuses on what is done once a “ground truth” or “gold standard” of training data is available, it is especially relevant to discuss issues around the equally important aspect of whether such data is reliable in the first place. This determination becomes increasingly complex when applied to a variety of specialized fields, as labeling can range from a task requiring little-to-no background knowledge to one that must be performed by someone with career expertise.",
+		"container-title": "Quantitative Science Studies",
+		"DOI": "10.1162/qss_a_00144",
+		"ISSN": "2641-3337",
+		"language": "en",
+		"page": "1-33",
+		"source": "DOI.org (Crossref)",
+		"title": "“Garbage in, garbage out” revisited: What do machine learning application papers report about human-labeled training data?",
+		"title-short": "“Garbage in, garbage out” revisited",
+		"URL": "https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00144/102771/Garbage-in-garbage-out-revisited-What-do-machine",
+		"author": [
+			{
+				"family": "Geiger",
+				"given": "R. Stuart"
+			},
+			{
+				"family": "Cope",
+				"given": "Dominique"
+			},
+			{
+				"family": "Ip",
+				"given": "Jamie"
+			},
+			{
+				"family": "Lotosh",
+				"given": "Marsha"
+			},
+			{
+				"family": "Shah",
+				"given": "Aayush"
+			},
+			{
+				"family": "Weng",
+				"given": "Jenny"
+			},
+			{
+				"family": "Tang",
+				"given": "Rebekah"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					13
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					8,
+					27
+				]
+			]
+		}
+	},
+	{
+		"id": "Viljoen:2020",
+		"type": "article-journal",
+		"container-title": "Yale Law Journal",
+		"title": "Democratic Data: A Relational Theory for Data Governance",
+		"URL": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3727562#",
+		"volume": "131",
+		"author": [
+			{
+				"family": "Viljoen",
+				"given": "Salomé"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "McGuigan:2021",
+		"type": "article-journal",
+		"abstract": "Mechanism design is a form of optimization developed in economic theory. It casts economists as institutional engineers, choosing an outcome and then arranging a set of market rules and conditions to achieve it. The toolkit from mechanism design is widely used in economics, policymaking, and now in building and managing online environments. Mechanism design has become one of the most pervasive yet inconspicuous influences on the digital mediation of social life. Its optimizing schemes structure online advertising markets and other multi-sided platform businesses. Whatever normative rationales mechanism design might draw on in its economic origins, as its influence has grown and its applications have become more computational, we suggest those justifications for using mechanism design to orchestrate and optimize human interaction are losing traction. In this article, we ask what ideological work mechanism design is doing in economics, computer science, and its applications to the governance of digital platforms. Observing mechanism design in action in algorithmic environments, we argue it has become a tool for producing information domination, distributing social costs in ways that benefit designers, and controlling and coordinating participants in multi-sided platforms.",
+		"container-title": "Big Data & Society",
+		"DOI": "10.1177/20539517211034312",
+		"ISSN": "2053-9517, 2053-9517",
+		"issue": "2",
+		"journalAbbreviation": "Big Data & Society",
+		"language": "en",
+		"page": "205395172110343",
+		"source": "DOI.org (Crossref)",
+		"title": "Design choices: Mechanism design and platform capitalism",
+		"title-short": "Design choices",
+		"URL": "http://journals.sagepub.com/doi/10.1177/20539517211034312",
+		"volume": "8",
+		"author": [
+			{
+				"family": "Viljoen",
+				"given": "Salomé"
+			},
+			{
+				"family": "Goldenfein",
+				"given": "Jake"
+			},
+			{
+				"family": "McGuigan",
+				"given": "Lee"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					14
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "Florini:2021",
+		"type": "article-journal",
+		"container-title": "Review of Communication",
+		"DOI": "10.1080/15358593.2021.1934521",
+		"ISSN": "1535-8593",
+		"issue": "2",
+		"journalAbbreviation": "Review of Communication",
+		"language": "en",
+		"page": "113-128",
+		"source": "DOI.org (Crossref)",
+		"title": "The unremarked optimum: whiteness, optimization, and control in the database revolution",
+		"title-short": "The unremarked optimum",
+		"URL": "https://www.tandfonline.com/doi/full/10.1080/15358593.2021.1934521",
+		"volume": "21",
+		"author": [
+			{
+				"family": "Stevens",
+				"given": "Nikki"
+			},
+			{
+				"family": "Hoffmann",
+				"given": "Anna Lauren"
+			},
+			{
+				"family": "Florini",
+				"given": "Sarah"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					14
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "Jordan:2021",
+		"type": "report",
+		"publisher": "MIT Governance Lab",
+		"title": "Don't Build It: A Guide for Practitioners in Civic Tech / Tech for Development",
+		"URL": "https://mitgovlab.org/resources/dont-build-it-a-guide-for-practitioners-in-civic-tech/",
+		"author": [
+			{
+				"family": "Jordan",
+				"given": "Luke"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Kelty:2019",
+		"type": "book",
+		"call-number": "HM711 .K45 2019",
+		"event-place": "Chicago ; London",
+		"ISBN": "978-0-226-66662-4",
+		"number-of-pages": "326",
+		"publisher": "The University of Chicago Press",
+		"publisher-place": "Chicago ; London",
+		"source": "Library of Congress ISBN",
+		"title": "The participant: a century of participation in four stories",
+		"title-short": "The participant",
+		"author": [
+			{
+				"family": "Kelty",
+				"given": "Christopher M."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "McFarland:2016",
+		"type": "article-journal",
+		"container-title": "The American Sociologist",
+		"DOI": "10.1007/s12108-015-9291-8",
+		"ISSN": "0003-1232, 1936-4784",
+		"issue": "1",
+		"journalAbbreviation": "Am Soc",
+		"language": "en",
+		"page": "12-35",
+		"source": "DOI.org (Crossref)",
+		"title": "Sociology in the Era of Big Data: The Ascent of Forensic Social Science",
+		"title-short": "Sociology in the Era of Big Data",
+		"URL": "http://link.springer.com/10.1007/s12108-015-9291-8",
+		"volume": "47",
+		"author": [
+			{
+				"family": "McFarland",
+				"given": "Daniel A."
+			},
+			{
+				"family": "Lewis",
+				"given": "Kevin"
+			},
+			{
+				"family": "Goldberg",
+				"given": "Amir"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					17
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "Passman:2017",
+		"type": "chapter",
+		"container-title": "The Datafied Society : Studying Culture through Data",
+		"ISBN": "978-94-6298-136-2",
+		"page": "139-146",
+		"publisher": "Amsterdam University Press",
+		"title": "Unknowing Algorithms : On Transparency of Unopenable Black Boxes",
+		"URL": "https://kops.uni-konstanz.de/handle/123456789/54745",
+		"author": [
+			{
+				"family": "Paßmann",
+				"given": "Johanne"
+			},
+			{
+				"family": "Boersma",
+				"given": "Asher"
+			}
+		],
+		"editor": [
+			{
+				"family": "Schäfer",
+				"given": "Mirko Tobias"
+			},
+			{
+				"family": "Es",
+				"given": "Karin",
+				"non-dropping-particle": "van"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "Karpf:2012",
+		"type": "article-journal",
+		"container-title": "Information, Communication & Society",
+		"DOI": "10.1080/1369118X.2012.665468",
+		"issue": "5",
+		"page": "639-661",
+		"title": "Social Science Research Methods in Internet Time",
+		"URL": "https://doi.org/10.1080/1369118X.2012.665468",
+		"volume": "15",
+		"author": [
+			{
+				"family": "Karpf",
+				"given": "David"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "Eastwood:1994",
+		"type": "article-journal",
+		"container-title": "Archivaria",
+		"page": "122–130",
+		"title": "What is archival theory and why is it important?",
+		"volume": "37",
+		"author": [
+			{
+				"family": "Eastwood",
+				"given": "Terry"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1994"
+				]
+			]
+		}
+	},
+	{
+		"id": "Jenkinson:1948",
+		"type": "book",
+		"event-place": "London",
+		"publisher": "H. K. Lewis",
+		"publisher-place": "London",
+		"title": "The English archivist: a new profession.",
+		"author": [
+			{
+				"family": "Jenkinson",
+				"given": "Hillary"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1948"
+				]
+			]
+		}
+	},
+	{
+		"id": "Lorenc:2011",
+		"type": "book",
+		"event-place": "Prahran, Vic.",
+		"ISBN": "978-0-9808197-3-1",
+		"language": "English",
+		"note": "OCLC: 755791049",
+		"publisher": "Re.press",
+		"publisher-place": "Prahran, Vic.",
+		"source": "Open WorldCat",
+		"title": "Monadology and sociology",
+		"author": [
+			{
+				"family": "Tarde",
+				"given": "Gabriel",
+				"dropping-particle": "de"
+			},
+			{
+				"family": "Lorenc",
+				"given": "Theo"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "Gehl:2017",
+		"type": "article-journal",
+		"container-title": "Le foucaldien",
+		"DOI": "10.16995/lefou.26",
+		"ISSN": "2515-2076",
+		"issue": "1",
+		"page": "4",
+		"source": "DOI.org (Crossref)",
+		"title": "(Critical) Reverse Engineering and Genealogy",
+		"URL": "https://foucaldien.net/article/10.16995/lefou.26/",
+		"volume": "3",
+		"author": [
+			{
+				"family": "Gehl",
+				"given": "Robert W."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					18
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					4,
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "Kelty:2019a",
+		"type": "book",
+		"call-number": "HM711 .K45 2019",
+		"event-place": "Chicago ; London",
+		"ISBN": "978-0-226-66662-4",
+		"number-of-pages": "326",
+		"publisher": "The University of Chicago Press",
+		"publisher-place": "Chicago ; London",
+		"source": "Library of Congress ISBN",
+		"title": "The participant: a century of participation in four stories",
+		"title-short": "The participant",
+		"author": [
+			{
+				"family": "Kelty",
+				"given": "Christopher M."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "Nietzsche:2011",
+		"type": "book",
+		"edition": "Nachdr.",
+		"event-place": "New York",
+		"ISBN": "978-0-679-72462-9",
+		"language": "eng",
+		"number-of-pages": "367",
+		"publisher": "Vintage Books",
+		"publisher-place": "New York",
+		"source": "K10plus ISBN",
+		"title": "On the genealogy of morals",
+		"author": [
+			{
+				"family": "Nietzsche",
+				"given": "Friedrich"
+			},
+			{
+				"family": "Kaufmann",
+				"given": "Walter Arnold"
+			},
+			{
+				"family": "Nietzsche",
+				"given": "Friedrich"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "Axel:2021",
+		"type": "book",
+		"abstract": "In a crucial sense, all machines are time machines. The essays in\n              Media Infrastructures and the Politics of Digital Time\n              develop the central concept of\n              hardwired temporalities\n              to consider how technical networks hardwire and rewire patterns of time. Digital media introduce new temporal patterns in their features of instant communication, synchronous collaboration, intricate time management, and continually improved speed. They construct temporal infrastructures that affect the rhythms of lived experience and shape social relations and practices of cooperation. Interdisciplinary in method and international in scope, the volume draws together insights from media and communication studies, cultural studies, and science and technology studies while staging an important encounter between two distinct approaches to the temporal patterning of media infrastructures, a North American strain emphasizing the social and cultural experiences of lived time and a European tradition, prominent especially in Germany, focusing on technological time and time-critical processes.",
+		"event-place": "NL Amsterdam",
+		"ISBN": "978-90-485-5075-3",
+		"language": "en",
+		"note": "DOI: 10.5117/9789463727426",
+		"publisher": "Amsterdam University Press",
+		"publisher-place": "NL Amsterdam",
+		"source": "DOI.org (Crossref)",
+		"title": "Media Infrastructures and the Politics of Digital Time: Essays on Hardwired Temporalities",
+		"title-short": "Media Infrastructures and the Politics of Digital Time",
+		"URL": "https://www.aup.nl/en/book/9789463727426",
+		"editor": [
+			{
+				"family": "Volmar",
+				"given": "Axel"
+			},
+			{
+				"family": "Stine",
+				"given": "Kyle"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "Elizondo:2021",
+		"type": "book",
+		"abstract": "Jupyter notebooks, identifier datasets and visualizations for Brookings APHA research into bystander intervention and social media.",
+		"note": "DOI: 10.5281/ZENODO.5520035",
+		"publisher": "Zenodo",
+		"source": "DOI.org (Datacite)",
+		"title": "edsu/bystander-action: v1.0.0",
+		"title-short": "edsu/bystander-action",
+		"URL": "https://zenodo.org/record/5520035",
+		"version": "v1.0.0",
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					21
+				]
+			]
+		}
+	},
+	{
+		"id": "Kerchner:2018",
+		"type": "book",
+		"abstract": "This release includes new functionality for working with Twitter's new Batch Compliance API which allow you to upload large datasets of Tweet or user IDs to retrieve their compliance status in order to determine what data requires action in order to bring your datasets into compliance. <pre><code>Usage: twarc2 compliance-job [OPTIONS] COMMAND [ARGS]... Create, retrieve and list batch compliance jobs for Tweets and Users. Options: --help Show this message and exit. Commands: create Create a new compliance job and upload tweet IDs. download Download the compliance job with the specified ID. get Returns status and download information about the job ID. list Returns a list of compliance jobs by job type and status. </code></pre>",
+		"note": "DOI: 10.5281/ZENODO.593575",
+		"publisher": "Zenodo",
+		"source": "DOI.org (Datacite)",
+		"title": "DocNow/twarc",
+		"title-short": "DocNow/twarc",
+		"URL": "https://zenodo.org/record/593575",
+		"author": [
+			{
+				"family": "Summers",
+				"given": "Ed"
+			},
+			{
+				"family": "Brigadir",
+				"given": "Igor"
+			},
+			{
+				"family": "Van Kemenade",
+				"given": "Hugo"
+			},
+			{
+				"family": "Hames",
+				"given": "Sam"
+			},
+			{
+				"family": "Binkley",
+				"given": "Peter"
+			},
+			{
+				"family": "Tinafigueroa",
+				"given": ""
+			},
+			{
+				"family": "Ruest",
+				"given": "Nick"
+			},
+			{
+				"family": "Walmir",
+				"given": ""
+			},
+			{
+				"family": "Chudnov",
+				"given": "Dan"
+			},
+			{
+				"family": "Recrm",
+				"given": ""
+			},
+			{
+				"family": "Celeste",
+				"given": ""
+			},
+			{
+				"family": "Chosak",
+				"given": "Andy"
+			},
+			{
+				"family": "R. Miles McCain",
+				"given": ""
+			},
+			{
+				"family": "Milligan",
+				"given": "Ian"
+			},
+			{
+				"family": "Segerberg",
+				"given": "Andreas"
+			},
+			{
+				"family": "Daniyal Shahrokhian",
+				"given": ""
+			},
+			{
+				"family": "Walsh",
+				"given": "Melanie"
+			},
+			{
+				"family": "Lausen",
+				"given": "Leonard"
+			},
+			{
+				"family": "Woodward",
+				"given": "Nicholas"
+			},
+			{
+				"family": "Münch",
+				"given": "Felix Victor"
+			},
+			{
+				"family": "Haruna",
+				"given": ""
+			},
+			{
+				"family": "Ashwin Ramaswami",
+				"given": ""
+			},
+			{
+				"family": "Hereñú",
+				"given": "Darío"
+			},
+			{
+				"family": "Milajevs",
+				"given": "Dmitrijs"
+			},
+			{
+				"family": "Elwert",
+				"given": "Frederik"
+			},
+			{
+				"family": "Westerling",
+				"given": "Kalle"
+			},
+			{
+				"family": "Rongpenl",
+				"given": ""
+			},
+			{
+				"family": "Costa",
+				"given": "Stefano"
+			},
+			{
+				"family": "Shawn",
+				"given": ""
+			},
+			{
+				"family": "Kerchner",
+				"given": "Dan"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					22
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					3,
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "Hutto:2014",
+		"type": "paper-conference",
+		"abstract": "The  inherent  nature  of  social  media  content  poses  serious challenges  to  practical  applications  of  sentiment  analysis. We present VADER, a simple rule-based model for general sentiment  analysis,  and  compare  its  effectiveness  to eleventypical    state-of-practice    benchmarks    including    LIWC, ANEW,  the  General  Inquirer,  SentiWordNet,  and  machine learning  oriented  techniques  relying  on  Naive  Bayes,  Max-imum  Entropy,  and  Support  Vector  Machine  (SVM)  algo-rithms.  Using  a  combination  of  qualitative  and quantitative methods, we first  construct and empirically  validate a gold-standard list of lexical features (along with their associated sentiment intensity measures) which are specifically attuned to  sentiment  in  microblog-like  contexts.  We  then  combine these  lexical  features  with  consideration  for  five  general rules that  embody  grammatical  and  syntactical  conventions for  expressing  and  emphasizing  sentiment  intensity.  Inter-estingly, using our parsimonious rule-based model to assess the  sentiment  of  tweets,  we  find  that VADER  outperforms individual human raters (F1 Classification  Accuracy = 0.96 and  0.84,  respectively),  and  generalizes  more  favorably across contexts than any of our benchmarks.",
+		"container-title": "Proceedings of the International AAAI Conference on Web and Social Media",
+		"event": "Eighth International AAAI Conference on Weblogs and Social Media",
+		"event-place": "Ann Arbor, MI",
+		"ISBN": "978-1-57735-659-2",
+		"publisher": "Association for the Advancement of Artificial Intelligence",
+		"publisher-place": "Ann Arbor, MI",
+		"title": "VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text",
+		"URL": "https://ojs.aaai.org/index.php/ICWSM/article/view/14550",
+		"volume": "8",
+		"author": [
+			{
+				"family": "Hutto",
+				"given": "C. J."
+			},
+			{
+				"family": "Gilbert",
+				"given": "Eric"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "Tebeka:2021",
+		"type": "book",
+		"event-place": "S.l.",
+		"ISBN": "978-1-68050-900-7",
+		"language": "English",
+		"note": "OCLC: 1266358282",
+		"publisher": "O'Reilly Media",
+		"publisher-place": "S.l.",
+		"source": "Open WorldCat",
+		"title": "Python Brain Teasers: exercise your mind.",
+		"author": [
+			{
+				"family": "Tebeka",
+				"given": "Miki"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Birkin:2021",
+		"type": "book",
+		"abstract": "This alternative study of archive and photography brings many types of image assemblages into view, always in relation to the regulated systems operating within the institutional milieu. The archive catalogue is presented as a critical tool for mapping image time, and the language of image description is seen as having a life, a worth and an aesthetic value of its own. Functioning at the intersection of text and image, the book combines media culture, archival techniques, and contemporary discourse on art and conceptual writing.",
+		"event-place": "NL Amsterdam",
+		"ISBN": "978-90-485-5315-0",
+		"language": "en",
+		"note": "DOI: 10.5117/9789463729642",
+		"publisher": "Amsterdam University Press",
+		"publisher-place": "NL Amsterdam",
+		"source": "DOI.org (Crossref)",
+		"title": "Archive, Photography and the Language of Administration",
+		"URL": "https://www.aup.nl/en/book/9789463729642",
+		"author": [
+			{
+				"family": "Birkin",
+				"given": "Jane"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					25
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					1,
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "Gehl:2018",
+		"type": "book",
+		"abstract": "\"This book explores the Dark Web--sites that must be accessed through special routers designed to protect the anonymity of visitors and publishers. Avoiding sensationalist definitions that conflate the Dark Web with illicit activity or \"deep layers\" that search engines cannot crawl, Gehl focuses on anonymity and encryption as the key differences between the Dark Web and the everyday \"Clear Web\" on which both users and publishers are tracked and identified. Gehl focuses here on Dark Web systems -- Freenet, I2P, and Tor -- to reveal the wide range of activities, many of them perfectly legal and socially enlightened, that the Dark Web supports. Despite its various uses, the question of legitimacy is an essential one: who needs the Dark Web and why? To answer these questions, this book shares the perspectives of the Dark Web's creators, users, and publishers, and proposes an original theory of media legitimacy as it relates to state power, organizational propriety, and authenticity\"--",
+		"call-number": "ZA4237 .G44 2018",
+		"collection-title": "The information society series",
+		"event-place": "Cambridge, Massachusetts",
+		"ISBN": "978-0-262-03826-3",
+		"number-of-pages": "276",
+		"publisher": "The MIT Press",
+		"publisher-place": "Cambridge, Massachusetts",
+		"source": "Library of Congress ISBN",
+		"title": "Weaving the dark web: legitimacy on Freenet, Tor, and I2P",
+		"title-short": "Weaving the dark web",
+		"author": [
+			{
+				"family": "Gehl",
+				"given": "Robert W."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "Summers:2020a",
+		"type": "thesis",
+		"abstract": "The web is a site of constant breakdown in the form of broken links, failed businessmodels, unsustainable infrastructure, obsolescence and general neglect. Some esti­ mate that about a quarter of all links break every 7 years, and even within highly curated regions of the web, such as scholarly publishing, rates of link rot can be as high as 50%. Over the past twenty years web archiving projects at cultural heritage organizations have worked to stem this tide of loss. Yet, we still understand little about the diversity of actors involved in web archiving, and how content is selected for web archives. This is due in large part to the ontological politics of web archives, and how the practice of archiving the web takes place out of sight at the boundaries between human and technical activity. This dissertation explores appraisal practices in web archives in order to answer twomotivating research questions: 1) How is appraisal currently being enacted in web archives? 2) How do definitions of what constitutes a web archive shape the practice of appraisal? In order to answer these questions data was collected from interviews with practicing professionals in web archives, and from a year long ethnographic field study with a large federally funded archive. Method triangulation using the­ matic analysis, critical discourse analysis and grounded theory generated a thick and layered description of archival practice. The results of this analysis highlight three fundamental characteristics of appraisal in web archives: time, ontology and use. The research findings suggest that as expressions of value, appraisal decisions do notsimply occur at discrete moments in the life cycle of records. They are instead part of a diverse set of archival processes that repeat and evolve over time. Appraisal in web archives is not bound by a predefined assemblage of actors, technologies and prac­ tices. Indeed, artificially limiting our definition of what constitutes a web archive truncates our understanding of how appraisal functions in web archives. Finally, the valuation of web records is inextricably tied to their use in legibility projects, where use is not singular, but part of a genealogy of use, disuse and misuse. Appraising appraisal along these three axes of time, ontology and use provides in­sight into the web­ memory practices that condition our understanding of the past, and that also work to create our collective present and futures. Explicitly linking appraisal to the many forms of use informs archival studies pedagogy, by establish­ ing the value of records in terms of the processes they participate in, rather than as a static attribute of the records or their immediate context. As machines increasingly become users of web archives the stakes for understanding the values present in web archival platforms could not be higher.",
+		"language": "en",
+		"note": "DOI: 10.13016/U95C-QAYR",
+		"publisher": "Digital Repository at the University of Maryland",
+		"source": "DOI.org (Datacite)",
+		"title": "Legibility Machines: Archival Appraisal and the Genealogies of Use",
+		"title-short": "Legibility Machines",
+		"URL": "https://drum.lib.umd.edu/handle/1903/26731",
+		"author": [
+			{
+				"family": "Summers",
+				"given": "Edward Hugh"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					25
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "Zavella:1993",
+		"type": "article-journal",
+		"container-title": "Frontiers: A Journal of Women Studies",
+		"DOI": "10.2307/3346743",
+		"ISSN": "01609009",
+		"issue": "3",
+		"journalAbbreviation": "Frontiers: A Journal of Women Studies",
+		"page": "53",
+		"source": "DOI.org (Crossref)",
+		"title": "Feminist Insider Dilemmas: Constructing Ethnic Identity with \"Chicana\" Informants",
+		"title-short": "Feminist Insider Dilemmas",
+		"URL": "https://www.jstor.org/stable/3346743?origin=crossref",
+		"volume": "13",
+		"author": [
+			{
+				"family": "Zavella",
+				"given": "Patricia"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					25
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1993"
+				]
+			]
+		}
+	},
+	{
+		"id": "Desmond:2014",
+		"type": "article-journal",
+		"container-title": "Theory and Society",
+		"DOI": "10.1007/s11186-014-9232-5",
+		"ISSN": "0304-2421, 1573-7853",
+		"issue": "5",
+		"journalAbbreviation": "Theor Soc",
+		"language": "en",
+		"page": "547-579",
+		"source": "DOI.org (Crossref)",
+		"title": "Relational ethnography",
+		"URL": "http://link.springer.com/10.1007/s11186-014-9232-5",
+		"volume": "43",
+		"author": [
+			{
+				"family": "Desmond",
+				"given": "Matthew"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					26
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "Banos:2019",
+		"type": "webpage",
+		"container-title": "Google Docs",
+		"title": "Save Page Now 2 Public API Docs Draft",
+		"URL": "https://docs.google.com/document/d/1Nsv52MvSjbLb2PCpHlat0gkzw0EvtSgpKHu4mk0MnrA/edit#",
+		"author": [
+			{
+				"family": "Banos",
+				"given": "Vangelis"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					26
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "Denton:2021",
+		"type": "article-journal",
+		"abstract": "In response to growing concerns of bias, discrimination, and unfairness perpetuated by algorithmic systems, the datasets used to train and evaluate machine learning models have come under increased scrutiny. Many of these examinations have focused on the contents of machine learning datasets, finding glaring underrepresentation of minoritized groups. In contrast, relatively little work has been done to examine the norms, values, and assumptions embedded in these datasets. In this work, we conceptualize machine learning datasets as a type of informational infrastructure, and motivate a genealogy as method in examining the histories and modes of constitution at play in their creation. We present a critical history of ImageNet as an exemplar, utilizing critical discourse analysis of major texts around ImageNet’s creation and impact. We find that assumptions around ImageNet and other large computer vision datasets more generally rely on three themes: the aggregation and accumulation of more data, the computational construction of meaning, and making certain types of data labor invisible. By tracing the discourses that surround this influential benchmark, we contribute to the ongoing development of the standards and norms around data development in machine learning and artificial intelligence research.",
+		"container-title": "Big Data & Society",
+		"DOI": "10.1177/20539517211035955",
+		"ISSN": "2053-9517, 2053-9517",
+		"issue": "2",
+		"journalAbbreviation": "Big Data & Society",
+		"language": "en",
+		"page": "205395172110359",
+		"source": "DOI.org (Crossref)",
+		"title": "On the genealogy of machine learning datasets: A critical history of ImageNet",
+		"title-short": "On the genealogy of machine learning datasets",
+		"URL": "http://journals.sagepub.com/doi/10.1177/20539517211035955",
+		"volume": "8",
+		"author": [
+			{
+				"family": "Denton",
+				"given": "Emily"
+			},
+			{
+				"family": "Hanna",
+				"given": "Alex"
+			},
+			{
+				"family": "Amironesei",
+				"given": "Razvan"
+			},
+			{
+				"family": "Smart",
+				"given": "Andrew"
+			},
+			{
+				"family": "Nicole",
+				"given": "Hilary"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "Bajer:2021",
+		"type": "article-journal",
+		"abstract": "Abstract\n            The article discusses the attempt to understand a source code under the conception of philosophical hermeneutics guided by language. Based on a confrontation between H.-G. Gadamer’s and Paul Ricoeur’s philosophy, our main goal would be searching for the essence of the source code in language. Thus, a closer look is taken into cultural symbols, natural language, and artificial languages. Especially, there would be discussed the problem of abstraction, linguistic community, self-forgetfulness, vitality of formal languages, and display of individuality. This is where the cultural layer of the code can be traced, hence we may find our world-view verbal in nature. In line with the Critical Code Studies approach, in this article, the source code is treated as text. Because of its complexity, the issue should be studied within philosophical inquiry and computer science knowledge. Hence, the perspective developed here goes back to origins and provides a philosophical foundation for Critical Code Studies thinking. The article presents academics with a philosophical challenge: how to understand the source code with an adaptation of a philosophy rejecting artificiality. With philosophical reflection, the source code gains additional meaning and experiences increase in being. Understanding happens in language, which realizes as discourse.",
+		"container-title": "Digital Scholarship in the Humanities",
+		"DOI": "10.1093/llc/fqab089",
+		"ISSN": "2055-7671, 2055-768X",
+		"language": "en",
+		"page": "fqab089",
+		"source": "DOI.org (Crossref)",
+		"title": "Understanding of source code in language: Contribution of philosophical hermeneutics to the critical code studies",
+		"title-short": "Understanding of source code in language",
+		"URL": "https://academic.oup.com/dsh/advance-article/doi/10.1093/llc/fqab089/6375769",
+		"author": [
+			{
+				"family": "Bajer",
+				"given": "Anna"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					27
+				]
+			]
+		}
+	},
+	{
+		"id": "Sequeda:2021",
+		"type": "article-journal",
+		"abstract": "Tracking the historical events that lead to the interweaving of data and knowledge.",
+		"container-title": "Communications of the ACM",
+		"DOI": "10.1145/3418294",
+		"ISSN": "0001-0782, 1557-7317",
+		"issue": "3",
+		"journalAbbreviation": "Commun. ACM",
+		"language": "en",
+		"page": "96-104",
+		"source": "DOI.org (Crossref)",
+		"title": "Knowledge graphs",
+		"URL": "https://dl.acm.org/doi/10.1145/3418294",
+		"volume": "64",
+		"author": [
+			{
+				"family": "Gutierrez",
+				"given": "Claudio"
+			},
+			{
+				"family": "Sequeda",
+				"given": "Juan F."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "Latour:2010a",
+		"type": "book",
+		"call-number": "BL240.3 .L38 2010",
+		"collection-title": "Science and cultural theory",
+		"event-place": "Durham [NC] ; London",
+		"ISBN": "978-0-8223-4816-0",
+		"number-of-pages": "157",
+		"publisher": "Duke University Press",
+		"publisher-place": "Durham [NC] ; London",
+		"source": "Library of Congress ISBN",
+		"title": "On the modern cult of the factish gods",
+		"author": [
+			{
+				"family": "Latour",
+				"given": "Bruno"
+			},
+			{
+				"family": "Latour",
+				"given": "Bruno"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010"
+				]
+			]
+		}
+	},
+	{
+		"id": "VonHilgers:2011",
+		"type": "article-journal",
+		"container-title": "Cultural Politics: an International Journal",
+		"DOI": "10.2752/175174311X12861940861707",
+		"ISSN": "17432197, 17517435",
+		"issue": "1",
+		"journalAbbreviation": "Cultural Politics: an International Journal",
+		"language": "en",
+		"page": "41-58",
+		"source": "DOI.org (Crossref)",
+		"title": "The History of the Black Box: The Clash of a Thing and its Concept",
+		"title-short": "The History of the Black Box",
+		"URL": "https://read.dukeupress.edu/cultural-politics/article/7/1/41-58/60381",
+		"volume": "7",
+		"author": [
+			{
+				"family": "Von Hilgers",
+				"given": "Philipp"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2011",
+					3,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "Kaerlein:2013",
+		"type": "article-journal",
+		"abstract": "Mobile devices are ubiquitous and increasingly an integral part of everyday media usage. One remarkable development in the field of personal media (smartphones, tablet computers, etc.) is the trivialization of their interfaces and appearance, especially when compared to the complexity of the underlying software and hardware. The iPhone and its successors trump with usability, they offer simple and seemingly direct access to many functions. Software can be handled with basic hand gestures or voice control, no expert knowledge is required to use the devices. Rather, current apps and operating systems are designed for a playful approach that favours unbiased exploration. \nThe article investigates forms of the trivial in both device materiality and interface design from a media studies perspective. Pertinent philosophical positions on human-technology relationships by Günther Anders and Hans Blumenberg are discussed to explore the ramifications of a highly productive epistemology of ignorance. A focus is placed upon the process of blackboxing, a technique of invisibilization common to media technologies wherein the social and material prerequisites of a given artefact are hidden from users. The black box also serves as a model of thought to offer a way of analysing unknown complex systems as proposed in cybernetics, and it has more recently been picked up and refashioned in significant ways in actor-network theory. \nPlaying with personal media is situated between the poles of user infantilization and the freedom of exploring new practices. Triviality in interface design is ambiguous in that it denies insight into more fundamental processes but at the same time creates a space for playful variation not requiring professional knowledge. The article aims to negotiate between positions of elitist criticism and affirmative technophilia, which are widespread in the discourse on mobile devices.",
+		"container-title": "Culture Unbound",
+		"DOI": "10.3384/cu.2000.1525.135651",
+		"ISSN": "2000-1525",
+		"issue": "4",
+		"journalAbbreviation": "Cult. Unbound",
+		"page": "651-670",
+		"source": "DOI.org (Crossref)",
+		"title": "Playing with Personal Media: On an Epistemology of Ignorance",
+		"title-short": "Playing with Personal Media",
+		"URL": "https://cultureunbound.ep.liu.se/article/view/2084",
+		"volume": "5",
+		"author": [
+			{
+				"family": "Kærlein",
+				"given": "Timo"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2013",
+					12,
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "Ogden:2021",
+		"type": "article",
+		"abstract": "Experiments with WARC data from the Internet Archive's Save Page Now service.",
+		"note": "version: v0.2.0\ntype: dataset\nDOI: 10.5281/ZENODO.5529672",
+		"publisher": "Zenodo",
+		"source": "DOI.org (Datacite)",
+		"title": "Save Page Now (SPN) Activity",
+		"URL": "https://zenodo.org/record/5529672",
+		"author": [
+			{
+				"family": "Summers",
+				"given": "Ed"
+			},
+			{
+				"family": "Walker",
+				"given": "Shawn"
+			},
+			{
+				"family": "Ogden",
+				"given": "Jessica"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					27
+				]
+			]
+		}
+	},
+	{
+		"id": "Ogden:2021b",
+		"type": "book",
+		"abstract": "spn-probe is a utility to run from cron to save a given timestamped URL in Internet Archive's Save Page Now for use as trace data in the generated WARC files created at the Internet Archive. Here is a sample crontab to that will run every 12 hours, and save the response to the data subdirectory: <pre><code>0 0,12 * * * * /hom/ed/Projects/spn-probe/probe.py https://mith.umd.edu/research/ </code></pre> The resulting file for each run will look something like below. Note how the URL that is archived has additional query parameters to identify the time of the request and the user agent. This is so the exact request can be identified in the saved WARC data without making any assumptions of how HTTP headers and the like will end up in the WARC data. If the URL you are testing with has query parameters this could interfere with the experiment. So it's best to use a URL that does not have query parameters, and will not malfunction when query parameters are used. <pre><code>{ \"started\": \"20181019212930\", \"url\": \"https://web.archive.org/save/https://mith.umd.edu/research/?t=20181019212930\", \"status_code\": 200, \"headers\": { \"Server\": \"nginx/1.13.11\", \"Date\": \"Fri, 19 Oct 2018 21:29:31 GMT\", \"Content-Type\": \"text/html;charset=utf-8\", \"Transfer-Encoding\": \"chunked\", \"Connection\": \"keep-alive\", \"Content-Location\": \"/web/20181019212509/https://mith.umd.edu/research/\", \"Set-Cookie\": \"JSESSIONID=8B6FB1CCAAADE85523BA8CCF7A0C97AE; Path=/; HttpOnly\", \"X-Archive-Orig-Vary\": \"Accept-Encoding\", \"X-Archive-Guessed-Charset\": \"UTF-8\", \"X-Archive-Orig-Server\": \"Apache/2.4.29 (Ubuntu)\", \"X-Archive-Orig-Connection\": \"close\", \"X-Archive-Orig-Age\": \"29068\", \"X-Archive-Orig-Date\": \"Fri, 19 Oct 2018 13:20:41 GMT\", \"X-Archive-Orig-Accept-Ranges\": \"bytes\", \"X-Archive-Orig-X-Varnish\": \"633637 234936\", \"X-Archive-Orig-Link\": \"&lt;https://mith.umd.edu/wp-json/&gt;; rel=\\\"https://api.w.org/\\\"\", \"X-Archive-Orig-Content-Type\": \"text/html; charset=UTF-8\", \"X-Archive-Orig-Via\": \"1.1 varnish (Varnish/5.2)\", \"X-App-Server\": \"wwwb-app14\", \"X-ts\": \"----\", \"X-location\": \"save-get\", \"Content-Encoding\": \"gzip\" }, \"text\": \"&lt;!DOCTYPE html&gt;\\n&lt;html class=\\\"avada-html-layout-boxed\\\" lang=\\\"en-US\\\" prefix=\\\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# og: http://ogp.me/ns#\\\"&gt;\\n&lt;head&gt;\\n\\n\\n&lt;script type=\\\"text/javascript\\\" src=\\\"/static/js/analytics.js\\\"&gt;&lt;/script&gt;\\n&lt;script type=\\\"text/javascript\\\"&gt;archive_analytics.values.server_name=\\\"wwwb-app14.us.archive.org\\\";archive_analytics.values.server_ms=0;&lt;/script&gt;\\n&lt;link type=\\\"text/css\\\" rel=\\\"stylesheet\\\" href=\\\"/static/css/banner-styles.css\\\"/&gt;\\n\\n\\n\\t&lt;meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=edge\\\" /&gt;\\n\\t&lt;meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=utf-8\\\"/&gt;\\n\\t&lt;meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1\\\" /&gt;\\n\\t&lt;title&gt;Research Archive &amp;ndash; Maryland Institute for Technology in the Humanities&lt;/title&gt;\\n\\n&lt;!-- This site is optimized with the Yoast SEO plugin v8.4 - /save/https://yoast.com/wordpress/plugins/seo/ --&gt;\\n&lt;meta name=\\\"robots\\\" content=\\\"noindex,follow\\\"/&gt;\\n&lt;link rel=\\\"next\\\" href=\\\"https://mith.umd.edu/research/page/2/\\\" /&gt;\\n&lt;meta property=\\\"og:locale\\\" content=\\\"en_US\\\" /&gt;\\n&lt;meta property=\\\"og:type\\\" content=\\\"object\\\" /&gt;\\n&lt;meta property=\\\"og:title\\\" content=\\\"Research Archive &amp;ndash; Maryland Institute for Technology in the Humanities\\\" /&gt;\\n&lt;meta property=\\\"og:url\\\" content=\\\"https://mith.umd.edu/research/\\\" /&gt;\\n&lt;meta property=\\\"og:site_name\\\" content=\\\"Maryland Institute for Technology in the Humanities\\\" /&gt;\\n&lt;meta name=\\\"twitter:card\\\" content=\\\"summary\\\" /&gt;\\n&lt;meta name=\\\"twitter:title\\\" content=\\\"Research Archive &amp;ndash; Maryland Institute for Technology in the Humanities\\\" /&gt;\\n&lt;!-- / Yoast SEO plugin. --&gt;\\n\\n&lt;link rel='dns-prefetch' href='//s3.amazonaws.com' /&gt;\\n&lt;link rel='dns-prefetch' href='//s.w.org' /&gt;\\n&lt;link rel=\\\"alternate\\\" type=\\\"application/rss+xml\\\" title=\\\"Maryland Institute for Technology in the Humanities &amp;raquo; Feed\\\" href=\\\"https://mith.umd.edu/feed/\\\" /&gt;\\n&lt;link rel=\\\"alternate\\\" type=\\\"application/rss+xml\\\" title=\\\"Maryland Institute for Technology in the Humanities &amp;raquo; Comments Feed\\\" href=\\\"https://mith.umd.edu/comments/feed/\\\" /&gt;\\n\\t\\t\\t\\t\\t&lt;link rel=\\\"shortcut icon\\\" href=\\\"/save/_embed/https://mith.umd.edu/wp-content/uploads/2018/07/favicon.png\\\" type=\\\"image/x-icon\\\" /&gt;\\n\\t\\t\\n\\t\\t\\n\\t\\t\\n\\t\\t\\n\\t\\t\\t\\t&lt;link rel=\\\"alternate\\\" type=\\\"application/rss+xml\\\" title=\\\"Maryland Institute for Technology in the Humanities &amp;raquo; Research Feed\\\" href=\\\"https://mith.umd.edu/research/feed/\\\" /&gt;\\n\\t\\t&lt;script type=\\\"text/javascript\\\"&gt;\\n\\t\\t\\twindow._wpemojiSettings = {\\\"baseUrl\\\":\\\"/save/https://s.w.org\\\\/images\\\\/core\\\\/emoji\\\\/11\\\\/72x72\\\\/\\\",\\\"ext\\\":\\\".png\\\",\\\"svgUrl\\\":\\\"/save/https://s.w.org\\\\/images\\\\/core\\\\/emoji\\\\/11\\\\/svg\\\\/\\\",\\\"svgExt\\\":\\\".svg\\\",\\\"source\\\":{\\\"concatemoji\\\":\\\"/save/https://mith.umd.edu\\\\/wp-includes\\\\/js\\\\/wp-emoji-release.min.js?ver=4.9.8\\\"}};\\n\\t\\t\\t!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline=\\\"top\\\",l.font=\\\"600 32px Arial\\\",a){case\\\"flag\\\":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&amp;&amp;(b=d([55356,57332,56128...\" \"finished\": \"20181019212932\" } </code></pre> In addition to the SPN response also recorded here are the web server access log messages that were generated as a result of the website in question (mith.umd.edu) being crawled.",
+		"note": "DOI: 10.5281/ZENODO.5529699",
+		"publisher": "Zenodo",
+		"source": "DOI.org (Datacite)",
+		"title": "Save Page Now (SPN) Probe",
+		"URL": "https://zenodo.org/record/5529699",
+		"version": "v0.1.0",
+		"author": [
+			{
+				"family": "Summers",
+				"given": "Ed"
+			},
+			{
+				"family": "Walker",
+				"given": "Shawn"
+			},
+			{
+				"family": "Ogden",
+				"given": "Jessica"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					27
+				]
+			]
+		}
+	},
+	{
+		"id": "Bucher:2018",
+		"type": "book",
+		"call-number": "HM851 .B798 2018",
+		"event-place": "New York",
+		"ISBN": "978-0-19-049303-5",
+		"number-of-pages": "200",
+		"publisher": "Oxford University Press",
+		"publisher-place": "New York",
+		"source": "Library of Congress ISBN",
+		"title": "If...then: algorithmic power and politics",
+		"title-short": "If...then",
+		"author": [
+			{
+				"family": "Bucher",
+				"given": "Taina"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "Bucher:2016a",
+		"type": "chapter",
+		"container-title": "Innovative Methods in Media and Communication Research",
+		"event-place": "Cham",
+		"ISBN": "978-3-319-40699-2",
+		"language": "en",
+		"note": "DOI: 10.1007/978-3-319-40700-5_5",
+		"page": "81-98",
+		"publisher": "Springer International Publishing",
+		"publisher-place": "Cham",
+		"source": "DOI.org (Crossref)",
+		"title": "Neither Black Nor Box: Ways of Knowing Algorithms",
+		"title-short": "Neither Black Nor Box",
+		"URL": "http://link.springer.com/10.1007/978-3-319-40700-5_5",
+		"editor": [
+			{
+				"family": "Kubitschko",
+				"given": "Sebastian"
+			},
+			{
+				"family": "Kaun",
+				"given": "Anne"
+			}
+		],
+		"author": [
+			{
+				"family": "Bucher",
+				"given": "Taina"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					7
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "Kubitschk:2016",
+		"type": "book",
+		"event-place": "Cham",
+		"ISBN": "978-3-319-40699-2",
+		"language": "eng",
+		"number-of-pages": "330",
+		"publisher": "Palgrave Macmillan",
+		"publisher-place": "Cham",
+		"source": "K10plus ISBN",
+		"title": "Innovative methods in media and communication research",
+		"editor": [
+			{
+				"family": "Kubitschko",
+				"given": "Sebastian"
+			},
+			{
+				"family": "Kaun",
+				"given": "Anne"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "Fritz:2020",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the ACM/IEEE Joint Conference on Digital Libraries in 2020",
+		"DOI": "10.1145/3383583.3398513",
+		"event": "JCDL '20: The ACM/IEEE Joint Conference on Digital Libraries in 2020",
+		"event-place": "Virtual Event China",
+		"ISBN": "978-1-4503-7585-6",
+		"language": "en",
+		"page": "157-166",
+		"publisher": "ACM",
+		"publisher-place": "Virtual Event China",
+		"source": "DOI.org (Crossref)",
+		"title": "The Archives Unleashed Project: Technology, Process, and Community to Improve Scholarly Access to Web Archives",
+		"title-short": "The Archives Unleashed Project",
+		"URL": "https://dl.acm.org/doi/10.1145/3383583.3398513",
+		"author": [
+			{
+				"family": "Ruest",
+				"given": "Nick"
+			},
+			{
+				"family": "Lin",
+				"given": "Jimmy"
+			},
+			{
+				"family": "Milligan",
+				"given": "Ian"
+			},
+			{
+				"family": "Fritz",
+				"given": "Samantha"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					7
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "Moretti:2013b",
+		"type": "book",
+		"call-number": "PN81 .M666 2013",
+		"event-place": "London ; New York",
+		"ISBN": "978-1-78168-084-1",
+		"number-of-pages": "244",
+		"publisher": "Verso",
+		"publisher-place": "London ; New York",
+		"source": "Library of Congress ISBN",
+		"title": "Distant reading",
+		"author": [
+			{
+				"family": "Moretti",
+				"given": "Franco"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		}
+	},
+	{
+		"id": "Ainsworth:2014",
+		"type": "article-journal",
+		"abstract": "Most archived HTML pages embed other web resources, such as images and stylesheets. Playback of the archived web pages typically provides only the capture date (or Memento-Datetime) of the root resource and not the Memento-Datetime of the embedded resources. In the course of our research, we have discovered that the Memento-Datetime of embedded resources can be up to several years in the future or past, relative to the Memento-Datetime of the embedding root resource. We introduce a framework for assessing temporal coherence between a root resource and its embedded resource depending on Memento-Datetime, Last-Modified datetime, and entity body.",
+		"container-title": "arXiv:1402.0928 [cs]",
+		"note": "arXiv: 1402.0928",
+		"source": "arXiv.org",
+		"title": "A Framework for Evaluation of Composite Memento Temporal Coherence",
+		"URL": "http://arxiv.org/abs/1402.0928",
+		"author": [
+			{
+				"family": "Ainsworth",
+				"given": "Scott G."
+			},
+			{
+				"family": "Nelson",
+				"given": "Michael L."
+			},
+			{
+				"family": "Van de Sompel",
+				"given": "Herbert"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					9
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					10,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "Roesner:2017",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security",
+		"DOI": "10.1145/3133956.3134042",
+		"event": "CCS '17: 2017 ACM SIGSAC Conference on Computer and Communications Security",
+		"event-place": "Dallas Texas USA",
+		"ISBN": "978-1-4503-4946-8",
+		"language": "en",
+		"page": "1741-1755",
+		"publisher": "ACM",
+		"publisher-place": "Dallas Texas USA",
+		"source": "DOI.org (Crossref)",
+		"title": "Rewriting History: Changing the Archived Web from the Present",
+		"title-short": "Rewriting History",
+		"URL": "https://dl.acm.org/doi/10.1145/3133956.3134042",
+		"author": [
+			{
+				"family": "Lerner",
+				"given": "Ada"
+			},
+			{
+				"family": "Kohno",
+				"given": "Tadayoshi"
+			},
+			{
+				"family": "Roesner",
+				"given": "Franziska"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					9
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					10,
+					30
+				]
+			]
+		}
+	},
+	{
+		"id": "Fielding:2014a",
+		"type": "report",
+		"abstract": "The Hypertext Transfer Protocol (HTTP) is a stateless application-level protocol for distributed, collaborative, hypertext information systems.  This document defines the semantics of HTTP/1.1 messages, as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation.",
+		"note": "tex.date-added: 2017-10-26 10:46:07 +0000\ntex.date-modified: 2017-10-26 10:48:33 +0000\ntex.timestamp: 2017-10-26",
+		"number": "7231",
+		"publisher": "Internet Engineering Task Force",
+		"title": "Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content",
+		"URL": "https://datatracker.ietf.org/doc/html/rfc7231",
+		"author": [
+			{
+				"family": "Fielding",
+				"given": "Roy"
+			},
+			{
+				"family": "Reschke",
+				"given": "Julian"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "Birhane:2021",
+		"type": "article-journal",
+		"abstract": "We have now entered the era of trillion parameter machine learning models trained on billion-sized datasets scraped from the internet. The rise of these gargantuan datasets has given rise to formidable bodies of critical work that has called for caution while generating these large datasets. These address concerns surrounding the dubious curation practices used to generate these datasets, the sordid quality of alt-text data available on the world wide web, the problematic content of the CommonCrawl dataset often used as a source for training large language models, and the entrenched biases in large-scale visio-linguistic models (such as OpenAI's CLIP model) trained on opaque datasets (WebImageText). In the backdrop of these specific calls of caution, we examine the recently released LAION-400M dataset, which is a CLIP-filtered dataset of Image-Alt-text pairs parsed from the Common-Crawl dataset. We found that the dataset contains, troublesome and explicit images and text pairs of rape, pornography, malign stereotypes, racist and ethnic slurs, and other extremely problematic content. We outline numerous implications, concerns and downstream harms regarding the current state of large scale datasets while raising open questions for various stakeholders including the AI community, regulators, policy makers and data subjects.",
+		"container-title": "arXiv:2110.01963 [cs]",
+		"note": "arXiv: 2110.01963",
+		"source": "arXiv.org",
+		"title": "Multimodal datasets: misogyny, pornography, and malignant stereotypes",
+		"title-short": "Multimodal datasets",
+		"URL": "http://arxiv.org/abs/2110.01963",
+		"author": [
+			{
+				"family": "Birhane",
+				"given": "Abeba"
+			},
+			{
+				"family": "Prabhu",
+				"given": "Vinay Uday"
+			},
+			{
+				"family": "Kahembwe",
+				"given": "Emmanuel"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					11
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "Caswell:2021",
+		"type": "article-journal",
+		"abstract": "With the success of large-scale pre-training and multilingual modeling in Natural Language Processing (NLP), recent years have seen a proliferation of large, web-mined text datasets covering hundreds of languages. However, to date there has been no systematic analysis of the quality of these publicly available datasets, or whether the datasets actually contain content in the languages they claim to represent. In this work, we manually audit the quality of 205 language-specific corpora released with five major public datasets (CCAligned, ParaCrawl, WikiMatrix, OSCAR, mC4), and audit the correctness of language codes in a sixth (JW300). We find that lower-resource corpora have systematic issues: at least 15 corpora are completely erroneous, and a significant fraction contains less than 50% sentences of acceptable quality. Similarly, we find 82 corpora that are mislabeled or use nonstandard/ambiguous language codes. We demonstrate that these issues are easy to detect even for non-speakers of the languages in question, and supplement the human judgements with automatic analyses. Inspired by our analysis, we recommend techniques to evaluate and improve multilingual corpora and discuss the risks that come with low-quality data releases.",
+		"container-title": "arXiv:2103.12028 [cs]",
+		"note": "arXiv: 2103.12028",
+		"source": "arXiv.org",
+		"title": "Quality at a Glance: An Audit of Web-Crawled Multilingual Datasets",
+		"title-short": "Quality at a Glance",
+		"URL": "http://arxiv.org/abs/2103.12028",
+		"author": [
+			{
+				"family": "Caswell",
+				"given": "Isaac"
+			},
+			{
+				"family": "Kreutzer",
+				"given": "Julia"
+			},
+			{
+				"family": "Wang",
+				"given": "Lisa"
+			},
+			{
+				"family": "Wahab",
+				"given": "Ahsan"
+			},
+			{
+				"family": "Esch",
+				"given": "Daan",
+				"non-dropping-particle": "van"
+			},
+			{
+				"family": "Ulzii-Orshikh",
+				"given": "Nasanbayar"
+			},
+			{
+				"family": "Tapo",
+				"given": "Allahsera"
+			},
+			{
+				"family": "Subramani",
+				"given": "Nishant"
+			},
+			{
+				"family": "Sokolov",
+				"given": "Artem"
+			},
+			{
+				"family": "Sikasote",
+				"given": "Claytone"
+			},
+			{
+				"family": "Setyawan",
+				"given": "Monang"
+			},
+			{
+				"family": "Sarin",
+				"given": "Supheakmungkol"
+			},
+			{
+				"family": "Samb",
+				"given": "Sokhar"
+			},
+			{
+				"family": "Sagot",
+				"given": "Benoît"
+			},
+			{
+				"family": "Rivera",
+				"given": "Clara"
+			},
+			{
+				"family": "Rios",
+				"given": "Annette"
+			},
+			{
+				"family": "Papadimitriou",
+				"given": "Isabel"
+			},
+			{
+				"family": "Osei",
+				"given": "Salomey"
+			},
+			{
+				"family": "Suárez",
+				"given": "Pedro Javier Ortiz"
+			},
+			{
+				"family": "Orife",
+				"given": "Iroro"
+			},
+			{
+				"family": "Ogueji",
+				"given": "Kelechi"
+			},
+			{
+				"family": "Niyongabo",
+				"given": "Rubungo Andre"
+			},
+			{
+				"family": "Nguyen",
+				"given": "Toan Q."
+			},
+			{
+				"family": "Müller",
+				"given": "Mathias"
+			},
+			{
+				"family": "Müller",
+				"given": "André"
+			},
+			{
+				"family": "Muhammad",
+				"given": "Shamsuddeen Hassan"
+			},
+			{
+				"family": "Muhammad",
+				"given": "Nanda"
+			},
+			{
+				"family": "Mnyakeni",
+				"given": "Ayanda"
+			},
+			{
+				"family": "Mirzakhalov",
+				"given": "Jamshidbek"
+			},
+			{
+				"family": "Matangira",
+				"given": "Tapiwanashe"
+			},
+			{
+				"family": "Leong",
+				"given": "Colin"
+			},
+			{
+				"family": "Lawson",
+				"given": "Nze"
+			},
+			{
+				"family": "Kudugunta",
+				"given": "Sneha"
+			},
+			{
+				"family": "Jernite",
+				"given": "Yacine"
+			},
+			{
+				"family": "Jenny",
+				"given": "Mathias"
+			},
+			{
+				"family": "Firat",
+				"given": "Orhan"
+			},
+			{
+				"family": "Dossou",
+				"given": "Bonaventure F. P."
+			},
+			{
+				"family": "Dlamini",
+				"given": "Sakhile"
+			},
+			{
+				"family": "Silva",
+				"given": "Nisansa",
+				"non-dropping-particle": "de"
+			},
+			{
+				"family": "Ballı",
+				"given": "Sakine Çabuk"
+			},
+			{
+				"family": "Biderman",
+				"given": "Stella"
+			},
+			{
+				"family": "Battisti",
+				"given": "Alessia"
+			},
+			{
+				"family": "Baruwa",
+				"given": "Ahmed"
+			},
+			{
+				"family": "Bapna",
+				"given": "Ankur"
+			},
+			{
+				"family": "Baljekar",
+				"given": "Pallavi"
+			},
+			{
+				"family": "Azime",
+				"given": "Israel Abebe"
+			},
+			{
+				"family": "Awokoya",
+				"given": "Ayodele"
+			},
+			{
+				"family": "Ataman",
+				"given": "Duygu"
+			},
+			{
+				"family": "Ahia",
+				"given": "Orevaoghene"
+			},
+			{
+				"family": "Ahia",
+				"given": "Oghenefego"
+			},
+			{
+				"family": "Agrawal",
+				"given": "Sweta"
+			},
+			{
+				"family": "Adeyemi",
+				"given": "Mofetoluwa"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					11
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					23
+				]
+			]
+		}
+	},
+	{
+		"id": "Karasti:2016",
+		"type": "article-journal",
+		"container-title": "Science & Technology Studies",
+		"DOI": "10.23987/sts.55406",
+		"ISSN": "2243-4690",
+		"issue": "1",
+		"language": "en",
+		"note": "number: 1",
+		"page": "2-12",
+		"source": "sciencetechnologystudies.journal.fi",
+		"title": "Knowledge infrastructures: Part I",
+		"title-short": "Knowledge infrastructures",
+		"URL": "https://sciencetechnologystudies.journal.fi/article/view/55406",
+		"volume": "29",
+		"author": [
+			{
+				"family": "Karasti",
+				"given": "Helena"
+			},
+			{
+				"family": "Millerand",
+				"given": "Florence"
+			},
+			{
+				"family": "Hine",
+				"given": "Christine M."
+			},
+			{
+				"family": "Bowker",
+				"given": "Geoffrey C."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					8
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					2,
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "Finley:2019",
+		"type": "webpage",
+		"abstract": "The operator of the Wayback Machine allows Wikipedia's users to check citations from books as well as the web.",
+		"container-title": "Wired",
+		"title": "The Internet Archive Is Making Wikipedia More Reliable",
+		"URL": "https://www.wired.com/story/internet-archive-wikipedia-more-reliable/",
+		"author": [
+			{
+				"family": "Finley",
+				"given": "Klint"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					11,
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "Banos:2019a",
+		"type": "webpage",
+		"title": "SPN2 Change Log",
+		"URL": "https://docs.google.com/document/d/19RJsRncGUw2qHqGGg9lqYZYf7KKXMDL1Mro5o1Qw6QI/edit#",
+		"author": [
+			{
+				"family": "Banos",
+				"given": "Vangelis"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "Banos:2019b",
+		"type": "webpage",
+		"abstract": "Documentation for the Save Page Now API at the Internet Archive.",
+		"container-title": "Google Docs",
+		"title": "SPN2 public API page docs",
+		"URL": "https://docs.google.com/document/d/1Nsv52MvSjbLb2PCpHlat0gkzw0EvtSgpKHu4mk0MnrA/edit",
+		"author": [
+			{
+				"family": "Banos",
+				"given": "Vangelis"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "Graham:2019a",
+		"type": "webpage",
+		"container-title": "Internet Archive Blogs",
+		"title": "The Wayback Machine’s Save Page Now is New and Improved",
+		"URL": "https://blog.archive.org/2019/10/23/the-wayback-machines-save-page-now-is-new-and-improved/",
+		"author": [
+			{
+				"family": "Graham",
+				"given": "Mark"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					10,
+					23
+				]
+			]
+		}
+	},
+	{
+		"id": "Sacks:2006",
+		"type": "book",
+		"edition": "Repr.",
+		"event-place": "Oxford",
+		"ISBN": "978-1-55786-705-6",
+		"language": "eng",
+		"number-of-pages": "818",
+		"publisher": "Blackwell",
+		"publisher-place": "Oxford",
+		"source": "K10plus ISBN",
+		"title": "Lectures on conversation: volumes I & II",
+		"title-short": "Lectures on conversation",
+		"author": [
+			{
+				"family": "Sacks",
+				"given": "Harvey"
+			}
+		],
+		"editor": [
+			{
+				"family": "Jefferson",
+				"given": "Gail"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2006"
+				]
+			]
+		}
+	},
+	{
+		"id": "Wyche:2009",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+		"DOI": "10.1145/1518701.1518875",
+		"event": "CHI '09: CHI Conference on Human Factors in Computing Systems",
+		"event-place": "Boston MA USA",
+		"ISBN": "978-1-60558-246-7",
+		"language": "en",
+		"page": "1141-1150",
+		"publisher": "ACM",
+		"publisher-place": "Boston MA USA",
+		"source": "DOI.org (Crossref)",
+		"title": "Values as lived experience: evolving value sensitive design in support of value discovery",
+		"title-short": "Values as lived experience",
+		"URL": "https://dl.acm.org/doi/10.1145/1518701.1518875",
+		"author": [
+			{
+				"family": "Le Dantec",
+				"given": "Christopher A."
+			},
+			{
+				"family": "Poole",
+				"given": "Erika Shehan"
+			},
+			{
+				"family": "Wyche",
+				"given": "Susan P."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					17
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2009",
+					4,
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "JafariNaimi:2015",
+		"type": "article-journal",
+		"container-title": "Design Issues",
+		"DOI": "10.1162/DESI_a_00354",
+		"ISSN": "0747-9360, 1531-4790",
+		"issue": "4",
+		"journalAbbreviation": "Design Issues",
+		"language": "en",
+		"page": "91-104",
+		"source": "DOI.org (Crossref)",
+		"title": "Values as Hypotheses: Design, Inquiry, and the Service of Values",
+		"title-short": "Values as Hypotheses",
+		"URL": "https://direct.mit.edu/desi/article/31/4/91-104/69209",
+		"volume": "31",
+		"author": [
+			{
+				"family": "JafariNaimi",
+				"given": "Nassim"
+			},
+			{
+				"family": "Nathan",
+				"given": "Lisa"
+			},
+			{
+				"family": "Hargraves",
+				"given": "Ian"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					17
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "Flanagan:2001",
+		"type": "chapter",
+		"container-title": "Information Technology and Moral Philosophy",
+		"event-place": "Cambridge",
+		"ISBN": "978-0-511-49872-5",
+		"note": "DOI: 10.1017/CBO9780511498725.017",
+		"page": "322-353",
+		"publisher": "Cambridge University Press",
+		"publisher-place": "Cambridge",
+		"source": "DOI.org (Crossref)",
+		"title": "Embodying Values in Technology: Theory and Practice",
+		"title-short": "Embodying Values in Technology",
+		"URL": "https://www.cambridge.org/core/product/identifier/CBO9780511498725A023/type/book_part",
+		"editor": [
+			{
+				"family": "Hoven",
+				"given": "Jeroen",
+				"non-dropping-particle": "van den"
+			},
+			{
+				"family": "Weckert",
+				"given": "John"
+			}
+		],
+		"author": [
+			{
+				"family": "Flanagan",
+				"given": "Mary"
+			},
+			{
+				"family": "Howe",
+				"given": "Daniel C."
+			},
+			{
+				"family": "Nissenbaum",
+				"given": "Helen"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					17
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		}
+	},
+	{
+		"id": "Friedman:1996a",
+		"type": "article-journal",
+		"container-title": "Interactions",
+		"DOI": "10.1145/242485.242493",
+		"ISSN": "1072-5520, 1558-3449",
+		"issue": "6",
+		"journalAbbreviation": "interactions",
+		"language": "en",
+		"page": "16-23",
+		"source": "DOI.org (Crossref)",
+		"title": "Value-sensitive design",
+		"URL": "https://dl.acm.org/doi/10.1145/242485.242493",
+		"volume": "3",
+		"author": [
+			{
+				"family": "Friedman",
+				"given": "Batya"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1996",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "Shilton:2018a",
+		"type": "article-journal",
+		"abstract": "Internet protocol development is a social process, and resulting protocols are shaped by their developers’ politics and values. This article argues that the work of protocol development (and more broadly, infrastructure design) poses barriers to developers’ reflection upon values and politics in protocol design. A participant observation of a team developing internet protocols revealed that difficulties defining the stakeholders in an infrastructure and tensions between local and global viewpoints both complicated values reflection. Further, Internet architects tended to equate a core value of interoperability with values neutrality. The article describes how particular work practices within infrastructure development overcame these challenges by engaging developers in praxis: situated, lived experience of the social nature of technology.",
+		"container-title": "Science, Technology, & Human Values",
+		"DOI": "10.1177/0162243917714869",
+		"ISSN": "0162-2439, 1552-8251",
+		"issue": "2",
+		"journalAbbreviation": "Science, Technology, & Human Values",
+		"language": "en",
+		"page": "247-269",
+		"source": "DOI.org (Crossref)",
+		"title": "Engaging Values Despite Neutrality: Challenges and Approaches to Values Reflection during the Design of Internet Infrastructure",
+		"title-short": "Engaging Values Despite Neutrality",
+		"URL": "http://journals.sagepub.com/doi/10.1177/0162243917714869",
+		"volume": "43",
+		"author": [
+			{
+				"family": "Shilton",
+				"given": "Katie"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "Schon:1988",
+		"type": "article-journal",
+		"container-title": "Design Studies",
+		"DOI": "10.1016/0142-694X(88)90047-6",
+		"ISSN": "0142694X",
+		"issue": "3",
+		"journalAbbreviation": "Design Studies",
+		"language": "en",
+		"page": "181-190",
+		"source": "DOI.org (Crossref)",
+		"title": "Designing: Rules, types and worlds",
+		"title-short": "Designing",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/0142694X88900476",
+		"volume": "9",
+		"author": [
+			{
+				"family": "Schön",
+				"given": "Donald A."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1988",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "Jackson:2021a",
+		"type": "article-journal",
+		"container-title": "Proceedings of the ACM on Human-Computer Interaction",
+		"DOI": "10.1145/3476056",
+		"ISSN": "2573-0142",
+		"issue": "CSCW2",
+		"journalAbbreviation": "Proc. ACM Hum.-Comput. Interact.",
+		"language": "en",
+		"page": "1-26",
+		"source": "DOI.org (Crossref)",
+		"title": "Seeing Like an Infrastructure: Low-resolution Citizens and the Aadhaar Identification Project",
+		"title-short": "Seeing Like an Infrastructure",
+		"URL": "https://dl.acm.org/doi/10.1145/3476056",
+		"volume": "5",
+		"author": [
+			{
+				"family": "Singh",
+				"given": "Ranjit"
+			},
+			{
+				"family": "Jackson",
+				"given": "Steven"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					13
+				]
+			]
+		}
+	},
+	{
+		"id": "Ogden:2021a",
+		"type": "article-journal",
+		"container-title": "Internet Histories",
+		"DOI": "10.1080/24701475.2021.1985835",
+		"ISSN": "2470-1475, 2470-1483",
+		"journalAbbreviation": "Internet Histories",
+		"language": "en",
+		"page": "1-20",
+		"source": "DOI.org (Crossref)",
+		"title": "“Everything on the internet can be saved”: Archive Team, Tumblr and the cultural significance of web archiving",
+		"title-short": "“Everything on the internet can be saved”",
+		"URL": "https://www.tandfonline.com/doi/full/10.1080/24701475.2021.1985835",
+		"author": [
+			{
+				"family": "Ogden",
+				"given": "Jessica"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					26
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					21
+				]
+			]
+		}
+	},
+	{
+		"id": "Sutherland:2021",
+		"type": "article-journal",
+		"container-title": "Proceedings of the ACM on Human-Computer Interaction",
+		"DOI": "10.1145/3479603",
+		"ISSN": "2573-0142",
+		"issue": "CSCW2",
+		"journalAbbreviation": "Proc. ACM Hum.-Comput. Interact.",
+		"language": "en",
+		"page": "1-18",
+		"source": "DOI.org (Crossref)",
+		"title": "Time for Historicism in CSCW: An Invitation",
+		"title-short": "Time for Historicism in CSCW",
+		"URL": "https://dl.acm.org/doi/10.1145/3479603",
+		"volume": "5",
+		"author": [
+			{
+				"family": "Soden",
+				"given": "Robert"
+			},
+			{
+				"family": "Ribes",
+				"given": "David"
+			},
+			{
+				"family": "Avle",
+				"given": "Seyram"
+			},
+			{
+				"family": "Sutherland",
+				"given": "Will"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					26
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					13
+				]
+			]
+		}
+	},
+	{
+		"id": "Fricker:2011",
+		"type": "book",
+		"edition": "Repr",
+		"event-place": "Oxford",
+		"ISBN": "978-0-19-957052-2",
+		"language": "eng",
+		"number-of-pages": "188",
+		"publisher": "Oxford University Press",
+		"publisher-place": "Oxford",
+		"source": "K10plus ISBN",
+		"title": "Epistemic injustice: power and the ethics of knowing",
+		"title-short": "Epistemic injustice",
+		"author": [
+			{
+				"family": "Fricker",
+				"given": "Miranda"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": ":2006",
+		"type": "book",
+		"event-place": "London",
+		"ISBN": "978-1-84628-300-0",
+		"language": "en",
+		"note": "DOI: 10.1007/1-84628-301-9",
+		"publisher": "Springer-Verlag",
+		"publisher-place": "London",
+		"source": "DOI.org (Crossref)",
+		"title": "Designerly Ways of Knowing",
+		"URL": "http://link.springer.com/10.1007/1-84628-301-9",
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					29
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2006"
+				]
+			]
+		}
+	},
+	{
+		"id": "Succi:2012",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the ACM international symposium on New ideas, new paradigms, and reflections on programming and software - Onward! '12",
+		"DOI": "10.1145/2384592.2384612",
+		"event": "the ACM international symposium",
+		"event-place": "Tucson, Arizona, USA",
+		"ISBN": "978-1-4503-1562-3",
+		"language": "en",
+		"page": "215",
+		"publisher": "ACM Press",
+		"publisher-place": "Tucson, Arizona, USA",
+		"source": "DOI.org (Crossref)",
+		"title": "The dark side of agile software development",
+		"URL": "http://dl.acm.org/citation.cfm?doid=2384592.2384612",
+		"author": [
+			{
+				"family": "Janes",
+				"given": "Andrea A."
+			},
+			{
+				"family": "Succi",
+				"given": "Giancarlo"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "Hennel:2021",
+		"type": "article-journal",
+		"abstract": "One constitutional part of project management is the management of teams, their actions, and their social mechanisms. Team processes, behavior, and agile practices used by team members play important parts in the success of projects. To reap benefits from these highly interactive and social-focused practices, team members need to feel safe to speak freely. We propose a model that conceptualizes the effects of psychological safety and (social) agile practices on team performance. The proposed model combines recent research from organizational psychology and agile information systems development to provide a better understanding of the team-level effects. Our findings from three case studies conducted in two large insurance companies and one software development company suggest that social agile practices positively influence psychological safety, transparency, communication, and ultimately productivity.",
+		"container-title": "Project Management Journal",
+		"DOI": "10.1177/8756972820933057",
+		"ISSN": "8756-9728, 1938-9507",
+		"issue": "1",
+		"journalAbbreviation": "Project Management Journal",
+		"language": "en",
+		"page": "11-30",
+		"source": "DOI.org (Crossref)",
+		"title": "Investigating the “Socio” in Socio-Technical Development: The Case for Psychological Safety in Agile Information Systems Development",
+		"title-short": "Investigating the “Socio” in Socio-Technical Development",
+		"URL": "http://journals.sagepub.com/doi/10.1177/8756972820933057",
+		"volume": "52",
+		"author": [
+			{
+				"family": "Hennel",
+				"given": "Phil"
+			},
+			{
+				"family": "Rosenkranz",
+				"given": "Christoph"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "Ciancarini:2020",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the 2020 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software",
+		"DOI": "10.1145/3426428.3426925",
+		"event": "SPLASH '20: Conference on Systems, Programming, Languages, and Applications, Software for Humanity",
+		"event-place": "Virtual USA",
+		"ISBN": "978-1-4503-8178-9",
+		"language": "en",
+		"page": "195-208",
+		"publisher": "ACM",
+		"publisher-place": "Virtual USA",
+		"source": "DOI.org (Crossref)",
+		"title": "Software design as story telling: reflecting on the work of Italo Calvino",
+		"title-short": "Software design as story telling",
+		"URL": "https://dl.acm.org/doi/10.1145/3426428.3426925",
+		"author": [
+			{
+				"family": "Ciancarini",
+				"given": "Paolo"
+			},
+			{
+				"family": "Masyagin",
+				"given": "Sergey"
+			},
+			{
+				"family": "Succi",
+				"given": "Giancarlo"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					11,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "Ghezzi:2020",
+		"type": "article-journal",
+		"container-title": "Journal of Business Research",
+		"DOI": "10.1016/j.jbusres.2018.06.013",
+		"ISSN": "01482963",
+		"journalAbbreviation": "Journal of Business Research",
+		"language": "en",
+		"page": "519-537",
+		"source": "DOI.org (Crossref)",
+		"title": "Agile Business Model Innovation in Digital Entrepreneurship: Lean Startup Approaches",
+		"title-short": "Agile Business Model Innovation in Digital Entrepreneurship",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S014829631830300X",
+		"volume": "110",
+		"author": [
+			{
+				"family": "Ghezzi",
+				"given": "Antonio"
+			},
+			{
+				"family": "Cavallo",
+				"given": "Angelo"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "Rijshouwer:2021",
+		"type": "article-journal",
+		"container-title": "Information, Communication & Society",
+		"DOI": "10.1080/1369118X.2021.1994633",
+		"ISSN": "1369-118X, 1468-4462",
+		"journalAbbreviation": "Information, Communication & Society",
+		"language": "en",
+		"page": "1-18",
+		"source": "DOI.org (Crossref)",
+		"title": "Wikipedia: a self-organizing bureaucracy",
+		"title-short": "Wikipedia",
+		"URL": "https://www.tandfonline.com/doi/full/10.1080/1369118X.2021.1994633",
+		"author": [
+			{
+				"family": "Rijshouwer",
+				"given": "Emiel"
+			},
+			{
+				"family": "Uitermark",
+				"given": "Justus"
+			},
+			{
+				"family": "Koster",
+				"given": "Willem",
+				"non-dropping-particle": "de"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					28
+				]
+			]
+		}
+	},
+	{
+		"id": "Krebs:2021",
+		"type": "book",
+		"collection-title": "Science studies",
+		"edition": "First published",
+		"event-place": "Bielefeld",
+		"ISBN": "978-3-8376-4741-9",
+		"language": "eng",
+		"number-of-pages": "289",
+		"publisher": "transcript",
+		"publisher-place": "Bielefeld",
+		"source": "K10plus ISBN",
+		"title": "The persistence of technology: histories of repair, reuse and disposal",
+		"title-short": "The persistence of technology",
+		"editor": [
+			{
+				"family": "Krebs",
+				"given": "Stefan"
+			},
+			{
+				"family": "Weber",
+				"given": "Heike"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Foucault:1966",
+		"type": "book",
+		"collection-title": "Bibliothèque des Sciences humaines",
+		"event-place": "Paris",
+		"ISBN": "978-2-07-022484-5",
+		"language": "fre",
+		"number-of-pages": "400",
+		"publisher": "Gallimard",
+		"publisher-place": "Paris",
+		"source": "K10plus ISBN",
+		"title": "Les mots et les choses: une archéologie des sciences humaines",
+		"title-short": "Les mots et les choses",
+		"author": [
+			{
+				"family": "Foucault",
+				"given": "Michel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1966"
+				]
+			]
+		}
+	},
+	{
+		"id": "Foucault:1994",
+		"type": "book",
+		"event-place": "New York",
+		"ISBN": "978-0-679-75335-3",
+		"language": "eng",
+		"number-of-pages": "387",
+		"publisher": "Vintage Books",
+		"publisher-place": "New York",
+		"source": "K10plus ISBN",
+		"title": "The Order of things: an archaeology of the human sciences",
+		"title-short": "The Order of things",
+		"author": [
+			{
+				"family": "Foucault",
+				"given": "Michel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1994"
 				]
 			]
 		}
