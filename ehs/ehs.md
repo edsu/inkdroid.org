@@ -209,6 +209,7 @@ the technical development.
 
 ## Selected Publications
 
+* [Demagoguery, Democracy, and Digitality]. In Teaching Demagoguery and Democracy: Rhetorical Pedagogy in Polarized Times. November, 2021.
 * [Bystander intervention on social media: Examining cyberbullying and
   reactions to systemic racism]. The Brookings Institution. October, 2021.
 * [Legibility Machines: Archival Appraisal and the Genealogies of Use]. PhD
@@ -314,3 +315,4 @@ Analytics. June, 2019.
 [Chaos--Show Me the Metadata]: https://doi.org/10.7771/2380-176X.3746
 [Bystander intervention on social media: Examining cyberbullying and reactions
 to systemic racism]: https://www.brookings.edu/research/bystander-intervention-on-social-media-examining-cyberbullying-and-reactions-to-systemic-racism/
+[Teaching Demagoguery and Democracy: Rhetorical Pedagogy in Polarized Times]: https://manifold.as.uky.edu/read/teaching-demagoguery-and-democracy-rhetorical-pedagogy-in-polarized-times/section/a2669e5b-6f16-4422-b384-2f859bd88605
