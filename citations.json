@@ -63920,5 +63920,208 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "Diehm:2021",
+		"type": "report",
+		"abstract": "Within ethical design practices, informed user consent is a key requirement in the effort to invert the power imbalances fostered by the digital platforms that enable platform owners (organizations, governments, etc.) to build data profiles and make decisions about people. Much work has been completed by designers, activists, and aligned policymakers to translate data governance policies into plain-language and comprehensible  consent. But the question remains: How well do these efforts account for the broader socio-technical power structures inherent in all personal data collection? Through a series of interviews with advocates for individuals and communities whose lives are often dramatically affected by data surveillance, this study finds that ongoing attempts to cultivate informed consent into data-driven systems likely fall short of their stated goals. The current implementations of ethical digital consent indicate that platform designers and policymakers have an insufficient understanding of systems complexity at scale, political accountability, the power dynamics inherent to organizational politics, and the second- or third-order effects of local-first data strategies. This study documents the inherent threats and risks for consent-driven digital technologies that current approaches do not address.",
+		"publisher": "Simply Secure & The New Design Congress",
+		"title": "The Limits to Digital Consent: Understanding the risks of ethical consent and data collection for underrepresented communities.",
+		"URL": "https://ndc.substack.com/p/the-limits-to-digital-consent",
+		"author": [
+			{
+				"family": "Diehm",
+				"given": "Cade"
+			},
+			{
+				"family": "Smith",
+				"given": "Kelsey"
+			},
+			{
+				"family": "Elliott",
+				"given": "Ame"
+			},
+			{
+				"family": "Bullen",
+				"given": "Georgia"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "Nobles:2000",
+		"type": "article-journal",
+		"container-title": "American Journal of Public Health",
+		"DOI": "10.2105/AJPH.90.11.1738",
+		"ISSN": "0090-0036, 1541-0048",
+		"issue": "11",
+		"journalAbbreviation": "Am J Public Health",
+		"language": "en",
+		"page": "1738-1745",
+		"source": "DOI.org (Crossref)",
+		"title": "History counts: a comparative analysis of racial/color categorization in US and Brazilian censuses",
+		"title-short": "History counts",
+		"URL": "http://ajph.aphapublications.org/doi/10.2105/AJPH.90.11.1738",
+		"volume": "90",
+		"author": [
+			{
+				"family": "Nobles",
+				"given": "Melissa"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2000",
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "Metz:2019",
+		"type": "book",
+		"abstract": "Object-oriented programming languages exist to help you create beautiful, straightforward applications that are easy to change and simple to extend. Unfortunately, the world is awash with object-oriented (OO) applications that are difficult to understand and expensive to change. Practical Object-Oriented Design, Second Edition, immerses you in an OO mindset and teaches you powerful, real-world, object-oriented design techniques with simple and practical examples. Sandi Metz demonstrates how to build new applications that can \"survive success\" and repair existing applications that have become impossible to change",
+		"call-number": "QA76.64 .M484 2019",
+		"edition": "Second edition",
+		"event-place": "Boston",
+		"ISBN": "978-0-13-445647-8",
+		"note": "OCLC: ocn951926800",
+		"number-of-pages": "254",
+		"publisher": "Addison-Wesley",
+		"publisher-place": "Boston",
+		"source": "Library of Congress ISBN",
+		"title": "Practical object-oriented design: an agile primer using Ruby",
+		"title-short": "Practical object-oriented design",
+		"author": [
+			{
+				"family": "Metz",
+				"given": "Sandi"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "Wang:2020a",
+		"type": "article-journal",
+		"abstract": "An ongoing project explores the extent to which artificial intelligence (AI), specifically in the areas of natural language processing and semantic reasoning, can be exploited to facilitate the studies of science by deploying software agents equipped with natural language understanding capabilities to read scholarly publications on the web. The knowledge extracted by these AI agents is organized into a heterogeneous graph, called Microsoft Academic Graph (MAG), where the nodes and the edges represent the entities engaging in scholarly communications and the relationships among them, respectively. The frequently updated data set and a few software tools central to the underlying AI components are distributed under an open data license for research and commercial applications. This paper describes the design, schema, and technical and business motivations behind MAG and elaborates how MAG can be used in analytics, search, and recommendation scenarios. How AI plays an important role in avoiding various biases and human induced errors in other data sets and how the technologies can be further improved in the future are also discussed.",
+		"container-title": "Quantitative Science Studies",
+		"DOI": "10.1162/qss_a_00021",
+		"ISSN": "2641-3337",
+		"issue": "1",
+		"journalAbbreviation": "Quantitative Science Studies",
+		"language": "en",
+		"page": "396-413",
+		"source": "DOI.org (Crossref)",
+		"title": "Microsoft Academic Graph: When experts are not enough",
+		"title-short": "Microsoft Academic Graph",
+		"URL": "https://direct.mit.edu/qss/article/1/1/396-413/15572",
+		"volume": "1",
+		"author": [
+			{
+				"family": "Wang",
+				"given": "Kuansan"
+			},
+			{
+				"family": "Shen",
+				"given": "Zhihong"
+			},
+			{
+				"family": "Huang",
+				"given": "Chiyuan"
+			},
+			{
+				"family": "Wu",
+				"given": "Chieh-Han"
+			},
+			{
+				"family": "Dong",
+				"given": "Yuxiao"
+			},
+			{
+				"family": "Kanakia",
+				"given": "Anshul"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "Herrmannova:2016",
+		"type": "article-journal",
+		"container-title": "D-Lib Magazine",
+		"DOI": "10.1045/september2016-herrmannova",
+		"ISSN": "1082-9873",
+		"issue": "9/10",
+		"journalAbbreviation": "D-Lib Magazine",
+		"language": "en",
+		"source": "DOI.org (Crossref)",
+		"title": "An Analysis of the Microsoft Academic Graph",
+		"URL": "http://www.dlib.org/dlib/september16/herrmannova/09herrmannova.html",
+		"volume": "22",
+		"author": [
+			{
+				"family": "Herrmannova",
+				"given": "Drahomira"
+			},
+			{
+				"family": "Knoth",
+				"given": "Petr"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					9
+				]
+			]
+		}
 	}
 ]
