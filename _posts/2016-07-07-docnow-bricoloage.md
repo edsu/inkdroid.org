@@ -4,7 +4,7 @@ title: DocNow's Theoretical Bricolage
 tags:
 - archives
 - docnow
-- conference
+- conferences
 ---
 
 

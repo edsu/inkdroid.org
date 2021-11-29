@@ -4,7 +4,7 @@ title: Participatory Archiving
 tags:
 - archives
 - community
-- conference
+- conferences
 ---
 
 

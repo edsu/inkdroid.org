@@ -314,5 +314,8 @@ Analytics. June, 2019.
 [Gateways to Social Work/Welfare on the Net]: https://crln.acrl.org/index.php/crlnews/article/view/18375/20725
 [Chaos--Show Me the Metadata]: https://doi.org/10.7771/2380-176X.3746
 [Bystander intervention on social media: Examining cyberbullying and reactions
-to systemic racism]: https://www.brookings.edu/research/bystander-intervention-on-social-media-examining-cyberbullying-and-reactions-to-systemic-racism/
-[Teaching Demagoguery and Democracy: Rhetorical Pedagogy in Polarized Times]: https://manifold.as.uky.edu/read/teaching-demagoguery-and-democracy-rhetorical-pedagogy-in-polarized-times/section/a2669e5b-6f16-4422-b384-2f859bd88605
+to systemic racism]:
+https://www.brookings.edu/research/bystander-intervention-on-social-media-examining-cyberbullying-and-reactions-to-systemic-racism/
+[Demagoguery, Democracy, and Digitality]: https://manifold.as.uky.edu/read/teaching-demagoguery-and-democracy-rhetorical-pedagogy-in-polarized-times/section/a2669e5b-6f16-4422-b384-2f859bd88605
+
+

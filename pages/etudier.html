@@ -1,0 +1,1951 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        overflow: hidden;
+        margin: 0;
+        background-color: white;
+      }
+
+      text {
+        font-family: sans-serif;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script>
+      var graph = {
+  "nodes": [
+    {
+      "label": "Cultural psychology: A once and future discipline",
+      "id": "8598373299604098113",
+      "url": "https://books.google.com/books?hl=en&lr=&id=FjWfo2u_3OoC&oi=fnd&pg=PR9&ots=kWjygJ4N5m&sig=N1-6oEccc5vEcreNyfW7ygjEIOg",
+      "title": "Cultural psychology: A once and future discipline",
+      "authors": "M Cole",
+      "year": "1998",
+      "cited_by": 10531,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=8598373299604098113&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 0
+    },
+    {
+      "label": "Theory in Anthropology since the Sixties",
+      "id": "17950649785549691519",
+      "title": "Theory in Anthropology since the Sixties",
+      "cited_by": 4820,
+      "modularity": 0
+    },
+    {
+      "label": "Interpretative phenomenological analysis.",
+      "id": "18092645886311179699",
+      "url": "https://psycnet.apa.org/record/2011-23864-005",
+      "title": "Interpretative phenomenological analysis.",
+      "authors": "JA Smith, P Shinebourne",
+      "year": "2012",
+      "cited_by": 20731,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=18092645886311179699&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 0
+    },
+    {
+      "label": "The cultural nature of human development",
+      "id": "11253120209902871101",
+      "url": "https://books.google.com/books?hl=en&lr=&id=Sk1nDAAAQBAJ&oi=fnd&pg=PR9&ots=fzOzZRiaPj&sig=BsG7XJinXe6mlzUCGR_wajN9EZE",
+      "title": "The cultural nature of human development",
+      "authors": "B Rogoff",
+      "year": "2003",
+      "cited_by": 9856,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=11253120209902871101&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 0
+    },
+    {
+      "label": "The cultural origins of human cognition",
+      "id": "5000469061641945144",
+      "url": "https://books.google.com/books?hl=en&lr=&id=ji2_pY4mKwYC&oi=fnd&pg=PP3&ots=owX0HljkV5&sig=um7bkQMnvFFWM1sngWwMh5XnOMs",
+      "title": "The cultural origins of human cognition",
+      "authors": "M Tomasello",
+      "year": "2009",
+      "cited_by": 9619,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=5000469061641945144&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 0
+    },
+    {
+      "label": "An invitation to social construction",
+      "id": "1854597932199170801",
+      "url": "https://books.google.com/books?hl=en&lr=&id=y-gIiu6Vx7kC&oi=fnd&pg=PP8&ots=RxkBPBdAEP&sig=WLN3_aqxQyecqdyTm8SrTY1OfHo",
+      "title": "An invitation to social construction",
+      "authors": "KJ Gergen",
+      "year": "1999",
+      "cited_by": 7883,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=1854597932199170801&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 0
+    },
+    {
+      "label": "Identity and agency in cultural worlds",
+      "id": "6187681819571535116",
+      "url": "https://books.google.com/books?hl=en&lr=&id=fIAp89A8r9gC&oi=fnd&pg=PP9&ots=98Qam42qwR&sig=mS4oTG36k1qyQR7DXNnnemYzdtQ",
+      "title": "Identity and agency in cultural worlds",
+      "authors": "D Holland, W Lachicotte Jr, D Skinner, C Cain",
+      "year": "2001",
+      "cited_by": 6999,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=6187681819571535116&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 0
+    },
+    {
+      "label": "Mind as action",
+      "id": "4476553999815685262",
+      "url": "https://books.google.com/books?hl=en&lr=&id=C-hcCAAAQBAJ&oi=fnd&pg=PP1&ots=NpNiIYcuZO&sig=UrQ6lFoM3KGhazdaGiK1BECTAgA",
+      "title": "Mind as action",
+      "authors": "JV Wertsch",
+      "year": "1998",
+      "cited_by": 6794,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=4476553999815685262&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 0
+    },
+    {
+      "label": "Cross-cultural psychology: Research and applications",
+      "id": "10364646029172070219",
+      "url": "https://books.google.com/books?hl=en&lr=&id=Z_7k7Xj28ncC&oi=fnd&pg=PR12&ots=-4DJWgy3WB&sig=cVCuHpfaSIUavYIlsebAPoOFHHI",
+      "title": "Cross-cultural psychology: Research and applications",
+      "authors": "JW Berry, JW Berry, YH Poortinga, MH Segall\u2026",
+      "year": "2002",
+      "cited_by": 6648,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=10364646029172070219&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 0
+    },
+    {
+      "label": "Literacy: An introduction to the ecology of written language",
+      "id": "10135008853265276639",
+      "url": "https://books.google.com/books?hl=en&lr=&id=Z-A8DwAAQBAJ&oi=fnd&pg=PT5&ots=bgLZCfrBCc&sig=fHhZIS5tbhtoK4PuHHC1Y6WbbhQ",
+      "title": "Literacy: An introduction to the ecology of written language",
+      "authors": "D Barton",
+      "year": "2017",
+      "cited_by": 4508,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=10135008853265276639&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 0
+    },
+    {
+      "label": "Interaction in the language curriculum: Awareness, autonomy and authenticity",
+      "id": "14174273859491981295",
+      "url": "https://books.google.com/books?hl=en&lr=&id=cWq4AwAAQBAJ&oi=fnd&pg=PP1&ots=Cfgl0ap5iH&sig=-I1XLB5-GPzql0N6bgzE3ikvvbk",
+      "title": "Interaction in the language curriculum: Awareness, autonomy and authenticity",
+      "authors": "L Van Lier",
+      "year": "2014",
+      "cited_by": 3439,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=14174273859491981295&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 0
+    },
+    {
+      "label": "Social cognition, joint attention, and communicative competence from 9 to 15 months of age",
+      "id": "15463855158734342677",
+      "url": "https://www.jstor.org/stable/1166214",
+      "title": "Social cognition, joint attention, and communicative competence from 9 to 15 months of age",
+      "authors": "M Carpenter, K Nagell, M Tomasello\u2026",
+      "year": "1998",
+      "cited_by": 3436,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=15463855158734342677&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 0
+    },
+    {
+      "label": "Politeness: Some universals in language usage",
+      "id": "15733609946099502808",
+      "url": "https://books.google.com/books?hl=en&lr=&id=OG7W8yA2XjcC&oi=fnd&pg=PR12&ots=w64BCnAt33&sig=_HK23ZH6L1qdjRtXKGIxFanqYyc",
+      "title": "Politeness: Some universals in language usage",
+      "authors": "P Brown, SC Levinson, SC Levinson",
+      "year": "1987",
+      "cited_by": 32178,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=15733609946099502808&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 1
+    },
+    {
+      "label": "Multimedia learning",
+      "id": "9672817117496030243",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0079742102800056",
+      "title": "Multimedia learning",
+      "authors": "RE Mayer",
+      "year": "2002",
+      "cited_by": 13675,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=9672817117496030243&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 1
+    },
+    {
+      "label": "Culture, leadership, and organizations: The GLOBE study of 62 societies",
+      "id": "13833870139036218763",
+      "url": "https://books.google.com/books?hl=en&lr=&id=4MByAwAAQBAJ&oi=fnd&pg=PA1&ots=7ihHHsf8cz&sig=XlwbyB1stcY-CGhMDleUUs7vOKg",
+      "title": "Culture, leadership, and organizations: The GLOBE study of 62 societies",
+      "authors": "RJ House, PJ Hanges, M Javidan, PW Dorfman\u2026",
+      "year": "2004",
+      "cited_by": 12288,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=13833870139036218763&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 1
+    },
+    {
+      "label": "In other words: A coursebook on translation",
+      "id": "15104774857802443883",
+      "url": "https://www.taylorfrancis.com/books/mono/10.4324/9781315619187/words-mona-baker",
+      "title": "In other words: A coursebook on translation",
+      "authors": "M Baker",
+      "year": "2018",
+      "cited_by": 8954,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=15104774857802443883&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 1
+    },
+    {
+      "label": "An introduction to sociolinguistics",
+      "id": "15723606850145935716",
+      "url": "https://books.google.com/books?hl=en&lr=&id=yWsrEAAAQBAJ&oi=fnd&pg=PP1&ots=wI4eqZYpw6&sig=ufEtRYnfflbYNECAWI-1v3yOB0c",
+      "title": "An introduction to sociolinguistics",
+      "authors": "R Wardhaugh, JM Fuller",
+      "year": "2021",
+      "cited_by": 8981,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=15723606850145935716&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 1
+    },
+    {
+      "label": "Introducing translation studies: Theories and applications",
+      "id": "6239490017664703555",
+      "url": "https://www.taylorfrancis.com/books/mono/10.4324/9781315691862/introducing-translation-studies-jeremy-munday",
+      "title": "Introducing translation studies: Theories and applications",
+      "authors": "J Munday",
+      "year": "2016",
+      "cited_by": 7725,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=6239490017664703555&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 1
+    },
+    {
+      "label": "Theories of human communication",
+      "id": "6956114867972566778",
+      "url": "https://books.google.com/books?hl=en&lr=&id=dfUYAAAAQBAJ&oi=fnd&pg=PR3&ots=abwWRU_4uf&sig=qIGzaG0mMcSnTLebwAU_yubbk-c",
+      "title": "Theories of human communication",
+      "authors": "SW Littlejohn, KA Foss",
+      "year": "2010",
+      "cited_by": 7523,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=6956114867972566778&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 1
+    },
+    {
+      "label": "Principles of critical discourse analysis",
+      "id": "15348817579581520092",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/0957926593004002006",
+      "title": "Principles of critical discourse analysis",
+      "authors": "TA Van Dijk",
+      "year": "1993",
+      "cited_by": 7425,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=15348817579581520092&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 1
+    },
+    {
+      "label": "The language of evaluation",
+      "id": "12739413683709763654",
+      "url": "https://link.springer.com/content/pdf/10.1057/9780230511910.pdf",
+      "title": "The language of evaluation",
+      "authors": "JR Martin, PR White",
+      "year": "2003",
+      "cited_by": 7194,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=12739413683709763654&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 1
+    },
+    {
+      "label": "Adverbs and functional heads: A cross-linguistic perspective",
+      "id": "617583218577716206",
+      "url": "https://books.google.com/books?hl=en&lr=&id=sFd79vhd_n0C&oi=fnd&pg=PR7&ots=bl5fLEWoJ8&sig=aw1LFLRkh3ZNLRDCJ9x5ESKfbro",
+      "title": "Adverbs and functional heads: A cross-linguistic perspective",
+      "authors": "G Cinque",
+      "year": "1999",
+      "cited_by": 6331,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=617583218577716206&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 1
+    },
+    {
+      "label": "E-learning and the science of instruction: Proven guidelines for consumers and designers of multimedia learning",
+      "id": "4257021306282156692",
+      "url": "https://books.google.com/books?hl=en&lr=&id=v1uzCgAAQBAJ&oi=fnd&pg=PR17&ots=TNwLiGgMdi&sig=QdP5ROX3uvN-w55DT8BhNwbXMzE",
+      "title": "E-learning and the science of instruction: Proven guidelines for consumers and designers of multimedia learning",
+      "authors": "RC Clark, RE Mayer",
+      "year": "2016",
+      "cited_by": 6498,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=4257021306282156692&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 1
+    },
+    {
+      "label": "Communities of practice: Learning, meaning, and identity",
+      "id": "4878718329063391970",
+      "url": "https://books.google.com/books?hl=en&lr=&id=heBZpgYUKdAC&oi=fnd&pg=PP15&ots=kgniYofz0f&sig=CPFrknIW1f1mFVhEPj1_lOoQ-iw",
+      "title": "Communities of practice: Learning, meaning, and identity",
+      "authors": "E Wenger",
+      "year": "1999",
+      "cited_by": 67010,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=4878718329063391970&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 4
+    },
+    {
+      "label": "Learning in adulthood: A comprehensive guide",
+      "id": "8122829668757711276",
+      "url": "https://books.google.com/books?hl=en&lr=&id=59nIDwAAQBAJ&oi=fnd&pg=PT6&ots=YF3me_YtEh&sig=YtW0H_UXuCh4xf7B6hDOMmHRlDM",
+      "title": "Learning in adulthood: A comprehensive guide",
+      "authors": "SB Merriam, LM Baumgartner",
+      "year": "2020",
+      "cited_by": 13337,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=8122829668757711276&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 4
+    },
+    {
+      "label": "Cultivating communities of practice: A guide to managing knowledge",
+      "id": "3526485364222688180",
+      "url": "https://books.google.com/books?hl=en&lr=&id=m1xZuNq9RygC&oi=fnd&pg=PR9&ots=ZW4ceIcgeV&sig=I3lZ7Z716qj8c0h-YV3iT4d4XdY",
+      "title": "Cultivating communities of practice: A guide to managing knowledge",
+      "authors": "E Wenger, RA McDermott, W Snyder",
+      "year": "2002",
+      "cited_by": 16365,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=3526485364222688180&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 4
+    },
+    {
+      "label": "Critical discourse analysis: The critical study of language",
+      "id": "1329759255791414857",
+      "url": "https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.4324/9781315834368&type=googlepdf",
+      "title": "Critical discourse analysis: The critical study of language",
+      "authors": "N Fairclough",
+      "year": "2013",
+      "cited_by": 28089,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=1329759255791414857&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 4
+    },
+    {
+      "label": "Situated learning: Legitimate peripheral participation",
+      "id": "11874163294514826821",
+      "url": "https://books.google.com/books?hl=en&lr=&id=CAVIOrW3vYAC&oi=fnd&pg=PA11&ots=ODnGrq3IFq&sig=RZiuE7ZNX3zcoiYQiRKBeAx_MLY",
+      "title": "Situated learning: Legitimate peripheral participation",
+      "authors": "J Lave, E Wenger",
+      "year": "1991",
+      "cited_by": 87485,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=11874163294514826821&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 4
+    },
+    {
+      "label": "Social linguistics and literacies: Ideology in discourses",
+      "id": "7802950214061503871",
+      "url": "https://www.taylorfrancis.com/books/mono/10.4324/9780203944806/social-linguistics-literacies-james-gee-james-paul-gee",
+      "title": "Social linguistics and literacies: Ideology in discourses",
+      "authors": "J Gee, JP Gee",
+      "year": "2007",
+      "cited_by": 16059,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=7802950214061503871&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 4
+    },
+    {
+      "label": "Democratizing innovation",
+      "id": "5593764903056924899",
+      "url": "https://library.oapen.org/handle/20.500.12657/26093",
+      "title": "Democratizing innovation",
+      "authors": "E Von Hippel",
+      "year": "2006",
+      "cited_by": 11478,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=5593764903056924899&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 4
+    },
+    {
+      "label": "Classroom discourse: The language of teaching and learning.",
+      "id": "2771593942355283499",
+      "url": "https://eric.ed.gov/?id=ED288206",
+      "title": "Classroom discourse: The language of teaching and learning.",
+      "authors": "CB Cazden",
+      "year": "1988",
+      "cited_by": 9278,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=2771593942355283499&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 4
+    },
+    {
+      "label": "Principles of linguistic change, volume 3: Cognitive and cultural factors",
+      "id": "12485914123850518606",
+      "url": "https://books.google.com/books?hl=en&lr=&id=uwMTUk4g2IoC&oi=fnd&pg=PR12&ots=mjeE3gASD5&sig=KUE954EY7lc2HdWkxSCzkJaoKI8",
+      "title": "Principles of linguistic change, volume 3: Cognitive and cultural factors",
+      "authors": "W Labov",
+      "year": "2011",
+      "cited_by": 9039,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=12485914123850518606&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 4
+    },
+    {
+      "label": "Rethinking university teaching: A conversational framework for the effective use of learning technologies",
+      "id": "188785096110867978",
+      "url": "https://www.taylorfrancis.com/books/mono/10.4324/9780203160329/rethinking-university-teaching-diana-laurillard",
+      "title": "Rethinking university teaching: A conversational framework for the effective use of learning technologies",
+      "authors": "D Laurillard",
+      "year": "2002",
+      "cited_by": 8794,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=188785096110867978&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 4
+    },
+    {
+      "label": "Anthropology as cultural critique: An experimental moment in the human sciences",
+      "id": "7194958891491753238",
+      "url": "https://books.google.com/books?hl=en&lr=&id=fJDeBQAAQBAJ&oi=fnd&pg=PR5&ots=o_zVW-pSdr&sig=5H9R2bT0siS3sZl54vhTmd-wAa4",
+      "title": "Anthropology as cultural critique: An experimental moment in the human sciences",
+      "authors": "GE Marcus, MMJ Fischer",
+      "year": "2014",
+      "cited_by": 9193,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=7194958891491753238&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 2
+    },
+    {
+      "label": "The long interview",
+      "id": "12143597417811425558",
+      "url": "https://books.google.com/books?hl=en&lr=&id=3N01cl2gtoMC&oi=fnd&pg=PA5&ots=RCuS7rk0Yv&sig=81kjXUpkK7SdYD7MQrgNNhet_Mw",
+      "title": "The long interview",
+      "authors": "G McCracken",
+      "year": "1988",
+      "cited_by": 11219,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=12143597417811425558&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 2
+    },
+    {
+      "label": "Disjuncture and difference in the global cultural economy",
+      "id": "9044605792051688573",
+      "url": "https://journals.sagepub.com/doi/pdf/10.1177/026327690007002017",
+      "title": "Disjuncture and difference in the global cultural economy",
+      "authors": "A Appadurai",
+      "year": "1990",
+      "cited_by": 15081,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=9044605792051688573&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 2
+    },
+    {
+      "label": "The landscape of qualitative research",
+      "id": "768647740524642445",
+      "url": "https://books.google.com/books?hl=en&lr=&id=4StZvMUWJf0C&oi=fnd&pg=PR7&ots=qBOVumizNX&sig=aaVNJCPj_k-Z00FBVppim7Td2Ow",
+      "title": "The landscape of qualitative research",
+      "authors": "NK Denzin, YS Lincoln",
+      "year": "2008",
+      "cited_by": 57084,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=768647740524642445&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 2
+    },
+    {
+      "label": "Routes: Travel and translation in the late twentieth century",
+      "id": "3343170306127092482",
+      "url": "https://books.google.com/books?hl=en&lr=&id=EDOVAT808fUC&oi=fnd&pg=PA1&ots=EtwGlkPsLx&sig=5I0VZc7pGnGppsg_zNP5Y2zDFC0",
+      "title": "Routes: Travel and translation in the late twentieth century",
+      "authors": "J Clifford",
+      "year": "1997",
+      "cited_by": 10445,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=3343170306127092482&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 2
+    },
+    {
+      "label": "Qualitative research for education",
+      "id": "6718975980692889346",
+      "url": "http://math.buffalostate.edu/dwilson/MED595/Qualitative_intro.pdf",
+      "title": "Qualitative research for education",
+      "authors": "R Bogdan, SK Biklen",
+      "year": "1997",
+      "cited_by": 52190,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=6718975980692889346&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 2
+    },
+    {
+      "label": "Research methods for business: A skill building approach",
+      "id": "18156166306057972108",
+      "url": "https://books.google.com/books?hl=en&lr=&id=ikI6EAAAQBAJ&oi=fnd&pg=PA21&ots=tfKYo7EGBn&sig=OS8o1UI60D-5QduRVettjjEaiO0",
+      "title": "Research methods for business: A skill building approach",
+      "authors": "U Sekaran, R Bougie",
+      "year": "2019",
+      "cited_by": 31587,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=18156166306057972108&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 2
+    },
+    {
+      "label": "Designing qualitative research",
+      "id": "13718888185095121480",
+      "url": "https://books.google.com/books?hl=en&lr=&id=-zncBQAAQBAJ&oi=fnd&pg=PP1&ots=LghapG0v9Z&sig=O99YoSZiV3qg1x5L_rkOJYSItRM",
+      "title": "Designing qualitative research",
+      "authors": "C Marshall, GB Rossman",
+      "year": "2014",
+      "cited_by": 49509,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=13718888185095121480&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 2
+    },
+    {
+      "label": "The predicament of culture",
+      "id": "4461649953395584559",
+      "url": "https://www.degruyter.com/document/doi/10.4159/9780674503724/html",
+      "title": "The predicament of culture",
+      "authors": "J Clifford",
+      "year": "1988",
+      "cited_by": 14345,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=4461649953395584559&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 2
+    },
+    {
+      "label": "Encountering development",
+      "id": "3285689583000272065",
+      "url": "https://www.degruyter.com/document/doi/10.1515/9781400839926/html",
+      "title": "Encountering development",
+      "authors": "A Escobar",
+      "year": "2011",
+      "cited_by": 16613,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=3285689583000272065&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 2
+    },
+    {
+      "label": "Reflexive methodology: New vistas for qualitative research",
+      "id": "3825658683126916882",
+      "url": "https://books.google.com/books?hl=en&lr=&id=9fI4DwAAQBAJ&oi=fnd&pg=PP1&ots=6Q5nySggw8&sig=lwG6BhauI7xolihoZEVT_qWZ9Xo",
+      "title": "Reflexive methodology: New vistas for qualitative research",
+      "authors": "M Alvesson, K Sk\u00f6ldberg",
+      "year": "2017",
+      "cited_by": 10472,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=3825658683126916882&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 2
+    },
+    {
+      "label": "Flexible citizenship: The cultural logics of transnationality",
+      "id": "2260188183844357744",
+      "url": "https://books.google.com/books?hl=en&lr=&id=7ziMg9du5jwC&oi=fnd&pg=PP13&ots=dwGrxbTXxK&sig=syQ5Cn-E4isDraz9eJhiRI0KjOY",
+      "title": "Flexible citizenship: The cultural logics of transnationality",
+      "authors": "A Ong",
+      "year": "1999",
+      "cited_by": 9104,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=2260188183844357744&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 3
+    },
+    {
+      "label": "The communist manifesto",
+      "id": "10590326580219918827",
+      "url": "https://www.degruyter.com/document/doi/10.12987/9780300163209/html",
+      "title": "The communist manifesto",
+      "authors": "K Marx, F Engels",
+      "year": "2012",
+      "cited_by": 12406,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=10590326580219918827&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 3
+    },
+    {
+      "label": "The rise of the network society",
+      "id": "17726099032858617564",
+      "url": "https://books.google.com/books?hl=en&lr=&id=FihjywtjTdUC&oi=fnd&pg=PA1968&ots=l4WsZTIQfX&sig=tUgi4OXRTAaAXV6JtN9hJpCyYQE",
+      "title": "The rise of the network society",
+      "authors": "M Castells",
+      "year": "2011",
+      "cited_by": 46335,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=17726099032858617564&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 3
+    },
+    {
+      "label": "The new mobilities paradigm",
+      "id": "17282793469390897801",
+      "url": "https://journals.sagepub.com/doi/abs/10.1068/a37268",
+      "title": "The new mobilities paradigm",
+      "authors": "M Sheller, J Urry",
+      "year": "2006",
+      "cited_by": 6273,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=17282793469390897801&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 3
+    },
+    {
+      "label": "Neoliberalism as exception",
+      "id": "1334301412826834844",
+      "url": "https://www.degruyter.com/document/doi/10.1515/9780822387879/html",
+      "title": "Neoliberalism as exception",
+      "authors": "A Ong",
+      "year": "2006",
+      "cited_by": 5965,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=1334301412826834844&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 3
+    },
+    {
+      "label": "Territory, authority, rights",
+      "id": "15317217460750401084",
+      "url": "https://www.degruyter.com/document/doi/10.1515/9781400828593/html",
+      "title": "Territory, authority, rights",
+      "authors": "S Sassen",
+      "year": "2008",
+      "cited_by": 5268,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=15317217460750401084&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 3
+    },
+    {
+      "label": "The claims of culture",
+      "id": "10574921670346781413",
+      "url": "https://www.degruyter.com/document/doi/10.1515/9780691186542/html",
+      "title": "The claims of culture",
+      "authors": "S Benhabib",
+      "year": "2018",
+      "cited_by": 4690,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=10574921670346781413&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 3
+    },
+    {
+      "label": "Global shadows",
+      "id": "9649885475942213499",
+      "url": "https://www.degruyter.com/document/doi/10.1515/9780822387640/html",
+      "title": "Global shadows",
+      "authors": "J Ferguson",
+      "year": "2006",
+      "cited_by": 4484,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=9649885475942213499&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 3
+    },
+    {
+      "label": "Methodological nationalism and beyond: nation\u2013state building, migration and the social sciences",
+      "id": "15223063512541538452",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1471-0374.00043",
+      "title": "Methodological nationalism and beyond: nation\u2013state building, migration and the social sciences",
+      "authors": "A Wimmer, N Glick Schiller",
+      "year": "2002",
+      "cited_by": 4388,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=15223063512541538452&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 3
+    },
+    {
+      "label": "Cosmopolitan vision",
+      "id": "1747814112412526594",
+      "url": "https://books.google.com/books?hl=en&lr=&id=f63AicEHA5YC&oi=fnd&pg=PP10&ots=N5zNQK34wg&sig=0rniHrHEdJG63q8JVYBwIJSHCDc",
+      "title": "Cosmopolitan vision",
+      "authors": "U Beck",
+      "year": "2006",
+      "cited_by": 4292,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=1747814112412526594&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 3
+    },
+    {
+      "label": "Class, self, culture",
+      "id": "1719641445164787492",
+      "url": "https://books.google.com/books?hl=en&lr=&id=kVX_AQAAQBAJ&oi=fnd&pg=PP1&ots=DMmLMHjeP8&sig=q5yKBPvfycCxyZ5AnoEhQ0VzEkU",
+      "title": "Class, self, culture",
+      "authors": "B Skeggs",
+      "year": "2013",
+      "cited_by": 3928,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=1719641445164787492&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 3
+    },
+    {
+      "label": "Transnational connections",
+      "id": "3400686393717042781",
+      "url": "https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.4324/9780203131985&type=googlepdf",
+      "title": "Transnational connections",
+      "authors": "U Hannerz",
+      "year": "1996",
+      "cited_by": 7199,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=3400686393717042781&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 5
+    },
+    {
+      "label": "Friction: An ethnography of global connection",
+      "id": "2801941754224328222",
+      "url": "https://books.google.com/books?hl=en&lr=&id=pCwEA1A_XPcC&oi=fnd&pg=PR2&ots=c2cxVh2vXg&sig=yOiygUeYT7a1OUNMKg1ZBzZHxa4",
+      "title": "Friction: An ethnography of global connection",
+      "authors": "AL Tsing",
+      "year": "2011",
+      "cited_by": 7708,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=2801941754224328222&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 5
+    },
+    {
+      "label": "Glocalization",
+      "id": "2310054988372837622",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118924396.wbiea2275",
+      "title": "Glocalization",
+      "authors": "R Robertson",
+      "year": "2018",
+      "cited_by": 7508,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=2310054988372837622&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 5
+    },
+    {
+      "label": "Sociology beyond societies: Mobilities for the twenty-first century",
+      "id": "17285657637103828977",
+      "url": "https://www.taylorfrancis.com/books/mono/10.4324/9780203021613/sociology-beyond-societies-john-urry",
+      "title": "Sociology beyond societies: Mobilities for the twenty-first century",
+      "authors": "J Urry",
+      "year": "2012",
+      "cited_by": 7234,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=17285657637103828977&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 5
+    },
+    {
+      "label": "Globalization: A critical introduction",
+      "id": "10636104253961903537",
+      "url": "https://books.google.com/books?hl=en&lr=&id=C_tGEAAAQBAJ&oi=fnd&pg=PT12&ots=vrMpiISvpf&sig=0NV5frwm_wTBl4nsmYhIOcA8Sos",
+      "title": "Globalization: A critical introduction",
+      "authors": "JA Scholte",
+      "year": "2017",
+      "cited_by": 6085,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=10636104253961903537&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 5
+    },
+    {
+      "label": "Theories of the information society",
+      "id": "2627676507898331139",
+      "url": "https://www.taylorfrancis.com/books/mono/10.4324/9781315867854/theories-information-society-frank-webster",
+      "title": "Theories of the information society",
+      "authors": "F Webster",
+      "year": "2014",
+      "cited_by": 5429,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=2627676507898331139&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 5
+    },
+    {
+      "label": "Teaching and researching: Autonomy in language learning",
+      "id": "3343261923358197305",
+      "url": "https://books.google.com/books?hl=en&lr=&id=ZoarAgAAQBAJ&oi=fnd&pg=PP1&ots=h-DeOUUZI1&sig=l7FR1NKFEA-ftXnPXKEtZoHstSc",
+      "title": "Teaching and researching: Autonomy in language learning",
+      "authors": "P Benson",
+      "year": "2013",
+      "cited_by": 4912,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=3343261923358197305&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 5
+    },
+    {
+      "label": "Trust: A sociological theory",
+      "id": "15925196802444202809",
+      "url": "https://books.google.com/books?hl=en&lr=&id=ZrwvSrK5I8AC&oi=fnd&pg=PP13&ots=CwOlEkNcSK&sig=HphvqUD9Nn5Db2l-2F8oOS4FumQ",
+      "title": "Trust: A sociological theory",
+      "authors": "P Sztompka",
+      "year": "1999",
+      "cited_by": 4287,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=15925196802444202809&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 5
+    },
+    {
+      "label": "Cities: reimagining the urban.",
+      "id": "10135288576471822604",
+      "url": "https://dro.dur.ac.uk/00002835/",
+      "title": "Cities: reimagining the urban.",
+      "authors": "A Amin, N Thrift",
+      "year": "2002",
+      "cited_by": 4123,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=10135288576471822604&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 5
+    },
+    {
+      "label": "Post-colonial studies: The key concepts",
+      "id": "14673695542456733687",
+      "url": "https://www.taylorfrancis.com/books/mono/10.4324/978023777855/post-colonial-studies-key-concepts-bill-ashcroft-gareth-griffiths-helen-tiffin",
+      "title": "Post-colonial studies: The key concepts",
+      "authors": "B Ashcroft, G Griffiths, H Tiffin",
+      "year": "2013",
+      "cited_by": 4081,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=14673695542456733687&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 5
+    },
+    {
+      "label": "A theory of structure: Duality, agency, and transformation",
+      "id": "8662594230890660279",
+      "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/229967",
+      "title": "A theory of structure: Duality, agency, and transformation",
+      "authors": "WH Sewell Jr",
+      "year": "1992",
+      "cited_by": 7225,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=8662594230890660279&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 6
+    },
+    {
+      "label": "Social theory of international politics",
+      "id": "10206592955534911054",
+      "url": "https://books.google.com/books?hl=en&lr=&id=s2xjEd0ww2sC&oi=fnd&pg=PR13&ots=UFnHAcKcPw&sig=dQYsMOwMCp2piEQ5B7jgr_GTLI4",
+      "title": "Social theory of international politics",
+      "authors": "A Wendt",
+      "year": "1999",
+      "cited_by": 14197,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=10206592955534911054&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 6
+    },
+    {
+      "label": "Institutions and organizations: Ideas, interests, and identities",
+      "id": "1744551422073878375",
+      "url": "https://books.google.com/books?hl=en&lr=&id=NbQgAQAAQBAJ&oi=fnd&pg=PP1&ots=hGRfdGqk-A&sig=aV79LgGzbEioXPTb3Q50FZ3IZr4",
+      "title": "Institutions and organizations: Ideas, interests, and identities",
+      "authors": "WR Scott",
+      "year": "2013",
+      "cited_by": 9744,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=1744551422073878375&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 6
+    },
+    {
+      "label": "Making social science matter: Why social inquiry fails and how it can succeed again",
+      "id": "14552093956361103242",
+      "url": "https://books.google.com/books?hl=en&lr=&id=qTNIBAAAQBAJ&oi=fnd&pg=PR9&ots=R8WocmQzEL&sig=gKMfAawh4C_zPdD1Y8J9NRNRisI",
+      "title": "Making social science matter: Why social inquiry fails and how it can succeed again",
+      "authors": "B Flyvbjerg",
+      "year": "2001",
+      "cited_by": 8602,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=14552093956361103242&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 6
+    },
+    {
+      "label": "Limits of citizenship: Migrants and postnational membership in Europe",
+      "id": "14313648456086790487",
+      "url": "https://books.google.com/books?hl=en&lr=&id=jJP6l1wZmQkC&oi=fnd&pg=PP8&ots=vgML8RL1xB&sig=FG_h8D9RHS4ykD12vacHBAo9c_g",
+      "title": "Limits of citizenship: Migrants and postnational membership in Europe",
+      "authors": "YN Soysal, AJ Soyland",
+      "year": "1994",
+      "cited_by": 7106,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=14313648456086790487&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 6
+    },
+    {
+      "label": "What is agency?",
+      "id": "10943819656770243436",
+      "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/231294",
+      "title": "What is agency?",
+      "authors": "M Emirbayer, A Mische",
+      "year": "1998",
+      "cited_by": 6730,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=10943819656770243436&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 7
+    },
+    {
+      "label": "Social movements: An introduction",
+      "id": "7494619424469079012",
+      "url": "https://books.google.com/books?hl=en&lr=&id=wC3KDwAAQBAJ&oi=fnd&pg=PP6&ots=LuCj1IqvVl&sig=CyjpKcbKIc6liOEevpvmW40oEqA",
+      "title": "Social movements: An introduction",
+      "authors": "D Della Porta, M Diani",
+      "year": "2020",
+      "cited_by": 6385,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=7494619424469079012&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 6
+    },
+    {
+      "label": "Challenging codes: Collective action in the information age",
+      "id": "12775415419917303876",
+      "url": "https://books.google.com/books?hl=en&lr=&id=-8HTh8dCFpcC&oi=fnd&pg=PR13&ots=kzngQ5GeKQ&sig=5zxzOs69wi6APlFJSjR0z9YZ3jA",
+      "title": "Challenging codes: Collective action in the information age",
+      "authors": "A Melucci",
+      "year": "1996",
+      "cited_by": 6005,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=12775415419917303876&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 6
+    },
+    {
+      "label": "Using technology and constituting structures: A practice lens for studying technology in organizations",
+      "id": "12268744011236353353",
+      "url": "https://pubsonline.informs.org/doi/abs/10.1287/orsc.11.4.404.14600",
+      "title": "Using technology and constituting structures: A practice lens for studying technology in organizations",
+      "authors": "WJ Orlikowski",
+      "year": "2000",
+      "cited_by": 5988,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=12268744011236353353&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 6
+    },
+    {
+      "label": "The study of boundaries in the social sciences",
+      "id": "3928520091272620502",
+      "url": "https://www.annualreviews.org/doi/abs/10.1146/annurev.soc.28.110601.141107",
+      "title": "The study of boundaries in the social sciences",
+      "authors": "M Lamont, V Moln\u00e1r",
+      "year": "2002",
+      "cited_by": 5672,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=3928520091272620502&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 6
+    },
+    {
+      "label": "The mangle of practice",
+      "id": "14364040159967045538",
+      "url": "https://www.degruyter.com/document/doi/10.7208/9780226668253/html",
+      "title": "The mangle of practice",
+      "authors": "A Pickering",
+      "year": "2010",
+      "cited_by": 5479,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=14364040159967045538&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 6
+    },
+    {
+      "label": "What video games have to teach us about learning and literacy",
+      "id": "7827803831326139357",
+      "url": "https://dl.acm.org/doi/abs/10.1145/950566.950595",
+      "title": "What video games have to teach us about learning and literacy",
+      "authors": "JP Gee",
+      "year": "2003",
+      "cited_by": 16036,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=7827803831326139357&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 0
+    },
+    {
+      "label": "An introduction to discourse analysis: Theory and method",
+      "id": "471534330721405110",
+      "url": "https://www.taylorfrancis.com/books/mono/10.4324/9780203005675/introduction-discourse-analysis-james-paul-gee",
+      "title": "An introduction to discourse analysis: Theory and method",
+      "authors": "JP Gee",
+      "year": "2004",
+      "cited_by": 14302,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=471534330721405110&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 0
+    },
+    {
+      "label": "Language and agency",
+      "id": "11974353803776698383",
+      "url": "https://www.annualreviews.org/doi/abs/10.1146/annurev.anthro.30.1.109",
+      "title": "Language and agency",
+      "authors": "LM Ahearn",
+      "year": "2001",
+      "cited_by": 2729,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=11974353803776698383&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 0
+    },
+    {
+      "label": "Anthropology and social theory",
+      "id": "6844836733289740381",
+      "url": "https://www.degruyter.com/document/doi/10.1515/9780822388456/html",
+      "title": "Anthropology and social theory",
+      "authors": "SB Ortner",
+      "year": "2006",
+      "cited_by": 2281,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=6844836733289740381&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 0
+    },
+    {
+      "label": "Telling identities: In search of an analytic tool for investigating learning as a culturally shaped activity",
+      "id": "15203309362404075526",
+      "url": "https://journals.sagepub.com/doi/abs/10.3102/0013189x034004014",
+      "title": "Telling identities: In search of an analytic tool for investigating learning as a culturally shaped activity",
+      "authors": "A Sfard, A Prusak",
+      "year": "2005",
+      "cited_by": 2264,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=15203309362404075526&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 0
+    },
+    {
+      "label": "Understanding teacher identity: An overview of issues in the literature and implications for teacher education",
+      "id": "16062472734294997616",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/03057640902902252",
+      "title": "Understanding teacher identity: An overview of issues in the literature and implications for teacher education",
+      "authors": "C Beauchamp, L Thomas",
+      "year": "2009",
+      "cited_by": 2348,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=16062472734294997616&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 0
+    },
+    {
+      "label": "The Routledge handbook of multimodal analysis.",
+      "id": "18049264152407721965",
+      "url": "https://psycnet.apa.org/record/2011-15493-000",
+      "title": "The Routledge handbook of multimodal analysis.",
+      "authors": "CE Jewitt",
+      "year": "2011",
+      "cited_by": 1887,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=18049264152407721965&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 0
+    },
+    {
+      "label": "Institutions and organizations",
+      "id": "3051412648745172220",
+      "url": "https://library.wur.nl/WebQuery/titel/924652",
+      "title": "Institutions and organizations",
+      "authors": "WR Scott",
+      "year": "1995",
+      "cited_by": 23813,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=3051412648745172220&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 7
+    },
+    {
+      "label": "Interaction ritual chains",
+      "id": "8341355034241917188",
+      "url": "https://www.degruyter.com/document/doi/10.1515/9781400851744/html",
+      "title": "Interaction ritual chains",
+      "authors": "R Collins",
+      "year": "2014",
+      "cited_by": 6281,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=8341355034241917188&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 7
+    },
+    {
+      "label": "Reconceptualizing organizational routines as a source of flexibility and change",
+      "id": "14603765089269211929",
+      "url": "https://journals.sagepub.com/doi/abs/10.2307/3556620",
+      "title": "Reconceptualizing organizational routines as a source of flexibility and change",
+      "authors": "MS Feldman, BT Pentland",
+      "year": "2003",
+      "cited_by": 4676,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=14603765089269211929&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 7
+    },
+    {
+      "label": "Rules for the World",
+      "id": "13444229771254289512",
+      "url": "https://www.degruyter.com/document/doi/10.7591/9780801465161/html",
+      "title": "Rules for the World",
+      "authors": "M Barnett, M Finnemore",
+      "year": "2012",
+      "cited_by": 4269,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=13444229771254289512&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 7
+    },
+    {
+      "label": "The institutional logics perspective: A new approach to culture, structure, and process",
+      "id": "14196801980711891020",
+      "url": "https://books.google.com/books?hl=en&lr=&id=xPlagJzFm2AC&oi=fnd&pg=PP1&ots=xOxj8fqR6W&sig=gK91NpG-OByl3I_e0GLWaPF4l0w",
+      "title": "The institutional logics perspective: A new approach to culture, structure, and process",
+      "authors": "PH Thornton, W Ocasio, M Lounsbury",
+      "year": "2012",
+      "cited_by": 4395,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=14196801980711891020&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 7
+    },
+    {
+      "label": "Manifesto for a relational sociology",
+      "id": "7447311124487179393",
+      "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/231209",
+      "title": "Manifesto for a relational sociology",
+      "authors": "M Emirbayer",
+      "year": "1997",
+      "cited_by": 4227,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=7447311124487179393&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 7
+    },
+    {
+      "label": "Shared beginnings, divergent lives",
+      "id": "5474526090874228800",
+      "url": "https://books.google.com/books?hl=en&lr=&id=yfFnbDg03_cC&oi=fnd&pg=PP15&ots=xA4Me4SpMY&sig=28i_hisTYp0eRgjPvw_VuJ-j2dM",
+      "title": "Shared beginnings, divergent lives",
+      "authors": "RJ Sampson",
+      "year": "2009",
+      "cited_by": 3891,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=5474526090874228800&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 7
+    },
+    {
+      "label": "Institutional contradictions, praxis, and institutional change: A dialectical perspective",
+      "id": "14513419689814613677",
+      "url": "https://journals.aom.org/doi/abs/10.5465/amr.2002.6588004",
+      "title": "Institutional contradictions, praxis, and institutional change: A dialectical perspective",
+      "authors": "MG Seo, WED Creed",
+      "year": "2002",
+      "cited_by": 3350,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=14513419689814613677&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 7
+    },
+    {
+      "label": "Institutional change and globalization",
+      "id": "10485770762487801845",
+      "url": "https://www.degruyter.com/document/doi/10.1515/9780691216348/html",
+      "title": "Institutional change and globalization",
+      "authors": "JL Campbell",
+      "year": "2021",
+      "cited_by": 3005,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=10485770762487801845&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 7
+    },
+    {
+      "label": "Ritual theory, ritual practice",
+      "id": "16847519165489059911",
+      "url": "https://books.google.com/books?hl=en&lr=&id=nUxRDAAAQBAJ&oi=fnd&pg=PP1&ots=k_rSW3-x-I&sig=omQrMFisFevmvY7qlVuZLjRqaSA",
+      "title": "Ritual theory, ritual practice",
+      "authors": "C Bell",
+      "year": "1992",
+      "cited_by": 6611,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=16847519165489059911&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 8
+    },
+    {
+      "label": "Power: A radical view",
+      "id": "3490456838689747178",
+      "url": "https://books.google.com/books?hl=en&lr=&id=nIAFCwAAQBAJ&oi=fnd&pg=PP7&ots=qzAVSHnEQS&sig=RCWTP7Ch7NYxJWYDkELLuUGz3pA",
+      "title": "Power: A radical view",
+      "authors": "S Lukes",
+      "year": "2004",
+      "cited_by": 18269,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=3490456838689747178&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 8
+    },
+    {
+      "label": "Politics of piety",
+      "id": "5022073305037523669",
+      "url": "https://www.degruyter.com/document/doi/10.1515/9781400839919/html",
+      "title": "Politics of piety",
+      "authors": "S Mahmood",
+      "year": "2011",
+      "cited_by": 8407,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=5022073305037523669&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 8
+    },
+    {
+      "label": "Performance studies: An introduction",
+      "id": "5517699858100606776",
+      "url": "https://www.taylorfrancis.com/books/mono/10.4324/9781315269399/performance-studies-richard-schechner-sarah-lucie",
+      "title": "Performance studies: An introduction",
+      "authors": "R Schechner, S Lucie",
+      "year": "2020",
+      "cited_by": 5924,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=5517699858100606776&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 8
+    },
+    {
+      "label": "The archive and the repertoire",
+      "id": "5761725522191942216",
+      "url": "https://www.degruyter.com/document/doi/10.1515/9780822385318/html",
+      "title": "The archive and the repertoire",
+      "authors": "D Taylor",
+      "year": "2003",
+      "cited_by": 5222,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=5761725522191942216&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 8
+    },
+    {
+      "label": "Terror in the Mind of God",
+      "id": "15322082436893839866",
+      "url": "https://www.degruyter.com/document/doi/10.1525/9780520965164/html",
+      "title": "Terror in the Mind of God",
+      "authors": "M Juergensmeyer",
+      "year": "2017",
+      "cited_by": 4558,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=15322082436893839866&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 8
+    },
+    {
+      "label": "Ritual: Perspectives and dimensions",
+      "id": "9724905886676415846",
+      "url": "https://books.google.com/books?hl=en&lr=&id=6XU8DwAAQBAJ&oi=fnd&pg=PR13&ots=P_UMCcodbY&sig=UL3FiaYO5KBhUkIWg42cuTC_C4s",
+      "title": "Ritual: Perspectives and dimensions",
+      "authors": "CM Bell",
+      "year": "1997",
+      "cited_by": 4409,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=9724905886676415846&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 8
+    },
+    {
+      "label": "Logics of history: Social theory and social transformation",
+      "id": "8013126390979322829",
+      "url": "https://books.google.com/books?hl=en&lr=&id=R9qecHrLgOMC&oi=fnd&pg=PP13&ots=Lh0ziaen94&sig=qDJXm_NThBU7kXZcgpdNkF0N8hs",
+      "title": "Logics of history: Social theory and social transformation",
+      "authors": "WH Sewell Jr",
+      "year": "2005",
+      "cited_by": 2593,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=8013126390979322829&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 8
+    },
+    {
+      "label": "Civilizing rituals: Inside public art museums",
+      "id": "11079094423506383022",
+      "url": "https://www.taylorfrancis.com/books/mono/10.4324/9780203978719/civilizing-rituals-carol-duncan",
+      "title": "Civilizing rituals: Inside public art museums",
+      "authors": "C Duncan",
+      "year": "2005",
+      "cited_by": 2266,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=11079094423506383022&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 8
+    },
+    {
+      "label": "Lived religion: Faith and practice in everyday life",
+      "id": "16639668779162687233",
+      "url": "https://books.google.com/books?hl=en&lr=&id=eTyJX69ocsgC&oi=fnd&pg=PR11&ots=YdlH7GRmSW&sig=8xEgwBS1NN0z51Z--Y3QW5S2xGw",
+      "title": "Lived religion: Faith and practice in everyday life",
+      "authors": "MB McGuire",
+      "year": "2008",
+      "cited_by": 2057,
+      "cited_by_url": "https://scholar.google.com/scholar?cites=16639668779162687233&as_sdt=20000005&sciodt=0,21&hl=en",
+      "modularity": 8
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1
+    },
+    {
+      "source": 2,
+      "target": 0
+    },
+    {
+      "source": 3,
+      "target": 0
+    },
+    {
+      "source": 3,
+      "target": 23
+    },
+    {
+      "source": 4,
+      "target": 0
+    },
+    {
+      "source": 5,
+      "target": 0
+    },
+    {
+      "source": 6,
+      "target": 0
+    },
+    {
+      "source": 6,
+      "target": 1
+    },
+    {
+      "source": 7,
+      "target": 0
+    },
+    {
+      "source": 8,
+      "target": 0
+    },
+    {
+      "source": 9,
+      "target": 0
+    },
+    {
+      "source": 9,
+      "target": 6
+    },
+    {
+      "source": 10,
+      "target": 0
+    },
+    {
+      "source": 11,
+      "target": 0
+    },
+    {
+      "source": 12,
+      "target": 1
+    },
+    {
+      "source": 13,
+      "target": 12
+    },
+    {
+      "source": 14,
+      "target": 12
+    },
+    {
+      "source": 15,
+      "target": 12
+    },
+    {
+      "source": 16,
+      "target": 12
+    },
+    {
+      "source": 17,
+      "target": 12
+    },
+    {
+      "source": 18,
+      "target": 12
+    },
+    {
+      "source": 19,
+      "target": 12
+    },
+    {
+      "source": 20,
+      "target": 12
+    },
+    {
+      "source": 21,
+      "target": 12
+    },
+    {
+      "source": 22,
+      "target": 12
+    },
+    {
+      "source": 23,
+      "target": 1
+    },
+    {
+      "source": 24,
+      "target": 23
+    },
+    {
+      "source": 25,
+      "target": 23
+    },
+    {
+      "source": 26,
+      "target": 23
+    },
+    {
+      "source": 27,
+      "target": 23
+    },
+    {
+      "source": 27,
+      "target": 6
+    },
+    {
+      "source": 28,
+      "target": 23
+    },
+    {
+      "source": 28,
+      "target": 6
+    },
+    {
+      "source": 29,
+      "target": 23
+    },
+    {
+      "source": 30,
+      "target": 23
+    },
+    {
+      "source": 31,
+      "target": 23
+    },
+    {
+      "source": 32,
+      "target": 23
+    },
+    {
+      "source": 33,
+      "target": 1
+    },
+    {
+      "source": 34,
+      "target": 33
+    },
+    {
+      "source": 35,
+      "target": 33
+    },
+    {
+      "source": 36,
+      "target": 33
+    },
+    {
+      "source": 37,
+      "target": 33
+    },
+    {
+      "source": 38,
+      "target": 33
+    },
+    {
+      "source": 39,
+      "target": 33
+    },
+    {
+      "source": 40,
+      "target": 33
+    },
+    {
+      "source": 41,
+      "target": 33
+    },
+    {
+      "source": 42,
+      "target": 33
+    },
+    {
+      "source": 43,
+      "target": 33
+    },
+    {
+      "source": 44,
+      "target": 1
+    },
+    {
+      "source": 45,
+      "target": 44
+    },
+    {
+      "source": 46,
+      "target": 44
+    },
+    {
+      "source": 47,
+      "target": 44
+    },
+    {
+      "source": 48,
+      "target": 44
+    },
+    {
+      "source": 49,
+      "target": 44
+    },
+    {
+      "source": 50,
+      "target": 44
+    },
+    {
+      "source": 51,
+      "target": 44
+    },
+    {
+      "source": 52,
+      "target": 44
+    },
+    {
+      "source": 53,
+      "target": 44
+    },
+    {
+      "source": 54,
+      "target": 44
+    },
+    {
+      "source": 54,
+      "target": 55
+    },
+    {
+      "source": 55,
+      "target": 1
+    },
+    {
+      "source": 56,
+      "target": 55
+    },
+    {
+      "source": 57,
+      "target": 55
+    },
+    {
+      "source": 58,
+      "target": 55
+    },
+    {
+      "source": 59,
+      "target": 55
+    },
+    {
+      "source": 60,
+      "target": 55
+    },
+    {
+      "source": 61,
+      "target": 55
+    },
+    {
+      "source": 62,
+      "target": 55
+    },
+    {
+      "source": 63,
+      "target": 55
+    },
+    {
+      "source": 64,
+      "target": 55
+    },
+    {
+      "source": 65,
+      "target": 1
+    },
+    {
+      "source": 66,
+      "target": 65
+    },
+    {
+      "source": 67,
+      "target": 65
+    },
+    {
+      "source": 67,
+      "target": 70
+    },
+    {
+      "source": 68,
+      "target": 65
+    },
+    {
+      "source": 69,
+      "target": 65
+    },
+    {
+      "source": 70,
+      "target": 65
+    },
+    {
+      "source": 70,
+      "target": 1
+    },
+    {
+      "source": 71,
+      "target": 65
+    },
+    {
+      "source": 72,
+      "target": 65
+    },
+    {
+      "source": 73,
+      "target": 65
+    },
+    {
+      "source": 74,
+      "target": 65
+    },
+    {
+      "source": 75,
+      "target": 65
+    },
+    {
+      "source": 76,
+      "target": 6
+    },
+    {
+      "source": 77,
+      "target": 6
+    },
+    {
+      "source": 78,
+      "target": 6
+    },
+    {
+      "source": 79,
+      "target": 6
+    },
+    {
+      "source": 80,
+      "target": 6
+    },
+    {
+      "source": 81,
+      "target": 6
+    },
+    {
+      "source": 82,
+      "target": 6
+    },
+    {
+      "source": 83,
+      "target": 70
+    },
+    {
+      "source": 84,
+      "target": 70
+    },
+    {
+      "source": 84,
+      "target": 92
+    },
+    {
+      "source": 85,
+      "target": 70
+    },
+    {
+      "source": 86,
+      "target": 70
+    },
+    {
+      "source": 87,
+      "target": 70
+    },
+    {
+      "source": 88,
+      "target": 70
+    },
+    {
+      "source": 89,
+      "target": 70
+    },
+    {
+      "source": 90,
+      "target": 70
+    },
+    {
+      "source": 91,
+      "target": 70
+    },
+    {
+      "source": 92,
+      "target": 1
+    },
+    {
+      "source": 93,
+      "target": 92
+    },
+    {
+      "source": 94,
+      "target": 92
+    },
+    {
+      "source": 95,
+      "target": 92
+    },
+    {
+      "source": 96,
+      "target": 92
+    },
+    {
+      "source": 97,
+      "target": 92
+    },
+    {
+      "source": 98,
+      "target": 92
+    },
+    {
+      "source": 99,
+      "target": 92
+    },
+    {
+      "source": 100,
+      "target": 92
+    },
+    {
+      "source": 101,
+      "target": 92
+    }
+  ]
+};
+      var w = window.innerWidth;
+      var h = window.innerHeight;
+
+      var focusNode = null;
+      var highlightNode = null;
+
+      var textCenter = false;
+      var outline = false;
+
+      var minScore = Math.min(...graph.nodes.map(n => n.modularity));
+      var maxScore = Math.max(...graph.nodes.map(n => n.modularity));
+
+      var color = d3.scale
+        .linear()
+        .domain([
+          minScore,
+          (minScore + maxScore) / 4,
+          (minScore + maxScore) / 2,
+          ((minScore + maxScore) * 3) / 4,
+          maxScore,
+        ])
+        .range(["lime", "yellow", "red", "deepskyblue"]);
+
+      var highlightColor = "blue";
+      var highlightTrans = 0.1;
+
+      const citedBy = graph.nodes
+        .map(n => n.cited_by)
+        .filter(n => n != null)
+
+      const maxCitedBy = Math.max(...citedBy)
+      const minCitedBy = Math.min(...citedBy)
+
+      var size = d3.scale
+        .pow()
+        .exponent(1)
+        .domain([minCitedBy, maxCitedBy])
+        .range([8, 24]);
+
+      var force = d3.layout
+        .force()
+        .linkDistance(h / (graph.nodes.length / 10))
+        .charge(-300)
+        .size([w, h]);
+
+      var defaultNodeColor = "#ccc";
+      var defaultLinkColor = "#888";
+      var nominalBaseNodeSize = 8;
+      var nominalTextSize = 10;
+      var maxTextSize = 24;
+      var nominalStroke = 1.5;
+      var maxStroke = 4.5;
+      var maxBaseNodeSize = 36;
+      var minZoom = 0.1;
+      var maxZoom = 7;
+      var svg = d3.select("body").append("svg");
+      var zoom = d3.behavior.zoom().scaleExtent([minZoom, maxZoom]);
+      var g = svg.append("g");
+      svg.style("cursor", "move");
+
+      var linkedByIndex = {};
+      graph.links.forEach(function (d) {
+        linkedByIndex[d.source + "," + d.target] = true;
+      });
+
+      function isConnected(a, b) {
+        return (
+          linkedByIndex[a.index + "," + b.index] ||
+          linkedByIndex[b.index + "," + a.index] ||
+          a.index == b.index
+        );
+      }
+
+      force.size([w, h]);
+
+      force
+        .nodes(graph.nodes)
+        .links(graph.links)
+        .start();
+
+      function getLine(data) {
+
+        const x1 = data.source.x;
+        const y1= data.source.y;
+        const x2 = data.target.x;
+        const y2 = data.target.y;
+
+        const r = size(data.target.cited_by) + 1;
+
+        const m = (y2 - y1) / (x2 - x1);
+        const b = y1 - m * x1;
+
+        const c = Math.sqrt(Math.pow((y2 - y1), 2) + Math.pow((x2 - x1), 2))
+        const a = y2 - y1
+        const cos = a / c
+
+        const a2 = cos * r
+        const b2 = Math.sqrt(Math.pow(r, 2) - Math.pow(a2, 2))
+
+        const x = x2 > x1 ? x2 - b2 : x2 + b2;
+        const y = y2 - a2;
+
+        const path = 'M ' + data.source.x + ',' + data.source.y + ' L ' + x + ',' + y;
+        return path;
+      }
+
+      var link = g
+        .selectAll(".link")
+        .data(graph.links)
+        .enter()
+        .append("svg:path")
+        .attr("d", getLine) 
+        .attr("stroke", defaultLinkColor)
+        .attr("fill", "red")
+        .style("stroke-width", nominalStroke)
+        .style("marker-end", "url(#end)")
+
+      var node = g
+        .selectAll(".node")
+        .data(graph.nodes)
+        .enter()
+        .append("g")
+        .attr("class", "node")
+        .call(force.drag);
+
+      var timeout = null;
+
+      node.on("dblclick", function (d) {
+        clearTimeout(timeout);
+
+        timeout = setTimeout(function () {
+          window.open(d.url, "_blank");
+          d3.event.stopPropagation();
+        }, 300);
+      });
+
+      var tocolor = "fill";
+      var towhite = "stroke";
+      if (outline) {
+        tocolor = "stroke";
+        towhite = "fill";
+      }
+
+      var circle = node
+        .append("path")
+        .attr(
+          "d",
+          d3.svg
+            .symbol()
+            .size(function (d) {
+              return (
+                Math.PI * Math.pow(size(d.cited_by) || nominalBaseNodeSize, 2)
+              );
+            })
+            .type(function (d) {
+              return d.type;
+            })
+        )
+        .style(tocolor, function (d) {
+          if (isNumber(d.modularity) && d.modularity >= 0) return color(d.modularity);
+          else return defaultNodeColor;
+        })
+        .style("stroke-width", nominalStroke)
+        .style(towhite, "white");
+
+      svg.append("svg:defs").selectAll("marker")
+	  .data(["end"])
+	.enter().append("svg:marker")
+	  .attr("id", String)
+	  .attr("viewBox", "0 -5 10 10")
+	  .attr("refX", 10)
+	  .attr("refY", 0)
+	  .attr("markerWidth", 6)
+	  .attr("markerHeight", 6)
+	  .attr("orient", "auto")
+          .style("fill", defaultLinkColor)
+	.append("svg:path")
+	  .attr("d", "M 0,-5 L 10,0 L 0,5")
+          .style("stroke", defaultLinkColor);
+
+      var text = g
+        .selectAll(".text")
+        .data(graph.nodes)
+        .enter()
+        .append("text")
+        .attr("dy", ".35em")
+        .style("font-size", nominalTextSize + "px");
+
+      node
+        .on("mouseover", function (d) {
+          setHighlight(d);
+        })
+        .on("mousedown", function (d) {
+          d3.event.stopPropagation();
+          focusNode = d;
+          setFocus(d);
+          if (highlightNode === null) setHighlight(d);
+        })
+        .on("mouseout", function (d) {
+          exitHighlight();
+        });
+
+      d3.select(window).on("mouseup", function () {
+        if (focusNode !== null) {
+          focusNode = null;
+          if (highlightTrans < 1) {
+            circle.style("opacity", 1);
+            text.style("opacity", 1);
+            link.style("opacity", 1);
+          }
+        }
+
+        if (highlightNode === null) exitHighlight();
+      });
+
+      function exitHighlight() {
+        highlightNode = null;
+        if (focusNode === null) {
+          svg.style("cursor", "move");
+          if (highlightColor != "white") {
+            circle.style(towhite, "white");
+            text.text('')
+            link.style("stroke", function (o) {
+              return isNumber(o.score) && o.score >= 0
+                ? color(o.score)
+                : defaultLinkColor;
+            });
+          }
+        }
+      }
+
+      function setFocus(d) {
+        if (highlightTrans < 1) {
+          circle.style("opacity", function (o) {
+            return isConnected(d, o) ? 1 : highlightTrans;
+          });
+
+          text.style("opacity", function (o) {
+            return isConnected(d, o) ? 1 : highlightTrans;
+          });
+
+          link.style("opacity", function (o) {
+            return o.source.index == d.index || o.target.index == d.index
+              ? 1
+              : highlightTrans;
+          });
+        }
+      }
+
+      function setHighlight(d) {
+        svg.style("cursor", "pointer");
+        if (focusNode !== null) d = focusNode;
+        highlightNode = d;
+
+        if (highlightColor != "white") {
+
+          circle.style(towhite, function (o) {
+            return isConnected(d, o) ? highlightColor : "white";
+          });
+          
+          text.attr("dx", function (d) {
+            return size(d.cited_by)
+          });
+
+          text.text(function (o) {
+            if (isConnected(d, o)) {
+              return " " + (o.authors ? o.title + " - " + o.authors : o.title);
+            } else {
+              return ""
+            }
+          });
+
+        }
+      }
+
+      zoom.on("zoom", function () {
+        var stroke = nominalStroke;
+        if (nominalStroke * zoom.scale() > maxStroke)
+          stroke = maxStroke / zoom.scale();
+        link.style("stroke-width", stroke);
+        circle.style("stroke-width", stroke);
+
+        var baseRadius = nominalBaseNodeSize;
+        if (nominalBaseNodeSize * zoom.scale() > maxBaseNodeSize)
+          baseRadius = maxBaseNodeSize / zoom.scale();
+        circle.attr(
+          "d",
+          d3.svg
+            .symbol()
+            .size(function (d) {
+              return (
+                Math.PI *
+                Math.pow(
+                  (size(d.cited_by) * baseRadius) / nominalBaseNodeSize ||
+                    baseRadius,
+                  2
+                )
+              );
+            })
+        );
+
+        if (!textCenter)
+          text.attr("dx", function (d) {
+            return (
+              (size(d.cited_by) * baseRadius) / nominalBaseNodeSize ||
+              baseRadius
+            );
+          });
+
+        var textSize = nominalTextSize;
+        if (nominalTextSize * zoom.scale() > maxTextSize)
+          textSize = maxTextSize / zoom.scale();
+        text.style("font-size", textSize + "px");
+
+        g.attr(
+          "transform",
+          "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")"
+        );
+      });
+
+      svg.call(zoom);
+
+      resize();
+      d3.select(window).on("resize", resize);
+
+      force.on("tick", function () {
+        node.attr("transform", function (d) {
+          return "translate(" + d.x + "," + d.y + ")";
+        });
+        text.attr("transform", function (d) {
+          return "translate(" + d.x + "," + d.y + ")";
+        });
+
+        link.attr("d", getLine)
+
+        node
+          .attr("cx", function (d) {
+            return d.x;
+          })
+          .attr("cy", function (d) {
+            return d.y;
+          });
+      });
+
+      function resize() {
+        var width = window.innerWidth,
+          height = window.innerHeight;
+        svg.attr("width", width).attr("height", height);
+
+        force
+          .size([
+            force.size()[0] + (width - w) / zoom.scale(),
+            force.size()[1] + (height - h) / zoom.scale(),
+          ])
+          .resume();
+        w = width;
+        h = height;
+      }
+
+      function isNumber(n) {
+        return !isNaN(parseFloat(n)) && isFinite(n);
+      }
+
+    </script>
+  </body>
+</html>
