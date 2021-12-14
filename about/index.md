@@ -31,20 +31,23 @@ the [Maryland Institute for Technology in the Humanities] and am affiliated
 with the [College of Information Studies] at the University of Maryland.
 
 If you want to get in touch please email me at [ehs@pobox.com]. You can also
-find me on fediverse at [\@edsu@social.coop]. Once upon a time I was on Twitter
-as [\@edsu] but I don't actively use it anymore.
+find me on fediverse at [\@edsu@social.coop] and wandering Scuttlebutt as
+`\@n2ax/dvrm+u76UhEv6aN0MzlH0Zw7o0MOd5QIHjouSw=.ed25519`. Once upon a time
+I was on Twitter as [\@edsu] but I don't actively use it anymore--but you'll
+see I have some bots that do.
 
 #### Projects
 
 This is a list of projects I'm working on at the moment. It's not meant to be a
 fine grained list of tasks--I use other collaborative tools for that. It's
-simply a place to write down the high level things that I'm actively engaged
-with, in an arbitrary order, so I can see them change over time.
+simply a place to write down the high level things that I'm working on, in an arbitrary order, so I can see them change over time.
 
 * Webrecorder: WACZ Standardization
 * Social Life of Web Archives (SLoWA)
 * Documenting the Now
 * Teaching: Data Curation, Object Oriented Programming
+* Learning TypeScript
+* Relearning Ruby
 
 [software developer]: https://github.com/edsu
 [Maryland Institute for Technology in the Humanities]: http://mith.umd.edu
