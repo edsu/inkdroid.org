@@ -64123,5 +64123,232 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "Schaffer:1991",
+		"type": "article-journal",
+		"container-title": "Studies in History and Philosophy of Science Part A",
+		"DOI": "10.1016/0039-3681(91)90020-S",
+		"ISSN": "00393681",
+		"issue": "1",
+		"journalAbbreviation": "Studies in History and Philosophy of Science Part A",
+		"language": "en",
+		"page": "174-192",
+		"source": "DOI.org (Crossref)",
+		"title": "The eighteenth Brumaire of Bruno Latour.",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/003936819190020S",
+		"volume": "22",
+		"author": [
+			{
+				"family": "Schaffer",
+				"given": "Simon"
+			},
+			{
+				"family": "Latour",
+				"given": "Bruno"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1991",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "Schaffer:2009",
+		"type": "article-journal",
+		"container-title": "History of Science",
+		"DOI": "10.1177/007327530904700301",
+		"ISSN": "0073-2753, 1753-8564",
+		"issue": "3",
+		"journalAbbreviation": "Hist Sci",
+		"language": "en",
+		"page": "243-276",
+		"source": "DOI.org (Crossref)",
+		"title": "Newton on the Beach: The Information Order of <i>Principia Mathematica</i>",
+		"title-short": "Newton on the Beach",
+		"URL": "http://journals.sagepub.com/doi/10.1177/007327530904700301",
+		"volume": "47",
+		"author": [
+			{
+				"family": "Schaffer",
+				"given": "Simon"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2009",
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "Metz:2019a",
+		"type": "book",
+		"abstract": "Object-oriented programming languages exist to help you create beautiful, straightforward applications that are easy to change and simple to extend. Unfortunately, the world is awash with object-oriented (OO) applications that are difficult to understand and expensive to change. Practical Object-Oriented Design, Second Edition, immerses you in an OO mindset and teaches you powerful, real-world, object-oriented design techniques with simple and practical examples. Sandi Metz demonstrates how to build new applications that can \"survive success\" and repair existing applications that have become impossible to change",
+		"call-number": "QA76.64 .M484 2019",
+		"edition": "Second edition",
+		"event-place": "Boston",
+		"ISBN": "978-0-13-445647-8",
+		"note": "OCLC: ocn951926800",
+		"number-of-pages": "254",
+		"publisher": "Addison-Wesley",
+		"publisher-place": "Boston",
+		"source": "Library of Congress ISBN",
+		"title": "Practical object-oriented design: an agile primer using Ruby",
+		"title-short": "Practical object-oriented design",
+		"author": [
+			{
+				"family": "Metz",
+				"given": "Sandi"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "239066",
+		"type": "paper-conference",
+		"container-title": "9th USENIX workshop on free and open communications on the internet (FOCI 19)",
+		"event-place": "Santa Clara, CA",
+		"publisher": "USENIX Association",
+		"publisher-place": "Santa Clara, CA",
+		"title": "Entanglements and exploits: Sociotechnical security as an analytic framework",
+		"URL": "https://www.usenix.org/conference/foci19/presentation/goerzen",
+		"author": [
+			{
+				"family": "Goerzen",
+				"given": "Matt"
+			},
+			{
+				"family": "Watkins",
+				"given": "Elizabeth Anne"
+			},
+			{
+				"family": "Lim",
+				"given": "Gabrielle"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "Pereira:2017",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the 10th ACM SIGPLAN International Conference on Software Language Engineering",
+		"DOI": "10.1145/3136014.3136031",
+		"event": "SPLASH '17: Conference on Systems, Programming, Languages, and Applications: Software for Humanity",
+		"event-place": "Vancouver BC Canada",
+		"ISBN": "978-1-4503-5525-4",
+		"language": "en",
+		"page": "256-267",
+		"publisher": "ACM",
+		"publisher-place": "Vancouver BC Canada",
+		"source": "DOI.org (Crossref)",
+		"title": "Energy efficiency across programming languages: how do energy, time, and memory relate?",
+		"title-short": "Energy efficiency across programming languages",
+		"URL": "https://dl.acm.org/doi/10.1145/3136014.3136031",
+		"author": [
+			{
+				"family": "Pereira",
+				"given": "Rui"
+			},
+			{
+				"family": "Couto",
+				"given": "Marco"
+			},
+			{
+				"family": "Ribeiro",
+				"given": "Francisco"
+			},
+			{
+				"family": "Rua",
+				"given": "Rui"
+			},
+			{
+				"family": "Cunha",
+				"given": "Jácome"
+			},
+			{
+				"family": "Fernandes",
+				"given": "João Paulo"
+			},
+			{
+				"family": "Saraiva",
+				"given": "João"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					12,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					10,
+					23
+				]
+			]
+		}
+	},
+	{
+		"id": "Kunze:2018",
+		"type": "report",
+		"publisher": "University of California",
+		"title": "Ten persistent myths about persistent identifiers",
+		"URL": "https://escholarship.org/uc/item/73m910w8",
+		"author": [
+			{
+				"family": "Kunze",
+				"given": "John"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
 	}
 ]
