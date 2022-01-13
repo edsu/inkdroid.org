@@ -26,9 +26,7 @@ date_gmt: '2008-07-28 13:54:42 +0000'
 a [software developer], [teacher] and [researcher] [working] at the
 intersection of libraries, archives and the World Wide Web. I'm interested in
 how the Web functions as a sociotechnical system, especially with regard to
-memory practices such as curation and preservation. I am currently working at
-the [Maryland Institute for Technology in the Humanities] and am affiliated
-with the [College of Information Studies] at the University of Maryland.
+memory practices such as curation and preservation. I am currently working at Stanford University Library on their Infrastructure Team.
 
 If you want to get in touch please email me at [ehs@pobox.com]. You can also
 find me on fediverse at [\@edsu@social.coop] and wandering Scuttlebutt as
@@ -45,9 +43,8 @@ simply a place to write down the high level things that I'm working on, in an ar
 * Webrecorder: WACZ Standardization
 * Social Life of Web Archives (SLoWA)
 * Documenting the Now
-* Teaching: Data Curation, Object Oriented Programming
 * Learning TypeScript
-* Relearning Ruby
+* Relearning Ruby & Rails
 
 [software developer]: https://github.com/edsu
 [Maryland Institute for Technology in the Humanities]: http://mith.umd.edu
