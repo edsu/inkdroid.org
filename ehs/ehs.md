@@ -22,10 +22,27 @@ sustainability.
 
 ## Work History
 
+Senior Software Developer  
+Digital Library Systems and Services  
+Stanford University  
+01/2022 - 
+
+* Full stack software development
+* Digital repositories, data preservation
+* Web services (REST) / Service design
+
+Design Researcher  
+Webrecorder  
+10/2021 - 
+
+* Data standards (WACZ)
+* Requirements and use case gathering
+* Technical writing
+
 Research Faculty  
 Maryland Institute for Technology in the Humanities  
 University of Maryland  
-08/2014 - Present  
+08/2014 - 12/2021  
 
 * Full stack software development (JavaScript, React, Python, PostgreSQL, ElasticSearch)
 * Social media data analysis and visualization (Python, JavaScript, D3, VisJS)
