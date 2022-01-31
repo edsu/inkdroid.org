@@ -9,5 +9,3 @@ My website that runs at http://inkdroid.org.
 5. bundle install
 6. jekyll serve
 
-
-
