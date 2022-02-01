@@ -9,7 +9,7 @@ tags:
 
 <figure>
   <a href="https://www.loc.gov/item/2021668430/">
-    <img src="/images/wdl-item2.jpg">
+    <img class="img-responsive" src="/images/wdl-item2.jpg">
   </a>
   <figcaption>
    <a href="https://www.loc.gov/item/2021668430/">Makian As It Appears from the Side of Ngofakiaha</a>
@@ -33,10 +33,11 @@ ended its 10 years of development in 2021, and the items have now been
 put on the web.
 
 I'm really only mentioning it here because of the extra effort that the project
-seem to have taken [late last year] to migrate and preserve the content when
-the web application running at wdl.org was turned off. Their old wdl.org URLs
-were mapped to new ones at loc.gov which is made available by the LC's primary
-web publishing platform.
+seem to have taken [late last year] to migrate and preserve the content prior
+to turning off the web application running at wdl.org. The old *wdl.org* URLs
+were mapped to new ones at *loc.gov* and made available by the LC's primary web
+publishing platform. Quite a bit of data and metadata needed to move around 
+behind the scenes for this to happen.
 
 So old URLs that looked like:
 
