@@ -232,6 +232,7 @@ the technical development.
 * [Legibility Machines: Archival Appraisal and the Genealogies of Use]. PhD
   Dissertation. University of Maryland. December, 2020.
 * [Appraisal Talk in Web Archives]. Archivaria. May, 2020.
+* [What We Talk about When We Talk about Archiving the Web]. American Archivist. March, 2020. 
 * [Archival Circulation on the Web: The Vine-Tweets Dataset]. Cultural
 Analytics. June, 2019.
 * [Algorithms and Agenda-Setting in Wikileaks' #PodestaEmails Release]. Information, Communication & Society. 2019
@@ -334,5 +335,5 @@ Analytics. June, 2019.
 to systemic racism]:
 https://www.brookings.edu/research/bystander-intervention-on-social-media-examining-cyberbullying-and-reactions-to-systemic-racism/
 [Demagoguery, Democracy, and Digitality]: https://manifold.as.uky.edu/read/teaching-demagoguery-and-democracy-rhetorical-pedagogy-in-polarized-times/section/a2669e5b-6f16-4422-b384-2f859bd88605
-
+[What We Talk about When We Talk about Archiving the Web]: https://doi.org/10.17723/0360-9081-83.1.167
 
