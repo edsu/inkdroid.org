@@ -58035,7 +58035,7 @@
 	},
 	{
 		"id": "nembhardCollectiveCourageHistory2021",
-		"type": "article",
+		"type": "document",
 		"abstract": "In Collective Courage, Jessica Gordon Nembhard chronicles African American cooperative business ownership and its place in the movements for Black civil rights and economic equality. Not since W. E. B. Du Bois's 1907 Economic Co-operation Among Negro Americans has there been a full-length, nationwide study of African American cooperatives. Collective Courage extends that story into the twenty-first century. Many of the players are well known in the history of the African American experience: Du Bois, A. Philip Randolph and the Ladies' Auxiliary to the Brotherhood of Sleeping Car Porters, Nannie Helen Burroughs, Fannie Lou Hamer, Ella Jo Baker, George Schuyler and the Young Negroes' Co-operative League, the Nation of Islam, and the Black Panther Party. Adding the cooperative movement to Black history results in a retelling of the African American experience, with an increased understanding of African American collective economic agency and grassroots economic organizing. To tell the story, Gordon Nembhard uses a variety of newspapers, period magazines, and journals; co-ops' articles of incorporation, minutes from annual meetings, newsletters, budgets, and income statements; and scholarly books, memoirs, and biographies. These sources reveal the achievements and challenges of Black co-ops, collective economic action, and social entrepreneurship. Gordon Nembhard finds that African Americans, as well as other people of color and low-income people, have benefitted greatly from cooperative ownership and democratic economic participation throughout the nation's history.",
 		"language": "In English",
 		"note": "ISBN: 9780271064260\nOCLC: 1256410188",
@@ -58198,11 +58198,12 @@
 		"citation-key": "fonsecaWhetherWhenQuestion"
 	},
 	{
-		"id": "maintainersInformationMaintenancePractice2019",
+		"id": "Acker:2019a",
 		"type": "article-journal",
 		"abstract": "An invitation to participate in a broad ranging discussion that infuses information maintenance with practices, relationships, and ways of thinking and being that represent a coherent ethic of care.",
+		"DOI": "10.5281/zenodo.3251131",
 		"language": "eng",
-		"note": "DOI: 10.5281/zenodo.3251131\npublisher: Zenodo",
+		"note": "publisher: Zenodo",
 		"source": "Zenodo",
 		"title": "Information Maintenance as a Practice of Care",
 		"URL": "https://zenodo.org/record/3251131",
@@ -58282,7 +58283,7 @@
 				]
 			]
 		},
-		"citation-key": "maintainersInformationMaintenancePractice2019"
+		"citation-key": "Acker:2019a"
 	},
 	{
 		"id": "schaferValuesWebArchives2021",
@@ -59813,7 +59814,7 @@
 	},
 	{
 		"id": "rogers:2018",
-		"type": "article",
+		"type": "document",
 		"language": "en",
 		"note": "type: dataset\nDOI: 10.1285/I20356609V11I2P557",
 		"publisher": "University of Salento",
@@ -60500,7 +60501,7 @@
 		"citation-key": "Metz:2019a"
 	},
 	{
-		"id": "noblesHistoryCountsComparative2000",
+		"id": "Noble:2000",
 		"type": "article-journal",
 		"container-title": "American Journal of Public Health",
 		"DOI": "10.2105/AJPH.90.11.1738",
@@ -60537,7 +60538,7 @@
 				]
 			]
 		},
-		"citation-key": "noblesHistoryCountsComparative2000"
+		"citation-key": "Noble:2000"
 	},
 	{
 		"id": "Diehm:2021",
@@ -60849,7 +60850,7 @@
 		"citation-key": "Hennel:2021"
 	},
 	{
-		"id": "janesDarkSideAgile2012",
+		"id": "Succi:2012",
 		"type": "paper-conference",
 		"container-title": "Proceedings of the ACM international symposium on New ideas, new paradigms, and reflections on programming and software - Onward! '12",
 		"DOI": "10.1145/2384592.2384612",
@@ -60889,7 +60890,7 @@
 				]
 			]
 		},
-		"citation-key": "janesDarkSideAgile2012"
+		"citation-key": "Succi:2012"
 	},
 	{
 		"id": ":2006",
@@ -62388,7 +62389,7 @@
 	},
 	{
 		"id": "summersPageNowSPN2021a",
-		"type": "article",
+		"type": "document",
 		"abstract": "Experiments with WARC data from the Internet Archive's Save Page Now service.",
 		"note": "version: v0.2.0\ntype: dataset\nDOI: 10.5281/ZENODO.5529672",
 		"publisher": "Zenodo",
@@ -66982,5 +66983,695 @@
 			]
 		},
 		"citation-key": "Jaynes:2020"
+	},
+	{
+		"id": "Upward:1993",
+		"type": "chapter",
+		"container-title": "Archival Documents: Providing Accountability through Recordkeeping",
+		"page": "41-54",
+		"publisher": "Ancora Press",
+		"title": "Institutionalizing the Archival Document - Some Theoretical Perspectives on Terry Eastwood’s Challenge",
+		"author": [
+			{
+				"family": "Upward",
+				"given": "Frank"
+			}
+		],
+		"container-author": [
+			{
+				"family": "McKemmish",
+				"given": "Sue"
+			},
+			{
+				"family": "Upward",
+				"given": "Frank"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1993"
+				]
+			]
+		},
+		"citation-key": "Upward:1993"
+	},
+	{
+		"id": "Passi:2021",
+		"type": "thesis",
+		"abstract": "This thesis reveals the everyday origins of the social, ethical, and normative issues of data science, and the many ways in which practitioners struggle to define and deal with them in practice, reminding us that not all data science problems are technical in nature—some are deeply human, while others innately organizational.",
+		"event-place": "Ithaca, N.Y",
+		"number-of-pages": "223",
+		"publisher": "Cornell University",
+		"publisher-place": "Ithaca, N.Y",
+		"title": "Making Data Work: The Human and Organizational Lifeworlds of Data Science Practices",
+		"URL": "https://ecommons.cornell.edu/handle/1813/110898",
+		"author": [
+			{
+				"family": "Passi",
+				"given": "Samir"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		},
+		"citation-key": "Passi:2021"
+	},
+	{
+		"id": "Maxwell:2019",
+		"type": "book",
+		"edition": "1",
+		"note": "DOI: 10.21428/6bc8b38c.2e2f6c3f",
+		"publisher": "PubPub",
+		"source": "DOI.org (Crossref)",
+		"title": "Mind the Gap: A Landscape Analysis of Open Source Publishing Tools and Platforms",
+		"title-short": "Mind the Gap",
+		"URL": "https://mindthegap.pubpub.org/collection/2e2f6c3f",
+		"author": [
+			{
+				"family": "Maxwell",
+				"given": "John W"
+			},
+			{
+				"family": "Hanson",
+				"given": "Erik"
+			},
+			{
+				"family": "Desai",
+				"given": "Leena"
+			},
+			{
+				"family": "Tiampo",
+				"given": "Carmen"
+			},
+			{
+				"family": "O'Donnell",
+				"given": "Kim"
+			},
+			{
+				"family": "Ketheeswaran",
+				"given": "Avvai"
+			},
+			{
+				"family": "Sun",
+				"given": "Melody"
+			},
+			{
+				"family": "Walter",
+				"given": "Emma"
+			},
+			{
+				"family": "Michelle",
+				"given": "Ellen"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					8,
+					6
+				]
+			]
+		},
+		"citation-key": "Maxwell:2019"
+	},
+	{
+		"id": "Crockford:2008",
+		"type": "book",
+		"collection-title": "Unearthing the excellence in JavaScript",
+		"edition": "1. ed",
+		"event-place": "Beijing Köln",
+		"ISBN": "978-0-596-51774-8",
+		"language": "eng",
+		"number-of-pages": "153",
+		"publisher": "O'Reilly",
+		"publisher-place": "Beijing Köln",
+		"source": "K10plus ISBN",
+		"title": "JavaScript: the good parts ; [unearthing the excellence in JavaScript]",
+		"title-short": "JavaScript",
+		"author": [
+			{
+				"family": "Crockford",
+				"given": "Douglas"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		},
+		"citation-key": "Crockford:2008"
+	},
+	{
+		"id": "Fitzpatrick:2011",
+		"type": "book",
+		"abstract": "\"Academic institutions are facing a crisis in scholarly publishing at multiple levels: presses are stressed as never before, library budgets are squeezed, faculty are having difficulty publishing their work, and promotion and tenure committees are facing a range of new ways of working without a clear sense of how to understand and evaluate them. Planned Obsolescence is both a provocation to think more broadly about the academy's future and an argument for reconceiving that future in more communally-oriented ways. Facing these issues head-on, Kathleen Fitzpatrick focuses on the technological changes--especially greater utilization of internet publication technologies, including digital archives, social networking tools, and multimedia--necessary to allow academic publishing to thrive into the future. But she goes further, insisting that the key issues that must be addressed are social and institutional in origin. Springing from original research as well as Fitzpatrick's own hands-on experiments in new modes of scholarly communication through MediaCommons, the digital scholarly network she co-founded, Planned Obsolescence explores these aspects of scholarly work, as well as issues surrounding the preservation of digital scholarship and the place of publishing within the structure of the contemporary university. Written in an approachable style designed to bring administrators and scholars into a conversation, Planned Obsolescence explores both symptom and cure to ensure that scholarly communication will remain relevant in the digital future. \"--",
+		"event-place": "New York, NY",
+		"ISBN": "978-0-8147-2896-3",
+		"language": "eng",
+		"number-of-pages": "245",
+		"publisher": "New York University Press",
+		"publisher-place": "New York, NY",
+		"source": "K10plus ISBN",
+		"title": "Planned obsolescence: publishing, technology, and the future of the academy",
+		"title-short": "Planned obsolescence",
+		"author": [
+			{
+				"family": "Fitzpatrick",
+				"given": "Kathleen"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		},
+		"citation-key": "Fitzpatrick:2011"
+	},
+	{
+		"id": "Lilienthal:2019",
+		"type": "book",
+		"event-place": "Heidelberg",
+		"ISBN": "978-3-96088-780-5",
+		"language": "eng",
+		"number-of-pages": "297",
+		"publisher": "dpunkt",
+		"publisher-place": "Heidelberg",
+		"source": "K10plus ISBN",
+		"title": "Sustainable software architecture: analyze and reduce technical debt",
+		"title-short": "Sustainable software architecture",
+		"author": [
+			{
+				"family": "Lilienthal",
+				"given": "Carola"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		},
+		"citation-key": "Lilienthal:2019"
+	},
+	{
+		"id": "Soni:2017",
+		"type": "book",
+		"call-number": "QA29.S423 S66 2017",
+		"event-place": "New York",
+		"ISBN": "978-1-4767-6668-3",
+		"number-of-pages": "366",
+		"publisher": "Simon & Schuster",
+		"publisher-place": "New York",
+		"source": "Library of Congress ISBN",
+		"title": "A mind at play: how Claude Shannon invented the information age",
+		"title-short": "A mind at play",
+		"author": [
+			{
+				"family": "Soni",
+				"given": "Jimmy"
+			},
+			{
+				"family": "Goodman",
+				"given": "Rob"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		},
+		"citation-key": "Soni:2017"
+	},
+	{
+		"id": "Eglash:2013",
+		"type": "chapter",
+		"abstract": "The thesis of this paper is that many Native American cultures share a cluster of connected ideas around themes of randomness, and that many African cultures share a cluster of connected ideas around themes of deterministic chaos. The idea that African cultures are connected to deterministic chaos and its computational relatives in fractals and complexity theory are described in detail in Eglash (1999), but I will briefly review the essential concepts later in this essay. Let me begin however with Native American culture, since the idea of randomness is more familiar to most audiences.",
+		"ISBN": "978-3-643-90335-8",
+		"page": "17",
+		"source": "ResearchGate",
+		"title": "An Ethnocomputing Comparison of African and Native American Divination Systems",
+		"author": [
+			{
+				"family": "Eglash",
+				"given": "Ron"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013",
+					1,
+					1
+				]
+			]
+		},
+		"citation-key": "Eglash:2013"
+	},
+	{
+		"id": "Wilson:2022",
+		"type": "article-journal",
+		"abstract": "Data science collaboration is problematic when access to operational data or models from outside the data-holding organisation is prohibited, for a variety of legal, security, ethical, or practical reasons. There are signiﬁcant data privacy challenges when performing collaborative data science work against such restricted data. In this paper we describe a range of causes and risks associated with restricted data along with the social, environmental, data, and cryptographic measures that may be used to mitigate such issues. We then show how these are generally inadequate for restricted data contexts and introduce the ’Data Airlock’ — secure infrastructure that facilitates ’eyes-oﬀ’ data science workloads. After describing our use-case we detail the architecture and implementation of a ﬁrst, single-organisation version of the Data Airlock infrastructure. We conclude with outcomes and learning from this implementation, and outline requirements for a second, federated version.",
+		"container-title": "arXiv:2203.09006 [cs]",
+		"language": "en",
+		"note": "arXiv: 2203.09006",
+		"source": "arXiv.org",
+		"title": "The Data Airlock: infrastructure for restricted data informatics",
+		"title-short": "The Data Airlock",
+		"URL": "http://arxiv.org/abs/2203.09006",
+		"author": [
+			{
+				"family": "Rolan",
+				"given": "Gregory"
+			},
+			{
+				"family": "Dalins",
+				"given": "Janis"
+			},
+			{
+				"family": "Wilson",
+				"given": "Campbell"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					25
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					16
+				]
+			]
+		},
+		"citation-key": "Wilson:2022"
+	},
+	{
+		"id": "boyd:2021",
+		"type": "webpage",
+		"abstract": "Scholars Dan Bouk, Kevin Ackermann, and danah boyd join forces on a thought-provoking resource that begins to explore the power of official numbers and public data. In A Primer on Powerful Numbers: Selected Readings in the Social Study of Public Data and Official Numbers, the authors touch on the power and authority that public numbers […]",
+		"container-title": "Data & Society",
+		"language": "en-US",
+		"title": "A Primer on Powerful Numbers: Selected Readings in the Social Study of Public Data and Official Numbers",
+		"title-short": "A Primer on Powerful Numbers",
+		"URL": "https://datasociety.net/library/a-primer-on-powerful-numbers-selected-readings-in-the-social-study-of-public-data-and-official-numbers/",
+		"author": [
+			{
+				"family": "Bouk",
+				"given": "Dan"
+			},
+			{
+				"family": "Ackermann",
+				"given": "Kevin"
+			},
+			{
+				"family": "boyd",
+				"given": "danah"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					25
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		},
+		"citation-key": "boyd:2021"
+	},
+	{
+		"id": "Bouk:2015",
+		"type": "book",
+		"call-number": "HG8531 .B68 2015",
+		"event-place": "Chicago ; London",
+		"ISBN": "978-0-226-25917-8",
+		"number-of-pages": "294",
+		"publisher": "University of Chicago Press",
+		"publisher-place": "Chicago ; London",
+		"source": "Library of Congress ISBN",
+		"title": "How our days became numbered: risk and the rise of the statistical individual",
+		"title-short": "How our days became numbered",
+		"author": [
+			{
+				"family": "Bouk",
+				"given": "Daniel B."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		},
+		"citation-key": "Bouk:2015"
+	},
+	{
+		"id": "Porter:1995",
+		"type": "book",
+		"event-place": "Princeton, New Jersey",
+		"publisher": "Princeton University Press",
+		"publisher-place": "Princeton, New Jersey",
+		"title": "Trust in Numbers: The Pursuit of Objectivity in Science and Public Life",
+		"author": [
+			{
+				"family": "Porter",
+				"given": "Theodore M."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1995"
+				]
+			]
+		},
+		"citation-key": "Porter:1995"
+	},
+	{
+		"id": "Sambasivan:2022",
+		"type": "article-journal",
+		"abstract": "Field workers, like farmers and radiologists, play a crucial role in dataset collection for AI models in low-resource settings. However, we know little about how field workers’ expertise is leveraged in dataset and model development. Based on 68 interviews with AI developers building for low-resource contexts, we find that developers reduced field workers to data collectors. Attributing poor data quality to worker practices, developers conceived of workers as corrupt, lazy, non-compliant, and as datasets themselves, pursuing surveillance and gamification to discipline workers to collect better quality data. Even though models sought to emulate the expertise of field workers, AI developers treated workers as non-essential and deskilled their expertise in service of building machine intelligence. We make the case for why field workers should be recognised as domain experts and re-imagine domain expertise as an essential partnership for AI development.",
+		"language": "en",
+		"page": "14",
+		"source": "Zotero",
+		"title": "The Deskilling of Domain Expertise in AI Development",
+		"author": [
+			{
+				"family": "Sambasivan",
+				"given": "Nithya"
+			},
+			{
+				"family": "Veeraraghavan",
+				"given": "Rajesh"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		},
+		"citation-key": "Sambasivan:2022"
+	},
+	{
+		"id": "Kautz:2010",
+		"type": "paper-conference",
+		"abstract": "This paper contributes to the studies of design activities in information systems development. It provides a case study of a large agile development project and focusses on how customers and users participated in agile development and design activities in practice. The investigated project utilized the agile method eXtreme Programming. Planning games, user stories and story cards, working software, and acceptance tests structured the customer and user involvement. We found genuine customer and user involvement in the design activities in the form of both direct and indirect participation in the agile development project. The involved customer representatives played informative, consultative, and participative roles in the project. This led to their functional empowerment-- the users were enabled to carry out their work to their own satisfaction and in an effective, efficient, and economical manner.",
+		"DOI": "10.1007/978-3-642-12113-5_18",
+		"event": "IFIP WG 8.2/8.6 InternationalWorking Conference on Human Benefit through the Diffusion of Information Systems Design Science Research",
+		"language": "en",
+		"page": "303",
+		"publisher": "Springer",
+		"source": "hal.inria.fr",
+		"title": "Participatory Design Activities and Agile Software Development",
+		"URL": "https://hal.inria.fr/hal-01060407",
+		"volume": "AICT-318",
+		"author": [
+			{
+				"family": "Kautz",
+				"given": "Karlheinz"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					8
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2010",
+					3,
+					30
+				]
+			]
+		},
+		"citation-key": "Kautz:2010"
+	},
+	{
+		"id": "Hacking:1981",
+		"type": "article-journal",
+		"container-title": "Pacific Philosophical Quarterly",
+		"DOI": "10.1111/j.1468-0114.1981.tb00070.x",
+		"ISSN": "1468-0114",
+		"issue": "4",
+		"language": "en",
+		"note": "_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1468-0114.1981.tb00070.x",
+		"page": "305-322",
+		"source": "Wiley Online Library",
+		"title": "Do We See Through a Microscope?",
+		"URL": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0114.1981.tb00070.x",
+		"volume": "62",
+		"author": [
+			{
+				"family": "Hacking",
+				"given": "Ian"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					11
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1981"
+				]
+			]
+		},
+		"citation-key": "Hacking:1981"
+	},
+	{
+		"id": "Archer:2021",
+		"type": "article-journal",
+		"container-title": "Surveillance & Society",
+		"DOI": "10.24908/ss.v19i3.14256",
+		"ISSN": "1477-7487",
+		"issue": "3",
+		"language": "en",
+		"page": "282-298",
+		"source": "ojs.library.queensu.ca",
+		"title": "Imagining Impact in Global Supply Chains: Data-Driven Sustainability and the Production of Surveillable Space",
+		"title-short": "Imagining Impact in Global Supply Chains",
+		"URL": "https://ojs.library.queensu.ca/index.php/surveillance-and-society/article/view/14256",
+		"volume": "19",
+		"author": [
+			{
+				"family": "Archer",
+				"given": "Matthew"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					12
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					21
+				]
+			]
+		},
+		"citation-key": "Archer:2021"
+	},
+	{
+		"id": "Hassan:2016",
+		"type": "article-journal",
+		"abstract": "“Code is law” refers to the idea that, with the advent of digital technology, code has progressively established itself as the predominant way to regulate the behavior of Internet users. Yet, while computer code can enforce rules more efficiently than legal code, it also comes with a series of limitations, mostly because it is difficult to transpose the ambiguity and flexibility of legal rules into a formalized language which can be interpreted by a machine. With the advent of blockchain technology and associated smart contracts, code is assuming an even stronger role in regulating people’s interactions over the Internet, as many contractual transactions get transposed into smart contract code. In this paper, we describe the shift from the traditional notion of “code is law” (i.e., code having the effect of law) to the new conception of “law is code” (i.e., law being defined as code).",
+		"container-title": "First Monday",
+		"DOI": "10.5210/fm.v21i12.7113",
+		"ISSN": "1396-0466",
+		"language": "en",
+		"source": "firstmonday.org",
+		"title": "Blockchain technology as a regulatory technology: From code is law to law is code",
+		"title-short": "Blockchain technology as a regulatory technology",
+		"URL": "https://firstmonday.org/ojs/index.php/fm/article/view/7113",
+		"author": [
+			{
+				"family": "Filippi",
+				"given": "Primavera De"
+			},
+			{
+				"family": "Hassan",
+				"given": "Samer"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					12
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					11,
+					14
+				]
+			]
+		},
+		"citation-key": "Hassan:2016"
+	},
+	{
+		"id": "Power:2013",
+		"type": "book",
+		"edition": "Repr",
+		"event-place": "Oxford",
+		"ISBN": "978-0-19-829603-4",
+		"language": "eng",
+		"number-of-pages": "1",
+		"publisher": "Oxford University Press",
+		"publisher-place": "Oxford",
+		"source": "K10plus ISBN",
+		"title": "The audit society: rituals of verification",
+		"title-short": "The audit society",
+		"author": [
+			{
+				"family": "Power",
+				"given": "Michael"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		},
+		"citation-key": "Power:2013"
+	},
+	{
+		"id": "Thylstrup:2022",
+		"type": "article-journal",
+		"abstract": "This glossary entry explores traceability which is an increasingly prominent research topic in decentralised technosocial systems in fields as diverse as health, sustainability, finance, and supply chain management and relates to the ability to trace something or someone.",
+		"container-title": "Internet Policy Review",
+		"ISSN": "2197-6775",
+		"issue": "1",
+		"source": "policyreview.info",
+		"title": "Traceability",
+		"URL": "https://policyreview.info/glossary/traceability",
+		"volume": "11",
+		"author": [
+			{
+				"family": "Thylstrup",
+				"given": "Nanna Bonde"
+			},
+			{
+				"family": "Archer",
+				"given": "Matthew"
+			},
+			{
+				"family": "Ravn",
+				"given": "Louis"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					12
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					30
+				]
+			]
+		},
+		"citation-key": "Thylstrup:2022"
+	},
+	{
+		"id": "Cox:2002",
+		"type": "book",
+		"call-number": "CD971 .A73 2002",
+		"event-place": "Westport, Conn",
+		"ISBN": "978-1-56720-469-8",
+		"number-of-pages": "340",
+		"publisher": "Quorum Books",
+		"publisher-place": "Westport, Conn",
+		"source": "Library of Congress ISBN",
+		"title": "Archives and the public good: accountability and records in modern society",
+		"title-short": "Archives and the public good",
+		"editor": [
+			{
+				"family": "Cox",
+				"given": "Richard J."
+			},
+			{
+				"family": "Wallace",
+				"given": "David A."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2002"
+				]
+			]
+		},
+		"citation-key": "Cox:2002"
 	}
 ]
