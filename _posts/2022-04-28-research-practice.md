@@ -5,7 +5,7 @@ tags:
 - programming
 - research
 - software
-- GitHub
+- github
 ---
 
 These are some notes that I shared internally at work after attending [It Will Never Work in Theory](https://neverworkintheory.org/) yesterday. The full list of presenters is near the bottom of [this page](https://neverworkintheory.org/). As you can see the presentations were largely from researchers who were studying software development practices. But the thing I really liked was that almost all the presenters made an effort to bring their findings back to how they could be applied in practice. The presentations were also short and very high quality. The event bridged the gap between research about software development and software development practitioners. Look for the videos to be released in the next few weeks. Here are the ones that jumped out at me while listening.
