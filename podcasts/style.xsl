@@ -6,16 +6,19 @@
                 <title>Ed's Podcast Subscriptions</title>
                 <style type="text/css">
                     body {
-                        margin: 5% 10% 5% 10%;
-                        font-size: 14pt;
-                        font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-                    }
-                    ul {
-                        margin: 10px;
+                      margin: 5% 10% 5% 10%;
+                      font-size: 14pt;
+                      font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
                     }
                     li {
+                      list-style-type: none;
                       margin-left: 10px;
                       margin-bottom: 10px;
+                    }
+                    li img {
+                      height: 14pt;
+                      margin-right: 10px;
+                      vertical-align: middle;
                     }
                     @media(prefers-color-scheme: dark) {
                       body {
@@ -46,8 +49,16 @@
 	    <xsl:when test="@type">
 		<xsl:choose>
 		    <xsl:when test="@xmlUrl">
-			<li>
-			    <a href="{@htmlUrl}"><xsl:value-of select="@text"/></a>
+                        <li>
+                            <a href="{@xmlUrl}"><img src="rss.svg" /></a>
+                            <xsl:choose>
+                                <xsl:when test="starts-with(@htmlUrl, 'http')">
+                                    <a href="{@htmlUrl}"><xsl:value-of select="@text"/></a>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <a href="https://{@htmlUrl}"><xsl:value-of select="@text"/></a>
+                                </xsl:otherwise>
+                            </xsl:choose>
 			</li>
 		    </xsl:when>
 		    <xsl:otherwise>
