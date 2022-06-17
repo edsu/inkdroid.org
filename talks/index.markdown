@@ -8,6 +8,14 @@ information technology in libraries and archives. Some of this stuff looks kind
 of dated now, but I guess it illustrates my meandering career path.
 
 <p class="story">
+<strong>Web Archives in Digital Repositories</strong><br> 
+Ilya Kreymer and me<br>
+<a href="https://2022.code4lib.org/talks/Web-archives-in-digital-repositories-Simple-integration-and-reducing-software-maintenance-footprint">Code4lib 2022</a><br>
+Buffalo, NY (May 25, 2022)<br>
+[<a href="https://www.youtube.com/watch?v=dtd5Os5t0Io&t=1513s">video</a>]
+</p>
+
+<p class="story">
 <strong>Patterns of Use: Conceptualizing the Role of Web Archives in Online
 Discourse</strong><br> Jessica Ogden, Shawn Walker and me<br>
 <a href="https://www.resaw2021.net/programme/">RESAW 2021</a><br>
