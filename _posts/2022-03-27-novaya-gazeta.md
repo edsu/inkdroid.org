@@ -3,7 +3,7 @@ title: Novaya Gazeta
 layout: post
 tags:
 - politics
-- web-archive
+- web-archives
 - censorship
 - war
 ---
