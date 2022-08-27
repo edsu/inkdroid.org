@@ -8,11 +8,18 @@ information technology in libraries and archives. Some of this stuff looks kind
 of dated now, but I guess it illustrates my meandering career path.
 
 <p class="story">
+<strong>Existing Archival Practice: Web Archives as Infrastructure</strong><br>
+StarlingLab Workshop on Web Archives as Legal Evidence<br>
+August 27, 2022<br>
+[<a href="starlinglab-2022.pdf">slides</a>]
+</p>
+
+<p class="story">
 <strong>Web Archives in Digital Repositories</strong><br> 
 Ilya Kreymer and me<br>
 <a href="https://2022.code4lib.org/talks/Web-archives-in-digital-repositories-Simple-integration-and-reducing-software-maintenance-footprint">Code4lib 2022</a><br>
 Buffalo, NY (May 25, 2022)<br>
-[<a href="https://www.youtube.com/watch?v=dtd5Os5t0Io&t=1513s">video</a>]
+[<a href="https://www.youtube.com/watch?v=dtd5Os5t0Io&t=1513s">video</a>] [<a href="code4lib2022.pdf">slides</a>]
 </p>
 
 <p class="story">

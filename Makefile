@@ -17,7 +17,7 @@ build: indexes
 	JEKYLL_ENV=production bundle exec jekyll build --incremental
 
 rsync:
-	rsync -ar --exclude '.dat' --exclude web-archives --rsh='ssh -p22334' _site/ ed@inkdroid.org:/var/www/inkdroid.org
+	rsync -ar --exclude '.dat' --rsh='ssh -p22334' _site/ ed@inkdroid.org:/var/www/inkdroid.org
 
 cv: 
 	cd ehs && make
