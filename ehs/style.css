@@ -14,3 +14,25 @@ a, a:visited {
 a:hover {
     color: red;
 }
+
+@media(prefers-color-scheme: dark) {
+
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  a {
+    color: #33ff00;
+  }
+
+  a:visited {
+    color: #33ff00;
+  }
+
+  a:hover {
+    color: #33ff00;
+    text-decoration: underline;
+  }
+
+}

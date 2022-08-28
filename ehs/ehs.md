@@ -4,9 +4,9 @@ ehs@pobox.com / 240-478-7086\\
 304 Brewster Court, Silver Spring, MD 20901\\
 \end{center}
 
-I am a software developer and social scientist with two decades of experience
+I am a software developer and research designer with two decades of experience
 bridging the worlds of data management and the Web. I have worked in academia,
-startups, corporations and government. I accelerate the work of agile, highly
+startups, corporations and government. I thrive while working in agile, highly
 collaborative teams that focus on knowledge sharing and a commitment to
 sustainability.
 
@@ -18,7 +18,7 @@ sustainability.
 * infrastructure: Linux, AWS, Ansible, Terraform
 * databases: PostgreSQL, MariaDB, Redis, ElasticSearch, Solr, MongoDB
 * visualization: D3, Plotly, vis.js, Gephi
-* practice: agile, automated testing, continuous integration, standards
+* practice: agile, automated testing, continuous integration, standards, documentation
 
 ## Work History
 
@@ -28,6 +28,7 @@ Stanford University
 01/2022 - 
 
 * Full stack software development
+* Web archive creation, preservation and access
 * Digital repositories, data preservation
 * Web services (REST) / Service design
 
@@ -35,9 +36,9 @@ Design Researcher
 Webrecorder  
 10/2021 - 
 
-* Data standards (WACZ)
 * Requirements and use case gathering
-* Technical writing
+* Technical writing for data [specifications]
+* Software development (Python, JavaScript)
 
 Research Faculty  
 Maryland Institute for Technology in the Humanities  
@@ -210,6 +211,7 @@ Champaign-Urbana, IL
 These are some projects and experiments where I've been directly involved in
 the technical development.
 
+* [Stanford Web Archive Program] - On site crawling, preservation and replay of web archives using [Webrecorder] tools.
 * [Unlocking the Airwaves] - NEH funded virtual reunification and minimal computing project
 * [Documenting the Now] - Mellon funded social media archiving practices and tools
 * [Chronicling America] - Library of Congress access to historical newspapers.
@@ -277,10 +279,10 @@ Analytics. June, 2019.
 
 ## Awards
 
-* 2018 [Community Capacity Award](https://www.diglib.org/announcing-the-2018-dlf-community-capacity-award-winner/).  Digital Library Federation.
+* 2018 [Community Capacity Award](https://www.diglib.org/announcing-the-2018-dlf-community-capacity-award-winner/). Digital Library Federation.
 * 2018 [Exemplary Service Award](https://www2.archivists.org/node/23172). Society of American Archivists.
 * 2015 University of Maryland Scholarship and Research Award
-* 2015 [Frederick G. Kilgour Award for Research in Library and Information Technology](http://www.ala.org/news/press-releases/2015/03/ed-summers-recipient-2015-kilgour-award).  American Library Association.
+* 2015 [Frederick G. Kilgour Award for Research in Library and Information Technology](http://www.ala.org/news/press-releases/2015/03/ed-summers-recipient-2015-kilgour-award). American Library Association.
 
 [Appraisal Talk in Web Archives]: https://inkdroid.org/papers/appraisal-talk.pdf
 [Appraisal Practices in Web Archives]: https://osf.io/preprints/socarxiv/75mjp/
@@ -336,4 +338,6 @@ to systemic racism]:
 https://www.brookings.edu/research/bystander-intervention-on-social-media-examining-cyberbullying-and-reactions-to-systemic-racism/
 [Demagoguery, Democracy, and Digitality]: https://manifold.as.uky.edu/read/teaching-demagoguery-and-democracy-rhetorical-pedagogy-in-polarized-times/section/a2669e5b-6f16-4422-b384-2f859bd88605
 [What We Talk about When We Talk about Archiving the Web]: https://doi.org/10.17723/0360-9081-83.1.167
-
+[Stanford Web Archive Program]: https://library.stanford.edu/projects/web-archiving
+[Webrecorder]: https://webrecorder.net
+[specifications]: https://specs.webrecorder.net

@@ -4,11 +4,11 @@ ehs@pobox.com / 240-478-7086\\
 304 Brewster Court, Silver Spring, MD 20901\\
 \end{center}
 
-I am a software developer and social scientist with two decades of
+I am a software developer and research designer with two decades of
 experience bridging the worlds of data management and the Web. I have
-worked in academia, startups, corporations and government. I accelerate
-the work of agile, highly collaborative teams that focus on knowledge
-sharing and a commitment to sustainability.
+worked in academia, startups, corporations and government. I thrive
+while working in agile, highly collaborative teams that focus on
+knowledge sharing and a commitment to sustainability.
 
 \hypertarget{skills}{%
 \subsection{Skills}\label{skills}}
@@ -28,7 +28,8 @@ sharing and a commitment to sustainability.
 \item
   visualization: D3, Plotly, vis.js, Gephi
 \item
-  practice: agile, automated testing, continuous integration, standards
+  practice: agile, automated testing, continuous integration, standards,
+  documentation
 \end{itemize}
 
 \hypertarget{work-history}{%
@@ -44,6 +45,8 @@ Stanford University\\
 \item
   Full stack software development
 \item
+  Web archive creation, preservation and access
+\item
   Digital repositories, data preservation
 \item
   Web services (REST) / Service design
@@ -56,11 +59,12 @@ Webrecorder\\
 \begin{itemize}
 \tightlist
 \item
-  Data standards (WACZ)
-\item
   Requirements and use case gathering
 \item
-  Technical writing
+  Technical writing for data
+  \href{https://specs.webrecorder.net}{specifications}
+\item
+  Software development (Python, JavaScript)
 \end{itemize}
 
 Research Faculty\\
@@ -366,6 +370,10 @@ involved in the technical development.
 
 \begin{itemize}
 \tightlist
+\item
+  \href{https://library.stanford.edu/projects/web-archiving}{Stanford
+  Web Archive Program} - On site crawling, preservation and replay of
+  web archives using \href{https://webrecorder.net}{Webrecorder} tools.
 \item
   \href{https://unlockingtheairwaves.org}{Unlocking the Airwaves} - NEH
   funded virtual reunification and minimal computing project
