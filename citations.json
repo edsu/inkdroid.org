@@ -66513,5 +66513,547 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "Punzalan:2022",
+		"type": "article-journal",
+		"abstract": "ABSTRACT\n            Increasing interest in indigenization, decolonization, community archives, and the recent adoption of the Protocols for Native American Archival Materials (PNAAM) by the Society of American Archivists, offer opportunities for archivists to reflect on the application of “reciprocity” in archives. This article examines reciprocity as a concept in the archival field and shows how current reciprocal practices in archives with Native and Indigenous holdings can inform the wider field and its practice. The authors chart the emergence of reciprocity as an archival responsibility and to create fieldwide change through meaningful, community-based partnerships. They posit a continuum of institutional reciprocity, as well as how reciprocity might be seeded into the core functions of archives to bridge distances between communities and archival institutions. Inspired by recent scholarship in museum studies, the article concludes with a vision of “otherwising” to explore alternative possibilities that can be realized when we adopt reciprocity as an archival practice.",
+		"container-title": "The American Archivist",
+		"DOI": "10.17723/2327-9702-85.1.30",
+		"ISSN": "0360-9081",
+		"issue": "1",
+		"language": "en",
+		"page": "30-59",
+		"source": "DOI.org (Crossref)",
+		"title": "Reciprocity: Building a Discourse in Archives",
+		"title-short": "Reciprocity",
+		"URL": "https://meridian.allenpress.com/american-archivist/article/85/1/30/483435/Reciprocity-Building-a-Discourse-in-Archives",
+		"volume": "85",
+		"author": [
+			{
+				"family": "Punzalan",
+				"given": "Ricardo L."
+			},
+			{
+				"family": "Marsh",
+				"given": "Diana E."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					7,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "Urton:2017",
+		"type": "book",
+		"call-number": "F3429.3.Q6 U75 2017",
+		"collection-title": "Joe R. and Teresa Lozano Long series in Latin American and Latino art and culture",
+		"edition": "First edition",
+		"event-place": "Austin",
+		"ISBN": "978-1-4773-1198-1",
+		"number-of-pages": "293",
+		"publisher": "University of Texas Press",
+		"publisher-place": "Austin",
+		"source": "Library of Congress ISBN",
+		"title": "Inka history in knots: reading khipus as primary sources",
+		"title-short": "Inka history in knots",
+		"author": [
+			{
+				"family": "Urton",
+				"given": "Gary"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "Hegarty:2022",
+		"type": "article-journal",
+		"container-title": "Internet Histories",
+		"DOI": "10.1080/24701475.2022.2103988",
+		"ISSN": "2470-1475, 2470-1483",
+		"journalAbbreviation": "Internet Histories",
+		"language": "en",
+		"page": "1-20",
+		"source": "DOI.org (Crossref)",
+		"title": "The invention of the archived web: tracing the influence of library frameworks on web archiving infrastructure",
+		"title-short": "The invention of the archived web",
+		"URL": "https://www.tandfonline.com/doi/full/10.1080/24701475.2022.2103988",
+		"author": [
+			{
+				"family": "Hegarty",
+				"given": "Kieran"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					8,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					7,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "ProgramforCooperativeCataloging:2022",
+		"type": "report",
+		"abstract": "In response to suggestions made during the PCC Participants’ Meeting in February 2022 about having a PCC Wikibase instance, PCC Chairs asked the Standing Committee on Applications (SCA) to explore the pros and cons of doing so (including both technical and non-technical aspects). SCA surveyed a number of organizations with Wikibase instances in April 2022 and asked about their experiences with installation and implementation of a Wikibase instance.\nBased on the survey findings, SCA recommends that the PCC explore joining the waitlist for, a \"Wikibase as a Service\" platform that offers open knowledge projects a new way to create Wikibases quickly and easily”. Wikibase.cloud would require no installation of which may help mitigate any concerns with IT security and infrastructure - and would allow\ncreation of external user accounts and easier administration.",
+		"publisher": "Library of Congress",
+		"title": "PCC Wikibase Exploration Report",
+		"URL": "https://www.loc.gov/aba/pcc/sca/documents/Wikibase-Exploration-Survey-Report.pdf",
+		"author": [
+			{
+				"family": "Program for Cooperative Cataloging",
+				"given": ""
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "Ruiter:2021",
+		"type": "book",
+		"abstract": "Data Pipelines with Apache Airflow teaches you how to build and maintain effective data pipelines. A successful pipeline moves data efficiently, minimizing pauses and blockages between tasks, keeping every process along the way operational. Apache Airflow provides a single customizable environment for building and managing data pipelines, eliminating the need for a hodgepodge collection of tools, snowflake code, and homegrown processes. Using real-world scenarios and examples, Data Pipelines with Apache Airflow teaches you how to simplify and automate data pipelines, reduce operational overhead, and smoothly integrate all the technologies in your stack... Data pipelines manage the flow of data from initial collection through consolidation, cleaning, analysis, visualization, and more. Apache Airflow provides a single platform you can use to design, implement, monitor, and maintain your pipelines. Its easy-to-use UI, plug-and-play options, and flexible Python scripting make Airflow perfect for any data management task. Data Pipelines with Apache Airflow teaches you how to build and maintain effective data pipelines. You'll explore the most common usage patterns, including aggregating multiple data sources, connecting to and from data lakes, and cloud deployment. Part reference and part tutorial, this practical guide covers every aspect of the directed acyclic graphs (DAGs) that power Airflow, and how to customize them for your pipeline's needs. Build, test, and deploy Airflow pipelines as DAGs; Automate moving and transforming data; Analyze historical datasets using backfilling; Develop custom components; Set up Airflow in production environments. For DevOps, data engineers, machine learning engineers, and sysadmins with intermediate Python skills. -- From publisher's description",
+		"call-number": "QA76.9.D343 H46 2021",
+		"event-place": "Shelter Island, NY",
+		"ISBN": "978-1-61729-690-1",
+		"note": "OCLC: on1249108869",
+		"number-of-pages": "454",
+		"publisher": "Manning Publications Co",
+		"publisher-place": "Shelter Island, NY",
+		"source": "Library of Congress ISBN",
+		"title": "Data pipelines with Apache Airflow",
+		"author": [
+			{
+				"family": "Harenslak",
+				"given": "Bas"
+			},
+			{
+				"family": "Ruiter",
+				"given": "Julian",
+				"dropping-particle": "de"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Muller:2002",
+		"type": "book",
+		"call-number": "D842 .M426 2002",
+		"event-place": "Cambridge, UK ; New York, NY",
+		"ISBN": "978-0-521-80610-7",
+		"number-of-pages": "288",
+		"publisher": "Cambridge University Press",
+		"publisher-place": "Cambridge, UK ; New York, NY",
+		"source": "Library of Congress ISBN",
+		"title": "Memory and power in post-war Europe: studies in the presence of the past",
+		"title-short": "Memory and power in post-war Europe",
+		"editor": [
+			{
+				"family": "Müller",
+				"given": "Jan-Werner"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2002"
+				]
+			]
+		}
+	},
+	{
+		"id": "Quintana:1997",
+		"type": "report",
+		"event-place": "Paris",
+		"page": "21",
+		"publisher": "UNESCO",
+		"publisher-place": "Paris",
+		"title": "Archives of the Security Services of Former Repressive Regimes",
+		"author": [
+			{
+				"family": "Quintana",
+				"given": "Antonio Gonzalez"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1997"
+				]
+			]
+		}
+	},
+	{
+		"id": "Monnin:2012",
+		"type": "book",
+		"collection-number": "859",
+		"collection-title": "CEUR Workshop proceedings",
+		"event-place": "Lyon, France",
+		"publisher-place": "Lyon, France",
+		"title": "Proceedings of the WWW2012 conference workshop PhiloWeb 2012: \"Web and Philosophy, Why and What For?\"",
+		"URL": "https://www.researchgate.net/publication/266203218_Proceedings_of_the_WWW2012_conference_workshop_PhiloWeb_2012_Web_and_Philosophy_Why_and_What_For",
+		"editor": [
+			{
+				"family": "Monnin",
+				"given": "Alexandre"
+			},
+			{
+				"family": "Halpin",
+				"given": "Harry"
+			},
+			{
+				"family": "Carr",
+				"given": "Leslie"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "Crooks:2021",
+		"type": "article-journal",
+		"container-title": "The Information Society",
+		"DOI": "10.1080/01972243.2021.1920081",
+		"ISSN": "0197-2243, 1087-6537",
+		"issue": "4",
+		"journalAbbreviation": "The Information Society",
+		"language": "en",
+		"page": "201-213",
+		"source": "DOI.org (Crossref)",
+		"title": "Numbers will not save us: Agonistic data practices",
+		"title-short": "Numbers will not save us",
+		"URL": "https://www.tandfonline.com/doi/full/10.1080/01972243.2021.1920081",
+		"volume": "37",
+		"author": [
+			{
+				"family": "Crooks",
+				"given": "Roderic"
+			},
+			{
+				"family": "Currie",
+				"given": "Morgan"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					8,
+					26
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					8,
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "Burks:2018",
+		"type": "book",
+		"abstract": "The first translation of the volumes in Michel Serres' classic 'Humanism' tetralogy, this ambitious philosophical narrative explores what it means to be human. With his characteristic breadth of references including art, poetry, science, philosophy and literature, Serres paints a new picture of what it might mean to live meaningfully in contemporary society. He tells the story of humankind (from the beginning of time to the present moment) in an attempt to affirm his overriding thesis that humans and nature have always been part of the same ongoing and unfolding history. This crucial piece of posthumanist philosophical writing has never before been released in English. A masterful translation by Randolph Burks ensures the poetry and wisdom of Serres writing is preserved and his notion of what humanity is and might be is opened up to new audiences. --",
+		"call-number": "BD450 .S396913 2018",
+		"event-place": "London",
+		"ISBN": "978-1-4742-9741-7",
+		"language": "eng",
+		"note": "OCLC: on1000582111",
+		"number-of-pages": "240",
+		"publisher": "Bloomsbury Academic",
+		"publisher-place": "London",
+		"source": "Library of Congress ISBN",
+		"title": "The incandescent",
+		"author": [
+			{
+				"family": "Serres",
+				"given": "Michel"
+			},
+			{
+				"family": "Burks",
+				"given": "Randolph"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "Fuller:2019",
+		"type": "book",
+		"call-number": "BH301.E58 F85 2019",
+		"collection-number": "53",
+		"collection-title": "Posthumanities",
+		"event-place": "Minneapolis ; London",
+		"ISBN": "978-1-5179-0552-1",
+		"number-of-pages": "192",
+		"publisher": "University of Minnesota Press",
+		"publisher-place": "Minneapolis ; London",
+		"source": "Library of Congress ISBN",
+		"title": "Bleak joys: aesthetics of ecology and impossibility",
+		"title-short": "Bleak joys",
+		"author": [
+			{
+				"family": "Fuller",
+				"given": "Matthew"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "Shenoda:2019",
+		"type": "book",
+		"abstract": "Spanning more than six decades of Sudan's post-independence history, Modern Sudanese Poetry features around 60 pieces by some of Sudan's most renowned poets--Provided by publisher",
+		"call-number": "PJ8314.5.E5 M63 2019",
+		"collection-title": "African poetry book series",
+		"event-place": "Lincoln",
+		"ISBN": "978-1-4962-1563-5",
+		"language": "eng",
+		"number-of-pages": "148",
+		"publisher": "University of Nebraska Press",
+		"publisher-place": "Lincoln",
+		"source": "Library of Congress ISBN",
+		"title": "Modern Sudanese poetry: an anthology",
+		"title-short": "Modern Sudanese poetry",
+		"editor": [
+			{
+				"family": "Babikir",
+				"given": "Adil"
+			},
+			{
+				"family": "Shenoda",
+				"given": "Matthew"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "Tondeur:2016",
+		"type": "book",
+		"collection-title": "Critical climate change",
+		"edition": "First edition",
+		"event-place": "London",
+		"ISBN": "978-1-78542-026-9",
+		"language": "eng",
+		"number-of-pages": "73",
+		"publisher": "Open Humanities Press",
+		"publisher-place": "London",
+		"source": "K10plus ISBN",
+		"title": "The Chernobyl herbarium: fragments of an exploded consciousness",
+		"title-short": "The Chernobyl herbarium",
+		"author": [
+			{
+				"family": "Marder",
+				"given": "Michael P."
+			},
+			{
+				"family": "Tondeur",
+				"given": "Anaïs"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "Schneider:2022",
+		"type": "article-journal",
+		"abstract": "Critics have been converging around the logic of colonialism to describe the Internet economy. If we are serious about the laden language of the colonial, we should be ready to learn from struggles against pre-digital empires and colonial regimes. Although acts of insurrection may attract more attention, one thing leaders and theorists of anticolonial resistance have stressed persistently is the centrality of self-governance in everyday life as both a means and end of their movements. But the dominant platforms for online communities are not well-suited for durable self-governing. Resistance often relies on the same colonial firms it opposes. What would community-governed technologies look like? This paper introduces the concept of “governable stacks”, a framework for self-governing as resistance to digital colonialism.",
+		"container-title": "tripleC: Communication, Capitalism & Critique. Open Access Journal for a Global Sustainable Information Society",
+		"DOI": "10.31269/triplec.v20i1.1281",
+		"ISSN": "1726-670X, 1726-670X",
+		"issue": "1",
+		"journalAbbreviation": "tripleC",
+		"page": "19-36",
+		"source": "DOI.org (Crossref)",
+		"title": "Governable Stacks against Digital Colonialism",
+		"URL": "https://www.triple-c.at/index.php/tripleC/article/view/1281",
+		"volume": "20",
+		"author": [
+			{
+				"family": "Schneider",
+				"given": "Nathan"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					9,
+					8
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					1,
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "Schneider:2021",
+		"type": "article-journal",
+		"container-title": "Feminist Media Studies",
+		"DOI": "10.1080/14680777.2021.1890183",
+		"ISSN": "1468-0777, 1471-5902",
+		"journalAbbreviation": "Feminist Media Studies",
+		"language": "en",
+		"page": "1-18",
+		"source": "DOI.org (Crossref)",
+		"title": "The Tyranny of openness: what happened to peer production?",
+		"title-short": "The Tyranny of openness",
+		"URL": "https://www.tandfonline.com/doi/full/10.1080/14680777.2021.1890183",
+		"author": [
+			{
+				"family": "Schneider",
+				"given": "Nathan"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					9,
+					8
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					2,
+					17
+				]
+			]
+		}
+	},
+	{
+		"id": "Raghunandan:2022",
+		"type": "article",
+		"abstract": "Sensemaking is the iterative process of identifying, extracting, and explaining insights from data, where each iteration is referred to as the \"sensemaking loop.\" Although recent work observes snapshots of the sensemaking loop within computational notebooks, none measure shifts in sensemaking behaviors over time -- between exploration and explanation. This gap limits our ability to understand the full scope of the sensemaking process and thus our ability to design tools to fully support sensemaking. We contribute the first quantitative method to characterize how sensemaking evolves within data science computational notebooks. To this end, we conducted a quantitative study of 2,574 Jupyter notebooks mined from GitHub. First, we identify data science-focused notebooks that have undergone significant iterations. Second, we present regression models that automatically characterize sensemaking activity within individual notebooks by assigning them a score representing their position within the sensemaking spectrum. Finally, we use our regression models to calculate and analyze shifts in notebook scores across GitHub versions. Our results show that notebook authors participate in a diverse range of sensemaking tasks over time, such as annotation, branching analysis, and documentation. Finally, we propose design recommendations for extending notebook environments to support the sensemaking behaviors we observed.",
+		"note": "arXiv:2209.02851 [cs]",
+		"number": "arXiv:2209.02851",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Code Code Evolution: Understanding How People Change Data Science Notebooks Over Time",
+		"title-short": "Code Code Evolution",
+		"URL": "http://arxiv.org/abs/2209.02851",
+		"author": [
+			{
+				"family": "Raghunandan",
+				"given": "Deepthi"
+			},
+			{
+				"family": "Roy",
+				"given": "Aayushi"
+			},
+			{
+				"family": "Shi",
+				"given": "Shenzhi"
+			},
+			{
+				"family": "Elmqvist",
+				"given": "Niklas"
+			},
+			{
+				"family": "Battle",
+				"given": "Leilani"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					9,
+					14
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					9,
+					8
+				]
+			]
+		}
 	}
 ]
