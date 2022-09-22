@@ -67055,5 +67055,32 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "Kimmerer:2013",
+		"type": "book",
+		"edition": "First paperback edition",
+		"event-place": "Minneapolis, Minn",
+		"ISBN": "978-1-57131-356-0",
+		"language": "eng",
+		"number-of-pages": "390",
+		"publisher": "Milkweed Editions",
+		"publisher-place": "Minneapolis, Minn",
+		"source": "K10plus ISBN",
+		"title": "Braiding sweetgrass: indigenous wisdom, scientific knowledge and the teachings of plants",
+		"title-short": "Braiding sweetgrass",
+		"author": [
+			{
+				"family": "Kimmerer",
+				"given": "Robin Wall"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		}
 	}
 ]
