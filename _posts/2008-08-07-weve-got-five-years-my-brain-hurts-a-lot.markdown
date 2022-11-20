@@ -18,7 +18,7 @@ date_gmt: '2008-08-07 13:47:21 +0000'
 tags:
 - standards
 - uri
-- url
+- urls
 - http
 - web
 - xri

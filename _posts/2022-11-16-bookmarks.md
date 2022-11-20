@@ -2,7 +2,7 @@
 title: Bookmarks
 tags:
 - twitter
-- archive
+- archives
 layout: post
 ---
 
@@ -30,7 +30,9 @@ It's *really* important to point out here that the ArchiveWebPage extension is a
 
 Speaking of the data, you can "export" the archived content, which takes it out of the browser local storage and packages it up as a [WACZ](https://specs.webrecorer.net/wacz/latest/) file, which is similar to EPUB or Word (DOCX) file in that it's just a ZIP file. You can view this file at any time by importing it back into ArchiveWebPage, or using the [ReplayWebPage](https://replayweb.page) player to play it back. ReplayWebPage is also a *client-side* application. The data you load in is store locally--not in the cloud.
 
-If you do want to publish your archive you can [embed it](https://replayweb.page/docs/embedding) on a web page of your choosing using the &lt;replay-web-page&gt; web component. To be on the safe side you probably only want to do this once you've decided to remove your Twitter account. Since the web archive records all the communications from the Twitter website when rendering a page it's possible there might be some time-sensitive, private information in the archive that someone could use to access your account.
+If you do want to publish your archive you can [embed it](https://replayweb.page/docs/embedding) on a web page of your choosing using the &lt;replay-web-page&gt; web component.
+
+To be on the safe side you probably only want to do this once you've decided to remove your Twitter account. The web archive contains *all the communications* from the Twitter website, so it's possible there might be some time-sensitive, private information in the archive that someone could use to access your account. But if you don't have an account anymore 🤷  
 
 Here's the HTML I'm using here on my Jekyll static site:
 
@@ -63,6 +65,6 @@ More information about sharing and embedding WACZ web archives can be found in t
 
 ---
 
-*Update: as Ryan Baumann [notes](https://twitter.com/ryanfb/status/1592876540316241921), it looks like Twitter's own interface may not let you see more than 800 bookmarks :-( So you may not be able to get more than that with ArchiveWebPage. Still I think there's an advantage to using ArchiveWebPage here to get what you can since the tweets will be viewable and not just JSON or CSV data.*
+*Update: as Ryan Baumann [notes](https://twitter.com/ryanfb/status/1592876540316241921), it looks like Twitter's own interface may not let you see more than 800 bookmarks :-( So you may not be able to get more than that with ArchiveWebPage. Still I think there's an advantage to using ArchiveWebPage here since the tweets will be viewable with context and not just some JSON or CSV file?*
 
 *Update: Ryan also has a [Ruby program](53f167feebde61ad262c4f09d879733e) that will get around the 800 limitation by getting your bookmarks while deleting them--which is a pretty ingenious way around the API limitation. He also has a super [thread](https://twitter.com/ryanfb/status/1590059053920956417) where he compares some other options like the [GetDewey](https://getdewey.co/) service.*

@@ -16,7 +16,7 @@ wordpress_url: http://inkdroid.org/journal/?p=5318
 date: '2012-11-01 08:01:04 +0000'
 date_gmt: '2012-11-01 15:01:04 +0000'
 tags:
-- url
+- urls
 - linkrot
 - terms-of-service
 comments:
