@@ -68,3 +68,5 @@ More information about sharing and embedding WACZ web archives can be found in t
 *Update: as Ryan Baumann [notes](https://twitter.com/ryanfb/status/1592876540316241921), it looks like Twitter's own interface may not let you see more than 800 bookmarks :-( So you may not be able to get more than that with ArchiveWebPage. Still I think there's an advantage to using ArchiveWebPage here since the tweets will be viewable with context and not just some JSON or CSV file?*
 
 *Update: Ryan also has a [Ruby program](53f167feebde61ad262c4f09d879733e) that will get around the 800 limitation by getting your bookmarks while deleting them--which is a pretty ingenious way around the API limitation. He also has a super [thread](https://twitter.com/ryanfb/status/1590059053920956417) where he compares some other options like the [GetDewey](https://getdewey.co/) service.*
+
+*Update: See Ryan's [blogpost](https://ryanfb.github.io/etc/2022/11/21/exporting_as_many_of_your_twitter_bookmarks_as_possible.html) about the Ruby program!*
