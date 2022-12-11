@@ -20238,13 +20238,15 @@
 	{
 		"id": "Ogden:2019",
 		"type": "thesis",
+		"abstract": "This thesis makes visible the work of archiving the Web. It demonstrates the growing role of web archives (WAs) in the circulation of information and culture online, and emphasises the inherent connections between how the Web is archived, its future use and our understandings of WAs, archivists and the Web itself. As the first in-depth sociotechnical study of web archiving, this research offers a view into the ways that web archivists are shaping what and how the Web is saved for the future. Using a combination of ethnographic observation, interviews and documentary sources, the thesis investigates web archiving at three sites: the Internet Archive – the world’s largest web archive; Archive Team – ‘a loose collective of rogue archivists and programmers’ archiving the Web; and the Environmental Data & Governance Initiative (EDGI) –a community of academics, librarians and activists formed in the wake of the 2016US Presidential Election to safe-guard environmental and climate data. Through the application of practice theory, thematic analysis and facet methodology, I frame my findings through three ‘facets of web archiving’: infrastructure, culture and politics.I show that the web archival activities of organisations, people and bots are both historically-situated and embedded in the contemporary politics of online communication and information sharing. WAs are reflected on as ‘places’ where the past,present and future of the Web collapses around an evolving assemblage of sociotechnical practices and actors dedicated to enabling different (and at times, conflicting)community-defined imaginaries for the Web. WAs are revealed to be contested sites where these politics are enabled and enacted over time. This thesis therefore contributes to research on the performance of power and politics on the Web, and raises new questions concerning how different communities negotiate the challenges of ephemerality and strive to build the ‘Web they want’.",
 		"note": "tex.date-added: 2019-08-16 14:40:06 -0400\ntex.date-modified: 2019-08-16 14:41:16 -0400\ntex.timestamp: 2019-08-16",
 		"publisher": "University of Southampton",
 		"title": "Saving the web: Facets of web archiving in everyday practice",
+		"URL": "https://eprints.soton.ac.uk/447624/",
 		"author": [
 			{
 				"family": "Ogden",
-				"given": "Jess"
+				"given": "Jessica"
 			}
 		],
 		"issued": {
@@ -47594,6 +47596,7 @@
 		"note": "publisher: University of Chicago\ntex.date-added: 2016-05-08 19:59:59 +0000\ntex.date-modified: 2017-12-05 15:33:47 +0000\ntex.timestamp: 2016-05-08",
 		"page": "25-42",
 		"title": "Critical directions for archival approaches to social justice",
+		"URL": "https://www.journals.uchicago.edu/doi/abs/10.1086/684145",
 		"volume": "86",
 		"author": [
 			{
@@ -67079,6 +67082,699 @@
 			"date-parts": [
 				[
 					"2013"
+				]
+			]
+		}
+	},
+	{
+		"id": "McNamara:2021",
+		"type": "book",
+		"abstract": "\"[A] hands-on guide to systems programming with Rust\"--Page 4 of cover",
+		"call-number": "QA76.73.R87 M36 2021",
+		"event-place": "Shelter Island, NY",
+		"ISBN": "978-1-61729-455-6",
+		"note": "OCLC: on1153044639",
+		"number-of-pages": "430",
+		"publisher": "Manning",
+		"publisher-place": "Shelter Island, NY",
+		"source": "Library of Congress ISBN",
+		"title": "Rust in action: systems programming concepts and techniques",
+		"title-short": "Rust in action",
+		"author": [
+			{
+				"family": "McNamara",
+				"given": "Timothy Samuel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Whyte:2018",
+		"type": "article-journal",
+		"abstract": "Portrayals of the Anthropocene period are often dystopian or post-apocalyptic narratives of climate crises that will leave humans in horrific science-fiction scenarios. Such narratives can erase certain populations, such as Indigenous peoples, who approach climate change having already been through transformations of their societies induced by colonial violence. This essay discusses how some Indigenous perspectives on climate change can situate the present time as already dystopian. Instead of dread of an impending crisis, Indigenous approaches to climate change are motivated through dialogic narratives with descendants and ancestors. In some cases, these narratives are like science fiction in which Indigenous peoples work to empower their own protagonists to address contemporary challenges. Yet within literature on climate change and the Anthropocene, Indigenous peoples often get placed in historical categories designed by nonIndigenous persons, such as the Holocene. In some cases, these categories serve as the backdrop for allies' narratives that privilege themselves as the protagonists who will save Indigenous peoples from colonial violence and the climate crisis. I speculate that this tendency among allies could possibly be related to their sometimes denying that they are living in times their ancestors would have likely fantasized about. I will show how this denial threatens allies' capacities to build coalitions with Indigenous peoples. Inuit culture is based on the ice, the snow and the cold…. It is the speed and intensity in which change has occurred and continues to occur that is a big factor why we are having trouble with adapting to certain situations. Climate change is yet another rapid assault on our way of life. It cannot be separated from the first waves of changes and assaults at the very core of the human spirit that have come our way. Just as we are recognizing and understanding the first waves of change … our environment and climate now gets threatened. Sheila Watt-Cloutier, interviewed by the Ottawa Citizen. (Robb, 2015) In North America many Indigenous traditions tell us that reality is more than just facts and figures collected so that humankind might widely use resources. Rather, to know “it”—reality—requires respect for the relationships and relatives that constitute the complex web of life. I call this Indigenous realism, and it entails that we, members of humankind, accept our inalienable responsibilities as members of the planet's complex life system, as well as our inalienable rights. ( Wildcat, 2009 , xi) Within Māori ontological and cosmological paradigms it is impossible to conceive of the present and the future as separate and distinct from the past, for the past is constitutive of the present and, as such, is inherently reconstituted within the future. (Stewart-Harawira, 2005, 42) In fact, incorporating time travel, alternate realities, parallel universes and multiverses, and alternative histories is a hallmark of Native storytelling tradition, while viewing time as pasts, presents, and futures that flow together like currents in a navigable stream is central to Native epistemologies. ( Dillon, 2016a , 345)",
+		"container-title": "Environment and Planning E: Nature and Space",
+		"DOI": "10.1177/2514848618777621",
+		"ISSN": "2514-8486, 2514-8494",
+		"issue": "1-2",
+		"journalAbbreviation": "Environment and Planning E: Nature and Space",
+		"language": "en",
+		"page": "224-242",
+		"source": "DOI.org (Crossref)",
+		"title": "Indigenous science (fiction) for the Anthropocene: Ancestral dystopias and fantasies of climate change crises",
+		"title-short": "Indigenous science (fiction) for the Anthropocene",
+		"URL": "http://journals.sagepub.com/doi/10.1177/2514848618777621",
+		"volume": "1",
+		"author": [
+			{
+				"family": "Whyte",
+				"given": "Kyle P."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					10,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "Bridle:2022",
+		"type": "book",
+		"abstract": "\"Artist, technologist, and philosopher James Bridle's Ways of Being is a brilliant, searching exploration of different kinds of intelligence-plant, animal, human, artificial-and how they transform our understanding of humans' place in the cosmos\"--",
+		"call-number": "BF431 .B678 2022",
+		"edition": "First American edition",
+		"event-place": "New York",
+		"ISBN": "978-0-374-60111-9",
+		"publisher": "Farrar, Straus and Giroux",
+		"publisher-place": "New York",
+		"source": "Library of Congress ISBN",
+		"title": "Ways of being: animals, plants, machines: the search for a planetary intelligence",
+		"title-short": "Ways of being",
+		"author": [
+			{
+				"family": "Bridle",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "Collins:2022",
+		"type": "article-journal",
+		"abstract": "This essay addresses two questions on the topic of podcast innovation. The first, ?What is a podcast?? is answered via a review of the literature, investigating podcasting history and its evolution. The definition of podcasting arising from this analysis ? centring on episodic audio, convenient both to produce and experience ? takes into account recent changes, providing an up-to-date description of the term, useful for further research on the topic. It is also required to answer our second question: ?How do we design new ways to produce and listen to podcasts without denaturing the medium?? By reflecting on the essential features of podcasting and the necessity for innovation in this interdisciplinary medium, a framework of six-tensions is proposed as a means of grounding and potentially boosting innovation. Answering these questions could prove valuable for the future of podcasting, hypothesising a basis for reflection and development in both academia and industry.",
+		"container-title": "Convergence",
+		"DOI": "10.1177/13548565221104444",
+		"ISSN": "1354-8565",
+		"issue": "5",
+		"language": "en",
+		"note": "publisher: SAGE Publications Ltd",
+		"page": "1260-1282",
+		"source": "SAGE Journals",
+		"title": "What is a podcast? Considering innovations in podcasting through the six-tensions framework",
+		"title-short": "What is a podcast?",
+		"URL": "https://doi.org/10.1177/13548565221104444",
+		"volume": "28",
+		"author": [
+			{
+				"family": "Rime",
+				"given": "Jemily"
+			},
+			{
+				"family": "Pike",
+				"given": "Chris"
+			},
+			{
+				"family": "Collins",
+				"given": "Tom"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					10,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					10,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "Borlund:2021",
+		"type": "article-journal",
+		"abstract": "Purpose The purpose of this paper is to report a study of how research literature addresses researchers' attitudes toward data repository use. In particular, the authors are interested in how the term data sharing is defined, how data repository use is reported and whether there is need for greater clarity and specificity of terminology. Design/methodology/approach To study how the literature addresses researcher data repository use, relevant studies were identified by searching Library Information Science and Technology Abstracts, Library and Information Science Source, Thomas Reuters' Web of Science Core Collection and Scopus. A total of 62 studies were identified for inclusion in this meta-evaluation. Findings The study shows a need for greater clarity and consistency in the use of the term data sharing in future studies to better understand the phenomenon and allow for cross-study comparisons. Furthermore, most studies did not address data repository use specifically. In most analyzed studies, it was not possible to segregate results relating to sharing via public data repositories from other types of sharing. When sharing in public repositories was mentioned, the prevalence of repository use varied significantly. Originality/value Researchers' data sharing is of great interest to library and information science research and practice to inform academic libraries that are implementing data services to support these researchers. This study explores how the literature approaches this issue, especially the use of data repositories, the use of which is strongly encouraged. This paper identifies the potential for additional study focused on this area.",
+		"container-title": "Journal of Documentation",
+		"DOI": "10.1108/JD-01-2021-0015",
+		"ISSN": "0022-0418",
+		"issue": "7",
+		"note": "publisher: Emerald Publishing Limited",
+		"page": "1-17",
+		"source": "Emerald Insight",
+		"title": "Researcher attitudes toward data sharing in public data repositories: a meta-evaluation of studies on researcher data sharing",
+		"title-short": "Researcher attitudes toward data sharing in public data repositories",
+		"URL": "https://doi.org/10.1108/JD-01-2021-0015",
+		"volume": "78",
+		"author": [
+			{
+				"family": "Thoegersen",
+				"given": "Jennifer L."
+			},
+			{
+				"family": "Borlund",
+				"given": "Pia"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					10,
+					26
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					1,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "MacAskill:2022",
+		"type": "book",
+		"abstract": "\"One of the most stunning achievements of moral philosophy is something we take for granted: moral universalism, or the idea that every human has equal moral worth. In What We Owe the Future, Oxford philosopher William MacAskill demands that we go a step further, arguing that people not only have equal moral worth no matter where or how they live, but also no matter when they live. This idea has implications beyond the obvious (climate change) - including literally making sure that there are people in the future: It's not unusual to hear someone way, \"Oh, I could never bring a child into this world.\" MacAskill argues that the sentiment itself may well be immoral: we have a responsibility not just to consider whether the world of the future will be suitable for supporting humans, but to act to make sure there are humans in it. And while it may seem that the destructive capacity of modern industrial technology means that we ought to eschew it as much as possible, MacAskill argues for optimism in our ability to (eventually) get technology right, for the future's benefit, and ours. Where Hans Rosling's Factfulness and Rutger Bregman's Utopia for Realists gave us reasons for hope and action in the present, What We Owe the Future is a compelling and accessible argument for why solving our problems demands that we worry about the future. And ultimately it provides an answer to the most important question we humans face: can we not just endure, but thrive?\"--",
+		"call-number": "BJ1474 .M33 2022",
+		"edition": "First edition",
+		"event-place": "New York, NY",
+		"ISBN": "978-1-5416-1862-6",
+		"publisher": "Hachette Book Group, Inc",
+		"publisher-place": "New York, NY",
+		"source": "Library of Congress ISBN",
+		"title": "What we owe the future",
+		"author": [
+			{
+				"family": "MacAskill",
+				"given": "William"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "Seneca:2012",
+		"type": "article-journal",
+		"container-title": "DttP: Documents to the People",
+		"issue": "1",
+		"journalAbbreviation": "DttP",
+		"language": "eng",
+		"page": "16-24",
+		"title": "It Takes a Village to Save the Web: The End of Term Web Archive Feature",
+		"URL": "https://heinonline.org/HOL/P?h=hein.journals/dttp40&i=18",
+		"volume": "40",
+		"author": [
+			{
+				"family": "Seneca",
+				"given": "Tracy"
+			},
+			{
+				"family": "Grotke",
+				"given": "Abbie"
+			},
+			{
+				"family": "Hartman",
+				"given": "Cathy Nelson"
+			},
+			{
+				"family": "Carpenter",
+				"given": "Kris"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "Murphy:2007",
+		"type": "article-journal",
+		"container-title": "Journal of Computer-Mediated Communication",
+		"DOI": "10.1111/j.1083-6101.2007.00386.x",
+		"ISSN": "10836101",
+		"issue": "1",
+		"language": "en",
+		"page": "60-75",
+		"source": "DOI.org (Crossref)",
+		"title": "Take Me Back: Validating the Wayback Machine",
+		"title-short": "Take Me Back",
+		"URL": "https://academic.oup.com/jcmc/article/13/1/60-75/4583038",
+		"volume": "13",
+		"author": [
+			{
+				"family": "Murphy",
+				"given": "Jamie"
+			},
+			{
+				"family": "Hashim",
+				"given": "Noor Hazarina"
+			},
+			{
+				"family": "O’Connor",
+				"given": "Peter"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					10,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2007",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "Teszelszky:2021",
+		"type": "article-journal",
+		"container-title": "International Journal of Digital Humanities",
+		"DOI": "10.1007/s42803-021-00040-5",
+		"ISSN": "2524-7832, 2524-7840",
+		"issue": "1-3",
+		"journalAbbreviation": "Int J Digit Humanities",
+		"language": "en",
+		"page": "1-4",
+		"source": "DOI.org (Crossref)",
+		"title": "Introduction: digital humanities and the use of web archives",
+		"title-short": "Introduction",
+		"URL": "https://link.springer.com/10.1007/s42803-021-00040-5",
+		"volume": "2",
+		"author": [
+			{
+				"family": "Teszelszky",
+				"given": "Kees"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					10,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "Floridi:2020",
+		"type": "article-journal",
+		"abstract": "Abstract\n            In this commentary, we discuss the nature of reversible and irreversible questions, that is, questions that may enable one to identify the nature of the source of their answers. We then introduce GPT-3, a third-generation, autoregressive language model that uses deep learning to produce human-like texts, and use the previous distinction to analyse it. We expand the analysis to present three tests based on mathematical, semantic (that is, the Turing Test), and ethical questions and show that GPT-3 is not designed to pass any of them. This is a reminder that GPT-3 does not do what it is not supposed to do, and that any interpretation of GPT-3 as the beginning of the emergence of a general form of artificial intelligence is merely uninformed science fiction. We conclude by outlining some of the significant consequences of the industrialisation of automatic and cheap production of good, semantic artefacts.",
+		"container-title": "Minds and Machines",
+		"DOI": "10.1007/s11023-020-09548-1",
+		"ISSN": "0924-6495, 1572-8641",
+		"issue": "4",
+		"journalAbbreviation": "Minds & Machines",
+		"language": "en",
+		"page": "681-694",
+		"source": "DOI.org (Crossref)",
+		"title": "GPT-3: Its Nature, Scope, Limits, and Consequences",
+		"title-short": "GPT-3",
+		"URL": "http://link.springer.com/10.1007/s11023-020-09548-1",
+		"volume": "30",
+		"author": [
+			{
+				"family": "Floridi",
+				"given": "Luciano"
+			},
+			{
+				"family": "Chiriatti",
+				"given": "Massimo"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					10,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "McCown:2008",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the 8th ACM/IEEE-CS joint conference on Digital libraries - JCDL '08",
+		"DOI": "10.1145/1378889.1378955",
+		"event-place": "Pittsburgh PA, PA, USA",
+		"event-title": "the 8th ACM/IEEE-CS joint conference",
+		"ISBN": "978-1-59593-998-2",
+		"language": "en",
+		"page": "371",
+		"publisher": "ACM Press",
+		"publisher-place": "Pittsburgh PA, PA, USA",
+		"source": "DOI.org (Crossref)",
+		"title": "Usage analysis of a public website reconstruction tool",
+		"URL": "http://portal.acm.org/citation.cfm?doid=1378889.1378955",
+		"author": [
+			{
+				"family": "McCown",
+				"given": "Frank"
+			},
+			{
+				"family": "Nelson",
+				"given": "Michael L."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					10,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		}
+	},
+	{
+		"id": "Zhao:2017",
+		"type": "chapter",
+		"container-title": "Encyclopedia of Big Data",
+		"event-place": "Cham",
+		"ISBN": "978-3-319-32001-4",
+		"language": "en",
+		"note": "DOI: 10.1007/978-3-319-32001-4_483-1",
+		"page": "1-3",
+		"publisher": "Springer International Publishing",
+		"publisher-place": "Cham",
+		"source": "DOI.org (Crossref)",
+		"title": "Web Scraping",
+		"URL": "http://link.springer.com/10.1007/978-3-319-32001-4_483-1",
+		"editor": [
+			{
+				"family": "Schintler",
+				"given": "Laurie A."
+			},
+			{
+				"family": "McNeely",
+				"given": "Connie L."
+			}
+		],
+		"author": [
+			{
+				"family": "Zhao",
+				"given": "Bo"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					10,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "Brugger:2017b",
+		"type": "book",
+		"ISBN": "978-1-4331-4065-5",
+		"note": "DOI: 10.3726/b11492",
+		"publisher": "Peter Lang US",
+		"source": "DOI.org (Crossref)",
+		"title": "Web 25",
+		"URL": "https://www.peterlang.com/view/title/63507",
+		"editor": [
+			{
+				"family": "Brügger",
+				"given": "Niels"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					10,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					7,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "Buck:2019",
+		"type": "book",
+		"event-place": "London New York",
+		"ISBN": "978-1-78873-036-5",
+		"language": "eng",
+		"number-of-pages": "281",
+		"publisher": "Verso",
+		"publisher-place": "London New York",
+		"source": "Open WorldCat",
+		"title": "After geoengineering: climate tragedy, repair, and restoration",
+		"title-short": "After geoengineering",
+		"author": [
+			{
+				"family": "Buck",
+				"given": "Holly Jean"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "Ocalan:2017",
+		"type": "book",
+		"event-place": "London",
+		"ISBN": "978-1-78680-087-9",
+		"language": "eng",
+		"number-of-pages": "153",
+		"publisher": "Pluto Press",
+		"publisher-place": "London",
+		"source": "K10plus ISBN",
+		"title": "The political thought of Abdullah Öcalan: Kurdistan, woman's revolution and democratic confederalism",
+		"title-short": "The political thought of Abdullah Öcalan",
+		"author": [
+			{
+				"family": "Öcalan",
+				"given": "Abdullah"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "Schneider:2022a",
+		"type": "article-journal",
+		"abstract": "Large social media platforms are generally designed for scalability—the ambition to increase in size without a fundamental change in form. This means that to address harm among users, they favor automated moderation wherever possible and typically apply a uniform set of rules. This article contrasts scalability with restorative and transformative justice approaches to harm, which are usually context-sensitive, relational, and individualized. We argue that subsidiarity—the principle that local social units should have meaningful autonomy within larger systems—might foster the balance between context and scale that is needed for improving responses to harm.",
+		"container-title": "Social Media + Society",
+		"DOI": "10.1177/20563051221126041",
+		"ISSN": "2056-3051, 2056-3051",
+		"issue": "3",
+		"journalAbbreviation": "Social Media + Society",
+		"language": "en",
+		"page": "205630512211260",
+		"source": "DOI.org (Crossref)",
+		"title": "From Scalability to Subsidiarity in Addressing Online Harm",
+		"URL": "http://journals.sagepub.com/doi/10.1177/20563051221126041",
+		"volume": "8",
+		"author": [
+			{
+				"family": "Hasinoff",
+				"given": "Amy A."
+			},
+			{
+				"family": "Schneider",
+				"given": "Nathan"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					11,
+					27
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "Lessig:2000",
+		"type": "webpage",
+		"container-title": "Harvard Magazine",
+		"title": "Lawrence Lessig on the increasing regulation of cyberspace | Harvard Magazine",
+		"URL": "https://www.harvardmagazine.com/2000/01/code-is-law-html",
+		"author": [
+			{
+				"family": "Lessig",
+				"given": "Lawrence"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					12,
+					4
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2000",
+					1,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "Evans:2021",
+		"type": "article-journal",
+		"abstract": "Worldwide inquiries into childhood institutionalization repeatedly document systemic and enduring problems with fractured and fragmented recordkeeping and archiving systems that put the protection of organizations and institutions ahead of the safety and wellbeing of those in their care. As importantly, they demonstrate how much recordkeeping matters in people’s lives and the role that records play in developing and nurturing identity, connection to family, community, and culture, and as instruments of accountability, restitution, and redress. They highlight the transdisciplinarity inherent in recordkeeping endeavours, and for research and praxis in child welfare and protection to transcend disciplinary, professional, and community boundaries to ensure that systems created to protect children from neglect and abuse do not themselves cause harm. In this article we explore the transformative justice approach of the Archives and the Rights of the Child Research Programme, that, through transdisciplinary collaborations investigating rights-based recordkeeping, aims to advance archival autonomy, the ability of individuals and communities to participate in organizational and societal evidence and memory structures with their own voice. This broad re-imagining of recordkeeping is vital if we are to escape endless cycles of ambiguous and disappointing transitional justice outcomes, through recognizing voice and agency in recordkeeping as a human right.",
+		"container-title": "Archives and Records",
+		"DOI": "10.1080/23257962.2020.1865887",
+		"ISSN": "2325-7962",
+		"issue": "1",
+		"note": "publisher: Routledge\n_eprint: https://doi.org/10.1080/23257962.2020.1865887",
+		"page": "3-24",
+		"source": "Taylor and Francis+NEJM",
+		"title": "Transformative justice: transdisciplinary collaborations for archival autonomy",
+		"title-short": "Transformative justice",
+		"URL": "https://doi.org/10.1080/23257962.2020.1865887",
+		"volume": "42",
+		"author": [
+			{
+				"family": "Evans",
+				"given": "Joanne"
+			},
+			{
+				"family": "Wilson",
+				"given": "Jacqueline Z."
+			},
+			{
+				"family": "McKemmish",
+				"given": "Sue"
+			},
+			{
+				"family": "Lewis",
+				"given": "Antonina"
+			},
+			{
+				"family": "McGinniss",
+				"given": "David"
+			},
+			{
+				"family": "Rolan",
+				"given": "Gregory"
+			},
+			{
+				"family": "Altham",
+				"given": "Siobhan"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					12,
+					4
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					1,
+					2
 				]
 			]
 		}
