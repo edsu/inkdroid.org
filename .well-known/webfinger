@@ -1,0 +1,23 @@
+{
+  "subject": "acct:edsu@social.coop",
+  "aliases": [
+    "https://social.coop/@edsu",
+    "https://social.coop/users/edsu"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://social.coop/@edsu"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://social.coop/users/edsu"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://social.coop/authorize_interaction?uri={uri}"
+    }
+  ]
+}
