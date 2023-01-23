@@ -40,7 +40,7 @@
 		}
 	},
 	{
-		"id": "eghbal:2020",
+		"id": "Eghbal:2020",
 		"type": "book",
 		"event-place": "San Francisco",
 		"ISBN": "978-0-578-67586-2",
@@ -67775,6 +67775,180 @@
 					"2021",
 					1,
 					2
+				]
+			]
+		}
+	},
+	{
+		"id": "Peters:2016b",
+		"type": "article-journal",
+		"container-title": "Empedocles: European Journal for the Philosophy of Communication",
+		"DOI": "10.1386/ejpc.7.2.157_1",
+		"ISSN": "17571952, 17571960",
+		"issue": "2",
+		"journalAbbreviation": "Empedocles: European Journal for the Philosophy of Communication",
+		"language": "en",
+		"page": "157-172",
+		"source": "DOI.org (Crossref)",
+		"title": "Norbert Wiener as pragmatist",
+		"URL": "https://intellectdiscover.com/content/journals/10.1386/ejpc.7.2.157_1",
+		"volume": "7",
+		"author": [
+			{
+				"family": "Peters",
+				"given": "John Durham"
+			},
+			{
+				"family": "Peters",
+				"given": "Benjamin"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					12,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					6,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "Bollier:2019",
+		"type": "book",
+		"abstract": "Presents a foundational re-thinking of the commons--the self-organized social system that humans have used for millennia to meet their needs. Bollier and Helfrich offer a vision of a future beyond the dead-end binary of capitalism versus socialism. The authors cover the internal dynamics of commoning, how the commoning worldview opens up new possibilities for change, the role of language in reorienting our perceptions and political strategies, and seeing the potential for commoning everywhere. They provide a non-academic synthesis of contemporary commons and present a narrative: that we can be free and creative people, govern ourselves through fair and accountable institutions, and experience the aliveness of authentic human presence. --Adapted from publisher description",
+		"call-number": "HD1286 .B65 2019",
+		"event-place": "Gabriola Island, BC",
+		"ISBN": "978-0-86571-921-7",
+		"note": "OCLC: on1083715529",
+		"number-of-pages": "439",
+		"publisher": "New Society Publishers",
+		"publisher-place": "Gabriola Island, BC",
+		"source": "Library of Congress ISBN",
+		"title": "Free, fair, and alive: the insurgent power of the commons",
+		"title-short": "Free, fair, and alive",
+		"author": [
+			{
+				"family": "Bollier",
+				"given": "David"
+			},
+			{
+				"family": "Helfrich",
+				"given": "Silke"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "Agamben:2009",
+		"type": "book",
+		"call-number": "B3611.A42 A33132 2009",
+		"collection-title": "Meridian, crossing aesthetics",
+		"event-place": "Stanford, Calif",
+		"ISBN": "978-0-8047-6229-8",
+		"language": "eng",
+		"number-of-pages": "56",
+		"publisher": "Stanford University Press",
+		"publisher-place": "Stanford, Calif",
+		"source": "Library of Congress ISBN",
+		"title": "\"What is an apparatus?\" and other essays",
+		"title-short": "\"What is an apparatus?",
+		"author": [
+			{
+				"family": "Agamben",
+				"given": "Giorgio"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2009"
+				]
+			]
+		}
+	},
+	{
+		"id": "Slater:2022",
+		"type": "article-journal",
+		"container-title": "Borderlands Journal",
+		"DOI": "doi:10.21307/borderlands-2022-017",
+		"issue": "2",
+		"page": "175–198",
+		"title": "Fieldwork in discomfort",
+		"URL": "https://doi.org/10.21307/borderlands-2022-017",
+		"volume": "21",
+		"author": [
+			{
+				"family": "Slater",
+				"given": "Lisa"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "Rieder:2022",
+		"type": "article-journal",
+		"abstract": "Social media research software has come to play increasingly important roles in processes of knowledge production. While epistemological, logistical, legal, and ethical concerns put the spotlight on the software tools researchers are relying on, little attention is paid to the role of the ‘toolmaker’ beyond a vague idea of the ‘power’ wielded by those who design, develop, and maintain these technical artifacts. This paper seeks to address this role, both conceptually and with attention to practical concerns, as a form of hybrid and relational authorship. We thereby shift the focus from tool to tool-making, from artifact to practice, in an attempt to produce a different kind of ‘unblackboxing’ of tools than the somewhat overused tropes of open source code or open data. Our contribution proceeds in three steps. We first address tools and tool-making from a theoretical perspective, suggesting that their epistemological orientation reaches more deeply into the networks of research practice than words like ‘bias’ admit and proposing to consider the specific kind of hybrid authorship that emerges in this context. Calling on our own experiences as toolmakers, we then reflect on a cluster of issues where this authorial function becomes particularly visible. Here, we examine how motivations and commitments orient what a piece of software does and how it does it and discuss tool-making from the perspectives of co-development, maintenance and care, and ethics by design. We conclude by arguing that the most pressing concerns for tool-making lie in institutional arrangements that are crucial for the life of research software.",
+		"container-title": "Convergence: The International Journal of Research into New Media Technologies",
+		"DOI": "10.1177/13548565221127094",
+		"ISSN": "1354-8565, 1748-7382",
+		"journalAbbreviation": "Convergence: The International Journal of Research into New Media Technologies",
+		"language": "en",
+		"page": "135485652211270",
+		"source": "DOI.org (Crossref)",
+		"title": "From tool to tool-making: Reflections on authorship in social media research software",
+		"title-short": "From tool to tool-making",
+		"URL": "http://journals.sagepub.com/doi/10.1177/13548565221127094",
+		"author": [
+			{
+				"family": "Rieder",
+				"given": "Bernhard"
+			},
+			{
+				"family": "Peeters",
+				"given": "Stijn"
+			},
+			{
+				"family": "Borra",
+				"given": "Erik"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					1,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					12,
+					17
 				]
 			]
 		}
