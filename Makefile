@@ -6,7 +6,7 @@ indexes:
 	touch tags.md
 
 serve: indexes
-	bundle exec jekyll serve --incremental
+	bundle exec jekyll serve --incremental --drafts
 
 quick: cv build rsync
 

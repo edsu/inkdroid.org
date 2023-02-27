@@ -1,4 +1,4 @@
-all: ehs.md index.html
+all: ehs.pdf ehs.md index.html
 
 ehs.pdf: ehs.md
 	pandoc -V geometry:margin=1in ehs.md -o ehs.pdf
