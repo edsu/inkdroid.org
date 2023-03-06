@@ -22,7 +22,7 @@ knowledge sharing and a commitment to sustainability.
 \item
   data analysis: Pandas, SciPy, Spark, Presto
 \item
-  infrastructure: Linux, AWS, Ansible, Terraform
+  infrastructure: Linux, AWS, Docker, Ansible, Terraform
 \item
   databases: PostgreSQL, MariaDB, Redis, ElasticSearch, Solr, MongoDB
 \item

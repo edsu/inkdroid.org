@@ -15,7 +15,7 @@ sustainability.
 * web technology: APIs, REST, linked data, web archiving
 * languages: Python, JavaScript, Ruby, PHP, Perl, Go, Java, C, Scheme
 * data analysis: Pandas, SciPy, Spark, Presto
-* infrastructure: Linux, AWS, Ansible, Terraform
+* infrastructure: Linux, AWS, Docker, Ansible, Terraform
 * databases: PostgreSQL, MariaDB, Redis, ElasticSearch, Solr, MongoDB
 * visualization: D3, Plotly, vis.js, Gephi
 * practice: agile, automated testing, continuous integration, standards, documentation
