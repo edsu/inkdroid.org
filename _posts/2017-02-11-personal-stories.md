@@ -3,7 +3,7 @@ layout: post
 title: Personal Stories
 tags:
 - journalism
-- socialmedia
+- social-media
 ---
 
 

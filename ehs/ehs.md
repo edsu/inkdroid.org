@@ -34,7 +34,7 @@ Stanford University
 
 Design Researcher  
 Webrecorder  
-10/2021 - 02/2022
+10/2021 - 02/2023
 
 * Requirements and use case gathering
 * Technical writing for data [specifications]
