@@ -12,7 +12,9 @@ dataset of colleges and universities with their associated conference and
 division, average SAT score, acceptance rate and annual cost. I suspect there's
 an app for this already, but what better way to deal with the stress of
 choosing how to get gouged by higher education than by turning this into a data
-problem? Also we wanted to take a road trip into New England to take a look at some schools, so it would be useful to put them on a map (click for the full interactive map).
+problem? Also we wanted to take a road trip into New England to take a look at
+some schools, so we thought it would be useful to put them on a map (click for
+the full interactive map).
 
 <a href="https://edsu.github.io/soccer-schools/map/"><img class="img-responsive" src="/images/soccer-schools.png"></a>
 
