@@ -4,8 +4,7 @@ title: Soccer Schools
 tags:
 - wikidata
 - wikipedia
-- map
-- college
+- maps
 ---
 
 My son is interested in trying to play soccer at college and I wanted to get a
