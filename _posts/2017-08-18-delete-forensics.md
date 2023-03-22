@@ -18,7 +18,7 @@ appears to be true of Facebook.*
 *Note: Data Artist [Erin Gallagher](https://twitter.com/3r1nG) provided lots of
 feedback and ideas for what follows in this post. Follow her on
 [Medium](https://medium.com/@erin_gallagher) to see more of her work, and
-details about this dataset shortly.*
+her [#UniteTheRight Automation and Deleted Tweets](https://news.docnow.io/unitetheright-automation-and-deleted-tweets-9dbf4b641755) for details about this dataset, and some truly stunning graph visualizations.*
 
 ---
 
