@@ -56,7 +56,7 @@ Finally I tried to work the metaphor back into the original sentence:
 > HTTP request stamped Return to Sender, 404 Not Found.
 > 
 > <div class="text-center">
-> <a href="https://commons.wikimedia.org/wiki/File:The_Dead_Letter_Office_at_Washington.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/The_Dead_Letter_Office_at_Washington.jpg/579px-The_Dead_Letter_Office_at_Washington.jpg" class="center-block img-responsive"></a>
+> <a href="https://commons.wikimedia.org/wiki/File:The_Dead_Letter_Office_at_Washington.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/The_Dead_Letter_Office_at_Washington.jpg/579px-The_Dead_Letter_Office_at_Washington.jpg" class="center-block img-fluid"></a>
 > 
 > <a href="https://commons.wikimedia.org/wiki/File:The_Dead_Letter_Office_at_Washington.jpg">The Dead Letter Office at Washington</a>
 > 

@@ -40,7 +40,7 @@ Ogden](https://archivingtheweb.me/) for the idea).  So far it has found 631,811
 tweets, only 10,053 of which point at Google's Cache. Here's an example of one
 such tweet:
 
-<a href="https://twitter.com/1o5CleanEnergy/status/1081938670616231938"><img class="img-responsive" src="/images/twitter-google-cache.png"></a>
+<a href="https://twitter.com/1o5CleanEnergy/status/1081938670616231938"><img class="img-fluid" src="/images/twitter-google-cache.png"></a>
 
 As another archival shape consider the social media site
 [Pinterest](https://pinterest.com), which allows users to build their own
@@ -60,9 +60,9 @@ Gallery to a Pinterest board. You can see near the bottom of the third screen
 that the link to the National Portrait Gallery is preserveed. I think this
 simple measure of provenance is what gives Pinterest an archival shape.
 
-<img class="img-responsive" src="/images/pinterest1.png">
-<img class="img-responsive" src="/images/pinterest2.png">
-<img class="img-responsive" src="/images/pinterest3.png">
+<img class="img-fluid" src="/images/pinterest1.png">
+<img class="img-fluid" src="/images/pinterest2.png">
+<img class="img-fluid" src="/images/pinterest3.png">
 
 The architecture of the Internet Archive has done a lot to promulgate the idea
 that web archives have a particular architectural shape. I think part of the
@@ -100,7 +100,7 @@ I've documented this process in [a Jupyter notebook](https://github.com/edsu/not
 you are interested in the details, but here is a resulting graph of the ingest
 rate per month:
 
-<img class="img-responsive" src="/images/archiveteam-ingest.png">
+<img class="img-fluid" src="/images/archiveteam-ingest.png">
 
 For now let's set aside the ethical questions raised by Tumblr's decision to
 purge their site, and ArchiveTeam's response to unilaterally archive the at risk

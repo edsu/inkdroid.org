@@ -102,7 +102,7 @@ larger.
 <br>
 
 <div style="text-align: center;"><a href="/images/mith-people.png"><img
-style="border: thin solid #ddd;" class="img-responsive"
+style="border: thin solid #ddd;" class="img-fluid"
 src="/images/mith-people.png"></a></div>
 
 <br>

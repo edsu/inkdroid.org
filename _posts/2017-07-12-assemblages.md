@@ -53,7 +53,7 @@ Coding and analysis surfaced six interconnected and interdependent themes that
 fell into two categories, the social and the technical, which are illustrated
 here in green and yellow respectively.
 
-<img class="img-responsive center-block" src="/images/aeri-diagram.png">
+<img class="img-fluid center-block" src="/images/aeri-diagram.png">
 
 Appraisal in the context of web archiving is a complex interplay between the following:
 

@@ -51,7 +51,7 @@ they were composed, targeted and delivered with machines, with very specific
 aims in mind.
 
 <figure>
-<img src="/images/irads.png" class="img-responsive" />
+<img src="/images/irads.png" class="img-fluid" />
 <figcaption>Post metadata and image embedded in PDF</figcaption>
 </figure>
 

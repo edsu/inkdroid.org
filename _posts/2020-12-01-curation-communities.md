@@ -35,7 +35,7 @@ looked at the [FAIR Principles] and talked about what types of practices they
 encourage, and to evaluate some data sources in terms of findability,
 accessibility, interoperability and reusability.
 
-<a href="https://lumendatabase.org"><img class="img-responsive" src="/images/lumen.jpg"></a>
+<a href="https://lumendatabase.org"><img class="img-fluid" src="/images/lumen.jpg"></a>
 
 For the [notebook exercise] I decided to have students experiment with the
 [Lumen Database](https://lumendatabase.org) (formerly Chilling Effects) which

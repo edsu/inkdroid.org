@@ -16,7 +16,7 @@ problem? Also we wanted to take a road trip into New England to take a look at
 some schools, so we thought it would be useful to put them on a map (click for
 the full interactive map).
 
-<a href="https://edsu.github.io/soccer-schools/map/"><img class="img-responsive" src="/images/soccer-schools.png"></a>
+<a href="https://edsu.github.io/soccer-schools/map/"><img class="img-fluid" src="/images/soccer-schools.png"></a>
 
 I started by using [wikitable2csv] to download the tables for the following Wikipedia Pages:
 

@@ -9,7 +9,7 @@ tags:
 
 
 
-<img class="img-responsive" src="/images/arpanet.png"><br>
+<img class="img-fluid" src="/images/arpanet.png"><br>
 <div style="font-size: smaller; text-align: center;">
 <em><a href="https://www.google.com/search?q=arpanet+map&amp;tbm=isch">Screenshot of images of Arpanet Maps from Google Images</a>
 </em>
@@ -68,7 +68,7 @@ that watches the Twitter sample stream and notices any new or changed metadata
 in the [JSON] for a Tweet. If you are are interested you can follow it at
 [\@tweetjson]. 
 
-<img class="img-responsive" src="/images/tweetjson.png">
+<img class="img-fluid" src="/images/tweetjson.png">
 
 Here's how it works. The bot watches the Twitter sample stream, and for each
 tweet it creates a *blueprint* of the data. It then compares this blueprint

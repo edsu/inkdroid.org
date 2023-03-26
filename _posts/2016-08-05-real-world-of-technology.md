@@ -8,7 +8,7 @@ tags:
 ---
 
 
-<a href="http://www.cbc.ca/radio/ideas/the-1988-cbc-massey-lectures-the-real-world-of-technology-1.2946845"><img src="/images/franklin.jpg" class="img-responsive" style="width: 30%; float: left; margin-right: 30px; margin-bottom: 20px; "></a>
+<a href="http://www.cbc.ca/radio/ideas/the-1988-cbc-massey-lectures-the-real-world-of-technology-1.2946845"><img src="/images/franklin.jpg" class="img-fluid" style="width: 30%; float: left; margin-right: 30px; margin-bottom: 20px; "></a>
 
 I just got finished listening to [Ursula Franklin]'s [The Real World of
 Technology] lectures from 1989. I'm kind of embarrassed to admit that I didn't

@@ -19,7 +19,7 @@ Jill Lepore is a professor of American history at Harvard University. She has [w
 
 One of the most notable things about *The New Yorker* is its iconic use of cartoons. They immediately drag you in, if you are draggable, and this one worked on me:
 
-<img class="img-responsive img-thumbnail" src="http://www.newyorker.com/wp-content/uploads/2015/01/150126_r26061-864.jpg">
+<img class="img-fluid img-thumbnail" src="http://www.newyorker.com/wp-content/uploads/2015/01/150126_r26061-864.jpg">
 
 Ok, an image isn't really writing, and this one was created by an artist named [Harry Campbell], not Lepore herself. But presentation matters, and collaboration matters even more. Another thing that matters for engagement is a good title. Cobweb is a near perfect title since it references the World Wide Web with an metaphor of disrepair or inattention -- all in one word. Nicely played Lepore.
 

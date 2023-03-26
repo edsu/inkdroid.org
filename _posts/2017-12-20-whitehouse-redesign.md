@@ -30,14 +30,14 @@ Poking around in the [Wayback Machine] you can see that this switch over
 happened last Thursday, December 14, 2017:
 
 <a href="https://web.archive.org/web/*/https://www.whitehouse.gov/blog/"><img
-class="img-responsive" src="/images/whitehouse-wayback.png"></a>
+class="img-fluid" src="/images/whitehouse-wayback.png"></a>
 
 Checking out the representation of the web pages before and after you can tell
 that the style and layout has changed significantly:
 
-<a href="https://wayback.archive.org/web/20171207211505/https://www.whitehouse.gov/the-press-office/2017/12/07/president-donald-j-trump-proclaims-december-7-2017-national-pearl-harbor"><img class="img-responsive" src="/images/whitehouse1.png"></a>
+<a href="https://wayback.archive.org/web/20171207211505/https://www.whitehouse.gov/the-press-office/2017/12/07/president-donald-j-trump-proclaims-december-7-2017-national-pearl-harbor"><img class="img-fluid" src="/images/whitehouse1.png"></a>
 
-<a href="https://wayback.archive.org/web/20171220165931/https://www.whitehouse.gov/presidential-actions/president-donald-j-trump-proclaims-december-7-2017-national-pearl-harbor-remembrance-day/"><img class="img-responsive" src="/images/whitehouse2.png"></a>
+<a href="https://wayback.archive.org/web/20171220165931/https://www.whitehouse.gov/presidential-actions/president-donald-j-trump-proclaims-december-7-2017-national-pearl-harbor-remembrance-day/"><img class="img-fluid" src="/images/whitehouse2.png"></a>
 
 Examining the HTML made it clear that the new website is now being driven by
 Wordpress instead of Drupal which, according to [Wikipedia], was being used

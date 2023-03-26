@@ -16,16 +16,16 @@ communities of practice and infrastructure.
 
 The exercise also gave me an opportunity to introduce them to some of the tools and skills we would be using such as developing and documenting our work in Jupyter notebooks. The students had a lot of fun with it, and it was really helpful for me to see the variety of knowledge and skills they brought to the problem.
 
-<a href="https://github.com/edsu/inst341/blob/master/modules/module-01/README.md"><img class="img-responsive" src="/images/mystery-file.png"></a>
+<a href="https://github.com/edsu/inst341/blob/master/modules/module-01/README.md"><img class="img-fluid" src="/images/mystery-file.png"></a>
 
 The mystery file turned out to be bundle of genetic data and metadata from the
 public  National Center for Biotechnology Information a few minutes drive from
 UMD at the National Institutes of Health in Bethesda. If the students were able
 to notice that this file was a tar file, they could expand it and explore the directories and subdirectories. They could notice that some files were compressed, and examine some of them to notice that they contained metadata and a genetic sequence.
 
-<img class="img-responsive" src="/images/mystery-file-metadata.png">
+<img class="img-fluid" src="/images/mystery-file-metadata.png">
 
-<img class="img-responsive" src="/images/mystery-file-sequence.png">
+<img class="img-fluid" src="/images/mystery-file-sequence.png">
 
 Once they had submitted their answers I shared a [video] with them (the class is asynchronous except for in person office hours) where I answered these questions myself in a Jupyter notebook running in Google [Colab]. I shared the [completed notebook] with them for them to try on their own. It was a good opportunity to reacquaint students with notebooks since they were introduced to them in an Introduction to Programming class that is a pre-requisite. But I  wanted to show how notebooks were useful for documenting their work, and especially useful in digital curation activities which are often ad-hoc, but  include some repeatable steps.
 

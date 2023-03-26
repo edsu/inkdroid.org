@@ -9,7 +9,7 @@ tags:
 
 <figure>
   <a href="https://www.loc.gov/item/2021668430/">
-    <img class="img-responsive" src="/images/wdl-item2.jpg">
+    <img class="img-fluid" src="/images/wdl-item2.jpg">
   </a>
   <figcaption>
    <a href="https://www.loc.gov/item/2021668430/">Makian As It Appears from the Side of Ngofakiaha</a>
@@ -171,7 +171,7 @@ One interesting thing that LC also chose to do was create a [web archive] of wha
 
 This web archive preserves something that is lost in the presentation in the LC website: the multilingual interface. As of this writing you can see wdl.org in the [search results] at DuckDuckGo, but I imagine these will start to disappear (by design) since these are [permanent redirects] which signal the search platform that these old URLs can be purged from their index.
 
-<a href="https://duckduckgo.com/?t=ffab&q=site%3Awww.wdl.org&ia=web"><img src="/images/wdl-search.png" class="img-responsive"></img></a>
+<a href="https://duckduckgo.com/?t=ffab&q=site%3Awww.wdl.org&ia=web"><img src="/images/wdl-search.png" class="img-fluid"></img></a>
 
 For some time I've had a small research project in the back of my mind to do a field study (or two) with organizations that are planning or executing a content migration, from one CMS to the other. I think it would be interesting to examine the types of conversations, planning and tradeoffs that go on. If you are planning a migration like this, and wouldn't mind having a weird social scientist / software developer interloper hanging around please let me know.
 

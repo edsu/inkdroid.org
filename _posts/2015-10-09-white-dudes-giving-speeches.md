@@ -29,7 +29,7 @@ I found that the literature of archives and archival theory spoke directly to wh
 So why am *I* up *here* talking to *you*? This isn't about *me* right? It's about *we*.  So I would like to talk about this thing *we* do, namely create things like this:
 
 <a href="http://proust.library.miami.edu/findingaids/index.php?p=collections/findingaid&amp;id=1550&amp;format=xml">
-<img class="img-responsive img-thumbnail" src="/images/us-cuba.png">
+<img class="img-fluid img-thumbnail" src="/images/us-cuba.png">
 </a>
 
 Don't worry I'm not really going to be talking about the creation of finding aids. I think that they are something we all roughly understand. We use them to manage physical and intellectual access to our collections right? Finding aids are also used by researchers to discover what collections we have. Hey, it happens. Instead what I would like to focus on in this talk is the nature of this particular collection. What are the records being described here?
@@ -54,13 +54,13 @@ But what about the conversation that was happening in Twitter? That's what you'v
 
 When we stopped this initial round of data collection we had collected 13,480,000 tweets that mentioned the word "ferguson" between August 10, 2014 and August 27, 2014.
 
-<img class="img-responsive img-thumbnail" src="/images/ferguson-tweets-graph.png">
+<img class="img-fluid img-thumbnail" src="/images/ferguson-tweets-graph.png">
 
 You can see from this graph of tweets per day, that there were definite cycles
 in the Twitter traffic. In fact the volume was so high at times, and we had
 started data collection 6 days late, you can see there are periods where we weren't able to get the tweets. You might be wondering what this data collection looks like. Before looking closer at the data let me try to demystify it a little bit for you.
 
-<a href="https://dev.twitter.com/rest/public/search"><img class="img-responsive
+<a href="https://dev.twitter.com/rest/public/search"><img class="img-fluid
 img-thumbnail" src="/images/twitter-api.png"></a>
 
 Here is a page from the online documentation for Twitter's API. If you haven't heard the term API before it stands for Application Programming Interface, and that's just a fancy name for a website that delivers up data (such as XML or JSON) instead of human readable web pages. If you have a Twitter app on your phone it most likely uses Twitter's API to access the tweets of people you follow. Twitter isn't the only place making APIs available: they are *everywhere* on the Web: Facebook, Google, YouTube, Wikipedia, OCLC, even the Library of Congress has APIs. In some ways if you make your EAD XML available on the Web it is a kind of API. I really hope I didn't just mansplain what APIs are, that's not what I was trying to do.
@@ -132,7 +132,7 @@ colleagues at the University of Maryland.
 
 When there was a Town Hall meeting on December 3, 2014 we were invited to speak along with other faculty, students and the University Police Commissioner. The slides you saw earlier of popular tweets during that period was originally created for the Town Hall. I spoke very briefly about the data we collected and invited students and faculty who were interested in working with the data to please get in touch. The meeting was attended by hundreds of students, and ended up lasting some 4 hours, with most of the time being taken up by students sharing stories from their experience on campus of harassment by police, concern about military grade weapons being deployed in the community, insight into the forms of institutionalized racism that we all still live with today. It was an incredibly moving experience, and our images from the "archive" were playing the whole time as a backdrop.
 
-<a href="http://blacklivesmatterumd.tumblr.com/"><img class="img-responsive img-thumbnail" src="/images/blm-umd.png"></a>
+<a href="http://blacklivesmatterumd.tumblr.com/"><img class="img-fluid img-thumbnail" src="/images/blm-umd.png"></a>
 
 After the Town Hall meeting Neil and a group of faculty on campus organized the
 [BlackLivesMatter at UMD] group, and a set of teach-ins at UMD where the

@@ -44,7 +44,7 @@ model. I showed them a paper graph that modeled a small subset of MITH people
 and projects as an example:
 
 <a href="https://www.flickr.com/photos/inkdroid/22510518477/in/dateposted/"><img
-class="img-responsive" src="/images/mith-projects.jpg"></a>
+class="img-fluid" src="/images/mith-projects.jpg"></a>
 
 I wish I took pictures of the ones all the students came up with. They were
 *amazing* and made my example seem super dull. MITH is in the middle of working

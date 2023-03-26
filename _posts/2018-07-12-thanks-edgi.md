@@ -43,11 +43,11 @@ Machine, is *incredibly* important for the majority of people interested in
 knowing what Pruitt's public communications were. Here is what the coverage of
 Pruitt's Twitter timeline looks like in the Wayback Machine for 2017 and 2018. 
 
-<a href="https://web.archive.org/web/20170601000000*/https://twitter.com/epascottpruitt"><img class="img-responsive" style="border: thin solid gray;" src="/images/pruitt2017.png"></a>
+<a href="https://web.archive.org/web/20170601000000*/https://twitter.com/epascottpruitt"><img class="img-fluid" style="border: thin solid gray;" src="/images/pruitt2017.png"></a>
 
 <br>
 
-<a href="https://web.archive.org/web/20180601000000*/https://twitter.com/epascottpruitt"><img class="img-responsive" style="border: thin solid gray;" src="/images/pruitt2018.png"></a>
+<a href="https://web.archive.org/web/20180601000000*/https://twitter.com/epascottpruitt"><img class="img-fluid" style="border: thin solid gray;" src="/images/pruitt2018.png"></a>
 
 As you can see coverage prior to January, 2018 is kind of spotty. Getting the
 home timeline for the user timeline is important because it continually changes,

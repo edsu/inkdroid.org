@@ -10,7 +10,7 @@ tags:
 
 <figure style="display: inline; float: left; width: 300px; margin-right: 20px; margin-top: 0px;">
   <a href="https://www.flickr.com/photos/tracy_olson/405540276/">
-    <img class="img-responsive" src="/images/tree-rings.jpg">
+    <img class="img-fluid" src="/images/tree-rings.jpg">
   </a> <br>
   <figcaption>
   <a href="https://www.flickr.com/photos/tracy_olson/405540276/">Tree Rings</a> by <a href="https://www.flickr.com/photos/tracy_olson/">Tracy O</a> <br>

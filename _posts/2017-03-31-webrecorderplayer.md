@@ -33,7 +33,7 @@ ago when the [\@FBIRecordsVault] Twitter account tweeted about Hillary Clinton's
 emails just over a week before the US Presidential Election:
 
 <div style="text-align: middle;">
-  <img class="img-responsive" src="/images/fbivault.png">
+  <img class="img-fluid" src="/images/fbivault.png">
 </div>
 
 The tweets are still there on the web, but let's imagine that they're not, and

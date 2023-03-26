@@ -45,7 +45,7 @@ watching the changes for a few months now.
 
 For example consider [this change] that arrived in my inbox this morning.
 
-<a href="https://www.apichangelog.com/changes/2cf10ce4-813c-4c18-bef7-8e585e3d03d0"><img src="/images/twitter-api-change.png" class="img-responsive" style="border: thin solid gray;"></a>
+<a href="https://www.apichangelog.com/changes/2cf10ce4-813c-4c18-bef7-8e585e3d03d0"><img src="/images/twitter-api-change.png" class="img-fluid" style="border: thin solid gray;"></a>
 
 There are lots of little changes highlighted here in a [diff style] format. One
 thing that popped out at me was the addition of this phrase:

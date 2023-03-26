@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 $font-family-sans-serif: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-$font-size-base: 14pt;
+$font-size-base: 1.2rem;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap";
@@ -72,10 +72,9 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 70px;
+  height: 50px;
   padding-top: 10px;
-  font-size: 12pt;
-  border: thin solid gray;
+  font-size: .9em;
 }
 
 figure {
@@ -94,6 +93,34 @@ figcaption {
 
 .csl-entry {
   margin-top: 10px;
+}
+
+#pagination {
+  margin-top: 10px;
+}
+
+.navbar-toggler-icon {
+  font-size: .7em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.page-link {
+  color: black;
+}
+
+a.page-link:hover {
+  color: black;
+}
+
+code {
+  color: black;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -123,17 +150,17 @@ figcaption {
     color: #33ff00;
   }
 
-  .navbar {
-    background-color: black;
-    color: white;
+  .navbar-toggler {
+    background-color: white;
+    color: black;
     border: none;
   }
 
-  .navbar-default .navbar-nav > li a {
+  .navbar-nav > li a {
     color: #33ff00;
   }
 
-  .navbar-default .navbar-nav > li a:hover {
+  .navbar-nav > li a:hover {
     color: #33ff00;
     text-decoration: underline;
   }
@@ -200,6 +227,10 @@ figcaption {
 
   #page-footer {
     display: none;
+  }
+
+  code {
+    color: white;
   }
 
 }

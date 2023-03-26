@@ -122,7 +122,7 @@ Of these millions of snapshots there appear to be 57,292 unique tweets. This
 roughly correlates with the 59K total tweets suggested by the last profile
 snapshots of the account. The maximum number of times in one day that his tweets were archived was 71,837 times on February 10, 2020. Here's what the archive snapshots of Trump's tweets look like over time (snapshots per week).
 
-<img class="img-responsive" src="/images/trump-tweets-archived-week.png">
+<img class="img-fluid" src="/images/trump-tweets-archived-week.png">
 
 It is relatively easy to use the CSV export from the [Trump Archive] project to see what tweets they know about that the Internet Archive does not and vice-versa (for the details see the Jupyter notebook and SQLite database [here]).
 
@@ -134,15 +134,15 @@ One of the three is this one, which is identified in [the Trump Archive](https:/
 
 Sure enough, over at the Politwoops project [you can see](https://projects.propublica.org/politwoops/tweet/1281926278845812736) that this tweet was deleted 47 seconds after it was sent:
 
-<a href="https://projects.propublica.org/politwoops/tweet/1281926278845812736"><img class="img-responsive" src="/images/trump-politwoops.png"></a>
+<a href="https://projects.propublica.org/politwoops/tweet/1281926278845812736"><img class="img-fluid" src="/images/trump-politwoops.png"></a>
 
 Flipping the table it's also possible to look at what tweets are in the Internet Archive but not in the Trump Archive. It turns out that there are 3,592 tweet identifiers in the Wayback machine for Trump's tweets which do not appear in the Trump Archive. Looking a bit closer we can see that some are clearly wrong, because the id itself is too small a number, or too large. And then looking at some of the snapshots it appears that they often don't resolve, and simply display a "Something went wrong" message:
 
-<a href="https://web.archive.org/web/20201111183124/https://twitter.com/realDonaldTrump/status/920341449220284418"><img class="img-responsive" src="/images/trump-something-went-wrong.png"></a>
+<a href="https://web.archive.org/web/20201111183124/https://twitter.com/realDonaldTrump/status/920341449220284418"><img class="img-fluid" src="/images/trump-something-went-wrong.png"></a>
 
 Yes, something *definitely* went wrong (in more ways than one). Just spot checking a few there also appear to be some legit tweets in the Wayback that are not in the Trump archive like this one:
 
-<a href="https://web.archive.org/web/20200307194518if_/https://twitter.com/realdonaldtrump/status/646009823356690432"><img class="img-responsive" src="/images/trump-missing-from-archive.png"></a>
+<a href="https://web.archive.org/web/20200307194518if_/https://twitter.com/realdonaldtrump/status/646009823356690432"><img class="img-fluid" src="/images/trump-missing-from-archive.png"></a>
 
 Notice how the media will not play there? It would take some heavy manual curation work to sort through these tweet IDs to see which ones are legit, and which ones aren't. But if you are interested here's an [editable Google Sheet](https://docs.google.com/spreadsheets/d/1UlSV5hkiXzprwPnM1SKJGhlTjrmMpro-c2rN6SkhIqc/edit?usp=sharing).
 

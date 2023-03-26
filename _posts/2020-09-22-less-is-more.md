@@ -15,7 +15,7 @@ In the next 9 minutes I hope to convince you that a text file of numbers is an
 important resource for archiving the web. Yes, that's right just a list of
 numbers like this:
 
-<img class="img-responsive" src="/images/ipres2020-01.png">
+<img class="img-fluid" src="/images/ipres2020-01.png">
 
 My hat is off to the organizers because I couldn't have asked for a better
 person to speak after than Rhiannon, since she just presented on the topic of

@@ -80,7 +80,7 @@ ago. Here's what the top 25 hashtags look like over time as a BumpGraph. If you
 want you can use the [rawgraphs file] (it's JSON) to upload it yourself and
 tweak it.
 
-<a href="/images/marielle-franco-hashtags.svg"><img src="/images/marielle-franco-hashtags.svg" class="img-responsive"/></a>
+<a href="/images/marielle-franco-hashtags.svg"><img src="/images/marielle-franco-hashtags.svg" class="img-fluid"/></a>
 
 If you click on the image it might be *a bit* easier to read (you can hover on
 the streams to see what they are)--but clearly it needs a bit of work still.

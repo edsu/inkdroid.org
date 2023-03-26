@@ -55,7 +55,7 @@ sun and moon sun and moon.
 </blockquote>
 
 <a href="https://www.flickr.com/photos/inkdroid/49896856988/">
-  <img class="img-responsive" src="/images/sun-and-moon.jpg">
+  <img class="img-fluid" src="/images/sun-and-moon.jpg">
 </a>
 
 I feel very, very lucky that we have a small yard for them to play in, and that

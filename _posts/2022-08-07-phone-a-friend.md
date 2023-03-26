@@ -7,7 +7,7 @@ layout: post
 
 I tried talking to Meta's [new](https://www.theverge.com/2022/8/5/23293281/meta-ai-chatbot-blenderbot-3-web-access-research-safety) AI chatbot about archiving a web page:
 
-<img src="/images/meta-bot.png" class="img-responsive">
+<img src="/images/meta-bot.png" class="img-fluid">
 
 It seemed to do well conversationally for a bit, but eventually went into limbo, never to return, as it appeared to be [phoning a friend](https://millionaire.fandom.com/wiki/Phone-a-Friend)?
 

@@ -301,7 +301,7 @@ comments:
 <p>  <a href="https://twitter.com/parliamentedits/statuses/486539012413607936">July 8, 2014</a>
 </p></blockquote>
 <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> The simplicity of combining Wikipedia and Twitter in this way immediately struck me as a potentially useful transparency tool. So using my experience on a <a href="http://wikistream.wmflabs.org">previous side project</a> I quickly put together a short <a href="http://github.com/edsu/anon">program</a> that listens to all major language Wikipedias for <em>anonymous</em> edits from Congressional IP address ranges (<a href="https://twitter.com/JoshData/status/486825061504917504">thanks Josh</a>) ... and tweets them.</p>
-<p><a href="http://twitter.com/congressedits"><img class="img-responsive" src="http://inkdroid.org/images/congressedits.png" alt="" /></a></p>
+<p><a href="http://twitter.com/congressedits"><img class="img-fluid" src="http://inkdroid.org/images/congressedits.png" alt="" /></a></p>
 <p>In less than 48 hours the <a
 href="http://twitter.com/congressedits">\@congressedits</a> Twitter account had
 more than 3,000 followers. My friend <a

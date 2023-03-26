@@ -23,7 +23,7 @@ to collect them.
 
 Whether this legend is still true or not we can be sure that an event like the Democratic Presidential Debate will trigger any rate limits that might exist. Sure enough, when I sifted through my collected data and graphed the tweets-per-minute I found that the rate rose to about 3,000 tweets per minute and then got throttled for the duration of the debate:
 
-<img class="img-responsive" src="/images/demdebate-tweets.png">
+<img class="img-fluid" src="/images/demdebate-tweets.png">
 
 You can also see a short drop around 2AM UTC when Twitter closed the filter
 stream connection, and twarc dutifully reopened it immediately. Some additional
@@ -55,12 +55,12 @@ So you can actually parse the log file and extract these counts to see how many
 tweets were dropped. It's important to note that the numbers are cumulative for
 the duration of the connection.
 
-<img class="img-responsive" src="/images/demdebate-dropped.png">
+<img class="img-fluid" src="/images/demdebate-dropped.png">
 
 And just to drive the point home, it looks better to layer the received and
 dropped tweets on top of each other as an area graph:
 
-<img class="img-responsive" src="/images/demdebate-combined.png">
+<img class="img-fluid" src="/images/demdebate-combined.png">
 
 This means that we may not have all the tweets, but we can get a slightly more
 accurate picture of the heartbeat of Twitter. I know this is reading the tea

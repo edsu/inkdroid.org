@@ -29,7 +29,7 @@ A significant part of our work in Documenting the Now has been appreciating, and
 
 <figure>
   <a href="http://embed.arcadefire.com/artwork/artwork_jpeg.html">
-    <img class="img-responsive"  src="/images/iipc2018-cars.png">
+    <img class="img-fluid"  src="/images/iipc2018-cars.png">
   </a>
 </figure>
 
@@ -50,7 +50,7 @@ year away.
 
 <figure>
 <a href="https://www.theguardian.com/environment/2017/dec/11/tsunami-of-data-could-consume-fifth-global-electricity-by-2025">
-  <img class="img-responsive" src="/images/iipc2018-tsunami.png">
+  <img class="img-fluid" src="/images/iipc2018-tsunami.png">
 </a>
 </figure>
 
@@ -68,7 +68,7 @@ Just as a thought experiment try to imagine archiving all this data. Imagine som
 This is not to say we don't need better tech for web archiving--we do. But better web archiving technology won't save us. We need to be able to think and talk about what we are saving and why. Because we can't archive it all. In fact, we *must not* archive it all because that would seriously jeopardize our ability to survive as a species.
 
 <figure>
-<img class="img-responsive" src="/images/iipc2018-envelope.png">
+<img class="img-fluid" src="/images/iipc2018-envelope.png">
 </figure>
 
 The Internet Archive's mission is to archive the web and to provide universal access to all knowledge [@Kahle:2007]. How much of the web is in the Internet Archive? Of course it's hard, if not impossible, to say. But let's not let that stop us.
@@ -117,7 +117,7 @@ These tools *emerged* as part of doing work with social media archives. Rather t
 
 <figure>
   <a href="https://medium.com/on-archivy/were-all-bona-fide-f502bdaea029">
-    <img class="img-responsive" src="/images/iipc2018-ferguson.jpg">
+    <img class="img-fluid" src="/images/iipc2018-ferguson.jpg">
   </a>
   <caption>Ferguson, Missouri (2017)</caption>
 </figure>

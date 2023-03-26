@@ -18,7 +18,7 @@ date_gmt: '2008-07-28 13:54:42 +0000'
 ---
 
 <figure style="border: none;">
-  <img class="img-responsive" src="/images/twarc.jpg">
+  <img class="img-fluid" src="/images/twarc.jpg">
   <figcaption>Photo by <a href="https://twitter.com/joshuatj/status/1063207047607410689">Joshua Ng</a></figcaption>
 </figure>
 

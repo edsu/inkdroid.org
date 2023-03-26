@@ -9,7 +9,7 @@ tags:
 ---
 
 
-<a href="https://arhusynergy.umd.edu/programs/baltimore-stories-narratives-and-life-american-city"><img src="https://arhusynergy.umd.edu/sites/arhusynergy.umd.edu/files/styles/grid/public/baltimore_stories_rectangle.jpg" style="float: left; margin-right: 10px;" class="img-responsive"></a>
+<a href="https://arhusynergy.umd.edu/programs/baltimore-stories-narratives-and-life-american-city"><img src="https://arhusynergy.umd.edu/sites/arhusynergy.umd.edu/files/styles/grid/public/baltimore_stories_rectangle.jpg" style="float: left; margin-right: 10px;" class="img-fluid"></a>
 
 I'm in Baltimore today to participate in a public event in the [Baltimore
 Stories] series sponsored by the University of Maryland and the Maryland
@@ -113,7 +113,7 @@ hashtags, and the attempts to reframe the protests that were going on here in
 Baltimore. 
 
 <div class="text-center">
-<a href="https://medium.com/on-archivy/baltimoreuprising-vs-baltimoreriots-f3f37eddc93b"><img class="img-responsive" src="https://cdn-images-1.medium.com/max/800/1*lveQlmf0gl7YwIYgVcUzVA.png"></a>
+<a href="https://medium.com/on-archivy/baltimoreuprising-vs-baltimoreriots-f3f37eddc93b"><img class="img-fluid" src="https://cdn-images-1.medium.com/max/800/1*lveQlmf0gl7YwIYgVcUzVA.png"></a>
 </div>
 
 Take a look at a sampling of random tweets with media using the 

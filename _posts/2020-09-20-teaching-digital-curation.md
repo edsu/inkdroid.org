@@ -7,7 +7,7 @@ tags:
 ---
 
 
-<img class="img-responsive" src="/images/formats.png">
+<img class="img-fluid" src="/images/formats.png">
 
 I'm lucky to be teaching a class about [digital curation] for undergraduate
 information studies students this semester. I struggled a bit over the summer

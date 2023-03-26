@@ -15,7 +15,7 @@ exhibits. For example here is one I saw in [this NYTimes
 article](https://www.nytimes.com/2021/02/10/us/politics/trump-impeachment-takeaways-day-2.html).
 
 <a href="https://www.nytimes.com/2021/02/10/us/politics/trump-impeachment-takeaways-day-2.html">
-  <img class="img-responsive" src="/images/trump-tweet-nytimes.png">
+  <img class="img-fluid" src="/images/trump-tweet-nytimes.png">
 </a>
 
 You can actually see this tweet being shown in the C-SPAN footage on YouTube
@@ -28,7 +28,7 @@ like the original. For example You can see one version of what it looked like
 at twitter.com here in the Internet Archive:
 
 <a href="https://web.archive.org/web/20210107001513/https://twitter.com/realDonaldTrump/status/1342821189077622792">
-  <img class="img-responsive" src="/images/trump-tweet-ia.png">
+  <img class="img-fluid" src="/images/trump-tweet-ia.png">
 </a>
 
 I [still think it's a shame](https://inkdroid.org/2021/01/21/trumps-tweets/)

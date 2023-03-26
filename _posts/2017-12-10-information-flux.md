@@ -20,35 +20,35 @@ information moves in a system between various parties and giving the pattern a
 name. 
 
 <figure>
-  <img class="img-responsive" src="/images/flux1.png">
+  <img class="img-fluid" src="/images/flux1.png">
   <figcaption><h3>Panopticon</h3></figcaption>
 </figure>
 
 <br><br>
 
 <figure>
-  <img class="img-responsive" src="/images/flux2.png">
+  <img class="img-fluid" src="/images/flux2.png">
   <figcaption><h3>Sousveillance</h3></figcaption>
 </figure>
 
 <br><br>
 
 <figure>
-  <img class="img-responsive" src="/images/flux3.png">
+  <img class="img-fluid" src="/images/flux3.png">
   <figcaption><h3>Off the Grid</h3></figcaption>
 </figure>
 
 <br><br>
 
 <figure>
-  <img class="img-responsive" src="/images/flux4.png">
+  <img class="img-fluid" src="/images/flux4.png">
   <figcaption><h3>Promiscuous Broadcaster</h3></figcaption>
 </figure>
 
 <br><br>
 
 <figure>
-  <img class="img-responsive" src="/images/flux5.png">
+  <img class="img-fluid" src="/images/flux5.png">
   <figcaption><h3>Voracious Collector</h3></figcaption>
 </figure>
 

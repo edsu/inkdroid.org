@@ -11,7 +11,7 @@ tags:
 You may have noticed back in December that the Washington Post [released] a fact
 checking plugin for Chrome that provides inline context for Trump's tweets.
 
-<a href="https://www.washingtonpost.com/news/the-fix/wp/2016/12/16/now-you-can-fact-check-trumps-tweets-in-the-tweets-themselves/"><img class="img-responsive" src="/images/wapo-plugin.png"></a>
+<a href="https://www.washingtonpost.com/news/the-fix/wp/2016/12/16/now-you-can-fact-check-trumps-tweets-in-the-tweets-themselves/"><img class="img-fluid" src="/images/wapo-plugin.png"></a>
 
 A few days later an equivalent [Firefox extension] was released as well. At the
 time I looked at the plugin source that was installed (I couldn't find it on Github) to see how it was gathering facts:

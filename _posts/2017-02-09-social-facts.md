@@ -29,12 +29,12 @@ that this text was removed (emphasis mine):
 In case you were wondering what the rationale for the edit was they boldly
 stated:
 
-<img alt="The circumstances surrounding Sessions' nomination and everything that happened with Yates is now irrlevant and doesn't belong." class="img-responsive center-block img-thumbnail" src="/images/sessions-comment1.png">
+<img alt="The circumstances surrounding Sessions' nomination and everything that happened with Yates is now irrlevant and doesn't belong." class="img-fluid center-block img-thumbnail" src="/images/sessions-comment1.png">
 
 Then three minutes later another anonymous user reverted the 
 change saying:
 
-<img title="Reversing potentially politically charged edit made by someone within the US House of Representatives" class="img-responsive center-block img-thumbnail" src="/images/sessions-comment2.png">
+<img title="Reversing potentially politically charged edit made by someone within the US House of Representatives" class="img-fluid center-block img-thumbnail" src="/images/sessions-comment2.png">
 
 The thing that I find interesting here is that the person who reverted the edit
 clearly knew the user was accessing Wikipedia from the US House of

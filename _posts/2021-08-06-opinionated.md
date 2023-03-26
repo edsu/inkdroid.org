@@ -16,7 +16,7 @@ But I'll admit to having liked one idea that they promulgated since the early
 days of Ruby on Rails: **that software should be [opinionated].**
 
 <a href="https://basecamp.com/gettingreal/04.6-make-opinionated-software"><img
-src="/images/opinionated.png" class="img-responsive"></a>
+src="/images/opinionated.png" class="img-fluid"></a>
 
 The hero narrative of the individual software developer or software user having
 an opinion and voicing it through the design or use of some software seems

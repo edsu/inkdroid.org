@@ -38,7 +38,7 @@ PS. It's enabled here on my blog for people who have their browser/os set to
 dark mode.
 
 <a href="/images/dark-mode.png">
-  <img class="img-responsive" src="/images/dark-mode.png">
+  <img class="img-fluid" src="/images/dark-mode.png">
 </a>
 
 [Dark Reader]: https://darkreader.org/

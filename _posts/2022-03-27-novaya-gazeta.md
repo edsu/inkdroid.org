@@ -70,7 +70,7 @@ the reasons why research into [linkrot] is so tricky.
 
 To make matters worse the HTML that the server responds with doesn't contain a *not found* message. The page is dynamically generated--it contains JavaScript code that needs to be executed which then in turn creates the not found message you see in your browser:
 
-<a href="https://novayageta.ru/articles/thisdoesntexit"><img class="img-responsive" src="/images/novaya-gazeta-404.png"></a>
+<a href="https://novayageta.ru/articles/thisdoesntexit"><img class="img-fluid" src="/images/novaya-gazeta-404.png"></a>
 
 So in order to check these URLs it's necessary to use a browser that will execute the JavaScript and then look for the "page missing" text in the *rendered* page. Since I was working in a Jupyter notebook I opted to use the [pyppeteer] library to drive a headless Chromium browser to visit each URL, and then look to see if the page had the missing message in it.
 

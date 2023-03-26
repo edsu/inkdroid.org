@@ -10,12 +10,12 @@ tags:
 Coincidence? 
 
 <a href="https://www.loc.gov/marc/bibliographic/bd856.html">
-  <img class="img-responsive" src="/images/856a.png">
+  <img class="img-fluid" src="/images/856a.png">
 </a>
 
 <br>
 
 <a href="https://www.wikidata.org/wiki/Property:P856">
-  <img class="img-responsive" src="/images/856b.png">
+  <img class="img-fluid" src="/images/856b.png">
 </a>
 

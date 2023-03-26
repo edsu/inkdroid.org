@@ -126,7 +126,7 @@ BibTeX I did in order to decode the file paths works for JabRef as well!
 
 <figure>
   <a href="/images/jabref.png">
-    <img class="img-responsive" src="/images/jabref.png">
+    <img class="img-fluid" src="/images/jabref.png">
   </a>
   <figcaption>A screenshot of JabRef</figcaption>
 </figure>

@@ -20,7 +20,7 @@ a more structural level. To give you a sense of how it looks here is an excerpt
 from a longer [sample] that Carpenter has made available on [her website]:
 
 <a href="http://luckysoap.com/owlandgirl/"><img style="border: thin solid #ccc"
-class="img-responsive" src="/images/ocean-of-static-page.png"></a>
+class="img-fluid" src="/images/ocean-of-static-page.png"></a>
 
 As you read the text to yourself silently you see the possibilities that have
 been made available, and are invited to choose one. As you choose you can't help

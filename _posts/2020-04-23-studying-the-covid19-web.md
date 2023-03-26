@@ -98,13 +98,13 @@ us see how these shops have been created over time, with the caveat that the
 created time could be when the domain was registered or when DomainTools first
 noticed the domain.
 
-<img class="img-responsive" src="/images/covid19-shopify.png">
+<img class="img-fluid" src="/images/covid19-shopify.png">
 
 So it looks like they peaked on March 15. But if we compare that graph to the
 graph of all the domains being tracked by DomainTools we can see it coincides
 roughly with the general trend in domains that DomainTools is tracking:
 
-<img class="img-responsive" src="/images/covid19-domains.png">
+<img class="img-fluid" src="/images/covid19-domains.png">
 
 It's important to stress that what we are seeing here is as much (perhaps more)
 a picture of *how* DomainTools collects, analyzes and classifies DNS, as it is a
@@ -136,7 +136,7 @@ rapidmedicalsystems.com. We can join this list as we did before back with the
 original DomainTools data to see test-kit sites created over time, which largely
 fits the same pattern we saw before.
 
-<img class="img-responsive" src="/images/covid19-testkits.png">
+<img class="img-fluid" src="/images/covid19-testkits.png">
 
 If you are interested in inspecting these domains for yourself I've made a
 [snapshot](/data/covid19-domains.csv.gz) of the DomainTools data with additional

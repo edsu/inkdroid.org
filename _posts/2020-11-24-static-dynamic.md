@@ -120,7 +120,7 @@ a special table in Airtable called Releases. A curator can add a row with their
 name, a description, and a tagged version of the site to use, which will cause
 a build of the website to be deployed.
 
-<a href="/images/static-dynamic.png"><img style="margin: 10px;" class="img-responsive" src="/images/static-dynamic.png"></a>
+<a href="/images/static-dynamic.png"><img style="margin: 10px;" class="img-fluid" src="/images/static-dynamic.png"></a>
 
 We have a program that runs from cron every few minutes and looks at this table
 and then decides whether a build of the site is needed. It is still early days

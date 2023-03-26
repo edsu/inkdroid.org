@@ -52,7 +52,7 @@ much early thinking about participation has been understood through our
 evolving conceptions about social media platforms, that are themselves
 fragmented territories.
 
-<a href="/images/participatory-archives-01.png"><img class="img-responsive" src="/images/participatory-archives-01.png"></a>
+<a href="/images/participatory-archives-01.png"><img class="img-fluid" src="/images/participatory-archives-01.png"></a>
 
 Early on @Palmer:2009 emphasizes that discussion needs to be focused on
 benefits, who will benefit and how, rather than on tools themselves. More
@@ -142,7 +142,7 @@ The archive is a *social resource* rather than a *repository*.
 He mentioned the work of the Documenting the Now (which was great) while
 citing Caswell:
 
-<a href="/images/participatory-archives-02.png"><img class="img-responsive" src="/images/participatory-archives-02.png"></a>
+<a href="/images/participatory-archives-02.png"><img class="img-fluid" src="/images/participatory-archives-02.png"></a>
 
 Flinn notes that it's not an either-or between the past and the now. He points
 towards ideas of [salvage] and challenging absence. This gets seen in the types
@@ -160,7 +160,7 @@ the [Syrian Archive]. Counter archives are often personal and affective. Their
 records are preserved from the threat of deletion and are not removed from the
 context of their creation. They useful for building solidarity.
 
-<a href="/images/participatory-archives-03.png"><img class="img-responsive" src="/images/participatory-archives-03.png"></a>
+<a href="/images/participatory-archives-03.png"><img class="img-fluid" src="/images/participatory-archives-03.png"></a>
 
 Flinn noted in the discussion period that despite their colonial history
 archival institutions can be led in the right direction and can be allies.

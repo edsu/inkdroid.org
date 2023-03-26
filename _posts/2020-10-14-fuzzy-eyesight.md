@@ -14,7 +14,7 @@ for cataract surgery on December 1st. Every day I wake up feeling grateful that
 modern science has made it possible to try to repair them, and doctors have
 gotten pretty good at it.
 
-<img class="img-responsive" src="/images/cataract-surgery-diagram.jpg">
+<img class="img-fluid" src="/images/cataract-surgery-diagram.jpg">
 
 This will sound pretentious and/or melodramatic but this situation reminded me
 of how the writer Borges went slowly blind by the age of 55. I'm just a few

@@ -13,7 +13,7 @@ myself from thinking about a term paper.*
 
 ---
 
-<a href="https://www.flickr.com/photos/inkdroid/26327446644/in/dateposted/"><img class="img-responsive" src="/images/whiteboard.jpg"></a>
+<a href="https://www.flickr.com/photos/inkdroid/26327446644/in/dateposted/"><img class="img-fluid" src="/images/whiteboard.jpg"></a>
 
 When you start talking about a web project in front of an empty whiteboard, how
 do you start filling the empty space?

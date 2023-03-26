@@ -113,7 +113,7 @@ FWIW, a quick test on Facebook shows that it works the same way. I created a pub
 Since the avatar URLs are still available it's possible to go through the
 suspended accounts and look at their avatar images. Here's what I found:
 
-<img alt="suspended avatar images" class="img-responsive" src="/images/suspended.png">
+<img alt="suspended avatar images" class="img-fluid" src="/images/suspended.png">
 
 Notice the pattern? They aren't eggheads, but pretty close. Another interesting
 thing to note is that 52% of the suspended accounts were created August 11, 2017
