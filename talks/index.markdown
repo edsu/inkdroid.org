@@ -49,7 +49,7 @@ Austin, Texas (November 10, 2019)<br>
 <p class="story">
 <strong>Opening the Black Box of Save Page Now</strong><br>
 with Jessica Ogden and Shawn Walker<br>
-<a href="http://thewebthatwas.net/">The Web That Was: RESAW 2019</a><br>
+<a href="https://web.archive.org/web/20190618073612/http://thewebthatwas.net/">The Web That Was: RESAW 2019</a><br>
 Amsterdam, Netherlands (June 21, 2019)<br>
 [<a href="resaw19.pdf">slides</a>]
 </p>

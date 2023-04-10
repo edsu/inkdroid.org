@@ -9,6 +9,10 @@ $font-size-base: 1.2rem;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap";
 
+nav {
+  margin-bottom: 30px;
+}
+
 table {
   @extend .table
 }
@@ -75,6 +79,11 @@ body {
   height: 50px;
   padding-top: 10px;
   font-size: .9em;
+}
+
+blockquote {
+  font-style: italic;
+  margin-left: 20px;
 }
 
 figure {

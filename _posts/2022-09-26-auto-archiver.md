@@ -4,6 +4,7 @@ title: auto-archiver
 tags:
 - web-archive
 - python
+- save-page-now
 ---
 
 I spent a bit [more](https://inkdroid.org/2022/09/24/pdfs/) time this weekend adding [browsertrix-crawler](https://github.com/webrecorder/browsertrix-crawler) to Bellingcat's recently released [auto-archiver](https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/) utility. If you aren't familiar with auto-archiver it lets you control a web archiving utility using a Google Sheet, and has specialized "archivers" for different platforms, and falls back to creating an snapshot using Internet Archive's SavePageNow. It also will always create a screenshot.

@@ -27,7 +27,7 @@ Digital Library Systems and Services
 Stanford University  
 01/2022 - 
 
-* Full stack software development
+* Full stack software development (Ruby, Python, JavaScript)
 * Web archive creation, preservation and access
 * Digital repositories, data preservation
 * Web services (REST) / Service design
