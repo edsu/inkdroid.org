@@ -15,7 +15,7 @@ So I thought reading some poetry in a bilingual edition could help introduce me 
 
 I didn't really realize till afterwards that this collection has translations from an amazing group of English writers like Samuel Beckett, Kenneth Roxroth, W. S. Merwin, Lawrence Ferlinghetti, William Carlos Williams, Paul Bowles, Denise Levertov, John Ashberry, Wallace Stevens (the list goes on and on). I suppose it should be no surprise since it was edited by Paul Auster, who also wrote a really amazing introduction to the collection. 
 
-Only two lines into the first poem, a translation of [Z O N E] by [Guillaume Appolinaire], I started to have doubts. 
+Only two lines into the first poem, a translation of [Z O N E] by [Guillaume Apollinaire], I started to have doubts. 
 
 > A la fin tu es las de ce monde ancien  
 > Bergère ô tour Eiffel le troupeau des ponts bêle ce matin
@@ -27,10 +27,10 @@ None other than [Samuel Beckett], an Irishman who made his home in Paris, and wa
 
 I have no problem with the first line, it seems perfect--and wow, what a first line. But the second was puzzling. I needed to look up these words:
 
-- [bergère](https://www.larousse.fr/dictionnaires/francais/berger/8849): a Shepherdess
+- [bergère](https://www.larousse.fr/dictionnaires/francais/berger/8849): a shepherdess
 - [troupeau](https://www.larousse.fr/dictionnaires/francais/troupeau/80015): a herd or flock
 - [béle](https://www.larousse.fr/dictionnaires/francais/b%C3%AAler/8655): bleat
-- [ô](https://www.larousse.fr/dictionnaires/francais/%C3%B4/55329): oh (just wanted to make sure)
+- [ô](https://www.larousse.fr/dictionnaires/francais/%C3%B4/55329): oh (ok just wanted to make sure)
 
 While dwelling on these words it seemed to me that Apollinaire was instead addressing the Eiffel Tower as a Shepherdess, and saying that her herd of bridges were bleating this morning, as she towered above them.
 
@@ -48,5 +48,5 @@ At any rate, whatever the right answer is here, it's kind of fun to dwell in the
 [The Random House Book of Twentieth Century French Poetry]: https://bookshop.org/p/books/the-random-house-book-of-20th-century-french-poetry-bilingual-edition-paul-auster/15429066
 
 [Z O N E]: https://www.poetica.fr/poeme-793/guillaume-apollinaire-zone/
-[Guillaume Appolinaire]: https://en.wikipedia.org/wiki/Guillaume_Apollinaire
+[Guillaume Apollinaire]: https://en.wikipedia.org/wiki/Guillaume_Apollinaire
 [Samuel Beckett]: https://en.wikipedia.org/wiki/Samuel_Beckett
