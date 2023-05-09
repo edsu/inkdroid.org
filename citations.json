@@ -57622,10 +57622,10 @@
 		}
 	},
 	{
-		"id": "rogers:2018",
-		"type": "document",
+		"id": "Rogers:2018",
+		"type": "dataset",
+		"DOI": "10.1285/I20356609V11I2P557",
 		"language": "en",
-		"note": "type: dataset\nDOI: 10.1285/I20356609V11I2P557",
 		"publisher": "University of Salento",
 		"source": "DOI.org (Datacite)",
 		"title": "Social Media Research After the Fake News Debacle",
@@ -60135,15 +60135,16 @@
 		}
 	},
 	{
-		"id": "summersPageNowSPN2021a",
-		"type": "document",
+		"id": "Ogden:2021a",
+		"type": "dataset",
 		"abstract": "Experiments with WARC data from the Internet Archive's Save Page Now service.",
+		"DOI": "10.5281/ZENODO.5529672",
 		"license": "Open Access",
-		"note": "version: v0.2.0\ntype: dataset\nDOI: 10.5281/ZENODO.5529672",
 		"publisher": "Zenodo",
 		"source": "DOI.org (Datacite)",
 		"title": "Save Page Now (SPN) Activity",
 		"URL": "https://zenodo.org/record/5529672",
+		"version": "v0.2.0",
 		"author": [
 			{
 				"family": "Summers",
@@ -67949,6 +67950,484 @@
 					"2022",
 					12,
 					17
+				]
+			]
+		}
+	},
+	{
+		"id": "Porter:2023",
+		"type": "article-journal",
+		"container-title": "Social Studies of Science",
+		"DOI": "10.1177/03063127231156650",
+		"ISSN": "0306-3127, 1460-3659",
+		"journalAbbreviation": "Soc Stud Sci",
+		"language": "en",
+		"page": "030631272311566",
+		"source": "DOI.org (Crossref)",
+		"title": "Reflections on translating Bruno Latour",
+		"URL": "http://journals.sagepub.com/doi/10.1177/03063127231156650",
+		"author": [
+			{
+				"family": "Porter",
+				"given": "Catherine"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					2,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					2,
+					19
+				]
+			]
+		}
+	},
+	{
+		"id": "Akrich:2023",
+		"type": "article-journal",
+		"container-title": "Social Studies of Science",
+		"DOI": "10.1177/03063127231158102",
+		"ISSN": "0306-3127, 1460-3659",
+		"journalAbbreviation": "Soc Stud Sci",
+		"language": "en",
+		"page": "030631272311581",
+		"source": "DOI.org (Crossref)",
+		"title": "Actor Network Theory, Bruno Latour, and the CSI",
+		"URL": "http://journals.sagepub.com/doi/10.1177/03063127231158102",
+		"author": [
+			{
+				"family": "Akrich",
+				"given": "Madeleine"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					2,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					2,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "Haraway:2023",
+		"type": "article-journal",
+		"container-title": "Social Studies of Science",
+		"DOI": "10.1177/03063127231157395",
+		"ISSN": "0306-3127, 1460-3659",
+		"journalAbbreviation": "Soc Stud Sci",
+		"language": "en",
+		"page": "030631272311573",
+		"source": "DOI.org (Crossref)",
+		"title": "Present to Bruno, from Donna",
+		"URL": "http://journals.sagepub.com/doi/10.1177/03063127231157395",
+		"author": [
+			{
+				"family": "Haraway",
+				"given": "Donna"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					2,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					2,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "Jensen:2023",
+		"type": "article-journal",
+		"container-title": "Social Studies of Science",
+		"DOI": "10.1177/03063127231156649",
+		"ISSN": "0306-3127, 1460-3659",
+		"journalAbbreviation": "Soc Stud Sci",
+		"language": "en",
+		"page": "030631272311566",
+		"source": "DOI.org (Crossref)",
+		"title": "Exercises in irreduction: Some Latourian favourites",
+		"title-short": "Exercises in irreduction",
+		"URL": "http://journals.sagepub.com/doi/10.1177/03063127231156649",
+		"author": [
+			{
+				"family": "Jensen",
+				"given": "Casper Bruun"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					2,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					2,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "Kuo:2023",
+		"type": "article-journal",
+		"container-title": "Social Studies of Science",
+		"DOI": "10.1177/03063127231158086",
+		"ISSN": "0306-3127, 1460-3659",
+		"journalAbbreviation": "Soc Stud Sci",
+		"language": "en",
+		"page": "030631272311580",
+		"source": "DOI.org (Crossref)",
+		"title": "On first reading Bruno Latour",
+		"URL": "http://journals.sagepub.com/doi/10.1177/03063127231158086",
+		"author": [
+			{
+				"family": "Nelson",
+				"given": "Nicole C"
+			},
+			{
+				"family": "Timmermans",
+				"given": "Stefan"
+			},
+			{
+				"family": "Warwick",
+				"given": "Andrew"
+			},
+			{
+				"family": "Konopásek",
+				"given": "Zdeněk"
+			},
+			{
+				"family": "Vance",
+				"given": "Russell E"
+			},
+			{
+				"family": "Kuo",
+				"given": "Wen-Hua"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					2,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					2,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "Alami:2022",
+		"type": "article-journal",
+		"container-title": "IEEE Transactions on Software Engineering",
+		"DOI": "10.1109/TSE.2021.3128356",
+		"ISSN": "0098-5589, 1939-3520, 2326-3881",
+		"issue": "12",
+		"journalAbbreviation": "IIEEE Trans. Software Eng.",
+		"page": "4838-4856",
+		"source": "DOI.org (Crossref)",
+		"title": "Pull Request Governance in Open Source Communities",
+		"URL": "https://ieeexplore.ieee.org/document/9616408/",
+		"volume": "48",
+		"author": [
+			{
+				"family": "Alami",
+				"given": "Adam"
+			},
+			{
+				"family": "Pardo",
+				"given": "Raul"
+			},
+			{
+				"family": "Cohn",
+				"given": "Marisa Leavitt"
+			},
+			{
+				"family": "Wasowski",
+				"given": "Andrzej"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					3,
+					18
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					12,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "Weaver:2022",
+		"type": "report",
+		"collection-title": "Digital Future Whitepaper Series",
+		"event-place": "New Haven, CT",
+		"page": "39",
+		"publisher": "Yale Law School",
+		"publisher-place": "New Haven, CT",
+		"title": "The Death of Cryptocurrency: The Case for Regulation",
+		"URL": "https://law.yale.edu/sites/default/files/area/center/isp/documents/weaver_death_of_cryptocurrency_final.pdf",
+		"author": [
+			{
+				"family": "Weaver",
+				"given": "Nicholas"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "Antweiler:2023",
+		"type": "article-journal",
+		"abstract": "The article proposes to pursue Memory Studies as Studies of Governmentality. It aims to demonstrate how an analysis of memory, undertaken from the perspective of governmentality, can provide an important diagnostic of our time(s) and its political conditions, while furthermore illuminating how these are derived from narratives about the past. For this, I put into dialogue theoretical considerations of the Foucauldian concept with findings from a study of the Canadian Museum for Human Rights. With a special focus on public memories that are performed and produced at the juncture of Holocaust memory and advocacy for human rights, this article puts forward an innovative approach to public memory’s entanglements with contemporary politics and subsequently argues that any public memory can in the broader context of governmental rationalities be understood as a technique of government itself.",
+		"container-title": "Memory Studies",
+		"DOI": "10.1177/17506980221150892",
+		"ISSN": "1750-6980, 1750-6999",
+		"journalAbbreviation": "Memory Studies",
+		"language": "en",
+		"page": "175069802211508",
+		"source": "DOI.org (Crossref)",
+		"title": "Memory as a means of governmentality",
+		"URL": "http://journals.sagepub.com/doi/10.1177/17506980221150892",
+		"author": [
+			{
+				"family": "Antweiler",
+				"given": "Katrin"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					3,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					2,
+					14
+				]
+			]
+		}
+	},
+	{
+		"id": "Maemura:2023",
+		"type": "article-journal",
+		"abstract": "This paper examines the Web ARChive (WARC) file format, revealing how the format has come to play a central role in the development and standardization of interoperable tools and methods for the international web archiving community. In the context of emerging big data approaches, I consider the sociotechnical relationships between material construction of data and information infrastructures for collecting and research. Analysis is inspired by Star and Griesemer's historical case of the Museum of Vertebrate Zoology which reveals how boundary objects and methods standardization are used to enroll actors in the work of collecting for natural history. I extend these concepts by pairing them with frameworks for studying digital materiality and the representational qualities of data artifacts. Through examples drawn from fieldwork observations studying two data-centered research projects, I consider how the materiality of the WARC format influences research methods and approaches to data extraction, selection, and transformation. Findings identify three modalities researchers use to configure WARC data for researcher needs: using indexes to support search queries, constructing derivative formats designed for certain types of analysis, and generating custom-designed datasets tailored for specific research purposes. Findings additionally reveal similarities in how these distinct methods approach automated data extraction by relying upon the WARC's standardized metadata elements. By interrogating whose information needs are being met and taken into account in the design of the WARC's underlying information representation, I reveal effects on the emerging field of web history, and consider alternative approaches to knowledge production with archived web data.",
+		"container-title": "Big Data & Society",
+		"DOI": "10.1177/20539517231163172",
+		"ISSN": "2053-9517, 2053-9517",
+		"issue": "1",
+		"journalAbbreviation": "Big Data & Society",
+		"language": "en",
+		"page": "205395172311631",
+		"source": "DOI.org (Crossref)",
+		"title": "All WARC and no playback: The materialities of data-centered web archives research",
+		"title-short": "All WARC and no playback",
+		"URL": "http://journals.sagepub.com/doi/10.1177/20539517231163172",
+		"volume": "10",
+		"author": [
+			{
+				"family": "Maemura",
+				"given": "Emily"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					3,
+					22
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "McQuillan:2022",
+		"type": "book",
+		"event-place": "Bristol",
+		"ISBN": "978-1-5292-1352-2",
+		"language": "eng",
+		"number-of-pages": "181",
+		"publisher": "Bristol University Press",
+		"publisher-place": "Bristol",
+		"source": "K10plus ISBN",
+		"title": "Resisting AI: an anti-fascist approach to artificial intelligence",
+		"title-short": "Resisting AI",
+		"author": [
+			{
+				"family": "McQuillan",
+				"given": "Dan"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "Dodge:2021",
+		"type": "article",
+		"abstract": "Large language models have led to remarkable progress on many NLP tasks, and researchers are turning to ever-larger text corpora to train them. Some of the largest corpora available are made by scraping significant portions of the internet, and are frequently introduced with only minimal documentation. In this work we provide some of the first documentation for the Colossal Clean Crawled Corpus (C4; Raffel et al., 2020), a dataset created by applying a set of filters to a single snapshot of Common Crawl. We begin by investigating where the data came from, and find a significant amount of text from unexpected sources like patents and US military websites. Then we explore the content of the text itself, and find machine-generated text (e.g., from machine translation systems) and evaluation examples from other benchmark NLP datasets. To understand the impact of the filters applied to create this dataset, we evaluate the text that was removed, and show that blocklist filtering disproportionately removes text from and about minority individuals. Finally, we conclude with some recommendations for how to created and document web-scale datasets from a scrape of the internet.",
+		"note": "arXiv:2104.08758 [cs]",
+		"number": "arXiv:2104.08758",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Documenting Large Webtext Corpora: A Case Study on the Colossal Clean Crawled Corpus",
+		"title-short": "Documenting Large Webtext Corpora",
+		"URL": "http://arxiv.org/abs/2104.08758",
+		"author": [
+			{
+				"family": "Dodge",
+				"given": "Jesse"
+			},
+			{
+				"family": "Sap",
+				"given": "Maarten"
+			},
+			{
+				"family": "Marasović",
+				"given": "Ana"
+			},
+			{
+				"family": "Agnew",
+				"given": "William"
+			},
+			{
+				"family": "Ilharco",
+				"given": "Gabriel"
+			},
+			{
+				"family": "Groeneveld",
+				"given": "Dirk"
+			},
+			{
+				"family": "Mitchell",
+				"given": "Margaret"
+			},
+			{
+				"family": "Gardner",
+				"given": "Matt"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					30
+				]
+			]
+		}
+	},
+	{
+		"id": "Buchanan:2010",
+		"type": "book",
+		"call-number": "B809.3 .B83 2010",
+		"collection-title": "Oxford paperback reference",
+		"edition": "1st ed",
+		"event-place": "Oxford",
+		"ISBN": "978-0-19-953291-9",
+		"note": "OCLC: ocn464580932",
+		"number-of-pages": "500",
+		"publisher": "Oxford University Press",
+		"publisher-place": "Oxford",
+		"source": "Library of Congress ISBN",
+		"title": "A dictionary of critical theory",
+		"URL": "https://www.oxfordreference.com/display/10.1093/acref/9780199532919.001.0001/acref-9780199532919",
+		"author": [
+			{
+				"family": "Buchanan",
+				"given": "Ian"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010"
 				]
 			]
 		}
