@@ -68431,5 +68431,27 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "Robinson:2018",
+		"type": "article-newspaper",
+		"container-title": "The Guardian",
+		"title": "Empty half the Earth of its humans. It's the only way to save the planet.",
+		"URL": "https://www.theguardian.com/cities/2018/mar/20/save-the-planet-half-earth-kim-stanley-robinson",
+		"author": [
+			{
+				"family": "Robinson",
+				"given": "Kim Stanley"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					3,
+					20
+				]
+			]
+		}
 	}
 ]
