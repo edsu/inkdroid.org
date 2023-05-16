@@ -68453,5 +68453,90 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "Greenfield:2017",
+		"type": "book",
+		"call-number": "QA76.5915 .G745 2017",
+		"event-place": "London ; New York",
+		"ISBN": "978-1-78478-043-2",
+		"number-of-pages": "359",
+		"publisher": "Verso",
+		"publisher-place": "London ; New York",
+		"source": "Library of Congress ISBN",
+		"title": "Radical technologies: the design of everyday life",
+		"title-short": "Radical technologies",
+		"author": [
+			{
+				"family": "Greenfield",
+				"given": "Adam"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "Levine-Clark:2018",
+		"type": "book",
+		"call-number": "020.3",
+		"edition": "4th ed",
+		"event-place": "Boca Raton (Fla.)",
+		"ISBN": "978-1-4665-5259-3",
+		"language": "eng",
+		"publisher": "CRC press",
+		"publisher-place": "Boca Raton (Fla.)",
+		"source": "BnF ISBN",
+		"title": "Encyclopedia of library and information sciences",
+		"author": [
+			{
+				"family": "McDonald",
+				"given": "John David"
+			},
+			{
+				"family": "Levine-Clark",
+				"given": "Michael"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "Kreymer:2021",
+		"type": "standard",
+		"abstract": "WACZ is a media type that allows web archive collections to be packaged and shared on the web as a discrete file. A WACZ file includes all the data that is needed for the rendering archived content as well as contextual information required for users to interpret it. Rendering software can obtain this data on demand using HTTP Range requests, without requiring the entire file to be fully retrieved, or for it to be otherwise mediated by specialized server side software.",
+		"authority": "Webrecorder",
+		"publisher": "Webrecorder",
+		"title": "Web Archive Collection Zipped",
+		"URL": "https://specs.webrecorder.net/wacz/1.1.1/",
+		"version": "1.1.1",
+		"author": [
+			{
+				"family": "Kreymer",
+				"given": "Ilya"
+			},
+			{
+				"family": "Summers",
+				"given": "Ed"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					3
+				]
+			]
+		}
 	}
 ]
