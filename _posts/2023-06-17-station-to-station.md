@@ -7,9 +7,11 @@ tags:
 
 I recently took a bus from my home in the DC area up to where my Mom and Dad live outside Philadelphia. The bus departed from Union Station and arrived at 30th Street Station--two old train stations.
 
-Both stations have huge vaulted main halls. These spaces feel like they are from another time (because they are) and never fail to stop me in my tracks to gaze at this peculiar architecture that is at once both open and enclosed on a grand scale.
+Both stations have huge vaulted main halls that are separate from where the trains actually leave from. These spaces feel like they are from another time (because they are) and never fail to stop me in *my* tracks to gaze at this peculiar architecture that is at once both open and enclosed on a grand scale. 
 
-But as I walked into Union Station this early morning I was struck by how different the *sound* of the space is. So I recorded it with my phone:
+Perhaps that is their purpose--to impress, or arrest--because the high ceiling doesn't seem to serve a particular function? Unlike the hall at Union Station, the hall at 30th Street is still actively used as a waiting area, with lots of benches to sit on. Perhaps the high ceilings originally provided lots of air for the many people who found themselves sheltering and waiting there, before air conditioning became a thing?
+
+As I walked into Union Station this early morning I was struck by how different the *sound* of the space is. So I recorded it with my phone:
 
 [Union Station], Washington DC: 8:40 AM  
 <audio autoplay controls>
