@@ -8,4 +8,3 @@ My website that runs at http://inkdroid.org.
 4. gem install bundler
 5. bundle install
 6. jekyll serve
-
