@@ -68538,5 +68538,92 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "Olson:2013",
+		"type": "book",
+		"event-place": "Dordrecht",
+		"ISBN": "978-94-017-3435-6",
+		"language": "eng",
+		"note": "OCLC: 1066179808",
+		"publisher": "Springer Netherlands",
+		"publisher-place": "Dordrecht",
+		"source": "Open WorldCat",
+		"title": "The Power to Name: Locating the Limits of Subject Representation in Libraries",
+		"title-short": "The Power to Name",
+		"author": [
+			{
+				"family": "Olson",
+				"given": "H. A."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		}
+	},
+	{
+		"id": "Elliott:2022",
+		"type": "book",
+		"abstract": "\"The first English translation of key texts by Georges Bataille pertaining to The Accursed Share that also map out his transition from \"dissident surrealist\" to systematic thinker\"--",
+		"call-number": "B2430.B33952 E5 2022",
+		"event-place": "Cambridge, Massachusetts",
+		"ISBN": "978-0-262-04733-3",
+		"language": "eng",
+		"number-of-pages": "360",
+		"publisher": "The MIT Press",
+		"publisher-place": "Cambridge, Massachusetts",
+		"source": "Library of Congress ISBN",
+		"title": "The limit of the useful",
+		"author": [
+			{
+				"family": "Bataille",
+				"given": "Georges"
+			},
+			{
+				"family": "Knudson",
+				"given": "Cory Austin"
+			},
+			{
+				"family": "Elliott",
+				"given": "Tomas"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "Wright:2019",
+		"type": "book",
+		"call-number": "HB501 .W964 2019",
+		"event-place": "London ; New York",
+		"ISBN": "978-1-78873-605-3",
+		"number-of-pages": "157",
+		"publisher": "Verso",
+		"publisher-place": "London ; New York",
+		"source": "Library of Congress ISBN",
+		"title": "How to be an anticapitalist in the twenty-first century",
+		"URL": "https://archive.org/details/erik-olin-wright-how-to-be-an-anticapitalist-in-the-twenty-first-century-2019/",
+		"author": [
+			{
+				"family": "Wright",
+				"given": "Erik Olin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
 	}
 ]
