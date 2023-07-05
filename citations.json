@@ -68625,5 +68625,62 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "Ayala:2020",
+		"type": "chapter",
+		"container-title": "Digital Libraries for Open Knowledge",
+		"event-place": "Cham",
+		"ISBN": "978-3-030-54955-8",
+		"language": "en",
+		"note": "collection-title: Lecture Notes in Computer Science\nDOI: 10.1007/978-3-030-54956-5_6",
+		"page": "73-86",
+		"publisher": "Springer International Publishing",
+		"publisher-place": "Cham",
+		"source": "DOI.org (Crossref)",
+		"title": "Correspondence as the Primary Measure of Quality for Web Archives: A Grounded Theory Study",
+		"title-short": "Correspondence as the Primary Measure of Quality for Web Archives",
+		"URL": "https://link.springer.com/10.1007/978-3-030-54956-5_6",
+		"volume": "12246",
+		"editor": [
+			{
+				"family": "Hall",
+				"given": "Mark"
+			},
+			{
+				"family": "Merčun",
+				"given": "Tanja"
+			},
+			{
+				"family": "Risse",
+				"given": "Thomas"
+			},
+			{
+				"family": "Duchateau",
+				"given": "Fabien"
+			}
+		],
+		"author": [
+			{
+				"family": "Ayala",
+				"given": "Brenda Reyes"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					7,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
 	}
 ]
