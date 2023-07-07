@@ -43,7 +43,7 @@ Read the browsertrix-crawler [documentation] for all the options you can put in 
 
 ---
 
-PS. I should really adapt this to work with [podman] too...
+PS. ~~I should really adapt this to work with [podman] too...~~ It was updated to prefer podman to docker if it is available.
 
 PPS. Check out [browsertrix-cloud] if you don't want to work on the command line and would rather use a web application to do it.
 
