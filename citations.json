@@ -68747,5 +68747,71 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "Bjarnason:2023",
+		"type": "book",
+		"title": "The Intelligence Illusion: A Practical Guide to the Business Risks of Generative AI",
+		"URL": "https://illusion.baldurbjarnason.com/",
+		"author": [
+			{
+				"family": "Bjarnason",
+				"given": "Baldur"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "Ogden:2023",
+		"type": "article-journal",
+		"abstract": "From documenting human rights abuses to studying online advertising, web archives are increasingly positioned as critical resources for a broad range of scholarly Internet research agendas. In this article, we reflect on the motivations and methodological challenges of investigating the world’s largest web archive, the Internet Archive’s Wayback Machine (IAWM). Using a mixed methods approach, we report on a pilot project centred around documenting the inner workings of ‘Save Page Now’ (SPN) – an Internet Archive tool that allows users to initiate the creation and storage of ‘snapshots’ of web resources. By improving our understanding of SPN and its role in shaping the IAWM, this work examines how the public tool is being used to ‘save the Web’ and highlights the challenges of operationalising a study of the dynamic sociotechnical processes supporting this knowledge infrastructure. Inspired by existing Science and Technology Studies (STS) approaches, the paper charts our development of methodological interventions to support an interdisciplinary investigation of SPN, including: ethnographic methods, ‘experimental blackbox tactics’, data tracing, modelling and documentary research. We discuss the opportunities and limitations of our methodology when interfacing with issues associated with temporality, scale and visibility, as well as critically engage with our own positionality in the research process (in terms of expertise and access). We conclude with reflections on the implications of digital STS approaches for ‘knowing infrastructure’, where the use of these infrastructures is unavoidably intertwined with our ability to study the situated and material arrangements of their creation.",
+		"container-title": "Convergence: The International Journal of Research into New Media Technologies",
+		"DOI": "10.1177/13548565231164759",
+		"ISSN": "1354-8565, 1748-7382",
+		"journalAbbreviation": "Convergence: The International Journal of Research into New Media Technologies",
+		"language": "en",
+		"page": "135485652311647",
+		"source": "DOI.org (Crossref)",
+		"title": "Know(ing) Infrastructure: The Wayback Machine as object and instrument of digital research",
+		"title-short": "Know(ing) Infrastructure",
+		"URL": "http://journals.sagepub.com/doi/10.1177/13548565231164759",
+		"author": [
+			{
+				"family": "Ogden",
+				"given": "Jessica"
+			},
+			{
+				"family": "Summers",
+				"given": "Edward"
+			},
+			{
+				"family": "Walker",
+				"given": "Shawn"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					7,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					3,
+					30
+				]
+			]
+		}
 	}
 ]
