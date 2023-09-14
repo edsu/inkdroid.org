@@ -35,7 +35,7 @@ There are [various services](https://duckduckgo.com/?t=ffab&q=tracking+web+conte
 
 In designing a solution Frew extended other technical work  done to address full text search in web archives ([SolrWayback](https://github.com/netarchivesuite/solrwayback)). Having an text index of some kind seems like it would be essential for interactively analyzing and viewing a large number of documents and changes efficiently.
 
-I was imagining something a lighter weight that would use the Memento support ([RFC 7089](https://www.rfc-editor.org/rfc/rfc7089)) in a web archive to get a list of the snapshots for a given web resource over time, aka its "Time Map". With that list in hand, sort by date, and perform a binary search looking for the text that was missing.
+I was imagining something lighter weight that would use the Memento support ([RFC 7089](https://www.rfc-editor.org/rfc/rfc7089)) in a web archive to dynamically get a list of the snapshots for a given web resource over time, aka its "Time Map". With that list in hand, sort by date, and perform a binary search looking for the text that was missing. It's worth pointing out that this approach is slower, since the data needs to be pulled on demand, instead of assembling a database to be queried.
 
 This is similar in principle to using [git bisect](https://www.git-tower.com/learn/git/faq/git-bisect/) to find when a bug was introduced. But instead of running a test to test if the bug exists, the page can be evaluated by a person, or in the case of simple text search, the page can be rendered and searched.
 
@@ -47,7 +47,7 @@ I called the tool [memento-cli](https://github.com/edsu/memento-cli) which you c
 $ pip install memento-cli
 ```
 
-At its simplest you can use the new `memento` command with an archive URL (aka Memento) such as `https://web.archive.org/web/20230407140923/https:/help.twitter.com/en/rules-and-policies/hateful-conduct-policy` to list all the other snapshots that are available:
+The simplest way to use the new `memento` command is with an archive URL (aka Memento) such as `https://web.archive.org/web/20230407140923/https:/help.twitter.com/en/rules-and-policies/hateful-conduct-policy` to list all the other snapshots that are available:
 
 ```bash
 $ memento list https://web.archive.org/web/20230407140923/https:/help.twitter.com/en/rules-and-policies/hateful-conduct-policy
@@ -82,7 +82,7 @@ Things get more interesting when you want to search for a change. For example le
  
 You can see it in the Internet Archive Wayback Machine [in 2019](https://web.archive.org/web/20190711134608/https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy). But you can't see it [on the page in 2023](https://web.archive.org/web/20230621094005/https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy). *This [is not](https://arstechnica.com/tech-policy/2023/04/twitter-quietly-edited-its-hateful-conduct-policy-to-drop-transgender-protections/) a contrived example.*
 
-To identify when the change was introduced, you can *bisect* the version history to search for the version where the text went missing, using the two snapshots. This will perform a binary search between the two versions looking for the given text to go missing, and should eventually return with this snapshot: https://web.archive.org/web/20230408115900/https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy
+To identify when the change was introduced, you can *bisect* the version history to search for the version where the text went missing, using the two snapshots. This will perform a binary search between the two versions looking for the given text to go missing, and should eventually return with this snapshot: [https://web.archive.org/web/20230408115900/https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy](https://web.archive.org/web/20230408115900/https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy)
 
 ```bash
 $ memento bisect --missing --text "women, people of color, lesbian, gay" \
@@ -90,7 +90,10 @@ $ memento bisect --missing --text "women, people of color, lesbian, gay" \
   https://web.archive.org/web/20230621094005/https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy
 ```
 
+<figure>
 <a href="/videos/memento-bisect.mp4"><video autoplay width="100%" src="/videos/memento-bisect.mp4"></a>
+<figcaption>A (slow) video that shows the narrowing window of snapshots that are being searched as the binary search algorithm hones in on the commit.</figcaption>
+</figure>
 
 The *bisect* command uses a browser behind the scenes (Selenium) in order to fully render the page by executing JavaScript. If you wanted to find out when some text appears (rather than goes missing) then remove the `--missing` parameter from the command.
 
