@@ -27,7 +27,7 @@ similar to [git bisect](https://git-scm.com/docs/git-bisect) that would
 methodically search the list of versions for a page in a particular web
 archive, looking for some text to be present or missing.
 
-When mentioning this over [in the Fediverse](https://social.coop/@edsu/111025660642054642) I learned about recent work that [Lesly Frew](https://digipres.club/@Lesley) has been doing at Old Dominion University to model and visualize the changes to websites that are stored in web archives [@Frew:2023].
+When mentioning this over [in the Fediverse](https://social.coop/@edsu/111025660642054642) I learned about recent work that [Lesley Frew](https://digipres.club/@Lesley) has been doing at Old Dominion University to model and visualize the changes to websites that are stored in web archives [@Frew:2023].
 
 She has been studying how journalists and researchers, such as those associated with the [Environmental Data Governance Initiative](https://edgi.org/), need to be able to find and visualize changes to web content. EDGI's [Web Monitoring](https://envirodatagov.org/website-governance/monitoring-team/) project has been using empirical data collected from the web to help them ground their research and reporting around environmental data access issues.
 
@@ -101,7 +101,7 @@ And if you would prefer to examine the pages in between manually, leave off the 
 
 Finally if you would like to see the browser when using `--text` then use the `--show-browser` option.
 
-Lesly Frew rightly pointed out to me that the tool could us the [Memgator API](https://github.com/oduwsdl/memgator/releases) to discover and search in snapshots across the a large set of web archives, rather than just one web archive. I didn't want *memento-api* to be tied to a specific service like Memgator, but I think this would be a good option to add?
+Lesley Frew rightly pointed out to me that the tool could us the [Memgator API](https://github.com/oduwsdl/memgator/releases) to discover and search in snapshots across the a large set of web archives, rather than just one web archive. I didn't want *memento-api* to be tied to a specific service like Memgator, but I think this would be a good option to add?
 
 You may notice in the little video above that it can take a while to retrieve snapshot data from web archives. Fully rendering the page also takes time, since Selenium will wait until all the requests for resources (images, javascript, css, etc) have settled. This is just how many web archives function unfortunately, and is why a tool like `memento bisect` is helpful. Please [let me know](https://inkdroid.org/about) what you think if you do try it out.
 
