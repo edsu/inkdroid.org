@@ -33,11 +33,11 @@ She has been studying how journalists and researchers, such as those associated 
 
 There are [various services](https://duckduckgo.com/?t=ffab&q=tracking+web+content+changes+services&ia=web) for tracking how web content changes over time. But they tend to be oriented around security use cases, and not questions about how discourse changes over time, sometimes beyond the document level. I'm interested to see where Frew's work goes from here since it does seem like an underexplored HCI topic that is somewhat uniquely situated for hypermedia archives.
 
-In designing a solution Frew extended other technical work  done to address full text search in web archives ([SolrWayback](https://github.com/netarchivesuite/solrwayback)). Having an text index of some kind seems like it would be essential for interactively analyzing and viewing a large number of documents and changes efficiently.
+In designing a solution Frew extended other technical work  done to address full text search in web archives ([SolrWayback](https://github.com/netarchivesuite/solrwayback)). Having a text index of some kind seems like it would be essential for interactively analyzing and viewing a large number of documents and changes efficiently.
 
-I was imagining something lighter weight that would use the Memento support ([RFC 7089](https://www.rfc-editor.org/rfc/rfc7089)) in a web archive to dynamically get a list of the snapshots for a given web resource over time, aka its "Time Map". With that list in hand, sort by date, and perform a binary search looking for the text that was missing. It's worth pointing out that this approach is slower, since the data needs to be pulled on demand, instead of assembling a database to be queried.
+I was imagining something lighter weight that would use the Memento support ([RFC 7089](https://www.rfc-editor.org/rfc/rfc7089)) in a web archive to dynamically get a list of the snapshots for a given web resource over time, also known as its "Time Map". With that list in hand, you can ensure it is sorted by date, and then perform a binary search looking for the text that was missing. It's worth pointing out that this approach is much slower, since the data needs to be pulled on demand, instead of assembling a database to be queried.
 
-This is similar in principle to using [git bisect](https://www.git-tower.com/learn/git/faq/git-bisect/) to find when a bug was introduced. But instead of running a test to test if the bug exists, the page can be evaluated by a person, or in the case of simple text search, the page can be rendered and searched.
+So this method is similar in principle to using [git bisect](https://www.git-tower.com/learn/git/faq/git-bisect/) to find when a bug was introduced. But instead of running a test to test if the bug exists, the page can be evaluated by a person, or in the case of simple text search, the page can be rendered and searched.
 
 The nice thing about using Memento instead of Wayback Machine specific URLs, or their [CDX API](https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server), is that the same tool can work on other Memento supporting web archives, like the [UK Web Archive](https://www.webarchive.org.uk/en/ukwa/), or the [Stanford Web Archive Portal](https://swap.stanford.edu).
 
@@ -104,5 +104,7 @@ Finally if you would like to see the browser when using `--text` then use the `-
 Lesley Frew rightly pointed out to me that the tool could us the [Memgator API](https://github.com/oduwsdl/memgator/releases) to discover and search in snapshots across the a large set of web archives, rather than just one web archive. I didn't want *memento-api* to be tied to a specific service like Memgator, but I think this would be a good option to add?
 
 You may notice in the little video above that it can take a while to retrieve snapshot data from web archives. Fully rendering the page also takes time, since Selenium will wait until all the requests for resources (images, javascript, css, etc) have settled. This is just how many web archives function unfortunately, and is why a tool like `memento bisect` is helpful. Please [let me know](https://inkdroid.org/about) what you think if you do try it out.
+
+PS. Parsing RFC 6690 formatted links in Time Map is not trivial, and probably is a barrier for Memento adoption by clients? 
 
 ### References
