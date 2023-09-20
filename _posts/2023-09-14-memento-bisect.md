@@ -33,7 +33,21 @@ She has been studying how journalists and researchers, such as those associated 
 
 There are [various services](https://duckduckgo.com/?t=ffab&q=tracking+web+content+changes+services&ia=web) for tracking how web content changes over time. But they tend to be oriented around security use cases, and not questions about how discourse changes over time, sometimes beyond the document level. I'm interested to see where Frew's work goes from here since it does seem like an underexplored HCI topic that is somewhat uniquely situated for hypermedia archives.
 
-In designing a solution Frew extended other technical work  done to address full text search in web archives ([SolrWayback](https://github.com/netarchivesuite/solrwayback)). Having a text index of some kind seems like it would be essential for interactively analyzing and viewing a large number of documents and changes efficiently.
+It is worth noting here that the Internet Archive's Wayback Machine offers a useful "Changes" view, which lets you visualize the changes in a page over time, and then generate a diff of two selected versions. For example, here is the view for the NYTimes robots.txt file:
+
+<figure>
+  <a href="https://web.archive.org/web/changes/https://www.nytimes.com/robots.txt"><img class="img-fluid" src="/images/wayback-changes.png"></a>
+  <figcaption>Wayback "Changes" view</figcaption>
+</figure>
+
+<figure>
+  <a href="http://web.archive.org/web/diff/20230429235958/20230915000208/https://www.nytimes.com/robots.txt"><img class="img-fluid" src="/images/wayback-diff.png"></a>
+  <figcaption>Wayback "Diff" view</figcaption>
+</figure>
+
+As useful as these views are, they don't actually help us efficiently identify when a particular change was made. You would have to manually perform a binary search yourself across the versions to narrow down when a change might have happened.
+
+In designing a solution Frew extended other technical work done to address full text search in web archives ([SolrWayback](https://github.com/netarchivesuite/solrwayback)). Having a text index of some kind seems like it would be essential for interactively analyzing and viewing a large number of documents and changes efficiently.
 
 I was imagining something lighter weight that would use the Memento support ([RFC 7089](https://www.rfc-editor.org/rfc/rfc7089)) in a web archive to dynamically get a list of the snapshots for a given web resource over time, also known as its "Time Map". With that list in hand, you can ensure it is sorted by date, and then perform a binary search looking for the text that was missing. It's worth pointing out that this approach is much slower, since the data needs to be pulled on demand, instead of assembling a database to be queried.
 
