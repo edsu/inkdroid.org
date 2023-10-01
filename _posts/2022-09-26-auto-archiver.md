@@ -2,7 +2,7 @@
 layout: post
 title: auto-archiver
 tags:
-- web-archive
+- web-archives
 - python
 - save-page-now
 ---
