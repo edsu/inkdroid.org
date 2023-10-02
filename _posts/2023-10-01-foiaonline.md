@@ -122,3 +122,7 @@ The Department of Justice have a newish [foia.gov](https://foia.gov) site has a 
 foia.gov itself appears to be static site created with Jekyll that's available [on Github](https://github.com/usdoj/foia.gov). But it defers to a "back stage" application for request submission and reporting, which is not open source. More about the rationale for this new site can be found in this [report](https://github.com/18F/foia-recommendations/blob/master/recommendations.md) by 18F.
 
 I can well understand wanting to modernize the FOIAonline site, as it appeared to be showing its age. But based on its use over time it appears to have been a victim of its own success. Having a one stop shop that allows submission, tracking and publishing of FOIA requests has been replaced with a single system for submission (which seems partially implemented) and lots of agency specific processes for performing the FOIA requests. I guess only time will tell whether this was the right move or not. But I think it's a missed opportunity that the existing FOIAonline design wasn't updated instead of starting over with a new more decentralized architecture.
+
+---
+
+*Thanks to [Alex Howard](https://mastodon.social/@digiphile) for pointers and feedback while drafting this blog post.*
