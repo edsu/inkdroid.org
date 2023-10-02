@@ -31,6 +31,7 @@ transparency and that public access to information is maintained, not hindered, 
 the services offered by FOIAonline should be the baseline upon which to build and improve.
 >
 > We expect, in particular, these features to be preserved:
+> 
 > 1. The public posting of completed requests.  
 > 2. The ability to search for completed requests, including across multiple agencies.  
 > 3. The preservation of public access to the records that have already been made public through FOIAonline.  
@@ -104,7 +105,7 @@ I hope that having this dataset available will be useful to someone doing resear
 
 But back to the topic of web archiving there is also the question of what remains of foiaonline.gov in the [Internet Archive's Wayback Machine](https://web.archive.org). Over in [my notebook](https://github.com/edsu/foiaonline/blob/main/Notebook.ipynb) I used the Wayback Machine API to query for all snapshots matching the prefix `https://foiaonline.gov/*`. It found 1,306,651 unique URLs had been archived. Which was pretty awesome considering the pages are sitting behind a form. 
 
-However looking at the URLs only found 271,440 unique Tracking IDs, which is only 23% of the total records I found when scraping (1,192,748).
+However looking at the URLs only found 271,440 unique Tracking IDs, which is only 23% of the total records I found.
 
 With this data in hand it's also possible to look at *when* foiaonline.gov was archived, which made it clear that the majority of the work happened very recently in September 2023 (note the logarithmic scale to make prior archiving legible):
 
@@ -116,8 +117,8 @@ Looking closer at a few of the snapshots then shows that the ArchiveTeam have be
 
 The resulting WARC data that was collected can be found by [searching](https://archive.org/details/archiveteam-fire?query=foiaonline.gov) the ArchiveTeam "Just In Time Grabs" collection for "foiaonline.gov". I'm not entirely sure if all of this data has been loaded into the Wayback Machine yet, which may be why not all the data appears to be there?
 
-The Department of Justice have a newish [foia.gov](https://foia.gov) site has a [report builder](https://www.foia.gov/data.html) [formally documented API](https://www.foia.gov/developer/agency-api/) as well. The API looks like it is supposed to be used by other federal agencies who want to integrate their own FOIA case management systems with foia.gov?
+The Department of Justice have a newish [foia.gov](https://foia.gov) site has a [report builder](https://www.foia.gov/data.html), and a [documented API](https://www.foia.gov/developer/agency-api/) as well. The API looks like it is intended for use by other federal agencies who want to integrate their own FOIA case management systems with foia.gov?
 
-The site itself appears to be a Jekyll static site that's available [on Github](https://github.com/usdoj/foia.gov), but it defers to a "back stage" application for request submission and reporting, which is not open source. More about the rationale for this new site can be found in this [report](https://github.com/18F/foia-recommendations/blob/master/recommendations.md) by 18F.
+foia.gov itself appears to be static site created with Jekyll that's available [on Github](https://github.com/usdoj/foia.gov). But it defers to a "back stage" application for request submission and reporting, which is not open source. More about the rationale for this new site can be found in this [report](https://github.com/18F/foia-recommendations/blob/master/recommendations.md) by 18F.
 
-I can well understand wanting to modernize the FOIAonline site, as it appeared to be showing its age. But based on the usage it appears that it was a victim of its own success? Having a one stop shop that allows submission, tracking and publishing of FOIA requests has been replaced with a single system for submission (which seems partially implemented) and lots of agency specific processes for performing the FOIA requests. I guess time will tell whether this was the right move or not, but it's a shame that the existing FOIAonline site couldn't have been given a refresh instead of starting over with a new architecture.
+I can well understand wanting to modernize the FOIAonline site, as it appeared to be showing its age. But based on its use over time it appears to have been a victim of its own success. Having a one stop shop that allows submission, tracking and publishing of FOIA requests has been replaced with a single system for submission (which seems partially implemented) and lots of agency specific processes for performing the FOIA requests. I guess only time will tell whether this was the right move or not. But I think it's a missed opportunity that the existing FOIAonline design wasn't updated instead of starting over with a new more decentralized architecture.
