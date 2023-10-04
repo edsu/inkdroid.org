@@ -8,9 +8,14 @@ tags:
 - web-archives
 ---
 
-The [foiaonline.gov](https://foiaonline.gov) service that has been used for over a decade to submit FOIA requests was turned off this past weekend (September 30, 2023).
+The [foiaonline.gov](https://foiaonline.gov) service that has been used for over a decade to submit FOIA requests was turned off this past weekend at 5pm ET on September 30, 2023.
 
 FOIAonline was started in 2012 by the Environmental Protection Agency, and provided users with a single user interface for submitting FOIA requests to the EPA and multiple federal agencies. Users could track their requests as they were being processed, and when the request was successful they could view the resulting documents. The website allowed you to log in to create requests, but was completely searchable by the public without an account.
+
+<figure>
+  <a href="https://web.archive.org/web/20230331125350/https://foiaonline.gov/foiaonline/action/public/home"><img class="img-fluid" src="/images/foia-online-home.png"></a>
+  <figcaption>FOIAonline as it appeared on March 31, 2023</figcaption>
+</figure>
 
 The Environmental Data Governance Initiative (EDGI) have documented the significance of this closure in multiple letters including [this one](https://envirodatagov.org/wp-content/uploads/2023/09/EDGI_Comment_FOIA_Advisory_Committee_2023-06-08.pdf) dated June 8, 2023 in which they say:
 
@@ -36,9 +41,9 @@ the services offered by FOIAonline should be the baseline upon which to build an
 > 2. The ability to search for completed requests, including across multiple agencies.  
 > 3. The preservation of public access to the records that have already been made public through FOIAonline.  
 
-More reaction to the closure, and what we can expect to see in the future can be found in [this MuckRock article](https://www.muckrock.com/news/archives/2023/sep/26/foiaonline-shutting-down/), which (ironically enough) draws in part on information learned from submitting FOIA requests with FOIAOnline.
+More reaction to the closure, and what we can expect to see in the future can be found in [this MuckRock article](https://www.muckrock.com/news/archives/2023/sep/26/foiaonline-shutting-down/), which (ironically enough) draws in part on information learned from submitting FOIA requests with FOIAonline.
 
-From a web archiving perspective FOIAOnline presents significant challenges because the vast majority of the FOIAonline website content sits behind a search form. There is no index of requests that can easily be crawled, not even a [site map](https://en.wikipedia.org/wiki/Site_map).
+From a web archiving perspective FOIAonline presents significant challenges because the vast majority of the FOIAonline website content sits behind a search form. There is no index of requests that can easily be crawled, not even a [site map](https://en.wikipedia.org/wiki/Site_map).
 
 I was late seeing the announcement of the closure last Friday, but thought I would see how easy it might be to collect information about the FOIA requests that had been made over the lifetime of the project.
 
