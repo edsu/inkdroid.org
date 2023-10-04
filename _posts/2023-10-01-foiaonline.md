@@ -102,7 +102,7 @@ It wasn't initially clear what led to the precipitous fall off in October, 2022.
 
 <a href="/images/foia-online-agencies.png"><img class="img-fluid" src="/images/foia-online-agencies.png"></a>
 
-I was initially surprised at the overwhelming number of requests for Customs and Border Patrol records, so I graphed those over time, which ended up answering the question of what happened in October, 2022. This appears to be when CBP stopped participating in FOIAonline?
+I was initially surprised at the overwhelming number of requests for Customs and Border Protection records, so I graphed those over time, which ended up answering the question of what happened in October, 2022. This appears to be when CBP stopped participating in FOIAonline?
 
 <a href="/images/foia-online-cbp.png"><img class="img-fluid" src="/images/foia-online-cbp.png"></a>
 
