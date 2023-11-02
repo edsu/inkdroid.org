@@ -112,6 +112,8 @@ But back to the topic of web archiving there is also the question of what remain
 
 However looking at the URLs only found 271,440 unique Tracking IDs, which is only 23% of the total records I found.
 
+*Update 2023-11-02: On a tip from Mark Graham (Internet Archive) that more data had been loaded from ArchiveTeam I reran the data collection from the Wayback Machine API and it found 6,888,749 snapshots, of which 6,710,712 had unique URLs, and 1,225,700 FOIA request detail pages. This is significantly better than what I found previously, and more closesly matches the number of reports I was able to get out of the FOIAoline API before it was turned off.*
+
 With this data in hand it's also possible to look at *when* foiaonline.gov was archived, which made it clear that the majority of the work happened very recently in September 2023 (note the logarithmic scale to make prior archiving legible):
 
 <a href="/images/foia-online-archiveteam.png"><img class="img-fluid" src="/images/foia-online-archiveteam.png"></a>
