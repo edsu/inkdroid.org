@@ -228,6 +228,8 @@ the technical development.
 
 ## Selected Publications
 
+
+* [Know(ing) Infrastructure: The Wayback Machine as object and instrument of digital research].  Convergence. March, 2023.
 * [Demagoguery, Democracy, and Digitality]. In Teaching Demagoguery and Democracy: Rhetorical Pedagogy in Polarized Times. November, 2021.
 * [Bystander intervention on social media: Examining cyberbullying and
   reactions to systemic racism]. The Brookings Institution. October, 2021.
@@ -341,3 +343,4 @@ https://www.brookings.edu/research/bystander-intervention-on-social-media-examin
 [Stanford Web Archive Program]: https://library.stanford.edu/projects/web-archiving
 [Webrecorder]: https://webrecorder.net
 [specifications]: https://specs.webrecorder.net
+[Know(ing) Infrastructure: The Wayback Machine as object and instrument of digital research]: https://doi.org/10.1177/13548565231164759
