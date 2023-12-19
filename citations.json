@@ -22680,8 +22680,10 @@
 		"id": "Schneider:2019",
 		"type": "article-journal",
 		"container-title": "Journal of Cultural Economy",
+		"DOI": "10.1080/17530350.2019.1589553",
 		"note": "tex.date-added: 2019-04-19 10:27:07 -0400\ntex.date-modified: 2019-04-19 10:28:39 -0400\ntex.timestamp: 2019-04-19",
 		"title": "Decentralization: An incomplete ambition",
+		"URL": "https://www.tandfonline.com/doi/full/10.1080/17530350.2019.1589553",
 		"author": [
 			{
 				"family": "Schneider",
@@ -69083,6 +69085,450 @@
 					"2023",
 					4,
 					30
+				]
+			]
+		}
+	},
+	{
+		"id": "Lobbe:2023",
+		"type": "article-journal",
+		"container-title": "Internet Histories",
+		"DOI": "10.1080/24701475.2023.2254050",
+		"ISSN": "2470-1475, 2470-1483",
+		"journalAbbreviation": "Internet Histories",
+		"language": "en",
+		"page": "1-31",
+		"source": "DOI.org (Crossref)",
+		"title": "Continuity and discontinuity in web archives: a multi-level reconstruction of the <i>firsttuesday</i> community through persistences, continuity spaces and web cernes",
+		"title-short": "Continuity and discontinuity in web archives",
+		"URL": "https://www.tandfonline.com/doi/full/10.1080/24701475.2023.2254050",
+		"author": [
+			{
+				"family": "Lobbé",
+				"given": "Quentin"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					9,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					9,
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "Maemura:2023a",
+		"type": "article-journal",
+		"container-title": "Internet Histories",
+		"DOI": "10.1080/24701475.2023.2258697",
+		"ISSN": "2470-1475, 2470-1483",
+		"journalAbbreviation": "Internet Histories",
+		"language": "en",
+		"page": "1-16",
+		"source": "DOI.org (Crossref)",
+		"title": "Sorting URLs out: seeing the web through infrastructural inversion of archival crawling",
+		"title-short": "Sorting URLs out",
+		"URL": "https://www.tandfonline.com/doi/full/10.1080/24701475.2023.2258697",
+		"author": [
+			{
+				"family": "Maemura",
+				"given": "Emily"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					9,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					9,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "Vicsek:2023",
+		"type": "article-journal",
+		"abstract": "In an international context where social effects and ethics related to artificial intelligence (AI) are receiving more attention, there is a dearth of research about how AI specialists perceive the future of work and their role in bringing about the respective future. Does the fact that ethics and social issues are receiving more publicity impact AI specialists’ views? The current study advances knowledge about this issue by describing a deep qualitative investigation of the visions of AI developers and researchers in Hungary, a country on the semi-periphery concerning the development of these technologies. In recent years, social and ethical challenges linked to AI have been covered in the Hungarian media as well, although they are less of a hot topic than in some Western countries. The twenty AI specialist interviewees’ accounts were characterised by their perception of the current period as one of hype, expectations of a slow and limited amount of technological change, techno-optimism, as well as a distancing of responsibility. Notably, the change in the media climate does not appear to have affected their thinking: social consequences and ethical issues associated with technology were neglected in their accounts. Potential drivers of their views and the potential effects of the country context are discussed, as well as the consequences of the experts’ expectations and implications for AI research and development.",
+		"container-title": "Science, Technology and Society",
+		"DOI": "10.1177/09717218231186105",
+		"ISSN": "0971-7218, 0973-0796",
+		"journalAbbreviation": "Science, Technology and Society",
+		"language": "en",
+		"page": "09717218231186105",
+		"source": "DOI.org (Crossref)",
+		"title": "Visions of Hungarian Artificial Intelligence Specialists About the Future of Work and Their Roles",
+		"URL": "http://journals.sagepub.com/doi/10.1177/09717218231186105",
+		"author": [
+			{
+				"family": "Horváth",
+				"given": "Ágnes"
+			},
+			{
+				"family": "Vicsek",
+				"given": "Lilla"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					9,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					9,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "Woods:2017",
+		"type": "report",
+		"abstract": "Current generation internet-facing technology platforms are complex and prone to brittle failure. Without the continuous effort of engineers to keep them running they would stop working -- many in days, most in weeks, all within a year. These platforms remain alive and functioning because workers are able to detect anomalies, diagnose their sources, remediate their effect, and repair their flaws and do so ceaselessly -- SNAFU Catching. Yet we know little about how they accomplish this vital work and even less about how to support them better in doing it.",
+		"event-place": "Columbus, Ohio",
+		"publisher": "The Ohio State University",
+		"publisher-place": "Columbus, Ohio",
+		"title": "STELLA: Report from the SNAFUcatchers Workshop on Coping With Complexity",
+		"URL": "https://snafucatchers.github.io/",
+		"author": [
+			{
+				"family": "Woods",
+				"given": "David"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "Malik:2021",
+		"type": "article-journal",
+		"container-title": "Journal of Social Computing",
+		"DOI": "10.23919/JSC.2021.0035",
+		"ISSN": "2688-5255",
+		"issue": "4",
+		"journalAbbreviation": "J. Soc. Comput.",
+		"page": "365-384",
+		"source": "DOI.org (Crossref)",
+		"title": "Critical Technical Awakenings",
+		"URL": "https://ieeexplore.ieee.org/document/9698152/",
+		"volume": "2",
+		"author": [
+			{
+				"family": "Malik",
+				"given": "Maya"
+			},
+			{
+				"family": "Malik",
+				"given": "Momin M."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					10,
+					18
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "Birkner:2020",
+		"type": "article-journal",
+		"abstract": "The impact of social media has grown significantly during the past decade in several fields of our society. This article advocates the research subfield of social media memory studies based on empirical data from a case study on the role of social media in a local conflict about re-naming a public square in an average German town. The square had been named after Paul von Hindenburg, who played a crucial role in the implementation of Adolf Hitler as German Reichskanzler and was therefore regarded as an inadequate public patron. Conservatives fought against the new name, also on Facebook. Our findings indicate that the platform played a decisive role as counter-public sphere against hegemonic mainstream media and politics in fostering a new historical consciousness. The case might be seen as a precedent of right-wing movements and their use of social media in the Brexit campaign or the US elections.",
+		"container-title": "Memory Studies",
+		"DOI": "10.1177/1750698017750012",
+		"ISSN": "1750-6980, 1750-6999",
+		"issue": "4",
+		"journalAbbreviation": "Memory Studies",
+		"language": "en",
+		"page": "367-383",
+		"source": "DOI.org (Crossref)",
+		"title": "Collective memory and social media: Fostering a new historical consciousness in the digital age?",
+		"title-short": "Collective memory and social media",
+		"URL": "http://journals.sagepub.com/doi/10.1177/1750698017750012",
+		"volume": "13",
+		"author": [
+			{
+				"family": "Birkner",
+				"given": "Thomas"
+			},
+			{
+				"family": "Donk",
+				"given": "André"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					10,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "Regehr:2023",
+		"type": "article-journal",
+		"abstract": "Video records created by perpetrators and witnesses of violent crime are increasingly used as evidence in criminal investigations and court proceedings. When these records include the sexual assault, torture, and murder of individuals, they carry significant power to harm those exposed to them, but most importantly, through repeated viewing, they continue to harm those individuals whose suffering is immortalized therein. Using case study methods, including in-depth interviews with those centrally involved in the case, interviews with criminal justice professionals currently working with video evidence of violent crime, and a review of official documents and media reports, this article examines the tragic Canadian case of serial killers Paul Bernardo and Karla Homolka and the videos they recorded of their crimes. We observe that challenging decisions regarding the handling of video records of violent crime during the investigation process, the viewing of such records in court, and access to them by the public and press during the criminal justice process continue to be areas of concern and contestation, pitting principles of open justice against those of victim dignity and privacy. However, challenges regarding access to video records do not end with a trial and an ultimate verdict of guilt or innocence; rather, decisions continue to be made about the preservation or destruction, the storing and cataloguing, and access to archived material. In examining questions regarding the preservation and continued use of the records, we conclude that a responsible and ethical approach to these challenges is best achieved through what Caswell called a survivor-centred approach. We suggest that this approach should include recognizing the traumatic potentiality of records, providing safety and support to those affected, recognizing the potential of records to produce and perpetuate injustice, respecting the autonomy and decisions of survivors, and accepting and facilitating the right to be forgotten. [End Page 6]",
+		"container-title": "Archivaria",
+		"issue": "Spring",
+		"page": "6-40",
+		"title": "Troubling records: Managing and converving mediated artifacts of violent crime.",
+		"URL": "https://muse-jhu-edu.stanford.idm.oclc.org/article/899511",
+		"volume": "95",
+		"author": [
+			{
+				"family": "Regehr",
+				"given": "Cheryl"
+			},
+			{
+				"family": "Regehr",
+				"given": "Kaitlyn"
+			},
+			{
+				"family": "Birze",
+				"given": "Arija"
+			},
+			{
+				"family": "Duff",
+				"given": "Wendy"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "Yeo:2021",
+		"type": "book",
+		"edition": "1",
+		"event-place": "London ; New York, NY : Routledge/Taylor & Francis Group, 2020.",
+		"ISBN": "978-0-429-05468-6",
+		"language": "en",
+		"note": "DOI: 10.4324/9780429054686",
+		"publisher": "Routledge",
+		"publisher-place": "London ; New York, NY : Routledge/Taylor & Francis Group, 2020.",
+		"source": "DOI.org (Crossref)",
+		"title": "Record-Making and Record-Keeping in Early Societies",
+		"URL": "https://www.taylorfrancis.com/books/9780429622236",
+		"author": [
+			{
+				"family": "Yeo",
+				"given": "Geoffrey"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					11,
+					27
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "Mandolessi:2023",
+		"type": "article-journal",
+		"abstract": "This article examines the changes experienced by collective memory in the digital era. Contrary to the thesis that digital memory entails a new type of memory, which is radically different from the traditional conceptualization, I argue that the practice of digital memory materializes and implements the theoretical claims made by Memory Studies since the field’s inception – collective memory conceived as a process, mediated and remediated by multiple media, with the participation of dynamic communities that perform rather than represent the past. In the article, I address what I propose are the following four major transformations that collective memory has undergone in the digital era: (1) the new ontology of the digital archive; (2) the shift from narrative as a privileged form of collective memory to the cultural form of the database; (3) the reconfiguration of agency, in which a distributed memory is performed by human and non-human agents in a dynamic entanglement; and (4) the shift from mnemonic objects to mnemonic assemblages, comprising persons, things, artefacts, spaces, discourses, behaviours and expressions in dynamic relatedness.",
+		"container-title": "Memory Studies",
+		"DOI": "10.1177/17506980231204201",
+		"ISSN": "1750-6980, 1750-6999",
+		"issue": "6",
+		"journalAbbreviation": "Memory Studies",
+		"language": "en",
+		"page": "1513-1528",
+		"source": "DOI.org (Crossref)",
+		"title": "The digital turn in memory studies",
+		"URL": "http://journals.sagepub.com/doi/10.1177/17506980231204201",
+		"volume": "16",
+		"author": [
+			{
+				"family": "Mandolessi",
+				"given": "Silvana"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					12,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "Mandolessi:2021",
+		"type": "article-journal",
+		"abstract": "This article discusses the imaginary that digital memories are ‘placeless’, which refers to the notion that, among the changes that memory has experienced under the impact of digital media, one is the loss of a significant link to place. I contend that digital memories are not placeless memories, but, on the contrary, that place is central for digital memory work. Drawing on the concept of ‘performation’, I seek to demonstrate how place is created, executed and staged in the digital ecology. To illustrate this, I analyse two works of the research agency Forensic Architecture, ‘Hannibal in Rafah’ and ‘Saydnaya: Inside A Syrian Torture Prison’, in which ‘place’ plays a central role in the shaping of digital memory. Digital media’s ‘inherently archival’ nature acquires a different meaning in these works: it is the process of collecting and mapping the dispersed fragments of data that transforms the archive into memory.",
+		"container-title": "Memory Studies",
+		"DOI": "10.1177/17506980211010922",
+		"ISSN": "1750-6980, 1750-6999",
+		"issue": "3",
+		"journalAbbreviation": "Memory Studies",
+		"language": "en",
+		"page": "622-633",
+		"source": "DOI.org (Crossref)",
+		"title": "Challenging the placeless imaginary in digital memories: The performation of place in the work of Forensic Architecture",
+		"title-short": "Challenging the placeless imaginary in digital memories",
+		"URL": "http://journals.sagepub.com/doi/10.1177/17506980211010922",
+		"volume": "14",
+		"author": [
+			{
+				"family": "Mandolessi",
+				"given": "Silvana"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					12,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "Mandolessi:2020",
+		"type": "book",
+		"abstract": "The digital revolution has changed our ways of thinking, working, writing, and living together. In this book the authors critically analyse the ways in which these new technologies have reshaped our world in numerous respects, ranging from politics, ideology, and philosophy over art and communication to memory and identity. The book challenges the customary view of a divide between analog and digital culture, claiming instead that human endeavour has always been characterized by certain forms and aspects of digital thinking, building, and communicating, and that essential parts of analog culture are still being reshaped by new digital technologies. It offers a multidisciplinary approach to digital reason, reflecting the diversity of humanities scholarship and its fundamental contribution to the ongoing changes in our current and future thinking and doing",
+		"call-number": "HM851 .B3435 2020",
+		"event-place": "Leuven, Belgium",
+		"ISBN": "978-94-6270-206-6",
+		"note": "OCLC: on1111642237",
+		"number-of-pages": "272",
+		"publisher": "Leuven University Press",
+		"publisher-place": "Leuven, Belgium",
+		"source": "Library of Congress ISBN",
+		"title": "Digital reason: a guide to meaning, medium and community in a modern world",
+		"title-short": "Digital reason",
+		"author": [
+			{
+				"family": "Baetens",
+				"given": "Jan"
+			},
+			{
+				"family": "Graef",
+				"given": "Ortwin",
+				"dropping-particle": "de"
+			},
+			{
+				"family": "Mandolessi",
+				"given": "Silvana"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "Esposito:2022",
+		"type": "book",
+		"abstract": "\"Argues that what makes AI socially relevant and useful is not intelligence at all but something even more human: communication. If machines are going to improve their ability to address ever more important human issues, it will not be because they have learned to think like people, but because we have learned to communicate with them\"-- Provided by publisher",
+		"event-place": "Cambridge, Massachusetts",
+		"ISBN": "978-0-262-36886-5",
+		"language": "eng",
+		"note": "OCLC: 1269434020",
+		"publisher": "The MIT Press",
+		"publisher-place": "Cambridge, Massachusetts",
+		"source": "Open WorldCat",
+		"title": "Artificial communication: how algorithms produce social intelligence",
+		"title-short": "Artificial communication",
+		"URL": "https://doi.org/10.7551/mitpress/14189.001.0001",
+		"author": [
+			{
+				"family": "Esposito",
+				"given": "Elena"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
 				]
 			]
 		}
