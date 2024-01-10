@@ -69532,5 +69532,175 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "Duarte:2023",
+		"type": "article-journal",
+		"abstract": "Abstract\n            The findable, accessible, interoperable, and reusable (FAIR) data principles provide a framework for examining, evaluating, and improving how data is shared to facilitate scientific discovery.&#xD;    Generalizing these principles to research software and other digital products is an active area of research.&#xD;    Machine learning (ML) models---algorithms that have been trained on data without being explicitly programmed---and more generally, artificial intelligence (AI) models, are an important target for this because of the ever-increasing pace with which AI is transforming scientific domains, such as experimental high energy physics (HEP).&#xD;    In this paper, we propose a practical definition of FAIR principles for AI models in HEP and describe a template for the application of these principles.&#xD;    We demonstrate the template's use with an example AI model applied to HEP, in which a graph neural network is used to identify Higgs bosons decaying to two bottom quarks.&#xD;    We report on the robustness of this FAIR AI model, its portability across hardware architectures and software frameworks, and its interpretability.",
+		"container-title": "Machine Learning: Science and Technology",
+		"DOI": "10.1088/2632-2153/ad12e3",
+		"ISSN": "2632-2153",
+		"journalAbbreviation": "Mach. Learn.: Sci. Technol.",
+		"source": "DOI.org (Crossref)",
+		"title": "FAIR AI Models in High Energy Physics",
+		"URL": "https://iopscience.iop.org/article/10.1088/2632-2153/ad12e3",
+		"author": [
+			{
+				"family": "Duarte",
+				"given": "Javier Mauricio"
+			},
+			{
+				"family": "Li",
+				"given": "Haoyang"
+			},
+			{
+				"family": "Roy",
+				"given": "Avik"
+			},
+			{
+				"family": "Zhu",
+				"given": "Ruike"
+			},
+			{
+				"family": "Huerta",
+				"given": "Eliu"
+			},
+			{
+				"family": "Diaz",
+				"given": "Daniel Cipriano"
+			},
+			{
+				"family": "Harris",
+				"given": "Philip"
+			},
+			{
+				"family": "Kansal",
+				"given": "Raghav"
+			},
+			{
+				"family": "Katz",
+				"given": "Daniel S."
+			},
+			{
+				"family": "Kavoori",
+				"given": "Ishaan"
+			},
+			{
+				"family": "Kindratenko",
+				"given": "Volodymyr"
+			},
+			{
+				"family": "Mokhtar",
+				"given": "Farouk"
+			},
+			{
+				"family": "Neubauer",
+				"given": "Mark"
+			},
+			{
+				"family": "Park",
+				"given": "Sang Eon"
+			},
+			{
+				"family": "Quinnan",
+				"given": "Melissa"
+			},
+			{
+				"family": "Rusack",
+				"given": "Roger"
+			},
+			{
+				"family": "Zhao",
+				"given": "Zhizhen"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					12,
+					8
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					12,
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "Feng:2021",
+		"type": "book",
+		"event-place": "Cham",
+		"ISBN": "978-3-030-54414-0",
+		"language": "eng",
+		"note": "DOI: 10.1007/978-3-030-54414-0",
+		"number-of-pages": "163",
+		"publisher": "Springer",
+		"publisher-place": "Cham",
+		"source": "K10plus ISBN",
+		"title": "Building decentralized trust: multidisciplinary perspectives on the design of blockchains and distributed ledgers",
+		"title-short": "Building decentralized trust",
+		"editor": [
+			{
+				"family": "Lemieux",
+				"given": "Victoria L."
+			},
+			{
+				"family": "Feng",
+				"given": "Chen"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Hahn:2021",
+		"type": "article-journal",
+		"abstract": "This paper describes a method for improved access to publisher references in linked data RDF editors using data mining techniques and a large set of library metadata encoded in the MARC21 standard. The corpus is comprised of clustered sets of publishers and publisher locations from the library MARC21 records found in the POD Data Lake, an Ivy+ Library Consortium metadata sharing initiative. The POD Data Lake contains seventy million MARC21 records, forty million of which are unique. The discovery of publisher entity sets described forms the basis for the streamlined description of BIBFRAME Instance entities. This study resulted in two major outputs: 1) A prediction database and 2) sets of publisher location and name association rules. The association rules are the basis of a prototype autosuggestion feature of BIBFRAME Instance entity description properties designed specifically to support the autopopulation of publisher entities in linked data RDF editors.",
+		"container-title": "Proceedings of the Association for Information Science and Technology",
+		"DOI": "10.1002/pra2.479",
+		"ISSN": "2373-9231, 2373-9231",
+		"issue": "1",
+		"journalAbbreviation": "Proceedings of the Association for Information Science and Technology",
+		"note": "arXiv:2108.08352 [cs, math]",
+		"page": "461-465",
+		"source": "arXiv.org",
+		"title": "Publisher References in Bibliographic Entity Descriptions",
+		"URL": "http://arxiv.org/abs/2108.08352",
+		"volume": "58",
+		"author": [
+			{
+				"family": "Hahn",
+				"given": "Jim"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					12,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					10
+				]
+			]
+		}
 	}
 ]
