@@ -12,7 +12,11 @@ build: indexes
 	JEKYLL_ENV=production bundle exec jekyll build
 
 rsync:
-	rsync -r _site/ inkdroid@didier.mayfirst.org:web
+	rsync --recursive _site/ inkdroid@didier.mayfirst.org:web
+
+	# only want to clean out dropbox with delete otherwise we would blow
+	# away https://inkdroid.org/web-archives/
+	rsync --recursive dropbox/ inkdroid@didier.mayfirst.org:web/dropbox --delete
 
 cv: 
 	cd ehs && make

@@ -5,7 +5,7 @@ tags:
 - wikipedia
 ---
 
-Ok, this is a blast from the past. Here are some rough notes for a conversation today with [Ernesto](http://gvptsites.umd.edu/calvo/) about how [congressedits](https://en.wikipedia.org/wiki/CongressEdits) worked, and Wikipedia data more generally. I couldn't summon the will to create a slidedeck, but I was taking some notes, and it seemed easiest to just drop them here. Ernesto does some amazing [work](https://ilcss.umd.edu/research) researching communication on the web and politics.
+Ok, this is a blast from the past. Here are some rough notes for a conversation today with [Ernesto](http://gvptsites.umd.edu/calvo/) about how [congressedits](https://en.wikipedia.org/wiki/CongressEdits) worked, and Wikipedia data more generally. I couldn't summon the will to create a slidedeck, but I was taking some notes, and it seemed easiest to just drop them here. Ernesto does some amazing [work](https://ilcss.umd.edu/research) studying the political dimensions of the web.
 
 This is really just a list of links to follow...
 
@@ -35,4 +35,4 @@ This is really just a list of links to follow...
 - Internet registries: [https://en.wikipedia.org/wiki/Regional_Internet_registry](https://en.wikipedia.org/wiki/Regional_Internet_registry)
 - Registration Data Access Protocol: [https://en.wikipedia.org/wiki/Registration_Data_Access_Protocol](https://en.wikipedia.org/wiki/Registration_Data_Access_Protocol)
 - ARIN: [https://search.arin.net/rdap/](https://search.arin.net/rdap/)
-- Another example: Tracking Ukrainian Websites: [https://github.com/edsu/gov-ua](https://github.com/edsu/gov-ua)
+- Another example: tracking Ukrainian Websites: [https://github.com/edsu/gov-ua](https://github.com/edsu/gov-ua)
