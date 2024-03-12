@@ -8,6 +8,13 @@ information technology in libraries and archives. Some of this stuff looks kind
 of dated now, but I guess it illustrates my meandering career path.
 
 <p class="story">
+**Some things to consider when deciding whether to start buiding with "AI" in libraries**<br>
+Stanford University Libraries<br>
+March 12, 2023<br>
+[<a href="ai.pdf">slides</a>] [<a href="/2024/03/12/ai/">notes</a>] 
+</p>
+
+<p class="story">
 <strong>Existing Archival Practice: Web Archives as Infrastructure</strong><br>
 StarlingLab Workshop on Web Archives as Legal Evidence<br>
 August 27, 2022<br>
