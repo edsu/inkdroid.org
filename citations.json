@@ -69702,5 +69702,450 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "Grafton:2021",
+		"type": "book",
+		"abstract": "\"Information technology shapes nearly every part of modern life, and debates about information--its meaning, effects, and applications--are central to a range of fields, from economics, technology, and politics to library science, media studies, and cultural studies. This rich, unique resource traces the history of information with an approach designed to draw connections across fields and perspectives, and provide essential context for our current age of information. Clear, accessible, and authoritative, the book opens with a series of articles that provide a narrative history of information from premodern practices to twenty-first-century information culture. This section focuses on major developments in the creation, storage, search, exchange, management, and manipulation of information, as well as the many meanings and uses of information over time. Coverage spans Europe, North America, and many other places and periods, including the medieval Islamic world and early modern East Asia, as well as the emergence of global networks. A second, alphabetical section includes more than 100 concise articles that cover specific concepts (e.g., data, intellectual property, privacy); formats and genres (books, databases, maps, newspapers, scrolls, social media); people (archivists, diplomats and spies, readers, secretaries, teachers); practices (censorship, forecasting, learning, surveilling, translating); processes (digitization, quantification, storage and search); systems (bureaucracy, platforms, telecommunications); technologies (algorithms, cameras, computers), and much more. The book concludes with an informative glossary, defining terms from \"analog/digital\" to \"World Wide Web.\"\"--",
+		"call-number": "Z665 .I57815 2021",
+		"event-place": "Princeton",
+		"ISBN": "978-0-691-17954-4",
+		"number-of-pages": "881",
+		"publisher": "Princeton University Press",
+		"publisher-place": "Princeton",
+		"source": "Library of Congress ISBN",
+		"title": "Information: a historical companion",
+		"title-short": "Information",
+		"editor": [
+			{
+				"family": "Blair",
+				"given": "Ann"
+			},
+			{
+				"family": "Duguid",
+				"given": "Paul"
+			},
+			{
+				"family": "Goeing",
+				"given": "Anja-Silvia"
+			},
+			{
+				"family": "Grafton",
+				"given": "Anthony"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "Radford:2022",
+		"type": "article",
+		"abstract": "We study the capabilities of speech processing systems trained simply to predict large amounts of transcripts of audio on the internet. When scaled to 680,000 hours of multilingual and multitask supervision, the resulting models generalize well to standard benchmarks and are often competitive with prior fully supervised results but in a zero-shot transfer setting without the need for any fine-tuning. When compared to humans, the models approach their accuracy and robustness. We are releasing models and inference code to serve as a foundation for further work on robust speech processing.",
+		"note": "arXiv:2212.04356 [cs, eess]",
+		"number": "arXiv:2212.04356",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+		"URL": "http://arxiv.org/abs/2212.04356",
+		"author": [
+			{
+				"family": "Radford",
+				"given": "Alec"
+			},
+			{
+				"family": "Kim",
+				"given": "Jong Wook"
+			},
+			{
+				"family": "Xu",
+				"given": "Tao"
+			},
+			{
+				"family": "Brockman",
+				"given": "Greg"
+			},
+			{
+				"family": "McLeavey",
+				"given": "Christine"
+			},
+			{
+				"family": "Sutskever",
+				"given": "Ilya"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					1,
+					22
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					12,
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "Snow:2023",
+		"type": "report",
+		"note": "DOI: 10.7207/twr23-01",
+		"publisher": "Digital Preservation Coalition",
+		"source": "DOI.org (Crossref)",
+		"title": "Preserving Geospatial Data",
+		"URL": "https://www.dpconline.org/docman/dpc-technology-watch-publications/technology-watch-reports-1/2857-geospatialtechwatchreport-2nd-edition",
+		"author": [
+			{
+				"family": "Snow",
+				"given": "Meagan A."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					1,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					7,
+					31
+				]
+			]
+		}
+	},
+	{
+		"id": "Eve:2024",
+		"type": "article-journal",
+		"abstract": "Introduction: Digital preservation underpins the persistence of scholarly links and citations through the digital object identifier (DOI) system. We do not currently know, at scale, the extent to which articles assigned a DOI are adequately preserved.&nbsp;Methods: We construct a database of preservation information from original archival sources and then examine the preservation statuses of 7,438,037 DOIs in a random sample.&nbsp;Results: Of the 7,438,037 works examined, there were 5.9 million copies spread over the archives used in this work. Furthermore, a total of 4,342,368 of the works that we studied (58.38%) were present in at least one archive. However, this left 2,056,492 works in our sample (27.64%) that are seemingly unpreserved. The remaining 13.98% of works in the sample were excluded either for being too recent (published in the current year), not being journal articles, or having insufficient date metadata for us to identify the source.&nbsp;Discussion: Our study is limited by design in several ways. Among these are the facts that it uses only a subset of archives, it only tracks articles with DOIs, and it does not account for institutional repository coverage. Nonetheless, as an initial attempt to gauge the landscape, our results will still be of interest to libraries, publishers, and researchers.&nbsp;Conclusion: This work reveals an alarming preservation deficit. Only 0.96% of Crossref members (n = 204) can be confirmed to digitally preserve over 75% of their content in three or more of the archives that we studied. (Note that when, in this article, we write “preserved,” we mean “that we were able to confirm as preserved,” as per the specified limitations of this study.) A slightly larger proportion, i.e., 8.5% (n = 1,797), preserved over 50% of their content in two or more archives. However, many members, i.e., 57.7% (n = 12,257), only met the threshold of having 25% of their material in a single archive. Most worryingly, 32.9% (n = 6,982) of Crossref members seem not to have any adequate digital preservation in place, which is against the recommendations of the Digital Preservation Coalition.",
+		"container-title": "Journal of Librarianship and Scholarly Communication",
+		"DOI": "10.31274/jlsc.16288",
+		"ISSN": "2162-3309",
+		"issue": "1",
+		"source": "DOI.org (Crossref)",
+		"title": "Digital Scholarly Journals Are Poorly Preserved: A Study of 7 Million Articles",
+		"title-short": "Digital Scholarly Journals Are Poorly Preserved",
+		"URL": "https://www.iastatedigitalpress.com/jlsc/article/id/16288/",
+		"volume": "12",
+		"author": [
+			{
+				"family": "Eve",
+				"given": "Martin Paul"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					1,
+					26
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					1,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "hicks_2024",
+		"type": "document",
+		"note": "DOI: 10.31234/osf.io/qz43x",
+		"publisher": "PsyArXiv",
+		"title": "Psychological affordances can provide a missing explanatory layer for why interventions to improve developer experience take hold or fail",
+		"URL": "osf.io/preprints/psyarxiv/qz43x",
+		"author": [
+			{
+				"family": "Hicks",
+				"given": "Catherine M"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "Starosielski:2023",
+		"type": "article-journal",
+		"abstract": "The climate impacts of the information and communications technology sector—and Big Data especially—is a topic of growing public and industry concern, though attempts to quantify its carbon footprint have produced contradictory results. Some studies argue that information and communications technology's global carbon footprint is set to rise dramatically in the coming years, requiring urgent regulation and sectoral degrowth. Others argue that information and communications technology's growth is largely decoupled from its carbon emissions, and so provides valuable climate solutions and a model for other industries. This article assesses these debates, arguing that, due to data frictions and incommensurate study designs, the question is likely to remain irresolvable at the global scale. We present six methodological factors that drive this impasse: fraught access to industry data, bottom-up vs. top-down assessments, system boundaries, geographic averaging, functional units, and energy efficiencies. In response, we propose an alternative approach that reframes the question in spatial and situated terms: A relational footprinting that demarcates particular relationships between elements—geographic, technical, and social—within broader information and communications technology infrastructures. Illustrating this model with one of the global Internet's most overlooked components—subsea telecommunication cables—we propose that information and communications technology futures would be best charted not only in terms of quantified total energy use, but in specifying the geographical and technical parts of the network that are the least carbon-intensive, and which can therefore provide opportunities for both carbon reductions and a renewed infrastructural politics. In parallel to the politics of (de)growth, we must also consider different network forms.",
+		"container-title": "Big Data & Society",
+		"DOI": "10.1177/20539517231158994",
+		"ISSN": "2053-9517, 2053-9517",
+		"issue": "1",
+		"journalAbbreviation": "Big Data & Society",
+		"language": "en",
+		"page": "205395172311589",
+		"source": "DOI.org (Crossref)",
+		"title": "The world wide web of carbon: Toward a relational footprinting of information and communications technology's climate impacts",
+		"title-short": "The world wide web of carbon",
+		"URL": "http://journals.sagepub.com/doi/10.1177/20539517231158994",
+		"volume": "10",
+		"author": [
+			{
+				"family": "Pasek",
+				"given": "Anne"
+			},
+			{
+				"family": "Vaughan",
+				"given": "Hunter"
+			},
+			{
+				"family": "Starosielski",
+				"given": "Nicole"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					22
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "Sakdapolrak:2013",
+		"type": "article-journal",
+		"abstract": "Abstract\n            The employment of translocality as a research perspective is currently gaining momentum. A growing number of scholars from different research traditions concerned with the dynamics of mobility, migration and socio‐spatial interconnectedness have developed conceptual approaches to the term. They usually build on insights from transnationalism while attempting to overcome some of the limitations of this long‐established research perspective. As such, translocality is used to describe socio‐spatial dynamics and processes of simultaneity and identity formation that transcend boundaries—including, but also extending beyond, those of nation states. In this review, we trace the emergence of the idea of translocality and summarise the characteristics that different authors associate with the term. We elucidate the underlying notions of mobility and place and sketch out fields of research where the concept has been employed. On the basis of our findings, we conclude by proposing key areas where a translocal approach has the potential to generate fruitful insights. © 2012 The Author. Geography Compass © 2012 Blackwell Publishing Ltd",
+		"container-title": "Geography Compass",
+		"DOI": "10.1111/gec3.12048",
+		"ISSN": "1749-8198, 1749-8198",
+		"issue": "5",
+		"journalAbbreviation": "Geography Compass",
+		"language": "en",
+		"page": "373-384",
+		"source": "DOI.org (Crossref)",
+		"title": "Translocality: Concepts, Applications and Emerging Research Perspectives",
+		"title-short": "Translocality",
+		"URL": "https://compass.onlinelibrary.wiley.com/doi/10.1111/gec3.12048",
+		"volume": "7",
+		"author": [
+			{
+				"family": "Greiner",
+				"given": "Clemens"
+			},
+			{
+				"family": "Sakdapolrak",
+				"given": "Patrick"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2013",
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "Gibson-Graham:2006",
+		"type": "book",
+		"abstract": "Strategies -- Capitalism and anti-essentialism : an encounter in contradiction -- Class and the politics of \"identity\" -- How do we get out of this capitalist place? -- The economy, stupid! : industrial policy discourse and the body economic -- Querying globalization -- Post-fordism as politics -- Toward a new class politics of distribution -- \"Hewers of cake and drawers of tea\" -- Haunting capitalism : ghosts on a blackboard -- Waiting for a revolution",
+		"edition": "1., Univ. of Minnesota Press ed",
+		"event-place": "Minneapolis, Minn",
+		"ISBN": "978-0-8166-4805-4",
+		"language": "eng",
+		"number-of-pages": "299",
+		"publisher": "Univ. of Minnesota Press",
+		"publisher-place": "Minneapolis, Minn",
+		"source": "K10plus ISBN",
+		"title": "The end of capitalism (as we knew it): a feminist critique of political economy",
+		"title-short": "The end of capitalism (as we knew it)",
+		"author": [
+			{
+				"family": "Gibson-Graham",
+				"given": "Julia K."
+			},
+			{
+				"family": "Gibson-Graham",
+				"given": "J. K."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2006"
+				]
+			]
+		}
+	},
+	{
+		"id": "Ward:2004",
+		"type": "book",
+		"call-number": "HX833 .W36 2004",
+		"collection-number": "116",
+		"collection-title": "Very short introductions",
+		"event-place": "Oxford ; New York",
+		"ISBN": "978-0-19-280477-8",
+		"number-of-pages": "109",
+		"publisher": "Oxford University Press",
+		"publisher-place": "Oxford ; New York",
+		"source": "Library of Congress ISBN",
+		"title": "Anarchism: a very short introduction",
+		"title-short": "Anarchism",
+		"author": [
+			{
+				"family": "Ward",
+				"given": "Colin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2004"
+				]
+			]
+		}
+	},
+	{
+		"id": "StedelijkVanAbbe-Museum:2013",
+		"type": "book",
+		"event-place": "Eindhoven",
+		"ISBN": "978-94-90757-14-4",
+		"language": "eng",
+		"number-of-pages": "68",
+		"publisher": "Van Abbemuseum",
+		"publisher-place": "Eindhoven",
+		"source": "K10plus ISBN",
+		"title": "Toward a lexicon of usership: ... on the occasion of U Museum of Arte Útil, Van Abbemuseum Eindhoven, 7th December 2013 - 30th March 2014",
+		"title-short": "Toward a lexicon of usership",
+		"editor": [
+			{
+				"family": "Wright",
+				"given": "Stephen"
+			},
+			{
+				"family": "Stedelijk Van Abbe-Museum",
+				"given": ""
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		}
+	},
+	{
+		"id": "Ward:1973",
+		"type": "book",
+		"event-place": "London",
+		"ISBN": "978-0-04-321016-1",
+		"language": "eng",
+		"number-of-pages": "157",
+		"publisher": "Allen and Unwin",
+		"publisher-place": "London",
+		"source": "K10plus ISBN",
+		"title": "Anarchy in action",
+		"author": [
+			{
+				"family": "Ward",
+				"given": "Colin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1973"
+				]
+			]
+		}
+	},
+	{
+		"id": "Goldsmith:2020",
+		"type": "book",
+		"abstract": "\"In 1996, during the relatively early days of the web, Kenneth Goldsmith created UbuWeb to post hard-to-find works of concrete poetry. What started out as a site to share works from a relatively obscure literary movement grew into an essential archive of twentieth- and twenty-first-century avant-garde and experimental literature, film, and music. Visitors around the world now have access to both obscure and canonical works, from artists such as Kara Walker, Yoko Ono, Pauline Oliveros, Samuel Beckett, Marcel Duchamp, Cecil Taylor, Glenn Ligon, William Burroughs, and Jean-Luc Godard. In Duchamp Is My Lawyer, Goldsmith tells the history of UbuWeb, explaining the motivations behind its creation and how artistic works are archived, consumed, and distributed online. Based on his own experiences and interviews with a variety of experts, Goldsmith describes how the site navigates issues of copyright and the ways that UbuWeb challenges familiar configurations and histories of the avant-garde. The book also portrays the growth of other \"shadow libraries\" and includes a section on the artists whose works reflect the aims, aesthetics, and ethos of UbuWeb. Goldsmith concludes by contrasting UbuWeb's commitment to the free-culture movement and giving access to a wide range of artistic works with today's gatekeepers of algorithmic culture, such as Netflix, Amazon, and Spotify\"--",
+		"call-number": "NX260",
+		"event-place": "New York",
+		"ISBN": "978-0-231-54691-1",
+		"number-of-pages": "1",
+		"publisher": "Columbia University Press",
+		"publisher-place": "New York",
+		"source": "Library of Congress ISBN",
+		"title": "Duchamp is my lawyer: the polemics, pragmatics, and poetics of UbuWeb",
+		"title-short": "Duchamp is my lawyer",
+		"author": [
+			{
+				"family": "Goldsmith",
+				"given": "Kenneth"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "Woolgar:2014",
+		"type": "chapter",
+		"container-title": "Representation in scientific practice revisited",
+		"ISBN": "978-0-262-52538-1",
+		"note": "DOI: 10.7551/mitpress/9780262525381.003.0018\ntex.eprint: https://academic.oup.com/mit-press-scholarship-online/book/0/chapter/245856656/chapter-ag-pdf/44574626/book\\_29466\\_section\\_245856656.ag.pdf",
+		"publisher": "The MIT Press",
+		"title": "Struggles with representation: Could it be otherwise?",
+		"URL": "https://doi.org/10.7551/mitpress/9780262525381.003.0018",
+		"author": [
+			{
+				"family": "Woolgar",
+				"given": "Steve"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					1
+				]
+			]
+		}
 	}
 ]
