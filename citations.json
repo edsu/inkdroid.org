@@ -70147,5 +70147,31 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "Carr:2011",
+		"type": "book",
+		"abstract": "Discusses the intellectual and cultural consequences of the Internet, and how it may be transforming our neural pathways for the worse",
+		"event-place": "New York",
+		"ISBN": "978-0-393-33975-8",
+		"language": "eng",
+		"publisher": "W.W. Norton",
+		"publisher-place": "New York",
+		"source": "BnF ISBN",
+		"title": "The shallows: what the Internet is doing to our brains",
+		"title-short": "The shallows",
+		"author": [
+			{
+				"family": "Carr",
+				"given": "Nicholas"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
 	}
 ]
