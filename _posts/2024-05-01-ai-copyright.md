@@ -6,7 +6,9 @@ tags:
 layout: post
 ---
 
-A colleague in Slack (thanks [Snowden]) shared that the Coalition for Networked Information recently had [a good session] on Copyright and AI for librarians. It was run by Jonathan Band, who is an attorney for the Library Copyright Alliance, and Timothy Vollmer who does scholarly communications at Berkeley. The presentation is an hour long and worth watching, or listening to as you do something else, like walking your dog...as you do. Here are my brief notes I jotted down afterwards.
+A colleague in Slack (thanks [Snowden]) shared that the Coalition for Networked Information recently had [a good session] on Copyright and AI for librarians. It was run by Jonathan Band, who is an attorney for the Library Copyright Alliance, and Timothy Vollmer who does scholarly communications at Berkeley. The presentation is an hour long and worth watching, or listening to as you do something else, like walking your dog...as you do.
+
+Below are the brief notes I jotted down afterwards.
 
 <iframe width="700" height="415" src="https://www.youtube.com/embed/GMttBH1oAD4?si=RfhVpGBaJID2tzLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
