@@ -2,6 +2,17 @@ My website that runs at http://inkdroid.org.
 
 ## Install
 
-1. install Ruby and [bundler](https://bundler.io/)
-2. bundle install
-6. bundle exec jekyll serve
+First install Ruby and [bundler](https://bundler.io/).
+
+Then install the dependencies:
+
+    $ bundle install
+
+Run the local server to view the site locally:
+
+    $ make serve
+    
+Or publish the latest changes at inkdroid.org:  
+
+    $ make
+
