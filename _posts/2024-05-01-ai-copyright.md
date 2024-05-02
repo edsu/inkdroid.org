@@ -36,7 +36,7 @@ There was also some interesting points shared by Timothy Vollmer nearer the end 
 
 I think some coordination amongst libraries for pushing for consistent legal language here would be helpful in making sure library patrons aren't negatively impacted, and libraries aren't held liable for breach of contract in cases where fair use should apply. I'm not sure where that work is happening, but presumably Vollmer would be a good person to reach out to, to find out.
 
-All this prompted me to add a [robots.txt](https://inkdroid.org/robots.txt) file to this website, based on directives I saw in [the NYTimes robots.txt](https://www.nytimes.com/robots.txt). Band said that  legal questions about ingestion may depend on whether a publisher has indicated that they did not want their content used in generative AI tools.
+All this prompted me to add a [robots.txt](https://inkdroid.org/robots.txt) file to this website, based on directives I saw in [the NYTimes robots.txt](https://www.nytimes.com/robots.txt). Band said that legal questions about ingestion may hinge on whether a publisher has indicated that they did not want their content used in generative AI tools. I don't realistically expect to be suing any of these companies, but I decided to do it in solidarity because I'm pretty [skeptical] of this generative AI technology.
 
 I'm really interested to hear if we get more declarative ways of controlling whether content is used for generative AI instead of bluntly blocking particular bots by User-Agent. Some companies may want to crawl a page once and repurpose content for different things (search index, llm, etc) without requiring multiple fetches from the multiple bots. I wonder what will happen [over at the IETF] in this area? The use of robots.txt has proven problematic for use cases around web archiving (crawl and replay) in the past, so a fresh approach would be helpful I think.
 
@@ -48,3 +48,4 @@ I'm really interested to hear if we get more declarative ways of controlling whe
 [New York Times v OpenAI]: https://www.nytimes.com/2023/12/27/business/media/new-york-times-open-ai-microsoft-lawsuit.html
 [near verbatim]: https://nytco-assets.nytimes.com/2023/12/Lawsuit-Document-dkt-1-68-Ex-J.pdf
 [over at the IETF]: https://www.mnot.net/blog/2024/04/21/ai-control
+[skeptical]: https://inkdroid.org/2024/03/12/ai/
