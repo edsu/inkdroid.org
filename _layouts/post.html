@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post h-entry">
 
   <header class="post-header">
-    <h2 class="post-title">{{ page.title }}</h2>
-    <p class="post-meta">
-      {{ page.date | date: "%B %-d, %Y" }} <br>
+    <h2 class="post-title p-name">{{ page.title }}</h2>
+    <p class="post-meta e-content">
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> <br>
       {% for tag in page.tags %}
-      <a rel="tag" class="tag label label-default" href="/tag/{{ tag | slugify }}">{{ tag }}</a>
+      <a rel="tag" class="tag label label-default p-category" href="/tag/{{ tag | slugify }}">{{ tag }}</a>
       {% endfor %}
     </p>
   </header>
@@ -18,5 +18,17 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
+
+
+  <section id="webmention-container">
+    <h3>👋 Webmentions ✍️  🤩</h3>
+
+    <p>PS. You can respond to this post by liking, boosting or replying to a post that mentions it in Mastodon, and
+    possibly other social media platforms that support <a href="https://indieweb.org/Webmention">Webmentions</a>?</p>
+
+    <div id="webmentions">
+    </div>
+
+  </section>
 
 </div>
