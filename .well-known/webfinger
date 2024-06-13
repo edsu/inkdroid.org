@@ -2,13 +2,19 @@
   "subject": "acct:edsu@social.coop",
   "aliases": [
     "https://social.coop/@edsu",
-    "https://social.coop/users/edsu"
+    "https://social.coop/users/edsu",
+    "https://orcid.org/0000-0001-7320-8150"
   ],
   "links": [
     {
       "rel": "http://webfinger.net/rel/profile-page",
       "type": "text/html",
       "href": "https://social.coop/@edsu"
+    },
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://orcid.org/0000-0001-7320-8150"
     },
     {
       "rel": "self",
