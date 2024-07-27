@@ -1,4 +1,4 @@
-all: cv build rsync
+all: cv flickr build rsync
 
 indexes:
 	touch feed.xml
@@ -10,6 +10,9 @@ serve: indexes
 
 build: indexes
 	JEKYLL_ENV=production bundle exec jekyll build
+
+flickr:
+	bundle exec _scripts/flickr.rb
 
 rsync:
 	rsync --recursive _site/ inkdroid@didier.mayfirst.org:web
