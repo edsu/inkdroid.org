@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'cgi'
 require 'json'
 require 'open-uri'
 require 'pathname'
@@ -14,6 +13,7 @@ class Post
     @title = item['title']
     @url = item['link']
     @image_url = item['media']['m'].sub(/m\.jpg/, 'c.jpg')
+    @description = item['description'].sub(%r{ +<p>.+?</a></p>}, '').strip # ignore first paragraph
   end
 
   def markdown
@@ -26,9 +26,15 @@ class Post
         - flickr
       ---
 
-      <a href="#{url}">
-        <img src="#{@image_url}">
-      </a>
+      <figure>
+        <a href="#{url}">
+          <img src="#{@image_url}">
+        </a>
+        <figcaption>
+          #{@description}
+        </figcaption>
+      </figure>
+
     YAML
   end
 
@@ -38,6 +44,9 @@ class Post
 
   def normalized_date
     @date.strftime('%Y-%m-%d')
+  end
+
+  def description
   end
 
   def path
