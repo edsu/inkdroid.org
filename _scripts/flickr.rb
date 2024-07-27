@@ -5,8 +5,7 @@ require 'json'
 require 'open-uri'
 require 'pathname'
 
-url = 'https://www.flickr.com/services/feeds/photos_public.gne?id=17762186@N00&format=json&nojsoncallback=1'
-
+# Convert a Flickr post to a Jekyll post.
 class Post
   attr_accessor :date, :title, :url, :image_url
 
@@ -50,12 +49,17 @@ class Post
   end
 end
 
+# Read the Flickr API JSON feed and create posts for public items
+
+url = 'https://www.flickr.com/services/feeds/photos_public.gne?id=17762186@N00&format=json&nojsoncallback=1'
 feed = JSON.parse(URI.parse(url).read)
 feed['items'].each do |item|
   post = Post.new(item)
 
   # ignore posts without a title
   next if post.title =~ /^[0-9_]+$/
+
+  # ignore posts we've seen before
   next if post.path.file?
 
   post.write
