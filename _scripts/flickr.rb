@@ -68,8 +68,5 @@ feed['items'].each do |item|
   # ignore posts without a title
   next if post.title =~ /^[0-9_]+$/
 
-  # ignore posts we've seen before
-  #next if post.path.file?
-
   post.write
 end
