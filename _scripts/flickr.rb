@@ -28,7 +28,7 @@ class Post
 
       <figure>
         <a href="#{url}">
-          <img src="#{@image_url}">
+          <img class="img-fluid" src="#{@image_url}">
         </a>
         <figcaption>
           #{@description}
@@ -69,7 +69,7 @@ feed['items'].each do |item|
   next if post.title =~ /^[0-9_]+$/
 
   # ignore posts we've seen before
-  next if post.path.file?
+  #next if post.path.file?
 
   post.write
 end
