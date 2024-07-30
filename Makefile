@@ -1,4 +1,4 @@
-all: cv flickr build rsync
+all: cv flickr robots build rsync robots
 
 indexes:
 	touch feed.xml
@@ -23,3 +23,6 @@ rsync:
 
 cv: 
 	cd ehs && make
+
+robots:
+	curl -o robots.txt https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/main/robots.txt
