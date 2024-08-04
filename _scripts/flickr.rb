@@ -13,7 +13,8 @@ class Post
     @title = item['title']
     @url = item['link']
     @image_url = item['media']['m'].sub(/m\.jpg/, 'c.jpg')
-    @description = item['description'].sub(%r{ +<p>.+?</a></p>}, '').strip # ignore first paragraph
+    # ignore the first paragraph in description which is boilerplate
+    @description = item['description'].sub(%r{ +<p>.+?</a></p>}, '').strip
   end
 
   def markdown
@@ -44,9 +45,6 @@ class Post
 
   def normalized_date
     @date.strftime('%Y-%m-%d')
-  end
-
-  def description
   end
 
   def path
