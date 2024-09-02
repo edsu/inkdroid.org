@@ -1,4 +1,4 @@
-My website that runs at http://inkdroid.org.
+This is my personal static website that runs at http://inkdroid.org courtesy of the venerable Jekyll.
 
 ## Install
 
