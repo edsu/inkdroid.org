@@ -1,3 +1,4 @@
+.env
 _site
 .jekyll-metadata
 .sass-cache

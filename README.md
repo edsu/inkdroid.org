@@ -7,6 +7,12 @@ First install Ruby and [bundler](https://bundler.io/).
 Then install the dependencies:
 
     $ bundle install
+    
+Create a `.env` file for the pinboard.in key for pulling quotes:
+
+```
+PINBOARD_KEY=changeme
+```
 
 Run the local server to view the site locally:
 

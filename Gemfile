@@ -9,3 +9,5 @@ group :jekyll_plugins do
   gem 'jekyll-pandoc'
   gem 'jekyll-tagging'
 end
+
+gem "dotenv", "~> 3.1"

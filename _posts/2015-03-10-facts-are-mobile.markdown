@@ -18,7 +18,7 @@ date_gmt: '2015-03-10 19:42:28 +0000'
 tags:
 - john-dewey
 - categories
-- quotes
+- quote
 comments: []
 ---
 

@@ -1,4 +1,4 @@
-all: cv flickr robots build rsync robots
+all: cv flickr pinboard robots build rsync robots
 
 indexes:
 	touch feed.xml
@@ -13,6 +13,9 @@ build: indexes
 
 flickr:
 	bundle exec _scripts/flickr.rb
+
+pinboard:
+	bundle exec _scripts/pinboard.rb
 
 rsync:
 	rsync --recursive _site/ inkdroid@didier.mayfirst.org:web

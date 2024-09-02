@@ -18,7 +18,7 @@ date_gmt: '2015-03-02 14:00:18 +0000'
 tags:
 - john-dewey
 - pragmatism
-- quotes
+- quote
 comments: []
 ---
 
