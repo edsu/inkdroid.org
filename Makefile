@@ -28,4 +28,4 @@ cv:
 	cd ehs && make
 
 robots:
-	curl -o robots.txt https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/main/robots.txt
+	curl --silent -o robots.txt https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/main/robots.txt
