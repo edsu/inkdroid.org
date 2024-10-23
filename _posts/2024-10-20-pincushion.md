@@ -77,7 +77,12 @@ These pincushion archives can be gigabytes in size, so I don't want to link to o
 <figcaption>Other pins tagged with "mission"</figcaption>
 </figure>
 
-So pretty simple stuff right? Intentionally so.
+So pretty simple stuff right? Intentionally so. In fact the archives load fine off of these:
+
+<figure>
+<a href="/images/thumbdrives.jpg"><img class="img-fluid" src="/images/thumbdrives.jpg"></a>
+<figcaption>Thumbdrives with pincushion archives on them for a workshop.</figcaption>
+</figure>
 
 The truth is that this idea of making snapshots of your data available for download isn't particularly new. [Data Portability](https://en.wikipedia.org/wiki/Data_portability) has been around as an aspirational and sometimes realizable goal for some time. Since 2018 the EU's [General Data Protection Regulation](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) (GDPR) has made it a requirement for platforms operating in the EU to [allow their data to be downloaded](https://gizmodo.com/how-to-download-your-data-with-all-the-fancy-new-gdpr-t-1826334079). This has raised the level of service for everyone. Thanks EU!
 
@@ -87,6 +92,7 @@ However just because you can download the data doesn't mean it's easy to use. So
 
 The pincushion tool is a working prototype, that will hopefully guide how to provide user data. But we are looking to the Flickr Data Lifeboat project to see if there are any emerging practices for how to create these archive downloads. A few things that we are thinking about:
 
+1. It would be great to have client-side search option using [Pagefind](https://pagefind.app/) or something like it?
 1. Can we enhance our HTML files with RDFa or Microdata to express metadata in a machine readable way?
 2. What types of structural metadata, such as a manifest, should we include to indicate the completeness and validity of the data?
 3. To what degree does it make sense to include other people's content in an archive, for example someone's comments on your pins, or pins that have been added to your collection?
