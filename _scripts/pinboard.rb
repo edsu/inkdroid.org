@@ -52,7 +52,7 @@ class Post
 
       #{ @note }
 
-      <a href="#{url}">{{ title }}</a>
+      🔖 <cite><a href="#{url}">{{ title }}</a></cite>
       MARKDOWN
     )
   end

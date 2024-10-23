@@ -18,11 +18,11 @@ pinboard:
 	bundle exec _scripts/pinboard.rb
 
 rsync:
-	rsync --recursive _site/ inkdroid@didier.mayfirst.org:web
+	rsync --recursive _site/ inkdroid@shell.mayfirst.org:web
 
 	# only want to clean out dropbox with delete otherwise we would blow
 	# away https://inkdroid.org/web-archives/
-	rsync --recursive dropbox/ inkdroid@didier.mayfirst.org:web/dropbox --delete
+	rsync --recursive dropbox/ inkdroid@shell.mayfirst.org:web/dropbox --delete
 
 cv: 
 	cd ehs && make
