@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How do we transmit culture when it cannot be put into words? - Helena Miton
+title: How do we transmit culture when it cannot be put into words?
 tags:
   - practice
   - body

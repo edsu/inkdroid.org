@@ -82,5 +82,7 @@ feed.each do |item|
   post = Post.new(item)
 
   next unless post.quote?
+  next if post.path.file?
+
   post.write
 end
