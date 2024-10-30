@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Things I Support
+title: People I Support
 ---
 
-## Support
+## People I Support
 
 I like [Molly White](https://www.mollywhite.net/)'s [idea](https://www.youtube.com/watch?v=MTaeVVAvk-c) that the web isn't just a place for big corporations. It's a place where we can try new things, and support others that are doing work that we like. With that in mind, these are people and projects I choose to financially support who work on the web:
 
