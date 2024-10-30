@@ -3,9 +3,9 @@ layout: page
 title: People I Support
 ---
 
-## People I Support
+## Support 💚 ➡️  💰
 
-I like [Molly White](https://www.mollywhite.net/)'s [idea](https://www.youtube.com/watch?v=MTaeVVAvk-c) that the web isn't just a place for big corporations. It's a place where we can try new things, and support others that are doing work that we like. With that in mind, these are people and projects I choose to financially support who work on the web:
+I like [Molly White](https://www.mollywhite.net/)'s [idea](https://www.youtube.com/watch?v=MTaeVVAvk-c) that the web isn't just a place for big corporations. It's a place where we can try new things, and support others that are doing work that helps and inspires us. With that in mind, these are people and projects I choose to financially support who work on the web:
 
 * [Aquarium Drunkard](https://aquariumdrunkard.com/): A music journal with some good podcasts.
 * [Bandcamp](https://bandcamp.com/edsu): I've supported lots of musicians over the past few years on Bandcamp. It's a great place to cultivate a network to learn about new music too.
@@ -20,6 +20,7 @@ I like [Molly White](https://www.mollywhite.net/)'s [idea](https://www.youtube.c
 * [KeepassXC](https://keepassxc.org/): I use this open source software to manage passwords.
 * [May First](https://mayfirst.org): A not-for-profit tech cooperative for left activists. My website runs on their servers.
 * [NeoVim](https://neovim.io/): the text editor I use every day.
+* [The New York Times](https://www.nytimes.com/): I guess the news is still good? The recipes may be more reliable.
 * [Pinboard](https://pinboard.in/u:edsu): I regularly bookmark things and put them here.
 * [Plausible](https://plausible.io): A privacy minded web web analytics tool. I use it on this website.
 * [SocialCoop](https://wiki.social.coop): A co-operatively managed Mastodon instance.
