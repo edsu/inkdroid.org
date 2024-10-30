@@ -94,6 +94,7 @@ RewriteRule ^feed/?$ "/feed.xml" [R=permanent,L]
 
 <Files feed.xml>
 ForceType "application/xml; charset=utf-8"
+Header set "X-Content-Type-Options" "nosniff"
 </Files>
 
 # some odd things that moved
