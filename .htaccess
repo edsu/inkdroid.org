@@ -93,7 +93,7 @@ RewriteRule ^journal(.*) "$1" [R=permanent,L]
 RewriteRule ^feed/?$ "/feed.xml" [R=permanent,L]
 
 <Files feed.xml>
-ForceType application/xml; charset=utf-8
+ForceType "application/xml; charset=utf-8"
 </Files>
 
 # some odd things that moved
