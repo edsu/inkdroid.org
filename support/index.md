@@ -9,7 +9,7 @@ I like [Molly White](https://www.mollywhite.net/)'s [idea](https://www.youtube.c
 
 * [Aquarium Drunkard](https://aquariumdrunkard.com/): A music journal with some good podcasts.
 * [Bandcamp](https://bandcamp.com/edsu): I've supported lots of musicians over the past few years on Bandcamp. It's a great place to cultivate a network to learn about new music too.
-* [Biblio](https://www.biblio.com/): it's a super place to find used books in bookstores around the world.
+* [Biblio](https://www.biblio.com/): A small, privately held company located in Asheville, North Carolina that helps you find and purchase in used bookstores around the world.
 * [Bookshop](https://bookshop.org/): a [b-corp](https://en.wikipedia.org/wiki/B_Corporation_(certification)) where you can buy new books, which sends a little bit of love to your local booksellers.
 * [Between the Covers](https://tinhouse.com/podcasts/): A literary podcast hosted by David Naimon from Tin House. His interviews are exceedingly well crafted, and with fascinating writers.
 * [Democracy Now](https://www.democracynow.org/): A daily podcast of global independent news. It's hard for me to overstate how much this news juggernaut has meant to me.
@@ -19,9 +19,11 @@ I like [Molly White](https://www.mollywhite.net/)'s [idea](https://www.youtube.c
 * [Kagi](https://kagi.com): a web search application that I like better than Google and DuckDuckGo.
 * [KeepassXC](https://keepassxc.org/): I use this open source software to manage passwords.
 * [May First](https://mayfirst.org): A not-for-profit tech cooperative for left activists. My website runs on their servers.
-* [NeoVim](https://neovim.io/): the text editor I use every day.
+* [Neovim](https://neovim.io/): the text editor I use every day.
 * [The New York Times](https://www.nytimes.com/): I guess the news is still good? The recipes may be more reliable.
 * [Pinboard](https://pinboard.in/u:edsu): I regularly bookmark things and put them here.
+* [Phanpy](https://github.com/cheeaun/phanpy): a minimalist, opinionated (and beautiful imho) Mastodon web client, which I also use on my phone.
 * [Plausible](https://plausible.io): A privacy minded web web analytics tool. I use it on this website.
+* [Podqueue](https://podqueue.fm): Create custom podcast feeds from audio/video you find on the web (e.g. Youtube)
 * [SocialCoop](https://wiki.social.coop): A co-operatively managed Mastodon instance.
 * [Webrecorder](https://webrecorder.net/): A small company focused on making open source web archiving tools.
