@@ -32,10 +32,11 @@ class Post
           <img class="img-fluid" src="#{@image_url}">
         </a>
         <figcaption>
-          #{@description}
+          #{@title}
         </figcaption>
       </figure>
 
+      #{@description}
     YAML
   end
 
