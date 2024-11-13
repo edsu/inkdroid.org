@@ -18,6 +18,8 @@ pinboard:
 	bundle exec _scripts/pinboard.rb
 
 rsync:
+	# log in to need to run with dotenv for this to work
+	bundle exec dotenv _scripts/mayfirst_login
 	rsync --recursive _site/ inkdroid@shell.mayfirst.org:web
 
 	# only want to clean out dropbox with delete otherwise we would blow

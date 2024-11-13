@@ -1,0 +1,2 @@
+
+curl --silent "https://members.mayfirst.org/cp/api.php" -X POST -d "user_name=inkdroid" -d "user_pass=${MAYFIRST_PASSWORD}" -d "action=grant" > /dev/null
