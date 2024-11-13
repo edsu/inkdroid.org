@@ -1,2 +1,6 @@
+#!/bin/bash
+
+# Mayfirst requires you to have logged in to their console in the last 24 hours
+# before you can ssh to shell.mayfirst.org
 
 curl --silent "https://members.mayfirst.org/cp/api.php" -X POST -d "user_name=inkdroid" -d "user_pass=${MAYFIRST_PASSWORD}" -d "action=grant" > /dev/null
