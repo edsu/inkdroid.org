@@ -97,6 +97,11 @@ ForceType "application/xml; charset=utf-8"
 Header set "X-Content-Type-Options" "nosniff"
 </Files>
 
+<Files feed.xsl>
+ForceType "application/xml"
+</Files>
+
+
 # some odd things that moved
 RewriteRule ^2015/03/12/javascript-and-archives/ http://inkdroid.org/2015/03/11/javascript-and-archives/ [R=permanent,L]
 RewriteRule ^rss/whitehouse.xml https://www.whitehouse.gov/feed/ [L,R=301,NC]
