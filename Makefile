@@ -14,8 +14,10 @@ build: indexes
 flickr:
 	bundle exec _scripts/flickr.rb
 
-rsync:
+login:
 	bundle exec dotenv _scripts/mayfirst_login
+
+rsync: login
 	rsync --recursive _site/ inkdroid@shell.mayfirst.org:web
 
 	# only want to clean out dropbox with delete otherwise we would blow

@@ -29,11 +29,9 @@ functions as a sociotechnical system, especially with regard to memory
 practices such as curation and preservation. I am currently working at Stanford
 University Library on their Infrastructure Team.
 
-If you want to get in touch please email me at [ehs@pobox.com]. You can also
-find me on fediverse at [\@edsu@social.coop] and wandering Scuttlebutt as
-`\@n2ax/dvrm+u76UhEv6aN0MzlH0Zw7o0MOd5QIHjouSw=.ed25519`. Once upon a time
-I was on Twitter as [\@edsu] but I don't actively use it anymore--but you'll
-see I have some bots that do.
+If you want to get in touch please email me at [ehs@pobox.com] [GPG Public Key]. You can also find me on Fediverse at
+[\@edsu@social.coop] and wandering Scuttlebutt as
+`\@n2ax/dvrm+u76UhEv6aN0MzlH0Zw7o0MOd5QIHjouSw=.ed25519`.
 
 #### Projects
 
@@ -51,8 +49,8 @@ simply a place to write down the high level things that I'm working on, in an ar
 [Maryland Institute for Technology in the Humanities]: http://mith.umd.edu
 [working]: http://inkdroid.org/ehs/
 [ehs@pobox.com]: mailto:ehs@pobox.com
-[\@edsu]: https://twitter.com/edsu
 [\@edsu@social.coop]: https://social.coop/@edsu
 [College of Information Studies]: https://ischool.umd.edu/
 [teacher]: https://umd-ischool-inst326.github.io/inst326/
 [researcher]: https://scholar.google.com/citations?user=ctpWtsIAAAAJ&hl=en&oi=ao
+[GPG Public Key]: /ehs/ehs.asc 
