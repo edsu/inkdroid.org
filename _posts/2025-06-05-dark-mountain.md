@@ -7,7 +7,9 @@ tags:
 - poetry
 ---
 
-It's 16 years old, but I think it still reads pretty fresh today?
+It's 16 years old, but I think [The Dark Mountain Manifesto] still reads pretty fresh today?
 
-<embed src="/papers/dark-mountain-manifest.pdf" width="800" height="1200" type="application/pdf">
+<embed src="/papers/dark-mountain-manifesto.pdf" width="800" height="1000" type="application/pdf">
+
+[Dark Mountain Manifesto]: https://dark-mountain.net/about/manifesto/
 
