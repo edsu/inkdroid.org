@@ -65,7 +65,7 @@ feed['items'].each do |item|
   post = Post.new(item)
 
   # ignore posts without a title
-  next if post.title =~ /^[0-9_]+$/
+  next if post.title =~ /^[0-9_()]+$/
 
   # don't overwrite if it has since been changes
   next if post.path.file?
