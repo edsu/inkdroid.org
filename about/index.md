@@ -39,10 +39,10 @@ This is a list of projects I'm working on at the moment. It's not meant to be a
 fine grained list of tasks--I use other collaborative tools for that. It's
 simply a place to write down the high level things that I'm working on, in an arbitrary order, so I can see them change over time.
 
-* Webrecorder: WACZ Standardization
-* social.coop: co-operatively run social media (Mastodon)
-- maintaining / evolving digital repository infrastructure services
-- institutional web archive services 
+* data analysis of scholarly publishing
+* web archives research and standardization
+* social.coop: co-operatively run social media
+- digital repository infrastructure services
 - slowly learning Rust
 
 [software developer]: https://github.com/edsu
