@@ -18,8 +18,7 @@ date_gmt: '2008-07-28 13:54:42 +0000'
 ---
 
 <figure style="border: none;">
-  <img class="img-fluid" src="/images/twarc.jpg">
-  <figcaption>Photo by <a href="https://twitter.com/joshuatj/status/1063207047607410689">Joshua Ng</a></figcaption>
+  <img class="img-fluid" src="/images/ehs-trees.jpg">
 </figure>
 
 👋 Hi! My name is Ed Summers and this is my weirdly named website. I'm a
@@ -29,9 +28,8 @@ functions as a sociotechnical system, especially with regard to memory
 practices such as curation and preservation. I am currently working at Stanford
 University Library on their Infrastructure Team.
 
-If you want to get in touch please email me at [ehs@pobox.com] [GPG Public Key]. You can also find me on Fediverse at
-[\@edsu@social.coop] and wandering Scuttlebutt as
-`\@n2ax/dvrm+u76UhEv6aN0MzlH0Zw7o0MOd5QIHjouSw=.ed25519`.
+If you want to get in touch please email me at [ehs@pobox.com]. You can also find my GPG Key and some other personal identifiers over on [Keyoxide](https://keyoxide.org/DD11F92F1E44644183C06961D012FF557AFFF80A). I'm in the Fediverse at
+[\@edsu@social.coop].
 
 #### Projects
 
@@ -39,11 +37,12 @@ This is a list of projects I'm working on at the moment. It's not meant to be a
 fine grained list of tasks--I use other collaborative tools for that. It's
 simply a place to write down the high level things that I'm working on, in an arbitrary order, so I can see them change over time.
 
-* data analysis of scholarly publishing
+* scholarly publishing data analytics
 * web archives research and standardization
 * social.coop: co-operatively run social media
-- digital repository infrastructure services
-- slowly learning Rust
+- digital preservation services
+- slowly learning Rust -- yes, still :)
+- (re-)engaging with various forms of writing: documentation, journaling, blogging, poetry, and research articles perhaps?
 
 [software developer]: https://github.com/edsu
 [Maryland Institute for Technology in the Humanities]: http://mith.umd.edu
