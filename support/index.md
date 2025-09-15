@@ -25,5 +25,4 @@ I like [Molly White](https://www.mollywhite.net/)'s [idea](https://www.youtube.c
 * [Phanpy](https://github.com/cheeaun/phanpy): a minimalist, opinionated (and beautiful imho) Mastodon web client, which I also use on my phone.
 * [Plausible](https://plausible.io): A privacy minded web web analytics tool. I use it on this website.
 * [Podqueue](https://podqueue.fm): Create custom podcast feeds from audio/video you find on the web (e.g. Youtube)
-* [SocialCoop](https://wiki.social.coop): A co-operatively managed Mastodon instance.
 * [Webrecorder](https://webrecorder.net/): A small company focused on making open source web archiving tools.

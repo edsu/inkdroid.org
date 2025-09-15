@@ -29,7 +29,7 @@ practices such as curation and preservation. I am currently working at Stanford
 University Library on their Infrastructure Team.
 
 If you want to get in touch please email me at [ehs@pobox.com]. You can also find my GPG Key and some other personal identifiers over on [Keyoxide](https://keyoxide.org/DD11F92F1E44644183C06961D012FF557AFFF80A). I'm in the Fediverse at
-[\@edsu@social.coop].
+[\@ink@merveilles.town].
 
 #### Projects
 
@@ -39,7 +39,6 @@ simply a place to write down the high level things that I'm working on, in an ar
 
 * scholarly publishing data analytics
 * web archives research and standardization
-* social.coop: co-operatively run social media
 - digital preservation services
 - slowly learning Rust -- yes, still :)
 - (re-)engaging with various forms of writing: documentation, journaling, blogging, poetry, and research articles perhaps?
@@ -48,7 +47,7 @@ simply a place to write down the high level things that I'm working on, in an ar
 [Maryland Institute for Technology in the Humanities]: http://mith.umd.edu
 [working]: http://inkdroid.org/ehs/
 [ehs@pobox.com]: mailto:ehs@pobox.com
-[\@edsu@social.coop]: https://social.coop/@edsu
+[\@ink@merveilles.town]: https://merveilles.town/@ink
 [College of Information Studies]: https://ischool.umd.edu/
 [teacher]: https://umd-ischool-inst326.github.io/inst326/
 [researcher]: https://scholar.google.com/citations?user=ctpWtsIAAAAJ&hl=en&oi=ao
