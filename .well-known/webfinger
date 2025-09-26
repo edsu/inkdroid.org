@@ -1,29 +1,29 @@
 {
-  "subject": "acct:edsu@social.coop",
+  "subject": "acct:ink@merveilles.town",
   "aliases": [
-    "https://social.coop/@edsu",
-    "https://social.coop/users/edsu",
+    "https://merveilles.town/@ink",
+    "https://merveilles.town/users/ink",
     "https://orcid.org/0000-0001-7320-8150"
   ],
   "links": [
     {
       "rel": "http://webfinger.net/rel/profile-page",
       "type": "text/html",
-      "href": "https://social.coop/@edsu"
+      "href": "https://merveilles.town/@ink"
+    },
+    {
+        "rel": "self",
+        "type": "application/activity+json",
+        "href": "https://merveilles.town/users/ink"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://merveilles.town/authorize_interaction?uri={uri}"
     },
     {
       "rel": "http://webfinger.net/rel/profile-page",
       "type": "text/html",
       "href": "https://orcid.org/0000-0001-7320-8150"
-    },
-    {
-      "rel": "self",
-      "type": "application/activity+json",
-      "href": "https://social.coop/users/edsu"
-    },
-    {
-      "rel": "http://ostatus.org/schema/1.0/subscribe",
-      "template": "https://social.coop/authorize_interaction?uri={uri}"
     }
   ]
 }
