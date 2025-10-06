@@ -41,7 +41,7 @@ class Post
   end
 
   def normalized_title
-    @title.downcase.gsub(' ', '-')
+    @title.downcase.gsub(/[ \/]/, '-')
   end
 
   def normalized_date
