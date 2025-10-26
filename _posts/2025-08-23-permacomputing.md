@@ -4,6 +4,7 @@ title: Permacomputing
 tags:
 - digital-preservation
 - practice
+- permacomputing
 ---
 
 I enjoyed listening to this talk by [Devine Lu Linvega] about the nomad life and the principles of [Permacomputing] while I was on a walk, and then watching it later when I was at home for the visuals.

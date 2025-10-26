@@ -5,6 +5,7 @@ tags:
 - environment
 - writing
 - poetry
+- permacomputing
 ---
 
 It's 16 years old, but I think [The Dark Mountain Manifesto] still reads pretty fresh today? Maybe it's just me, but I feel like it has some [permacomputing] vibes.
