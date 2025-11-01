@@ -10,8 +10,10 @@ group :jekyll_plugins do
   gem 'jekyll-tagging'
 end
 
-gem "dotenv", "~> 3.1"
+gem "dotenv", ">= 3.1"
 
-gem "csv", "~> 3.3"
+gem "csv", ">= 3.3"
 
-gem "base64", "~> 0.2.0"
+gem "base64", ">= 0.2.0"
+
+gem "openssl", "~> 3.3"

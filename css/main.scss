@@ -138,6 +138,14 @@ audio {
   border: 3px offset; 
 }
 
+article.bookmark {
+  margin: 25px 0px 25px 0px;
+}
+
+article.bookmark h2 {
+  font-size: 18pt;
+}
+
 @media(prefers-color-scheme: dark) {
 
   body {

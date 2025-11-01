@@ -14,6 +14,9 @@ build: indexes
 flickr:
 	bundle exec _scripts/flickr.rb
 
+shiori:
+	bundle exec dotenv _scripts/shiori.rb
+
 login:
 	bundle exec dotenv _scripts/mayfirst_login
 
