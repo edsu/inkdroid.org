@@ -68,7 +68,7 @@ layout: post
 title: Weekly Bookmarks
 ---
 
-These are some things on the web I've wandered across this week.
+These are some things I've wandered across on the web this week.
 
 html
 
