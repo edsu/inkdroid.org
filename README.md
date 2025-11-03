@@ -12,6 +12,8 @@ Create a `.env` file for pulling my bookmarks from Shiori running locally. The M
 
 ```
 MAYFIRST_PASSWORD=CHANGEME
+SHIORI_URL=CHANGEME
+SHIORI_USERNAME=CHANGEME
 SHIORI_PASSWORD=CHANGEME
 ```
 

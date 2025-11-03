@@ -9,7 +9,7 @@ class Shiori
   attr_reader :token
 
   def initialize(username:, password:)
-    @base_url = URI('https://home.inkdroid.org/links/api/')
+    @base_url = URI(ENV["SHIORI_URL"])
     @username = username
     @password = password
     @token = login
@@ -52,7 +52,7 @@ def bookmark_html(b)
 html
 end
 
-shiori = Shiori.new(username: 'ed', password: ENV['SHIORI_PASSWORD'])
+shiori = Shiori.new(username: ENV['SHIORI_USERNAME'], password: ENV['SHIORI_PASSWORD'])
 
 now = DateTime.now
 bookmarks = shiori.bookmarks.filter do |b|
