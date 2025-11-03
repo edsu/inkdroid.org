@@ -68,18 +68,6 @@ These are some things on the web I've wandered across this week.
 <article class="bookmark h-entry">
   <h2>
     🔖
-    <a class="h-name" href="https://www.harney.com/">
-      Harney and Sons Tea
-    </a>
-  </h2>
-  <section class="p-summary">
-    Shop over 300 tea blends, tea gifts, treats and teaware online from Harney & Sons Tea. Tea bags and loose leaf black tea, green tea, herbal tea, white tea. Shop Now
-  </section>
-</article>
-
-<article class="bookmark h-entry">
-  <h2>
-    🔖
     <a class="h-name" href="https://jkan.io/">
       JKAN A lightweight, backend-free open data portal, powered by Jekyll
     </a>

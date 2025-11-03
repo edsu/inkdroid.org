@@ -57,7 +57,7 @@ shiori = Shiori.new(username: 'ed', password: ENV['SHIORI_PASSWORD'])
 now = DateTime.now
 bookmarks = shiori.bookmarks.filter do |b|
   created = DateTime.parse(b['createdAt'])
-  now - created < 7
+  now - created < 7 && b['public'] == 1
 end
 
 if bookmarks.length > 0
