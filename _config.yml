@@ -8,6 +8,7 @@ github_username: edsu
 permalink: pretty
 paginate: 50 
 paginate_path: "/page/:num/"
+encoding: utf-8
 
 tag_page_layout: tag
 tag_page_dir: tag

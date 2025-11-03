@@ -95,6 +95,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.7.0)
     mercenary (0.4.0)
     nuggets (1.6.1)
     openssl (3.3.2)
@@ -175,8 +176,9 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-pandoc
   jekyll-tagging
+  logger (~> 1.7)
   openssl (~> 3.3)
   webrick
 
 BUNDLED WITH
-   2.6.9
+   2.7.2

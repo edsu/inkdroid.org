@@ -1,4 +1,6 @@
-all: cv flickr robots build rsync robots
+all: cv flickr robots build rsync
+
+bookmarks: shiori build rsync
 
 indexes:
 	touch feed.xml

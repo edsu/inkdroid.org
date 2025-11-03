@@ -17,3 +17,5 @@ gem "csv", ">= 3.3"
 gem "base64", ">= 0.2.0"
 
 gem "openssl", "~> 3.3"
+
+gem "logger", "~> 1.7"

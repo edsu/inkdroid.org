@@ -8,10 +8,17 @@ Then install the dependencies:
 
     $ bundle install
     
-Create a `.env` file for the pinboard.in key for pulling quotes:
+Create a `.env` file for pulling my bookmarks from Shiori running locally. The Mayfirst password is needed for establishing an rsync session to publish the site.
 
 ```
-PINBOARD_KEY=changeme
+MAYFIRST_PASSWORD=CHANGEME
+SHIORI_PASSWORD=CHANGEME
+```
+
+To generate bookmarks every week this (convoluted command) needs to go in my crontab:
+
+```
+37 19 * * * export PATH=$HOME/.rbenv/shims:$HOME/.rbenv/bin:/usr/bin:/opt/homebrew/bin/:$PATH; export LANG=en_US.UTF-8; eval "$(rbenv init -)"; cd $HOME/Projects/inkdroid.org; bundle exec dotenv make bookmarks
 ```
 
 Run the local server to view the site locally:
@@ -21,4 +28,3 @@ Run the local server to view the site locally:
 Or publish the latest changes at inkdroid.org:  
 
     $ make
-
