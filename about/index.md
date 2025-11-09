@@ -25,8 +25,7 @@ date_gmt: '2008-07-28 13:54:42 +0000'
 [software developer] and [researcher] [working] at the intersection of
 libraries, archives and the World Wide Web. I'm interested in how the Web
 functions as a sociotechnical system, especially with regard to memory
-practices such as curation and preservation. I am currently working at Stanford
-University Library on their Infrastructure Team.
+practices such as curation and preservation.
 
 If you want to get in touch please email me at [ehs@pobox.com]. You can also find my GPG Key and some other personal identifiers over on [Keyoxide](https://keyoxide.org/DD11F92F1E44644183C06961D012FF557AFFF80A). I'm in the Fediverse at
 [\@ink@merveilles.town].
@@ -39,6 +38,7 @@ simply a place to write down the high level things that I'm working on, in an ar
 
 * scholarly publishing data analytics
 * web archives research and standardization
+* decentralized storage for community archives
 - digital preservation services
 - slowly learning Rust -- yes, still :)
 - (re-)engaging with various forms of writing: documentation, journaling, blogging, poetry, and research articles perhaps?
