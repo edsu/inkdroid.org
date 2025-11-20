@@ -19,7 +19,7 @@ After the presentation in the chat I learned from Niklas Lindstrom that the Nati
 
 The example from LIBRIS also illustrates how there are pressures for creating a local JSON-LD Context, because you can add other vocabularies, or even add your own local vocabularies to it. Perhaps one way forward here would be to agree on a shared BIBFRAME context for interoperability, and then add other contexts as needed using JSON-LD's [support for multiple contexts]?
 
-I also learned from Adrian Pohl that there was a [SWIB18 Workshop] focused on creating a JSON-LD Context for BIBFRAME data. So this is not a new idea. But perhaps it is an idea whose time has come since the inability to reliably work with BIBFRAME as JSON is a significant barrier to BIBFRAME becoming a viable replacement for MARC.
+I also learned from Adrian Pohl that there was a [SWIB18 Workshop] focused on LOUD and JSON-LD (see also [these slides]). So this is not a new idea by any means. But perhaps it is an idea whose time has come since the inability to reliably work with BIBFRAME as JSON is a significant barrier to BIBFRAME becoming a viable replacement for MARC.
 
 [this post]: https://inkdroid.org/2024/02/14/publishing-jsonld/ 
 [SWIB]: https://forum.swib.org/t/swib25-lightning-talks/937
@@ -32,3 +32,4 @@ I also learned from Adrian Pohl that there was a [SWIB18 Workshop] focused on cr
 [support for multiple contexts]: https://www.w3.org/TR/2014/REC-json-ld-20140116/#advanced-context-usage
 [IIIF]: https://iiif.io
 [Fediverse]: https://jointhefediverse.net/learn/
+[these slides]: https://hbz.github.io/swib18-workshop/
