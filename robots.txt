@@ -4,7 +4,7 @@ User-agent: Ai2Bot-Dolma
 User-agent: aiHitBot
 User-agent: AmazonBuyForMe
 User-agent: atlassian-bot
-User-agent: amazon-kendra-
+User-agent: amazon-kendra
 User-agent: Amazonbot
 User-agent: Andibot
 User-agent: Anomura
@@ -61,6 +61,7 @@ User-agent: img2dataset
 User-agent: ISSCyberRiskCrawler
 User-agent: Kangaroo Bot
 User-agent: KlaviyoAIBot
+User-agent: LAIONDownloader
 User-agent: LinerBot
 User-agent: Linguee Bot
 User-agent: meta-externalagent
