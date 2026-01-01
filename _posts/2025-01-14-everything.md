@@ -6,7 +6,7 @@ tags:
 - archives
 ---
 
-<audio controls src="/audio/2025-01-14-snow-walk.mp3"></audio>
+<audio controls src="/audio/20250114-snow-walk.mp3"></audio>
 
 <figure>
 <a href="https://www.flickr.com/photos/inkdroid/54260521305/"><img class="img-fluid" src="/images/snow-trail.jpg"></a>
