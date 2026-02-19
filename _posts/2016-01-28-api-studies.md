@@ -3,7 +3,7 @@ layout: post
 title: API Studies
 tags:
 - api
-- platform-studies
+- platforms
 - twitter
 - docnow
 ---
