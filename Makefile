@@ -34,3 +34,6 @@ cv:
 
 robots:
 	curl --silent -o robots.txt https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/main/robots.txt
+
+ssh: login
+	ssh inkdroid@shell.mayfirst.org
