@@ -11,11 +11,11 @@ tags:
   <figcaption><a href="https://commons.wikimedia.org/wiki/File:Leica_Double-Gauss_Lens_Design.png">Leica Double-Gauss Lens Design</a></figcaption>
 </figure>
 
-The [news] about Cloudflare's new [pay-per-crawl API] caught my attention for a few reasons. Read on for why, a bit about what the results look like, and what I learned when I asked it to crawl my own site as a test.
+The [news] about Cloudflare's new [pay-per-crawl API] caught my attention for a few reasons. Read on for why, a bit about what the results look like, and what I learned when I asked it to crawl this site as a test.
 
 ---
 
-So, the first of all, what's up? Cloudflare's Crawl API helps people collect data from websites with bots, while *at the same time* Cloudflare provides one of the most popular technologies for preventing websites from being crawled by bots?
+So, first of all, what's up? Cloudflare's Crawl API helps people collect data from websites with bots, while *at the same time* providing one of the most popular technologies for preventing websites from being crawled by bots?
 
 At first this seemed to me like a classic fox guarding the hen house kind of situation. But the little bit of reading in the docs I've done since makes it seem like they will still respect their own bot gate keeping (e.g. Turnstile). 
 
@@ -25,7 +25,7 @@ The genius here is that Cloudflare is known for its Content Delivery Network (CD
 
 But, the primary reason this news caught my eye is that if you squint right Cloudflare's Crawl API looks very much like [web archiving] technology. For example, the [Browsertrix API] lets you set up, start, monitor and download crawls of websites. Unlike Browsertrix, which is geared to collecting a website for viewing by a person, the Cloudflare Crawl service is oriented at looking at the web for training LLMs. The service returns text content: HTML, Markdown and structured JSON data that results from running the collected text through one of their LLMs, with the given prompt.
 
-## Seeing the Web
+### Seeing the Web
 
 So why is it interesting that this is like web archiving technology?
 
@@ -35,7 +35,7 @@ What I found was that the NSRL was engaged in a form of web archiving, where the
 
 So I guess you could say I was primed to be interested in how Cloudflare's Crawl service *sees* the web. This matters because models (LLMs, etc) and other services will be built on top of data that they've collected. But also because, if it succeeds, the service will likely get repurposed for other things.
 
-## Testing
+### Testing
 
 To test how Cloudflare sees the web, I simply asked it to crawl my own static website--the one that you are looking at right now. I did this for a few reasons:
 
@@ -97,7 +97,7 @@ Each of the resulting JSON files contains some metadata for the crawl, as well a
 }
 ```
 
-## Analysis
+### Analysis
 
 I decided I wasn't very interested in testing their [model offerings], so I didn't ask for JSON content (the result of sending the harvested text through a model). If I had, each successful result would have had a `json` property as well. I am sure that people will use this, but I was more interested in how the service interacted with the source website, and wasn't interested in discovering the hard way how much it cost to run the content through their LLMs.
 
@@ -119,7 +119,7 @@ So how did Cloudflare Crawl see my website?
 Maybe it's early days for the service, but one thing I noticed is that each time I requested the site to be crawled the results seemed to be radically different.
 
 | crawl time | completed | skipped | queued | errored | unique_urls |
-|------------|--:|---|---|---|---|
+|------------|--:|--:|--:|--:|--:|
 | 2026-03-12 13:13:00 | 165 | 84 |  | 1 | 223 |
 | 2026-03-12 13:44:00 | 72 | 4 | 2 |  | 78 |
 | 2026-03-12 14:09:00 | 1947 | 7304 |  | 23 | 9191 |
@@ -400,11 +400,13 @@ I think there are a few directions this could go from here:
 
 This last point is surprising: why isn't Cloudlflare using its caching infrasteucture as a way of delivering crawled content faster and with fewer resources? Maybe this would require a more significant investment on their part, and they are waiting to see if people start using it first?
 
+One thing I didn't mention is that the Cloudflare free plan limits you to maximum of 100 pages per crawl. I set up a \$5/month paid plan account in order to do this testing. In all my testing I only seemed to use 0.7 of "browser hours" which which will fit well within the 10 hours allowed per month. It currently costs \$0.09 / hour when you exceed your limit.
+
 PS. If you are curious the Marimo notebook I was using for some of the analysis can be found [here](https://github.com/edsu/cloudflare-crawl/blob/main/analysis/analysis.py).
 
 ### References
 
-[news]: https://blog.cloudflare.com/introducing-pay-per-crawl/
+[news]: https://developers.cloudflare.com/changelog/post/2026-03-10-br-crawl-endpoint/
 [pay-per-crawl API]: https://developers.cloudflare.com/browser-rendering/rest-api/crawl-endpoint/
 [dissertation research]: https://drum.lib.umd.edu/items/444a796f-4ea6-4070-a2b4-888f8b844141
 [National Software Reference Library]: https://www.nist.gov/itl/ssd/software-quality-group/national-software-reference-library-nsrl
