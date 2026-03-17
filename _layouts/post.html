@@ -8,7 +8,7 @@ layout: default
     <p class="post-meta e-content">
     <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> <br>
       {% for tag in page.tags %}
-      <a rel="tag" class="tag label label-default p-category" href="/tag/{{ tag | slugify }}">{{ tag }}</a>
+      <a rel="tag" class="tag label label-default p-category" href="/tag/{{ tag | slugify }}/">{{ tag }}</a>
       {% endfor %}
     </p>
   </header>

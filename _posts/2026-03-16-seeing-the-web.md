@@ -132,7 +132,7 @@ The more successful crawls did a good job of crawling the entire site. My websit
 
 From watching the web server logs it was clear that:
 
-1. Cloudflare doesn't appear to be relying on previously cached data, each result appeared to require a round trip to the server. My static site didn't change over the course of these tests, and uses [ETag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/ETag) to signal when content changes.
+1. Cloudflare *does* appear to be relying on previously cached data, but it's not entirely clear what the logic is. For example one crawl took 5 minutes to complete, it returned 1,974 completed results but the web server only saw requests for 594 of those URLs. I turned around and ran the exact same crawl again and it took 20 minutes longer, return 1,974 results, but 847 pages were requested. In between no content on the website changed. 🤷
 2. Cloudflare appears to be fetching CSS, JavaScript and images for the rendering of each page (they aren't being cached by the Browser Worker).
 3. The throughput on the web server seemed to peak around 300 requests / minute (5 requests / second). For most sites this seems perfectly feasible.
 
@@ -389,16 +389,14 @@ For the more successful crawls it looked like there were 246 independent IP addr
 | 104.28.158.146 | 2 |
 | 104.28.163.169 | 2 |
 
-I spot checked some of the HTML and it did appear to be near identical to what was on the live web. With the fullest results I noticed 4% of URLs were not crawled.
+I spot checked some of the HTML and it did appear to be near identical to what was on the live web. With the fullest results I noticed 4% of URLs were not crawled. One exception to that was a few XML files like an OPML and RSS feed which only showed the XSL element in the text and markdown results.
 
 I think there are a few directions this could go from here:
 
 1. testing what happens when instructing the crawl to collect (instead of skip) pages that are off site
 2. testing what happens with more dynamic content, and how much to wait for pages to render
 3. trying to understand why truncated results come back sometimes, and if there are any signals for identifying when it is happening.
-4. explore whether Cloudflare will lean on cached content for concurrent requests for the same content
-
-This last point is surprising: why isn't Cloudflare using its caching infrastructure as a way of delivering crawled content faster and with fewer resources? Maybe this would require a more significant investment on their part, and they are waiting to see if people start using it first?
+4. explore more what the logic Cloudflare is using to determine when it can use its internal cache.
 
 One thing I didn't mention is that the Cloudflare free plan limits you to maximum of 100 pages per crawl. I set up a \$5/month paid plan account in order to do this testing. In all my testing I only seemed to use 0.7 of "browser hours" which will fit well within the 10 hours allowed per month. It currently costs \$0.09 / hour when you exceed your limit.
 
