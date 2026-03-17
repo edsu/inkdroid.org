@@ -11,19 +11,23 @@ tags:
   <figcaption><a href="https://commons.wikimedia.org/wiki/File:Leica_Double-Gauss_Lens_Design.png">Leica Double-Gauss Lens Design</a></figcaption>
 </figure>
 
-The [news] about Cloudflare's new [pay-per-crawl API] caught my attention for a few reasons. Read on for why, a bit about what the results look like, and what I learned when I asked it to crawl this site as a test.
+The [news] about Cloudflare's new [pay-per-crawl API] caught my attention for a few reasons. Read on for why, a bit about what the results look like, and what I learned when I asked it to crawl this here site as a test.
 
 ---
 
-So, first of all, what's up? Cloudflare's Crawl API helps people collect data from websites with bots, while *at the same time* providing one of the most popular technologies for preventing websites from being crawled by bots?
+So, first of all, what's up? Cloudflare's Crawl API helps people collect data from websites with bots, while *at the same time* providing one of the most popular technologies for preventing websites from being crawled by bots?!?
 
-At first this seemed to me like a classic fox guarding the hen house kind of situation. But the little bit of reading [in the docs] I've done since makes it seem like they will still respect their own bot gate keeping (e.g. Turnstile). 
+At first this seemed to me like a classic fox-guarding-the-hen-house type of situation. But the little bit of reading [in the docs] I've done since makes it seem like they will still respect their own bot gate keeping (e.g. Turnstile). 
 
 If you are using Cloudflare or some other bot mitigation technology you will have to follow their instructions to let the Cloudflare crawl bot in to collect pages. Interestingly, it appears they are using the latest specs for [HTTP Message Signatures] to provide this functionality, since you can't simply let in anyone saying they are `CloudflareBrowserRenderingCrawler` right?
 
-The genius here is that Cloudflare is known for its Content Delivery Network (CDN). So in theory (more on this below) when a user asks to crawl a website the data can be delivered from the cache, without requiring a round trip back to the source website. This could mean that in some situations the burden of scrapers on websites is greatly reduced. If you run a website with lots of high value resources for LLMs (academic papers, preprints, books, news stories, etc) the same cached content could be delivered to multiple parties without having to go back to the originating server. For resource constrained cultural heritage organizations that are currently getting [crushed by bots](https://www.404media.co/ai-scraping-bots-are-breaking-open-libraries-archives-and-museums/) I think this would be a welcome development.
+The genius here is that Cloudflare is known for its Content Delivery Network (CDN). So in theory (more on this below) when a user asks to crawl a website the data can be delivered from the cache, without requiring a round trip back to the source website. This could mean that in some situations the burden of scrapers on websites is greatly reduced.
 
-But, the primary reason this news caught my eye is that if you squint right Cloudflare's Crawl API looks very much like [web archiving] technology. For example, the [Browsertrix API] lets you set up, start, monitor and download crawls of websites. Unlike Browsertrix, which is geared to collecting a website for viewing by a person, the Cloudflare Crawl service is oriented at looking at the web for training LLMs. The service returns text content: HTML, Markdown and structured JSON data that result from running the collected text through one of their LLMs, with the given prompt.
+If you run a website with lots of high value resources for LLMs (academic papers, preprints, books, news stories, etc) the same cached content could be delivered to multiple parties without having to go back to the originating server. For resource constrained cultural heritage organizations that are currently getting [crushed by bots](https://www.404media.co/ai-scraping-bots-are-breaking-open-libraries-archives-and-museums/) I think this would be a welcome development.
+
+But, the primary reason this news caught my eye is that if you squint right Cloudflare's Crawl API looks very much like [web archiving] technology. For example, the [Browsertrix API] lets you set up, start, monitor and download crawls of websites.
+
+Unlike Browsertrix, which is geared to collecting a website for viewing by a person, the Cloudflare Crawl service is oriented at looking at the web for training LLMs. The service returns text content: HTML, Markdown and structured JSON data that result from running the collected text through one of their LLMs, with the given prompt.
 
 ### Seeing the Web
 
@@ -39,7 +43,7 @@ So I guess you could say I was primed to be interested in how Cloudflare's Crawl
 
 To test how Cloudflare sees the web, I simply asked it to crawl my own static website--the one that you are looking at right now. I did this for a few reasons:
 
-1. It's a static website, and I know exactly how many HTML pages were on it: 1,398. All the pages are directly discoverable since the homepage includes pagination links to an index page that includes each post. 
+1. It's a static website, and I know exactly how many HTML pages were on it. All the pages are directly discoverable since the homepage includes pagination links to an index page that includes each post. 
 2. I can easily look at the server logs to see what the crawler activity looks like.
 3. I don't use any kind of [Web Application Firewall] or other form of bot protection on my site (I do have a robots.txt but it doesn't block `CloudflareBrowserRenderingCrawler/1.0`)
 4. I host my website on [May First] which doesn't use Cloudflare as a CDN. So the web content wouldn't intentionally be in Cloudflare's CDN already.
@@ -120,13 +124,13 @@ Maybe it's early days for the service, but one thing I noticed is that each time
 
 | crawl time | completed | skipped | queued | errored | unique_urls |
 |------------|--:|--:|--:|--:|--:|
-| 2026-03-12 13:13:00 | 165 | 84 |  | 1 | 223 |
-| 2026-03-12 13:44:00 | 72 | 4 | 2 |  | 78 |
-| 2026-03-12 14:09:00 | 1947 | 7304 |  | 23 | 9191 |
-| 2026-03-12 16:33:00 | 72 | 4 | 2 |  | 78 |
-| 2026-03-12 17:34:00 | 1948 | 7365 |  | 22 | 9191 |
-| 2026-03-13 16:50:00 | 1947 | 7363 |  | 23 | 9187 |
-| 2026-03-14 07:32:00 | 72 | 4 | 2 |  | 78 |
+| 2026-03-12 13:13:00 | 165 | 84 | 0 | 1 | 223 |
+| 2026-03-12 13:44:00 | 72 | 4 | 2 | 0 | 78 |
+| 2026-03-12 14:09:00 | 1947 | 7304 | 0 | 23 | 9191 |
+| 2026-03-12 16:33:00 | 72 | 4 | 2 | 0 | 78 |
+| 2026-03-12 17:34:00 | 1948 | 7365 | 0 | 22 | 9191 |
+| 2026-03-13 16:50:00 | 1947 | 7363 | 0 | 23 | 9187 |
+| 2026-03-14 07:32:00 | 72 | 4 | 2 | 0 | 78 |
 
 The more successful crawls did a good job of crawling the entire site. My website is well linked, with a standard homepage, that has anchor tag based paging that includes links to all the posts. But knowing when your results are a partial crawl seems to be difficult. Knowing the actual dimensions of a "website" is one of the more difficult things about web archiving practice. The URLs that were labeled as "skipped" were not in scope for the crawl. If you wanted to include those apparently there is a `options.includeExternalLinks` option when [setting up] the crawl.
 
