@@ -17,11 +17,13 @@ The [news] about Cloudflare's new [pay-per-crawl API] caught my attention for a 
 
 So, first of all, what's up? Cloudflare's Crawl API helps people collect data from websites with bots, while *at the same time* providing one of the most popular technologies for preventing websites from being crawled by bots?!?
 
-At first this seemed to me like a classic fox-guarding-the-hen-house type of situation. But the little bit of reading [in the docs] I've done since makes it seem like they will still respect their own bot gate keeping (e.g. Turnstile). 
+At first this seemed to me like a classic fox-guarding-the-hen-house type of situation. But the little bit of reading [in the docs] I've done since makes it seem like they will still respect their own bot gate keeping (e.g. Turnstile).
 
 If you are using Cloudflare or some other bot mitigation technology you will have to follow their instructions to let the Cloudflare crawl bot in to collect pages. Interestingly, it appears they are using the latest specs for [HTTP Message Signatures] to provide this functionality, since you can't simply let in anyone saying they are `CloudflareBrowserRenderingCrawler` right?
 
-The genius here is that Cloudflare is known for its Content Delivery Network (CDN). So in theory (more on this below) when a user asks to crawl a website the data can be delivered from the cache, without requiring a round trip back to the source website. This could mean that in some situations the burden of scrapers on websites is greatly reduced.
+The genius here is that Cloudflare is known for its Content Delivery Network (CDN). So in theory (more on this below) when a user asks to crawl a website the data can be delivered from the cache, without requiring a round trip back to the source website. In some situations this could mean that the burden of scrapers on websites is greatly reduced.
+
+The introduction of a Crawl API also looks like another jigsaw piece fitting into place for how Cloudflare see web publishers [benefiting] from being crawled. Only time will tell if this strategy works out, but at least they have some semblance of a plan for the web that isn't simply sprinkling "AI" everywhere.
 
 If you run a website with lots of high value resources for LLMs (academic papers, preprints, books, news stories, etc) the same cached content could be delivered to multiple parties without having to go back to the originating server. For resource constrained cultural heritage organizations that are currently getting [crushed by bots](https://www.404media.co/ai-scraping-bots-are-breaking-open-libraries-archives-and-museums/) I think this would be a welcome development.
 
@@ -426,3 +428,4 @@ PS. If you are curious the Marimo notebook I was using for some of the analysis 
 [Save Page Now]: https://web.archive.org/save/
 [HTTP Message Signatures]: https://www.rfc-editor.org/rfc/rfc9421
 [in the docs]: https://developers.cloudflare.com/browser-rendering/rest-api/crawl-endpoint/#robotstxt-and-bot-protection
+[benefiting]: https://blog.cloudflare.com/introducing-pay-per-crawl/
