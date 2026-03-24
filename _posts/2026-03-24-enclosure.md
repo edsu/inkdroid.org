@@ -14,9 +14,11 @@ It was interesting to see this short article [^1] about the enclosure of the web
 
 > What's needed is a multi-stakeholder settlement in which large-scale users of the commons take on long-term, structured obligations to sustain it: contractual funding through paid APIs and usage-based levies, formal recognition of DPGs as Digital Public Infrastructure to unlock multilateral co-financing, and a shift in philanthropy from one-off project grants to sustained core support for the institutions that maintain the commons.
 
-I hadn't realized that the details of these deals that Wikipedia are striking aren't fully transparent, and well understood outside of closed doors? I think it's really instructive to think about what is happening right now on the web as enclosure, and part of a longer history of capitalism (as Linebaugh and Denvir talk about). The interview made me think of the craft, tooling, and means of production that are still present in the software industry, but that are being actively being enclosed by the centralization of tooling and skill, craft and knowledge itself. Yes, I'm thinking about LLMs here. Once you see it, it's impossible not to see it.
+I hadn't realized that the details of these deals that Wikipedia are striking aren't fully transparent, and well understood outside of closed doors? I think it's really instructive to think about what is happening right now on the web as enclosure, and part of a longer history of capitalism (as Linebaugh and Denvir talk about). The interview made me think of the craft, tooling, and means of production that are still present in the software industry, but that are being actively being enclosed by the centralization of tooling and skill, craft and knowledge itself.
 
-This all makes me think of Eleanor Ostrom's [design principles] and how it is important that the Wikipedia community have insight into how their commons is being used through monitoring, decision making, and how to resolve the conflicts that will no doubt ensue.
+Yes, I'm talking about LLMs here. Once you see it, it's impossible not to see it.
+
+This all makes me think of Eleanor Ostrom's [design principles] and how it is important that the Wikipedia community have insight into how their commons is being used through monitoring, decision making, resolving the future conflicts that will no doubt ensue.
 
 I'm not entirely sure I understand the potential role of the [Digital Public Goods Alliance] in all this:
 
