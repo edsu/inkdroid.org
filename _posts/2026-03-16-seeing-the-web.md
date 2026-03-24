@@ -55,7 +55,7 @@ This methodology was adapted from previous work I did with [Jess Ogden] and [Sha
 I wrote a little command line utility [cloudflare-crawl] to start, monitor and download the results from the crawl. While the crawler ran I simultaneously watched the server logs. Running the utility looks like this:
 
 ```shell
-$ uvx https://github.com/edsu/cloudflare-crawl https://inkdroid.org
+$ uvx https://github.com/edsu/cloudflare-crawl crawl https://inkdroid.org
 
 created job 36f80f5e-d112-4506-8457-89719a158ce2
 waiting for 36f80f5e-d112-4506-8457-89719a158ce2 to complete: total=1520 finished=837 skipped=1285
