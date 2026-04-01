@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Weekly Bookmarks
+tags:
+- bookmarks
 ---
 
 These are some things on the web I've wandered across this week.
