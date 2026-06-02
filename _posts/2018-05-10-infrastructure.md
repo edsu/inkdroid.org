@@ -70,7 +70,7 @@ I think part of what Larkin is doing here is side stepping a sociological unders
 
 But one thing that's interesting here is the way that the experience of infrastructure is situated in time relative to the infrastructure. Someone who lives through an infrastructural shift like the movement from flame to incandescent lighting will see the two infrastructures in relief in a way that it is hard to imagine someone seeing if they grew up within an already electrified society. It would take historical and imaginative insight to light a candle, and reconstruct what life was like before electrification. However to Larkin's point this movement from flame to incandescent lighting is not really a breakdown. But it is a moment in which infrastructures can be seen more clearly because they are in direct relation to each other. This outsider view seems to be precisely what anthropology is about, which is another point that Seaver makes.
 
-Overall this idea that technology and society coproduce each other, while not named specifically by Larkin, is what I'm left reading his article thinking about. Especially since he drops a reference to @Deleuze:1995 to make the point that "types of machines can be matched to types of societies".
+Overall this idea that technology and society coproduce each other, while not named specifically by Larkin, is what I'm left reading his article thinking about. Especially since he drops a reference to @Deleuze:1992 to make the point that "types of machines can be matched to types of societies".
 
 ### References 
 

@@ -53,7 +53,7 @@ impacts archival science at a theoretical and practical level.
 
 Existing survey work done by the International Internet Preservation Consortium
 [@Marill:2004] and the National Digital Stewardship Alliance [@NDSA:2012 ;
-@Bailey:2013] described high level characteristics of Web archives work,
+@Bailey:2013a] described high level characteristics of Web archives work,
 particularly at the level of national libraries and universities. However these
 surveys intentionally did not provide a very rich picture of the day to day work
 of Web archivists. In order to better understand how these appraisal decisions

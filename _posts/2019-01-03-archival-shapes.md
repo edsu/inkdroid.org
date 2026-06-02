@@ -124,7 +124,7 @@ archival records accrue as part of *natural* processes. For Jenkinson the
 archivist is an impartial actor who merely cares for the records that have been
 generated as part of the functioning of some administrative body. Upward saw
 that Maclean returned to an older conception of archival records found in the so
-called Dutch Manual [@Muller:2003], where archival records are *created* or
+called Dutch Manual [@Muller:1940], where archival records are *created* or
 *produced*.  Archival records aren't simply collected but created, and *made* to
 be archival. In this view the archivist plays a significant role in that
 creative process, and is not a neutral, unbiased participant.
