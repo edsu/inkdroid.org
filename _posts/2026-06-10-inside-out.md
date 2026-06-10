@@ -8,9 +8,7 @@ tags:
 - tools
 ---
 
-I have a problem with RSS.
-
-Not RSS itself, RSS is great!
+I have a problem with RSS. Not RSS itself, RSS is *great*!
 
 The problem is that I subscribe to more feeds than I can possibly read, so the
 unread count in [FreshRSS] climbs faster than I can bring it down. Some days I
@@ -20,7 +18,8 @@ it pile up and feel guilty.
 I've tried to using newer tools like [Current] which was definitely an
 improvement, but still didn't quite do it. My friend Dan has been [working] on a
 new RSS tool that works a bit like a personal newspaper, that seems like it
-could be extremely helpful, and I'm keeping my eye on it.
+could be extremely helpful, and I'm keeping my eye on it. But meanwhile the list
+of unread posts grows...
 
 Now, I've been very reluctant and slow to introduce LLMs into my daily work. But
 even from under my rock, in a cave, down by the river, I've heard that LLMs are
@@ -77,6 +76,8 @@ Running it once or twice manually was ok. But sticking it in my crontab and
 forgetting about it? Forget about it. I exprerimented briefly with putting
 things in a Docker container, and Claude Cowork's sandboxing, but then...
 
+### Turning it inside out
+
 I stepped back and rethought the problem. The thing I'd been trying to do, have
 an LLM orchestrate a set of tools to accomplish a task, is one (seemingly
 popular) way to use an LLM. But it turns out to be *kinda demented*. You're
@@ -92,16 +93,20 @@ letting the LLM drive the program as an Agent. My code fetches the articles. My 
 shapes the prompt. My code writes the output to a file. The LLM does exactly
 one thing: it reads the content I hand it and produces a summary.
 
-So I wrote [rss-digest] instead. Well Claude and I wrote it.
+### rss-digest
+
+I threw it all on the fire and started over by writing [rss-digest] instead.
+Well, truth be told, Claude and I wrote it. Ok, ok, mostly Claude.
 
 It's a small Python CLI that connects to any [GReader API]-compatible RSS reader
 (FreshRSS, Miniflux, Tiny Tiny RSS, The Old Reader), fetches your recent unread
 articles, and asks an LLM to produce a digest. Because it uses [LiteLLM] under
-the hood, you can point it at any compatible model — OpenAI, a local model
+the hood, you can point it at any compatible model: OpenAI, a local model
 running in LM Studio, whatever you prefer.
 
 The output is a Markdown file (or HTML with `--html`). I have a cron job run it
-in the morning and drop a file on my desktop for me to read.
+in the morning and drop a file on my desktop for me to read. Here's an [example]
+of what it looks like.
 
 For smaller batches (≤25 articles) it gives you a structured list. For larger
 ones it produces a curated prose summary grouped by theme. You can pass a custom
@@ -138,3 +143,4 @@ with it, but don't forget to turn it inside out when you need to.
 [MCP]: https://en.wikipedia.org/wiki/Model_Context_Protocol
 [Current]: https://www.terrygodier.com/current
 [working]: https://data.onebiglibrary.net/2026/02/25/starting-a-news-service/
+[example]: https://github.com/edsu/rss-digest/blob/main/example.md
