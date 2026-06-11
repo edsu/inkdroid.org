@@ -36,6 +36,8 @@ exercise in seeing how that works in practice with a tool like Claude Code. I'd
 use Claude Code's MCP support to connect directly to FreshRSS and ask Claude to
 summarize what I'd missed. Yeah, that's the ticket.
 
+## This is the Way?
+
 The first thing I tried was [ChrisLAS's freshrss-mcp] server, which wraps the
 FreshRSS [GReader API] and exposes it as a set of MCP tools. The idea is that
 you drop it into your Claude configuration and Claude can then call those tools
@@ -76,7 +78,7 @@ Running it once or twice manually was ok. But sticking it in my crontab and
 forgetting about it? Forget about it. I exprerimented briefly with putting
 things in a Docker container, and Claude Cowork's sandboxing, but then...
 
-### Turning it inside out
+## Turning it inside out
 
 I stepped back and rethought the problem. The thing I'd been trying to do, have
 an LLM orchestrate a set of tools to accomplish a task, is one (seemingly
@@ -93,7 +95,7 @@ letting the LLM drive the program as an Agent. My code fetches the articles. My 
 shapes the prompt. My code writes the output to a file. The LLM does exactly
 one thing: it reads the content I hand it and produces a summary.
 
-### rss-digest
+## Take Two (or Three, or Four?)
 
 I threw it all on the fire and started over by writing [rss-digest] instead.
 Well, truth be told, Claude and I wrote it. Ok, ok, mostly Claude.
@@ -117,6 +119,8 @@ The tool is on [PyPI] and the code is on [GitHub]. I've just started using it,
 so it quite possibly has problems. The prompt that is used for doing the summarization is
 configurable. If you have a different take on the prompt or want to extend it,
 please send me a pull request so I can add it as an alternative.
+
+## So...
 
 What I keep coming back to is the design lesson underneath all of this.
 
