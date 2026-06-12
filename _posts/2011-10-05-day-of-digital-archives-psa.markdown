@@ -19,7 +19,7 @@ tags:
 - bagit
 - ruby
 - github
-- open-source
+- opensource
 comments:
 - id: 85137
   author: google.com/accounts/o8&hellip;

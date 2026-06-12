@@ -20,7 +20,9 @@ class Shiori
     url = URI.join(@base_url, 'bookmarks')
     url.query = "page=#{page}"
     resp = Net::HTTP.get_response(url, { "Authorization": @token })
-    JSON.parse(resp.body)['message']['bookmarks']
+    JSON.parse(resp.body)['message']['bookmarks'].each do |b|
+      b['tags'] = (b['tags'] || []).map { |t| t['name'] }
+    end
   end
 
   def login
@@ -47,6 +49,7 @@ def bookmark_html(bookmark)
       <section class="p-summary">
         #{bookmark['excerpt']}
       </section>
+      <p class="tags">#{bookmark['tags'].map { |t| "<a rel=\"tag\" class=\"tag label label-default p-category\" href=\"/tag/#{t}/\">#{t}</a>" }.join(' ')}</p>
     </article>
   HTML
 end
@@ -58,13 +61,17 @@ bookmarks = shiori.bookmarks.filter do |b|
   created = DateTime.parse(b['createdAt'])
   now - created < 7 && b['public'] == 1
 end
-
 if bookmarks.length.positive?
+  all_tags = bookmarks.flat_map { |b| b['tags'] }
+  top_tags = all_tags.tally.sort_by { |_, n| -n }.first(4).map(&:first)
+  title = top_tags.any? ? "Bookmarks - #{top_tags.join(', ')}" : "Bookmarks - #{now.strftime('%B %-d')}"
+
   output = open("_posts/#{now.strftime('%Y-%m-%d-bookmarks.md')}", 'w')
   output.puts <<~HTML
     ---
     layout: post
-    title: Weekly Bookmarks
+    title: #{title}
+    tags: #{all_tags.uniq.sort}
     ---
 
     These are some things I've wandered across on the web this week.

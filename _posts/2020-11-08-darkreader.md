@@ -1,7 +1,7 @@
 ---
 title: Dark Reading
 tags:
-- open-source
+- opensource
 layout: post
 ---
 

@@ -5,7 +5,8 @@ tags:
 - llm
 - rss
 - python
-- tools
+- ai
+- design
 ---
 
 I have a problem with RSS. Not RSS itself, RSS is *great*!
