@@ -2,9 +2,9 @@ This is my personal static website that runs at http://inkdroid.org courtesy of 
 
 ## Install
 
-First install Ruby and [bundler](https://bundler.io/).
+First install [mise] to setup and configure Ruby and then:
 
-Then install the dependencies:
+Then install the Ruby dependencies:
 
     $ bundle install
     
@@ -30,3 +30,5 @@ Run the local server to view the site locally:
 Or publish the latest changes at inkdroid.org:  
 
     $ make
+
+[mise]: https://mise.en.dev/
