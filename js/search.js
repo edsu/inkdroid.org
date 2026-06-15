@@ -7,9 +7,12 @@ window.addEventListener('DOMContentLoaded', async () => {
   input.id = 'search-input';
   input.placeholder = 'search...';
   input.setAttribute('aria-label', 'Search posts');
+  input.setAttribute('aria-controls', 'search-results');
 
   const results = document.createElement('div');
   results.id = 'search-results';
+  results.setAttribute('aria-live', 'polite');
+  results.setAttribute('aria-atomic', 'false');
 
   container.appendChild(input);
   container.appendChild(results);
@@ -26,7 +29,8 @@ window.addEventListener('DOMContentLoaded', async () => {
 
   function renderResult(item) {
     const excerpt = item.excerpt ?? '';
-    return `<div class="search-result"><a class="search-filename" href="${item.url}">${item.url}</a><span class="search-sep">:</span><span class="search-excerpt">${excerpt}</span></div>`;
+    const title = item.meta?.title ?? item.url;
+    return `<div class="search-result"><a class="search-filename" href="${item.url}">${title}</a><span class="search-sep">:</span><span class="search-excerpt">${excerpt}</span></div>`;
   }
 
   async function loadMore() {
@@ -50,7 +54,14 @@ window.addEventListener('DOMContentLoaded', async () => {
     const search = await pagefind.search(query, { sort: { date: 'desc' } });
     allResults = search.results;
     offset = 0;
-    results.innerHTML = '<button id="search-more">load more</button>';
+
+    if (allResults.length === 0) {
+      results.innerHTML = `<p class="search-message">no results for "${query}"</p>`;
+      return;
+    }
+
+    const count = allResults.length;
+    results.innerHTML = `<p class="search-message" aria-live="polite">${count} result${count === 1 ? '' : 's'}</p><button id="search-more">load more</button>`;
     await loadMore();
   });
 });
