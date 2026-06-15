@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bookmarks - data, design, vis, book
-tags: ["baltimore", "book", "comic", "computing", "criticism", "data", "database", "design", "disk", "google", "handwriting", "history", "hypermedia", "iiif", "javascript", "linkeddata", "llm", "map", "ocr", "opensource", "openstreetmap", "preservation", "programming", "reading", "ruby", "rust", "search", "shopping", "silverspring", "tednelson", "tool", "vector", "video", "vis", "webarchive", "wikipedia", "writing"]
+tags: ["bookmarks", "baltimore", "book", "comic", "computing", "criticism", "data", "database", "design", "disk", "google", "handwriting", "history", "hypermedia", "iiif", "javascript", "linkeddata", "llm", "map", "ocr", "opensource", "openstreetmap", "preservation", "programming", "reading", "ruby", "rust", "search", "shopping", "silverspring", "tednelson", "tool", "vector", "video", "vis", "webarchive", "wikipedia", "writing"]
 ---
 
 These are some things I've wandered across on the web this week.
