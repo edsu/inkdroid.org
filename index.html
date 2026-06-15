@@ -6,7 +6,7 @@ layout: default
   {% for post in paginator.posts %}
     <article class="post-summary">
       <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
-      ~ 
+      ~
       <a href="{{ post.url }}">{{ post.title }}</a>
     </article>
   {% endfor %}
@@ -14,29 +14,29 @@ layout: default
 
 {% if paginator.total_pages > 1 %}
 <nav id="pagination" aria-label="pages of more posts">
-  <ul class="pagination pagination-sm justify-content-center">
+  <ul>
 
-    <li class="page-item">
+    <li>
     {% if paginator.previous_page %}
-      <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
     {% else %}
-      <a class="page-link">&laquo; Prev</a>
+      <a>&laquo; Prev</a>
     {% endif %}
     </li>
 
     {% for page in (1..paginator.total_pages) %}
       {% if page == paginator.page %}
-        <li class="page-item active"><a class="page-link" href="">{{ page }}</a></li>
+        <li class="active"><a href="">{{ page }}</a></li>
       {% else %}
-        <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+        <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
       {% endif %}
     {% endfor %}
 
-    <li class="page-item">
+    <li>
     {% if paginator.next_page %}
-      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
     {% else %}
-      <a class="page-link">Next &raquo;</a>
+      <a>Next &raquo;</a>
     {% endif %}
     </li>
 
