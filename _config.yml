@@ -26,6 +26,7 @@ exclude:
 keep_files:
   - .dat
   - dat.json
+  - pagefind
 
 include:
   - .well-known

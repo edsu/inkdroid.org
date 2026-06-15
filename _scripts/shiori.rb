@@ -66,6 +66,9 @@ if bookmarks.length.positive?
   top_tags = all_tags.tally.sort_by { |_, n| -n }.first(4).map(&:first)
   title = top_tags.any? ? "Bookmarks - #{top_tags.join(', ')}" : "Bookmarks - #{now.strftime('%B %-d')}"
 
+  # ensure that the bookmarks page has a bookmarks tag
+  all_tags.push("bookmarks")
+
   output = open("_posts/#{now.strftime('%Y-%m-%d-bookmarks.md')}", 'w')
   output.puts <<~HTML
     ---

@@ -1,0 +1,21 @@
+---
+title: Talks
+layout: page
+---
+
+<p>Occasionally I've given or been part of presentations about the application of
+information technology in libraries and archives. Some of this stuff looks kind
+of dated now, but I guess it illustrates my meandering career path.</p>
+
+<section class="post-list">
+  <p class="post-list-total">total {{ site.data.talks | size }}</p>
+  {% for talk in site.data.talks %}
+  {% assign first_resource = talk.resources | first %}
+  <article class="post-summary">
+    <span class="perms">drwxr-xr-x</span>
+    <span class="date">{{ talk.date | date: "%Y-%m-%d" }}</span>
+    <span class="talk-title">{% if first_resource %}<a href="{{ first_resource.url }}">{{ talk.title }}</a>{% else %}{{ talk.title }}{% endif %}/</span>
+    <span class="talk-resources">{% for r in talk.resources %}<a href="{{ r.url }}" title="{{ r.type }}">{% if r.type == "slides" %}📊{% elsif r.type == "video" %}🎥{% elsif r.type == "paper" %}📄{% elsif r.type == "text" %}📝{% elsif r.type == "pdf" %}📑{% elsif r.type == "poster" %}🪧{% endif %}</a> {% endfor %}</span>
+  </article>
+  {% endfor %}
+</section>

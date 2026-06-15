@@ -12,6 +12,7 @@ serve: indexes
 
 build: indexes
 	JEKYLL_ENV=production bundle exec jekyll build
+	npx pagefind --site _site
 
 flickr:
 	bundle exec _scripts/flickr.rb

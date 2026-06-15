@@ -1,0 +1,368 @@
+- title: "Some things to consider when deciding whether to start building with AI in libraries"
+  date: "2023-03-12"
+  venue: "Stanford University Libraries"
+  resources:
+    - type: slides
+      url: "ai.pdf"
+    - type: text
+      url: "/2024/03/12/ai/"
+
+- title: "Existing Archival Practice: Web Archives as Infrastructure"
+  date: "2022-08-27"
+  venue: "StarlingLab Workshop on Web Archives as Legal Evidence"
+  resources:
+    - type: slides
+      url: "starlinglab-2022.pdf"
+
+- title: "Web Archives in Digital Repositories"
+  date: "2022-05-25"
+  venue: "Code4lib 2022"
+  venue_url: "https://2022.code4lib.org/talks/Web-archives-in-digital-repositories-Simple-integration-and-reducing-software-maintenance-footprint"
+  location: "Buffalo, NY"
+  with: "Ilya Kreymer"
+  resources:
+    - type: video
+      url: "https://www.youtube.com/watch?v=dtd5Os5t0Io&t=1513s"
+    - type: slides
+      url: "code4lib2022.pdf"
+
+- title: "Patterns of Use: Conceptualizing the Role of Web Archives in Online Discourse"
+  date: "2021-06-18"
+  venue: "RESAW 2021"
+  venue_url: "https://www.resaw2021.net/programme/"
+  location: "Luxembourg"
+  with: "Jessica Ogden, Shawn Walker"
+  resources:
+    - type: pdf
+      url: "resaw21.pdf"
+
+- title: "Knowing Infrastructure"
+  date: "2020-08-13"
+  venue: "Society for the Social Studies of Science"
+  venue_url: "https://stsinfrastructures.org/content/knowing-infrastructure"
+  location: "Prague, Czech Republic"
+  with: "Jessica Ogden, Shawn Walker"
+  resources:
+    - type: video
+      url: "knowing-infrastructure.mp4"
+
+- title: "Automating Archives: The Challenges of Investigating Large-Scale Web Archival Infrastructures"
+  date: "2019-11-10"
+  venue: "Mapping the How of Collaborative Action: CSCW 2020"
+  venue_url: "https://mappingthehow.wordpress.com/"
+  location: "Austin, Texas"
+  with: "Jessica Ogden, Shawn Walker"
+  resources:
+    - type: paper
+      url: "https://hdl.handle.net/1983/c84409b8-11bf-4757-8734-c0f1836d9372"
+
+- title: "Opening the Black Box of Save Page Now"
+  date: "2019-06-21"
+  venue: "The Web That Was: RESAW 2019"
+  venue_url: "https://web.archive.org/web/20190618073612/http://thewebthatwas.net/"
+  location: "Amsterdam, Netherlands"
+  with: "Jessica Ogden, Shawn Walker"
+  resources:
+    - type: slides
+      url: "resaw19.pdf"
+
+- title: "Always Already Social: Social Media in Archives"
+  date: "2019-05-10"
+  venue: "Congrés d'Arxivistica i Gestió de Documents de Catalunya"
+  location: "Sant Feliu de Guixols, Catalonia"
+  resources:
+    - type: slides
+      url: "https://edsu.github.io/always-already-social/"
+    - type: video
+      url: "https://www.youtube.com/watch?v=VjI2WL6eZpY&list=PLQk4S7xp9SuZBFOU9sHbTMQpJXFtbSI1H&index=6&t=2639s"
+
+- title: "Archives on the Web: The Curious Case of the Vine Archive"
+  date: "2018-04-03"
+  venue: "Big Data Interdisciplinary Dialogue"
+  venue_url: "https://www.lib.umd.edu/rc/big-data"
+  location: "College Park, Maryland"
+  resources:
+    - type: slides
+      url: "https://edsu.github.io/vine-tweets-slides/#/"
+
+- title: "Appraisal Talk in Web Archives"
+  date: "2017-10-29"
+  venue: "Society for the History of Technology: SIGCIS"
+  venue_url: "https://www.historyoftechnology.org/annual-meeting/2017-shot-annual-meeting-26-29-october-philadelphia/"
+  location: "Philadelphia, Pennsylvania"
+  resources:
+    - type: slides
+      url: "https://edsu.github.io/appraisal-talk/#/"
+
+- title: "Exploring Assemblages of Appraisal in Web Archives"
+  date: "2017-07-12"
+  venue: "Archival Education and Research Institute"
+  venue_url: "http://aeri2017.org/"
+  location: "Toronto, Canada"
+  resources:
+    - type: poster
+      url: "aeri2017.pdf"
+
+- title: "Under Surveillance: Power &amp; Empowerment in the Social Media Archive"
+  date: "2017-04-17"
+  venue: "Roy Rosenzweig Center for History and New Media"
+  venue_url: "https://rrchnm.org/"
+  location: "Fairfax, Virginia"
+  resources:
+    - type: slides
+      url: "https://edsu.github.io/under-surveillance/#/"
+
+- title: "Bots, Seeds and People"
+  date: "2017-02-26"
+  venue: "Computer-Supported Cooperative Work"
+  venue_url: "https://cscw.acm.org/2017/"
+  location: "Portland, Oregon"
+  resources:
+    - type: paper
+      url: "https://arxiv.org/abs/1611.02493v1"
+    - type: slides
+      url: "http://edsu.github.io/bots-seeds-people/#/"
+
+- title: "DocNow's Theoretical Bricolage"
+  date: "2016-07-08"
+  venue: "Archival Education and Research Institute"
+  venue_url: "http://www.kent.edu/aeri2016"
+  location: "Kent State University"
+  resources:
+    - type: text
+      url: "https://inkdroid.org/2016/07/07/docnow-bricoloage/"
+    - type: slides
+      url: "https://edsu.github.io/docnow-bricolage/#/"
+
+- title: "Data First Interventions"
+  date: "2015-11-12"
+  venue: "Web Archives Conference"
+  venue_url: "http://www.lib.umich.edu/webarchivesconference"
+  location: "Ann Arbor, Michigan"
+  resources:
+    - type: text
+      url: "http://inkdroid.org/2015/11/12/data-first/"
+    - type: slides
+      url: "http://edsu.github.io/ferguson-tweet-viewer/"
+
+- title: "White Dudes Giving Speeches"
+  date: "2015-10-08"
+  venue: "Mid-Atlantic Regional Archives Conference"
+  location: "Roanoke, Virginia"
+  resources:
+    - type: text
+      url: "http://inkdroid.org/2015/10/09/white-dudes-giving-speeches/"
+    - type: slides
+      url: "https://edsu.github.io/marac-slides/"
+
+- title: "@congressedits - Wikipedia + Twitter + Congress = ?"
+  date: "2014-07-21"
+  venue: "DC Hack and Tell"
+  venue_url: "http://hackandtell.org/"
+  location: "Washington, DC"
+  resources:
+    - type: slides
+      url: "https://edsu.github.io/congressedits-slides/"
+
+- title: "The Web as a Preservation Medium"
+  date: "2013-11-28"
+  venue: "National Digital Forum"
+  venue_url: "http://www.ndf.org.nz/"
+  location: "Wellington, New Zealand"
+  resources:
+    - type: text
+      url: "http://inkdroid.org/journal/2013/11/26/the-web-as-a-preservation-medium/"
+    - type: slides
+      url: "http://edsu.github.io/webpresmed/#/"
+    - type: video
+      url: "https://www.youtube.com/watch?v=HpJgX8a9d3I"
+
+- title: "Linking Things on the Web: A Pragmatic Examination of Linked Data for Libraries, Archives and Museums"
+  date: "2013-02-20"
+  venue: "MITH Digital Dialogues"
+  venue_url: "http://mith.umd.edu/podcasts/ed-summers-linking-things-on-the-web-a-pragmatic-examination-of-linked-data/"
+  location: "College Park, MD"
+  resources:
+    - type: slides
+      url: "https://docs.google.com/presentation/d/1XssMWh5yOIqr9O31usHKO3whX2VtyBt3cXETK1NeLh4/edit?usp=sharing"
+    - type: pdf
+      url: "/talks/LinkingThingsOnTheWeb.pdf"
+
+- title: "Wikistream"
+  date: "2012-07-11"
+  venue: "Wikimania 2012"
+  venue_url: "http://wikimania2012.wikimedia.org/"
+  location: "Washington, DC"
+  resources:
+    - type: text
+      url: "http://inkdroid.org/journal/2012/07/11/wikimania/"
+    - type: slides
+      url: "https://docs.google.com/presentation/d/1O3WmtCCiB7LWXRNerC4TQzg6g-MR5wqC0XpedG0qm84/edit"
+    - type: pdf
+      url: "http://commons.wikimedia.org/w/index.php?title=File:Wikistream.pdf"
+
+- title: "Synchronizing Linked Data"
+  date: "2011-05-16"
+  venue: "Digital Public Library of America: Global Interoperability Summit"
+  location: "Amsterdam, Netherlands"
+  resources:
+    - type: slides
+      url: "https://docs.google.com/present/view?id=dv89m3d_512fd83d9c5"
+
+- title: "Linkypedia"
+  date: "2011-01-22"
+  venue: "WikiXDC (tenth birthday of Wikipedia)"
+  venue_url: "http://ten.wikipedia.org/"
+  location: "National Archives, Washington, DC"
+  resources:
+    - type: slides
+      url: "https://docs.google.com/present/view?id=dv89m3d_497c98tp7g5"
+
+- title: "Confessions of a Graph Addict"
+  date: "2010-06-24"
+  venue: "Linked Data: Making Library Data Converse with the World, ALA"
+  venue_url: "http://www.ala.org"
+  location: "Washington, DC"
+  resources:
+    - type: slides
+      url: "http://docs.google.com/present/edit?id=0AU6uboYXcJbBZHY4OW0zZF80MDZnNGtoMzRreA"
+    - type: pdf
+      url: "/talks/confessions.pdf"
+
+- title: "Renewing Libraries With Linked Data"
+  date: "2009-11-25"
+  venue: "Semantic Web in Bibliotheken (SWIB09)"
+  venue_url: "http://www.swib09.de/"
+  location: "Cologne, Germany"
+  resources:
+    - type: pdf
+      url: "/talks/swib09.pdf"
+    - type: video
+      url: "http://youtu.be/9C7vf7RKvlg"
+
+- title: "Peace, Love, Freedom and the Web"
+  date: "2009-10-17"
+  venue: "New York Library Association"
+  venue_url: "http://nyla.org/"
+  location: "Niagara, New York"
+  resources:
+    - type: slides
+      url: "/talks/lod-nyla.ppt"
+    - type: pdf
+      url: "/talks/lod-nyla.pdf"
+
+- title: "The Library of Congress and Linked Data"
+  date: "2009-05-08"
+  venue: "Semantic Web Meetup"
+  venue_url: "http://semweb.meetup.com/25/calendar/9882537/"
+  location: "New York, New York"
+  resources:
+    - type: slides
+      url: "/talks/semwebnyc.ppt"
+    - type: pdf
+      url: "/talks/semwebnyc.pdf"
+
+- title: "Open Up Your Repositories: With a SWORD!"
+  date: "2009-02-24"
+  venue: "code4lib 2009"
+  venue_url: "http://code4lib.org/2009"
+  location: "Providence, Rhode Island"
+  resources:
+    - type: slides
+      url: "/talks/sword.ppt"
+    - type: pdf
+      url: "/talks/sword.pdf"
+
+- title: "Linked Data"
+  date: "2009-02-23"
+  venue: "code4lib 2009"
+  venue_url: "http://code4lib.org/2009"
+  location: "Providence, Rhode Island"
+  resources:
+    - type: slides
+      url: "/talks/c4links.ppt"
+    - type: pdf
+      url: "/talks/c4links.pdf"
+
+- title: "LCSH, SKOS and Linked Data"
+  date: "2008-09-22"
+  venue: "International Conference on Dublin Core and Metadata Applications"
+  location: "Berlin, Germany"
+  resources:
+    - type: slides
+      url: "/talks/dc2008.ppt"
+    - type: pdf
+      url: "/talks/dc2008.pdf"
+    - type: paper
+      url: "http://arxiv.org/abs/0805.2855"
+
+- title: "New Directions in Knowledge Organization Systems"
+  date: "2008-09-11"
+  venue: "CENDI/NKOS Joint Meeting, World Bank"
+  location: "Washington DC"
+  resources:
+    - type: slides
+      url: "/talks/cendi-nkos.ppt"
+
+- title: "Atom Publishing Protocol Primer"
+  date: "2007-03-01"
+  venue: "code4lib 2007"
+  location: "Athens, Georgia"
+  resources:
+    - type: slides
+      url: "/talks/app"
+    - type: video
+      url: "http://code4lib.org/2007/summers"
+
+- title: "import pyLucene"
+  date: "2005-06-01"
+  venue: "Chicago Python Users Group"
+  location: "Chicago, Illinois"
+  resources:
+    - type: slides
+      url: "/talks/pylucene/"
+
+- title: "Learning Perl"
+  date: "2004-10-01"
+  venue: "Queens Borough Public Library"
+  location: "New York City"
+  resources:
+    - type: slides
+      url: "/talks/queens/perlintro.pdf"
+
+- title: "Net::OAI::Harvester"
+  date: "2004-10-01"
+  venue: "Library and Information Technology Association"
+  location: "St Louis"
+  resources:
+    - type: slides
+      url: "/talks/oai-lita/oai-lita.pdf"
+
+- title: "Object Orientated Perl and Testing"
+  date: "2003-07-01"
+  venue: "Notre Dame University"
+  location: "South Bend, Indiana"
+  resources:
+    - type: slides
+      url: "/talks/notredame/"
+
+- title: "Introduction to SOAP"
+  date: "2003-04-01"
+  venue: "Chicago Perl Mongers"
+  location: "Chicago, Illinois"
+  resources:
+    - type: slides
+      url: "/talks/soap"
+
+- title: "MARC Processing With Perl"
+  date: "2002-06-01"
+  venue: "ALA Pre-conference on Open Source Technologies"
+  location: "Atlanta, Georgia"
+  resources:
+    - type: slides
+      url: "/talks/MARC_Record.html"
+
+- title: "A Perl Toolkit for Libraries"
+  date: "1999-06-01"
+  venue: "Virginia Library Association"
+  location: "Richmond, Virginia"

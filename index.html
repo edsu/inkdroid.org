@@ -3,11 +3,29 @@ layout: default
 ---
 
 <section class="post-list">
+  <p class="post-list-total">total {{ paginator.total_posts }}</p>
   {% for post in paginator.posts %}
+    {% assign wc = post.content | number_of_words %}
+    {% assign wc_thousands = wc | divided_by: 1000 %}
+    {% if post.tags contains "photographs" %}
+      {% assign post_icon = "📸" %}
+      {% assign post_icon_title = "photograph" %}
+    {% elsif post.title contains "Bookmarks" %}
+      {% assign post_icon = "🔖" %}
+      {% assign post_icon_title = "bookmarks" %}
+    {% elsif post.content contains "<audio" %}
+      {% assign post_icon = "🔊" %}
+      {% assign post_icon_title = "audio" %}
+    {% else %}
+      {% assign post_icon = "📄" %}
+      {% assign post_icon_title = "post" %}
+    {% endif %}
     <article class="post-summary">
+      <span class="perms">drwxr-xr-x</span>
+      <span class="size">{% if wc_thousands > 0 %}{{ wc_thousands }}k{% else %}{{ wc }}{% endif %}</span>
       <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
-      ~
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="icon" title="{{ post_icon_title }}">{{ post_icon }}</span>
+      <a href="{{ post.url }}">{{ post.title }}/</a>
     </article>
   {% endfor %}
 </section>
