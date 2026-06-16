@@ -436,4 +436,9 @@ article.bookmark h2 {
   body {
     font-size: 0.9rem;
   }
+
+  .post-summary .perms,
+  .post-summary .size {
+    display: none;
+  }
 }
