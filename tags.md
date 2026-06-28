@@ -3,6 +3,10 @@ layout: default
 title: Tags
 ---
 
+<header class="post-header">
+  <h2 class="post-title">tags/</h2>
+</header>
+
 These are tags that I've used to categorize posts over the years, ordered by how much has been written about each topic. I haven't been completely consistent over that time, but they provide a slightly grimy window into what I've written about.
 
 {% assign tag_names = "" %}
@@ -23,7 +27,7 @@ These are tags that I've used to categorize posts over the years, ordered by how
       <span class="perms">drwxr-xr-x</span>
       <span class="size">{{ tag_posts.size }}</span>
       <span class="date">{{ tag_posts.first.date | date: "%Y-%m-%d" }}</span>
-      <a href="/tag/{{ tag_name | slugify }}/">{{ tag_name }}/</a>
+      <a href="/tags/{{ tag_name | slugify }}/">{{ tag_name }}/</a>
     </article>
     {% endif %}
   {% endfor %}

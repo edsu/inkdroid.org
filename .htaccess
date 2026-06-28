@@ -102,6 +102,9 @@ ForceType "application/xml"
 </Files>
 
 
+# tag pages moved from /tag/ to /tags/
+RewriteRule ^tag/(.+)$ /tags/$1 [R=permanent,L]
+
 # some odd things that moved
 RewriteRule ^2015/03/12/javascript-and-archives/ http://inkdroid.org/2015/03/11/javascript-and-archives/ [R=permanent,L]
 RewriteRule ^rss/whitehouse.xml https://www.whitehouse.gov/feed/ [L,R=301,NC]
