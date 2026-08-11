@@ -14,18 +14,11 @@ tag_page_layout: tag
 tag_page_dir: tags
 tag_permalink_style: pretty
 
-sass:
-  sass_dir: _sass
-
 exclude:
-  - sync.sh
-  - inkdroid.wordpress.2015-08-31.xml
   - .git
   - utils
 
 keep_files:
-  - .dat
-  - dat.json
   - pagefind
 
 include:

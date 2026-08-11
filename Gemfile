@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
-gem 'webrick'
 
 group :jekyll_plugins do
   gem 'jekyll-compose'
@@ -11,11 +10,3 @@ group :jekyll_plugins do
 end
 
 gem "dotenv", ">= 3.1"
-
-gem "csv", ">= 3.3"
-
-gem "base64", ">= 0.2.0"
-
-gem "openssl", "~> 3.3"
-
-gem "logger", "~> 1.7"
