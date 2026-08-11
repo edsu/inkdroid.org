@@ -28,7 +28,7 @@ functions as a sociotechnical system, especially with regard to memory
 practices such as curation and preservation.
 
 If you want to get in touch please email me at [ehs@pobox.com]. You can also find my GPG Key and some other personal identifiers over on [Keyoxide](https://keyoxide.org/DD11F92F1E44644183C06961D012FF557AFFF80A). I'm in the Fediverse at
-[\@ink@merveilles.town].
+[\@ink@merveilles.town] and [\@ed@digipres.club].
 
 #### Projects
 
@@ -48,7 +48,9 @@ simply a place to write down the high level things that I'm working on, in an ar
 [working]: http://inkdroid.org/ehs/
 [ehs@pobox.com]: mailto:ehs@pobox.com
 [\@ink@merveilles.town]: https://merveilles.town/@ink
+[\@ed@digipres.club]: https://digipres.club/@ed
 [College of Information Studies]: https://ischool.umd.edu/
 [teacher]: https://umd-ischool-inst326.github.io/inst326/
 [researcher]: https://scholar.google.com/citations?user=ctpWtsIAAAAJ&hl=en&oi=ao
 [GPG Public Key]: /ehs/ehs.asc 
+

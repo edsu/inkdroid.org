@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 480" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="8" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#555"/></marker>
+    <marker id="ab" markerWidth="10" markerHeight="8" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/></marker>
+  </defs>
+
+  <rect width="980" height="480" fill="#ffffff"/>
+
+  <text x="490" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#111827">Indexing a remote WACZ — no full download</text>
+  <text x="490" y="52" text-anchor="middle" font-size="13" fill="#6b7280">Scan the CDX for page records, then fetch just those byte ranges in parallel</text>
+
+  <!-- ================= LEFT: the remote WACZ ================= -->
+  <rect x="30" y="76" width="250" height="352" rx="10" fill="#f5f5f8" stroke="#b8b8c0"/>
+  <text x="155" y="100" text-anchor="middle" font-size="14" font-weight="700" fill="#111827">Remote WACZ (S3)</text>
+  <text x="155" y="117" text-anchor="middle" font-size="11" fill="#6b7280">one .wacz, read over HTTP Range</text>
+
+  <rect x="48" y="132" width="214" height="44" rx="6" fill="#fde68a" stroke="#f59e0b"/>
+  <text x="155" y="152" text-anchor="middle" font-size="12" font-weight="700" fill="#7c5b00">indexes/index.cdx.gz</text>
+  <text x="155" y="168" text-anchor="middle" font-size="10" fill="#7c5b00">url → warc, offset, length</text>
+
+  <text x="48" y="204" font-size="12" fill="#374151">archive/data.warc.gz</text>
+  <!-- record grid: 8 cols x 4 rows; the right column (col7) holds the page records fetched -->
+  <!-- row0 y=216 -->
+  <rect x="50" y="216" width="20" height="20" rx="2" fill="#60a5fa" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="75" y="216" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="100" y="216" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="125" y="216" width="20" height="20" rx="2" fill="#f87171" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="150" y="216" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="175" y="216" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="200" y="216" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="225" y="216" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <!-- row1 y=241  (col7 = HTML, arrow source) -->
+  <rect x="50" y="241" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="75" y="241" width="20" height="20" rx="2" fill="#60a5fa" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="100" y="241" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="125" y="241" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="150" y="241" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="175" y="241" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="200" y="241" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="225" y="241" width="20" height="20" rx="2" fill="#60a5fa" stroke="#2563eb" stroke-width="1.4"/>
+  <!-- row2 y=266  (col7 = PDF, arrow source) -->
+  <rect x="50" y="266" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="75" y="266" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="100" y="266" width="20" height="20" rx="2" fill="#60a5fa" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="125" y="266" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="150" y="266" width="20" height="20" rx="2" fill="#f87171" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="175" y="266" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="200" y="266" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="225" y="266" width="20" height="20" rx="2" fill="#f87171" stroke="#2563eb" stroke-width="1.4"/>
+  <!-- row3 y=291  (col7 = HTML, arrow source) -->
+  <rect x="50" y="291" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="75" y="291" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="100" y="291" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="125" y="291" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="150" y="291" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="175" y="291" width="20" height="20" rx="2" fill="#60a5fa" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="200" y="291" width="20" height="20" rx="2" fill="#d1d5db" stroke="#9ca3af" stroke-width=".5"/>
+  <rect x="225" y="291" width="20" height="20" rx="2" fill="#60a5fa" stroke="#2563eb" stroke-width="1.4"/>
+
+  <!-- legend -->
+  <rect x="50" y="326" width="13" height="13" rx="2" fill="#60a5fa"/><text x="70" y="337" font-size="11" fill="#374151">HTML page</text>
+  <rect x="50" y="345" width="13" height="13" rx="2" fill="#f87171"/><text x="70" y="356" font-size="11" fill="#374151">PDF</text>
+  <rect x="50" y="364" width="13" height="13" rx="2" fill="#d1d5db"/><text x="70" y="375" font-size="11" fill="#374151">images · JS · CSS (skipped)</text>
+  <text x="155" y="404" text-anchor="middle" font-size="11" font-style="italic" fill="#6b7280">only the ranges we need — never the whole file</text>
+
+  <!-- ================= STEP 1: read the CDX ================= -->
+  <line x1="262" y1="152" x2="348" y2="152" stroke="#555" stroke-width="1.5" marker-end="url(#a)"/>
+  <text x="310" y="143" text-anchor="middle" font-size="10" fill="#1f2937">one read</text>
+
+  <rect x="350" y="104" width="250" height="84" rx="8" fill="#eef2ff" stroke="#6366f1"/>
+  <text x="475" y="126" text-anchor="middle" font-size="13" font-weight="700" fill="#3730a3">① Read the CDX index</text>
+  <text x="475" y="147" text-anchor="middle" font-size="11" fill="#1f2937">keep HTML · PDF · urn:text; skip media</text>
+  <text x="475" y="166" text-anchor="middle" font-size="11" fill="#4b5563">→ list of (offset, length)</text>
+
+  <!-- step1 -> step2 -->
+  <line x1="475" y1="188" x2="475" y2="208" stroke="#555" stroke-width="1.5" marker-end="url(#a)"/>
+  <text x="556" y="202" text-anchor="middle" font-size="10" fill="#6b7280">ranges to fetch</text>
+
+  <!-- ================= STEP 2: parallel range GETs (workers aligned to the page-record cells) ================= -->
+  <rect x="350" y="210" width="250" height="142" rx="8" fill="#eff6ff" stroke="#2563eb"/>
+  <text x="475" y="228" text-anchor="middle" font-size="13" font-weight="700" fill="#1e40af">② Fetch page records in parallel</text>
+  <rect x="366" y="241" width="218" height="20" rx="4" fill="#dbeafe" stroke="#93c5fd"/><text x="475" y="255" text-anchor="middle" font-size="10" fill="#1e3a8a">worker · GET Range: bytes=o–o+len</text>
+  <rect x="366" y="266" width="218" height="20" rx="4" fill="#dbeafe" stroke="#93c5fd"/><text x="475" y="280" text-anchor="middle" font-size="10" fill="#1e3a8a">worker · GET Range: bytes=o–o+len</text>
+  <rect x="366" y="291" width="218" height="20" rx="4" fill="#dbeafe" stroke="#93c5fd"/><text x="475" y="305" text-anchor="middle" font-size="10" fill="#1e3a8a">worker · GET Range: bytes=o–o+len</text>
+  <text x="475" y="334" text-anchor="middle" font-size="10" fill="#1e40af">N concurrent range GETs → extract text</text>
+
+  <!-- parallel range arrows: each from a page-record cell straight to a worker -->
+  <text x="310" y="234" text-anchor="middle" font-size="10" fill="#1f2937">range GETs</text>
+  <line x1="246" y1="251" x2="364" y2="251" stroke="#2563eb" stroke-width="1.3" stroke-dasharray="4 3" marker-end="url(#ab)"/>
+  <line x1="246" y1="276" x2="364" y2="276" stroke="#2563eb" stroke-width="1.3" stroke-dasharray="4 3" marker-end="url(#ab)"/>
+  <line x1="246" y1="301" x2="364" y2="301" stroke="#2563eb" stroke-width="1.3" stroke-dasharray="4 3" marker-end="url(#ab)"/>
+
+  <!-- ================= RIGHT: indice -> index ================= -->
+  <line x1="600" y1="281" x2="678" y2="281" stroke="#555" stroke-width="1.5" marker-end="url(#a)"/>
+  <text x="639" y="273" text-anchor="middle" font-size="10" fill="#6b7280">records</text>
+
+  <rect x="680" y="210" width="270" height="142" rx="8" fill="#dcfce7" stroke="#16a34a"/>
+  <text x="815" y="234" text-anchor="middle" font-size="14" font-weight="700" fill="#166534">indice</text>
+  <text x="815" y="256" text-anchor="middle" font-size="11" fill="#1f2937">gunzip + extract text</text>
+  <text x="815" y="274" text-anchor="middle" font-size="11" fill="#1f2937">HTML · PDF · rendered urn:text</text>
+  <line x1="815" y1="282" x2="815" y2="300" stroke="#16a34a" stroke-width="1.5" marker-end="url(#a)"/>
+  <rect x="710" y="302" width="210" height="42" rx="6" fill="#bbf7d0" stroke="#16a34a"/>
+  <text x="815" y="321" text-anchor="middle" font-size="12" font-weight="700" fill="#14532d">Tantivy full-text index</text>
+  <text x="815" y="336" text-anchor="middle" font-size="10" fill="#14532d">search · facets · replay</text>
+
+  <text x="490" y="456" text-anchor="middle" font-size="11" font-style="italic" fill="#6b7280">Measured: a 14 GB remote WACZ indexed in ~3 min streaming vs ~20 min if downloaded first.</text>
+</svg>
