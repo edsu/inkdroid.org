@@ -1,0 +1,87 @@
+---
+layout: default
+title: 404 Not Found
+permalink: /404.html
+---
+
+<section class="not-found">
+
+  <p class="shell"><span class="shell-prompt">$</span> ls -l <span class="path">/</span></p>
+  <p class="shell-error">ls: cannot access '<span class="path">/</span>': No such file or directory</p>
+  <p class="shell"><span class="shell-prompt">$</span><span class="cursor">█</span></p>
+
+  <p>There's nothing here, at least not anymore. Sorry about that.</p>
+
+  <p class="search-intro search-seeded" hidden>Guessing from the address, you may have been
+    looking for something about <code class="search-terms"></code>:</p>
+  <p class="search-intro search-plain">Maybe try searching for it:</p>
+
+  <!-- the search box from the header gets moved in here -->
+  <div id="search-slot"></div>
+
+  <p>Other things to try:</p>
+
+  <ul>
+    <li>the <a href="/">most recent posts</a>, or browse by <a href="/tags/">tag</a></li>
+    <li>it may have been here once &mdash; look for it in the
+      <a class="wayback" href="https://web.archive.org/web/2/https://inkdroid.org/">Wayback Machine</a></li>
+    <li>or just <a href="mailto:ehs@pobox.com">tell me</a> what you were looking for</li>
+  </ul>
+
+</section>
+
+<script>
+  (function () {
+    var STOPWORDS = ['a', 'an', 'and', 'are', 'as', 'at', 'be', 'by', 'for', 'from',
+      'how', 'in', 'is', 'it', 'my', 'of', 'on', 'or', 'that', 'the', 'to', 'we',
+      'was', 'what', 'why', 'with'];
+
+    var path = window.location.pathname;
+    try { path = decodeURIComponent(path); } catch (e) { /* leave it as-is */ }
+
+    // show the visitor the path they actually asked for
+    var slots = document.querySelectorAll('.not-found .path');
+    for (var i = 0; i < slots.length; i++) {
+      slots[i].textContent = path + window.location.search;
+    }
+
+    var wayback = document.querySelector('.not-found .wayback');
+    if (wayback) {
+      wayback.href = 'https://web.archive.org/web/2/https://inkdroid.org' + path;
+    }
+
+    // the site has one search box, up in the header, but on this page it
+    // belongs down here with the explanation, so move it rather than build a
+    // second one -- search.js finds it either way when it initializes
+    var search = document.getElementById('search');
+    if (search) document.getElementById('search-slot').appendChild(search);
+
+    // the last wordy path segment is usually the post slug, which makes a
+    // decent search query once the dates and filler words are dropped
+    function guessQuery(path) {
+      var segments = path.split('/').filter(Boolean);
+      var slug = '';
+      for (var i = segments.length - 1; i >= 0; i--) {
+        var candidate = segments[i].replace(/\.[a-z0-9]{1,5}$/i, '');
+        if (/[a-z]{2}/i.test(candidate)) { slug = candidate; break; }
+      }
+      if (!slug) return '';
+      return slug.split(/[^a-z0-9]+/i)
+        .map(function (term) { return term.toLowerCase(); })
+        .filter(function (term) {
+          return term.length > 1 && !/^\d+$/.test(term) && STOPWORDS.indexOf(term) === -1;
+        })
+        .slice(0, 6)
+        .join(' ');
+    }
+
+    // search.js is deferred, so it picks this up when it initializes
+    var query = guessQuery(path);
+    if (query) {
+      window.searchSeed = query;
+      document.querySelector('.not-found .search-terms').textContent = query;
+      document.querySelector('.not-found .search-seeded').hidden = false;
+      document.querySelector('.not-found .search-plain').hidden = true;
+    }
+  })();
+</script>

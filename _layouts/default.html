@@ -7,7 +7,7 @@
 
     {% include header.html %}
 
-    <div id="page-content">
+    <div id="page-content" {% if page.wide %}class="wide"{% endif %}>
       {{ content }}
     </div>
 

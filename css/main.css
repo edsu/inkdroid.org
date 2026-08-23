@@ -21,6 +21,12 @@ body {
   margin-bottom: 120px;
 }
 
+/* the directory listing isn't prose, so it can use more room than the
+   860px reading measure */
+#page-content.wide {
+  max-width: 1120px;
+}
+
 /* search */
 #search {
   max-width: 700px;
@@ -235,7 +241,6 @@ th {
   align-items: baseline;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .post-summary .perms {
@@ -259,8 +264,18 @@ th {
   margin-right: 0.5ch;
 }
 
+/* the title truncates but the trailing slash always survives, so an
+   elided entry still reads as a directory */
 .post-summary a {
   color: black;
+  display: flex;
+  min-width: 0;
+}
+
+.post-summary .name {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .post-list hr {
@@ -332,6 +347,44 @@ article.bookmark {
 
 article.bookmark h2 {
   font-size: 18pt;
+}
+
+/* 404 */
+.not-found .shell,
+.not-found .shell-error {
+  font-family: monospace;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.not-found .shell-prompt {
+  color: #999;
+  margin-right: 0.5ch;
+  user-select: none;
+}
+
+.not-found .cursor {
+  animation: blink 1s step-start infinite;
+}
+
+.not-found .search-intro {
+  margin-bottom: 0.5rem;
+}
+
+/* the search box is centred and narrow in the header, but here it's part of
+   the page content */
+.not-found #search {
+  max-width: none;
+  margin: 0 0 2rem 0;
+  padding: 0;
+}
+
+.not-found ul {
+  padding-left: 1.5rem;
+}
+
+.not-found li {
+  margin-bottom: 0.5rem;
 }
 
 /* citations */

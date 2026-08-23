@@ -47,8 +47,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     if (e.target.id === 'search-more') loadMore();
   });
 
-  input.addEventListener('input', async () => {
-    const query = input.value.trim();
+  async function runSearch(query) {
     if (!query) { results.innerHTML = ''; allResults = []; offset = 0; return; }
 
     const search = await pagefind.search(query, { sort: { date: 'desc' } });
@@ -63,5 +62,14 @@ window.addEventListener('DOMContentLoaded', async () => {
     const count = allResults.length;
     results.innerHTML = `<p class="search-message" aria-live="polite">${count} result${count === 1 ? '' : 's'}</p><button id="search-more">load more</button>`;
     await loadMore();
-  });
+  }
+
+  input.addEventListener('input', () => runSearch(input.value.trim()));
+
+  // a page can ask for a search to be run on arrival, which is how the 404
+  // page guesses at what you were looking for
+  if (window.searchSeed) {
+    input.value = window.searchSeed;
+    await runSearch(window.searchSeed);
+  }
 });

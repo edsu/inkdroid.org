@@ -1,5 +1,6 @@
 ---
 layout: default
+wide: true
 ---
 
 <section class="post-list">
@@ -25,7 +26,7 @@ layout: default
       <span class="size">{% if wc_thousands > 0 %}{{ wc_thousands }}k{% else %}{{ wc }}{% endif %}</span>
       <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
       <span class="icon" title="{{ post_icon_title }}">{{ post_icon }}</span>
-      <a href="{{ post.url }}">{{ post.title }}/</a>
+      <a href="{{ post.url }}" title="{{ post.title | escape }}"><span class="name">{{ post.title }}</span>/</a>
     </article>
   {% endfor %}
 </section>

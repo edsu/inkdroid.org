@@ -1,6 +1,8 @@
 RewriteEngine On
 RewriteBase /
 
+ErrorDocument 404 /404.html
+
 RewriteCond %{HTTP_HOST} ^www.inkdroid.org
 RewriteRule ^(.*) http://inkdroid.org/$1 [last,redirect=301]
 
