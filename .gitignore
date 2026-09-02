@@ -7,6 +7,3 @@ _site
 web-archives
 dropbox
 .ruby-version
-
-# local copy of the Shiori database, pulled from the server for tag work
-shiori.db*
