@@ -236,11 +236,16 @@ th {
   color: #999;
 }
 
+/* explicit line-height so every listing row is the same height. with
+   line-height:normal the emoji glyphs stretch the line box, so listings with
+   an icon column came out at 29px while /tags/ (no icons) collapsed to 23px,
+   which read as a different font size */
 .post-summary {
   display: flex;
   align-items: baseline;
   white-space: nowrap;
   overflow: hidden;
+  line-height: 1.5;
 }
 
 .post-summary .perms {
@@ -265,8 +270,11 @@ th {
 }
 
 /* the title truncates but the trailing slash always survives, so an
-   elided entry still reads as a directory */
-.post-summary a {
+   elided entry still reads as a directory.
+   direct child only: the talks listing nests its links inside .talk-title
+   and .talk-resources, and display:flex there would make each one a block,
+   dropping the trailing slash and every emoji onto its own line */
+.post-summary > a {
   color: black;
   display: flex;
   min-width: 0;
@@ -324,8 +332,10 @@ audio {
 }
 
 /* talks */
+/* no flex-grow: the title should shrink-to-fit so the resource icons sit
+   right after it, rather than being pushed out to the far right edge */
 .talk-title {
-  flex: 1;
+  min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -334,6 +344,7 @@ audio {
 .talk-resources {
   white-space: nowrap;
   margin-left: 0.5ch;
+  flex-shrink: 0;
 }
 
 .talk-resources a {
