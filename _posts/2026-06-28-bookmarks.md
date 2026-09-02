@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bookmarks - ai, war, ukraine, drone
-tags: ["activitypub", "ai", "anthropic", "bbc", "bookmarks", "change", "commoncrawl", "computing", "conference", "data", "delete", "design", "dns", "drone", "energy", "federation", "google", "guitar", "hashtag", "humor", "javascript", "maintenance", "management", "measurement", "ml", "museum", "music", "openai", "privacy", "programming", "radio", "socialmedia", "software", "stanford", "sustainability", "ukraine", "video", "war", "webarchive"]
+tags: ["activitypub", "ai", "anthropic", "bbc", "bookmarks", "changes", "commoncrawl", "computing", "conferences", "data", "delete", "design", "dns", "drones", "energy", "federation", "google", "guitars", "hashtag", "humor", "javascript", "maintenance", "management", "measurement", "ml", "museums", "music", "openai", "privacy", "programming", "radio", "social-media", "software", "stanford", "sustainability", "ukraine", "videos", "war", "web-archives"]
 ---
 
 These are some things I've wandered across on the web this week.
@@ -15,7 +15,7 @@ These are some things I've wandered across on the web this week.
   <section class="p-summary">
     Will A.I. finally be able to help Beavis and Butt-Head score? It did everybody else's homework; they deserve something!
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/ai/">ai</a> <a rel="tag" class="tag label label-default p-category" href="/tag/humor/">humor</a> <a rel="tag" class="tag label label-default p-category" href="/tag/video/">video</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/ai/">ai</a> <a rel="tag" class="tag label label-default p-category" href="/tags/humor/">humor</a> <a rel="tag" class="tag label label-default p-category" href="/tags/videos/">videos</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -35,7 +35,7 @@ Local history experts and the Twentieth Century Society have called for them to 
 
 Droitwich was picked as a central location for the station and masts so Long Wave could reach everywhere in the UK.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/bbc/">bbc</a> <a rel="tag" class="tag label label-default p-category" href="/tag/delete/">delete</a> <a rel="tag" class="tag label label-default p-category" href="/tag/museum/">museum</a> <a rel="tag" class="tag label label-default p-category" href="/tag/radio/">radio</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/bbc/">bbc</a> <a rel="tag" class="tag label label-default p-category" href="/tags/delete/">delete</a> <a rel="tag" class="tag label label-default p-category" href="/tags/museums/">museums</a> <a rel="tag" class="tag label label-default p-category" href="/tags/radio/">radio</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -53,7 +53,7 @@ Droitwich was picked as a central location for the station and masts so Long Wav
 * Support distributed teams with automated verification reducing synchronous communication needs
 * Scale consistently across multiple teams working on the same product with shared standards
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/management/">management</a> <a rel="tag" class="tag label label-default p-category" href="/tag/programming/">programming</a> <a rel="tag" class="tag label label-default p-category" href="/tag/software/">software</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/management/">management</a> <a rel="tag" class="tag label label-default p-category" href="/tags/programming/">programming</a> <a rel="tag" class="tag label label-default p-category" href="/tags/software/">software</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -69,7 +69,7 @@ tags.pub is a server for the ActivityPub network. It provides one account like f
 
 More information is available at https://tags.pub/.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/activitypub/">activitypub</a> <a rel="tag" class="tag label label-default p-category" href="/tag/hashtag/">hashtag</a> <a rel="tag" class="tag label label-default p-category" href="/tag/javascript/">javascript</a> <a rel="tag" class="tag label label-default p-category" href="/tag/socialmedia/">socialmedia</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/activitypub/">activitypub</a> <a rel="tag" class="tag label label-default p-category" href="/tags/hashtag/">hashtag</a> <a rel="tag" class="tag label label-default p-category" href="/tags/javascript/">javascript</a> <a rel="tag" class="tag label label-default p-category" href="/tags/social-media/">social-media</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -85,7 +85,7 @@ That word is nearly extinct.
 
 Nothing you own is finished. Everything exists in a state of permanent incompletion, permanently needing. Your phone needs updates, needs charging, needs storage cleared, needs passwords rotated.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/change/">change</a> <a rel="tag" class="tag label label-default p-category" href="/tag/design/">design</a> <a rel="tag" class="tag label label-default p-category" href="/tag/maintenance/">maintenance</a> <a rel="tag" class="tag label label-default p-category" href="/tag/software/">software</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/changes/">changes</a> <a rel="tag" class="tag label label-default p-category" href="/tags/design/">design</a> <a rel="tag" class="tag label label-default p-category" href="/tags/maintenance/">maintenance</a> <a rel="tag" class="tag label label-default p-category" href="/tags/software/">software</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -103,7 +103,7 @@ Use of these new capabilities is meant to support our teaching and research miss
 
 Please remember sensitive data (e.g., student records, protected health information, financial data, etc.) need to conform to Responsible Agentic AI and Responsible AI guidance. Regardless of your role on campus, you retain full responsibility for verifying AI outputs. This approach reinforces our collective responsibility to protect Stanford’s data and to take an ethical and responsible approach to using these powerful tools.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/ai/">ai</a> <a rel="tag" class="tag label label-default p-category" href="/tag/anthropic/">anthropic</a> <a rel="tag" class="tag label label-default p-category" href="/tag/google/">google</a> <a rel="tag" class="tag label label-default p-category" href="/tag/openai/">openai</a> <a rel="tag" class="tag label label-default p-category" href="/tag/stanford/">stanford</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/ai/">ai</a> <a rel="tag" class="tag label label-default p-category" href="/tags/anthropic/">anthropic</a> <a rel="tag" class="tag label label-default p-category" href="/tags/google/">google</a> <a rel="tag" class="tag label label-default p-category" href="/tags/openai/">openai</a> <a rel="tag" class="tag label label-default p-category" href="/tags/stanford/">stanford</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -117,7 +117,7 @@ Please remember sensitive data (e.g., student records, protected health informat
 
 The LOCO workshop provides a forum for radical ideas, early work, and critical perspectives that aims to reduce the emissions from computing.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/computing/">computing</a> <a rel="tag" class="tag label label-default p-category" href="/tag/conference/">conference</a> <a rel="tag" class="tag label label-default p-category" href="/tag/energy/">energy</a> <a rel="tag" class="tag label label-default p-category" href="/tag/sustainability/">sustainability</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/computing/">computing</a> <a rel="tag" class="tag label label-default p-category" href="/tags/conferences/">conferences</a> <a rel="tag" class="tag label label-default p-category" href="/tags/energy/">energy</a> <a rel="tag" class="tag label label-default p-category" href="/tags/sustainability/">sustainability</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -135,7 +135,7 @@ The LOCO workshop provides a forum for radical ideas, early work, and critical p
 
 By doing so, Federated Learning enables us to use machine learning (and other data science approaches) in areas where it wasn’t possible before. We can now train excellent medical AI models by enabling different hospitals to work together. We can solve financial fraud by training AI models on the data of different financial institutions. We can build novel privacy-enhancing applications (such as secure messaging) that have better built-in AI than their non-privacy-enhancing alternatives. And those are just a few of the examples that come to mind. As we deploy Federated Learning, we discover more and more areas that can suddenly be reinvented because they now have access to vast amounts of previously inaccessible data.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/data/">data</a> <a rel="tag" class="tag label label-default p-category" href="/tag/federation/">federation</a> <a rel="tag" class="tag label label-default p-category" href="/tag/ml/">ml</a> <a rel="tag" class="tag label label-default p-category" href="/tag/privacy/">privacy</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/data/">data</a> <a rel="tag" class="tag label label-default p-category" href="/tags/federation/">federation</a> <a rel="tag" class="tag label label-default p-category" href="/tags/ml/">ml</a> <a rel="tag" class="tag label label-default p-category" href="/tags/privacy/">privacy</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -151,7 +151,7 @@ Beginning in the early 1960s, Basho expanded the steel-string guitar’s vocabul
 
 He forged a distinctive style that drew an array of traditional world music from India, Japan, France, Germany, Persia, China and Native America. An early example is which incorporates the flavor of North Indian classical raga, using an open harmonic structure, droning strings and improvisation to enter into a deeply personal state — an immovable, hypnotic track that bends time.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/guitar/">guitar</a> <a rel="tag" class="tag label label-default p-category" href="/tag/music/">music</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/guitars/">guitars</a> <a rel="tag" class="tag label label-default p-category" href="/tags/music/">music</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -169,7 +169,7 @@ Now, the horsehair netting, once used to trawl monkfish from the sea bed, is bei
 
 The Breton charity Kernic Solidarités has sent two consignments of nets measuring a total of 280km to Ukraine to be used to protect soldiers and civilians along the frontline where fighting is fiercest.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/drone/">drone</a> <a rel="tag" class="tag label label-default p-category" href="/tag/ukraine/">ukraine</a> <a rel="tag" class="tag label label-default p-category" href="/tag/war/">war</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/drones/">drones</a> <a rel="tag" class="tag label label-default p-category" href="/tags/ukraine/">ukraine</a> <a rel="tag" class="tag label label-default p-category" href="/tags/war/">war</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -181,7 +181,7 @@ The Breton charity Kernic Solidarités has sent two consignments of nets measuri
   <section class="p-summary">
     Recently it's been widely reported that nets are being used as a low-tech but highly effective defence against drones. But there are many kinds of nets, and they are used differently.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/drone/">drone</a> <a rel="tag" class="tag label label-default p-category" href="/tag/ukraine/">ukraine</a> <a rel="tag" class="tag label label-default p-category" href="/tag/war/">war</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/drones/">drones</a> <a rel="tag" class="tag label label-default p-category" href="/tags/ukraine/">ukraine</a> <a rel="tag" class="tag label label-default p-category" href="/tags/war/">war</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -193,5 +193,5 @@ The Breton charity Kernic Solidarités has sent two consignments of nets measuri
   <section class="p-summary">
     A reachability census of the most popular domains on the web. Every domain in the DomCop top-10M popularity list (this release: the full top 10 million) is probed and labelled alive / redirect / blocked / dead — once by an honest polite bot and once by a browser-like reachability client.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/commoncrawl/">commoncrawl</a> <a rel="tag" class="tag label label-default p-category" href="/tag/dns/">dns</a> <a rel="tag" class="tag label label-default p-category" href="/tag/measurement/">measurement</a> <a rel="tag" class="tag label label-default p-category" href="/tag/webarchive/">webarchive</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/commoncrawl/">commoncrawl</a> <a rel="tag" class="tag label label-default p-category" href="/tags/dns/">dns</a> <a rel="tag" class="tag label label-default p-category" href="/tags/measurement/">measurement</a> <a rel="tag" class="tag label label-default p-category" href="/tags/web-archives/">web-archives</a></p>
 </article>

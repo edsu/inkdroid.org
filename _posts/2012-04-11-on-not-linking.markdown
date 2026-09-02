@@ -16,7 +16,7 @@ wordpress_url: http://inkdroid.org/journal/?p=4390
 date: '2012-04-11 13:46:44 +0000'
 date_gmt: '2012-04-11 20:46:44 +0000'
 tags:
-- urls
+- url
 - twitter
 - poetry
 - writing

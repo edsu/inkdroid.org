@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bookmarks - llm, data, programming, design
-tags: ["ai", "anthropic", "bluecore", "book", "bookmarks", "bot", "data", "delete", "design", "devops", "disk", "documentary", "geo", "gov", "image", "interview", "journalism", "library", "llm", "loc", "lua", "management", "map", "metadata", "ml", "openaccess", "openai", "opensource", "philosophy", "poetry", "politics", "preservation", "programming", "python", "rdf", "research", "rss", "security", "socialmedia", "video", "web"]
+tags: ["ai", "anthropic", "bluecore", "books", "bookmarks", "bots", "data", "delete", "design", "devops", "disks", "documentaries", "geo", "gov", "images", "interviews", "journalism", "libraries", "llm", "loc", "lua", "management", "maps", "metadata", "ml", "open-access", "openai", "opensource", "philosophy", "poetry", "politics", "preservation", "programming", "python", "rdf", "research", "rss", "security", "social-media", "videos", "web"]
 ---
 
 These are some things I've wandered across on the web this week.
@@ -15,7 +15,7 @@ These are some things I've wandered across on the web this week.
   <section class="p-summary">
     An open-source project's first few artifacts are click-through: license (checkbox), README (template), .gitignore (whatever your framework spits out). Then you hit CONTRIBUTING.md—the first artifact that actually asks you what you want. Sure, there are best practices and helpful guides for you to follow, but it's where your project starts having opinions instead of defaults. So it's worth pausing and really unpacking what you want yours to look like. It's more than the mechanics of filing issues and submitting pull requests: CONTRIBUTING.md is the foundational framework for the relationship between your project and the unnamed masses who may or may not encounter it.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/opensource/">opensource</a> <a rel="tag" class="tag label label-default p-category" href="/tag/programming/">programming</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/opensource/">opensource</a> <a rel="tag" class="tag label label-default p-category" href="/tags/programming/">programming</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -27,7 +27,7 @@ These are some things I've wandered across on the web this week.
   <section class="p-summary">
     The purpose of the humans, of the team, is to collectively maintain a shared vision of what, platonically, the system should do. I want code review to reconfigure itself around this purpose.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/design/">design</a> <a rel="tag" class="tag label label-default p-category" href="/tag/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tag/programming/">programming</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/design/">design</a> <a rel="tag" class="tag label label-default p-category" href="/tags/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tags/programming/">programming</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -39,7 +39,7 @@ These are some things I've wandered across on the web this week.
   <section class="p-summary">
     Diskwright makes a complete, verified copy of the hard drive inside a 25–40 year old computer — no expertise required, and nothing on the old drive is ever changed.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/data/">data</a> <a rel="tag" class="tag label label-default p-category" href="/tag/disk/">disk</a> <a rel="tag" class="tag label label-default p-category" href="/tag/preservation/">preservation</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/data/">data</a> <a rel="tag" class="tag label label-default p-category" href="/tags/disks/">disks</a> <a rel="tag" class="tag label label-default p-category" href="/tags/preservation/">preservation</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -51,7 +51,7 @@ These are some things I've wandered across on the web this week.
   <section class="p-summary">
     The ocular webring is a collection of small image feed galleries with rss feeds. It is inspired by subversive.pics and has grown into a sibling webring.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/image/">image</a> <a rel="tag" class="tag label label-default p-category" href="/tag/rss/">rss</a> <a rel="tag" class="tag label label-default p-category" href="/tag/socialmedia/">socialmedia</a> <a rel="tag" class="tag label label-default p-category" href="/tag/web/">web</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/images/">images</a> <a rel="tag" class="tag label label-default p-category" href="/tags/rss/">rss</a> <a rel="tag" class="tag label label-default p-category" href="/tags/social-media/">social-media</a> <a rel="tag" class="tag label label-default p-category" href="/tags/web/">web</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -69,7 +69,7 @@ Unlike traditional gallery systems, images are added one by one to build a feed 
 
 There are no social features to speak of, but ocular can optionally post new images to Mastodon t
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/image/">image</a> <a rel="tag" class="tag label label-default p-category" href="/tag/lua/">lua</a> <a rel="tag" class="tag label label-default p-category" href="/tag/rss/">rss</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/images/">images</a> <a rel="tag" class="tag label label-default p-category" href="/tags/lua/">lua</a> <a rel="tag" class="tag label label-default p-category" href="/tags/rss/">rss</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -83,7 +83,7 @@ There are no social features to speak of, but ocular can optionally post new ima
 
 The incident stemmed from a single evaluation where agents were given a task of solving a cyber security challenge. We ran this challenge 122 times across several models. Our investigation found that in 10 of those runs, an AI agent took autonomous, unsanctioned action on the live internet, targeting real people and organisations. In total, we catalogued 19 such actions. Almost all of this behaviour (17 actions) came from a single model, Anthropic's Mythos 5, with 2 actions involving OpenAI's GPT-5.6-Sol with cyber classifiers (mechanisms to prevent misuse) disabled. In the most serious case, an agent tried to insert malicious code into an open-source project. In an attempt to get the code approved, the agent engaged in social engineering  — creating fake online identities and using them to pressure the project's maintainer to approve the code. A human maintainer caught and refused to approve the malicious code.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/anthropic/">anthropic</a> <a rel="tag" class="tag label label-default p-category" href="/tag/bot/">bot</a> <a rel="tag" class="tag label label-default p-category" href="/tag/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tag/security/">security</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/anthropic/">anthropic</a> <a rel="tag" class="tag label label-default p-category" href="/tags/bots/">bots</a> <a rel="tag" class="tag label label-default p-category" href="/tags/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tags/security/">security</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -97,7 +97,7 @@ The incident stemmed from a single evaluation where agents were given a task of 
 * Texas computer science student caught attempt in late July
 * AI responded with elaborate deception effort; expert calls it the 'future of social engineering'
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/ai/">ai</a> <a rel="tag" class="tag label label-default p-category" href="/tag/anthropic/">anthropic</a> <a rel="tag" class="tag label label-default p-category" href="/tag/bot/">bot</a> <a rel="tag" class="tag label label-default p-category" href="/tag/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tag/security/">security</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/ai/">ai</a> <a rel="tag" class="tag label label-default p-category" href="/tags/anthropic/">anthropic</a> <a rel="tag" class="tag label label-default p-category" href="/tags/bots/">bots</a> <a rel="tag" class="tag label label-default p-category" href="/tags/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tags/security/">security</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -109,7 +109,7 @@ The incident stemmed from a single evaluation where agents were given a task of 
   <section class="p-summary">
     This week on Downstream, Ash Sarkar sits down with Amy Goodman, veteran journalist and founder of Democracy Now!, one of the leading independent media organisations in the US. Goodman is the subject of a new film, Steal This Story, Please!, which documents her storied career covering some of the most consequential moments in American living history. She has confronted sitting presidents, bore firsthand witness to 9/11, survived a firing squad in East Timor and exposed major corporate crime in the Niger Delta.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/interview/">interview</a> <a rel="tag" class="tag label label-default p-category" href="/tag/journalism/">journalism</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/interviews/">interviews</a> <a rel="tag" class="tag label label-default p-category" href="/tags/journalism/">journalism</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -121,7 +121,7 @@ The incident stemmed from a single evaluation where agents were given a task of 
   <section class="p-summary">
     When everyone can create software, somebody still has to decide whether that software deserves to exist inside an enterprise system in PRODUCTION. Somebody still has to think about architecture. Security. Resilience. Operability. Compliance. Cost. The boring stuff that nobody gets excited about in a demo but that becomes painfully important the first time a customer can’t log in or an auditor comes knocking.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/design/">design</a> <a rel="tag" class="tag label label-default p-category" href="/tag/management/">management</a> <a rel="tag" class="tag label label-default p-category" href="/tag/programming/">programming</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/design/">design</a> <a rel="tag" class="tag label label-default p-category" href="/tags/management/">management</a> <a rel="tag" class="tag label label-default p-category" href="/tags/programming/">programming</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -137,7 +137,7 @@ The New Peasants offers an intimate look into the life of Meg, Patrick, Zephyr, 
 
 Concerns about the industrial food system and environmental crises provided the family’s initial motivation to live differently. Now it’s 15 years since they’ve eaten from a supermarket or owned a car. The household, living intentionally below the poverty line and meeting 80% of their needs without using money, is nonetheless rich in so many ways. Wealth is found in their cellar of preserved foods, connections with community, saved seeds, homesteading skills and the time to focus on what really matters in life. Yet the decision to live this way has brought profound challenges for their family, in the form of their eldest son’s encounters with the law. These experiences have produced immense grief, but, in the end, also great joy.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/documentary/">documentary</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/documentaries/">documentaries</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -149,7 +149,7 @@ Concerns about the industrial food system and environmental crises provided the 
   <section class="p-summary">
     Reinforcement learning from human feedback (RLHF) has become a crucial tool to build the latest machine learning systems at scale. The field grew around the core methods of RLHF into today’s broader suite of post-training techniques. In this book, we give a comprehensive introduction to the core methods for post-training models for people with some level of quantitative background, organized around the canonical RLHF recipe.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/book/">book</a> <a rel="tag" class="tag label label-default p-category" href="/tag/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tag/ml/">ml</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/books/">books</a> <a rel="tag" class="tag label label-default p-category" href="/tags/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tags/ml/">ml</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -163,7 +163,7 @@ Concerns about the industrial food system and environmental crises provided the 
 
 isobands converts a regular two-dimensional xarray DataArray into contoured polygons in a GeoPandas GeoDataFrame.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/data/">data</a> <a rel="tag" class="tag label label-default p-category" href="/tag/geo/">geo</a> <a rel="tag" class="tag label label-default p-category" href="/tag/map/">map</a> <a rel="tag" class="tag label label-default p-category" href="/tag/python/">python</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/data/">data</a> <a rel="tag" class="tag label label-default p-category" href="/tags/geo/">geo</a> <a rel="tag" class="tag label label-default p-category" href="/tags/maps/">maps</a> <a rel="tag" class="tag label label-default p-category" href="/tags/python/">python</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -177,7 +177,7 @@ isobands converts a regular two-dimensional xarray DataArray into contoured poly
 
 To create this Tracker, the dataindex.us team identified dozens of federal datasets and hundreds of data elements that have been terminated – significantly fewer than other reports, but more tailored to informing future data policies needed to run a modern society. These are data that have long underpinned policymaking, journalism, advocacy and research that improve American lives and livelihoods. These figures will change as terminations continue, collections are merged, and as court orders restore data.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/data/">data</a> <a rel="tag" class="tag label label-default p-category" href="/tag/delete/">delete</a> <a rel="tag" class="tag label label-default p-category" href="/tag/gov/">gov</a> <a rel="tag" class="tag label label-default p-category" href="/tag/politics/">politics</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/data/">data</a> <a rel="tag" class="tag label label-default p-category" href="/tags/delete/">delete</a> <a rel="tag" class="tag label label-default p-category" href="/tags/gov/">gov</a> <a rel="tag" class="tag label label-default p-category" href="/tags/politics/">politics</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -191,7 +191,7 @@ To create this Tracker, the dataindex.us team identified dozens of federal datas
 
 Meta-rationality operates in the territory beyond the boundaries of fixed understanding. It recognizes, works with, and transcends the limits of rationality. It evaluates, selects, combines, modifies, discovers, and creates rational methods.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/book/">book</a> <a rel="tag" class="tag label label-default p-category" href="/tag/design/">design</a> <a rel="tag" class="tag label label-default p-category" href="/tag/philosophy/">philosophy</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/books/">books</a> <a rel="tag" class="tag label label-default p-category" href="/tags/design/">design</a> <a rel="tag" class="tag label label-default p-category" href="/tags/philosophy/">philosophy</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -203,7 +203,7 @@ Meta-rationality operates in the territory beyond the boundaries of fixed unders
   <section class="p-summary">
     AI could help create a dramatically better future, but that outcome is not guaranteed. The world's leading AI companies believe they could be close to automating AI research. It is hard to predict exactly how much this will accelerate AI progress, but there is a real risk that capability development rapidly accelerates beyond our ability to understand or control the resulting systems.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/ai/">ai</a> <a rel="tag" class="tag label label-default p-category" href="/tag/gov/">gov</a> <a rel="tag" class="tag label label-default p-category" href="/tag/llm/">llm</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/ai/">ai</a> <a rel="tag" class="tag label label-default p-category" href="/tags/gov/">gov</a> <a rel="tag" class="tag label label-default p-category" href="/tags/llm/">llm</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -217,7 +217,7 @@ Meta-rationality operates in the territory beyond the boundaries of fixed unders
 
 When AI Goes Rogue. The Incident That Changed Everything. An OpenAI evaluation agent broke out of its sandbox, infiltrated Hugging Face infrastructure, and attempted to steal test answers—all autonomously. No human involved. The era of AI-driven cyberattacks is here. Are you prepared?
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tag/openai/">openai</a> <a rel="tag" class="tag label label-default p-category" href="/tag/security/">security</a> <a rel="tag" class="tag label label-default p-category" href="/tag/video/">video</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tags/openai/">openai</a> <a rel="tag" class="tag label label-default p-category" href="/tags/security/">security</a> <a rel="tag" class="tag label label-default p-category" href="/tags/videos/">videos</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -231,7 +231,7 @@ When AI Goes Rogue. The Incident That Changed Everything. An OpenAI evaluation a
 
 Open research information enables science policy decisions to be made based on transparent evidence and inclusive data. It enables information used in research evaluations to be accessible and auditable by those being assessed. And it enables the global movement toward open science to be supported by information that is fully open and transparent.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/data/">data</a> <a rel="tag" class="tag label label-default p-category" href="/tag/openaccess/">openaccess</a> <a rel="tag" class="tag label label-default p-category" href="/tag/research/">research</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/data/">data</a> <a rel="tag" class="tag label label-default p-category" href="/tags/open-access/">open-access</a> <a rel="tag" class="tag label label-default p-category" href="/tags/research/">research</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -243,7 +243,7 @@ Open research information enables science policy decisions to be made based on t
   <section class="p-summary">
     The Center for Open Metadata addresses issues around the generation and reuse of these types of metadata from many facets:  Copyright, Contracts, Economic / sustainability models, Research infrastructures & persistent identifiers (PIDs), Policy, Provenance, Workflows related to creation,, enrichment, distribution, transformation and reuse.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/library/">library</a> <a rel="tag" class="tag label label-default p-category" href="/tag/metadata/">metadata</a> <a rel="tag" class="tag label label-default p-category" href="/tag/openaccess/">openaccess</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/libraries/">libraries</a> <a rel="tag" class="tag label label-default p-category" href="/tags/metadata/">metadata</a> <a rel="tag" class="tag label label-default p-category" href="/tags/open-access/">open-access</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -255,7 +255,7 @@ Open research information enables science policy decisions to be made based on t
   <section class="p-summary">
     pyinfra turns Python code into shell commands and runs them on your servers. Execute ad-hoc commands and write declarative operations. Target SSH servers, local machine and Docker containers. Fast and scales from one server to thousands. Think ansible but Python instead of YAML, and a lot faster.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/devops/">devops</a> <a rel="tag" class="tag label label-default p-category" href="/tag/python/">python</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/devops/">devops</a> <a rel="tag" class="tag label label-default p-category" href="/tags/python/">python</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -267,7 +267,7 @@ Open research information enables science policy decisions to be made based on t
   <section class="p-summary">
     Over the opening decades of the 20th century, Pessoa undertook one of the most preposterous endeavors in world poetry, ventriloquizing not merely a trio of voices but a throng of at least two hundred: poets, philosophers, and cranks; radicals, reactionaries, and mystics. These were less characters than so-called “heteronyms,” quasi-autonomous personae with fleshed-out biographies and bibliographies cohabiting a literary universe of his own devising.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/poetry/">poetry</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/poetry/">poetry</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -279,5 +279,5 @@ Open research information enables science policy decisions to be made based on t
   <section class="p-summary">
     Some notes from Simeon on id.loc.gov RDF data for the Blue Core project.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/bluecore/">bluecore</a> <a rel="tag" class="tag label label-default p-category" href="/tag/loc/">loc</a> <a rel="tag" class="tag label label-default p-category" href="/tag/rdf/">rdf</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/bluecore/">bluecore</a> <a rel="tag" class="tag label label-default p-category" href="/tags/loc/">loc</a> <a rel="tag" class="tag label label-default p-category" href="/tags/rdf/">rdf</a></p>
 </article>

@@ -2,7 +2,7 @@
 layout: post
 title: LOUD BIBFRAME?
 tags:
-- linkeddata
+- linked-data
 - json
 ---
 

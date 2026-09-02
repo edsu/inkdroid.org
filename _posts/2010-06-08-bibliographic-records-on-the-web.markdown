@@ -18,7 +18,7 @@ date_gmt: '2010-06-08 17:02:11 +0000'
 tags:
 - foaf
 - linked-data
-- urls
+- url
 comments:
 - id: 82696
   author: jakoblog.de/

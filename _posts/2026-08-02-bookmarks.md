@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bookmarks - llm, archive, music, programming
-tags: ["activism", "activitypub", "ai", "archive", "astronomy", "bookmarks", "care", "complexity", "coop", "data", "decentralization", "documentary", "engineering", "environment", "game", "gardening", "journalism", "llm", "localfirst", "luddism", "management", "mellon", "movie", "music", "openaccess", "opensource", "permacomputing", "poetry", "politics", "presentation", "programming", "publishing", "rss", "search", "security", "ssh", "sustainability", "terminal", "weather", "writing"]
+tags: ["activism", "activitypub", "ai", "archives", "astronomy", "bookmarks", "care", "complexity", "coop", "data", "decentralization", "documentaries", "engineering", "environment", "games", "gardening", "journalism", "llm", "localfirst", "luddism", "management", "mellon", "movies", "music", "open-access", "opensource", "permacomputing", "poetry", "politics", "presentations", "programming", "publishing", "rss", "search", "security", "ssh", "sustainability", "terminals", "weather", "writing"]
 ---
 
 These are some things I've wandered across on the web this week.
@@ -15,7 +15,7 @@ These are some things I've wandered across on the web this week.
   <section class="p-summary">
     See how we weren't just "writing code"? We were exploring the problem, making decisions, evolving our understanding of the code, problem solving with teammates. Writing code was our medium for thought, where we figured out what we wanted. Our code evolved with our thinking, going from "fuzzy" to "clear and granular" in tandem.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/programming/">programming</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/programming/">programming</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -27,7 +27,7 @@ These are some things I've wandered across on the web this week.
   <section class="p-summary">
     Bugonia is a 2025 dark comedy film[b] directed by Yorgos Lanthimos and written by Will Tracy. An English-language remake of the 2003 South Korean film Save the Green Planet! by Jang Joon-hwan, the film follows two young men who kidnap a powerful CEO, suspecting that she is secretly an alien who wants to destroy Earth. A co-production of the United Kingdom, Ireland, South Korea, and the United States, the film stars Emma Stone, Jesse Plemons, Aidan Delbis, Stavros Halkias, and Alicia Silverstone.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/movie/">movie</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/movies/">movies</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -39,7 +39,7 @@ These are some things I've wandered across on the web this week.
   <section class="p-summary">
     Be Here To Love Me: A Film About Townes Van Zandt is a 2004 documentary film directed by Margaret Brown which chronicles the often turbulent life of American singer-songwriter Townes Van Zandt. The film includes interviews of Van Zandt's immediate family and contemporaries such as Willie Nelson, Kris Kristofferson, Emmylou Harris, Lyle Lovett, Steve Earle and Guy Clark[1] along with "home movies, old TV performances and, especially, mid-Seventies footage originally filmed by James Szalapski for his outlaw country documentary Heartworn Highways.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/documentary/">documentary</a> <a rel="tag" class="tag label label-default p-category" href="/tag/music/">music</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/documentaries/">documentaries</a> <a rel="tag" class="tag label label-default p-category" href="/tags/music/">music</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -53,7 +53,7 @@ These are some things I've wandered across on the web this week.
 
 At a press conference announcing the charges, Rosen said the prosecution supported the mission of Donald Trump’s executive order last year that designated “antifa” a “domestic terrorist organization” responsible for “riots” against ICE. Antifa is not a formal entity, but an umbrella term for a wide array of anti-fascist activism.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/activism/">activism</a> <a rel="tag" class="tag label label-default p-category" href="/tag/politics/">politics</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/activism/">activism</a> <a rel="tag" class="tag label label-default p-category" href="/tags/politics/">politics</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -65,7 +65,7 @@ At a press conference announcing the charges, Rosen said the prosecution support
   <section class="p-summary">
     A mobile friendly SPA that tell you about the night sky at your location, built with open source and open data.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/astronomy/">astronomy</a> <a rel="tag" class="tag label label-default p-category" href="/tag/data/">data</a> <a rel="tag" class="tag label label-default p-category" href="/tag/weather/">weather</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/astronomy/">astronomy</a> <a rel="tag" class="tag label label-default p-category" href="/tags/data/">data</a> <a rel="tag" class="tag label label-default p-category" href="/tags/weather/">weather</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -79,7 +79,7 @@ At a press conference announcing the charges, Rosen said the prosecution support
 
 Where they came up short, USC computational linguists may have succeeded. Harnessing a time-honored method of memorization, Marjan Ghazvininejad and Kevin Knight from the USC Information Sciences Institute applied poetry to the problem. The result is memorable passwords that, they said, take more than 11 years to break. Such passwords promise to make online browsing, banking and shopping more secure, once people start using them.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/poetry/">poetry</a> <a rel="tag" class="tag label label-default p-category" href="/tag/security/">security</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/poetry/">poetry</a> <a rel="tag" class="tag label label-default p-category" href="/tags/security/">security</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -93,7 +93,7 @@ Where they came up short, USC computational linguists may have succeeded. Harnes
 
 When you resist big tech, remember that the choice need not be just Meta or nothing, Google or nothing, ChatGPT or nothing. A durable resistance needs alternatives. Join and support open social networks. Use search and productivity tools that don’t spy on you. If it makes sense to use generative AI, make sure that you can co-govern it. If we are going to have data centers, they should be community controlled and running on renewable energy. If we are going to have gig economies, workers should be in charge. Tell your friends to subscribe to Flaming Hydra, Defector, Hell Gate, Hearing Things, The Flytrap, and other cooperative publishing organizations. A lot of possibilities are free to develop when people refuse to accept dreary options as the only options.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/ai/">ai</a> <a rel="tag" class="tag label label-default p-category" href="/tag/coop/">coop</a> <a rel="tag" class="tag label label-default p-category" href="/tag/luddism/">luddism</a> <a rel="tag" class="tag label label-default p-category" href="/tag/permacomputing/">permacomputing</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/ai/">ai</a> <a rel="tag" class="tag label label-default p-category" href="/tags/coop/">coop</a> <a rel="tag" class="tag label label-default p-category" href="/tags/luddism/">luddism</a> <a rel="tag" class="tag label label-default p-category" href="/tags/permacomputing/">permacomputing</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -105,7 +105,7 @@ When you resist big tech, remember that the choice need not be just Meta or noth
   <section class="p-summary">
     a cozy command-line clubhouse for computer people
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/game/">game</a> <a rel="tag" class="tag label label-default p-category" href="/tag/ssh/">ssh</a> <a rel="tag" class="tag label label-default p-category" href="/tag/terminal/">terminal</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/games/">games</a> <a rel="tag" class="tag label label-default p-category" href="/tags/ssh/">ssh</a> <a rel="tag" class="tag label label-default p-category" href="/tags/terminals/">terminals</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -117,7 +117,7 @@ When you resist big tech, remember that the choice need not be just Meta or noth
   <section class="p-summary">
     Federated Archives Alliance is a Bonfire flavour that connects and empowers public media archives worldwide. The instance enables archives to maintain their autonomy while participating in a collaborative network, allowing their collections to be discoverable and accessible across the fediverse. The goal is to facilitate seamless sharing of movie catalogs between participating archives, with granular permission controls that respect each organization's policies. Curators, researchers, and authorized users can search across the entire federated network, create curated collections, and contribute to the curation of metadata while preserving the provenance of each item.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/activitypub/">activitypub</a> <a rel="tag" class="tag label label-default p-category" href="/tag/archive/">archive</a> <a rel="tag" class="tag label label-default p-category" href="/tag/decentralization/">decentralization</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/activitypub/">activitypub</a> <a rel="tag" class="tag label label-default p-category" href="/tags/archives/">archives</a> <a rel="tag" class="tag label label-default p-category" href="/tags/decentralization/">decentralization</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -129,7 +129,7 @@ When you resist big tech, remember that the choice need not be just Meta or noth
   <section class="p-summary">
     NYU Libraries and Portico, a service of the nonprofit ITHAKA, have received a two-year, $510,000 grant from the Mellon Foundation to preserve local digital journalism and expand access to these important historical records. Local journalism plays a vital role in documenting the everyday life of communities. From school board meetings and neighborhood developments to cultural events and local debates, community news outlets create a rich record of the people, places, and issues that shape our world. Yet this journalism — now largely digital — is at risk of disappearing.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/archive/">archive</a> <a rel="tag" class="tag label label-default p-category" href="/tag/journalism/">journalism</a> <a rel="tag" class="tag label label-default p-category" href="/tag/mellon/">mellon</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/archives/">archives</a> <a rel="tag" class="tag label label-default p-category" href="/tags/journalism/">journalism</a> <a rel="tag" class="tag label label-default p-category" href="/tags/mellon/">mellon</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -143,7 +143,7 @@ When you resist big tech, remember that the choice need not be just Meta or noth
 
 The publication has no financial affiliations, no publication charges and no article access fees.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/environment/">environment</a> <a rel="tag" class="tag label label-default p-category" href="/tag/openaccess/">openaccess</a> <a rel="tag" class="tag label label-default p-category" href="/tag/publishing/">publishing</a> <a rel="tag" class="tag label label-default p-category" href="/tag/sustainability/">sustainability</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/environment/">environment</a> <a rel="tag" class="tag label label-default p-category" href="/tags/open-access/">open-access</a> <a rel="tag" class="tag label label-default p-category" href="/tags/publishing/">publishing</a> <a rel="tag" class="tag label label-default p-category" href="/tags/sustainability/">sustainability</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -155,7 +155,7 @@ The publication has no financial affiliations, no publication charges and no art
   <section class="p-summary">
     This talk traces a meandering story of twenty years of invention, triumph and disaster, touching on theoretical physics, cloud computing, viral genetics, pandemic responses, and nearly dying in an NHS A&E queue. You'll pick up four generally applicable laws of complex systems, gain some superpowers for averting an apocalypse, and hopefully laugh a bit along the way. This isn't much of a technical talk and it is neither sanitised nor triumphant — expect sarcasm, most of all during the rough patches. My hope is that you'll leave seeing your own work differently, especially if it's quiet and unglamorous. Resilience is a property of systems, not their components, and it's the people who notice small changes and tend locally who make the biggest differences of all.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/care/">care</a> <a rel="tag" class="tag label label-default p-category" href="/tag/complexity/">complexity</a> <a rel="tag" class="tag label label-default p-category" href="/tag/engineering/">engineering</a> <a rel="tag" class="tag label label-default p-category" href="/tag/gardening/">gardening</a> <a rel="tag" class="tag label label-default p-category" href="/tag/presentation/">presentation</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/care/">care</a> <a rel="tag" class="tag label label-default p-category" href="/tags/complexity/">complexity</a> <a rel="tag" class="tag label label-default p-category" href="/tags/engineering/">engineering</a> <a rel="tag" class="tag label label-default p-category" href="/tags/gardening/">gardening</a> <a rel="tag" class="tag label label-default p-category" href="/tags/presentations/">presentations</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -167,7 +167,7 @@ The publication has no financial affiliations, no publication charges and no art
   <section class="p-summary">
     This happened, then that happened, then something else happened to happen, or maybe didn’t happen… and it never matters like you think, because nothing ever happens like you think.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/music/">music</a> <a rel="tag" class="tag label label-default p-category" href="/tag/writing/">writing</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/music/">music</a> <a rel="tag" class="tag label label-default p-category" href="/tags/writing/">writing</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -179,7 +179,7 @@ The publication has no financial affiliations, no publication charges and no art
   <section class="p-summary">
     A conversation with Howard Rheingold on why AI is a know-how problem before it is a technology problem, and what it takes to augment human thinking rather than surrender it.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tag/management/">management</a> <a rel="tag" class="tag label label-default p-category" href="/tag/search/">search</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tags/management/">management</a> <a rel="tag" class="tag label label-default p-category" href="/tags/search/">search</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -191,7 +191,7 @@ The publication has no financial affiliations, no publication charges and no art
   <section class="p-summary">
     A short list of RSS tools compiled by Henrik Schönemann, from a fediverse thread.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/rss/">rss</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/rss/">rss</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -203,5 +203,5 @@ The publication has no financial affiliations, no publication charges and no art
   <section class="p-summary">
     The open source AI coding agent. Free models included or connect any model from any provider, including Claude, GPT, Gemini and more.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tag/localfirst/">localfirst</a> <a rel="tag" class="tag label label-default p-category" href="/tag/opensource/">opensource</a> <a rel="tag" class="tag label label-default p-category" href="/tag/programming/">programming</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tags/localfirst/">localfirst</a> <a rel="tag" class="tag label label-default p-category" href="/tags/opensource/">opensource</a> <a rel="tag" class="tag label label-default p-category" href="/tags/programming/">programming</a></p>
 </article>

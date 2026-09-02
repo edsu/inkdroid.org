@@ -20,7 +20,7 @@ tags:
 - rdf
 - semweb
 - uri
-- urls
+- url
 - http
 comments:
 - id: 64893

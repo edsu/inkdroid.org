@@ -17,7 +17,7 @@ date: '2010-03-22 01:41:57 +0000'
 date_gmt: '2010-03-22 08:41:57 +0000'
 tags:
 - libraries
-- oaiore
+- oai-ore
 - archives
 - history
 - genealogy

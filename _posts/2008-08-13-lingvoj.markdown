@@ -22,7 +22,7 @@ tags:
 - semweb
 - languages
 - linked-data
-- uris
+- uri
 comments:
 - id: 70581
   author: Kingsley Idehen

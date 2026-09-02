@@ -18,7 +18,7 @@ date_gmt: '2013-02-25 19:39:44 +0000'
 tags:
 - humor
 - twitter
-- library-of-congress
+- loc
 - emoji
 - herman-melville
 comments: []

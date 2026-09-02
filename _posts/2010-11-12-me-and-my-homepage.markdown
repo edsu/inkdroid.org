@@ -21,7 +21,7 @@ tags:
 - rest
 - webarch
 - linked-data
-- urls
+- url
 comments:
 - id: 83816
   author: jakoblog.de/

@@ -20,7 +20,7 @@ tags:
 - ec2
 - lcnaf
 - authority-control
-- library-of-congress
+- loc
 comments: []
 ---
 

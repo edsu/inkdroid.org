@@ -3,7 +3,7 @@ title: Manifesto
 tags:
 - writing
 - poetry
-- quote
+- quotes
 layout: post
 ---
 

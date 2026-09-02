@@ -5,7 +5,7 @@ tags:
 - archives
 - reading
 - politics
-- manifesto
+- manifestos
 ---
 
 [Archival Poetics and the War on Memory] (Naropa University, 2012) is a panel discussion about the conditions that produce, sustain and delimit archives, and how these processes are intrinsically connected to (or born out of) poetics and creative practice. The panel included a talk from [Stacy Szymaszek] where she shared her *Archival Poetics Manifesto*, which I wasn't able to find on the web. Since it's 14 years old at this point, I thought I'd make it more searchable with a pointer to the recording.

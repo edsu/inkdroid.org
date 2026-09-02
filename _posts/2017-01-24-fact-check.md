@@ -2,7 +2,7 @@
 layout: post
 title: Facts as Annotations
 tags:
-- annotation
+- annotations
 - journalism
 - web
 ---

@@ -6,7 +6,7 @@ tag:
 - web-archives
 - hci
 - art
-- craft
+- crafts
 ---
 
 

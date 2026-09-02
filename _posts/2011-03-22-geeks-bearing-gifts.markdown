@@ -16,13 +16,13 @@ wordpress_url: http://inkdroid.org/journal/?p=3084
 date: '2011-03-22 06:51:09 +0000'
 date_gmt: '2011-03-22 13:51:09 +0000'
 tags:
-- urls
+- url
 - preservation
 - identifiers
 - ark
 - purl
 - doi
-- handle
+- handles
 comments: []
 ---
 

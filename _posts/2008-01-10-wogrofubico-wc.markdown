@@ -20,9 +20,9 @@ tags:
 - lc
 - libraries
 - cataloging
-- bibliography
+- bibliographies
 - data
-- word
+- words
 comments:
 - id: 50722
   author: pbinkley

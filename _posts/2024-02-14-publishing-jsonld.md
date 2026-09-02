@@ -2,7 +2,7 @@
 layout: post
 title: On Publishing JSON-LD
 tags:
-- semantic-web
+- semweb
 - python
 - json
 ---

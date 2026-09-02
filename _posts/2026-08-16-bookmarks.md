@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bookmarks - harvard, labor, philosophy, archive
-tags: ["ai", "archive", "bookmarks", "culture", "dc", "harvard", "labor", "llm", "michigan", "music", "ocr", "philosophy", "programming", "shopping", "work"]
+tags: ["ai", "archives", "bookmarks", "culture", "dc", "harvard", "labor", "llm", "michigan", "music", "ocr", "philosophy", "programming", "shopping", "work"]
 ---
 
 These are some things I've wandered across on the web this week.
@@ -21,7 +21,7 @@ Whether you’re a newcomer to Illich’s work, a long-time reader or anywhere i
 
 Check out the map to find what’s happening near you, sign up as a local contact to host a gathering – or read on to learn more about this remarkable thinker and why we are celebrating his centenary
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/philosophy/">philosophy</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/philosophy/">philosophy</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -53,7 +53,7 @@ reasoning traces, may also contribute to AI training efforts. None of this data 
 would be possible without clearly established ground truths. To that end, we evaluate each
 stage of the pipeline against hand-annotated reference data
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/archive/">archive</a> <a rel="tag" class="tag label label-default p-category" href="/tag/harvard/">harvard</a> <a rel="tag" class="tag label label-default p-category" href="/tag/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tag/michigan/">michigan</a> <a rel="tag" class="tag label label-default p-category" href="/tag/ocr/">ocr</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/archives/">archives</a> <a rel="tag" class="tag label label-default p-category" href="/tags/harvard/">harvard</a> <a rel="tag" class="tag label label-default p-category" href="/tags/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tags/michigan/">michigan</a> <a rel="tag" class="tag label label-default p-category" href="/tags/ocr/">ocr</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -65,7 +65,7 @@ stage of the pipeline against hand-annotated reference data
   <section class="p-summary">
     A lot of people seem to be realizing that knowledge work is mostly pointless. AI might give us the pleasure of finding out what happens if an entire class of workers loses faith in their careers.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/ai/">ai</a> <a rel="tag" class="tag label label-default p-category" href="/tag/culture/">culture</a> <a rel="tag" class="tag label label-default p-category" href="/tag/labor/">labor</a> <a rel="tag" class="tag label label-default p-category" href="/tag/programming/">programming</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/ai/">ai</a> <a rel="tag" class="tag label label-default p-category" href="/tags/culture/">culture</a> <a rel="tag" class="tag label label-default p-category" href="/tags/labor/">labor</a> <a rel="tag" class="tag label label-default p-category" href="/tags/programming/">programming</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -79,7 +79,7 @@ stage of the pipeline against hand-annotated reference data
 
 Join us at Rockville Memorial Library, 10:00am - 3:00 pm. Guest performers will be taking the mainstage in Rockville town center Plaza during that entire time!
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/dc/">dc</a> <a rel="tag" class="tag label label-default p-category" href="/tag/music/">music</a> <a rel="tag" class="tag label label-default p-category" href="/tag/shopping/">shopping</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/dc/">dc</a> <a rel="tag" class="tag label label-default p-category" href="/tags/music/">music</a> <a rel="tag" class="tag label label-default p-category" href="/tags/shopping/">shopping</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -91,5 +91,5 @@ Join us at Rockville Memorial Library, 10:00am - 3:00 pm. Guest performers will 
   <section class="p-summary">
     Harvard’s Faculty of Arts and Sciences directly laid off 75 staff across its social sciences units last week — nearly one-third of employees covered by the restructuring and more than twice the number cut in last month’s Harvard College wave — according to a document obtained by The Crimson.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/harvard/">harvard</a> <a rel="tag" class="tag label label-default p-category" href="/tag/labor/">labor</a> <a rel="tag" class="tag label label-default p-category" href="/tag/work/">work</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/harvard/">harvard</a> <a rel="tag" class="tag label label-default p-category" href="/tags/labor/">labor</a> <a rel="tag" class="tag label label-default p-category" href="/tags/work/">work</a></p>
 </article>

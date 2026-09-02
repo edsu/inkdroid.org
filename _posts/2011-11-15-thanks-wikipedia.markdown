@@ -19,7 +19,7 @@ tags:
 - wikipedia
 - donations
 - wikimedia
-- nonprofits
+- non-profit
 comments: []
 ---
 

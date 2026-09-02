@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bookmarks - web, localfirst, llm, protocol
-tags: ["archive", "art", "book", "bookmarks", "community", "computing", "degrowth", "delete", "eink", "google", "infrastructure", "life", "llm", "localfirst", "management", "ml", "philosophy", "politics", "programming", "protocol", "psychology", "python", "reading", "research", "researxmm", "rss", "shopping", "socialmedia", "standard", "video", "volcano", "web"]
+tags: ["archives", "art", "books", "bookmarks", "communities", "computing", "degrowth", "delete", "eink", "google", "infrastructure", "life", "llm", "localfirst", "management", "ml", "philosophy", "politics", "programming", "protocols", "psychology", "python", "reading", "research", "rss", "shopping", "social-media", "standards", "videos", "volcano", "web"]
 ---
 
 These are some things I've wandered across on the web this week.
@@ -17,7 +17,7 @@ These are some things I've wandered across on the web this week.
 
 Once destroyed, these records cannot be reconstructed. There is no backup co
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/archive/">archive</a> <a rel="tag" class="tag label label-default p-category" href="/tag/delete/">delete</a> <a rel="tag" class="tag label label-default p-category" href="/tag/politics/">politics</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/archives/">archives</a> <a rel="tag" class="tag label label-default p-category" href="/tags/delete/">delete</a> <a rel="tag" class="tag label label-default p-category" href="/tags/politics/">politics</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -29,7 +29,7 @@ Once destroyed, these records cannot be reconstructed. There is no backup co
   <section class="p-summary">
     Street Books is a street library that provides community, resources, and advocacy for people living outside or at the margins in Portland, Oregon. We cultivate mutual relationships rooted in dignity and autonomy by showing up every week, year after year, in all kinds of weather, all around the city, to meet people where they are.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/book/">book</a> <a rel="tag" class="tag label label-default p-category" href="/tag/community/">community</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/books/">books</a> <a rel="tag" class="tag label label-default p-category" href="/tags/communities/">communities</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -41,7 +41,7 @@ Once destroyed, these records cannot be reconstructed. There is no backup co
   <section class="p-summary">
     Welcome to our historic 24/7 live stream of the magnificent Fuego Volcano, one of the most active volcanoes in the world! For the first time ever, experience the raw power and breathtaking beauty of Fuego live in stunning 4K resolution.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/video/">video</a> <a rel="tag" class="tag label label-default p-category" href="/tag/volcano/">volcano</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/videos/">videos</a> <a rel="tag" class="tag label label-default p-category" href="/tags/volcano/">volcano</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -53,7 +53,7 @@ Once destroyed, these records cannot be reconstructed. There is no backup co
   <section class="p-summary">
     ... much of the time, my “minding” is more just a sort of bodily habit – an unreflecting assumption that if I’m faced with a task or a decision, I should proceed on the basis that it’s really important that things turn out right. And that’s a habit I can drop as soon as I’m aware of it. Whereupon I get to inhabit the present moment more fully and enjoyably, instead of always anxiously waiting to see if things turn out the way I’ve decided they must. Plus, I get to do stuff more freely – to make decisions and take action and accomplish things, instead of holding back out of the fear that things might go catastrophically wrong.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/life/">life</a> <a rel="tag" class="tag label label-default p-category" href="/tag/management/">management</a> <a rel="tag" class="tag label label-default p-category" href="/tag/psychology/">psychology</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/life/">life</a> <a rel="tag" class="tag label label-default p-category" href="/tags/management/">management</a> <a rel="tag" class="tag label label-default p-category" href="/tags/psychology/">psychology</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -65,7 +65,7 @@ Once destroyed, these records cannot be reconstructed. There is no backup co
   <section class="p-summary">
     Strange Rules introduces the concept of Protocol Art, a practice that engages with the underlying rules that determine how culture is produced, distributed, and perceived in a digital age. These rules manifest as algorithms, AI models, platforms, technological infrastructure and social convention, hardening through use into the conditions of cultural life. Protocol Art operates at the level of the rule: not only analysing these systems, but seeding new ones. The protocol is not the subject of the art: it is the art. When the protocol is the art, the scientists and researchers authoring such rules become artists. Strange Rules invites them to participate as such.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/art/">art</a> <a rel="tag" class="tag label label-default p-category" href="/tag/ml/">ml</a> <a rel="tag" class="tag label label-default p-category" href="/tag/protocol/">protocol</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/art/">art</a> <a rel="tag" class="tag label label-default p-category" href="/tags/ml/">ml</a> <a rel="tag" class="tag label label-default p-category" href="/tags/protocols/">protocols</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -77,7 +77,7 @@ Once destroyed, these records cannot be reconstructed. There is no backup co
   <section class="p-summary">
     This is the second memo where I describe my recent experiences on running small models locally on my developer machine for agentic coding. In the first memo, I covered the many factors that can influence the viability of that setup — hardware, model choice, runtime, harness. Here I focus on the concrete experiences, the tasks I gave the models, what happened, and my final conclusions.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tag/localfirst/">localfirst</a> <a rel="tag" class="tag label label-default p-category" href="/tag/programming/">programming</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tags/localfirst/">localfirst</a> <a rel="tag" class="tag label label-default p-category" href="/tags/programming/">programming</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -89,7 +89,7 @@ Once destroyed, these records cannot be reconstructed. There is no backup co
   <section class="p-summary">
     After starting at DeepMind in 2017, Gabriel was, for a time, the only active philosopher working at a frontier AI lab. He quickly discovered that his background in moral philosophy and political theory gave him an unusual perspective in an industry dominated by engineers. Over the past decade, he has assembled a body of work that tracked, and in many cases predicted, the ethical challenges created by the surprising success of large language models (LLMs
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/google/">google</a> <a rel="tag" class="tag label label-default p-category" href="/tag/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tag/philosophy/">philosophy</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/google/">google</a> <a rel="tag" class="tag label label-default p-category" href="/tags/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tags/philosophy/">philosophy</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -105,7 +105,7 @@ Instead, websites are stored directly on user devices, and transferred between t
 
 Your collected sites can be viewed offline, in the same web browser you normally use, and then shared with others via .snk files.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/localfirst/">localfirst</a> <a rel="tag" class="tag label label-default p-category" href="/tag/protocol/">protocol</a> <a rel="tag" class="tag label label-default p-category" href="/tag/web/">web</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/localfirst/">localfirst</a> <a rel="tag" class="tag label label-default p-category" href="/tags/protocols/">protocols</a> <a rel="tag" class="tag label label-default p-category" href="/tags/web/">web</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -117,7 +117,7 @@ Your collected sites can be viewed offline, in the same web browser you normally
   <section class="p-summary">
     Most researchers didn't choose a software package on its scientific or technical merits, but on the political merits of joining its user community. Among Illich's five threats to conviviality, I observed polarization and radical monopoly. As an illustration of the latter, some PhD students who contacted me with questions about MMTK asked me not to talk to their supervisors about their use of MMTK, because "for political reasons, I am supposed to use software X".
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/computing/">computing</a> <a rel="tag" class="tag label label-default p-category" href="/tag/degrowth/">degrowth</a> <a rel="tag" class="tag label label-default p-category" href="/tag/python/">python</a> <a rel="tag" class="tag label label-default p-category" href="/tag/research/">research</a> <a rel="tag" class="tag label label-default p-category" href="/tag/researxmm/">researxmm</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/computing/">computing</a> <a rel="tag" class="tag label label-default p-category" href="/tags/degrowth/">degrowth</a> <a rel="tag" class="tag label label-default p-category" href="/tags/python/">python</a> <a rel="tag" class="tag label label-default p-category" href="/tags/research/">research</a> <a rel="tag" class="tag label label-default p-category" href="/tags/research/">research</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -129,7 +129,7 @@ Your collected sites can be viewed offline, in the same web browser you normally
   <section class="p-summary">
     Our digital societies bear the hallmarks of non-convivial technologies as identified more than fifty years ago by Ivan Illich in his seminal book Tools for Conviviality (1973). In a context of ecosystemic and socio-economical crises, we argue in this paper that Illich’s ideas remain remarkably relevant, not only for understanding the negative effects of digital technologies but also as guidelines for embedding digital technologies in a degrowth scenario. As computer scientists, we therefore propose a research agenda for developing design for conviviality, a strongly normative value sensitive approach to the design of digital artefacts and systems. We discuss in particular two examples, digital infrastructures and business process management, which seem to be very much in need of a convivial rethinking.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/computing/">computing</a> <a rel="tag" class="tag label label-default p-category" href="/tag/degrowth/">degrowth</a> <a rel="tag" class="tag label label-default p-category" href="/tag/infrastructure/">infrastructure</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/computing/">computing</a> <a rel="tag" class="tag label label-default p-category" href="/tags/degrowth/">degrowth</a> <a rel="tag" class="tag label label-default p-category" href="/tags/infrastructure/">infrastructure</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -141,7 +141,7 @@ Your collected sites can be viewed offline, in the same web browser you normally
   <section class="p-summary">
     Pocket-Size Mini eReader for Reading Anywhere: Ultra-light at just 0.23 inch and only 2.72 oz, Xteink X4 is designed for true portability. Slip it into your pocket or bag and enjoy reading anytime. Perfect for commuting, travel, or quick reading breaks throughout the day.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/eink/">eink</a> <a rel="tag" class="tag label label-default p-category" href="/tag/reading/">reading</a> <a rel="tag" class="tag label label-default p-category" href="/tag/shopping/">shopping</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/eink/">eink</a> <a rel="tag" class="tag label label-default p-category" href="/tags/reading/">reading</a> <a rel="tag" class="tag label label-default p-category" href="/tags/shopping/">shopping</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -153,5 +153,5 @@ Your collected sites can be viewed offline, in the same web browser you normally
   <section class="p-summary">
     RSS is one of the best examples we have of the open web, where we can design and customize how we experience the internet, not the other way around. RSS has come in and out of fashion, been declared dead, and has come back, every time. Open systems are the best way forward to a free, equitable internet, and the resilience and continued reinvention of RSS has shown just how creative the web community can be with open protocols.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/rss/">rss</a> <a rel="tag" class="tag label label-default p-category" href="/tag/socialmedia/">socialmedia</a> <a rel="tag" class="tag label label-default p-category" href="/tag/standard/">standard</a> <a rel="tag" class="tag label label-default p-category" href="/tag/web/">web</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/rss/">rss</a> <a rel="tag" class="tag label label-default p-category" href="/tags/social-media/">social-media</a> <a rel="tag" class="tag label label-default p-category" href="/tags/standards/">standards</a> <a rel="tag" class="tag label label-default p-category" href="/tags/web/">web</a></p>
 </article>

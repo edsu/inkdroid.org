@@ -16,7 +16,7 @@ wordpress_url: http://inkdroid.org/journal/?p=8571
 date: '2015-05-05 09:54:54 +0000'
 date_gmt: '2015-05-05 16:54:54 +0000'
 tags:
-- editor
+- editors
 - python
 comments: []
 ---

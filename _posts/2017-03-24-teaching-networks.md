@@ -2,7 +2,7 @@
 layout: post
 title: Teaching Networks
 tags:
-- visualization
+- vis
 - dh
 - teaching
 - graphs

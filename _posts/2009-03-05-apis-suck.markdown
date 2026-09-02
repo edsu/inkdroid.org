@@ -21,7 +21,7 @@ tags:
 - web
 - loc
 - politics
-- publicdomain
+- public-domain
 - api
 comments:
 - id: 81219

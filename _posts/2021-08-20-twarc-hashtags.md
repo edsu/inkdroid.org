@@ -5,7 +5,7 @@ title: twarc-hashtags
 tags:
 - twitter
 - twarc
-- visualization
+- vis
 ---
 
 

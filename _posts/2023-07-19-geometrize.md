@@ -2,7 +2,7 @@
 layout: post
 title: Geometrize
 tags:
-- photography
+- photographs
 - algorithms
 ---
 

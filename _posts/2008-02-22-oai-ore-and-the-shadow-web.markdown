@@ -21,8 +21,8 @@ tags:
 - rdf
 - semweb
 - libraries
-- oaipmh
-- oaiore
+- oai-pmh
+- oai-ore
 - erdf
 - rdfa
 - xhtml

@@ -3,7 +3,7 @@ title: MITH Graphs
 layout: post
 tags:
 - networks
-- visualization
+- vis
 - mith
 ---
 

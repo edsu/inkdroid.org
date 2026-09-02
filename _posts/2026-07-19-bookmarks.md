@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bookmarks - llm, archive, metadata, bibframe
-tags: ["ai", "archive", "bibframe", "bookmarks", "china", "csv", "data", "design", "education", "electricity", "ethics", "gov", "infrastructure", "license", "llm", "maintenance", "metadata", "music", "noise", "opensource", "policy", "pragmatism", "preservation", "programming", "repair", "sustainability", "technology", "trust", "vis", "webarchive", "webrecorder", "work"]
+tags: ["ai", "archives", "bibframe", "bookmarks", "china", "csv", "data", "design", "education", "electricity", "ethics", "gov", "infrastructure", "license", "llm", "maintenance", "metadata", "music", "noise", "opensource", "policies", "pragmatism", "preservation", "programming", "repair", "sustainability", "technology", "trust", "vis", "web-archives", "webrecorder", "work"]
 ---
 
 These are some things I've wandered across on the web this week.
@@ -23,7 +23,7 @@ The Chinese government’s support of open-weight model development — while no
 
 The widespread global adoption of Chinese open-weight models may reshape global technology access and reliance patterns, and impact AI governance, safety, and competition. Policymakers should ground their policy actions in a granular understanding of real-world deployment.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/china/">china</a> <a rel="tag" class="tag label label-default p-category" href="/tag/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tag/policy/">policy</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/china/">china</a> <a rel="tag" class="tag label label-default p-category" href="/tags/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tags/policies/">policies</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -37,7 +37,7 @@ The widespread global adoption of Chinese open-weight models may reshape global 
 
 The release coincided with an address by Xi Jinping, China’s leader, in which he outlined an ambitious vision for global A.I. development that cast China as the champion of an open approach to the technology
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/china/">china</a> <a rel="tag" class="tag label label-default p-category" href="/tag/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tag/opensource/">opensource</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/china/">china</a> <a rel="tag" class="tag label label-default p-category" href="/tags/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tags/opensource/">opensource</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -63,7 +63,7 @@ The release coincided with an address by Xi Jinping, China’s leader, in which 
 
 The bulk of the tapes in this library were donated to the project by former CKLN FM radio host Myke Dyer in August of 2009. The original NOISE-ARCH site was hosted and maintained by Graham Stewart and Mark Lougheed.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/archive/">archive</a> <a rel="tag" class="tag label label-default p-category" href="/tag/music/">music</a> <a rel="tag" class="tag label label-default p-category" href="/tag/noise/">noise</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/archives/">archives</a> <a rel="tag" class="tag label label-default p-category" href="/tags/music/">music</a> <a rel="tag" class="tag label label-default p-category" href="/tags/noise/">noise</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -75,7 +75,7 @@ The bulk of the tapes in this library were donated to the project by former CKLN
   <section class="p-summary">
     What AI can’t do is hunger for things. Yes, a few reward-like mechanisms are in the thin layer of the models built through reinforcement learning, but the models are overwhelmingly about predicting, not desiring. AI can’t hunger, in the first place, because it doesn’t have biological needs—the needs that push living things to grow and explore. More important, AI doesn’t have a self. A bot doesn’t have a past person that it used to be or a future person that it wishes to become. A bot does not have a structure of cares and an order of loves, as a person does. A bot doesn’t have a personal history, a particular set of wounds, joys, and exhilarations experienced in regions deeper than rational calculation, and it doesn’t have a succession of dreams and hopes, which emerge from those regions as well.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/ai/">ai</a> <a rel="tag" class="tag label label-default p-category" href="/tag/education/">education</a> <a rel="tag" class="tag label label-default p-category" href="/tag/technology/">technology</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/ai/">ai</a> <a rel="tag" class="tag label label-default p-category" href="/tags/education/">education</a> <a rel="tag" class="tag label label-default p-category" href="/tags/technology/">technology</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -87,7 +87,7 @@ The bulk of the tapes in this library were donated to the project by former CKLN
   <section class="p-summary">
     Webrecorder's efforts to archive US federal government at the end of the Biden administration. Working in collaboration with eotarchive.org
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/gov/">gov</a> <a rel="tag" class="tag label label-default p-category" href="/tag/webarchive/">webarchive</a> <a rel="tag" class="tag label label-default p-category" href="/tag/webrecorder/">webrecorder</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/gov/">gov</a> <a rel="tag" class="tag label label-default p-category" href="/tags/web-archives/">web-archives</a> <a rel="tag" class="tag label label-default p-category" href="/tags/webrecorder/">webrecorder</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -101,7 +101,7 @@ The bulk of the tapes in this library were donated to the project by former CKLN
 
 The tab delimited files available here conform to the DCTAP specification with minor caveats. The majority of the elements used in BIG DCTAP are formally defined in the DCTAP specification, but it is important to note we also have implemented an extension to support the conversion to The Shapes Constraint Language, a W3C specification designed to support validation of RDF.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/bibframe/">bibframe</a> <a rel="tag" class="tag label label-default p-category" href="/tag/csv/">csv</a> <a rel="tag" class="tag label label-default p-category" href="/tag/metadata/">metadata</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/bibframe/">bibframe</a> <a rel="tag" class="tag label label-default p-category" href="/tags/csv/">csv</a> <a rel="tag" class="tag label label-default p-category" href="/tags/metadata/">metadata</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -113,7 +113,7 @@ The tab delimited files available here conform to the DCTAP specification with m
   <section class="p-summary">
     The international BIBFRAME Interoperability Group (BIG) supports efficient and interoperable use of the BIBFRAME standard by establishing and sharing best practices between participants. Toward that goal, BIG’s SHACL/DCTAP subgroup implements machine actionable application profiles developed by the BIG Interlingua Subgroup. These profiles provide BIBFRAME adopters the ability to easily produce and make use of shareable BIBFRAME according to common data practices by entity type.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/bibframe/">bibframe</a> <a rel="tag" class="tag label label-default p-category" href="/tag/metadata/">metadata</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/bibframe/">bibframe</a> <a rel="tag" class="tag label label-default p-category" href="/tags/metadata/">metadata</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -125,7 +125,7 @@ The tab delimited files available here conform to the DCTAP specification with m
   <section class="p-summary">
     BIBFRAME is the result of the Bibliographic Framework Initiative. It is a framework or metamodel for discovery and exchange of library and other memory organization information using Web technology, publicly or privately. The BIBFRAME metamodel is designed to be lightweight, flexible and able to accommodate the declarative needs of both existing (RDA, DACS, VRA, etc..) and yet-to-be-developed community vocabularies. To best accomodate these communities the BIBFRAME RDF Schema is intentionally underspecified in terms of constraints such as domain and range. This same flexibility comes at a cost; without a way of constraining these vocabularies, authoring tools, for example, are unable to provide guidance to content authors for specific vocabularies and derived models. BIBFRAME Profiles provide such supplementary descriptions.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/bibframe/">bibframe</a> <a rel="tag" class="tag label label-default p-category" href="/tag/metadata/">metadata</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/bibframe/">bibframe</a> <a rel="tag" class="tag label label-default p-category" href="/tags/metadata/">metadata</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -137,7 +137,7 @@ The tab delimited files available here conform to the DCTAP specification with m
   <section class="p-summary">
     I respectfully insist that they revert the project to its original license.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/license/">license</a> <a rel="tag" class="tag label label-default p-category" href="/tag/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tag/opensource/">opensource</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/license/">license</a> <a rel="tag" class="tag label label-default p-category" href="/tags/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tags/opensource/">opensource</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -149,7 +149,7 @@ The tab delimited files available here conform to the DCTAP specification with m
   <section class="p-summary">
     Usefulness is not an objective, fully abstract property: A thing is not useful for everyone or in general but mostly just for specific people in specific contexts. And useful never comes for free.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/ethics/">ethics</a> <a rel="tag" class="tag label label-default p-category" href="/tag/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tag/pragmatism/">pragmatism</a> <a rel="tag" class="tag label label-default p-category" href="/tag/programming/">programming</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/ethics/">ethics</a> <a rel="tag" class="tag label label-default p-category" href="/tags/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tags/pragmatism/">pragmatism</a> <a rel="tag" class="tag label label-default p-category" href="/tags/programming/">programming</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -163,7 +163,7 @@ The tab delimited files available here conform to the DCTAP specification with m
 
 This site presents a transdisciplinary, transmodal collection of texts and creative works from respondents and prompts, questions, observations and insights from a series of workshops, digitized letters, and mossy specimens and artifacts from the Mitten Collection housed at the New York Botanical Garden as an experiment and proof of concept for what digital archives and collections working with knowledges otherwise across the critical humanities, arts and sciences could be.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/archive/">archive</a> <a rel="tag" class="tag label label-default p-category" href="/tag/design/">design</a> <a rel="tag" class="tag label label-default p-category" href="/tag/sustainability/">sustainability</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/archives/">archives</a> <a rel="tag" class="tag label label-default p-category" href="/tags/design/">design</a> <a rel="tag" class="tag label label-default p-category" href="/tags/sustainability/">sustainability</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -176,7 +176,7 @@ This site presents a transdisciplinary, transmodal collection of texts and creat
     We produce the most highly-skilled electrical workers in the industry
 Your projects will only be as good as the tradesperson you have working on it. So don't settle for just using electrical workers - use electrical craftsperson. Only tradespersons trained using the electrical training ALLIANCE curriculum can achieve this gold-standard level of craftsperson.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/education/">education</a> <a rel="tag" class="tag label label-default p-category" href="/tag/electricity/">electricity</a> <a rel="tag" class="tag label label-default p-category" href="/tag/work/">work</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/education/">education</a> <a rel="tag" class="tag label label-default p-category" href="/tags/electricity/">electricity</a> <a rel="tag" class="tag label label-default p-category" href="/tags/work/">work</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -188,7 +188,7 @@ Your projects will only be as good as the tradesperson you have working on it. S
   <section class="p-summary">
     large software projects have never been limited only by how quickly an individual can produce code. They are limited by how well people can coordinate their understanding of the system they are changing.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tag/programming/">programming</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tags/programming/">programming</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -200,7 +200,7 @@ Your projects will only be as good as the tradesperson you have working on it. S
   <section class="p-summary">
     This paper offers a retrospective analysis of the 2016/2017 Data Rescue movement, a grassroots initiative that mobilized librarians, technologists, and activists to preserve at-risk federal environmental data in response to the anticipated threats posed by the Trump administration. Drawing on 16 qualitative interviews conducted in early 2025, this paper examines how participants now reflect on their motivations, methods, and the movement’s legacy. It explores the ethical and affective dimensions of emergency curation, the tensions between institutional and community-driven preservation, and the shifting trust in public data infrastructures. Participants expressed a strong sense of civic duty and emotional urgency, but also critical distance from the movement’s limitations, particularly its overreliance on downloading as a preservation strategy. The findings underscore that trust in infrastructure is relational and partial, shaped by the political context and social practice. This paper argues that digital preservation in politically volatile times must be grounded in care, accountability, and long-term infrastructural thinking, rather than reactive interventions alone.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/archive/">archive</a> <a rel="tag" class="tag label label-default p-category" href="/tag/infrastructure/">infrastructure</a> <a rel="tag" class="tag label label-default p-category" href="/tag/preservation/">preservation</a> <a rel="tag" class="tag label label-default p-category" href="/tag/trust/">trust</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/archives/">archives</a> <a rel="tag" class="tag label label-default p-category" href="/tags/infrastructure/">infrastructure</a> <a rel="tag" class="tag label label-default p-category" href="/tags/preservation/">preservation</a> <a rel="tag" class="tag label label-default p-category" href="/tags/trust/">trust</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -212,7 +212,7 @@ Your projects will only be as good as the tradesperson you have working on it. S
   <section class="p-summary">
     This article examines how volunteers involved in the Data Rescue movement navigated concerns about the stability and stewardship of federal environmental data following the 2016 U.S. presidential election. Drawing on 16 in-depth interviews, the study explores how participants interpreted infrastructural fragility not simply as a technical risk, but as a relational and political concern rooted in shifting institutional commitments. The analysis introduces the concept of anticipatory maintenance to describe how volunteers responded to perceived threats by developing redundant, decentralized strategies for data preservation. Anticipatory maintenance is conceptualized as preventive, future-oriented infrastructural care that translates anticipated disruption into present interventions under uncertainty, in order to explain how volunteers acted as if future loss had already begun, building redundant and decentralized preservation arrangements. Findings highlight the role of particularized trust and systemic distrust in shaping grassroots responses, as well as the limitations encountered in volunteer-driven infrastructures, including challenges related to sustainability, governance, and the affective demands of ongoing maintenance. By foregrounding the interplay of technical, social, and emotional factors, this study offers a critical perspective on data stewardship in times of political uncertainty and underscores the need for collaborative approaches to infrastructural resilience.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/data/">data</a> <a rel="tag" class="tag label label-default p-category" href="/tag/maintenance/">maintenance</a> <a rel="tag" class="tag label label-default p-category" href="/tag/preservation/">preservation</a> <a rel="tag" class="tag label label-default p-category" href="/tag/repair/">repair</a> <a rel="tag" class="tag label label-default p-category" href="/tag/trust/">trust</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/data/">data</a> <a rel="tag" class="tag label label-default p-category" href="/tags/maintenance/">maintenance</a> <a rel="tag" class="tag label label-default p-category" href="/tags/preservation/">preservation</a> <a rel="tag" class="tag label label-default p-category" href="/tags/repair/">repair</a> <a rel="tag" class="tag label label-default p-category" href="/tags/trust/">trust</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -224,5 +224,5 @@ Your projects will only be as good as the tradesperson you have working on it. S
   <section class="p-summary">
     La visualisation en arborescence d’Archifiltre offre une représentation graphique hiérarchique des fichiers et des dossiers, permettant de naviguer facilement dans vos système de fichiers, de comprendre leur structure et de localiser rapidement les éléments à traiter.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/archive/">archive</a> <a rel="tag" class="tag label label-default p-category" href="/tag/vis/">vis</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/archives/">archives</a> <a rel="tag" class="tag label label-default p-category" href="/tags/vis/">vis</a></p>
 </article>

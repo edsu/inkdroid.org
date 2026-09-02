@@ -21,8 +21,8 @@ tags:
 - semweb
 - http
 - libraries
-- oaipmh
-- oaiore
+- oai-pmh
+- oai-ore
 - w3c
 comments: []
 ---

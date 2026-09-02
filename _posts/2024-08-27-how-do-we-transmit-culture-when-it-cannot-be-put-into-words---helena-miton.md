@@ -6,7 +6,7 @@ tags:
   - body
   - culture
   - memory
-  - quote
+  - quotes
   - pinboard
 ---
 

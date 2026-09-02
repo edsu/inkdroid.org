@@ -3,7 +3,7 @@ layout: post
 title: Birds in the morning
 tags:
 - foundsound
-- machine-learning
+- ml
 - translation
 ---
 

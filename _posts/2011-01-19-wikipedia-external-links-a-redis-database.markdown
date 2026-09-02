@@ -17,7 +17,7 @@ date: '2011-01-19 08:47:15 +0000'
 date_gmt: '2011-01-19 15:47:15 +0000'
 tags:
 - wikipedia
-- urls
+- url
 - dns
 - redis
 comments: []

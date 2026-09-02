@@ -19,8 +19,8 @@ tags:
 - metadata
 - rdf
 - libraries
-- oaipmh
-- oaiore
+- oai-pmh
+- oai-ore
 - harvesting
 - web
 - grddl

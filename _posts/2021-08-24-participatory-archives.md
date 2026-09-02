@@ -3,7 +3,7 @@ layout: post
 title: Participatory Archiving
 tags:
 - archives
-- community
+- communities
 - conferences
 ---
 

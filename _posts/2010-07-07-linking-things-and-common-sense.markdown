@@ -18,8 +18,8 @@ date_gmt: '2010-07-07 21:28:50 +0000'
 tags:
 - identifiers
 - linked-data
-- urls
-- httprange14
+- url
+- httprange-14
 comments:
 - id: 82719
   author: Ian Davis

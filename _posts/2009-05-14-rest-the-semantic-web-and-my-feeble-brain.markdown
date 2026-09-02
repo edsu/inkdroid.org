@@ -21,7 +21,7 @@ tags:
 - web
 - rest
 - loc
-- uris
+- uri
 comments:
 - id: 81518
   author: bibwild.wordpress.com/

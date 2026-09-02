@@ -5,7 +5,7 @@ tags:
 - preservation
 - memory
 - buddhism
-- quote
+- quotes
 ---
 
 From Thich Nhat Hanh in [How to Focus](https://www.parallax.org/product/how-to-focus/):

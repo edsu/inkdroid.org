@@ -2,7 +2,7 @@
 layout: post
 title: Sequential
 tags:
-- quote
+- quotes
 ---
 
 > We are sequential beings. Actions cannot be undone; life, as we experience it, cannot be reversed. The irreversibility of human life is the source of our pain and also our wonder.

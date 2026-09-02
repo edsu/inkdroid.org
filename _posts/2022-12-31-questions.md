@@ -3,7 +3,7 @@ layout: post
 title: Questions
 tags:
 - reading
-- quote
+- quotes
 ---
 
 From the end of Jeff Vandermeer's gem of a book [Annihilation](https://www.jeffvandermeer.com/book/annihilation/):

@@ -22,7 +22,7 @@ tags:
 - linked-data
 - graphs
 - unix
-- visualizations
+- vis
 - triples
 - philosophy
 comments: []

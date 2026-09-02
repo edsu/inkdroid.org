@@ -19,7 +19,7 @@ tags:
 - oclc
 - linked-data
 - isbn
-- jsonld
+- json-ld
 comments:
 - id: 86844
   author: sschindehette

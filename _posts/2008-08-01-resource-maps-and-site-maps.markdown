@@ -17,7 +17,7 @@ date: '2008-08-01 06:00:02 +0000'
 date_gmt: '2008-08-01 13:00:02 +0000'
 tags:
 - http
-- oaiore
+- oai-ore
 - harvesting
 - atom
 - google

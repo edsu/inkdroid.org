@@ -4,7 +4,7 @@ title: Frameworks for Thinking
 tags:
 - reading
 - books
-- quote
+- quotes
 - poetry
 ---
 

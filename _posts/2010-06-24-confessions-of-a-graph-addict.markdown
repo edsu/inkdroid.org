@@ -20,9 +20,9 @@ tags:
 - marc
 - cataloging
 - newspapers
-- oaiore
+- oai-ore
 - linked-data
-- urls
+- url
 - presentations
 comments: []
 ---

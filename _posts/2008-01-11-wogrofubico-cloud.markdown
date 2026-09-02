@@ -19,9 +19,9 @@ tags:
 - lc
 - libraries
 - cataloging
-- bibliography
+- bibliographies
 - data
-- cloud
+- clouds
 comments:
 - id: 50826
   author: Peter Murray

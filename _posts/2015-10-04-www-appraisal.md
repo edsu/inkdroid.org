@@ -8,7 +8,7 @@ layout: post
 tags:
 - study
 - inst888
-- bibliography
+- bibliographies
 - appraisal
 - web-archives
 ---

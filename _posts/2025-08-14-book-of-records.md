@@ -2,7 +2,7 @@
 layout: post
 title: The Book of Records
 tags:
-- book
+- books
 - reading
 ---
 

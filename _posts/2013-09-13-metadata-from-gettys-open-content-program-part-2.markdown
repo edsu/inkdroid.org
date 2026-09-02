@@ -20,8 +20,8 @@ tags:
 - rdf
 - images
 - getty
-- photography
-- sculture
+- photographs
+- sculpture
 comments: []
 ---
 

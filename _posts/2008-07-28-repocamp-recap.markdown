@@ -16,7 +16,7 @@ wordpress_url: http://inkdroid.org/journal/?p=210
 date: '2008-07-28 06:29:19 +0000'
 date_gmt: '2008-07-28 13:29:19 +0000'
 tags:
-- oaiore
+- oai-ore
 - web
 - atom
 - semweb

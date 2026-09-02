@@ -2,7 +2,7 @@
 layout: post
 title: 4. “What Gets Counted Counts” · Data Feminism
 tags:
-  - quote
+  - quotes
   - data
   - measurement
   - feminism

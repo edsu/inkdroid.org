@@ -20,7 +20,7 @@ tags:
 - frbr
 - librarything
 - openlibrary
-- visualization
+- vis
 comments:
 - id: 85223
   author: Visualizing FRBR Worksets (inkdroid.org) &laquo; e-what?

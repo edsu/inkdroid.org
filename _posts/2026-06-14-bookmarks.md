@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bookmarks - data, design, vis, book
-tags: ["bookmarks", "baltimore", "book", "comic", "computing", "criticism", "data", "database", "design", "disk", "google", "handwriting", "history", "hypermedia", "iiif", "javascript", "linkeddata", "llm", "map", "ocr", "opensource", "openstreetmap", "preservation", "programming", "reading", "ruby", "rust", "search", "shopping", "silverspring", "tednelson", "tool", "vector", "video", "vis", "webarchive", "wikipedia", "writing"]
+tags: ["bookmarks", "baltimore", "books", "comics", "computing", "criticism", "data", "database", "design", "disks", "google", "handwriting", "history", "hypermedia", "iiif", "javascript", "linked-data", "llm", "maps", "ocr", "opensource", "openstreetmap", "preservation", "programming", "reading", "ruby", "rust", "search", "shopping", "silver-spring", "tednelson", "tools", "vectors", "videos", "vis", "web-archives", "wikipedia", "writing"]
 ---
 
 These are some things I've wandered across on the web this week.
@@ -15,7 +15,7 @@ These are some things I've wandered across on the web this week.
   <section class="p-summary">
     English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we're going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage media. To all of you who love all things retro - we'll be talking about floppy disks a bit.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/data/">data</a> <a rel="tag" class="tag label label-default p-category" href="/tag/disk/">disk</a> <a rel="tag" class="tag label label-default p-category" href="/tag/preservation/">preservation</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/data/">data</a> <a rel="tag" class="tag label label-default p-category" href="/tags/disks/">disks</a> <a rel="tag" class="tag label label-default p-category" href="/tags/preservation/">preservation</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -36,7 +36,7 @@ These are some things I've wandered across on the web this week.
 *Learn Rust Smart Pointers and Interior Mutability by Building Git Commit Graph Viewer
 * Learn Rust Concurrency By Building a Thread Pool
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/programming/">programming</a> <a rel="tag" class="tag label label-default p-category" href="/tag/rust/">rust</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/programming/">programming</a> <a rel="tag" class="tag label label-default p-category" href="/tags/rust/">rust</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -64,7 +64,7 @@ The good news is that we haven’t even added caching to the Rust backend yet, a
   <section class="p-summary">
     An independent bookstore in Baltimore, MD focusing on indie comics and small press.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/baltimore/">baltimore</a> <a rel="tag" class="tag label label-default p-category" href="/tag/book/">book</a> <a rel="tag" class="tag label label-default p-category" href="/tag/shopping/">shopping</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/baltimore/">baltimore</a> <a rel="tag" class="tag label label-default p-category" href="/tags/books/">books</a> <a rel="tag" class="tag label label-default p-category" href="/tags/shopping/">shopping</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -82,7 +82,7 @@ So I rebuilt the pipeline as an agent. Now the model drives the retrieval itself
 
 In this article I will show you exactly how it works, with the real code from my application. One note before we start: since the app serves Italian consultants, all the prompts, tool descriptions and user-facing strings are in Italian in the real codebase. I translated them to English here so you can follow along, but the structure is identical.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tag/ruby/">ruby</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tags/ruby/">ruby</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -94,7 +94,7 @@ In this article I will show you exactly how it works, with the real code from my
   <section class="p-summary">
     Wikimedia and GLAM institutions share a challenge. How do we make cultural heritage collections accessible at scale without sacrificing quality, provenance, sustainability, or community control? The International Image Interoperability Framework, IIIF, is now used by thousands of institutions to serve high-resolution media through open standards. Wikimedia does not currently integrate IIIF in its core architecture. Should it?
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/data/">data</a> <a rel="tag" class="tag label label-default p-category" href="/tag/iiif/">iiif</a> <a rel="tag" class="tag label label-default p-category" href="/tag/linkeddata/">linkeddata</a> <a rel="tag" class="tag label label-default p-category" href="/tag/wikipedia/">wikipedia</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/data/">data</a> <a rel="tag" class="tag label label-default p-category" href="/tags/iiif/">iiif</a> <a rel="tag" class="tag label label-default p-category" href="/tags/linked-data/">linked-data</a> <a rel="tag" class="tag label label-default p-category" href="/tags/wikipedia/">wikipedia</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -106,7 +106,7 @@ In this article I will show you exactly how it works, with the real code from my
   <section class="p-summary">
     An ever-growing list of papers and videos by Theodor Holm Nelson (THN)
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/computing/">computing</a> <a rel="tag" class="tag label label-default p-category" href="/tag/history/">history</a> <a rel="tag" class="tag label label-default p-category" href="/tag/hypermedia/">hypermedia</a> <a rel="tag" class="tag label label-default p-category" href="/tag/tednelson/">tednelson</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/computing/">computing</a> <a rel="tag" class="tag label label-default p-category" href="/tags/history/">history</a> <a rel="tag" class="tag label label-default p-category" href="/tags/hypermedia/">hypermedia</a> <a rel="tag" class="tag label label-default p-category" href="/tags/tednelson/">tednelson</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -118,7 +118,7 @@ In this article I will show you exactly how it works, with the real code from my
   <section class="p-summary">
     Since 2023, Montgomery Planning staff have been working on the Eastern Silver Spring Communities Plan, drafting recommendations on zoning and land use, transportation, housing, parks and the environment, economic development and urban design. The plan is expected to set a vision for the area’s future development for decades to come. The plan is bordered by Colesville Road, University Boulevard and New Hampshire Avenue and will include three future Purple Line stations, the Piney Branch Road, Long Branch and Manchester Place
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/silverspring/">silverspring</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/silver-spring/">silver-spring</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -130,7 +130,7 @@ In this article I will show you exactly how it works, with the real code from my
   <section class="p-summary">
     A good reminder about the ergonomics of reading and presenting information. Remind me of Christopher Alexander's
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/comic/">comic</a> <a rel="tag" class="tag label label-default p-category" href="/tag/design/">design</a> <a rel="tag" class="tag label label-default p-category" href="/tag/reading/">reading</a> <a rel="tag" class="tag label label-default p-category" href="/tag/vis/">vis</a> <a rel="tag" class="tag label label-default p-category" href="/tag/writing/">writing</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/comics/">comics</a> <a rel="tag" class="tag label label-default p-category" href="/tags/design/">design</a> <a rel="tag" class="tag label label-default p-category" href="/tags/reading/">reading</a> <a rel="tag" class="tag label label-default p-category" href="/tags/vis/">vis</a> <a rel="tag" class="tag label label-default p-category" href="/tags/writing/">writing</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -142,7 +142,7 @@ In this article I will show you exactly how it works, with the real code from my
   <section class="p-summary">
     Design is broken. Young and not-so-young designers are becoming increasingly aware of this. Many feel impotent: they were told they had the tools to make the world a better place, but instead the world takes its toll on them. Beyond a haze of hype and bold claims lies a barren land of self-doubt and impostor syndrome. Although these ‘feels’ might be the Millennial norm, design culture reinforces them. In conferences we learn that “with great power comes great responsibility” but, when it comes to real-life clients, all they ask is to “make the logo bigger.”
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/book/">book</a> <a rel="tag" class="tag label label-default p-category" href="/tag/criticism/">criticism</a> <a rel="tag" class="tag label label-default p-category" href="/tag/design/">design</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/books/">books</a> <a rel="tag" class="tag label label-default p-category" href="/tags/criticism/">criticism</a> <a rel="tag" class="tag label label-default p-category" href="/tags/design/">design</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -154,7 +154,7 @@ In this article I will show you exactly how it works, with the real code from my
   <section class="p-summary">
     On our strictest tests, Gemini 3 achieved a CER of 1.67% and a WER of 4.42%. On these tests, any difference between the ground truth and test texts counts as an error. WER is thus almost always a bit more than double the CER because if a single character in a word is wrong, including leading or trailing punctuation like commas, single quotes vs double quotes, etc, the whole word is marked as an error. On this measure, Gemini 3 performs nearly 50% better than the best, fine-tuned specialized models and achieved performance comparable to an early career, professional human typist.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/google/">google</a> <a rel="tag" class="tag label label-default p-category" href="/tag/handwriting/">handwriting</a> <a rel="tag" class="tag label label-default p-category" href="/tag/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tag/ocr/">ocr</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/google/">google</a> <a rel="tag" class="tag label label-default p-category" href="/tags/handwriting/">handwriting</a> <a rel="tag" class="tag label label-default p-category" href="/tags/llm/">llm</a> <a rel="tag" class="tag label label-default p-category" href="/tags/ocr/">ocr</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -178,7 +178,7 @@ In this article I will show you exactly how it works, with the real code from my
 * Change the language settings in the user preferences.
 * FacilMap is privacy-friendly and does not track you
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/map/">map</a> <a rel="tag" class="tag label label-default p-category" href="/tag/opensource/">opensource</a> <a rel="tag" class="tag label label-default p-category" href="/tag/openstreetmap/">openstreetmap</a> <a rel="tag" class="tag label label-default p-category" href="/tag/tool/">tool</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/maps/">maps</a> <a rel="tag" class="tag label label-default p-category" href="/tags/opensource/">opensource</a> <a rel="tag" class="tag label label-default p-category" href="/tags/openstreetmap/">openstreetmap</a> <a rel="tag" class="tag label label-default p-category" href="/tags/tools/">tools</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -190,7 +190,7 @@ In this article I will show you exactly how it works, with the real code from my
   <section class="p-summary">
     SQL makes sense. But when it breaks, you reach for EXPLAIN. Vector search offers no such comfort. Multi-thousand-dimension embeddings, approximate nearest-neighbour indexes, and quantisation tradeoffs make it hard to know what your system is doing, and harder still to diagnose when results quietly degrade. Through interactive visualisations, Simon Hearne shows what embeddings look like in high-dimensional space, what quantisation does to your recall, and how to catch retrieval failures before your agents do. You'll leave with a sharper mental model and a diagnostic toolkit for the production problems hardest to see.
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/database/">database</a> <a rel="tag" class="tag label label-default p-category" href="/tag/search/">search</a> <a rel="tag" class="tag label label-default p-category" href="/tag/vector/">vector</a> <a rel="tag" class="tag label label-default p-category" href="/tag/vis/">vis</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/database/">database</a> <a rel="tag" class="tag label label-default p-category" href="/tags/search/">search</a> <a rel="tag" class="tag label label-default p-category" href="/tags/vectors/">vectors</a> <a rel="tag" class="tag label label-default p-category" href="/tags/vis/">vis</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
@@ -204,5 +204,5 @@ In this article I will show you exactly how it works, with the real code from my
 
 There’s a Screen Capture API to record the screen. You can select a tab, a window, or the entire screen. The feature has limited browser support so I don’t think I’d use it in a big web app, but it’s fine for a one-off screen recording. (I wonder how browser-based video conference apps like Google Meet do screen sharing? Do they use this API, or do they use something with wider support?)
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/javascript/">javascript</a> <a rel="tag" class="tag label label-default p-category" href="/tag/video/">video</a> <a rel="tag" class="tag label label-default p-category" href="/tag/webarchive/">webarchive</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tags/javascript/">javascript</a> <a rel="tag" class="tag label label-default p-category" href="/tags/videos/">videos</a> <a rel="tag" class="tag label label-default p-category" href="/tags/web-archives/">web-archives</a></p>
 </article>

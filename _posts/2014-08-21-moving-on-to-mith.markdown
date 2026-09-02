@@ -17,7 +17,7 @@ date: '2014-08-21 13:08:47 +0000'
 date_gmt: '2014-08-21 20:08:47 +0000'
 tags:
 - life
-- library-of-congress
+- loc
 - mith
 - jobs
 - friends

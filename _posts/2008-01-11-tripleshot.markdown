@@ -19,7 +19,7 @@ tags:
 - lc
 - rdf
 - skos
-- mod
+- mods
 - marc
 - owl
 - simile

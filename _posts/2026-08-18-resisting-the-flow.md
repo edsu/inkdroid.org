@@ -2,7 +2,7 @@
 layout: post
 title: Resisting the flow
 tags:
-- quote
+- quotes
 - music
 ---
 

@@ -18,7 +18,7 @@ date_gmt: '2010-12-22 15:57:04 +0000'
 tags:
 - yahoo
 - curation
-- urls
+- url
 - digital-preservation
 - delicious
 - linkrot

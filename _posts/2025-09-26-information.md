@@ -1,7 +1,7 @@
 ---
 title: Information
 tags:
-- quote
+- quotes
 layout: post
 ---
 
