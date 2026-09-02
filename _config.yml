@@ -14,6 +14,12 @@ tag_page_layout: tag
 tag_page_dir: tags
 tag_permalink_style: pretty
 
+# merged into every generated tag page's front matter by jekyll-tagging.
+# tag pages are directory listings like the homepage, not prose, so they get
+# the wider measure -- otherwise long post titles get ellipsised.
+tag_page_data:
+  wide: true
+
 exclude:
   - .git
   - utils

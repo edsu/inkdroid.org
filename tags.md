@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Tags
+wide: true
 ---
 
 <header class="post-header">
