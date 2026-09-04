@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="875" height="500" viewBox="0 10 875 500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+    </marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b45309"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="875" height="520" fill="#ffffff"/>
+
+  <!-- ===== the duplicated pair ===== -->
+  <line x1="185" y1="228" x2="378" y2="132" stroke="#b45309" stroke-width="1.7" marker-end="url(#ao)"/>
+  <text x="281" y="172" font-size="10.5" font-family="ui-monospace, Menlo, monospace" fill="#b45309" text-anchor="middle">title</text>
+
+  <line x1="186" y1="271" x2="376" y2="363" stroke="#b45309" stroke-width="1.7" marker-end="url(#ao)"/>
+  <text x="281" y="309" font-size="10.5" font-family="ui-monospace, Menlo, monospace" fill="#b45309" text-anchor="middle">title</text>
+
+  <!-- ===== Instance <-> Item ===== -->
+  <line x1="165" y1="280" x2="165" y2="410" stroke="#475569" stroke-width="1.4" marker-end="url(#a)"/>
+  <text x="175" y="352" font-size="10" font-family="ui-monospace, Menlo, monospace" fill="#334155">hasItem</text>
+
+  <line x1="115" y1="410" x2="115" y2="281" stroke="#475569" stroke-width="1.4" marker-end="url(#a)"/>
+  <text x="107" y="352" font-size="10" font-family="ui-monospace, Menlo, monospace" fill="#334155" text-anchor="end">itemOf</text>
+
+  <!-- ===== literals ===== -->
+  <line x1="469" y1="100" x2="608" y2="70" stroke="#475569" stroke-width="1.4" marker-end="url(#a)"/>
+  <text x="538" y="58" font-size="10" font-family="ui-monospace, Menlo, monospace" fill="#334155" text-anchor="middle">mainTitle</text>
+  <line x1="469" y1="120" x2="608" y2="150" stroke="#475569" stroke-width="1.4" marker-end="url(#a)"/>
+  <text x="538" y="164" font-size="10" font-family="ui-monospace, Menlo, monospace" fill="#334155" text-anchor="middle">subtitle</text>
+
+  <line x1="469" y1="370" x2="608" y2="340" stroke="#475569" stroke-width="1.4" marker-end="url(#a)"/>
+  <text x="538" y="328" font-size="10" font-family="ui-monospace, Menlo, monospace" fill="#334155" text-anchor="middle">mainTitle</text>
+  <line x1="469" y1="390" x2="608" y2="420" stroke="#475569" stroke-width="1.4" marker-end="url(#a)"/>
+  <text x="538" y="434" font-size="10" font-family="ui-monospace, Menlo, monospace" fill="#334155" text-anchor="middle">subtitle</text>
+
+  <!-- ===== resource nodes ===== -->
+  <ellipse cx="140" cy="250" rx="62" ry="32" fill="#f1f5f9" stroke="#475569" stroke-width="1.7"/>
+  <text x="140" y="255" font-size="13" fill="#0f172a" text-anchor="middle">Instance</text>
+
+  <ellipse cx="140" cy="440" rx="52" ry="32" fill="#f1f5f9" stroke="#475569" stroke-width="1.7"/>
+  <text x="140" y="445" font-size="13" fill="#0f172a" text-anchor="middle">Item</text>
+
+  <!-- ===== blank nodes ===== -->
+  <ellipse cx="420" cy="110" rx="52" ry="32" fill="#fffbeb" stroke="#b45309" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="420" y="115" font-size="13" fill="#0f172a" text-anchor="middle">Title 1</text>
+
+  <ellipse cx="420" cy="380" rx="52" ry="32" fill="#fffbeb" stroke="#b45309" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="420" y="385" font-size="13" fill="#0f172a" text-anchor="middle">Title 2</text>
+
+  <!-- ===== literal nodes ===== -->
+  <rect x="610" y="48" width="195" height="44" rx="2" fill="#ffffff" stroke="#475569" stroke-width="1.3"/>
+  <text x="707" y="76" font-size="11.5" font-family="ui-monospace, Menlo, monospace" fill="#0f172a" text-anchor="middle">"Kuang Shan tu zhi"</text>
+
+  <rect x="610" y="128" width="195" height="44" rx="2" fill="#ffffff" stroke="#475569" stroke-width="1.3"/>
+  <text x="707" y="156" font-size="11.5" font-family="ui-monospace, Menlo, monospace" fill="#0f172a" text-anchor="middle">"si juan"</text>
+
+  <rect x="610" y="318" width="195" height="44" rx="2" fill="#ffffff" stroke="#475569" stroke-width="1.3"/>
+  <text x="707" y="346" font-size="11.5" font-family="ui-monospace, Menlo, monospace" fill="#0f172a" text-anchor="middle">"Kuang Shan tu zhi"</text>
+
+  <rect x="610" y="398" width="195" height="44" rx="2" fill="#ffffff" stroke="#475569" stroke-width="1.3"/>
+  <text x="707" y="426" font-size="11.5" font-family="ui-monospace, Menlo, monospace" fill="#0f172a" text-anchor="middle">"si juan"</text>
+</svg>
