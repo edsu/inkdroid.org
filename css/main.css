@@ -312,6 +312,24 @@ blockquote {
   border-left: 5px solid #33ff00;
 }
 
+/* replies */
+/* a boxed card rather than the blockquote's green left rule, so an emailed
+   reply reads as someone else's voice and not a pull quote from the post.
+   the background is translucent so it works in light and dark mode */
+.reply {
+  margin: 1.5rem 0;
+  padding: 10px 20px;
+  border: 1px solid #999;
+  border-left: 5px solid #999;
+  border-radius: 4px;
+  background: rgba(127, 127, 127, 0.08);
+}
+
+.reply-meta {
+  font-size: smaller;
+  color: #999;
+}
+
 /* figure */
 figure {
   padding: 10px 10px 5px 10px;

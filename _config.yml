@@ -24,6 +24,13 @@ exclude:
   - .git
   - utils
 
+# replies people send by email, rendered at the bottom of the post they
+# respond to (see _layouts/post.html). output: false because they only
+# appear inside their post, not as pages of their own.
+collections:
+  replies:
+    output: false
+
 keep_files:
   - pagefind
 

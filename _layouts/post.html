@@ -19,6 +19,21 @@ layout: default
     {{ content }}
   </article>
 
+  {% assign replies = site.replies | where: "post", page.url | sort: "date" %}
+  {% if replies.size > 0 %}
+  <section id="replies">
+    <h3>✉️ Replies</h3>
+    {% for reply in replies %}
+    <article class="reply p-comment h-cite">
+      <p class="reply-meta">
+        <a class="p-author h-card u-url" href="{{ reply.author_url }}">{{ reply.author }}</a>
+        wrote on <time class="dt-published" datetime="{{ reply.date | date_to_xmlschema }}">{{ reply.date | date: "%B %-d, %Y" }}</time>:
+      </p>
+      <div class="e-content">{{ reply.content | markdownify }}</div>
+    </article>
+    {% endfor %}
+  </section>
+  {% endif %}
 
   <section id="webmention-container">
     <h3>👋 Webmentions ✍️  🤩</h3>
