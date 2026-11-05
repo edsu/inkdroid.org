@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bookmarks - programming, books, sustainability, coop
-tags: ["bookmarks", "books", "bots", "computing", "coop", "debugging", "delete", "hashing", "html", "images", "language", "linguistics", "llm", "manifestos", "music", "parsing", "philosophy", "php", "programming", "publishing", "quality", "recipes", "repositories", "software", "soups", "spinoza", "sustainability", "web-archives", "web-archiving", "webarchive"]
+tags: ["bookmarks", "books", "bots", "computing", "coop", "debugging", "delete", "hashing", "html", "images", "language", "linguistics", "llm", "manifestos", "music", "parsing", "philosophy", "php", "programming", "publishing", "quality", "recipes", "repositories", "software", "soups", "spinoza", "sustainability", "web-archives"]
 ---
 
 These are some things I've wandered across on the web this week.
@@ -41,7 +41,7 @@ These are some things I've wandered across on the web this week.
 
 That is why quality assurance, or QA, is an important part of web archiving. QA is the process of assessing how well a website was preserved. Most of the websites we collect are archived weekly, monthly, or quarterly, producing a new “capture” or archived version, each time. This gives us opportunities to try different approaches if we weren’t successful the first time. Crawl reports provide clues about what was archived, but the best way to know if a website was properly preserved is to look at the archived site and compare it with the live version. Does it look right? Is everything there? Do the links work? Can you interact with all the features?
   </section>
-  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/hashing/">hashing</a> <a rel="tag" class="tag label label-default p-category" href="/tag/images/">images</a> <a rel="tag" class="tag label label-default p-category" href="/tag/quality/">quality</a> <a rel="tag" class="tag label label-default p-category" href="/tag/web-archives/">web-archives</a> <a rel="tag" class="tag label label-default p-category" href="/tag/web-archiving/">web-archiving</a> <a rel="tag" class="tag label label-default p-category" href="/tag/webarchive/">webarchive</a></p>
+  <p class="tags"><a rel="tag" class="tag label label-default p-category" href="/tag/hashing/">hashing</a> <a rel="tag" class="tag label label-default p-category" href="/tag/images/">images</a> <a rel="tag" class="tag label label-default p-category" href="/tag/quality/">quality</a> <a rel="tag" class="tag label label-default p-category" href="/tag/web-archives/">web-archives</a></p>
 </article>
 <article class="bookmark h-entry">
   <h2>
