@@ -1,26 +1,25 @@
 {
-  "subject": "acct:ink@merveilles.town",
+  "subject": "acct:ed@digipres.club",
   "aliases": [
-    "https://merveilles.town/@ink",
-    "https://merveilles.town/users/ink",
     "https://digipres.club/@ed",
-    "https://digipres.club/users/ed",
+    "https://digipres.club/ap/users/116147665035286310",
+    "https://merveilles.town/@ink",
     "https://orcid.org/0000-0001-7320-8150"
   ],
   "links": [
     {
       "rel": "http://webfinger.net/rel/profile-page",
       "type": "text/html",
-      "href": "https://merveilles.town/@ink"
+      "href": "https://digipres.club/@ed"
     },
     {
-        "rel": "self",
-        "type": "application/activity+json",
-        "href": "https://merveilles.town/users/ink"
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://digipres.club/ap/users/116147665035286310"
     },
     {
       "rel": "http://ostatus.org/schema/1.0/subscribe",
-      "template": "https://merveilles.town/authorize_interaction?uri={uri}"
+      "template": "https://digipres.club/authorize_interaction?uri={uri}"
     },
     {
       "rel": "http://webfinger.net/rel/profile-page",
