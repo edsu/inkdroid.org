@@ -15,6 +15,7 @@ I like [Molly White](https://www.mollywhite.net/)'s [idea](https://www.youtube.c
 * [Democracy Now](https://www.democracynow.org/): A daily podcast of global independent news. It's hard for me to overstate how much this news juggernaut has meant to me.
 * [The Dig](https://thedigradio.com/): a political podcast hosted by Daniel Denvir for Jacobin Magazine. Long form interviews with political writers, thinkers and activists decidedly from the left.
 * [Flickr](https://www.flickr.com/photos/inkdroid): I've used Flickr for years as a place to publish my public and personal photographs.
+* [Inference Cooperative](https://inference.coop): A cooperative of people trying to figure out a way to work together to use and provide access to LLMs.
 * [JoggingHouse](https://jogginghouse.com/): A modular/ambient musician I like who makes great music, and publishes notes about his process.
 * [Kagi](https://kagi.com): a web search application that I like better than Google and DuckDuckGo.
 * [KeepassXC](https://keepassxc.org/): I use this open source software to manage passwords.
